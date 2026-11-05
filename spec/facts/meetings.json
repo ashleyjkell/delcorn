@@ -1,0 +1,86 @@
+[
+  {
+    "id": "mtg_tl3_move_owner",
+    "category": "Meetings",
+    "question": "In the 4 November overdue reviews recovery meeting, who agreed to move five TL3 learners from Kwame Mensah to Chloe Davies, and by when?",
+    "answer": "Laura Chen (Delivery Manager – Leadership & People Academies), by Friday 6 November 2026. Sam Patel offered but Laura kept it. Note: the Copilot recap wrongly lists Sam Patel as the owner.",
+    "sources": ["mtg-dlv-overdue-reviews-recovery"]
+  },
+  {
+    "id": "mtg_daily_tile_due",
+    "category": "Meetings",
+    "question": "When will Kate Simmons have the daily overdue-reviews tile ready in the Power BI caseload report?",
+    "answer": "Monday 9 November 2026 (in time for Rachel Moss's update to David Okafor). The Copilot recap wrongly shows 16 November.",
+    "sources": ["mtg-dlv-overdue-reviews-recovery"]
+  },
+  {
+    "id": "mtg_overdue_target",
+    "category": "Meetings",
+    "question": "What target did delivery leadership set for overdue progress reviews, and how will it be tracked?",
+    "answer": "Under 100 overdue reviews by Friday 27 November 2026 (Red learners booked by Friday 6 November), tracked in a weekly 30-minute check-in on Wednesdays at 14:00 starting 11 November.",
+    "sources": ["mtg-dlv-overdue-reviews-recovery", "mtg-dlv-overdue-weekly"]
+  },
+  {
+    "id": "mtg_exec_coach_split",
+    "category": "Meetings",
+    "question": "How did the Executive Team agree to split the eight additional skills coach posts?",
+    "answer": "Four Data Academy, three Leadership Academy and one AI Academy, to be revisited if the Valemont cohort is signed (Executive Team weekly, 2 November 2026). Interview panels planned for the week of 16 November.",
+    "sources": ["mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtg_fin_variance_split",
+    "category": "Meetings",
+    "question": "How was the year-to-date funding variance at P3 split between timing and structural causes?",
+    "answer": "YTD funding £2,232,790 vs £2,330,000 budget (−£97,210): about £35k timing (Data Academy completion payments slipped to November) and about £62k 'structural or at risk', with the Valemont cohort as the swing factor.",
+    "sources": ["mtg-fin-p3-month-end", "fin-email-funding-variance"]
+  },
+  {
+    "id": "mtg_fin_downside",
+    "category": "Meetings",
+    "question": "What downside scenario did the CFO ask for, who owns it and when is it due?",
+    "answer": "January starts slipping by 20%, added to the full-year forecast (held at budget) by Andrew Clarke, due Monday 9 November 2026, ahead of the Meridian management accounts pack on 10 November.",
+    "sources": ["mtg-fin-p3-month-end"]
+  },
+  {
+    "id": "mtg_pr014_status",
+    "category": "Meetings",
+    "question": "At the 3 November Copilot stand-up, what was still outstanding on PR-014 and what was the deadline?",
+    "answer": "Only the sensitivity label: Salary Benchmarking 2026 was still labelled Confidential and Marcus Bell (owner) had to apply Highly Confidential. Liam O'Connor to sit with him; deadline end of Thursday 5 November 2026, otherwise the file is removed from the site.",
+    "sources": ["mtg-tech-copilot-standup", "tech-email-oversharing-salary-file"]
+  },
+  {
+    "id": "mtg_northgrid_da_cohort",
+    "category": "Meetings",
+    "question": "Why did Northgrid's Data Analyst cohort move, and to when?",
+    "answer": "Northgrid's Network Analytics restructure meant line managers were not confirmed, so the October cohort of 12 Data Analyst starts moved to Monday 11 January 2027 (agreed at the Q1 QBR on 20 October 2026).",
+    "sources": ["mtg-ptn-qbr-northgrid-q1"]
+  },
+  {
+    "id": "mtg_northgrid_ai_meeting",
+    "category": "Meetings",
+    "question": "When and where is the Northgrid AI skills roadmap meeting, and who attends from Delcorn?",
+    "answer": "Thursday 19 November 2026, 14:00–15:30, in person at Northgrid Energy, Coventry (Boardroom, 4th floor). Delcorn: Tom Whitfield (organiser), Helena Marsh, Ravi Sharma and Dr Ben Hartley; Northgrid: Dr Marion Ackroyd and Terence Newton.",
+    "sources": ["mtg-ptn-northgrid-ai-roadmap", "mtg-ptn-qbr-northgrid-q1"]
+  },
+  {
+    "id": "mtg_meridian_review",
+    "category": "Meetings",
+    "question": "When and where is the Meridian Q1 performance review, and is it a board meeting?",
+    "answer": "Thursday 26 November 2026, 10:00–13:00, in the Boardroom at London HQ (The Granary, 3rd floor), with Richard Alder and Helen Price-Whyte of Meridian. It is a shareholder review, not a board meeting — the next board is 21 January 2027.",
+    "sources": ["mtg-exec-meridian-q1-review", "exec-board-minutes-2026-10-15"]
+  },
+  {
+    "id": "mtg_town_hall",
+    "category": "Meetings",
+    "question": "When is the all-staff town hall and what will it cover?",
+    "answer": "Thursday 12 November 2026, 12:30–13:30 on Teams: Q1 headlines, Copilot Wave 1 and Wave 2 (from 23 November), the Birmingham hub opening on 16 November and the eight new coach roles, plus Q&A.",
+    "sources": ["mtg-hub-town-hall-nov26", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtg_mock_deep_dive",
+    "category": "Meetings",
+    "question": "When is the mock inspection deep dive and what will it cover?",
+    "answer": "Tuesday 19 and Wednesday 20 January 2027, led by Hannah Price: deep dives on the Data Academy, Leadership and safeguarding (plan due by 30 November 2026).",
+    "sources": ["mtg-qual-inspection-readiness"]
+  }
+]

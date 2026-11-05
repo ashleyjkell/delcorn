@@ -1,0 +1,4234 @@
+[
+ {
+  "id": "ptn-proposal-valemont-ai",
+  "type": "docx",
+  "filename": "Proposal - Valemont Insurance Group AI Academy Cohort 2027 v1.3",
+  "title": "Proposal — Valemont Insurance Group AI Academy Cohort 2027",
+  "site": "partnerships",
+  "library": "Proposals",
+  "folder": "2026-27/Valemont Insurance Group",
+  "category": "Proposal",
+  "doc_type_label": "Client Proposal",
+  "author": "P024",
+  "owner": "P024",
+  "modified_by": "P024",
+  "approved_by": "P004",
+  "created": "2026-09-29",
+  "modified": "2026-10-14",
+  "version": "1.3",
+  "status": "Submitted",
+  "review_date": "2026-12-14",
+  "classification": "Confidential",
+  "tags": [
+   "proposal",
+   "Valemont",
+   "AI Academy",
+   "levy",
+   "commercial"
+  ],
+  "summary": "Proposal to Valemont Insurance Group for a 24-apprentice AI Academy cohort (AI & Automation Practitioner and Applied Machine Learning) funded from levy, plus commercial Copilot and AI governance add-ons.",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-09-29",
+    "by": "P024",
+    "change": "First draft following discovery workshop on 24 September"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-10-07",
+    "by": "P024",
+    "change": "Pricing and timeline added; reviewed by Dr Ben Hartley (curriculum)"
+   },
+   {
+    "version": "1.2",
+    "date": "2026-10-12",
+    "by": "P004",
+    "change": "Commercial discount and levy transfer option added"
+   },
+   {
+    "version": "1.3",
+    "date": "2026-10-14",
+    "by": "P024",
+    "change": "Final version submitted to Sally Miah"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Executive summary"
+   },
+   {
+    "p": "Valemont Insurance Group has asked Delcorn to help it build an in-house AI and automation capability across claims, underwriting and customer operations. This proposal sets out a **24-apprentice AI Academy cohort** starting in January 2027, funded entirely from Valemont's apprenticeship levy, supported by a programme of **commercial add-ons** that prepare leaders and teams to adopt Microsoft 365 Copilot safely."
+   },
+   {
+    "kv": [
+     [
+      "Client",
+      "Valemont Insurance Group (EMP1002)"
+     ],
+     [
+      "Primary contact",
+      "Sally Miah, Head of People"
+     ],
+     [
+      "Delcorn lead",
+      "{{person:P024}}, {{person:P024.title}}"
+     ],
+     [
+      "Executive sponsor",
+      "{{person:P004}}, {{person:P004.title}}"
+     ],
+     [
+      "Programmes",
+      "AI & Automation Practitioner (Level 4) x 16; Applied Machine Learning (Level 6) x 8"
+     ],
+     [
+      "Levy-funded value",
+      "£496,000"
+     ],
+     [
+      "Commercial add-ons (net)",
+      "£53,865 + VAT"
+     ],
+     [
+      "Proposed first start",
+      "25 January 2027"
+     ],
+     [
+      "Proposal valid until",
+      "14 December 2026"
+     ]
+    ]
+   },
+   {
+    "p": "Valemont is already one of our largest partners, with {{sql:SELECT COUNT(*) FROM learners WHERE employer_id='EMP1002' AND status IN ('Active','Break in learning','Gateway','EPA')}} apprentices currently on programme. This cohort would make Valemont the largest AI Academy client in the financial services sector."
+   },
+   {
+    "h1": "2. Understanding your needs"
+   },
+   {
+    "p": "At the discovery workshop on 24 September 2026, Sally Miah, the Claims Transformation Director and the Group Data Protection Officer described three priorities:"
+   },
+   {
+    "numbered": [
+     "**Automate low-value claims handling work** — around 38% of first-notification-of-loss activity is re-keying and triage that could be automated.",
+     "**Grow a pipeline of in-house machine-learning talent** for pricing and fraud models, reducing reliance on contractors (currently 11 contractor data scientists).",
+     "**Adopt Copilot responsibly** — 2,400 Microsoft 365 Copilot licences are being deployed from February 2027 and the board wants assurance on governance and benefits tracking."
+    ]
+   },
+   {
+    "p": "Valemont also has unspent levy: its annual levy is {{sql:SELECT annual_levy_gbp FROM employers WHERE employer_id='EMP1002'|gbp}} and Sally indicated that funds are expiring each month. Valemont would like to use part of its transfer allowance to support apprenticeships in its approved repair network (see section 6)."
+   },
+   {
+    "h1": "3. Proposed solution"
+   },
+   {
+    "h2": "3.1 AI & Automation Practitioner (Level 4)"
+   },
+   {
+    "p": "For 16 colleagues from claims operations, customer service and finance. Over 15 months apprentices learn to identify automation opportunities, build and govern Power Automate and Copilot Studio solutions, and measure benefits. Each apprentice delivers a workplace automation project assessed at end-point assessment."
+   },
+   {
+    "h2": "3.2 Applied Machine Learning (Level 6)"
+   },
+   {
+    "p": "For 8 analysts from pricing and counter-fraud with strong quantitative backgrounds. A 24-month programme covering supervised learning, model evaluation, MLOps and responsible AI, culminating in a production-quality model project."
+   },
+   {
+    "table": {
+     "sql": "SELECT programme_code AS Code, programme_name AS Programme, level AS Level, duration_months AS \"Duration (months)\", funding_band_gbp AS \"Funding band\", epao AS EPAO FROM programmes WHERE programme_code IN ('AI4','ML6')",
+     "format": {
+      "Funding band": "gbp"
+     },
+     "caption": "Table 1 — Programmes proposed"
+    }
+   },
+   {
+    "h2": "3.3 How we deliver"
+   },
+   {
+    "bullets": [
+     "Fully remote delivery: a named skills coach for every apprentice, monthly 1:1 coaching and 12-weekly tripartite progress reviews with the line manager.",
+     "Live online workshops in small cohorts, recorded for catch-up, using anonymised Valemont scenarios agreed with your Data Protection Officer.",
+     "Off-the-job training planned at an average of 6 hours per week and logged in the Aptiva e-portfolio, with a monthly OTJ report to Valemont.",
+     "Quarterly business reviews with Ravi Sharma covering starts, progress RAG, OTJ, withdrawals risk and learner NPS."
+    ]
+   },
+   {
+    "h1": "4. Timeline"
+   },
+   {
+    "table": {
+     "columns": [
+      "Milestone",
+      "Date",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Proposal submitted",
+       "14 October 2026",
+       "Ravi Sharma"
+      ],
+      [
+       "Valemont decision and Employer Services Agreement signed",
+       "20 November 2026",
+       "Sally Miah"
+      ],
+      [
+       "Levy commitments created in DAS / transfer agreed",
+       "4 December 2026",
+       "Valemont People team"
+      ],
+      [
+       "Candidate briefings and initial assessments",
+       "1–11 December 2026",
+       "Isabel Hart"
+      ],
+      [
+       "Commercial: Executive AI Briefings (x2)",
+       "8 and 15 January 2027",
+       "Dr Ben Hartley"
+      ],
+      [
+       "AI & Automation Practitioner cohort starts",
+       "25 January 2027",
+       "Sam Patel"
+      ],
+      [
+       "Commercial: Copilot Adoption Bootcamps (x3)",
+       "February–March 2027",
+       "Fatima Hussain"
+      ],
+      [
+       "Applied Machine Learning cohort starts",
+       "22 February 2027",
+       "Sam Patel"
+      ],
+      [
+       "First QBR",
+       "April 2027",
+       "Ravi Sharma"
+      ]
+     ],
+     "caption": "Table 2 — Indicative timeline"
+    }
+   },
+   {
+    "h1": "5. Investment"
+   },
+   {
+    "h2": "5.1 Apprenticeships (levy-funded)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Programme",
+      "Apprentices",
+      "Funding band",
+      "Total from levy"
+     ],
+     "rows": [
+      [
+       "AI & Automation Practitioner (L4)",
+       16,
+       "£19,000",
+       "£304,000"
+      ],
+      [
+       "Applied Machine Learning (L6)",
+       8,
+       "£24,000",
+       "£192,000"
+      ],
+      [
+       "Total",
+       24,
+       "",
+       "£496,000"
+      ]
+     ],
+     "caption": "Table 3 — Levy-funded apprenticeships"
+    }
+   },
+   {
+    "p": "Apprenticeship training and end-point assessment are paid in full from Valemont's levy account. There is no additional cost to Valemont for apprenticeship delivery. Payments are drawn monthly by the Department for Education over the life of each apprenticeship, with 20% held back until completion."
+   },
+   {
+    "h2": "5.2 Commercial add-ons"
+   },
+   {
+    "table": {
+     "columns": [
+      "Item",
+      "Quantity",
+      "Unit price",
+      "Total"
+     ],
+     "rows": [
+      [
+       "Executive AI Briefing",
+       2,
+       "£4,200",
+       "£8,400"
+      ],
+      [
+       "Copilot Adoption Bootcamp",
+       3,
+       "£9,500",
+       "£28,500"
+      ],
+      [
+       "Responsible AI & Governance Workshop",
+       1,
+       "£5,800",
+       "£5,800"
+      ],
+      [
+       "AI Readiness Diagnostic",
+       1,
+       "£14,000",
+       "£14,000"
+      ],
+      [
+       "Subtotal",
+       "",
+       "",
+       "£56,700"
+      ],
+      [
+       "Volume discount (5% on orders over £25,000)",
+       "",
+       "",
+       "–£2,835"
+      ],
+      [
+       "Total (excluding VAT)",
+       "",
+       "",
+       "£53,865"
+      ]
+     ],
+     "caption": "Table 4 — Commercial add-ons (2026/27 price list)"
+    }
+   },
+   {
+    "p": "Commercial items are invoiced on delivery, are subject to VAT at the standard rate and are payable within 30 days. Prices are taken from the Delcorn Pricing & Commercial Offer Sheet 2026/27."
+   },
+   {
+    "h1": "6. Funding and levy transfer"
+   },
+   {
+    "p": "Valemont can transfer up to 50% of its annual levy funds to other employers. We propose that Valemont pledges transfer funding for up to **12 Team Leader (Level 3)** apprenticeships across three repair-network partners. Delcorn will manage the transfer request process in the Digital Apprenticeship Service with each receiving employer; the receiving employers pay no co-investment."
+   },
+   {
+    "callout": "Levy funds expire 24 months after they enter the DAS account. Committing this cohort before 31 December 2026 would use funds that would otherwise expire between January and June 2027.",
+    "title": "Why now"
+   },
+   {
+    "h1": "7. Case studies"
+   },
+   {
+    "h3": "Halden Valley NHS Foundation Trust"
+   },
+   {
+    "p": "Since 2019 Delcorn has trained data analysts and team leaders across the Trust. In 2025/26, 26 apprentices completed and 40 end-point assessment results included 11 distinctions. Analysts built a theatre-utilisation dashboard now used daily by surgical directorates."
+   },
+   {
+    "h3": "Kestrel Logistics UK"
+   },
+   {
+    "p": "Kestrel's Data Foundations and Data Analyst apprentices automated depot performance reporting, saving an estimated 1,900 hours of manual reporting a year. 17 of 19 Kestrel leavers in 2025/26 achieved their apprenticeship."
+   },
+   {
+    "h1": "8. Why Delcorn"
+   },
+   {
+    "bullets": [
+     "Ofsted 'Strong standard' in all areas (February 2026).",
+     "Achievement rate of {{fact:achievement_rate_2526}} in 2025/26, well above the national average.",
+     "Learner Net Promoter Score of {{fact:learner_nps_12m}} over the last 12 months.",
+     "One of the first providers to deliver the Level 4 AI & Automation Practitioner programme (August 2026)."
+    ]
+   },
+   {
+    "h1": "9. Next steps"
+   },
+   {
+    "actions": [
+     {
+      "action": "Confirm preferred cohort sizes and start dates",
+      "owner": "P024",
+      "due": "2026-11-06",
+      "status": "Open"
+     },
+     {
+      "action": "Share draft Employer Services Agreement with Valemont procurement",
+      "owner": "P024",
+      "due": "2026-11-10",
+      "status": "Open"
+     },
+     {
+      "action": "Confirm transfer recipients and Team Leader numbers",
+      "owner": "P024",
+      "due": "2026-11-20",
+      "status": "Open"
+     }
+    ]
+   },
+   {
+    "signature": "P024",
+    "date": "2026-10-14"
+   }
+  ]
+ },
+ {
+  "id": "ptn-proposal-marlow-leadership",
+  "type": "docx",
+  "title": "Proposal — Marlow Borough Council Leadership Programme",
+  "site": "partnerships",
+  "library": "Proposals",
+  "folder": "2026-27/Marlow Borough Council",
+  "category": "Proposal",
+  "doc_type_label": "Framework Call-off Proposal",
+  "author": "P025",
+  "owner": "P025",
+  "modified_by": "P025",
+  "approved_by": "P004",
+  "created": "2026-09-08",
+  "modified": "2026-10-02",
+  "version": "2.0",
+  "status": "Submitted",
+  "review_date": "2027-01-15",
+  "classification": "Confidential",
+  "tags": [
+   "proposal",
+   "public sector",
+   "framework",
+   "leadership",
+   "Marlow"
+  ],
+  "summary": "Call-off proposal under the (fictional) Public Sector Skills & Apprenticeships Framework Lot 2 for 30 Team Leader and Operations Manager apprenticeships at Marlow Borough Council.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-09-19",
+    "by": "P025",
+    "change": "Draft response to further competition"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-10-02",
+    "by": "P025",
+    "change": "Clarification responses and social value section added; submitted on the framework portal"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Introduction"
+   },
+   {
+    "p": "Marlow Borough Council issued a further competition on 1 September 2026 under the **Public Sector Skills & Apprenticeships Framework (PSSAF), Lot 2 — Leadership & Management** (framework reference PSSAF-2024-L2, fictional). Delcorn has been an appointed Lot 2 supplier since April 2024. This document is our call-off response."
+   },
+   {
+    "kv": [
+     [
+      "Contracting authority",
+      "Marlow Borough Council (EMP1011)"
+     ],
+     [
+      "Council contact",
+      "Nigel Power, Head of Learning & Development"
+     ],
+     [
+      "Further competition ref.",
+      "MBC-FC-2026-014"
+     ],
+     [
+      "Response deadline",
+      "3 October 2026, 12:00"
+     ],
+     [
+      "Delcorn lead",
+      "{{person:P025}}, {{person:P025.title}}"
+     ],
+     [
+      "Call-off term",
+      "1 January 2027 to 31 December 2029"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Requirement"
+   },
+   {
+    "p": "The Council wishes to develop 30 first-line and middle managers as part of its 'Marlow Manager' workforce strategy, with a focus on managing change, using data in decision-making and supporting staff wellbeing during a service redesign."
+   },
+   {
+    "h1": "3. Proposed programmes"
+   },
+   {
+    "table": {
+     "sql": "SELECT programme_name AS Programme, standard AS Standard, level AS Level, duration_months AS \"Months\", funding_band_gbp AS \"Funding band\" FROM programmes WHERE programme_code IN ('TL3','OM5')",
+     "format": {
+      "Funding band": "gbp"
+     },
+     "caption": "Table 1 — Programmes"
+    }
+   },
+   {
+    "table": {
+     "columns": [
+      "Programme",
+      "Learners",
+      "Funding band",
+      "Levy draw-down"
+     ],
+     "rows": [
+      [
+       "Team Leader / Supervisor (L3)",
+       18,
+       "£4,500",
+       "£81,000"
+      ],
+      [
+       "Operations / Departmental Manager (L5)",
+       12,
+       "£7,000",
+       "£84,000"
+      ],
+      [
+       "Total",
+       30,
+       "",
+       "£165,000"
+      ]
+     ],
+     "caption": "Table 2 — Learner numbers and levy value"
+    }
+   },
+   {
+    "p": "All apprenticeship costs are met from the Council's levy account (annual levy {{sql:SELECT annual_levy_gbp FROM employers WHERE employer_id='EMP1011'|gbp}}). Framework rates are as published in the PSSAF Lot 2 price schedule; no supplier management fee is payable by the Council."
+   },
+   {
+    "h1": "4. Public sector context"
+   },
+   {
+    "bullets": [
+     "Workshops use local-government case studies: budget setting, scrutiny, resident engagement and statutory duties.",
+     "A dedicated module on **using data and AI responsibly in public services**, including the Council's transparency obligations.",
+     "Delivery scheduled around committee cycles and the annual budget round (no workshops in February).",
+     "Coaches with public-sector backgrounds, led by Laura Chen, Delivery Manager – Leadership & People Academies."
+    ]
+   },
+   {
+    "h1": "5. Social value (10% of evaluation)"
+   },
+   {
+    "bullets": [
+     "Two free places on the Delcorn Data Literacy for Managers course for local voluntary-sector partners.",
+     "Twelve hours of careers talks in Marlow secondary schools during 2027.",
+     "Commitment to recruit apprentices' line managers as volunteer mentors for care leavers employed by the Council."
+    ]
+   },
+   {
+    "h1": "6. Compliance with framework terms"
+   },
+   {
+    "p": "Delcorn accepts the PSSAF call-off terms without amendment. Our insurances (professional indemnity £5m, public liability £10m, employer's liability £10m), safeguarding and Prevent policies, and data protection arrangements were assessed at framework award and remain current."
+   },
+   {
+    "h1": "7. Timeline"
+   },
+   {
+    "table": {
+     "columns": [
+      "Activity",
+      "Date"
+     ],
+     "rows": [
+      [
+       "Evaluation and clarification",
+       "October 2026"
+      ],
+      [
+       "Award notification (standstill)",
+       "6 November 2026"
+      ],
+      [
+       "Call-off contract signed",
+       "27 November 2026"
+      ],
+      [
+       "Manager briefings",
+       "January 2027"
+      ],
+      [
+       "Cohort 1 starts (TL3 x 18)",
+       "1 February 2027"
+      ],
+      [
+       "Cohort 2 starts (OM5 x 12)",
+       "1 March 2027"
+      ]
+     ]
+    }
+   },
+   {
+    "signature": "P025",
+    "date": "2026-10-02"
+   }
+  ]
+ },
+ {
+  "id": "ptn-proposal-template",
+  "type": "docx",
+  "title": "Proposal Template — Employer Apprenticeship & Commercial Programmes",
+  "site": "partnerships",
+  "library": "Proposals",
+  "folder": "Templates",
+  "category": "Template",
+  "author": "P004",
+  "owner": "P004",
+  "modified_by": "P026",
+  "approved_by": "P004",
+  "created": "2024-05-13",
+  "modified": "2026-08-18",
+  "version": "3.1",
+  "status": "Approved",
+  "review_date": "2027-08-01",
+  "classification": "Internal",
+  "tags": [
+   "template",
+   "proposal",
+   "sales"
+  ],
+  "summary": "Standard proposal structure with guidance text and placeholders for employer apprenticeship and commercial proposals.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2025-08-04",
+    "by": "P004",
+    "change": "Rebranded; added levy transfer section"
+   },
+   {
+    "version": "3.0",
+    "date": "2026-07-28",
+    "by": "P026",
+    "change": "Added AI Academy and apprenticeship units wording"
+   },
+   {
+    "version": "3.1",
+    "date": "2026-08-18",
+    "by": "P026",
+    "change": "Updated to 2026/27 price list and Ofsted outcome"
+   }
+  ],
+  "blocks": [
+   {
+    "callout": "Replace every [square-bracket] placeholder. Delete guidance text in italics before sending. All proposals over £100,000 total value, or with any discount above 10%, must be approved by the Chief Commercial Officer before submission.",
+    "title": "How to use this template"
+   },
+   {
+    "h1": "1. Executive summary"
+   },
+   {
+    "p": "*Three short paragraphs: the client's challenge in their words, our recommended solution, and the headline value (levy-funded value and commercial total).*"
+   },
+   {
+    "kv": [
+     [
+      "Client",
+      "[Employer name] ([Employer ID from PipelineHQ])"
+     ],
+     [
+      "Primary contact",
+      "[Name, role]"
+     ],
+     [
+      "Delcorn lead",
+      "[Account manager]"
+     ],
+     [
+      "Programmes",
+      "[Programme name (Level) x number of apprentices]"
+     ],
+     [
+      "Levy-funded value",
+      "[£]"
+     ],
+     [
+      "Commercial add-ons",
+      "[£ excluding VAT]"
+     ],
+     [
+      "First start",
+      "[Date]"
+     ],
+     [
+      "Proposal valid until",
+      "[Date — normally 60 days from submission]"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Understanding your needs"
+   },
+   {
+    "p": "*Summarise what you heard at discovery. Use the client's numbers and language. Two to four numbered priorities.*"
+   },
+   {
+    "h1": "3. Proposed solution"
+   },
+   {
+    "p": "*One sub-section per programme: who it is for, what apprentices learn, the workplace project. Insert the programme table from the Programme Specifications library (code, level, duration, funding band, EPAO).*"
+   },
+   {
+    "h2": "3.x How we deliver"
+   },
+   {
+    "bullets": [
+     "Named skills coach, monthly 1:1 coaching, 12-weekly tripartite reviews",
+     "Live online workshops, recorded",
+     "Off-the-job training planned and tracked in Aptiva",
+     "Quarterly business reviews"
+    ]
+   },
+   {
+    "h1": "4. Timeline"
+   },
+   {
+    "p": "*Table of milestones: decision, agreement signature, DAS commitments, initial assessments, cohort start dates, first QBR.*"
+   },
+   {
+    "h1": "5. Investment"
+   },
+   {
+    "h2": "5.1 Apprenticeships"
+   },
+   {
+    "p": "*Levy payers: training and EPA are paid from the levy, up to the funding band. Non-levy employers: state the 5% co-investment per apprentice and that the government pays 95%. Small employers (under 50 staff) pay nothing for apprentices aged 16–21.*"
+   },
+   {
+    "h2": "5.2 Commercial add-ons"
+   },
+   {
+    "p": "*Use prices from the Pricing & Commercial Offer Sheet 2026/27 only. Standard discounts: 5% on orders over £25,000; 10% over £75,000. Commercial work is subject to VAT and payable within 30 days.*"
+   },
+   {
+    "h1": "6. Funding options"
+   },
+   {
+    "p": "*Levy, levy transfer (up to 50% of the giving employer's annual funds), co-investment or commercial. Mention fund expiry if relevant.*"
+   },
+   {
+    "h1": "7. Case studies"
+   },
+   {
+    "p": "*Choose one or two from the Case Studies library in the same sector. Approved quotes only.*"
+   },
+   {
+    "h1": "8. Why Delcorn"
+   },
+   {
+    "bullets": [
+     "Ofsted 'Strong standard' in all areas (February 2026)",
+     "Achievement rate {{fact:achievement_rate_2526}} (2025/26)",
+     "Learner NPS {{fact:learner_nps_12m}}",
+     "[Sector-specific credential]"
+    ]
+   },
+   {
+    "h1": "9. Next steps"
+   },
+   {
+    "p": "*Two to four actions with owners and dates.*"
+   },
+   {
+    "h1": "Appendix — standard terms"
+   },
+   {
+    "p": "Delivery is subject to Delcorn's Employer Services Agreement, the Department for Education apprenticeship funding rules in force at the start date, and the tripartite training plan signed by the employer, apprentice and Delcorn."
+   }
+  ]
+ },
+ {
+  "id": "ptn-account-plan-northgrid",
+  "type": "docx",
+  "title": "Account Plan — Northgrid Energy plc 2026/27",
+  "site": "partnerships",
+  "library": "Account Plans",
+  "folder": "Strategic Accounts",
+  "category": "Plan",
+  "doc_type_label": "Strategic Account Plan",
+  "author": "P024",
+  "owner": "P024",
+  "modified_by": "P038",
+  "approved_by": "P004",
+  "created": "2026-08-12",
+  "modified": "2026-10-28",
+  "version": "1.2",
+  "status": "Approved",
+  "review_date": "2027-02-01",
+  "classification": "Confidential",
+  "tags": [
+   "account plan",
+   "Northgrid",
+   "strategic"
+  ],
+  "summary": "Strategic account plan for Northgrid Energy plc: stakeholders, current learners by programme and status, risks and growth opportunities for 2026/27.",
+  "blocks": [
+   {
+    "h1": "1. Account overview"
+   },
+   {
+    "kv": [
+     [
+      "Employer",
+      "Northgrid Energy plc (EMP1001)"
+     ],
+     [
+      "Sector / region",
+      "Utilities & Energy, Midlands"
+     ],
+     [
+      "Relationship since",
+      "28 October 2018"
+     ],
+     [
+      "Tier",
+      "Strategic"
+     ],
+     [
+      "Account manager",
+      "{{person:P024}}"
+     ],
+     [
+      "Annual levy",
+      "{{sql:SELECT annual_levy_gbp FROM employers WHERE employer_id='EMP1001'|gbp}}"
+     ],
+     [
+      "Apprentices on programme",
+      "{{fact:ptn_northgrid_on_programme}}"
+     ],
+     [
+      "Target learners 2026/27",
+      "{{sql:SELECT target_learners FROM employers WHERE employer_id='EMP1001'}}"
+     ],
+     [
+      "DAS account",
+      "{{sql:SELECT das_account_id FROM employers WHERE employer_id='EMP1001'}}"
+     ]
+    ]
+   },
+   {
+    "p": "Northgrid is Delcorn's largest employer partner by apprentices on programme. The relationship is strong at operational level but we are under-represented in Northgrid's digital and network-operations divisions, where most growth in AI and data roles will come from as the company delivers its RIIO-3 investment plan."
+   },
+   {
+    "h1": "2. Stakeholder map"
+   },
+   {
+    "table": {
+     "columns": [
+      "Name",
+      "Role",
+      "Influence",
+      "Relationship",
+      "Delcorn owner",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Terence Newton",
+       "Head of People",
+       "High",
+       "Strong",
+       "Ravi Sharma",
+       "Day-to-day sponsor; wants fewer withdrawals in field operations"
+      ],
+      [
+       "Dr Marion Ackroyd",
+       "Chief Digital Officer",
+       "High",
+       "Developing",
+       "Tom Whitfield",
+       "Owns AI roadmap; met at the Skills Summit, 24 Sep 2026"
+      ],
+      [
+       "Gareth Lowe",
+       "Apprenticeship Lead",
+       "Medium",
+       "Strong",
+       "Ryan Fletcher",
+       "Manages DAS commitments and approves training plans"
+      ],
+      [
+       "Helen Okoro",
+       "Head of Network Analytics",
+       "Medium",
+       "New",
+       "Ravi Sharma",
+       "Potential sponsor for Data Engineering cohort"
+      ],
+      [
+       "Paul Strickland",
+       "Procurement Category Manager",
+       "Medium",
+       "Neutral",
+       "Ravi Sharma",
+       "Agreement renewal due 31 July 2028"
+      ]
+     ],
+     "caption": "Table 1 — Key stakeholders"
+    }
+   },
+   {
+    "h1": "3. Current learners"
+   },
+   {
+    "table": {
+     "sql": "SELECT p.programme_name AS Programme, l.academy AS Academy, SUM(l.status='Active') AS Active, SUM(l.status='Break in learning') AS BIL, SUM(l.status IN ('Gateway','EPA')) AS \"Gateway/EPA\", SUM(l.status='Completed') AS Completed, SUM(l.status='Withdrawn') AS Withdrawn FROM learners l JOIN programmes p USING(programme_code) WHERE l.employer_id='EMP1001' GROUP BY p.programme_name, l.academy ORDER BY Active DESC",
+     "caption": "Table 2 — Northgrid learners by programme and status (since August 2023)"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT progress_rag AS RAG, COUNT(*) AS Learners FROM learners WHERE employer_id='EMP1001' AND status IN ('Active','Break in learning','Gateway','EPA') AND progress_rag IS NOT NULL GROUP BY 1 ORDER BY 2 DESC",
+     "caption": "Table 3 — Progress RAG, on-programme learners"
+    }
+   },
+   {
+    "h1": "4. Opportunities"
+   },
+   {
+    "table": {
+     "sql": "SELECT opp_id AS Opportunity, programme_name AS Programme, stage AS Stage, est_starts AS Starts, est_value_gbp AS Value, weighted_value_gbp AS Weighted, expected_close AS \"Expected close\" FROM opportunities WHERE employer_id='EMP1001'",
+     "format": {
+      "Value": "gbp",
+      "Weighted": "gbp"
+     },
+     "caption": "Table 4 — Open opportunities in PipelineHQ"
+    }
+   },
+   {
+    "bullets": [
+     "**AI & Automation Practitioner cohort (not yet in PipelineHQ)** — 15–20 starts from network control and customer operations, sponsored by the Chief Digital Officer. Target: proposal by January 2027.",
+     "**Data Engineering cohort** — 8 starts for Helen Okoro's team, April 2027.",
+     "**Commercial**: Copilot Adoption Bootcamps for the 600-person corporate centre ahead of Copilot rollout (est. £57,000).",
+     "**Levy transfer**: Northgrid has asked about supporting supply-chain SMEs; brief Terence on transfer rules."
+    ]
+   },
+   {
+    "h1": "5. Risks"
+   },
+   {
+    "table": {
+     "columns": [
+      "Risk",
+      "Likelihood",
+      "Impact",
+      "Mitigation",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Withdrawals among field-operations Team Leaders (shift patterns limit OTJ)",
+       "High",
+       "Medium",
+       "Agree protected learning time with depot managers; offer evening workshops",
+       "Laura Chen"
+      ],
+      [
+       "Data Analyst apprentices bunched at gateway in Q2 — EPA capacity",
+       "Medium",
+       "Medium",
+       "Book EPAO slots early with Pinnacle",
+       "Sam Patel"
+      ],
+      [
+       "Competitor (national ITP) pitching AI programmes to the CDO",
+       "Medium",
+       "High",
+       "Executive-level meeting with Helena Marsh and Tom Whitfield in November",
+       "Tom Whitfield"
+      ],
+      [
+       "Restructure in HR may move apprenticeship budget ownership",
+       "Low",
+       "High",
+       "Build relationship with procurement and digital directorate",
+       "Ravi Sharma"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Executive meeting with Dr Marion Ackroyd (CDO)",
+      "owner": "P004",
+      "due": "2026-11-26",
+      "status": "Open"
+     },
+     {
+      "action": "Run Q1 2026/27 QBR with Terence Newton",
+      "owner": "P024",
+      "due": "2026-11-18",
+      "status": "Scheduled"
+     },
+     {
+      "action": "Withdrawal deep-dive for field-operations Team Leaders",
+      "owner": "P013",
+      "due": "2026-12-05",
+      "status": "Open"
+     },
+     {
+      "action": "Prepare levy transfer briefing note",
+      "owner": "P038",
+      "due": "2026-11-30",
+      "status": "Open"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ptn-qbr-brightwell-q1",
+  "type": "pptx",
+  "title": "Brightwell Foods — Quarterly Business Review Q1 2026/27",
+  "site": "partnerships",
+  "library": "Account Plans",
+  "folder": "Strategic Accounts/Brightwell Foods",
+  "category": "Presentation",
+  "doc_type_label": "QBR",
+  "author": "P024",
+  "owner": "P024",
+  "modified_by": "P038",
+  "created": "2026-10-30",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Confidential",
+  "tags": [
+   "QBR",
+   "Brightwell",
+   "account management"
+  ],
+  "summary": "Q1 2026/27 (Aug–Oct 2026) quarterly business review for Brightwell Foods Ltd: starts, progress RAG, achievement, learner NPS and next-quarter plan.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Brightwell Foods × Delcorn",
+    "subtitle": "Quarterly Business Review — Q1 2026/27 (August–October 2026)",
+    "meta": "Ravi Sharma, Senior Client Partner · 6 November 2026",
+    "notes": "Attendees: Timothy Young (Talent Development Manager), Brightwell HR BP for manufacturing, Ravi Sharma, Laura Chen, Ryan Fletcher."
+   },
+   {
+    "layout": "kpis",
+    "title": "The quarter at a glance",
+    "kpis": [
+     {
+      "value": "{{sql:SELECT COUNT(*) FROM learners WHERE employer_id='EMP1003' AND status IN ('Active','Break in learning','Gateway','EPA')}}",
+      "label": "Apprentices on programme",
+      "note": "Target 110"
+     },
+     {
+      "value": "{{sql:SELECT COUNT(*) FROM learners WHERE employer_id='EMP1003' AND start_date BETWEEN '2026-08-01' AND '2026-10-31'}}",
+      "label": "New starts in Q1",
+      "note": "DevOps cohort starts January"
+     },
+     {
+      "value": "{{fact:ptn_brightwell_green_pct}}",
+      "label": "Rated Green",
+      "note": "Of on-programme learners"
+     },
+     {
+      "value": "{{sql:SELECT printf('%.1f%%', 100.0*SUM(status='Completed')/COUNT(*)) FROM learners WHERE employer_id='EMP1003' AND status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31'}}",
+      "label": "Achievement rate 2025/26",
+      "note": "Delcorn overall {{fact:achievement_rate_2526}}"
+     },
+     {
+      "value": "{{sql:SELECT printf('%+d', ROUND(100.0*SUM(nps_category='Promoter')/COUNT(*) - 100.0*SUM(nps_category='Detractor')/COUNT(*))) FROM learner_feedback f JOIN learners l USING(learner_id) WHERE l.employer_id='EMP1003' AND f.response_date > '2025-11-05'}}",
+      "label": "Learner NPS (12 months)",
+      "note": "Delcorn overall {{fact:learner_nps_12m}}"
+     }
+    ],
+    "notes": "Headline: strong progress and satisfaction; starts were low in Q1 because the DevOps cohort (OPP9112, 19 starts) was won in July for a January start."
+   },
+   {
+    "layout": "chart",
+    "title": "Starts by quarter",
+    "subtitle": "Brightwell apprentices starting each quarter since August 2025",
+    "chart": {
+     "type": "column",
+     "sql": "SELECT CASE WHEN substr(start_date,6,2) IN ('08','09','10') THEN substr(start_date,1,4)||' Q1 Aug-Oct' WHEN substr(start_date,6,2) IN ('11','12') THEN substr(start_date,1,4)||' Q2 Nov-Jan' WHEN substr(start_date,6,2)='01' THEN (CAST(substr(start_date,1,4) AS INT)-1)||' Q2 Nov-Jan' WHEN substr(start_date,6,2) IN ('02','03','04') THEN (CAST(substr(start_date,1,4) AS INT)-1)||' Q3 Feb-Apr' ELSE (CAST(substr(start_date,1,4) AS INT)-1)||' Q4 May-Jul' END AS Quarter, COUNT(*) AS Starts FROM learners WHERE employer_id='EMP1003' AND start_date >= '2025-08-01' GROUP BY 1 ORDER BY 1",
+     "labels": true
+    },
+    "notes": "Quarter labels use the year in which the academic year starts (2025 = 2025/26)."
+   },
+   {
+    "layout": "chart",
+    "title": "Progress RAG — on-programme learners",
+    "chart": {
+     "type": "doughnut",
+     "sql": "SELECT progress_rag AS RAG, COUNT(*) AS Learners FROM learners WHERE employer_id='EMP1003' AND status IN ('Active','Break in learning','Gateway','EPA') AND progress_rag IS NOT NULL GROUP BY 1 ORDER BY 2 DESC",
+     "labels": true
+    },
+    "notes": "Red learners are concentrated in night-shift manufacturing Team Leaders. Laura Chen has agreed protected learning time with two site managers."
+   },
+   {
+    "layout": "chart",
+    "title": "On-programme learners by programme",
+    "chart": {
+     "type": "bar",
+     "sql": "SELECT p.programme_name AS Programme, COUNT(*) AS Learners FROM learners l JOIN programmes p USING(programme_code) WHERE l.employer_id='EMP1003' AND l.status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1 ORDER BY 2 DESC",
+     "labels": true
+    }
+   },
+   {
+    "layout": "chart",
+    "title": "Achievement by academic year",
+    "subtitle": "Completed vs withdrawn leavers",
+    "chart": {
+     "type": "stacked",
+     "sql": "SELECT CASE WHEN actual_end_date < '2025-08-01' THEN '2024/25' ELSE '2025/26' END AS Year, SUM(status='Completed') AS Achieved, SUM(status='Withdrawn') AS Withdrawn FROM learners WHERE employer_id='EMP1003' AND status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2024-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1",
+     "labels": true
+    }
+   },
+   {
+    "layout": "chart",
+    "title": "Learner NPS by survey stage",
+    "subtitle": "Average score out of 10, last 12 months",
+    "chart": {
+     "type": "column",
+     "sql": "SELECT f.survey AS Survey, ROUND(AVG(f.nps_score),1) AS \"Average score\" FROM learner_feedback f JOIN learners l USING(learner_id) WHERE l.employer_id='EMP1003' AND f.response_date > '2025-11-05' GROUP BY 1",
+     "labels": true
+    }
+   },
+   {
+    "layout": "table",
+    "title": "Learners needing attention",
+    "subtitle": "Red RAG — discuss support with line managers",
+    "table": {
+     "sql": "SELECT l.learner_id AS Learner, p.programme_name AS Programme, l.otj_expected_to_date AS \"OTJ expected\", l.otj_hours_logged AS \"OTJ logged\", l.next_review_due AS \"Next review\" FROM learners l JOIN programmes p USING(programme_code) WHERE l.employer_id='EMP1003' AND l.progress_rag='Red' AND l.status IN ('Active','Break in learning','Gateway','EPA') ORDER BY l.otj_hours_logged - l.otj_expected_to_date LIMIT 12"
+    },
+    "notes": "Use learner IDs only in the meeting deck; names are shared separately with line managers."
+   },
+   {
+    "layout": "two_column",
+    "title": "What went well / what we'll improve",
+    "left": {
+     "heading": "Went well",
+     "bullets": [
+      "DevOps Engineering cohort (19 starts) signed for January",
+      "Two Data Analyst distinctions in September",
+      "Employer attendance at reviews up to 71%"
+     ]
+    },
+    "right": {
+     "heading": "Improve",
+     "bullets": [
+      "Night-shift OTJ — agree protected time",
+      "Signature turnaround on progress reviews (avg 9 days)",
+      "Earlier gateway planning for Operations Managers"
+     ]
+    }
+   },
+   {
+    "layout": "steps",
+    "title": "Plan for Q2 (November–January)",
+    "steps": [
+     {
+      "label": "Nov",
+      "text": "Line manager briefing for DevOps cohort"
+     },
+     {
+      "label": "Dec",
+      "text": "Initial assessments and training plans signed"
+     },
+     {
+      "label": "Jan",
+      "text": "DevOps cohort starts; AI & Automation discovery workshop"
+     },
+     {
+      "label": "Jan",
+      "text": "Next QBR — 4 February 2027"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ptn-pipeline-report-oct26",
+  "type": "xlsx",
+  "title": "Sales Pipeline Report — October 2026",
+  "site": "partnerships",
+  "library": "Account Plans",
+  "folder": "Pipeline Reports",
+  "category": "Report",
+  "author": "P004",
+  "owner": "P004",
+  "modified_by": "P026",
+  "created": "2026-11-02",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Confidential",
+  "tags": [
+   "pipeline",
+   "sales",
+   "PipelineHQ"
+  ],
+  "summary": "Month-end sales pipeline extract from PipelineHQ: pipeline by stage, owner and funding route, open opportunities and expected closes.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Source: PipelineHQ opportunities export taken 2 November 2026 (all opportunities created since 2025).",
+     "Weighted value = estimated value x stage probability. Open pipeline excludes Closed Won and Closed Lost.",
+     "Open weighted pipeline: {{fact:pipeline_weighted_open}}. Stage with the highest weighted value: {{fact:ptn_top_pipeline_stage}} ({{fact:ptn_proposal_weighted}}).",
+     "Stage probabilities: Prospecting 10%, Discovery 25%, Proposal 50%, Negotiation 75%, Closed Won 100%, Closed Lost 0%.",
+     "Owner: Tom Whitfield (CCO). Questions to Lewis Murray."
+    ]
+   },
+   {
+    "name": "By stage",
+    "sql": "SELECT stage AS Stage, COUNT(*) AS Opportunities, SUM(est_starts) AS \"Est. starts\", SUM(est_value_gbp) AS \"Value\", SUM(weighted_value_gbp) AS \"Weighted value\" FROM opportunities GROUP BY stage ORDER BY MAX(probability) DESC",
+    "format": {
+     "Value": "gbp",
+     "Weighted value": "gbp"
+    },
+    "totals": [
+     "Opportunities",
+     "Est. starts",
+     "Value",
+     "Weighted value"
+    ],
+    "chart": {
+     "type": "bar",
+     "cat_col": "Stage",
+     "val_cols": [
+      "Weighted value"
+     ],
+     "title": "Weighted pipeline by stage"
+    }
+   },
+   {
+    "name": "By owner",
+    "sql": "SELECT e.full_name AS Owner, COUNT(*) AS \"Open opps\", SUM(o.est_value_gbp) AS \"Value\", SUM(o.weighted_value_gbp) AS \"Weighted value\" FROM opportunities o JOIN employees e ON e.employee_id=o.owner_id WHERE o.stage NOT LIKE 'Closed%' GROUP BY 1 ORDER BY 4 DESC",
+    "format": {
+     "Value": "gbp",
+     "Weighted value": "gbp"
+    },
+    "totals": [
+     "Open opps",
+     "Value",
+     "Weighted value"
+    ],
+    "chart": {
+     "type": "column",
+     "cat_col": "Owner",
+     "val_cols": [
+      "Weighted value"
+     ],
+     "title": "Weighted pipeline by owner"
+    }
+   },
+   {
+    "name": "By funding route",
+    "sql": "SELECT funding_route AS \"Funding route\", COUNT(*) AS \"Open opps\", SUM(weighted_value_gbp) AS \"Weighted value\" FROM opportunities WHERE stage NOT LIKE 'Closed%' GROUP BY 1 ORDER BY 3 DESC",
+    "format": {
+     "Weighted value": "gbp"
+    }
+   },
+   {
+    "name": "Closing Nov-Jan",
+    "sql": "SELECT opp_id AS \"Opp ID\", employer_name AS Employer, programme_name AS Programme, stage AS Stage, probability AS Probability, est_starts AS Starts, est_value_gbp AS Value, weighted_value_gbp AS Weighted, expected_close AS \"Expected close\" FROM opportunities WHERE stage NOT LIKE 'Closed%' AND expected_close BETWEEN '2026-11-01' AND '2027-01-31' ORDER BY expected_close",
+    "format": {
+     "Probability": "pct",
+     "Value": "gbp",
+     "Weighted": "gbp",
+     "Expected close": "date"
+    }
+   },
+   {
+    "name": "Open opportunities",
+    "sql": "SELECT opp_id AS \"Opp ID\", employer_id AS \"Employer ID\", employer_name AS Employer, owner_id AS Owner, programme_code AS Code, programme_name AS Programme, stage AS Stage, probability AS Probability, est_starts AS Starts, est_value_gbp AS Value, weighted_value_gbp AS Weighted, created_date AS Created, expected_close AS \"Expected close\", source AS Source, funding_route AS \"Funding route\" FROM opportunities WHERE stage NOT LIKE 'Closed%' ORDER BY weighted_value_gbp DESC",
+    "format": {
+     "Probability": "pct",
+     "Value": "gbp",
+     "Weighted": "gbp"
+    }
+   },
+   {
+    "name": "Closed 2026",
+    "sql": "SELECT opp_id AS \"Opp ID\", employer_name AS Employer, programme_name AS Programme, stage AS Stage, est_value_gbp AS Value, expected_close AS \"Close date\", source AS Source FROM opportunities WHERE stage LIKE 'Closed%' AND expected_close >= '2026-01-01' ORDER BY expected_close DESC",
+    "format": {
+     "Value": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "site": "partnerships",
+  "library": "Case Studies",
+  "category": "Case Study",
+  "classification": "Public",
+  "status": "Published",
+  "doc_control": false,
+  "id": "ptn-case-study-halden",
+  "type": "pdf",
+  "title": "Case Study — Halden Valley NHS Foundation Trust",
+  "folder": "Health & Public Sector",
+  "author": "P027",
+  "owner": "P025",
+  "modified_by": "P027",
+  "approved_by": "P004",
+  "created": "2026-03-02",
+  "modified": "2026-09-15",
+  "version": "2.0",
+  "tags": [
+   "case study",
+   "NHS",
+   "data",
+   "healthcare"
+  ],
+  "summary": "How Halden Valley NHS Foundation Trust used data and leadership apprenticeships to improve theatre utilisation and develop ward managers.",
+  "blocks": [
+   {
+    "h1": "Building a data-confident Trust"
+   },
+   {
+    "quote": "Our apprentices have gone from producing monthly spreadsheets to running live dashboards that surgical teams use every morning. That's changed how we plan theatre lists.",
+    "by": "Grace Johnson, Talent Development Manager, Halden Valley NHS Foundation Trust"
+   },
+   {
+    "h2": "The challenge"
+   },
+   {
+    "p": "Halden Valley NHS Foundation Trust employs more than 7,000 staff across two hospitals in the North West. In 2019 the Trust's performance team relied on manual reporting, and ward managers promoted from clinical roles had little formal management training. Levy funds were expiring unused."
+   },
+   {
+    "h2": "The solution"
+   },
+   {
+    "bullets": [
+     "Data Analyst and Data Foundations apprenticeships for the performance, finance and clinical audit teams.",
+     "Team Leader and Operations Manager apprenticeships for newly promoted ward and department managers, timed around rota patterns.",
+     "Workplace projects agreed with the Trust's Chief Information Officer, using anonymised data under the Trust's information governance rules."
+    ]
+   },
+   {
+    "h2": "The results"
+   },
+   {
+    "table": {
+     "sql": "SELECT p.programme_name AS Programme, COUNT(*) AS \"Apprentices since 2023\", SUM(l.status='Completed') AS Achieved, SUM(l.status IN ('Active','Break in learning','Gateway','EPA')) AS \"On programme\" FROM learners l JOIN programmes p USING(programme_code) WHERE l.employer_id='EMP1004' GROUP BY 1 ORDER BY 2 DESC LIMIT 8",
+     "caption": "Halden Valley apprentices by programme"
+    }
+   },
+   {
+    "kv": [
+     [
+      "Achieved in 2025/26",
+      "{{sql:SELECT SUM(status='Completed') FROM learners WHERE employer_id='EMP1004' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31'}} apprentices"
+     ],
+     [
+      "EPA distinctions",
+      "{{sql:SELECT COUNT(*) FROM epa_results r JOIN learners l USING(learner_id) WHERE l.employer_id='EMP1004' AND r.grade='Distinction'}}"
+     ],
+     [
+      "Theatre utilisation",
+      "Up from 76% to 84% after the dashboard went live (Trust figures)"
+     ],
+     [
+      "Hours saved",
+      "c. 2,600 hours of manual reporting per year"
+     ]
+    ]
+   },
+   {
+    "h2": "What's next"
+   },
+   {
+    "p": "The Trust is exploring an AI & Automation Practitioner cohort for its corporate services teams and a Data Engineering pathway for its new shared data platform."
+   },
+   {
+    "callout": "Find out how Delcorn can help your organisation: partnerships@delcorn.co.uk",
+    "title": "Talk to us"
+   }
+  ]
+ },
+ {
+  "site": "partnerships",
+  "library": "Case Studies",
+  "category": "Case Study",
+  "classification": "Public",
+  "status": "Published",
+  "doc_control": false,
+  "id": "ptn-case-study-kestrel",
+  "type": "pdf",
+  "title": "Case Study — Kestrel Logistics UK",
+  "folder": "Private Sector",
+  "author": "P027",
+  "owner": "P026",
+  "modified_by": "P026",
+  "approved_by": "P004",
+  "created": "2025-11-20",
+  "modified": "2026-06-30",
+  "version": "1.1",
+  "tags": [
+   "case study",
+   "logistics",
+   "data",
+   "levy transfer"
+  ],
+  "summary": "How Kestrel Logistics UK used Data Foundations and Data Analyst apprenticeships to automate depot reporting and grow internal data talent.",
+  "blocks": [
+   {
+    "h1": "From depot spreadsheets to real-time insight"
+   },
+   {
+    "quote": "We used to wait until Wednesday to know how last week went. Now our depot managers see it on Monday morning, built by people we trained ourselves.",
+    "by": "Kate Williams, Early Careers Manager, Kestrel Logistics UK"
+   },
+   {
+    "h2": "The challenge"
+   },
+   {
+    "p": "Kestrel operates 34 depots across the Midlands and the North. Performance reporting depended on a small central team and hundreds of spreadsheets. Kestrel wanted to grow data skills from within, particularly among warehouse supervisors and early-careers recruits."
+   },
+   {
+    "h2": "The solution"
+   },
+   {
+    "bullets": [
+     "Data Foundations (Level 3) for supervisors moving into analyst roles; Data Analyst (Level 4) for the central reporting team.",
+     "Evening workshop options for shift workers and coaches who understand logistics.",
+     "Kestrel now also gives part of its levy, by transfer, to two haulage subcontractors."
+    ]
+   },
+   {
+    "h2": "The results"
+   },
+   {
+    "kv": [
+     [
+      "Leavers achieving in 2025/26",
+      "{{sql:SELECT SUM(status='Completed') FROM learners WHERE employer_id='EMP1008' AND status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31'}} of {{sql:SELECT COUNT(*) FROM learners WHERE employer_id='EMP1008' AND status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31'}}"
+     ],
+     [
+      "Apprentices on programme",
+      "{{sql:SELECT COUNT(*) FROM learners WHERE employer_id='EMP1008' AND status IN ('Active','Break in learning','Gateway','EPA')}}"
+     ],
+     [
+      "Merit or distinction at EPA",
+      "{{sql:SELECT printf('%.0f%%', 100.0*SUM(grade IN ('Merit','Distinction'))/COUNT(*)) FROM epa_results r JOIN learners l USING(learner_id) WHERE l.employer_id='EMP1008'}}"
+     ],
+     [
+      "Reporting time saved",
+      "c. 1,900 hours per year (Kestrel estimate)"
+     ]
+    ]
+   },
+   {
+    "table": {
+     "sql": "SELECT r.grade AS Grade, COUNT(*) AS Results FROM epa_results r JOIN learners l USING(learner_id) WHERE l.employer_id='EMP1008' GROUP BY 1 ORDER BY 2 DESC",
+     "caption": "Kestrel end-point assessment grades since 2023"
+    }
+   },
+   {
+    "h2": "What's next"
+   },
+   {
+    "p": "A second Data Foundations cohort is planned for early 2027, funded by levy transfer to one of Kestrel's subcontractors."
+   },
+   {
+    "callout": "Find out how Delcorn can help your organisation: partnerships@delcorn.co.uk",
+    "title": "Talk to us"
+   }
+  ]
+ },
+ {
+  "id": "ptn-pricing-offer-2627",
+  "type": "xlsx",
+  "title": "Pricing & Commercial Offer Sheet 2026/27",
+  "site": "partnerships",
+  "library": "Proposals",
+  "folder": "Pricing",
+  "category": "Price List",
+  "author": "P004",
+  "owner": "P004",
+  "modified_by": "P003",
+  "approved_by": "P003",
+  "created": "2026-07-14",
+  "modified": "2026-08-01",
+  "version": "1.0",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Confidential",
+  "tags": [
+   "pricing",
+   "commercial",
+   "price list",
+   "discounts"
+  ],
+  "summary": "Approved 2026/27 price list for commercial programmes, discount rules and apprenticeship funding bands.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Effective 1 August 2026 to 31 July 2027. Approved by Priya Raman (CFO) and Tom Whitfield (CCO) on 1 August 2026.",
+     "All commercial prices exclude VAT (charged at the standard rate). Payment terms: 30 days from invoice date.",
+     "Discounts: 5% on single orders over £25,000; 10% on orders over £75,000. Strategic-tier accounts may receive up to 10% on any order. Any discount above 10% requires CCO and CFO approval.",
+     "Apprenticeships: no charge to levy payers within the funding band. Non-levy employers pay 5% co-investment. Small employers (<50 staff) pay nothing for apprentices aged 16–21.",
+     "Use the Calculator sheet to build a quote: change the Qty column only."
+    ]
+   },
+   {
+    "name": "Commercial price list",
+    "columns": [
+     "Code",
+     "Product",
+     "Unit",
+     "Price (ex VAT)",
+     "Description"
+    ],
+    "rows": [
+     [
+      "COM-AIRD",
+      "AI Readiness Diagnostic",
+      "Fixed fee per organisation",
+      14000,
+      "Leadership interviews, data & process audit, 20-page readiness report and roadmap workshop"
+     ],
+     [
+      "COM-EAIB",
+      "Executive AI Briefing (half day, live online)",
+      "Per session, up to 15",
+      4200,
+      "Board/ExCo briefing on AI opportunity, risk and governance"
+     ],
+     [
+      "COM-CAB",
+      "Copilot Adoption Bootcamp (2 days, live online)",
+      "Per cohort, up to 20",
+      9500,
+      "Hands-on Microsoft 365 Copilot skills, prompt patterns, champions toolkit"
+     ],
+     [
+      "COM-PPC",
+      "Prompting & Productivity Clinic (90 minutes)",
+      "Per session, up to 30",
+      1250,
+      "Drop-in clinic for teams already licensed for Copilot"
+     ],
+     [
+      "COM-RAIG",
+      "Responsible AI & Governance Workshop (1 day)",
+      "Per cohort, up to 16",
+      5800,
+      "Policy, risk assessment, data protection and acceptable use"
+     ],
+     [
+      "COM-AILM",
+      "AI Leadership Masterclass (3 x half day)",
+      "Per delegate",
+      1450,
+      "For senior leaders; includes 1:1 follow-up coaching call"
+     ],
+     [
+      "COM-DLM",
+      "Data Literacy for Managers (4 modules)",
+      "Per delegate",
+      650,
+      "Self-paced plus two live sessions"
+     ],
+     [
+      "COM-PBID",
+      "Power BI in a Day",
+      "Per cohort, up to 12",
+      3900,
+      "Live online, uses the client's own data where possible"
+     ],
+     [
+      "COM-COACH",
+      "Additional coaching hours",
+      "Per hour",
+      95,
+      "Top-up 1:1 coaching beyond the apprenticeship plan"
+     ],
+     [
+      "COM-BESP",
+      "Bespoke content development",
+      "Per consultant day",
+      950,
+      "Tailored case studies, workshops or e-learning"
+     ]
+    ],
+    "format": {
+     "Price (ex VAT)": "gbp"
+    }
+   },
+   {
+    "name": "Calculator",
+    "columns": [
+     "Code",
+     "Product",
+     "Unit price",
+     "Qty",
+     "Line total"
+    ],
+    "rows": [
+     [
+      "COM-AIRD",
+      "AI Readiness Diagnostic",
+      14000,
+      1,
+      "=C2*D2"
+     ],
+     [
+      "COM-EAIB",
+      "Executive AI Briefing (half day, live online)",
+      4200,
+      2,
+      "=C3*D3"
+     ],
+     [
+      "COM-CAB",
+      "Copilot Adoption Bootcamp (2 days, live online)",
+      9500,
+      3,
+      "=C4*D4"
+     ],
+     [
+      "COM-PPC",
+      "Prompting & Productivity Clinic (90 minutes)",
+      1250,
+      0,
+      "=C5*D5"
+     ],
+     [
+      "COM-RAIG",
+      "Responsible AI & Governance Workshop (1 day)",
+      5800,
+      1,
+      "=C6*D6"
+     ],
+     [
+      "COM-AILM",
+      "AI Leadership Masterclass (3 x half day)",
+      1450,
+      0,
+      "=C7*D7"
+     ],
+     [
+      "COM-DLM",
+      "Data Literacy for Managers (4 modules)",
+      650,
+      0,
+      "=C8*D8"
+     ],
+     [
+      "COM-PBID",
+      "Power BI in a Day",
+      3900,
+      0,
+      "=C9*D9"
+     ],
+     [
+      "COM-COACH",
+      "Additional coaching hours",
+      95,
+      0,
+      "=C10*D10"
+     ],
+     [
+      "COM-BESP",
+      "Bespoke content development",
+      950,
+      0,
+      "=C11*D11"
+     ],
+     [
+      "",
+      "Subtotal",
+      "",
+      "",
+      "=SUM(E2:E11)"
+     ],
+     [
+      "",
+      "Discount rate",
+      "",
+      "",
+      "=IF(E12>75000,0.1,IF(E12>25000,0.05,0))"
+     ],
+     [
+      "",
+      "Total ex VAT",
+      "",
+      "",
+      "=E12*(1-E13)"
+     ],
+     [
+      "",
+      "VAT 20%",
+      "",
+      "",
+      "=E14*0.2"
+     ],
+     [
+      "",
+      "Total inc VAT",
+      "",
+      "",
+      "=E14+E15"
+     ]
+    ],
+    "format": {
+     "Unit price": "gbp",
+     "Line total": "gbp"
+    },
+    "as_table": false
+   },
+   {
+    "name": "Apprenticeship bands",
+    "sql": "SELECT programme_code AS Code, programme_name AS Programme, academy AS Academy, level AS Level, duration_months AS Months, funding_band_gbp AS \"Funding band\", funding_band_gbp*0.05 AS \"Co-investment (5%)\" FROM programmes ORDER BY academy, level",
+    "format": {
+     "Funding band": "gbp",
+     "Co-investment (5%)": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ptn-sales-playbook",
+  "type": "docx",
+  "title": "Sales Playbook 2026/27",
+  "site": "partnerships",
+  "library": "Proposals",
+  "folder": "Sales Enablement",
+  "category": "Guide",
+  "doc_type_label": "Playbook",
+  "author": "P004",
+  "owner": "P004",
+  "modified_by": "P026",
+  "created": "2025-08-11",
+  "modified": "2026-09-01",
+  "version": "2.2",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "sales",
+   "playbook",
+   "qualification",
+   "PipelineHQ"
+  ],
+  "summary": "How Delcorn finds, qualifies, proposes and closes employer partnerships: stages, qualification criteria, objection handling and PipelineHQ hygiene.",
+  "blocks": [
+   {
+    "h1": "1. Who we sell to"
+   },
+   {
+    "p": "Our ideal partner is a UK employer with 250+ staff, a levy pot of £500,000 or more and a strategic need for AI, data, digital or leadership skills. Strategic accounts (Northgrid, Valemont, Brightwell, Halden Valley) are managed by named client partners; new business is led by Lewis Murray."
+   },
+   {
+    "h1": "2. Pipeline stages"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Probability",
+      "Exit criteria",
+      "PipelineHQ fields required"
+     ],
+     "rows": [
+      [
+       "Prospecting",
+       "10%",
+       "Contact identified; levy status known",
+       "Employer, owner, source"
+      ],
+      [
+       "Discovery",
+       "25%",
+       "Discovery call held; need, budget holder and programmes identified",
+       "Programme, est. starts, funding route"
+      ],
+      [
+       "Proposal",
+       "50%",
+       "Written proposal submitted using the approved template",
+       "Proposal document linked, expected close"
+      ],
+      [
+       "Negotiation",
+       "75%",
+       "Verbal yes; agreement and numbers being finalised",
+       "Agreed starts, start dates"
+      ],
+      [
+       "Closed Won",
+       "100%",
+       "Employer Services Agreement signed",
+       "Agreement link, first start date"
+      ],
+      [
+       "Closed Lost",
+       "0%",
+       "Decision against us or no decision in 6 months",
+       "Loss reason"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "3. Qualification — LEVER"
+   },
+   {
+    "bullets": [
+     "**L**evy: is the employer a levy payer? How much is unspent or expiring?",
+     "**E**xecutive sponsor: who owns the skills problem?",
+     "**V**alue: what business outcome will apprentices deliver?",
+     "**E**ligibility: do candidates meet funding rules (role, residency, prior learning)?",
+     "**R**eadiness: can line managers support off-the-job training?"
+    ]
+   },
+   {
+    "h1": "4. Proposals"
+   },
+   {
+    "bullets": [
+     "Always start from the Proposal Template in the Proposals library.",
+     "Prices only from the Pricing & Commercial Offer Sheet 2026/27.",
+     "CCO approval is required for proposals over £100,000 total value or with discounts above 10%.",
+     "Store final proposals in Proposals/<academic year>/<Employer>."
+    ]
+   },
+   {
+    "h1": "5. Handling common objections"
+   },
+   {
+    "table": {
+     "columns": [
+      "Objection",
+      "Response"
+     ],
+     "rows": [
+      [
+       "'Our managers can't release staff for 20% off-the-job.'",
+       "OTJ is now planned as a number of hours, not a percentage. We show how workplace projects count, and agree a realistic weekly plan."
+      ],
+      [
+       "'We already use another provider.'",
+       "Offer a pilot cohort in an academy they don't cover (often AI) and a QBR comparison after six months."
+      ],
+      [
+       "'Level 7 is no longer funded for our managers.'",
+       "Recommend Operations Manager (L5) or Chartered Manager (L6), plus the commercial AI Leadership Masterclass for senior leaders."
+      ],
+      [
+       "'We're not a levy payer.'",
+       "Explain 5% co-investment (e.g. £225 for a Team Leader apprentice) and levy transfer from larger employers."
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. PipelineHQ hygiene"
+   },
+   {
+    "numbered": [
+     "Update stage and expected close every Friday.",
+     "Opportunities with an expected close in the past must be moved or closed by month-end.",
+     "Record the funding route accurately — Finance uses it to forecast co-investment invoices.",
+     "Month-end pipeline report is produced on the second working day."
+    ]
+   },
+   {
+    "h1": "7. Handover to delivery"
+   },
+   {
+    "p": "Once a deal is Closed Won, raise an onboarding request to Isabel Hart (Enrolment) and Ryan Fletcher (Employer Engagement) at least four weeks before the first start date."
+   }
+  ]
+ },
+ {
+  "id": "ptn-esa-template",
+  "type": "docx",
+  "title": "Employer Services Agreement — Template",
+  "site": "partnerships",
+  "library": "Contracts & Agreements",
+  "folder": "Templates",
+  "category": "Contract",
+  "doc_type_label": "Contract Template",
+  "author": "P004",
+  "owner": "P004",
+  "modified_by": "P003",
+  "approved_by": "P001",
+  "created": "2023-07-03",
+  "modified": "2026-07-21",
+  "version": "4.0",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Confidential",
+  "tags": [
+   "contract",
+   "template",
+   "employer agreement"
+  ],
+  "summary": "Standard Employer Services Agreement between Delcorn Learning Ltd and an employer for apprenticeship and commercial training services.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2024-07-15",
+    "by": "P003",
+    "change": "Updated for 2024/25 funding rules"
+   },
+   {
+    "version": "4.0",
+    "date": "2026-07-21",
+    "by": "P003",
+    "change": "Added apprenticeship units, AI/data processing schedule and 30-day payment terms"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "Parties"
+   },
+   {
+    "kv": [
+     [
+      "Provider",
+      "Delcorn Learning Ltd (company number {{company.company_number}}), {{company.hq.line1}}, {{company.hq.city}} {{company.hq.postcode}}"
+     ],
+     [
+      "Employer",
+      "[Employer legal name, company number, registered address]"
+     ],
+     [
+      "Commencement date",
+      "[Date]"
+     ],
+     [
+      "Term",
+      "[Three] years from the commencement date"
+     ]
+    ]
+   },
+   {
+    "h1": "1. Definitions"
+   },
+   {
+    "p": "'Apprenticeship Funding Rules' means the Department for Education rules in force from time to time. 'Training Plan' means the tripartite training plan for each apprentice. 'Services' means the services in Schedule 1."
+   },
+   {
+    "h1": "2. Services"
+   },
+   {
+    "p": "Delcorn will deliver the apprenticeship programmes and commercial services set out in Schedule 1 in accordance with the Apprenticeship Funding Rules and each Training Plan."
+   },
+   {
+    "h1": "3. Employer obligations"
+   },
+   {
+    "bullets": [
+     "Employ each apprentice for the full duration of their apprenticeship with a contract of employment and a role that allows them to achieve the standard.",
+     "Allow off-the-job training during paid working hours in line with the Training Plan.",
+     "Attend progress reviews (normally every 12 weeks) and sign reviews within 10 working days.",
+     "Notify Delcorn within 5 working days of any change in an apprentice's employment.",
+     "Maintain sufficient levy funds or pay the co-investment due."
+    ]
+   },
+   {
+    "h1": "4. Charges and payment"
+   },
+   {
+    "p": "Levy-funded training is paid through the Digital Apprenticeship Service. Co-investment and commercial charges are invoiced by Delcorn and are payable within **30 days** of the invoice date. Late payments may attract interest under the Late Payment of Commercial Debts (Interest) Act 1998."
+   },
+   {
+    "h1": "5. Data protection"
+   },
+   {
+    "p": "Each party is an independent controller of apprentice personal data for the purposes of the apprenticeship. Schedule 3 sets out data sharing, including use of the Aptiva e-portfolio."
+   },
+   {
+    "h1": "6. Safeguarding and Prevent"
+   },
+   {
+    "p": "The Employer will co-operate with Delcorn's Designated Safeguarding Lead and report any safeguarding concern about an apprentice without delay."
+   },
+   {
+    "h1": "7. Termination"
+   },
+   {
+    "p": "Either party may terminate on 90 days' written notice. Apprentices already on programme will be supported to completion or transferred in line with the Apprenticeship Funding Rules."
+   },
+   {
+    "h1": "8. Liability"
+   },
+   {
+    "p": "Each party's total liability is capped at the greater of £1,000,000 or the charges paid in the 12 months before the claim, except for death or personal injury caused by negligence, fraud, or breach of data protection obligations."
+   },
+   {
+    "h1": "Schedule 1 — Services and programmes"
+   },
+   {
+    "table": {
+     "columns": [
+      "Programme / service",
+      "Level",
+      "Planned apprentices / units",
+      "Funding route"
+     ],
+     "rows": [
+      [
+       "[Programme]",
+       "[Level]",
+       "[Number]",
+       "[Levy / transfer / co-investment / commercial]"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "Schedule 2 — Service levels"
+   },
+   {
+    "table": {
+     "columns": [
+      "Measure",
+      "Standard"
+     ],
+     "rows": [
+      [
+       "Progress reviews held on time",
+       "≥ 90%"
+      ],
+      [
+       "Response to employer enquiries",
+       "2 working days"
+      ],
+      [
+       "Quarterly business review",
+       "Each quarter for Strategic and Key accounts"
+      ],
+      [
+       "Monthly OTJ and RAG report",
+       "By the 10th working day"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "Schedule 3 — Data sharing"
+   },
+   {
+    "p": "Data shared: apprentice contact details, employment details, attendance, OTJ hours, review records, EPA outcomes. Retention: six years after the end of the funding year in which the apprenticeship ends."
+   },
+   {
+    "h1": "Signatures"
+   },
+   {
+    "table": {
+     "columns": [
+      "",
+      "For Delcorn Learning Ltd",
+      "For the Employer"
+     ],
+     "rows": [
+      [
+       "Name",
+       "",
+       ""
+      ],
+      [
+       "Title",
+       "",
+       ""
+      ],
+      [
+       "Signature",
+       "",
+       ""
+      ],
+      [
+       "Date",
+       "",
+       ""
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "ptn-esa-series",
+  "type": "series",
+  "site": "partnerships",
+  "library": "Contracts & Agreements",
+  "folder": "Signed Agreements",
+  "sql": "SELECT e.*, (SELECT full_name FROM employees WHERE employee_id=e.account_manager_id) AS am_name, (SELECT job_title FROM employees WHERE employee_id=e.account_manager_id) AS am_title, (SELECT COUNT(*) FROM learners l WHERE l.employer_id=e.employer_id AND l.status IN ('Active','Break in learning','Gateway','EPA')) AS on_prog, 'ESA-' || substr(e.employer_id,4) || '-2025' AS agreement_ref FROM employers e WHERE e.tier='Strategic' OR e.employer_id='EMP1008' ORDER BY e.employer_id",
+  "filename": "Employer Services Agreement - {{row.employer_name}} (signed)",
+  "author": "P004",
+  "owner": "P004",
+  "classification": "Confidential",
+  "category": "Contract",
+  "doc_type_label": "Employer Services Agreement",
+  "tags": [
+   "contract",
+   "employer agreement",
+   "signed"
+  ],
+  "template": {
+   "type": "pdf",
+   "title": "Employer Services Agreement — {{row.employer_name}}",
+   "created": "2025-07-14",
+   "modified": "2025-07-31",
+   "version": "Signed",
+   "status": "Executed",
+   "summary": "Signed Employer Services Agreement between Delcorn Learning Ltd and {{row.employer_name}} for 1 August 2025 to 31 July 2028.",
+   "approved_by": "P001",
+   "doc_control": true,
+   "blocks": [
+    {
+     "kv": [
+      [
+       "Agreement reference",
+       "{{row.agreement_ref}}"
+      ],
+      [
+       "Provider",
+       "Delcorn Learning Ltd (company number {{company.company_number}})"
+      ],
+      [
+       "Employer",
+       "{{row.employer_name}} ({{row.employer_id}})"
+      ],
+      [
+       "Employer sector / region",
+       "{{row.sector}}, {{row.region}}"
+      ],
+      [
+       "Relationship commenced",
+       "{{row.relationship_start|date}}"
+      ],
+      [
+       "This agreement",
+       "Renewal — 1 August 2025 to 31 July 2028 (three years)"
+      ],
+      [
+       "Supersedes",
+       "All previous agreements between the parties"
+      ],
+      [
+       "Account tier",
+       "{{row.tier}}"
+      ]
+     ]
+    },
+    {
+     "h1": "1. Background"
+    },
+    {
+     "p": "Delcorn has delivered apprenticeship training to {{row.employer_name}} since {{row.relationship_start|date}}. This agreement renews the relationship on Delcorn's standard terms (Employer Services Agreement v4.0) with the schedules below."
+    },
+    {
+     "h1": "2. Key terms"
+    },
+    {
+     "bullets": [
+      "Services delivered in accordance with the Department for Education apprenticeship funding rules and each tripartite training plan.",
+      "Co-investment and commercial invoices payable within 30 days of invoice date.",
+      "Either party may terminate on 90 days' written notice; apprentices on programme are supported to completion.",
+      "Liability cap: the greater of £1,000,000 or charges paid in the previous 12 months.",
+      "Quarterly business reviews led by the Delcorn account manager."
+     ]
+    },
+    {
+     "h1": "Schedule 1 — Programmes"
+    },
+    {
+     "table": {
+      "sql": "SELECT p.programme_name AS Programme, p.level AS Level, COUNT(*) AS \"Apprentices on programme\" FROM learners l JOIN programmes p USING(programme_code) WHERE l.employer_id='{{row.employer_id}}' AND l.status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1,2 ORDER BY 3 DESC",
+      "caption": "Programmes in scope (apprentices on programme as at 5 November 2026)"
+     }
+    },
+    {
+     "p": "Planned annual learner target: {{row.target_learners}}. Funding route: levy (DAS account {{row.das_account_id}})."
+    },
+    {
+     "h1": "Schedule 2 — Service levels"
+    },
+    {
+     "table": {
+      "columns": [
+       "Measure",
+       "Standard"
+      ],
+      "rows": [
+       [
+        "Progress reviews held on time",
+        "≥ 90%"
+       ],
+       [
+        "Response to enquiries",
+        "2 working days"
+       ],
+       [
+        "Monthly OTJ and RAG report",
+        "By the 10th working day"
+       ],
+       [
+        "Quarterly business review",
+        "Every quarter"
+       ]
+      ]
+     }
+    },
+    {
+     "h1": "Schedule 3 — Contacts"
+    },
+    {
+     "table": {
+      "columns": [
+       "Role",
+       "Employer",
+       "Delcorn"
+      ],
+      "rows": [
+       [
+        "Relationship lead",
+        "{{row.primary_contact}}, {{row.contact_role}} ({{row.contact_email}})",
+        "{{row.am_name}}, {{row.am_title}}"
+       ],
+       [
+        "Safeguarding",
+        "{{row.primary_contact}}",
+        "Grace Adeyemi, Designated Safeguarding Lead"
+       ],
+       [
+        "Invoices",
+        "Accounts payable, {{row.employer_name}}",
+        "Peter Walsh, Management Accountant"
+       ]
+      ]
+     }
+    },
+    {
+     "h1": "Signatures"
+    },
+    {
+     "signature": "P001",
+     "date": "2025-07-31"
+    },
+    {
+     "table": {
+      "columns": [
+       "For the Employer",
+       ""
+      ],
+      "rows": [
+       [
+        "Name",
+        "{{row.primary_contact}}"
+       ],
+       [
+        "Title",
+        "{{row.contact_role}}"
+       ],
+       [
+        "Signed",
+        "Signed electronically via DocuSign (fictional record)"
+       ],
+       [
+        "Date",
+        "29 July 2025"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "fin-mgmt-accounts-oct26",
+  "type": "xlsx",
+  "filename": "Management Accounts - October 2026 (FY2026-27 P3)",
+  "title": "Management Accounts — October 2026 (FY2026/27 P3)",
+  "site": "finance",
+  "library": "Management Accounts",
+  "folder": "FY2026-27/P03 October",
+  "category": "Report",
+  "doc_type_label": "Management Accounts",
+  "author": "P028",
+  "owner": "P003",
+  "modified_by": "P028",
+  "approved_by": "P003",
+  "created": "2026-11-03",
+  "modified": "2026-11-04",
+  "version": "1.1",
+  "status": "Under review",
+  "classification": "Highly Confidential",
+  "tags": [
+   "management accounts",
+   "P&L",
+   "variance",
+   "funding",
+   "month-end"
+  ],
+  "summary": "FY2026/27 period 3 (October 2026) management accounts: year-to-date P&L against budget, funding by academy and variance commentary.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Delcorn Learning Ltd — management accounts for period 3 (August–October 2026) of FY2026/27 (year ending 31 July 2027).",
+     "Prepared by Andrew Clarke (Finance Manager); funding figures by Nicole Brooks (Funding & MI Analyst) from the R03 ILR position; reviewed by Priya Raman (CFO).",
+     "Status: draft for CFO review — not yet submitted to Meridian Education Group (deadline 7th working day, 10 November 2026).",
+     "Sheets: P&L YTD (budget vs actual, formulas), Funding by academy (from monthly_funding), Funding by month, Variance commentary.",
+     "Sign convention: positive variance = favourable. Revenue variance = actual − budget; cost variance = budget − actual.",
+     "Apprenticeship funding YTD: {{fact:fy27_ytd_funding}}. October funding: {{fact:fin_oct_funding}}. Full-year budgeted EBITDA: {{fact:fin_budget_ebitda}}."
+    ]
+   },
+   {
+    "name": "P&L YTD",
+    "columns": [
+     "Line",
+     "Budget YTD",
+     "Actual YTD",
+     "Variance",
+     "Variance %",
+     "Full-year budget"
+    ],
+    "rows": [
+     [
+      "Apprenticeship funding",
+      2330000,
+      2232790,
+      "=C2-B2",
+      "=IF(B2=0,0,D2/B2)",
+      9650000
+     ],
+     [
+      "Commercial programmes",
+      560000,
+      612400,
+      "=C3-B3",
+      "=IF(B3=0,0,D3/B3)",
+      2450000
+     ],
+     [
+      "Total revenue",
+      "=SUM(B2:B3)",
+      "=SUM(C2:C3)",
+      "=C4-B4",
+      "=D4/B4",
+      "=SUM(F2:F3)"
+     ],
+     [
+      "Staff costs (salaries, NI, pension)",
+      2012500,
+      2048300,
+      "=B5-C5",
+      "=IF(B5=0,0,D5/B5)",
+      8050000
+     ],
+     [
+      "End-point assessment fees",
+      112500,
+      98200,
+      "=B6-C6",
+      "=IF(B6=0,0,D6/B6)",
+      450000
+     ],
+     [
+      "Degree apprenticeship partner (University of Wessex)",
+      102500,
+      102500,
+      "=B7-C7",
+      "=IF(B7=0,0,D7/B7)",
+      410000
+     ],
+     [
+      "Technology & licences",
+      180000,
+      191600,
+      "=B8-C8",
+      "=IF(B8=0,0,D8/B8)",
+      720000
+     ],
+     [
+      "Property & co-working",
+      72500,
+      70100,
+      "=B9-C9",
+      "=IF(B9=0,0,D9/B9)",
+      290000
+     ],
+     [
+      "Marketing & events",
+      57500,
+      68900,
+      "=B10-C10",
+      "=IF(B10=0,0,D10/B10)",
+      230000
+     ],
+     [
+      "Professional fees (audit, legal, advisory)",
+      40000,
+      46300,
+      "=B11-C11",
+      "=IF(B11=0,0,D11/B11)",
+      160000
+     ],
+     [
+      "Learner support & ALS",
+      22500,
+      19800,
+      "=B12-C12",
+      "=IF(B12=0,0,D12/B12)",
+      90000
+     ],
+     [
+      "Other overheads",
+      47500,
+      44700,
+      "=B13-C13",
+      "=IF(B13=0,0,D13/B13)",
+      190000
+     ],
+     [
+      "Meridian group management charge",
+      45000,
+      45000,
+      "=B14-C14",
+      "=IF(B14=0,0,D14/B14)",
+      180000
+     ],
+     [
+      "Total costs",
+      "=SUM(B5:B14)",
+      "=SUM(C5:C14)",
+      "=B15-C15",
+      "=D15/B15",
+      "=SUM(F5:F14)"
+     ],
+     [
+      "EBITDA",
+      "=B4-B15",
+      "=C4-C15",
+      "=C16-B16",
+      "=D16/B16",
+      "=F4-F15"
+     ],
+     [
+      "EBITDA margin",
+      "=B16/B4",
+      "=C16/C4",
+      "",
+      "",
+      "=F16/F4"
+     ]
+    ],
+    "format": {
+     "Budget YTD": "gbp",
+     "Actual YTD": "gbp",
+     "Variance": "gbp",
+     "Variance %": "pct",
+     "Full-year budget": "gbp"
+    }
+   },
+   {
+    "name": "Funding by academy",
+    "sql": "SELECT academy AS Academy, SUM(new_starts) AS \"Starts YTD\", SUM(on_programme_funding_gbp) AS \"On-programme\", SUM(completion_funding_gbp) AS Completion, SUM(on_programme_funding_gbp+completion_funding_gbp) AS \"Actual YTD\", CASE academy WHEN 'AI Academy' THEN 712000 WHEN 'Data Academy' THEN 930000 WHEN 'Digital Academy' THEN 278000 WHEN 'Leadership Academy' THEN 343000 WHEN 'People Academy' THEN 67000 END AS \"Budget YTD\", SUM(on_programme_funding_gbp+completion_funding_gbp) - CASE academy WHEN 'AI Academy' THEN 712000 WHEN 'Data Academy' THEN 930000 WHEN 'Digital Academy' THEN 278000 WHEN 'Leadership Academy' THEN 343000 WHEN 'People Academy' THEN 67000 END AS Variance FROM monthly_funding WHERE academic_year='2026/27' GROUP BY academy ORDER BY academy",
+    "format": {
+     "On-programme": "gbp",
+     "Completion": "gbp",
+     "Actual YTD": "gbp",
+     "Budget YTD": "gbp",
+     "Variance": "gbp"
+    },
+    "totals": [
+     "Starts YTD",
+     "On-programme",
+     "Completion",
+     "Actual YTD",
+     "Budget YTD",
+     "Variance"
+    ],
+    "chart": {
+     "type": "bar",
+     "cat_col": "Academy",
+     "val_cols": [
+      "Budget YTD",
+      "Actual YTD"
+     ],
+     "title": "Funding YTD: budget vs actual"
+    }
+   },
+   {
+    "name": "Funding by month",
+    "sql": "SELECT month AS Month, academy AS Academy, learners_on_programme AS \"Learners on programme\", new_starts AS \"New starts\", on_programme_funding_gbp AS \"On-programme funding\", completion_funding_gbp AS \"Completion funding\" FROM monthly_funding WHERE month >= '2025-08' ORDER BY month, academy",
+    "format": {
+     "On-programme funding": "gbp",
+     "Completion funding": "gbp"
+    }
+   },
+   {
+    "name": "Variance commentary",
+    "columns": [
+     "Line",
+     "Variance YTD",
+     "RAG",
+     "Commentary",
+     "Owner"
+    ],
+    "rows": [
+     [
+      "Apprenticeship funding",
+      -97210,
+      "Red",
+      "Data Academy £80.8k behind budget: Northgrid DA4 cohort deferred to January and completion funding timing (11 Data completions slipped to November EPA dates). Leadership £31.8k ahead.",
+      "Nicole Brooks"
+     ],
+     [
+      "Commercial programmes",
+      52400,
+      "Green",
+      "Two Copilot Adoption Bootcamps for Bluewater Bank and an AI Readiness Diagnostic delivered earlier than phased.",
+      "Tom Whitfield"
+     ],
+     [
+      "Staff costs",
+      -35800,
+      "Amber",
+      "Agency coach cover for three vacancies in the Data Academy (£29k) and October pay award back-pay.",
+      "Andrew Clarke"
+     ],
+     [
+      "End-point assessment fees",
+      14300,
+      "Green",
+      "Timing — fewer gateways than planned; expected to reverse in Q2.",
+      "Andrew Clarke"
+     ],
+     [
+      "Technology & licences",
+      -11600,
+      "Amber",
+      "Additional 40 Microsoft 365 Copilot licences purchased in September ahead of all-staff rollout.",
+      "Aisha Karim"
+     ],
+     [
+      "Marketing & events",
+      -11400,
+      "Amber",
+      "Skills Summit (24 September) costs above estimate; Brightside Events invoice includes AV upgrade.",
+      "Jess Morgan"
+     ],
+     [
+      "Professional fees",
+      -6300,
+      "Amber",
+      "Funding audit preparation support (external adviser).",
+      "Priya Raman"
+     ],
+     [
+      "EBITDA",
+      -87710,
+      "Red",
+      "EBITDA YTD below budget, driven by funding shortfall. Full-year forecast held at budget pending R04 and January starts.",
+      "Priya Raman"
+     ]
+    ],
+    "format": {
+     "Variance YTD": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "id": "fin-mgmt-commentary-oct26",
+  "type": "docx",
+  "title": "Management Accounts Commentary — October 2026 (P3)",
+  "site": "finance",
+  "library": "Management Accounts",
+  "folder": "FY2026-27/P03 October",
+  "category": "Report",
+  "author": "P028",
+  "owner": "P003",
+  "modified_by": "P003",
+  "approved_by": "P003",
+  "created": "2026-11-04",
+  "modified": "2026-11-05",
+  "version": "0.3",
+  "status": "Draft",
+  "classification": "Highly Confidential",
+  "tags": [
+   "management accounts",
+   "commentary",
+   "variance",
+   "board"
+  ],
+  "summary": "Narrative commentary on the October 2026 (P3) management accounts: revenue, funding variance by academy, costs, EBITDA and forecast.",
+  "blocks": [
+   {
+    "h1": "1. Headlines"
+   },
+   {
+    "bullets": [
+     "Year-to-date revenue £2,845,190 against budget £2,890,000 (£-44,810 adverse).",
+     "Apprenticeship funding YTD {{fact:fy27_ytd_funding}} against budget £2,330,000 — £97,210 adverse, mainly the Data Academy.",
+     "October funding {{fact:fin_oct_funding}} against budget £790,000.",
+     "Commercial revenue £612,400 YTD, £52,400 ahead of budget.",
+     "EBITDA YTD £109,790 against budget £197,500 (£87,710 adverse).",
+     "Full-year forecast held at budget EBITDA of {{fact:fin_budget_ebitda}} pending the R04 return and January starts."
+    ]
+   },
+   {
+    "h1": "2. Apprenticeship funding"
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, SUM(on_programme_funding_gbp+completion_funding_gbp) AS \"Actual YTD\", CASE academy WHEN 'AI Academy' THEN 712000 WHEN 'Data Academy' THEN 930000 WHEN 'Digital Academy' THEN 278000 WHEN 'Leadership Academy' THEN 343000 WHEN 'People Academy' THEN 67000 END AS \"Budget YTD\", SUM(on_programme_funding_gbp+completion_funding_gbp) - CASE academy WHEN 'AI Academy' THEN 712000 WHEN 'Data Academy' THEN 930000 WHEN 'Digital Academy' THEN 278000 WHEN 'Leadership Academy' THEN 343000 WHEN 'People Academy' THEN 67000 END AS Variance, SUM(new_starts) AS \"Starts YTD\" FROM monthly_funding WHERE academic_year='2026/27' GROUP BY academy",
+     "format": {
+      "Actual YTD": "gbp",
+      "Budget YTD": "gbp",
+      "Variance": "gbp"
+     },
+     "caption": "Table 1 — Funding by academy, August–October 2026"
+    }
+   },
+   {
+    "p": "Starts YTD were {{sql:SELECT SUM(new_starts) FROM monthly_funding WHERE academic_year='2026/27'}} against a budget of 210. The Data Academy shortfall reflects the Northgrid Data Analyst cohort moving from October to January at the employer's request and completion funding for 11 Data Analyst apprentices slipping into November as EPA dates moved. AI Academy October starts ({{sql:SELECT new_starts FROM monthly_funding WHERE month='2026-10' AND academy='AI Academy'}}) were half the level of October 2025 ({{sql:SELECT new_starts FROM monthly_funding WHERE month='2025-10' AND academy='AI Academy'}}) as employers waited for the Level 4 AI & Automation Practitioner launch materials."
+   },
+   {
+    "p": "Leadership Academy funding is ahead of budget despite the Level 7 eligibility changes, because Operations Manager (Level 5) recruitment has absorbed most former Senior Leader demand."
+   },
+   {
+    "h1": "3. Costs"
+   },
+   {
+    "table": {
+     "columns": [
+      "Cost line",
+      "Budget YTD",
+      "Actual YTD",
+      "Variance (fav/(adv))"
+     ],
+     "rows": [
+      [
+       "Staff costs (salaries, NI, pension)",
+       "£2,012,500",
+       "£2,048,300",
+       "£-35,800"
+      ],
+      [
+       "End-point assessment fees",
+       "£112,500",
+       "£98,200",
+       "£14,300"
+      ],
+      [
+       "Degree apprenticeship partner (University of Wessex)",
+       "£102,500",
+       "£102,500",
+       "£0"
+      ],
+      [
+       "Technology & licences",
+       "£180,000",
+       "£191,600",
+       "£-11,600"
+      ],
+      [
+       "Property & co-working",
+       "£72,500",
+       "£70,100",
+       "£2,400"
+      ],
+      [
+       "Marketing & events",
+       "£57,500",
+       "£68,900",
+       "£-11,400"
+      ],
+      [
+       "Professional fees (audit, legal, advisory)",
+       "£40,000",
+       "£46,300",
+       "£-6,300"
+      ],
+      [
+       "Learner support & ALS",
+       "£22,500",
+       "£19,800",
+       "£2,700"
+      ],
+      [
+       "Other overheads",
+       "£47,500",
+       "£44,700",
+       "£2,800"
+      ],
+      [
+       "Meridian group management charge",
+       "£45,000",
+       "£45,000",
+       "£0"
+      ],
+      [
+       "Total costs",
+       "£2,692,500",
+       "£2,735,400",
+       "£-42,900"
+      ]
+     ],
+     "caption": "Table 2 — Costs year to date"
+    }
+   },
+   {
+    "p": "Staff costs are £35,800 over budget due to agency coach cover in the Data Academy while three coach vacancies are filled (offers accepted for December starts). Technology costs include 40 additional Copilot licences. The Skills Summit overspend has been reviewed with Marketing; future events over £10,000 will need a purchase order approved by the CFO in line with the Procurement Policy."
+   },
+   {
+    "h1": "4. Cash and debtors"
+   },
+   {
+    "p": "Cash at 31 October was £2.41m. Co-investment invoices for May–September starts were raised on 31 October (8 employers). Commercial debtors over 60 days total £38,200, of which £21,600 relates to one Key account (in discussion)."
+   },
+   {
+    "h1": "5. Risks and opportunities"
+   },
+   {
+    "bullets": [
+     "**Risk**: further slippage of January starts would put c. £180k of full-year funding at risk.",
+     "**Risk**: funding audit sample (due December) — Daniel Evans confirms OTJ evidence for the sample is complete.",
+     "**Opportunity**: Valemont AI Academy proposal (24 apprentices, £496,000 levy value; £53,865 commercial) — decision due 20 November.",
+     "**Opportunity**: Marlow Borough Council call-off (30 apprentices, £165,000)."
+    ]
+   },
+   {
+    "h1": "6. Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Reforecast Data Academy starts with Sam Patel",
+      "owner": "P029",
+      "due": "2026-11-12",
+      "status": "Open"
+     },
+     {
+      "action": "Submit P3 pack to Meridian group finance",
+      "owner": "P028",
+      "due": "2026-11-10",
+      "status": "Open"
+     },
+     {
+      "action": "Review agency coach spend against recruitment plan",
+      "owner": "P009",
+      "due": "2026-11-20",
+      "status": "Open"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fin-budget-fy2627",
+  "type": "xlsx",
+  "title": "Budget FY2026/27",
+  "site": "finance",
+  "library": "Budgets & Forecasts",
+  "folder": "FY2026-27",
+  "category": "Budget",
+  "author": "P003",
+  "owner": "P003",
+  "modified_by": "P028",
+  "approved_by": "P001",
+  "created": "2026-05-18",
+  "modified": "2026-07-16",
+  "version": "3.0",
+  "status": "Approved",
+  "classification": "Highly Confidential",
+  "tags": [
+   "budget",
+   "FY2026/27",
+   "cost centre",
+   "EBITDA"
+  ],
+  "summary": "Board-approved FY2026/27 budget: revenue by academy, P&L by nature and cost-centre budgets for each department.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "FY2026/27 budget (1 August 2026 – 31 July 2027), approved by the Delcorn board on 16 July 2026 and by Meridian Education Group on 22 July 2026.",
+     "Budgeted revenue £12,100,000; budgeted costs £10,770,000; budgeted EBITDA £1,330,000 (11.0% margin).",
+     "Key assumptions: 3% pay award from 1 October 2026; 720 apprenticeship starts; Level 7 starts limited to under-22s; commercial growth 14.5% driven by Copilot programmes.",
+     "Cost centres = SharePoint department sites. Budget holders may commit spend only within their cost centre and in line with the Procurement Policy thresholds.",
+     "Quarterly phasing shown as an even split for cost-centre budgets; funding is phased by forecast starts (see Revenue sheet)."
+    ]
+   },
+   {
+    "name": "Revenue",
+    "columns": [
+     "Academy / stream",
+     "FY2026/27 budget",
+     "FY2025/26 actual",
+     "Change"
+    ],
+    "rows": [
+     [
+      "AI Academy",
+      2950000,
+      2848094,
+      "=(B2-C2)/C2"
+     ],
+     [
+      "Data Academy",
+      3850000,
+      3932941,
+      "=(B3-C3)/C3"
+     ],
+     [
+      "Digital Academy",
+      1150000,
+      1125312,
+      "=(B4-C4)/C4"
+     ],
+     [
+      "Leadership Academy",
+      1420000,
+      1584640,
+      "=(B5-C5)/C5"
+     ],
+     [
+      "People Academy",
+      280000,
+      309978,
+      "=(B6-C6)/C6"
+     ],
+     [
+      "Commercial programmes",
+      2450000,
+      2140000,
+      "=(B7-C7)/C7"
+     ],
+     [
+      "Total revenue",
+      "=SUM(B2:B7)",
+      "=SUM(C2:C7)",
+      "=(B8-C8)/C8"
+     ]
+    ],
+    "format": {
+     "FY2026/27 budget": "gbp",
+     "FY2025/26 actual": "gbp",
+     "Change": "pct"
+    }
+   },
+   {
+    "name": "P&L budget",
+    "columns": [
+     "Line",
+     "FY2026/27 budget",
+     "FY2025/26 actual",
+     "% of revenue"
+    ],
+    "rows": [
+     [
+      "Apprenticeship funding",
+      9650000,
+      9800965,
+      "=B2/$B$4"
+     ],
+     [
+      "Commercial programmes",
+      2450000,
+      2140000,
+      "=B3/$B$4"
+     ],
+     [
+      "Total revenue",
+      "=B2+B3",
+      "=C2+C3",
+      "=B4/$B$4"
+     ],
+     [
+      "Staff costs (salaries, NI, pension)",
+      8050000,
+      7905000,
+      "=B5/$B$4"
+     ],
+     [
+      "End-point assessment fees",
+      450000,
+      431000,
+      "=B6/$B$4"
+     ],
+     [
+      "Degree apprenticeship partner (University of Wessex)",
+      410000,
+      402000,
+      "=B7/$B$4"
+     ],
+     [
+      "Technology & licences",
+      720000,
+      668000,
+      "=B8/$B$4"
+     ],
+     [
+      "Property & co-working",
+      290000,
+      284000,
+      "=B9/$B$4"
+     ],
+     [
+      "Marketing & events",
+      230000,
+      221000,
+      "=B10/$B$4"
+     ],
+     [
+      "Professional fees (audit, legal, advisory)",
+      160000,
+      171000,
+      "=B11/$B$4"
+     ],
+     [
+      "Learner support & ALS",
+      90000,
+      82000,
+      "=B12/$B$4"
+     ],
+     [
+      "Other overheads",
+      190000,
+      188000,
+      "=B13/$B$4"
+     ],
+     [
+      "Meridian group management charge",
+      180000,
+      175000,
+      "=B14/$B$4"
+     ],
+     [
+      "Total costs",
+      "=SUM(B5:B14)",
+      "=SUM(C5:C14)",
+      "=B15/$B$4"
+     ],
+     [
+      "EBITDA",
+      "=B4-B15",
+      "=C4-C15",
+      "=B16/$B$4"
+     ],
+     [
+      "Depreciation & amortisation",
+      140000,
+      128000,
+      ""
+     ],
+     [
+      "Operating profit",
+      "=B16-B17",
+      "=C16-C17",
+      ""
+     ]
+    ],
+    "format": {
+     "FY2026/27 budget": "gbp",
+     "FY2025/26 actual": "gbp",
+     "% of revenue": "pct"
+    }
+   },
+   {
+    "name": "Cost centres",
+    "columns": [
+     "Cost centre",
+     "Department",
+     "Budget holder",
+     "Staff costs",
+     "Non-pay",
+     "Total budget",
+     "FY2025/26 actual",
+     "Change",
+     "Quarterly"
+    ],
+    "rows": [
+     [
+      "exec",
+      "Executive & Board",
+      "P001",
+      457000,
+      460000,
+      "=D2+E2",
+      885000.0,
+      "=(F2-G2)/G2",
+      "=F2/4"
+     ],
+     [
+      "finance",
+      "Finance & Funding",
+      "P003",
+      461000,
+      170000,
+      "=D3+E3",
+      609000.0,
+      "=(F3-G3)/G3",
+      "=F3/4"
+     ],
+     [
+      "partnerships",
+      "Employer Partnerships",
+      "P004",
+      722000,
+      110000,
+      "=D4+E4",
+      803000.0,
+      "=(F4-G4)/G4",
+      "=F4/4"
+     ],
+     [
+      "hub",
+      "Marketing & Communications (Hub)",
+      "P027",
+      149000,
+      230000,
+      "=D5+E5",
+      366000.0,
+      "=(F5-G5)/G5",
+      "=F5/4"
+     ],
+     [
+      "quality",
+      "Quality & Compliance",
+      "P005",
+      667000,
+      470000,
+      "=D6+E6",
+      1097000.0,
+      "=(F6-G6)/G6",
+      "=F6/4"
+     ],
+     [
+      "curriculum",
+      "Curriculum & Academies",
+      "P008",
+      388000,
+      440000,
+      "=D7+E7",
+      799000.0,
+      "=(F7-G7)/G7",
+      "=F7/4"
+     ],
+     [
+      "people",
+      "People & Culture",
+      "P006",
+      358000,
+      110000,
+      "=D8+E8",
+      452000.0,
+      "=(F8-G8)/G8",
+      "=F8/4"
+     ],
+     [
+      "tech",
+      "Learning Technology & IT",
+      "P007",
+      496000,
+      590000,
+      "=D9+E9",
+      1048000.0,
+      "=(F9-G9)/G9",
+      "=F9/4"
+     ],
+     [
+      "delivery",
+      "Learning Delivery",
+      "P009",
+      4098000,
+      110000,
+      "=D10+E10",
+      4061000.0,
+      "=(F10-G10)/G10",
+      "=F10/4"
+     ],
+     [
+      "safeguarding",
+      "Safeguarding & Learner Support",
+      "P010",
+      254000,
+      30000,
+      "=D11+E11",
+      274000.0,
+      "=(F11-G11)/G11",
+      "=F11/4"
+     ],
+     [
+      "",
+      "Total",
+      "",
+      "=SUM(D2:D11)",
+      "=SUM(E2:E11)",
+      "=SUM(F2:F11)",
+      "=SUM(G2:G11)",
+      "=(F12-G12)/G12",
+      "=SUM(I2:I11)"
+     ]
+    ],
+    "format": {
+     "Staff costs": "gbp",
+     "Non-pay": "gbp",
+     "Total budget": "gbp",
+     "FY2025/26 actual": "gbp",
+     "Change": "pct",
+     "Quarterly": "gbp"
+    }
+   },
+   {
+    "name": "Headcount basis",
+    "sql": "SELECT department AS \"Cost centre\", COUNT(*) AS Headcount, ROUND(SUM(fte),1) AS FTE, SUM(salary_gbp) AS \"Base salaries\", ROUND(SUM(salary_gbp)*1.22) AS \"Salaries + 22% on-costs\" FROM employees GROUP BY department ORDER BY 4 DESC",
+    "format": {
+     "Base salaries": "gbp",
+     "Salaries + 22% on-costs": "gbp"
+    },
+    "totals": [
+     "Headcount",
+     "FTE",
+     "Base salaries",
+     "Salaries + 22% on-costs"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fin-ilr-procedure",
+  "type": "docx",
+  "title": "Funding Reconciliation & ILR Return Procedure",
+  "site": "finance",
+  "library": "Funding & ILR",
+  "folder": "Procedures",
+  "category": "Procedure",
+  "author": "P029",
+  "owner": "P003",
+  "modified_by": "P029",
+  "approved_by": "P003",
+  "created": "2024-09-02",
+  "modified": "2026-08-27",
+  "version": "3.2",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "ILR",
+   "funding",
+   "reconciliation",
+   "procedure",
+   "month-end"
+  ],
+  "summary": "Step-by-step procedure for preparing, validating and submitting the monthly ILR return and reconciling earned funding to the ledger.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2025-08-20",
+    "by": "P029",
+    "change": "Updated for 2025/26 ILR specification"
+   },
+   {
+    "version": "3.2",
+    "date": "2026-08-27",
+    "by": "P029",
+    "change": "Added apprenticeship units, R03 data-freeze timing and Power BI reconciliation report"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "The Individualised Learner Record (ILR) is the monthly data return that drives Delcorn's apprenticeship funding. Errors delay or reduce funding and are a common funding-audit finding. This procedure ensures every return is complete, accurate, signed off and reconciled to the ledger."
+   },
+   {
+    "h1": "2. Roles"
+   },
+   {
+    "table": {
+     "columns": [
+      "Role",
+      "Person",
+      "Responsibility"
+     ],
+     "rows": [
+      [
+       "Procedure owner",
+       "{{person:P003}}",
+       "Approves submission; accountable for funding assurance"
+      ],
+      [
+       "ILR lead",
+       "{{person:P029}}",
+       "Prepares, validates and submits the return; reconciles funding"
+      ],
+      [
+       "Compliance check",
+       "{{person:P022}}",
+       "Samples evidence (eligibility, OTJ, starts, leavers)"
+      ],
+      [
+       "Data owner (Aptiva)",
+       "{{person:P035}}",
+       "Fixes data quality issues at source"
+      ],
+      [
+       "Ledger posting",
+       "{{person:P028}}",
+       "Posts funding accrual and reconciles to DfE earnings statement"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "3. Monthly timetable"
+   },
+   {
+    "table": {
+     "columns": [
+      "Working day",
+      "Activity",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "WD-5",
+       "Delivery managers chase missing starts, leavers, BILs and progress reviews",
+       "Sam Patel / Laura Chen"
+      ],
+      [
+       "WD-3",
+       "Aptiva data freeze at 17:00; extract ILR XML",
+       "Nicole Brooks"
+      ],
+      [
+       "WD-2",
+       "Run validation; resolve errors and warnings",
+       "Nicole Brooks / Kate Simmons"
+      ],
+      [
+       "WD-1",
+       "Compliance sample (10 learners) and funding estimate vs prior month",
+       "Daniel Evans"
+      ],
+      [
+       "WD1–WD4",
+       "CFO sign-off and submission before the collection deadline (see ILR Submission Calendar)",
+       "Priya Raman / Nicole Brooks"
+      ],
+      [
+       "WD5",
+       "Reconcile earnings report to Aptiva and ledger; post accrual",
+       "Nicole Brooks / Andrew Clarke"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Procedure"
+   },
+   {
+    "numbered": [
+     "Confirm all new starts have a signed training plan, eligibility evidence and initial assessment in Aptiva.",
+     "Confirm all leavers have an actual end date, withdrawal reason or completion evidence.",
+     "Confirm breaks in learning are recorded with a planned return date.",
+     "Extract the ILR file and run validation. No submission with errors; warnings must be reviewed and noted.",
+     "Compare learner counts and funding estimate by academy with the previous return; explain any movement over 3% or £25,000.",
+     "Obtain CFO sign-off by email with the funding estimate attached.",
+     "Submit and save the submission receipt in Funding & ILR/Returns/<year>.",
+     "When the earnings statement is available, reconcile to the monthly_funding table and the ledger. Investigate differences over £5,000.",
+     "Record reconciliation results and actions in the Funding Reconciliation log."
+    ]
+   },
+   {
+    "h1": "5. Reconciliation tolerances"
+   },
+   {
+    "kv": [
+     [
+      "Monthly variance requiring explanation",
+      "> 3% or > £25,000 versus prior month or budget"
+     ],
+     [
+      "Ledger vs earnings difference requiring investigation",
+      "> £5,000"
+     ],
+     [
+      "Escalation to CFO",
+      "Any variance > £50,000 or any unexplained difference"
+     ]
+    ]
+   },
+   {
+    "h1": "6. Controls"
+   },
+   {
+    "bullets": [
+     "Separation of duties: the person who submits the ILR does not approve it.",
+     "Monthly evidence sample by Compliance & Funding Assurance.",
+     "Quarterly report on reconciliation exceptions to the Audit & Risk Committee.",
+     "Risk R01 (funding policy) and funding audit risks are monitored on the corporate risk register."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "fin-ilr-calendar-2627",
+  "type": "xlsx",
+  "title": "ILR Submission Calendar 2026/27",
+  "site": "finance",
+  "library": "Funding & ILR",
+  "folder": "2026-27",
+  "category": "Schedule",
+  "author": "P029",
+  "owner": "P029",
+  "modified_by": "P029",
+  "created": "2026-07-29",
+  "modified": "2026-11-04",
+  "version": "1.4",
+  "status": "Current",
+  "classification": "Internal",
+  "tags": [
+   "ILR",
+   "calendar",
+   "deadlines"
+  ],
+  "summary": "2026/27 ILR return calendar with internal data-freeze dates, submission deadlines, owners and status.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Collection deadlines are Delcorn's working dates based on the DfE funding calendar; always check the official calendar for changes.",
+     "Internal data freeze = 17:00 on the date shown. Submission must be signed off by the CFO (Priya Raman) or, in her absence, the Finance Manager (Andrew Clarke).",
+     "Owner for all returns: Nicole Brooks (Funding & MI Analyst). Compliance sample: Daniel Evans."
+    ]
+   },
+   {
+    "name": "Calendar",
+    "columns": [
+     "Return",
+     "Period",
+     "Data freeze",
+     "Submission deadline",
+     "Status",
+     "Notes",
+     "Days to deadline"
+    ],
+    "rows": [
+     [
+      "R01",
+      "August 2026",
+      "2026-09-02",
+      "2026-09-04",
+      "Submitted",
+      "Clean — 0 errors",
+      "=D2-DATE(2026,11,5)"
+     ],
+     [
+      "R02",
+      "September 2026",
+      "2026-10-02",
+      "2026-10-06",
+      "Submitted",
+      "2 warnings (prior-learning fields)",
+      "=D3-DATE(2026,11,5)"
+     ],
+     [
+      "R03",
+      "October 2026",
+      "2026-11-03",
+      "2026-11-05",
+      "Due today",
+      "Data freeze completed 3 Nov 17:00",
+      "=D4-DATE(2026,11,5)"
+     ],
+     [
+      "R04",
+      "November 2026",
+      "2026-12-02",
+      "2026-12-04",
+      "Not started",
+      "",
+      "=D5-DATE(2026,11,5)"
+     ],
+     [
+      "R05",
+      "December 2026",
+      "2027-01-05",
+      "2027-01-07",
+      "Not started",
+      "Christmas closure — freeze moved",
+      "=D6-DATE(2026,11,5)"
+     ],
+     [
+      "R06",
+      "January 2027",
+      "2027-02-02",
+      "2027-02-04",
+      "Not started",
+      "Mid-year funding audit sample",
+      "=D7-DATE(2026,11,5)"
+     ],
+     [
+      "R07",
+      "February 2027",
+      "2027-03-02",
+      "2027-03-04",
+      "Not started",
+      "",
+      "=D8-DATE(2026,11,5)"
+     ],
+     [
+      "R08",
+      "March 2027",
+      "2027-04-06",
+      "2027-04-08",
+      "Not started",
+      "Easter",
+      "=D9-DATE(2026,11,5)"
+     ],
+     [
+      "R09",
+      "April 2027",
+      "2027-05-05",
+      "2027-05-07",
+      "Not started",
+      "",
+      "=D10-DATE(2026,11,5)"
+     ],
+     [
+      "R10",
+      "May 2027",
+      "2027-06-02",
+      "2027-06-04",
+      "Not started",
+      "",
+      "=D11-DATE(2026,11,5)"
+     ],
+     [
+      "R11",
+      "June 2027",
+      "2027-07-02",
+      "2027-07-06",
+      "Not started",
+      "",
+      "=D12-DATE(2026,11,5)"
+     ],
+     [
+      "R12",
+      "July 2027",
+      "2027-08-03",
+      "2027-08-05",
+      "Not started",
+      "Year-end accrual",
+      "=D13-DATE(2026,11,5)"
+     ],
+     [
+      "R13",
+      "Year-end (hard close prep)",
+      "2027-09-10",
+      "2027-09-14",
+      "Not started",
+      "",
+      "=D14-DATE(2026,11,5)"
+     ],
+     [
+      "R14",
+      "Final hard close",
+      "2027-10-19",
+      "2027-10-21",
+      "Not started",
+      "Final 2026/27 funding position",
+      "=D15-DATE(2026,11,5)"
+     ]
+    ],
+    "format": {
+     "Data freeze": "date",
+     "Submission deadline": "date",
+     "Days to deadline": "int"
+    }
+   }
+  ]
+ },
+ {
+  "id": "fin-funding-rules-briefing",
+  "type": "pptx",
+  "title": "Apprenticeship Funding Rules Briefing 2026/27",
+  "site": "finance",
+  "library": "Funding & ILR",
+  "folder": "Briefings",
+  "category": "Briefing",
+  "author": "P029",
+  "owner": "P003",
+  "modified_by": "P022",
+  "created": "2026-08-20",
+  "modified": "2026-09-09",
+  "version": "1.1",
+  "status": "Final",
+  "classification": "Internal",
+  "tags": [
+   "funding rules",
+   "levy",
+   "co-investment",
+   "Level 7",
+   "apprenticeship units"
+  ],
+  "summary": "All-staff briefing on 2026/27 apprenticeship funding: the levy, co-investment, levy transfers, Level 7 eligibility changes and apprenticeship units.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Apprenticeship funding 2026/27",
+    "subtitle": "What changed and what it means for Delcorn",
+    "meta": "Nicole Brooks & Daniel Evans · Staff briefing, 10 September 2026",
+    "notes": "This is Delcorn's summary for staff. It is not a substitute for the official Department for Education funding rules — always check the current rules."
+   },
+   {
+    "layout": "bullets",
+    "title": "How apprenticeships are funded",
+    "bullets": [
+     "Employers with a pay bill over £3m pay the levy: 0.5% of pay bill, less a £15,000 allowance",
+     "Levy funds appear in the employer's DAS account with a 10% government top-up",
+     "Funds expire 24 months after they enter the account",
+     "Each standard has a maximum funding band — training and EPA must fit inside it",
+     "Providers are paid monthly on-programme, with 20% held back as completion funding"
+    ],
+    "notes": "Delcorn's FY2025/26 apprenticeship funding was {{fact:fy26_apprenticeship_funding}}."
+   },
+   {
+    "layout": "two_column",
+    "title": "Levy payers vs non-levy employers",
+    "left": {
+     "heading": "Levy payers",
+     "bullets": [
+      "Pay from DAS account",
+      "Can transfer up to 50% of annual funds to other employers",
+      "Top up from co-investment if funds run out"
+     ]
+    },
+    "right": {
+     "heading": "Non-levy employers",
+     "bullets": [
+      "Government pays 95%",
+      "Employer pays 5% co-investment — invoiced by Delcorn",
+      "No co-investment for apprentices aged 16–21 at employers with under 50 staff"
+     ]
+    }
+   },
+   {
+    "layout": "kpis",
+    "title": "Co-investment examples (5%)",
+    "kpis": [
+     {
+      "value": "£225",
+      "label": "Team Leader (L3)",
+      "note": "Band £4,500"
+     },
+     {
+      "value": "£650",
+      "label": "AI Practitioner (L3)",
+      "note": "Band £13,000"
+     },
+     {
+      "value": "£850",
+      "label": "Data Analyst (L4)",
+      "note": "Band £17,000"
+     },
+     {
+      "value": "£950",
+      "label": "AI & Automation (L4)",
+      "note": "Band £19,000"
+     },
+     {
+      "value": "£1,350",
+      "label": "Digital & Tech Solutions (L6)",
+      "note": "Band £27,000"
+     }
+    ],
+    "notes": "Co-investment invoices are payable within 30 days. Peter Walsh raises them at month-end."
+   },
+   {
+    "layout": "bullets",
+    "title": "Level 7 eligibility changes",
+    "bullets": [
+     "Levy funding for Level 7 apprenticeships is now focused on younger apprentices (new starts aged under 22)",
+     "Apprentices already on programme continue to be funded",
+     "Affects our Senior Leader (SL7) and Senior People Professional (SPP7) programmes",
+     "Alternatives: Operations Manager (L5), Chartered Manager (L6), commercial AI Leadership Masterclass"
+    ],
+    "notes": "Exact age and eligibility criteria are set in the DfE rules for the year of start — check before advising any employer. SL7/SPP7 starts are budgeted at 20 for 2026/27 (down from 61)."
+   },
+   {
+    "layout": "bullets",
+    "title": "Apprenticeship units",
+    "bullets": [
+     "Short, levy-funded training in priority skills (e.g. AI, digital, data) — not full apprenticeships",
+     "Funded through the growth and skills levy",
+     "Delcorn's first units: AI fundamentals for managers; Data visualisation",
+     "Recorded on the ILR; funding rules for units differ from full apprenticeships"
+    ],
+    "notes": "Units are new and guidance is evolving. Any unit proposal must be checked with Nicole or Daniel."
+   },
+   {
+    "layout": "steps",
+    "title": "What everyone must get right",
+    "steps": [
+     {
+      "label": "Eligibility",
+      "text": "Evidence of employment, residency, prior learning"
+     },
+     {
+      "label": "Training plan",
+      "text": "Signed by all parties before start"
+     },
+     {
+      "label": "OTJ",
+      "text": "Planned hours logged in Aptiva weekly"
+     },
+     {
+      "label": "Reviews",
+      "text": "Every 12 weeks, signed within 10 days"
+     },
+     {
+      "label": "Changes",
+      "text": "BILs, leavers and changes reported within 5 days"
+     },
+     {
+      "label": "EPA",
+      "text": "Gateway evidence complete"
+     }
+    ]
+   },
+   {
+    "layout": "chart",
+    "title": "Funding by academy 2025/26",
+    "chart": {
+     "type": "bar",
+     "sql": "SELECT academy AS Academy, SUM(on_programme_funding_gbp+completion_funding_gbp) AS Funding FROM monthly_funding WHERE academic_year='2025/26' GROUP BY 1 ORDER BY 2 DESC",
+     "number_format": "£#,##0",
+     "labels": true
+    }
+   },
+   {
+    "layout": "quote",
+    "title": "Questions?",
+    "quote": "If in doubt about eligibility or funding, ask before the learner starts — it is much harder to fix afterwards.",
+    "by": "Daniel Evans, Compliance & Funding Assurance Lead"
+   }
+  ]
+ },
+ {
+  "id": "fin-procurement-policy",
+  "type": "docx",
+  "title": "Procurement Policy",
+  "site": "finance",
+  "library": "Procurement & Suppliers",
+  "folder": "Policies",
+  "category": "Policy",
+  "author": "P028",
+  "owner": "P003",
+  "modified_by": "P028",
+  "approved_by": "P001",
+  "created": "2023-03-06",
+  "modified": "2026-06-22",
+  "version": "2.1",
+  "status": "Approved",
+  "review_date": "2027-06-30",
+  "classification": "Internal",
+  "tags": [
+   "procurement",
+   "purchase orders",
+   "approval limits",
+   "suppliers"
+  ],
+  "summary": "How Delcorn buys goods and services: purchase order thresholds (£1k/£10k/£50k), approval levels, quotes, contracts, data protection and supplier payment.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2025-06-30",
+    "by": "P028",
+    "change": "Aligned with Meridian Education Group delegated authorities"
+   },
+   {
+    "version": "2.1",
+    "date": "2026-06-22",
+    "by": "P028",
+    "change": "Added AI tools and SaaS data protection check; clarified events spend"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "This policy applies to all staff who commit Delcorn to spend with external suppliers, including software subscriptions, events, contractors and agency staff. It ensures value for money, proper authorisation and compliance with Meridian Education Group delegated authorities."
+   },
+   {
+    "h1": "2. Key principles"
+   },
+   {
+    "bullets": [
+     "**No PO, no pay**: a purchase order must be raised in Ledgerline and approved *before* the order is placed.",
+     "Spend must be within an approved cost-centre budget.",
+     "Orders must not be split to avoid an approval threshold.",
+     "Conflicts of interest must be declared to the Finance Manager."
+    ]
+   },
+   {
+    "h1": "3. Approval thresholds"
+   },
+   {
+    "table": {
+     "columns": [
+      "Order value (ex VAT, whole contract term)",
+      "Approver",
+      "Quotes required"
+     ],
+     "rows": [
+      [
+       "Up to £1,000",
+       "Budget holder",
+       "One quote or published price"
+      ],
+      [
+       "£1,000 to £9,999",
+       "Head of department and Finance Manager",
+       "Two written quotes"
+      ],
+      [
+       "£10,000 to £49,999",
+       "Chief Financial Officer",
+       "Three written quotes"
+      ],
+      [
+       "£50,000 and above",
+       "Chief Executive Officer and Chief Financial Officer",
+       "Formal tender or three quotes with evaluation; contract reviewed by Finance"
+      ],
+      [
+       "£250,000 and above",
+       "As above, plus Meridian Education Group CFO",
+       "Formal tender"
+      ]
+     ],
+     "caption": "Table 1 — Purchase order approval levels"
+    }
+   },
+   {
+    "callout": "Thresholds apply to the total value over the contract term, not the annual value. A three-year £20,000-a-year software subscription is a £60,000 order and needs CEO and CFO approval.",
+    "title": "Contract term matters"
+   },
+   {
+    "h1": "4. Contracts"
+   },
+   {
+    "bullets": [
+     "Contracts over £10,000 must be reviewed by Finance before signature; over £50,000 by the CFO.",
+     "All contracts are recorded in the Supplier Contract Renewals Tracker with an owner and end date.",
+     "Owners must start renewal or re-tender at least 90 days before the contract end date."
+    ]
+   },
+   {
+    "h1": "5. Data protection and AI tools"
+   },
+   {
+    "p": "Any supplier that processes personal data must have a data processing agreement (DPA) in place before go-live, approved by the Data Protection Officer ({{person:P036}}). New AI tools also require approval under the AI acceptable use policy."
+   },
+   {
+    "h1": "6. Paying suppliers"
+   },
+   {
+    "bullets": [
+     "Invoices must quote a valid PO number and be sent to accounts.payable@delcorn.co.uk.",
+     "Delcorn pays valid, undisputed invoices within 30 days of receipt; payment runs are every Tuesday and Friday.",
+     "Invoices without a PO are returned to the supplier within 3 working days.",
+     "Bank detail changes must be verified by telephone using a known number before being updated."
+    ]
+   },
+   {
+    "h1": "7. Purchasing cards"
+   },
+   {
+    "p": "Company cards may be used for purchases under £500 (subscriptions under £100 per month) and are reconciled monthly in Ledgerline with receipts."
+   },
+   {
+    "h1": "8. Breaches"
+   },
+   {
+    "p": "Retrospective POs are reported monthly to the CFO. Repeated breaches may lead to card or approval rights being withdrawn and disciplinary action."
+   }
+  ]
+ },
+ {
+  "id": "fin-supplier-renewals",
+  "type": "xlsx",
+  "title": "Supplier Contract Renewals Tracker",
+  "site": "finance",
+  "library": "Procurement & Suppliers",
+  "folder": "Contracts",
+  "category": "Register",
+  "author": "P030",
+  "owner": "P028",
+  "modified_by": "P030",
+  "created": "2025-02-10",
+  "modified": "2026-11-02",
+  "version": "2.6",
+  "status": "Current",
+  "classification": "Confidential",
+  "tags": [
+   "suppliers",
+   "contracts",
+   "renewals",
+   "procurement"
+  ],
+  "summary": "Tracker of supplier contracts with annual spend, end dates, days to expiry, DPA status and renewal actions.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Source: supplier register (Ledgerline) as at 5 November 2026.",
+     "Renewal action starts 90 days before contract end (Procurement Policy section 4).",
+     "Contracts ending in the next six months: {{fact:fin_contracts_ending_6m}}. Highest-spend supplier: {{fact:fin_top_supplier}}.",
+     "Expired contracts are running on rolling terms and must be renewed or re-tendered urgently."
+    ]
+   },
+   {
+    "name": "Tracker",
+    "sql": "SELECT s.supplier_id AS ID, s.supplier_name AS Supplier, s.category AS Category, s.annual_spend_gbp AS \"Annual spend\", s.contract_start AS Start, s.contract_end AS \"End\", CAST(julianday(s.contract_end) - julianday('2026-11-05') AS INT) AS \"Days to end\", CASE WHEN s.contract_end < '2026-11-05' THEN 'Expired - rolling' WHEN julianday(s.contract_end) - julianday('2026-11-05') <= 90 THEN 'Renew now' WHEN julianday(s.contract_end) - julianday('2026-11-05') <= 182 THEN 'Plan renewal' ELSE 'OK' END AS \"Renewal status\", e.full_name AS Owner, s.risk_rating AS Risk, CASE s.dpa_in_place WHEN 1 THEN 'Yes' ELSE 'No' END AS DPA FROM suppliers s LEFT JOIN employees e ON e.employee_id = s.owner_id ORDER BY s.contract_end",
+    "format": {
+     "Annual spend": "gbp",
+     "Start": "date",
+     "End": "date"
+    },
+    "totals": [
+     "Annual spend"
+    ]
+   },
+   {
+    "name": "By category",
+    "sql": "SELECT category AS Category, COUNT(*) AS Contracts, SUM(annual_spend_gbp) AS \"Annual spend\" FROM suppliers GROUP BY 1 ORDER BY 3 DESC",
+    "format": {
+     "Annual spend": "gbp"
+    },
+    "chart": {
+     "type": "bar",
+     "cat_col": "Category",
+     "val_cols": [
+      "Annual spend"
+     ],
+     "title": "Annual supplier spend by category"
+    }
+   },
+   {
+    "name": "Actions",
+    "columns": [
+     "Supplier",
+     "Action",
+     "Owner",
+     "Due",
+     "Status"
+    ],
+    "rows": [
+     [
+      "PipelineHQ Ltd",
+      "Contract expired 31 Mar 2026 — negotiate 2-year renewal (quote £49,500/yr); CCO + CFO approval as > £50k",
+      "Tom Whitfield",
+      "2026-11-30",
+      "In progress"
+     ],
+     [
+      "Microsoft (via CloudReseller UK)",
+      "Renewal expired 31 Jul 2026 — new agreement incl. Copilot add-on; CEO + CFO approval",
+      "Aisha Karim",
+      "2026-11-15",
+      "Awaiting approval"
+     ],
+     [
+      "Clearview Accessibility",
+      "Expired 30 Apr 2026 — re-quote (two quotes) for BSL and audits",
+      "Zara Ahmed",
+      "2026-11-20",
+      "Open"
+     ],
+     [
+      "PeopleFlow HR",
+      "Ends 31 Dec 2026 — align with Meridian group HRIS decision",
+      "Marcus Bell",
+      "2026-11-28",
+      "Open"
+     ],
+     [
+      "Brightside Events",
+      "Ends 31 Dec 2026 — review after Skills Summit overspend; three quotes for 2027 events",
+      "Jess Morgan",
+      "2026-12-05",
+      "Open"
+     ],
+     [
+      "Fenwick Laptop Leasing",
+      "No DPA on file — obtain DPA (device wipe certificates)",
+      "Liam O'Connor",
+      "2026-11-21",
+      "Open"
+     ],
+     [
+      "Wellspring EAP",
+      "Ends 31 Mar 2027 — start renewal by 1 Jan 2027",
+      "Marcus Bell",
+      "2027-01-01",
+      "Not started"
+     ]
+    ],
+    "format": {
+     "Due": "date"
+    }
+   }
+  ]
+ },
+ {
+  "id": "fin-coinvest-invoices",
+  "type": "series",
+  "site": "finance",
+  "library": "Invoices",
+  "folder": "2026-10",
+  "sql": "SELECT printf('DLC-CI-2610-%03d', ROW_NUMBER() OVER (ORDER BY n DESC, employer_id)) AS invoice_no, * FROM (SELECT e.employer_id, e.employer_name, e.primary_contact, e.contact_email, e.contact_role, e.size_band, e.region AS employer_region, COUNT(*) AS n, SUM(p.funding_band_gbp) AS bands, SUM(p.funding_band_gbp * 0.05) AS total FROM employers e JOIN learners l ON l.employer_id = e.employer_id JOIN programmes p ON p.programme_code = l.programme_code WHERE e.levy_payer = 0 AND l.start_date BETWEEN '2026-05-01' AND '2026-09-30' AND l.status <> 'Withdrawn' AND NOT (e.size_band = 'Small (<50)' AND l.age_band = '16-18') GROUP BY e.employer_id) ORDER BY n DESC, employer_id LIMIT 8",
+  "filename": "{{row.invoice_no}} {{row.employer_name}}",
+  "author": "P030",
+  "owner": "P030",
+  "classification": "Confidential",
+  "category": "Invoice",
+  "doc_type_label": "Invoice",
+  "tags": [
+   "invoice",
+   "co-investment",
+   "October 2026"
+  ],
+  "template": {
+   "type": "pdf",
+   "title": "Invoice {{row.invoice_no}} — Apprenticeship co-investment",
+   "created": "2026-10-31",
+   "modified": "2026-10-31",
+   "version": "1.0",
+   "status": "Issued",
+   "doc_control": false,
+   "summary": "Co-investment invoice to {{row.employer_name}} for {{row.n}} apprentices starting May–September 2026, total {{row.total|gbp2}}, due 30 November 2026.",
+   "blocks": [
+    {
+     "kv": [
+      [
+       "Invoice number",
+       "{{row.invoice_no}}"
+      ],
+      [
+       "Invoice date",
+       "31 October 2026"
+      ],
+      [
+       "Due date",
+       "30 November 2026 (30 days)"
+      ],
+      [
+       "Customer",
+       "{{row.employer_name}} ({{row.employer_id}})"
+      ],
+      [
+       "For the attention of",
+       "{{row.primary_contact}}, {{row.contact_role}}"
+      ],
+      [
+       "Customer email",
+       "{{row.contact_email}}"
+      ],
+      [
+       "Supplier",
+       "Delcorn Learning Ltd, {{company.hq.line1}}, {{company.hq.city}} {{company.hq.postcode}}"
+      ],
+      [
+       "Company number",
+       "{{company.company_number}}"
+      ],
+      [
+       "Agreement",
+       "Employer Services Agreement — co-investment terms"
+      ]
+     ]
+    },
+    {
+     "h2": "Apprenticeship co-investment — starts May to September 2026"
+    },
+    {
+     "p": "As a non-levy employer, {{row.employer_name}} contributes 5% of the agreed price for each apprenticeship, with the government funding the remaining 95%. This invoice covers apprentices who started between 1 May and 30 September 2026 and remained on programme after the qualifying period."
+    },
+    {
+     "table": {
+      "sql": "SELECT l.learner_id AS \"Learner ID\", l.first_name || ' ' || l.last_name AS Apprentice, p.programme_name AS Programme, l.start_date AS \"Start date\", p.funding_band_gbp AS \"Agreed price\", p.funding_band_gbp * 0.05 AS \"Co-investment 5%\" FROM learners l JOIN programmes p ON p.programme_code = l.programme_code JOIN employers e ON e.employer_id = l.employer_id WHERE l.employer_id = '{{row.employer_id}}' AND l.start_date BETWEEN '2026-05-01' AND '2026-09-30' AND l.status <> 'Withdrawn' AND NOT (e.size_band = 'Small (<50)' AND l.age_band = '16-18') ORDER BY l.start_date",
+      "format": {
+       "Agreed price": "gbp",
+       "Co-investment 5%": "gbp2",
+       "Start date": "date"
+      }
+     }
+    },
+    {
+     "kv": [
+      [
+       "Apprentices",
+       "{{row.n}}"
+      ],
+      [
+       "Total agreed price",
+       "{{row.bands|gbp}}"
+      ],
+      [
+       "Net amount",
+       "{{row.total|gbp2}}"
+      ],
+      [
+       "VAT",
+       "£0.00 — exempt supply of education (VAT Act 1994, Sch. 9 Group 6)"
+      ],
+      [
+       "**Total due**",
+       "**{{row.total|gbp2}}**"
+      ]
+     ]
+    },
+    {
+     "h2": "Payment"
+    },
+    {
+     "p": "Payment terms: 30 days from invoice date. Please quote the invoice number as your payment reference."
+    },
+    {
+     "kv": [
+      [
+       "Bank",
+       "Example Training Bank plc (FICTIONAL — training data only)"
+      ],
+      [
+       "Account name",
+       "Delcorn Learning Ltd"
+      ],
+      [
+       "Sort code",
+       "00-00-00"
+      ],
+      [
+       "Account number",
+       "00000000"
+      ]
+     ]
+    },
+    {
+     "callout": "Queries: Peter Walsh, Management Accountant — peter.walsh@delcorn.co.uk. Delcorn will never change its bank details by email.",
+     "title": "Questions about this invoice"
+    }
+   ]
+  }
+ },
+ {
+  "id": "ptn-email-valemont-levy",
+  "type": "email",
+  "subject": "Valemont AI Academy proposal — levy transfer and start dates",
+  "summary": "Sally Miah (Valemont) and Ravi Sharma discuss the AI Academy proposal, cohort sizes, levy expiry and transferring levy to Valemont's repair-network partners.",
+  "sharepoint_copy": {
+   "site": "partnerships",
+   "library": "Correspondence",
+   "folder": "Valemont"
+  },
+  "messages": [
+   {
+    "from": "P024",
+    "to": [
+     {
+      "name": "Sally Miah",
+      "email": "sally.miah@valemontinsurance.co.uk"
+     }
+    ],
+    "cc": [
+     "P004"
+    ],
+    "date": "2026-10-14T16:42",
+    "attachments": [
+     "ptn-proposal-valemont-ai"
+    ],
+    "body": "Hi Sally,\n\nThank you again for hosting the discovery workshop. Please find attached our proposal for the AI Academy cohort.\n\nIn summary: 16 colleagues on the Level 4 AI & Automation Practitioner programme and 8 on the Level 6 Applied Machine Learning programme, a total levy value of £496,000, with first starts on 25 January 2027. We have also included the Executive AI Briefings, Copilot Adoption Bootcamps, a Responsible AI workshop and an AI Readiness Diagnostic as commercial add-ons, at £53,865 plus VAT after the volume discount.\n\nSection 6 sets out how you could use your transfer allowance to fund Team Leader apprenticeships in your repair network.\n\nHappy to walk your procurement team through it.\n\nBest wishes,\n\nRavi"
+   },
+   {
+    "from": {
+     "name": "Sally Miah",
+     "email": "sally.miah@valemontinsurance.co.uk"
+    },
+    "to": [
+     "P024"
+    ],
+    "date": "2026-10-21T09:15",
+    "body": "Hi Ravi,\n\nThanks — the exec team liked it. A few questions before we take it to our People Committee on 12 November:\n\n1. Can we increase the AI & Automation cohort to 20 if demand from claims is strong? I have 31 expressions of interest.\n\n2. On the levy transfer, our finance team say we have roughly £410k expiring between January and June. Can the transfer to our repair partners be set up before Christmas, and do they need to be your existing clients?\n\n3. Is the 5% discount on the commercial items the best you can do, given we're a strategic account?\n\nThanks,\n\nSally"
+   },
+   {
+    "from": "P024",
+    "to": [
+     {
+      "name": "Sally Miah",
+      "email": "sally.miah@valemontinsurance.co.uk"
+     }
+    ],
+    "cc": [
+     "P004"
+    ],
+    "date": "2026-10-22T11:03",
+    "body": "Hi Sally,\n\nGreat news. Answers below:\n\n1. Yes — we can take up to 20 on the AI & Automation Practitioner cohort. That would increase the levy value by £76,000 to £572,000. We'd run two workshop groups of 10.\n\n2. The receiving employers don't need to be existing Delcorn clients. Each partner creates a DAS account, you approve the transfer pledge, and we register the apprenticeships against it. If the partners can apply by 4 December, starts in January are realistic. Note that transfers can't be used for apprentices who already have the same qualification level.\n\n3. As a Strategic account we can offer 10% on the commercial items, which would bring them to £51,030 plus VAT. I've checked this with Tom.\n\nI'll send an updated version of the proposal by Friday.\n\nBest wishes,\n\nRavi"
+   },
+   {
+    "from": {
+     "name": "Sally Miah",
+     "email": "sally.miah@valemontinsurance.co.uk"
+    },
+    "to": [
+     "P024"
+    ],
+    "date": "2026-10-23T14:28",
+    "body": "Perfect, thank you Ravi. Please go with 20 on the AI cohort and the 10% discount. I'll send you the names of the three repair partners and their HR contacts on Monday.\n\nSally"
+   },
+   {
+    "from": "P024",
+    "to": [
+     {
+      "name": "Sally Miah",
+      "email": "sally.miah@valemontinsurance.co.uk"
+     }
+    ],
+    "cc": [
+     "P038"
+    ],
+    "date": "2026-10-26T10:10",
+    "body": "Thanks Sally — noted. Ryan Fletcher (copied) will co-ordinate the transfer set-up with your partners and book candidate briefings for 1–11 December. Updated proposal (v1.4) to follow, and I'll send the draft Employer Services Agreement schedule to your procurement team on 10 November.\n\nBest wishes,\n\nRavi"
+   }
+  ]
+ },
+ {
+  "id": "fin-email-funding-variance",
+  "type": "email",
+  "subject": "P3 month-end — October funding variance",
+  "importance": "high",
+  "summary": "CFO Priya Raman, Finance Manager Andrew Clarke and Funding Analyst Nicole Brooks investigate the October 2026 funding shortfall against budget ahead of the R03 return.",
+  "messages": [
+   {
+    "from": "P003",
+    "to": [
+     "P028"
+    ],
+    "cc": [
+     "P029"
+    ],
+    "date": "2026-11-03T18:12",
+    "body": "Andrew,\n\nThe draft P3 accounts show apprenticeship funding about £97k behind budget year to date, and October alone around £38k short. That's the second month running. Before I sign off the R03 return on Thursday, I need to understand what's timing and what's structural — and I don't want 'fewer starts' as the answer without numbers by academy.\n\nCan you and Nicole give me a breakdown by tomorrow lunchtime?\n\nPriya"
+   },
+   {
+    "from": "P028",
+    "to": [
+     "P029"
+    ],
+    "cc": [
+     "P003"
+    ],
+    "date": "2026-11-04T08:05",
+    "body": "Nicole,\n\nCould you pull October and YTD funding by academy against the budget phasing (budget sheet in Budgets & Forecasts), and split the variance between on-programme and completion funding? I'll pick up the cost side.\n\nThanks,\n\nAndrew"
+   },
+   {
+    "from": "P029",
+    "to": [
+     "P028",
+     "P003"
+    ],
+    "date": "2026-11-04T11:47",
+    "attachments": [
+     "fin-mgmt-accounts-oct26"
+    ],
+    "body": "Hi both,\n\nOctober funding was £752,080 against a £790,000 budget (−£37,920). YTD is £2,232,790 vs £2,330,000 (−£97,210). By academy YTD:\n\n- Data Academy −£80.8k: the Northgrid Data Analyst cohort moved to January, and 11 completion payments slipped to November because EPA dates moved. Completion element is roughly £35k of this — timing.\n- AI Academy −£24.8k: only 10 starts in October vs 21 last October. Employers waited for the new Level 4 launch pack. Partly structural unless the Valemont cohort lands.\n- Digital −£20.3k and People −£3.1k: low starts, small numbers.\n- Leadership +£31.8k: Operations Manager starts are absorbing former Senior Leader demand.\n\nSo I'd call around £35k timing and £62k structural/at risk. R03 validation is clean apart from two prior-learning warnings, which Daniel has checked.\n\nNicole"
+   },
+   {
+    "from": "P003",
+    "to": [
+     "P029",
+     "P028"
+    ],
+    "date": "2026-11-04T13:20",
+    "body": "Thanks Nicole — that's exactly what I needed. Please put that split into the variance commentary sheet. Andrew, hold the full-year forecast at budget for now but add a downside scenario showing January starts slipping by 20%. I'll sign off R03 tomorrow morning.\n\nPriya"
+   }
+  ]
+ },
+ {
+  "id": "fin-email-ap-brightside",
+  "type": "email",
+  "subject": "Overdue invoice BSE-4471 — Delcorn Skills Summit 24 September",
+  "summary": "Brightside Events chases an unpaid invoice for the Skills Summit; Peter Walsh explains the PO mismatch, gets the variance approved and confirms payment date.",
+  "messages": [
+   {
+    "from": {
+     "name": "Karen Doyle",
+     "email": "accounts@brightside-events.co.uk"
+    },
+    "to": [
+     "P030"
+    ],
+    "date": "2026-10-28T10:22",
+    "body": "Dear Peter,\n\nOur invoice BSE-4471 dated 25 September 2026 for £10,368.00 (including VAT) for the Delcorn Skills Summit on 24 September is now overdue. Our terms are 30 days. Could you let me know when we can expect payment?\n\nKind regards,\n\nKaren Doyle\nCredit Controller, Brightside Events"
+   },
+   {
+    "from": "P030",
+    "to": [
+     {
+      "name": "Karen Doyle",
+      "email": "accounts@brightside-events.co.uk"
+     }
+    ],
+    "date": "2026-10-28T14:05",
+    "body": "Dear Karen,\n\nThanks for getting in touch. We're holding invoice BSE-4471 because it doesn't match purchase order PO-26-0412, which was approved for £7,200 plus VAT (£8,640). The invoice is £8,640 plus VAT, so £1,440 higher, and we can't see an approved variation for the extra.\n\nCould you send a breakdown of the additional charges? If they relate to the AV upgrade requested on the day, I'll ask our Marketing team to confirm and get the PO amended.\n\nKind regards,\n\nPeter"
+   },
+   {
+    "from": {
+     "name": "Karen Doyle",
+     "email": "accounts@brightside-events.co.uk"
+    },
+    "to": [
+     "P030"
+    ],
+    "date": "2026-10-29T09:40",
+    "body": "Hi Peter,\n\nApologies — I should have attached it. The extra £1,440 is the AV upgrade (second screen and live-stream package) requested by Jess Morgan at 8.15am on the day, plus 12 additional lunches. Breakdown attached.\n\nKaren"
+   },
+   {
+    "from": "P030",
+    "to": [
+     {
+      "name": "Karen Doyle",
+      "email": "accounts@brightside-events.co.uk"
+     }
+    ],
+    "cc": [
+     "P027"
+    ],
+    "date": "2026-10-31T16:30",
+    "body": "Dear Karen,\n\nThank you. Jess has confirmed the additional items and the PO has been amended to £8,640 net. As the total is now under £10,000 it stays within the Head of Department and Finance Manager approval level, and Andrew Clarke has approved it.\n\nThe invoice is scheduled for our payment run on Tuesday 4 November. Please note that, as your contract with us ends on 31 December, our Marketing team will be in touch about events for 2027.\n\nKind regards,\n\nPeter"
+   }
+  ]
+ }
+]

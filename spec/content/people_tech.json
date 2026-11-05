@@ -1,0 +1,6141 @@
+[
+ {
+  "id": "ppl-employee-handbook-2026",
+  "type": "docx",
+  "title": "Employee Handbook 2026",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Handbook",
+  "category": "Policy",
+  "doc_type_label": "Employee Handbook",
+  "author": "P031",
+  "owner": "P006",
+  "modified_by": "P031",
+  "approved_by": "P001",
+  "created": "2024-01-08",
+  "modified": "2026-09-01",
+  "version": "4.0",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "handbook",
+   "HR",
+   "policies",
+   "onboarding",
+   "conduct"
+  ],
+  "summary": "The Delcorn Employee Handbook: how we work, pay and benefits, leave, conduct, IT and AI use, and where to find every HR policy.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2024-01-08",
+    "by": "P031",
+    "change": "Full rewrite for fully remote operating model"
+   },
+   {
+    "version": "3.1",
+    "date": "2025-04-01",
+    "by": "P031",
+    "change": "Meridian Education Group acquisition: pension and benefits wording"
+   },
+   {
+    "version": "4.0",
+    "date": "2026-09-01",
+    "by": "P031",
+    "change": "Added AI and Microsoft 365 Copilot section; updated leave, expenses and hybrid working references"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "Welcome to Delcorn"
+   },
+   {
+    "p": "This handbook explains how Delcorn works as an employer. It summarises our key HR policies and tells you where to find the full versions in the **People & Culture > HR Policies** library. Where the handbook and a full policy differ, the full policy applies."
+   },
+   {
+    "p": "Delcorn employs {{fact:headcount}} people, including {{fact:coach_count}} skills coaches who work remotely across England, Scotland and Wales. Our HQ is at {{company.hq.line1}}, {{company.hq.city}} {{company.hq.postcode}}, and we have co-working hubs in Leeds and Manchester."
+   },
+   {
+    "quote": "Small seeds, mighty organisations. Our people are the seeds — everything we achieve for learners starts with you.",
+    "by": "Helena Marsh, Chief Executive Officer & Founder"
+   },
+   {
+    "h2": "Our values"
+   },
+   {
+    "bullets": [
+     "**Learner first** — every decision starts with the apprentice",
+     "**Grow together** — coaches, employers and learners as one team",
+     "**Evidence over opinion** — we measure what matters",
+     "**Responsible with AI** — curious, ethical and practical"
+    ]
+   },
+   {
+    "h1": "1. Your employment"
+   },
+   {
+    "h2": "1.1 Contracts and probation"
+   },
+   {
+    "p": "All new employees serve a **six-month probation period**. Your line manager will hold check-ins at 1, 3 and 5 months, recorded in PeopleFlow. Probation may be extended once, by up to three months. Notice during probation is one week on either side."
+   },
+   {
+    "table": {
+     "columns": [
+      "Role level",
+      "Notice after probation"
+     ],
+     "rows": [
+      [
+       "Coordinators, specialists, coaches and tutors",
+       "1 month"
+      ],
+      [
+       "Managers and senior skills coaches",
+       "2 months"
+      ],
+      [
+       "Heads of function and directors",
+       "3 months"
+      ]
+     ],
+     "caption": "Table 1 — Notice periods"
+    }
+   },
+   {
+    "h2": "1.2 Working hours"
+   },
+   {
+    "p": "Full-time hours are **37.5 hours per week**, normally Monday to Friday between 08:00 and 18:00 with core collaboration hours of **10:00–15:00**. Skills coaches may flex hours to meet learners and employers on shift patterns, provided this is agreed with their delivery manager."
+   },
+   {
+    "h2": "1.3 Pay and benefits"
+   },
+   {
+    "bullets": [
+     "Salaries are paid monthly on the **25th** (or the previous working day) by BACS.",
+     "Pension: Delcorn contributes **6%** of basic salary when you contribute 4% (salary sacrifice available).",
+     "Private medical insurance after probation; life assurance at 4× salary from day one.",
+     "Employee assistance programme (EAP), 24/7, including six free counselling sessions per issue.",
+     "£500 annual personal CPD allowance (see Coach CPD Framework for coaches).",
+     "Cycle-to-work and home-technology salary sacrifice schemes.",
+     "Annual pay review effective **1 August**, aligned to the financial year."
+    ]
+   },
+   {
+    "h1": "2. Time away from work"
+   },
+   {
+    "p": "Full details are in the **Annual Leave Policy**, **Sickness Absence Policy** and **Family Leave Policy**. In summary:"
+   },
+   {
+    "kv": [
+     [
+      "Annual leave",
+      "27 days plus bank holidays (pro rata), rising by 1 day for every 2 years' service to a maximum of 30 days"
+     ],
+     [
+      "Leave year",
+      "1 January – 31 December"
+     ],
+     [
+      "Carry-over",
+      "Up to 5 days, to be taken by 31 March"
+     ],
+     [
+      "Wellbeing day",
+      "1 extra day per leave year, taken any time with 48 hours' notice"
+     ],
+     [
+      "Sickness reporting",
+      "Tell your manager by phone or Teams call before 09:30 on the first day"
+     ],
+     [
+      "Enhanced maternity/adoption pay",
+      "16 weeks at full pay, then statutory"
+     ],
+     [
+      "Enhanced paternity/partner pay",
+      "4 weeks at full pay"
+     ]
+    ]
+   },
+   {
+    "h1": "3. Where and how we work"
+   },
+   {
+    "p": "Delcorn is a **remote-first** organisation. Most staff work from home; hubs in London, Leeds and Manchester are bookable for collaboration days. See the **Hybrid & Remote Working Policy** for home-working allowances, equipment and safety checks."
+   },
+   {
+    "bullets": [
+     "One-off home office allowance of **£300** on joining, plus **£25 per month** towards utilities (paid through payroll).",
+     "Laptop, headset, monitor and keyboard issued by IT; request extra peripherals through FixDesk.",
+     "Complete the DSE self-assessment in PeopleFlow within your first two weeks."
+    ]
+   },
+   {
+    "h1": "4. Expenses and travel"
+   },
+   {
+    "p": "Business travel must be the most economical option that is reasonable for the journey. Claims are submitted through **Ledgerline Expenses** with receipts within **30 days** of the expense being incurred. Key limits (full detail in the **Expenses Policy**):"
+   },
+   {
+    "table": {
+     "columns": [
+      "Item",
+      "Limit"
+     ],
+     "rows": [
+      [
+       "Hotel — London (per night, incl. breakfast)",
+       "£160"
+      ],
+      [
+       "Hotel — rest of UK (per night, incl. breakfast)",
+       "£110"
+      ],
+      [
+       "Evening meal when staying overnight",
+       "£30"
+      ],
+      [
+       "Lunch on a day away from home base (5+ hours)",
+       "£10"
+      ],
+      [
+       "Mileage — own car",
+       "45p per mile (first 10,000 business miles), 25p thereafter"
+      ],
+      [
+       "Rail",
+       "Standard class, booked 7+ days ahead where possible"
+      ]
+     ],
+     "caption": "Table 2 — Expense limits at a glance"
+    }
+   },
+   {
+    "h1": "5. Conduct and standards"
+   },
+   {
+    "p": "We expect everyone to act with integrity, treat colleagues, learners and employers with respect, and uphold our safeguarding and Prevent duties. Concerns about conduct are handled under the **Disciplinary & Grievance Procedure**. Whistleblowing concerns can be raised confidentially with the People Director or, if preferred, the Chair of Meridian Education Group's Audit Committee."
+   },
+   {
+    "bullets": [
+     "Complete mandatory training within 30 days of joining and annually thereafter: Safeguarding & Prevent, Data Protection, Information Security, Equality & Inclusion, Responsible AI.",
+     "Declare conflicts of interest, gifts and hospitality over £50 in the PeopleFlow register.",
+     "Never share learner personal data outside approved systems (Aptiva, Microsoft 365, PeopleFlow)."
+    ]
+   },
+   {
+    "h1": "6. Technology, data and AI"
+   },
+   {
+    "p": "Every member of staff receives a **Microsoft 365 Copilot** licence as part of the autumn 2026 rollout. Copilot works only with content you already have permission to see — which is why keeping SharePoint permissions tidy matters. Before using any AI tool, read the **AI Acceptable Use Policy** (Learning Technology & IT > IT & Data Policies)."
+   },
+   {
+    "callout": "Copilot is approved for work use. Public AI chatbots on personal accounts are **not** approved for any Delcorn, learner or employer information. You are always responsible for checking AI output before you use or share it.",
+    "title": "AI in a sentence"
+   },
+   {
+    "bullets": [
+     "Apply the right **sensitivity label** (Public / Internal / Confidential / Highly Confidential) to documents you create.",
+     "Report suspected phishing using the **Report** button in Outlook.",
+     "Log IT issues at FixDesk or via the IT Service Desk Teams channel."
+    ]
+   },
+   {
+    "h1": "7. Wellbeing and support"
+   },
+   {
+    "p": "Our wellbeing offer includes the EAP, trained Mental Health First Aiders (listed on the Wellbeing page), monthly 'Camera-off Fridays' for internal meetings, and quarterly hub social days. If you are struggling, talk to your manager, your HR Business Partner ({{person:P031}}) or any Mental Health First Aider."
+   },
+   {
+    "h1": "8. Policy index"
+   },
+   {
+    "table": {
+     "columns": [
+      "Policy",
+      "Owner",
+      "Library"
+     ],
+     "rows": [
+      [
+       "Annual Leave Policy",
+       "Amy Collins",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Expenses Policy",
+       "Marcus Bell",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Hybrid & Remote Working Policy",
+       "Marcus Bell",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Sickness Absence Policy",
+       "Amy Collins",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Family Leave Policy",
+       "Amy Collins",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Equality, Diversity & Inclusion Policy",
+       "Marcus Bell",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "Disciplinary & Grievance Procedure",
+       "Marcus Bell",
+       "People & Culture > HR Policies"
+      ],
+      [
+       "AI Acceptable Use Policy",
+       "Liam O'Connor",
+       "Learning Technology & IT > IT & Data Policies"
+      ],
+      [
+       "Information Security Policy",
+       "Liam O'Connor",
+       "Learning Technology & IT > IT & Data Policies"
+      ],
+      [
+       "Data Protection Policy",
+       "Liam O'Connor",
+       "Learning Technology & IT > IT & Data Policies"
+      ]
+     ]
+    }
+   },
+   {
+    "signature": "P006",
+    "date": "2026-09-01"
+   }
+  ]
+ },
+ {
+  "id": "ppl-expenses-policy",
+  "type": "docx",
+  "title": "Expenses Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Pay & Expenses",
+  "category": "Policy",
+  "author": "P031",
+  "owner": "P006",
+  "modified_by": "P031",
+  "approved_by": "P003",
+  "created": "2023-03-01",
+  "modified": "2026-08-01",
+  "version": "3.2",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "tags": [
+   "expenses",
+   "travel",
+   "hotel",
+   "mileage",
+   "Ledgerline",
+   "subsistence"
+  ],
+  "summary": "Rules for business travel, accommodation, subsistence and mileage, with limits, approval levels and the 30-day Ledgerline claim deadline.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2024-08-01",
+    "by": "P031",
+    "change": "Rates reviewed; Ledgerline Expenses replaces spreadsheet claims"
+   },
+   {
+    "version": "3.1",
+    "date": "2025-08-01",
+    "by": "P031",
+    "change": "London hotel cap raised from £150 to £160"
+   },
+   {
+    "version": "3.2",
+    "date": "2026-08-01",
+    "by": "P031",
+    "change": "Clarified hub away-day rules and team meal limits"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "This policy explains what business expenses Delcorn will reimburse and how to claim them. It applies to all employees, fixed-term staff and associate coaches engaged directly by Delcorn. It is designed to be fair, simple and HMRC-compliant: you should be neither out of pocket nor better off as a result of business travel."
+   },
+   {
+    "h1": "2. Principles"
+   },
+   {
+    "bullets": [
+     "Spend Delcorn's money as if it were your own — choose the most economical option that is reasonable.",
+     "Use Teams for meetings wherever possible; travel only when being there in person adds clear value (e.g. employer site visits, observations, hub away-days, workshops).",
+     "Get **pre-approval** from your line manager for any overnight stay or any trip expected to cost more than £150 in total.",
+     "Keep itemised receipts (photos are fine) for every claim."
+    ]
+   },
+   {
+    "h1": "3. Travel"
+   },
+   {
+    "h2": "3.1 Rail"
+   },
+   {
+    "p": "Travel **standard class**, booked at least 7 days in advance where possible using advance or off-peak fares. First class is not reimbursed unless it is cheaper than standard class on the day (attach evidence). Railcards: Delcorn will reimburse a 16–25, 26–30 or Two Together railcard if it saves more than its cost within 12 months."
+   },
+   {
+    "h2": "3.2 Own vehicle (mileage)"
+   },
+   {
+    "p": "Use of your own car is reimbursed at the HMRC approved mileage rate of **45p per mile for the first 10,000 business miles** in a tax year and **25p per mile** thereafter. Motorcycles are 24p and bicycles 20p per mile. Claim only business miles: for journeys from home, deduct your normal commute to your contracted base (for home-based staff the base is home, so all business miles count)."
+   },
+   {
+    "bullets": [
+     "You must have business-use insurance and a valid MOT; you confirm this annually in PeopleFlow.",
+     "Passenger supplement: 5p per mile per colleague carried on business.",
+     "Parking and tolls are reimbursed with receipts; parking fines and speeding penalties are never reimbursed."
+    ]
+   },
+   {
+    "h2": "3.3 Taxis, flights and hire cars"
+   },
+   {
+    "p": "Taxis are reimbursed only where public transport is unavailable, unsafe (for example late at night) or you are carrying heavy equipment. Domestic flights require Head of function approval and are only used where rail would take more than 5 hours each way. Hire cars are booked through Finance."
+   },
+   {
+    "h1": "4. Accommodation"
+   },
+   {
+    "p": "Overnight stays are permitted where an early start or late finish makes return travel unreasonable (generally more than 2.5 hours each way). Book through **Ledgerline Travel** or your own card. The following caps apply per night, including breakfast and VAT:"
+   },
+   {
+    "table": {
+     "columns": [
+      "Location",
+      "Cap per night",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "London (inside the M25)",
+       "£160",
+       "Includes breakfast; Head of function may approve up to £190 during major events"
+      ],
+      [
+       "Leeds and Manchester",
+       "£110",
+       "Use the hub partner hotel rates where available"
+      ],
+      [
+       "Rest of UK",
+       "£110",
+       "Includes breakfast"
+      ],
+      [
+       "Staying with friends or family",
+       "£25",
+       "Flat-rate gift allowance, no receipt needed"
+      ]
+     ],
+     "caption": "Table 1 — Hotel caps"
+    }
+   },
+   {
+    "h1": "5. Subsistence (meals)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Situation",
+      "Maximum",
+      "Conditions"
+     ],
+     "rows": [
+      [
+       "Breakfast",
+       "£10",
+       "Only if you leave home before 06:30 and it is not included in your hotel rate"
+      ],
+      [
+       "Lunch",
+       "£10",
+       "Away from home base on business for 5+ hours"
+      ],
+      [
+       "Evening meal",
+       "£30",
+       "Only when staying overnight on business, or returning home after 20:00"
+      ],
+      [
+       "Team meal at a hub away-day",
+       "£35 per head",
+       "Pre-approved by Head of function; one claimant pays and lists attendees"
+      ],
+      [
+       "Client / employer hospitality",
+       "£50 per head",
+       "Must be recorded in the gifts & hospitality register"
+      ]
+     ],
+     "caption": "Table 2 — Meal allowances"
+    }
+   },
+   {
+    "p": "Alcohol is not reimbursed except as part of approved employer hospitality. Meal allowances are maximums, not per diems — claim what you actually spent."
+   },
+   {
+    "h1": "6. Hub away-days and team events"
+   },
+   {
+    "p": "For team away-days at the Leeds, Manchester or London hubs: travel is claimed as above; one overnight stay is allowed where travel exceeds 2.5 hours each way; a team lunch is provided centrally (do not claim lunch separately); and an evening team meal up to £35 per head may be pre-approved by the Head of function."
+   },
+   {
+    "h1": "7. How to claim"
+   },
+   {
+    "numbered": [
+     "Log in to **Ledgerline Expenses** (via the Delcorn Hub > Quick links).",
+     "Create one claim per trip; attach a photo of each receipt.",
+     "Select the correct cost centre (your team) and, for employer visits, the employer account code.",
+     "Submit within **30 days** of the date the expense was incurred. Claims older than 30 days need Finance Manager approval; claims older than 90 days will not be paid.",
+     "Your line manager approves in Ledgerline; claims over £500 also need Head of function approval.",
+     "Approved claims received by the 15th are paid with that month's salary on the 25th."
+    ]
+   },
+   {
+    "h1": "8. Approval levels"
+   },
+   {
+    "table": {
+     "columns": [
+      "Claim value",
+      "Approver"
+     ],
+     "rows": [
+      [
+       "Up to £500",
+       "Line manager"
+      ],
+      [
+       "£500.01 – £2,000",
+       "Line manager + Head of function"
+      ],
+      [
+       "Over £2,000",
+       "Head of function + Chief Financial Officer"
+      ],
+      [
+       "Any claim by a director",
+       "Chief Financial Officer (CFO's claims approved by CEO)"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "9. Company cards and misuse"
+   },
+   {
+    "p": "A small number of staff hold Delcorn purchasing cards; card statements must be reconciled in Ledgerline by the 5th working day of each month. False or inflated claims are treated as potential gross misconduct under the Disciplinary & Grievance Procedure."
+   },
+   {
+    "h1": "10. Contacts"
+   },
+   {
+    "kv": [
+     [
+      "Policy questions",
+      "Amy Collins, HR Business Partner"
+     ],
+     [
+      "Ledgerline / payment queries",
+      "Peter Walsh, Management Accountant"
+     ],
+     [
+      "Policy owner",
+      "Marcus Bell, People Director"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-annual-leave-policy",
+  "type": "docx",
+  "title": "Annual Leave Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Leave & Absence",
+  "category": "Policy",
+  "author": "P031",
+  "owner": "P031",
+  "modified_by": "P031",
+  "approved_by": "P006",
+  "created": "2023-11-01",
+  "modified": "2026-01-05",
+  "version": "2.3",
+  "status": "Approved",
+  "review_date": "2027-01-05",
+  "classification": "Internal",
+  "tags": [
+   "annual leave",
+   "holiday",
+   "carry-over",
+   "wellbeing day",
+   "bank holidays"
+  ],
+  "summary": "Annual leave entitlement (27 days plus bank holidays, rising with service to 30), the wellbeing day, booking rules and the 5-day carry-over limit.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2024-01-01",
+    "by": "P031",
+    "change": "Service-related leave introduced"
+   },
+   {
+    "version": "2.1",
+    "date": "2024-12-01",
+    "by": "P031",
+    "change": "Wellbeing day added"
+   },
+   {
+    "version": "2.2",
+    "date": "2025-06-01",
+    "by": "P031",
+    "change": "Buy/sell leave scheme added"
+   },
+   {
+    "version": "2.3",
+    "date": "2026-01-05",
+    "by": "P031",
+    "change": "Clarified carry-over deadline and coach booking rules around EPA peaks"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "Rest matters. This policy sets out how much annual leave you receive, how to book it and what happens to leave you have not used. It applies to all employees. Leave is recorded in **PeopleFlow**."
+   },
+   {
+    "h1": "2. Leave year"
+   },
+   {
+    "p": "The leave year runs from **1 January to 31 December**. (Note: this differs from Delcorn's financial year, which ends 31 July.)"
+   },
+   {
+    "h1": "3. Entitlement"
+   },
+   {
+    "p": "Full-time employees receive **27 days' annual leave plus the eight UK bank holidays** (or the Scottish/Northern Irish equivalents where you live there). Part-time entitlement is pro rata to your FTE."
+   },
+   {
+    "h2": "3.1 Service-related leave"
+   },
+   {
+    "p": "You gain **one extra day for every two complete years of service**, up to a maximum of **30 days** (plus bank holidays). The extra day is added on 1 January following your service anniversary."
+   },
+   {
+    "table": {
+     "columns": [
+      "Complete years of service",
+      "Annual leave (excl. bank holidays)"
+     ],
+     "rows": [
+      [
+       "0–1",
+       "27 days"
+      ],
+      [
+       "2–3",
+       "28 days"
+      ],
+      [
+       "4–5",
+       "29 days"
+      ],
+      [
+       "6+",
+       "30 days (maximum)"
+      ]
+     ],
+     "caption": "Table 1 — Entitlement by service"
+    }
+   },
+   {
+    "h2": "3.2 Wellbeing day"
+   },
+   {
+    "p": "Everyone receives **one wellbeing day** per leave year in addition to annual leave. Take it whenever you need it with at least 48 hours' notice — no reason needed. It cannot be carried over or paid in lieu."
+   },
+   {
+    "h2": "3.3 Starters and leavers"
+   },
+   {
+    "p": "If you join or leave part-way through the year, entitlement is calculated pro rata (rounded up to the nearest half day). On leaving, untaken leave is paid; leave taken in excess of accrued entitlement is deducted from final pay."
+   },
+   {
+    "h1": "4. Booking leave"
+   },
+   {
+    "bullets": [
+     "Request leave in PeopleFlow at least **twice the length of the leave in advance** (e.g. two weeks' notice for one week off).",
+     "Managers respond within 5 working days. Requests are generally approved on a first-come basis.",
+     "Skills coaches must rearrange any learner reviews and workshops falling in the period and note cover arrangements in Aptiva.",
+     "Coaches should avoid more than 5 consecutive days' leave in the last two weeks of July and the first two weeks of September (peak gateway and new-start periods) unless agreed with the Head of Delivery.",
+     "No more than two weeks (10 days) may be taken consecutively without Head of function approval."
+    ]
+   },
+   {
+    "h2": "4.1 Christmas closure"
+   },
+   {
+    "p": "Delcorn closes between Christmas and New Year. Staff must reserve **three days** of annual leave for the closure period (29–31 December 2026 for this leave year). These are deducted automatically in PeopleFlow."
+   },
+   {
+    "h1": "5. Carry-over"
+   },
+   {
+    "p": "We want you to use your leave within the year. You may carry over **up to 5 days** of unused annual leave into the next leave year. Carried-over days must be taken by **31 March**; any carried-over days not taken by then are lost."
+   },
+   {
+    "bullets": [
+     "Carry-over above 5 days is only permitted in exceptional circumstances (e.g. long-term sickness or family leave prevented you taking leave) and must be approved by the **People Director**.",
+     "Statutory rights are protected: if sickness or family leave meant you could not take your statutory 5.6 weeks, that leave carries over in line with the law.",
+     "Bank holidays and the wellbeing day cannot be carried over."
+    ]
+   },
+   {
+    "callout": "Leave balances are frozen in PeopleFlow on 31 December. Up to 5 days roll forward automatically; anything above that is removed unless an exception has been approved before 15 December.",
+    "title": "Year-end"
+   },
+   {
+    "h1": "6. Buying and selling leave"
+   },
+   {
+    "p": "Through the annual benefits window (November), you may buy up to 5 extra days (deducted from salary across the year) or sell up to 3 days, provided you still take at least 28 days including bank holidays."
+   },
+   {
+    "h1": "7. Sickness during leave"
+   },
+   {
+    "p": "If you are ill during annual leave, tell your manager on the first day of illness and provide a fit note (or self-certification for up to 7 days). The days will be recorded as sickness and reinstated as leave."
+   },
+   {
+    "h1": "8. Contacts"
+   },
+   {
+    "kv": [
+     [
+      "Questions",
+      "Amy Collins, HR Business Partner"
+     ],
+     [
+      "PeopleFlow access",
+      "IT Service Desk (FixDesk)"
+     ],
+     [
+      "Exceptions",
+      "Marcus Bell, People Director"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-hybrid-remote-policy",
+  "type": "docx",
+  "title": "Hybrid & Remote Working Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Ways of Working",
+  "category": "Policy",
+  "author": "P006",
+  "owner": "P006",
+  "modified_by": "P033",
+  "approved_by": "P002",
+  "created": "2021-06-01",
+  "modified": "2026-03-02",
+  "version": "3.0",
+  "status": "Approved",
+  "review_date": "2027-03-01",
+  "classification": "Internal",
+  "tags": [
+   "remote working",
+   "hybrid",
+   "home office",
+   "hubs",
+   "DSE",
+   "working abroad"
+  ],
+  "summary": "How Delcorn's remote-first model works: home working allowances, equipment, hub booking, safety, data security at home and working abroad.",
+  "blocks": [
+   {
+    "h1": "1. Our approach"
+   },
+   {
+    "p": "Delcorn has been remote-first since 2021. Learners and employers are spread across the UK and so are we. Most roles are contractually **home-based**; a small number of London HQ roles are **hybrid** with an expectation of two days a week in the office. Your contract states which applies."
+   },
+   {
+    "h1": "2. Working patterns"
+   },
+   {
+    "bullets": [
+     "Core collaboration hours are **10:00–15:00**, Monday to Friday.",
+     "Keep your Teams status and Outlook calendar up to date so colleagues know when you are available.",
+     "Teams are expected to meet in person at least **once a quarter** at a hub (away-day). Travel is claimable under the Expenses Policy.",
+     "Flexible working requests (e.g. compressed hours) can be made from day one and are answered within 8 weeks."
+    ]
+   },
+   {
+    "h1": "3. Hubs"
+   },
+   {
+    "table": {
+     "columns": [
+      "Hub",
+      "Address",
+      "Desks",
+      "Booking"
+     ],
+     "rows": [
+      [
+       "London HQ",
+       "3rd Floor, The Granary, 18 Wharf Road, N1 7GR",
+       "40 desks, 4 meeting rooms",
+       "Teams > Places app"
+      ],
+      [
+       "Leeds hub",
+       "Suite 4, Calls Landing, 36 The Calls, LS2 7EW",
+       "16 desks, 2 rooms",
+       "Teams > Places app"
+      ],
+      [
+       "Manchester hub",
+       "2nd Floor, Tib Street Works, M4 1SH",
+       "16 desks, 2 rooms",
+       "Teams > Places app"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Equipment and allowances"
+   },
+   {
+    "bullets": [
+     "IT supplies a laptop, 24\" monitor, headset, keyboard and mouse. Request extras (e.g. second monitor, ergonomic mouse) through FixDesk.",
+     "**£300 one-off home office allowance** on joining for a chair or desk (claim in Ledgerline within 3 months).",
+     "**£25 per month home-working allowance** towards utilities, paid via payroll (non-taxable under HMRC rules).",
+     "Equipment remains Delcorn property and must be returned within 5 working days of leaving."
+    ]
+   },
+   {
+    "h1": "5. Health and safety"
+   },
+   {
+    "p": "Complete the **DSE self-assessment** in PeopleFlow within two weeks of joining and whenever you move home. Report any issues to your manager; Occupational Health referrals are available. Lone-working coaches visiting employer sites must share their visit plan in the team calendar and check in after the visit."
+   },
+   {
+    "h1": "6. Information security at home"
+   },
+   {
+    "bullets": [
+     "Work on your Delcorn laptop only; never store learner data on personal devices or USB sticks.",
+     "Lock your screen when you step away (Windows + L) and use a headset for confidential calls.",
+     "Do not let family members use your work laptop.",
+     "Printed learner information must be avoided; if unavoidable, shred it at home with a cross-cut shredder (claimable)."
+    ]
+   },
+   {
+    "h1": "7. Working from abroad"
+   },
+   {
+    "p": "You may work from outside the UK for up to **20 working days** in any 12-month period, subject to manager approval at least four weeks in advance and confirmation from IT that the destination is not on the restricted list. Learner data must not be accessed from outside the UK and EEA."
+   },
+   {
+    "h1": "8. Contacts"
+   },
+   {
+    "kv": [
+     [
+      "Policy owner",
+      "Marcus Bell, People Director"
+     ],
+     [
+      "Equipment",
+      "Mohammed Ali, IT Service Desk Lead"
+     ],
+     [
+      "DSE and wellbeing",
+      "Ellie Wood, CPD & Onboarding Coordinator"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-sickness-absence-policy",
+  "type": "docx",
+  "title": "Sickness Absence Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Leave & Absence",
+  "category": "Policy",
+  "author": "P031",
+  "owner": "P031",
+  "modified_by": "P031",
+  "approved_by": "P006",
+  "created": "2022-02-01",
+  "modified": "2025-10-13",
+  "version": "2.1",
+  "status": "Approved",
+  "review_date": "2026-10-13",
+  "classification": "Internal",
+  "tags": [
+   "sickness",
+   "absence",
+   "Bradford factor",
+   "fit note",
+   "return to work",
+   "sick pay"
+  ],
+  "summary": "How to report sickness, company sick pay, return-to-work meetings and the Bradford factor triggers for absence reviews.",
+  "blocks": [
+   {
+    "callout": "This policy passed its review date on 13 October 2026. A refreshed version (v2.2) is with Amy Collins for consultation; v2.1 remains in force until it is replaced.",
+    "title": "Review status"
+   },
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "We want to support colleagues who are unwell, help them return to work safely, and manage frequent short-term absence fairly and consistently."
+   },
+   {
+    "h1": "2. Reporting absence"
+   },
+   {
+    "numbered": [
+     "Call or Teams-call your line manager **before 09:30** on your first day of absence (a message is acceptable only if you are unable to speak).",
+     "Skills coaches must also tell their manager which learner sessions need rescheduling so the coaching team can notify learners and employers.",
+     "Record the absence in PeopleFlow on your return (or your manager will do it).",
+     "Self-certify for absences of up to 7 calendar days. From day 8 you need a fit note from a GP or other healthcare professional."
+    ]
+   },
+   {
+    "h1": "3. Company sick pay"
+   },
+   {
+    "table": {
+     "columns": [
+      "Length of service",
+      "Full pay",
+      "Half pay"
+     ],
+     "rows": [
+      [
+       "Under 6 months (probation)",
+       "SSP only",
+       "—"
+      ],
+      [
+       "6 months – 2 years",
+       "4 weeks",
+       "4 weeks"
+      ],
+      [
+       "2 – 5 years",
+       "8 weeks",
+       "8 weeks"
+      ],
+      [
+       "5 years +",
+       "13 weeks",
+       "13 weeks"
+      ]
+     ],
+     "caption": "Table 1 — Company sick pay in any rolling 12 months"
+    }
+   },
+   {
+    "h1": "4. Return-to-work conversations"
+   },
+   {
+    "p": "Managers hold a short, supportive return-to-work conversation after **every** absence, ideally on the first day back, and record it in PeopleFlow. The aim is to check you are fit to work, understand any underlying cause and agree any adjustments."
+   },
+   {
+    "h1": "5. Bradford factor and absence review triggers"
+   },
+   {
+    "p": "To manage frequent short-term absence fairly, PeopleFlow calculates a **Bradford factor** score over a rolling 52 weeks: **B = S² × D**, where S is the number of separate spells of absence and D is the total days absent. Frequent short spells score higher than a single longer absence."
+   },
+   {
+    "table": {
+     "columns": [
+      "Bradford score / trigger",
+      "Action"
+     ],
+     "rows": [
+      [
+       "51 or more",
+       "Informal conversation with line manager to understand causes and offer support"
+      ],
+      [
+       "**128 or more** (or 3 spells in 6 months)",
+       "**Stage 1 formal absence review** meeting; improvement period of 3 months"
+      ],
+      [
+       "256 or more",
+       "Stage 2 absence review; HR Business Partner attends; Occupational Health referral considered"
+      ],
+      [
+       "512 or more",
+       "Stage 3 final review; possible outcomes include final written warning or dismissal on capability grounds"
+      ]
+     ],
+     "caption": "Table 2 — Bradford factor triggers"
+    }
+   },
+   {
+    "p": "Example: 4 spells totalling 8 days gives 4 × 4 × 8 = **128**, which triggers a Stage 1 review. One spell of 10 days scores 1 × 1 × 10 = 10."
+   },
+   {
+    "callout": "Triggers prompt a conversation, not an automatic sanction. Absences related to disability, pregnancy, IVF treatment or an accepted workplace injury are discounted or adjusted, and managers must take HR advice before any formal stage.",
+    "title": "Use with judgement"
+   },
+   {
+    "h1": "6. Long-term absence"
+   },
+   {
+    "p": "Absence of four weeks or more is long-term. HR and your manager will keep in regular agreed contact, refer to Occupational Health, and plan a phased return where appropriate (typically over 2–4 weeks on full pay)."
+   },
+   {
+    "h1": "7. Contacts"
+   },
+   {
+    "kv": [
+     [
+      "Policy owner",
+      "Amy Collins, HR Business Partner"
+     ],
+     [
+      "Occupational Health provider",
+      "Healthwise OH Partners (fictional) via HR"
+     ],
+     [
+      "Employee Assistance Programme",
+      "24/7 helpline in the Wellbeing library"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-family-leave-policy",
+  "type": "docx",
+  "title": "Family Leave Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Leave & Absence",
+  "category": "Policy",
+  "author": "P031",
+  "owner": "P031",
+  "modified_by": "P031",
+  "approved_by": "P006",
+  "created": "2022-04-04",
+  "modified": "2025-04-07",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2027-04-01",
+  "classification": "Internal",
+  "tags": [
+   "maternity",
+   "paternity",
+   "adoption",
+   "shared parental leave",
+   "family leave",
+   "carers"
+  ],
+  "summary": "Enhanced maternity, adoption, paternity, shared parental, neonatal, carer's and compassionate leave at Delcorn.",
+  "blocks": [
+   {
+    "h1": "1. Overview"
+   },
+   {
+    "p": "Delcorn offers family leave above the statutory minimum from **day one of employment** (statutory eligibility rules still apply to statutory pay). Talk to Amy Collins as early as you feel comfortable — conversations are confidential."
+   },
+   {
+    "h1": "2. Entitlements at a glance"
+   },
+   {
+    "table": {
+     "columns": [
+      "Leave type",
+      "Leave",
+      "Delcorn pay"
+     ],
+     "rows": [
+      [
+       "Maternity",
+       "Up to 52 weeks",
+       "16 weeks full pay, then statutory maternity pay to week 39"
+      ],
+      [
+       "Adoption (primary adopter)",
+       "Up to 52 weeks",
+       "16 weeks full pay, then statutory adoption pay to week 39"
+      ],
+      [
+       "Paternity / partner",
+       "Up to 4 weeks (within 52 weeks of birth/placement)",
+       "4 weeks full pay"
+      ],
+      [
+       "Shared parental leave",
+       "Up to 50 weeks shared",
+       "Matched to maternity enhancement (16 weeks full pay shared)"
+      ],
+      [
+       "Neonatal care leave",
+       "Up to 12 weeks",
+       "Full pay"
+      ],
+      [
+       "Fertility treatment",
+       "Up to 5 days per year",
+       "Full pay"
+      ],
+      [
+       "Pregnancy loss (before 24 weeks)",
+       "Up to 2 weeks for either parent",
+       "Full pay"
+      ],
+      [
+       "Carer's leave",
+       "1 week per year (statutory) + 2 days",
+       "Full pay for all 7 days"
+      ],
+      [
+       "Compassionate / bereavement",
+       "Up to 5 days (close family); 2 weeks parental bereavement",
+       "Full pay"
+      ],
+      [
+       "Emergency time off for dependants",
+       "Reasonable time",
+       "Up to 2 days full pay per incident"
+      ]
+     ],
+     "caption": "Table 1 — Family leave"
+    }
+   },
+   {
+    "h1": "3. Notification"
+   },
+   {
+    "bullets": [
+     "Maternity: tell us by the end of the 15th week before the expected week of childbirth and provide your MATB1.",
+     "Paternity: give at least 28 days' notice of the dates.",
+     "Shared parental leave: 8 weeks' notice of each block."
+    ]
+   },
+   {
+    "h1": "4. Keeping in touch"
+   },
+   {
+    "p": "You may work up to 10 paid keeping-in-touch (KIT) days during maternity or adoption leave (20 SPLIT days for shared parental leave). KIT days are optional and paid at your normal daily rate."
+   },
+   {
+    "h1": "5. Repayment"
+   },
+   {
+    "p": "If you do not return for at least **six months** after enhanced maternity or adoption pay, the enhanced element (above statutory) is repayable on a pro rata basis, unless the People Director waives this."
+   },
+   {
+    "h1": "6. Returning to work"
+   },
+   {
+    "p": "We will support flexible working requests on return and offer a phased return using accrued annual leave. Skills coaches returning from leave receive a caseload ramp-up plan (typically 50% caseload for the first month)."
+   }
+  ]
+ },
+ {
+  "id": "ppl-edi-policy",
+  "type": "docx",
+  "title": "Equality, Diversity & Inclusion Policy",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Inclusion",
+  "category": "Policy",
+  "author": "P006",
+  "owner": "P006",
+  "modified_by": "P006",
+  "approved_by": "P001",
+  "created": "2022-09-01",
+  "modified": "2026-02-02",
+  "version": "2.2",
+  "status": "Approved",
+  "review_date": "2027-02-01",
+  "classification": "Public",
+  "tags": [
+   "EDI",
+   "equality",
+   "diversity",
+   "inclusion",
+   "Equality Act",
+   "reasonable adjustments"
+  ],
+  "summary": "Delcorn's commitment to equality, diversity and inclusion for staff and learners, responsibilities, reasonable adjustments and monitoring.",
+  "blocks": [
+   {
+    "h1": "1. Policy statement"
+   },
+   {
+    "p": "Delcorn is committed to a working and learning environment where everyone is treated with dignity and respect, and where differences are valued. We will not tolerate discrimination, harassment or victimisation on the grounds of any protected characteristic under the **Equality Act 2010**: age, disability, gender reassignment, marriage and civil partnership, pregnancy and maternity, race, religion or belief, sex and sexual orientation. We also consider socio-economic background, caring responsibilities and neurodiversity."
+   },
+   {
+    "h1": "2. Scope"
+   },
+   {
+    "p": "This policy applies to employees, associates, job applicants and, alongside the Learner Support Policy, to apprentices and employer partners. It covers recruitment, pay, promotion, training, performance management, delivery of learning and the use of AI tools in decisions about people."
+   },
+   {
+    "h1": "3. Responsibilities"
+   },
+   {
+    "table": {
+     "columns": [
+      "Who",
+      "Responsibility"
+     ],
+     "rows": [
+      [
+       "Board and Executive",
+       "Set EDI objectives; review progress twice a year"
+      ],
+      [
+       "People Director",
+       "Owns this policy and the annual EDI report, including the voluntary gender pay gap note"
+      ],
+      [
+       "Managers",
+       "Make fair decisions, support reasonable adjustments, challenge inappropriate behaviour"
+      ],
+      [
+       "All staff",
+       "Treat others with respect; complete EDI training annually; challenge or report discrimination"
+      ],
+      [
+       "Skills coaches",
+       "Promote British values and inclusive practice in coaching and reviews"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. Reasonable adjustments"
+   },
+   {
+    "p": "We make reasonable adjustments for disabled colleagues and candidates, for example assistive technology (screen readers, dictation), flexible hours, adjusted targets or modified equipment. Adjustments are recorded in a confidential Workplace Adjustment Passport held in PeopleFlow."
+   },
+   {
+    "h1": "5. Recruitment"
+   },
+   {
+    "bullets": [
+     "Anonymised CV screening for all roles.",
+     "Diverse interview panels of at least two people with structured scoring.",
+     "Guaranteed interview for disabled candidates meeting essential criteria (Disability Confident Committed).",
+     "AI tools must not be used to screen, rank or reject candidates."
+    ]
+   },
+   {
+    "h1": "6. 2026/27 EDI objectives"
+   },
+   {
+    "numbered": [
+     "Reduce the mean gender pay gap from 11.8% towards 8% by April 2028.",
+     "Increase ethnic minority representation in management roles from 19% to 25%.",
+     "Achieve an inclusion index of 80% in the 2027 engagement survey (2026: 76%).",
+     "Launch three staff networks (Neurodiversity, Parents & Carers, Race & Heritage) by March 2027."
+    ]
+   },
+   {
+    "h1": "7. Raising concerns"
+   },
+   {
+    "p": "Concerns can be raised with your manager, the HR Business Partner, or formally under the Disciplinary & Grievance Procedure. Learners can raise concerns through their coach, the Learner Support team or the complaints procedure."
+   }
+  ]
+ },
+ {
+  "id": "ppl-disciplinary-grievance",
+  "type": "pdf",
+  "title": "Disciplinary & Grievance Procedure",
+  "site": "people",
+  "library": "HR Policies",
+  "folder": "Conduct",
+  "category": "Procedure",
+  "author": "P031",
+  "owner": "P006",
+  "modified_by": "P031",
+  "approved_by": "P006",
+  "created": "2022-03-01",
+  "modified": "2025-11-17",
+  "version": "3.0",
+  "status": "Approved",
+  "review_date": "2027-11-17",
+  "classification": "Internal",
+  "tags": [
+   "disciplinary",
+   "grievance",
+   "ACAS",
+   "misconduct",
+   "appeal"
+  ],
+  "summary": "ACAS-aligned procedure for handling misconduct and staff grievances, including stages, timescales, right to be accompanied and appeals.",
+  "blocks": [
+   {
+    "h1": "1. Purpose and principles"
+   },
+   {
+    "p": "This procedure follows the **ACAS Code of Practice on Disciplinary and Grievance Procedures**. It helps managers deal with conduct issues fairly and gives employees a clear route to raise concerns. Performance (capability) and sickness are handled under separate procedures."
+   },
+   {
+    "bullets": [
+     "Issues are resolved informally where possible.",
+     "No disciplinary action is taken until the matter has been investigated.",
+     "Employees are told the allegations and given evidence in advance of any hearing.",
+     "Employees may be accompanied by a colleague or trade union representative at formal meetings.",
+     "Meetings may take place on Teams; recordings are not made without everyone's consent."
+    ]
+   },
+   {
+    "h1": "2. Disciplinary procedure"
+   },
+   {
+    "numbered": [
+     "**Investigation** — an investigating manager (not the hearing manager) gathers facts, normally within 10 working days.",
+     "**Invitation** — at least 5 working days' written notice of a hearing, with evidence attached.",
+     "**Hearing** — chaired by a manager with HR present; the employee states their case.",
+     "**Outcome** — confirmed in writing within 5 working days.",
+     "**Appeal** — in writing within 7 working days to a more senior manager not previously involved."
+    ]
+   },
+   {
+    "table": {
+     "columns": [
+      "Sanction",
+      "Live on file"
+     ],
+     "rows": [
+      [
+       "First written warning",
+       "6 months"
+      ],
+      [
+       "Final written warning",
+       "12 months"
+      ],
+      [
+       "Dismissal (with notice)",
+       "—"
+      ],
+      [
+       "Summary dismissal (gross misconduct)",
+       "—"
+      ]
+     ],
+     "caption": "Table 1 — Sanctions"
+    }
+   },
+   {
+    "h2": "Examples of gross misconduct"
+   },
+   {
+    "bullets": [
+     "Theft, fraud, or deliberately falsified expense claims, timesheets or learner evidence (including OTJ hours or ILR data).",
+     "Serious breach of safeguarding or Prevent duties.",
+     "Serious breach of data protection, including deliberately uploading learner personal data to unapproved AI tools.",
+     "Harassment, bullying or discrimination.",
+     "Being unfit for work through alcohol or drugs."
+    ]
+   },
+   {
+    "h1": "3. Grievance procedure"
+   },
+   {
+    "numbered": [
+     "Raise the issue informally with your manager (or another manager if it concerns them).",
+     "If unresolved, submit a written grievance to the HR Business Partner.",
+     "A grievance meeting is held within 10 working days; you may be accompanied.",
+     "Written outcome within 5 working days of the meeting.",
+     "Appeal within 7 working days to the People Director (or CEO if the People Director was involved)."
+    ]
+   },
+   {
+    "h1": "4. Timescales summary"
+   },
+   {
+    "kv": [
+     [
+      "Notice of hearing",
+      "5 working days"
+     ],
+     [
+      "Outcome letter",
+      "5 working days after meeting"
+     ],
+     [
+      "Appeal window",
+      "7 working days"
+     ],
+     [
+      "Records retained",
+      "Personnel file; 6 years after employment ends"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-jd-skills-coach-data",
+  "type": "docx",
+  "title": "Job Description — Skills Coach (Data)",
+  "site": "people",
+  "library": "Recruitment",
+  "folder": "Job Descriptions",
+  "category": "Job Description",
+  "author": "P032",
+  "owner": "P032",
+  "modified_by": "P032",
+  "approved_by": "P012",
+  "created": "2024-05-13",
+  "modified": "2026-06-22",
+  "version": "2.1",
+  "status": "Approved",
+  "review_date": "2027-06-30",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "job description",
+   "skills coach",
+   "data",
+   "recruitment",
+   "DA4"
+  ],
+  "summary": "Job description and person specification for a home-based Skills Coach in the Data Academy (Level 3–4 data apprenticeships).",
+  "blocks": [
+   {
+    "kv": [
+     [
+      "Job title",
+      "Skills Coach (Data)"
+     ],
+     [
+      "Department",
+      "Learning Delivery — Data Academy"
+     ],
+     [
+      "Reports to",
+      "Delivery Manager – AI & Data Academies (Sam Patel)"
+     ],
+     [
+      "Location",
+      "Home-based (UK), with quarterly hub days in Leeds, Manchester or London"
+     ],
+     [
+      "Salary",
+      "£38,000 – £44,000 depending on experience, plus benefits"
+     ],
+     [
+      "Hours",
+      "37.5 per week, full time (0.8 FTE considered)"
+     ],
+     [
+      "Contract",
+      "Permanent"
+     ],
+     [
+      "Caseload",
+      "26 apprentices at full caseload (ramp-up over first 3 months)"
+     ]
+    ]
+   },
+   {
+    "h1": "About the role"
+   },
+   {
+    "p": "You will coach a caseload of apprentices on our **Data Analyst (Level 4)** and **Data Technician (Level 3)** programmes, working with employers such as Northgrid Energy, Valemont Insurance and Halden Valley NHS Foundation Trust. You will turn workplace data projects into rich evidence of knowledge, skills and behaviours, and help every learner reach end-point assessment confident and well prepared."
+   },
+   {
+    "h1": "Key responsibilities"
+   },
+   {
+    "bullets": [
+     "Deliver 1:1 remote coaching sessions and lead live online workshops on SQL, Excel, Power BI and Python basics.",
+     "Hold **12-weekly tripartite progress reviews** with the apprentice and their line manager, recording RAG ratings, OTJ hours and SMART targets in Aptiva within 48 hours.",
+     "Monitor off-the-job training hours and act early when learners fall behind plan.",
+     "Mark and give feedback on portfolio evidence within 5 working days.",
+     "Prepare learners for gateway and EPA (mock professional discussions, project reports).",
+     "Promote safeguarding, Prevent and British values; refer concerns to the DSL the same day.",
+     "Maintain occupational competence through at least 30 hours of CPD per year (Coach CPD Framework).",
+     "Use Microsoft 365 Copilot responsibly to draft review summaries and employer emails, in line with the AI Acceptable Use Policy."
+    ]
+   },
+   {
+    "h1": "Person specification"
+   },
+   {
+    "table": {
+     "columns": [
+      "Criteria",
+      "Essential",
+      "Desirable"
+     ],
+     "rows": [
+      [
+       "Experience",
+       "2+ years working in a data analysis role (e.g. analyst, BI developer)",
+       "Experience coaching, mentoring or teaching adults"
+      ],
+      [
+       "Technical skills",
+       "Confident with SQL, Excel and at least one BI tool (Power BI or Tableau)",
+       "Python or R; data engineering concepts"
+      ],
+      [
+       "Qualifications",
+       "Level 4 qualification or degree in a relevant subject, or equivalent experience",
+       "Teaching/assessing qualification (e.g. Level 3 Award in Education & Training, CAVA)"
+      ],
+      [
+       "Apprenticeship knowledge",
+       "Willingness to learn the apprenticeship funding rules and EPA process",
+       "Knowledge of the Data Analyst Level 4 standard"
+      ],
+      [
+       "Communication",
+       "Explains technical ideas clearly to non-technical audiences",
+       "Experience presenting to senior stakeholders"
+      ],
+      [
+       "Organisation",
+       "Manages a busy schedule and deadlines independently",
+       "Experience with an e-portfolio system"
+      ],
+      [
+       "Values",
+       "Commitment to learner success, inclusion and safeguarding",
+       "—"
+      ]
+     ],
+     "caption": "Person specification"
+    }
+   },
+   {
+    "h1": "What we offer"
+   },
+   {
+    "bullets": [
+     "27 days' annual leave plus bank holidays, rising with service, plus a wellbeing day.",
+     "6% employer pension contribution, private medical insurance and 4× life assurance.",
+     "£300 home office set-up allowance and £25 per month home-working allowance.",
+     "Funded teaching qualification and 30+ hours of CPD a year.",
+     "Microsoft 365 Copilot licence and training from day one."
+    ]
+   },
+   {
+    "p": "*Delcorn is a Disability Confident Committed employer. We guarantee an interview to disabled candidates who meet the essential criteria. This role requires an enhanced DBS check.*"
+   }
+  ]
+ },
+ {
+  "id": "ppl-interview-pack-skills-coach",
+  "type": "docx",
+  "title": "Interview Pack — Skills Coach",
+  "site": "people",
+  "library": "Recruitment",
+  "folder": "Interview Packs",
+  "category": "Template",
+  "doc_type_label": "Interview Pack",
+  "author": "P032",
+  "owner": "P032",
+  "modified_by": "P032",
+  "approved_by": "P009",
+  "created": "2024-06-03",
+  "modified": "2026-07-01",
+  "version": "1.4",
+  "status": "Approved",
+  "review_date": "2027-07-01",
+  "classification": "Confidential",
+  "doc_control": true,
+  "tags": [
+   "interview",
+   "scoring rubric",
+   "skills coach",
+   "recruitment",
+   "competency"
+  ],
+  "summary": "Structured interview pack for skills coach roles: format, competency questions, micro-teach brief and the 1–4 scoring rubric.",
+  "blocks": [
+   {
+    "h1": "1. Interview format"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Length",
+      "Panel"
+     ],
+     "rows": [
+      [
+       "Stage 1 — screening call",
+       "20 min",
+       "Talent Acquisition (Joe Fraser)"
+      ],
+      [
+       "Stage 2 — competency interview",
+       "45 min",
+       "Delivery Manager + Senior Skills Coach"
+      ],
+      [
+       "Stage 2 — micro-teach",
+       "15 min + 10 min Q&A",
+       "Same panel"
+      ],
+      [
+       "Stage 2 — technical task review",
+       "15 min",
+       "Same panel"
+      ]
+     ]
+    }
+   },
+   {
+    "p": "All interviews are on Teams. Panels must have at least two members, use these questions in order, take notes in the scoring sheet, and score independently **before** discussing. AI tools must not be used to score or rank candidates (EDI Policy, section 5)."
+   },
+   {
+    "h1": "2. Micro-teach brief (sent 5 working days before)"
+   },
+   {
+    "p": "Deliver a 15-minute remote session to a Level 4 Data Analyst apprentice on **'Choosing the right chart for your data'**. Include a check of learning and link the content to at least one KSB. The panel will play the apprentice."
+   },
+   {
+    "h1": "3. Competency questions"
+   },
+   {
+    "numbered": [
+     "**Coaching impact** — Tell us about a time you helped someone develop a technical skill. What did you do and how did you know it worked?",
+     "**Learner at risk** — An apprentice is 40 OTJ hours behind plan and has missed two sessions. Their manager says they are too busy. What do you do?",
+     "**Safeguarding** — During a review, a learner mentions they are sleeping in their car. Talk us through your next steps.",
+     "**Data skills** — Explain the difference between a LEFT JOIN and an INNER JOIN to an apprentice who has never used SQL.",
+     "**Employer relationship** — Describe how you would get a disengaged line manager to attend progress reviews.",
+     "**Organisation** — You have 26 learners, 6 reviews due this week, and an EPA submission deadline. How do you plan your week?",
+     "**Responsible AI** — How would you use (and not use) an AI assistant like Copilot when writing a learner's progress review?"
+    ]
+   },
+   {
+    "h1": "4. Scoring rubric"
+   },
+   {
+    "table": {
+     "columns": [
+      "Score",
+      "Descriptor",
+      "Evidence looks like"
+     ],
+     "rows": [
+      [
+       "4 — Strong",
+       "Exceeds the requirement",
+       "Specific, recent examples with clear actions and measurable impact; reflects on learning; links to KSBs, safeguarding or funding rules unprompted"
+      ],
+      [
+       "3 — Secure",
+       "Meets the requirement",
+       "Relevant example with clear actions and outcome; minor gaps"
+      ],
+      [
+       "2 — Developing",
+       "Partly meets",
+       "Generic or hypothetical answer; limited detail on actions or impact"
+      ],
+      [
+       "1 — Not met",
+       "Does not meet",
+       "No relevant example, unsafe practice (e.g. delays safeguarding referral), or contradicts our values"
+      ]
+     ],
+     "caption": "Table 1 — Scoring scale applied to every question"
+    }
+   },
+   {
+    "h2": "Weighting and thresholds"
+   },
+   {
+    "table": {
+     "columns": [
+      "Element",
+      "Max score",
+      "Weight"
+     ],
+     "rows": [
+      [
+       "Competency questions (7 × 4)",
+       "28",
+       "50%"
+      ],
+      [
+       "Micro-teach",
+       "4",
+       "30%"
+      ],
+      [
+       "Technical task",
+       "4",
+       "20%"
+      ]
+     ]
+    }
+   },
+   {
+    "bullets": [
+     "A score of **1 on the safeguarding question is an automatic fail**, regardless of total.",
+     "Appointable threshold: weighted score of **70%** or above and no score below 2 on micro-teach.",
+     "Record final scores in the Recruitment Tracker within 24 hours of the interview."
+    ]
+   },
+   {
+    "h1": "5. Micro-teach observation criteria"
+   },
+   {
+    "bullets": [
+     "Clear objective and structure within the time",
+     "Checks understanding (questioning, polls, mini-task)",
+     "Uses a realistic workplace example",
+     "Inclusive and accessible (pace, captions, visual clarity)",
+     "Links content to the apprenticeship standard / KSBs"
+    ]
+   },
+   {
+    "h1": "6. After the interview"
+   },
+   {
+    "p": "The panel agrees a decision within 2 working days. Joe Fraser communicates outcomes and offers; unsuccessful candidates receive feedback on request. Notes are kept for 6 months and then deleted, in line with the Data Retention Schedule."
+   }
+  ]
+ },
+ {
+  "id": "ppl-recruitment-tracker-q3-2026",
+  "type": "xlsx",
+  "title": "Recruitment Tracker Q3 2026",
+  "site": "people",
+  "library": "Recruitment",
+  "folder": "Trackers",
+  "category": "Tracker",
+  "author": "P032",
+  "owner": "P032",
+  "modified_by": "P032",
+  "created": "2026-07-01",
+  "modified": "2026-10-28",
+  "version": "1.9",
+  "status": "Draft",
+  "classification": "Confidential",
+  "tags": [
+   "recruitment",
+   "vacancies",
+   "time to hire",
+   "Q3 2026"
+  ],
+  "summary": "Live tracker of vacancies opened May–September 2026 with pipeline numbers, offers, start dates and time-to-hire.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Recruitment Tracker — Q3 2026 (July–September), maintained by Joe Fraser, Talent Acquisition Lead.",
+     "Includes requisitions opened from May 2026 that were still live in Q3.",
+     "Status values: Advertising, Shortlisting, Interviewing, Offer made, Offer accepted, Filled, On hold.",
+     "Time to hire = offer date minus opened date (target: 45 days).",
+     "Classification: Confidential — do not share outside People & Culture and hiring managers."
+    ]
+   },
+   {
+    "name": "Vacancies",
+    "columns": [
+     "Req ID",
+     "Role",
+     "Department",
+     "Hiring manager",
+     "Location",
+     "Opened",
+     "Status",
+     "Applicants",
+     "Shortlisted",
+     "Interviewed",
+     "Offer date",
+     "Start date",
+     "Source of hire",
+     "Recruiter"
+    ],
+    "rows": [
+     [
+      "REQ-2607",
+      "Skills Coach (Data)",
+      "Delivery",
+      "Sam Patel",
+      "Home-based (North)",
+      "2026-05-11",
+      "Filled",
+      64,
+      9,
+      5,
+      "2026-06-24",
+      "2026-08-12",
+      "LinkedIn",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2608",
+      "Skills Coach (Data)",
+      "Delivery",
+      "Sam Patel",
+      "Home-based",
+      "2026-06-15",
+      "Filled",
+      51,
+      8,
+      4,
+      "2026-07-28",
+      "2026-09-21",
+      "Referral",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2609",
+      "Learner Engagement Officer",
+      "Delivery",
+      "Rachel Moss",
+      "Leeds hub",
+      "2026-06-22",
+      "Filled",
+      112,
+      10,
+      6,
+      "2026-08-05",
+      "2026-09-09",
+      "Indeed",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2610",
+      "Skills Coach (AI)",
+      "Delivery",
+      "Sam Patel",
+      "Home-based",
+      "2026-07-06",
+      "Offer accepted",
+      47,
+      7,
+      4,
+      "2026-09-30",
+      "2026-11-16",
+      "LinkedIn",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2611",
+      "Senior Skills Coach (Leadership)",
+      "Delivery",
+      "Laura Chen",
+      "Home-based",
+      "2026-07-13",
+      "Interviewing",
+      29,
+      6,
+      3,
+      "",
+      "",
+      "Agency (TalentBridge)",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2612",
+      "Data Engineer (Aptiva integrations)",
+      "Tech",
+      "Kate Simmons",
+      "Leeds hub / hybrid",
+      "2026-07-20",
+      "Interviewing",
+      38,
+      5,
+      2,
+      "",
+      "",
+      "LinkedIn",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2613",
+      "Functional Skills Tutor (Maths)",
+      "Delivery",
+      "Rachel Moss",
+      "Home-based",
+      "2026-08-03",
+      "Shortlisting",
+      22,
+      4,
+      0,
+      "",
+      "",
+      "TES Jobs",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2614",
+      "Bid Writer",
+      "Partnerships",
+      "Tom Whitfield",
+      "Manchester hub",
+      "2026-08-10",
+      "Offer made",
+      33,
+      5,
+      4,
+      "2026-10-20",
+      "2027-01-04",
+      "Referral",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2615",
+      "Skills Coach (People)",
+      "Delivery",
+      "Laura Chen",
+      "Home-based",
+      "2026-08-24",
+      "On hold",
+      41,
+      0,
+      0,
+      "",
+      "",
+      "LinkedIn",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2616",
+      "Copilot Adoption Specialist (12-month FTC)",
+      "Tech",
+      "Aisha Karim",
+      "London HQ / hybrid",
+      "2026-09-01",
+      "Filled",
+      58,
+      6,
+      4,
+      "2026-09-25",
+      "2026-10-19",
+      "LinkedIn",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2617",
+      "Quality Assurance Officer",
+      "Quality",
+      "Hannah Price",
+      "Home-based",
+      "2026-09-07",
+      "Advertising",
+      14,
+      0,
+      0,
+      "",
+      "",
+      "Delcorn careers site",
+      "Joe Fraser"
+     ],
+     [
+      "REQ-2618",
+      "Skills Coach (Data)",
+      "Delivery",
+      "Sam Patel",
+      "Home-based",
+      "2026-09-21",
+      "Advertising",
+      19,
+      0,
+      0,
+      "",
+      "",
+      "LinkedIn",
+      "Joe Fraser"
+     ]
+    ],
+    "format": {
+     "Opened": "date",
+     "Offer date": "date",
+     "Start date": "date"
+    },
+    "totals": [
+     "Applicants",
+     "Shortlisted",
+     "Interviewed"
+    ]
+   },
+   {
+    "name": "Summary",
+    "columns": [
+     "Measure",
+     "Value",
+     "Target"
+    ],
+    "rows": [
+     [
+      "Requisitions live in Q3",
+      12,
+      ""
+     ],
+     [
+      "Filled / accepted",
+      5,
+      ""
+     ],
+     [
+      "Average time to hire (days, filled roles)",
+      39,
+      45
+     ],
+     [
+      "Offer acceptance rate",
+      "86%",
+      "85%"
+     ],
+     [
+      "Agency spend Q3",
+      "£6,400",
+      "£10,000"
+     ],
+     [
+      "Applicants per vacancy (avg)",
+      44,
+      ""
+     ],
+     [
+      "Hires from referrals",
+      "33%",
+      "25%"
+     ]
+    ]
+   },
+   {
+    "name": "By source",
+    "columns": [
+     "Source of hire",
+     "Requisitions"
+    ],
+    "rows": [
+     [
+      "LinkedIn",
+      6
+     ],
+     [
+      "Referral",
+      2
+     ],
+     [
+      "Indeed",
+      1
+     ],
+     [
+      "Agency (TalentBridge)",
+      1
+     ],
+     [
+      "TES Jobs",
+      1
+     ],
+     [
+      "Delcorn careers site",
+      1
+     ]
+    ],
+    "chart": {
+     "type": "bar",
+     "cat_col": "Source of hire",
+     "val_cols": [
+      "Requisitions"
+     ],
+     "title": "Requisitions by source"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ppl-onboarding-checklist",
+  "type": "xlsx",
+  "title": "New Starter Onboarding Checklist",
+  "site": "people",
+  "library": "Onboarding",
+  "folder": "Checklists",
+  "category": "Checklist",
+  "author": "P033",
+  "owner": "P033",
+  "modified_by": "P033",
+  "approved_by": "P006",
+  "created": "2024-02-05",
+  "modified": "2026-10-12",
+  "version": "3.1",
+  "status": "Approved",
+  "review_date": "2027-04-01",
+  "classification": "Internal",
+  "tags": [
+   "onboarding",
+   "new starter",
+   "induction",
+   "checklist",
+   "probation"
+  ],
+  "summary": "Standard onboarding checklist from pre-day-1 to probation, with owners, systems and deadlines, plus progress for current new starters.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "New Starter Onboarding Checklist v3.1 — owner Ellie Wood (CPD & Onboarding Coordinator).",
+     "Due dates are relative to the start date (negative = before day 1).",
+     "'Coaches' in the Mandatory column means mandatory for skills coaches and tutors only.",
+     "Copy the 'Checklist' tab for each new starter, or use the Current starters tab for status tracking."
+    ]
+   },
+   {
+    "name": "Checklist",
+    "columns": [
+     "Phase",
+     "Task",
+     "Owner",
+     "System",
+     "Due",
+     "Mandatory",
+     "Notes"
+    ],
+    "rows": [
+     [
+      "Before day 1",
+      "Issue contract and offer pack via PeopleFlow",
+      "Talent Acquisition",
+      "PeopleFlow",
+      "-10 days",
+      "Yes",
+      "Includes Employee Handbook link"
+     ],
+     [
+      "Before day 1",
+      "Right to work check and enhanced DBS application (coaches/tutors)",
+      "Talent Acquisition",
+      "PeopleFlow",
+      "-10 days",
+      "Yes",
+      "Must be complete before learner contact"
+     ],
+     [
+      "Before day 1",
+      "Raise 'New starter setup' ticket in FixDesk",
+      "Hiring manager",
+      "FixDesk",
+      "-10 days",
+      "Yes",
+      "Laptop, headset, monitor, M365 + Copilot licence"
+     ],
+     [
+      "Before day 1",
+      "Ship laptop pack to home address (tracked)",
+      "IT Service Desk",
+      "FixDesk",
+      "-3 days",
+      "Yes",
+      "Signature on delivery required"
+     ],
+     [
+      "Before day 1",
+      "Request Aptiva coach account and caseload permissions",
+      "Data & Systems",
+      "Aptiva",
+      "-3 days",
+      "Coaches",
+      "Read-only until safeguarding training complete"
+     ],
+     [
+      "Day 1",
+      "Welcome call with line manager; share 30-60-90 plan",
+      "Hiring manager",
+      "Teams",
+      "Day 1",
+      "Yes",
+      ""
+     ],
+     [
+      "Day 1",
+      "Set up MFA (Microsoft Authenticator) and change temporary password",
+      "New starter",
+      "Microsoft 365",
+      "Day 1",
+      "Yes",
+      "Service desk on standby 08:30–10:00"
+     ],
+     [
+      "Day 1",
+      "Attend 'Welcome to Delcorn' induction session",
+      "CPD & Onboarding",
+      "Teams",
+      "Day 1",
+      "Yes",
+      "Monthly cohort, first Monday"
+     ],
+     [
+      "Week 1",
+      "Complete Safeguarding & Prevent training",
+      "New starter",
+      "Delcorn Academy LMS",
+      "Day 5",
+      "Yes",
+      "Required before any learner contact"
+     ],
+     [
+      "Week 1",
+      "Complete Data Protection & Information Security e-learning",
+      "New starter",
+      "Delcorn Academy LMS",
+      "Day 5",
+      "Yes",
+      ""
+     ],
+     [
+      "Week 1",
+      "Complete Responsible AI & Copilot Essentials (60 min)",
+      "New starter",
+      "Delcorn Academy LMS",
+      "Day 5",
+      "Yes",
+      "Unlocks Copilot Chat + in-app Copilot"
+     ],
+     [
+      "Week 1",
+      "Complete DSE self-assessment",
+      "New starter",
+      "PeopleFlow",
+      "Day 10",
+      "Yes",
+      ""
+     ],
+     [
+      "Week 2",
+      "Shadow two progress reviews and one workshop",
+      "Senior Skills Coach (buddy)",
+      "Teams / Aptiva",
+      "Day 10",
+      "Coaches",
+      ""
+     ],
+     [
+      "Week 2",
+      "Aptiva training: reviews, OTJ, evidence, e-signatures",
+      "Data & Systems",
+      "Aptiva",
+      "Day 10",
+      "Coaches",
+      ""
+     ],
+     [
+      "Week 2",
+      "Submit bank details, pension choice and emergency contacts",
+      "New starter",
+      "PeopleFlow",
+      "Day 10",
+      "Yes",
+      ""
+     ],
+     [
+      "Month 1",
+      "Take on first 8 learners (caseload ramp-up)",
+      "Delivery Manager",
+      "Aptiva",
+      "Day 30",
+      "Coaches",
+      "Ramp to 26 by month 3"
+     ],
+     [
+      "Month 1",
+      "Probation check-in 1",
+      "Hiring manager",
+      "PeopleFlow",
+      "Day 30",
+      "Yes",
+      ""
+     ],
+     [
+      "Month 1",
+      "Equality & Inclusion e-learning",
+      "New starter",
+      "Delcorn Academy LMS",
+      "Day 30",
+      "Yes",
+      ""
+     ],
+     [
+      "Month 3",
+      "Probation check-in 2 and first observation (developmental)",
+      "Quality Manager",
+      "PeopleFlow",
+      "Day 90",
+      "Coaches",
+      ""
+     ],
+     [
+      "Month 5",
+      "Probation check-in 3 and confirmation recommendation",
+      "Hiring manager",
+      "PeopleFlow",
+      "Day 150",
+      "Yes",
+      "Confirmation letter by month 6"
+     ]
+    ]
+   },
+   {
+    "name": "Current starters",
+    "columns": [
+     "Starter",
+     "Role",
+     "Start date",
+     "Manager",
+     "Buddy",
+     "Tasks complete",
+     "Tasks total",
+     "% complete",
+     "Probation ends",
+     "Status"
+    ],
+    "rows": [
+     [
+      "Abbie Stokes",
+      "Skills Coach (Data)",
+      "2026-08-12",
+      "Sam Patel",
+      "James Rowe",
+      18,
+      20,
+      "=F2/G2",
+      "2027-02-12",
+      "On track"
+     ],
+     [
+      "Ian Dawson",
+      "Learner Engagement Officer",
+      "2026-09-09",
+      "Rachel Moss",
+      "Isabel Hart",
+      15,
+      17,
+      "=F3/G3",
+      "2027-03-09",
+      "On track"
+     ],
+     [
+      "Lorraine Barker",
+      "Skills Coach (Data)",
+      "2026-09-21",
+      "Sam Patel",
+      "James Rowe",
+      13,
+      20,
+      "=F4/G4",
+      "2027-03-21",
+      "Behind — Aptiva training rebooked"
+     ],
+     [
+      "Priyanka Desai",
+      "Copilot Adoption Specialist",
+      "2026-10-19",
+      "Aisha Karim",
+      "Mohammed Ali",
+      9,
+      17,
+      "=F5/G5",
+      "2027-04-19",
+      "On track"
+     ],
+     [
+      "(Offer accepted) REQ-2610",
+      "Skills Coach (AI)",
+      "2026-11-16",
+      "Sam Patel",
+      "Fatima Hussain",
+      2,
+      20,
+      "=F6/G6",
+      "2027-05-16",
+      "Pre-start"
+     ]
+    ],
+    "format": {
+     "% complete": "pct",
+     "Start date": "date",
+     "Probation ends": "date"
+    }
+   }
+  ]
+ },
+ {
+  "id": "ppl-welcome-induction-deck",
+  "type": "pptx",
+  "title": "Welcome to Delcorn — Induction",
+  "site": "people",
+  "library": "Onboarding",
+  "folder": "Induction",
+  "category": "Presentation",
+  "author": "P033",
+  "owner": "P033",
+  "modified_by": "P033",
+  "approved_by": "P006",
+  "created": "2025-01-06",
+  "modified": "2026-10-05",
+  "version": "5.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "induction",
+   "welcome",
+   "onboarding",
+   "new starter"
+  ],
+  "summary": "The monthly new-starter induction deck: who we are, how we work, systems, policies, safeguarding and Copilot essentials.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Welcome to Delcorn",
+    "subtitle": "New starter induction — November 2026 cohort",
+    "meta": "Ellie Wood, CPD & Onboarding Coordinator · People & Culture",
+    "notes": "Run on the first Monday of each month, 09:30–12:30 on Teams. Cameras on encouraged for the first 10 minutes. Ask everyone to introduce themselves: name, role, location, one thing they're curious to learn."
+   },
+   {
+    "layout": "kpis",
+    "title": "Delcorn at a glance",
+    "kpis": [
+     {
+      "value": "{{fact:headcount}}",
+      "label": "Colleagues",
+      "note": "Remote-first across the UK"
+     },
+     {
+      "value": "{{fact:coach_count}}",
+      "label": "Skills coaches",
+      "note": "Across five academies"
+     },
+     {
+      "value": "{{fact:active_learners}}",
+      "label": "Apprentices on programme",
+      "note": "As at today"
+     },
+     {
+      "value": "{{fact:active_employers}}",
+      "label": "Employer partners",
+      "note": "Active accounts"
+     },
+     {
+      "value": "Strong",
+      "label": "Ofsted Feb 2026",
+      "note": "'Strong standard' in all areas"
+     },
+     {
+      "value": "2015",
+      "label": "Founded",
+      "note": "Part of Meridian Education Group since 2025"
+     }
+    ],
+    "notes": "Numbers update automatically from the data model. Mention that we are a training provider so most of our 'customers' are both employers and apprentices."
+   },
+   {
+    "layout": "bullets",
+    "title": "Our values",
+    "bullets": [
+     "**Learner first** — every decision starts with the apprentice",
+     "**Grow together** — coaches, employers and learners as one team",
+     "**Evidence over opinion** — we measure what matters",
+     "**Responsible with AI** — curious, ethical and practical"
+    ],
+    "notes": "Ask: which value do you think is hardest to live in a remote company? Collect answers in the chat."
+   },
+   {
+    "layout": "two_column",
+    "title": "How we're organised",
+    "left": {
+     "heading": "Delivery & curriculum",
+     "bullets": [
+      "Learning Delivery — coaches, tutors, delivery managers",
+      "Curriculum & Academies — AI, Data, Digital, Leadership, People",
+      "Quality & Compliance",
+      "Safeguarding & Learner Support"
+     ]
+    },
+    "right": {
+     "heading": "Central teams",
+     "bullets": [
+      "Employer Partnerships & Marketing",
+      "Finance & Funding",
+      "People & Culture",
+      "Learning Technology & IT",
+      "Executive & Board"
+     ]
+    }
+   },
+   {
+    "layout": "steps",
+    "title": "Your first 90 days",
+    "steps": [
+     {
+      "label": "Week 1",
+      "text": "Laptop, MFA, mandatory training (Safeguarding & Prevent, Data Protection, Responsible AI)"
+     },
+     {
+      "label": "Week 2",
+      "text": "Shadowing, Aptiva training, DSE assessment"
+     },
+     {
+      "label": "Month 1",
+      "text": "First learners (coaches) or first deliverables; probation check-in 1"
+     },
+     {
+      "label": "Month 3",
+      "text": "Full caseload; developmental observation; check-in 2"
+     },
+     {
+      "label": "Month 6",
+      "text": "Probation confirmed"
+     }
+    ]
+   },
+   {
+    "layout": "table",
+    "title": "Systems you'll use",
+    "table": {
+     "columns": [
+      "System",
+      "What it's for",
+      "Help"
+     ],
+     "rows": [
+      [
+       "Microsoft 365 + Copilot",
+       "Email, Teams, SharePoint, AI assistant",
+       "FixDesk"
+      ],
+      [
+       "Aptiva",
+       "E-portfolio: reviews, OTJ, evidence",
+       "Kate Simmons' team"
+      ],
+      [
+       "PeopleFlow",
+       "HR: leave, absence, payslips, training records",
+       "People & Culture"
+      ],
+      [
+       "Ledgerline Expenses",
+       "Expense claims (within 30 days)",
+       "Finance"
+      ],
+      [
+       "FixDesk",
+       "IT tickets and self-service",
+       "Service Desk"
+      ],
+      [
+       "Power BI",
+       "Dashboards: caseloads, achievement, funding",
+       "Funding & MI"
+      ]
+     ]
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "Policies to read this week",
+    "bullets": [
+     "Employee Handbook 2026",
+     "Annual Leave Policy — 27 days + bank holidays, rising to 30; wellbeing day",
+     "Expenses Policy — claim in Ledgerline within 30 days",
+     "Hybrid & Remote Working Policy",
+     "Safeguarding & Prevent Policy",
+     "AI Acceptable Use Policy"
+    ],
+    "notes": "All HR policies live in People & Culture > HR Policies. Tip: ask Copilot 'what is our hotel cap in London?' and then click the citation to check it against the policy."
+   },
+   {
+    "layout": "section",
+    "title": "Safeguarding is everyone's responsibility",
+    "subtitle": "Concern about a learner? Tell the DSL team the same day."
+   },
+   {
+    "layout": "bullets",
+    "title": "Copilot essentials",
+    "bullets": [
+     "Every colleague receives a Microsoft 365 Copilot licence during the autumn 2026 rollout",
+     "Copilot only sees what **you** can already access — report anything you can see but shouldn't",
+     "Never paste learner personal data into public AI tools",
+     "Always check and edit AI output before sharing — you're accountable for it",
+     "Label documents: Public · Internal · Confidential · Highly Confidential"
+    ],
+    "notes": "Demo: summarise the Employee Handbook in Copilot Chat, then ask a follow-up about carry-over. Show where citations appear."
+   },
+   {
+    "layout": "quote",
+    "title": "From our CEO",
+    "quote": "Our coaches change careers. Everyone at Delcorn — whatever their role — makes that possible.",
+    "by": "Helena Marsh, CEO & Founder"
+   }
+  ]
+ },
+ {
+  "id": "ppl-coach-cpd-framework",
+  "type": "docx",
+  "title": "Coach CPD Framework 2026/27",
+  "site": "people",
+  "library": "CPD & Development",
+  "folder": "Frameworks",
+  "category": "Framework",
+  "doc_type_label": "Framework",
+  "author": "P033",
+  "owner": "P033",
+  "modified_by": "P033",
+  "approved_by": "P009",
+  "created": "2026-06-15",
+  "modified": "2026-08-01",
+  "version": "1.0",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "CPD",
+   "skills coach",
+   "dual professionalism",
+   "occupational competence",
+   "development"
+  ],
+  "summary": "The 2026/27 continuing professional development framework for skills coaches and tutors: minimum hours, dual-professional pathways, recording and funding.",
+  "blocks": [
+   {
+    "h1": "1. Why CPD matters"
+   },
+   {
+    "p": "Ofsted expects staff to have up-to-date occupational expertise and strong teaching skills. Our February 2026 inspection praised coaches' industry knowledge but recommended more consistent CPD on **assessment for learning** and **AI in the workplace**. This framework sets the expectations for 2026/27 (1 August 2026 – 31 July 2027)."
+   },
+   {
+    "h1": "2. Minimum expectations"
+   },
+   {
+    "table": {
+     "columns": [
+      "Strand",
+      "Minimum hours",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Occupational (industry) currency",
+       "12",
+       "Industry webinars, vendor certifications (e.g. Power BI), employer secondment days, professional body events"
+      ],
+      [
+       "Teaching, coaching & assessment",
+       "12",
+       "Delcorn Coaching Academy modules, peer observation, Level 5 coaching qualification units"
+      ],
+      [
+       "Compliance & safeguarding",
+       "6",
+       "Safeguarding & Prevent refresher, funding rules update, data protection, Responsible AI"
+      ],
+      [
+       "**Total per year**",
+       "**30**",
+       "Pro rata for part-time colleagues"
+      ]
+     ],
+     "caption": "Table 1 — Annual CPD minimums"
+    }
+   },
+   {
+    "h1": "3. Priority themes for 2026/27"
+   },
+   {
+    "numbered": [
+     "**AI in coaching** — using Microsoft 365 Copilot to draft review summaries, plan sessions and give feedback, while keeping human judgement central (all coaches complete the 'Copilot for Coaches' pathway by 31 January 2027).",
+     "**Assessment for learning** — questioning techniques and checking understanding in remote sessions.",
+     "**Stretch and challenge** — supporting learners to achieve Merit/Distinction.",
+     "**Employer engagement** — improving line manager attendance at progress reviews."
+    ]
+   },
+   {
+    "h1": "4. Pathways"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Who",
+      "Offer"
+     ],
+     "rows": [
+      [
+       "New coach",
+       "First 12 months",
+       "Funded Level 3 Award in Education & Training; buddy; monthly observations"
+      ],
+      [
+       "Established coach",
+       "1–3 years",
+       "Level 4 Certificate in Assessing (CAVA); specialist academy CPD"
+      ],
+      [
+       "Senior coach",
+       "3+ years / Senior Skills Coach",
+       "Level 5 coaching or Diploma in Education & Training; mentoring others"
+      ],
+      [
+       "Lead practitioner",
+       "By application",
+       "Action research project; present at Delcorn Practice Week"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Funding and time"
+   },
+   {
+    "bullets": [
+     "Each coach has a **£750 CPD budget** for 2026/27 (£500 for central staff), approved by their Delivery Manager.",
+     "Two protected **CPD days** per term (no learner sessions scheduled).",
+     "Qualifications over £1,500 are subject to a pro-rata repayment agreement if you leave within 12 months."
+    ]
+   },
+   {
+    "h1": "6. Recording CPD"
+   },
+   {
+    "p": "Log every activity in **PeopleFlow > Learning** within two weeks, with a short reflection: what you learned and how it changes your practice. Delivery Managers review CPD logs at quarterly 1:1s; the Quality team samples logs for the self-assessment report."
+   },
+   {
+    "h1": "7. Key dates 2026/27"
+   },
+   {
+    "table": {
+     "columns": [
+      "Date",
+      "Event"
+     ],
+     "rows": [
+      [
+       "24 Sep 2026",
+       "CPD Day 1 — Assessment for learning"
+      ],
+      [
+       "19 Nov 2026",
+       "Copilot for Coaches live workshop (cohort 1)"
+      ],
+      [
+       "14 Jan 2027",
+       "CPD Day 2 — Stretch & challenge"
+      ],
+      [
+       "31 Jan 2027",
+       "Deadline: Copilot for Coaches pathway"
+      ],
+      [
+       "22–26 Mar 2027",
+       "Delcorn Practice Week"
+      ],
+      [
+       "31 Jul 2027",
+       "CPD logs complete for the year"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "ppl-engagement-survey-2026",
+  "type": "pptx",
+  "title": "Staff Engagement Survey Results 2026",
+  "site": "people",
+  "library": "Wellbeing",
+  "folder": "Engagement Survey",
+  "category": "Report",
+  "author": "P006",
+  "owner": "P006",
+  "modified_by": "P031",
+  "approved_by": "P001",
+  "created": "2026-07-06",
+  "modified": "2026-07-20",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "engagement survey",
+   "eNPS",
+   "wellbeing",
+   "culture",
+   "2026"
+  ],
+  "summary": "Results of the June 2026 all-staff engagement survey: 84% response rate, eNPS +24, engagement index 78%, with themes and actions.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Staff Engagement Survey 2026",
+    "subtitle": "Results and actions",
+    "meta": "Marcus Bell, People Director · Survey ran 2–20 June 2026",
+    "notes": "Presented to the executive team on 14 July 2026 and to all staff at the Town Hall on 20 July 2026. Survey run anonymously via PeopleFlow Pulse; results with fewer than 5 respondents are suppressed."
+   },
+   {
+    "layout": "kpis",
+    "title": "Headline results",
+    "kpis": [
+     {
+      "value": "84%",
+      "label": "Response rate",
+      "note": "119 of 142 colleagues (2025: 79%)"
+     },
+     {
+      "value": "+24",
+      "label": "eNPS",
+      "note": "2025: +17 · Promoters 41%, Detractors 17%"
+     },
+     {
+      "value": "78%",
+      "label": "Engagement index",
+      "note": "2025: 74% · Sector benchmark 72%"
+     },
+     {
+      "value": "76%",
+      "label": "Inclusion index",
+      "note": "2025: 75%"
+     },
+     {
+      "value": "64%",
+      "label": "Wellbeing index",
+      "note": "2025: 66% — the only fall"
+     },
+     {
+      "value": "81%",
+      "label": "Proud to work here",
+      "note": "2025: 78%"
+     }
+    ],
+    "notes": "eNPS = % promoters (9–10) minus % detractors (0–6) on 'How likely are you to recommend Delcorn as a place to work?'. Wellbeing dipped mainly among skills coaches, linked to caseload pressure."
+   },
+   {
+    "layout": "chart",
+    "title": "eNPS by function",
+    "chart": {
+     "type": "bar",
+     "title": "eNPS by function",
+     "categories": [
+      "Central teams",
+      "Curriculum",
+      "Quality & Safeguarding",
+      "Partnerships",
+      "Leadership & Managers",
+      "Skills coaches & tutors"
+     ],
+     "series": [
+      {
+       "name": "eNPS 2026",
+       "values": [
+        38,
+        33,
+        29,
+        27,
+        45,
+        12
+       ]
+      },
+      {
+       "name": "eNPS 2025",
+       "values": [
+        30,
+        25,
+        24,
+        31,
+        40,
+        9
+       ]
+      }
+     ],
+     "labels": true
+    },
+    "notes": "Skills coaches remain the least positive group (+12) despite improving. Partnerships fell after the restructure in spring 2026."
+   },
+   {
+    "layout": "table",
+    "title": "Scores by theme",
+    "table": {
+     "columns": [
+      "Theme",
+      "2026 favourable",
+      "2025 favourable",
+      "Change"
+     ],
+     "rows": [
+      [
+       "My manager supports my development",
+       "84%",
+       "80%",
+       "+4"
+      ],
+      [
+       "I understand Delcorn's strategy",
+       "71%",
+       "63%",
+       "+8"
+      ],
+      [
+       "I have the tools to do my job well",
+       "73%",
+       "69%",
+       "+4"
+      ],
+      [
+       "My workload is manageable",
+       "52%",
+       "57%",
+       "-5"
+      ],
+      [
+       "I feel connected to my colleagues",
+       "66%",
+       "61%",
+       "+5"
+      ],
+      [
+       "I am paid fairly for the work I do",
+       "55%",
+       "52%",
+       "+3"
+      ],
+      [
+       "I feel able to speak up without fear",
+       "79%",
+       "77%",
+       "+2"
+      ],
+      [
+       "I am excited about using AI in my role",
+       "68%",
+       "—",
+       "new"
+      ],
+      [
+       "I trust Delcorn to use AI responsibly",
+       "74%",
+       "—",
+       "new"
+      ]
+     ]
+    }
+   },
+   {
+    "layout": "two_column",
+    "title": "What you told us",
+    "left": {
+     "heading": "Strengths",
+     "bullets": [
+      "Supportive managers and buddies",
+      "Pride in learner outcomes and the Ofsted result",
+      "Flexibility of remote working",
+      "Quarterly hub days valued highly"
+     ]
+    },
+    "right": {
+     "heading": "Areas to improve",
+     "bullets": [
+      "Coach caseloads and admin burden (review write-ups)",
+      "Duplicate data entry across Aptiva and spreadsheets",
+      "Clarity on career progression for coaches",
+      "Too many internal Teams meetings"
+     ]
+    },
+    "notes": "Top three comment themes from 412 free-text comments (classified by the People team): workload/admin (31%), tools & systems (18%), recognition & pay (14%)."
+   },
+   {
+    "layout": "steps",
+    "title": "Our actions for 2026/27",
+    "steps": [
+     {
+      "label": "Workload",
+      "text": "Copilot rollout to all staff by Nov 2026, prioritising coach review drafting; caseload cap review by Delivery"
+     },
+     {
+      "label": "Progression",
+      "text": "Publish coach career pathway (Senior Coach / Lead Practitioner) by Jan 2027"
+     },
+     {
+      "label": "Wellbeing",
+      "text": "Camera-off Fridays; Mental Health First Aider network doubled to 12"
+     },
+     {
+      "label": "Connection",
+      "text": "Funded quarterly hub away-days for every team"
+     },
+     {
+      "label": "Pay",
+      "text": "Publish salary bands internally from Aug 2027 pay review"
+     }
+    ],
+    "notes": "Owners: Marcus Bell (progression, pay), Rachel Moss (caseload review), Aisha Karim (Copilot). Pulse survey in January 2027 to track progress."
+   }
+  ]
+ },
+ {
+  "id": "ppl-gender-pay-gap-2026",
+  "type": "docx",
+  "title": "Gender Pay Gap Note 2026",
+  "site": "people",
+  "library": "Wellbeing",
+  "folder": "Inclusion",
+  "category": "Report",
+  "author": "P006",
+  "owner": "P006",
+  "modified_by": "P006",
+  "approved_by": "P001",
+  "created": "2026-09-14",
+  "modified": "2026-10-02",
+  "version": "1.0",
+  "status": "Approved",
+  "review_date": "2027-09-30",
+  "classification": "Public",
+  "tags": [
+   "gender pay gap",
+   "EDI",
+   "pay",
+   "voluntary reporting"
+  ],
+  "summary": "Delcorn's voluntary 2026 gender pay gap note (snapshot 5 April 2026): mean gap 11.8%, median gap 6.4%, quartiles and actions.",
+  "blocks": [
+   {
+    "h1": "Why we publish this"
+   },
+   {
+    "p": "UK employers with 250 or more employees must publish gender pay gap figures each year. With {{fact:headcount}} employees Delcorn is **below the threshold**, so this note is **voluntary**. We publish it because transparency is part of our EDI commitments and our parent, Meridian Education Group, reports at group level."
+   },
+   {
+    "p": "The gender pay gap is the difference in average hourly pay between all men and all women in the organisation. It is not the same as equal pay (paying men and women the same for the same or equivalent work), which we audit separately each year."
+   },
+   {
+    "h1": "Our figures (snapshot date 5 April 2026)"
+   },
+   {
+    "kv": [
+     [
+      "Relevant employees",
+      "138 (59% women, 41% men)"
+     ],
+     [
+      "Mean hourly pay gap",
+      "11.8% (2025: 13.4%)"
+     ],
+     [
+      "Median hourly pay gap",
+      "6.4% (2025: 7.9%)"
+     ],
+     [
+      "Mean bonus gap",
+      "18.2%"
+     ],
+     [
+      "Median bonus gap",
+      "0.0%"
+     ],
+     [
+      "Received a bonus",
+      "Women 71% · Men 69%"
+     ]
+    ]
+   },
+   {
+    "table": {
+     "columns": [
+      "Pay quartile",
+      "Women",
+      "Men"
+     ],
+     "rows": [
+      [
+       "Upper",
+       "42%",
+       "58%"
+      ],
+      [
+       "Upper middle",
+       "57%",
+       "43%"
+      ],
+      [
+       "Lower middle",
+       "64%",
+       "36%"
+      ],
+      [
+       "Lower",
+       "71%",
+       "29%"
+      ]
+     ],
+     "caption": "Table 1 — Proportion of women and men in each hourly pay quartile"
+    }
+   },
+   {
+    "h1": "What drives our gap"
+   },
+   {
+    "bullets": [
+     "**Senior leadership mix** — 5 of our 11 leadership roles are held by women, but the highest-paid technical and commercial roles are mainly held by men.",
+     "**Coordinator and administrative roles**, which are lower paid, are predominantly held by women.",
+     "**Skills coaches**, our largest group, are near parity in pay (median gap 1.2%), which keeps our median gap lower than the sector.",
+     "The **bonus gap** reflects the commercial team's sales incentive scheme, where 4 of 6 eligible staff are men."
+    ]
+   },
+   {
+    "h1": "What we are doing"
+   },
+   {
+    "numbered": [
+     "Publish salary bands for all roles internally from the August 2027 pay review.",
+     "Run structured, panel-based promotions with anonymised shortlisting for Senior Skills Coach and manager roles.",
+     "Review the commercial incentive scheme design by March 2027.",
+     "Expand returner support and part-time manager roles.",
+     "Target: mean gap below 8% by April 2028."
+    ]
+   },
+   {
+    "p": "I confirm the information in this note is accurate."
+   },
+   {
+    "signature": "P006",
+    "date": "2026-10-02"
+   }
+  ]
+ },
+ {
+  "id": "ppl-headcount-summary",
+  "type": "xlsx",
+  "title": "Headcount Summary November 2026",
+  "site": "people",
+  "library": "Recruitment",
+  "folder": "Workforce Data",
+  "category": "Report",
+  "author": "P031",
+  "owner": "P006",
+  "modified_by": "P031",
+  "created": "2026-11-02",
+  "modified": "2026-11-04",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "headcount",
+   "workforce",
+   "locations",
+   "FTE"
+  ],
+  "summary": "Monthly headcount summary from PeopleFlow by department, location, role family and contract type (no pay data).",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Headcount summary as at 5 November 2026, extracted from PeopleFlow (employees table).",
+     "Total headcount: {{fact:headcount}}. Skills coaches: {{fact:coach_count}}.",
+     "This workbook deliberately contains NO salary data and is classified Internal. Pay data lives only in the Confidential Reward folder."
+    ]
+   },
+   {
+    "name": "By department",
+    "sql": "SELECT department AS Department, COUNT(*) AS Headcount, ROUND(SUM(fte),1) AS FTE FROM employees GROUP BY department ORDER BY Headcount DESC",
+    "totals": [
+     "Headcount",
+     "FTE"
+    ],
+    "chart": {
+     "type": "bar",
+     "cat_col": "Department",
+     "val_cols": [
+      "Headcount"
+     ],
+     "title": "Headcount by department"
+    }
+   },
+   {
+    "name": "By location",
+    "sql": "SELECT location AS Location, COUNT(*) AS Headcount FROM employees GROUP BY location ORDER BY Headcount DESC",
+    "totals": [
+     "Headcount"
+    ]
+   },
+   {
+    "name": "By role family",
+    "sql": "SELECT role_family AS \"Role family\", COUNT(*) AS Headcount, SUM(CASE WHEN contract_type='Fixed term' THEN 1 ELSE 0 END) AS \"Fixed term\", ROUND(AVG(fte),2) AS \"Avg FTE\" FROM employees GROUP BY role_family ORDER BY Headcount DESC"
+   },
+   {
+    "name": "Coaches by academy",
+    "sql": "SELECT academy AS Academy, COUNT(*) AS Coaches, SUM(caseload_target) AS \"Total caseload target\" FROM employees WHERE role_family='Coach' GROUP BY academy ORDER BY Coaches DESC",
+    "totals": [
+     "Coaches"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "ppl-salary-benchmarking-2026",
+  "type": "xlsx",
+  "title": "Salary Benchmarking 2026",
+  "site": "people",
+  "library": "Recruitment",
+  "folder": "Reward",
+  "category": "Analysis",
+  "doc_type_label": "Reward analysis",
+  "author": "P006",
+  "owner": "P006",
+  "modified_by": "P006",
+  "created": "2026-05-18",
+  "modified": "2026-10-30",
+  "version": "0.4",
+  "status": "Draft",
+  "classification": "Confidential",
+  "tags": [
+   "salary",
+   "benchmarking",
+   "reward",
+   "pay review",
+   "confidential"
+  ],
+  "summary": "Draft salary benchmarking for the August 2027 pay review: named salaries for all staff compared with market medians. Restricted to the People Director and CFO.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "DRAFT — Salary Benchmarking 2026 (for the August 2027 pay review). Owner: Marcus Bell.",
+     "Contains named individual salaries. Access must be restricted to the People Director, HR Business Partner and CFO.",
+     "30 Oct 2026: org-wide sharing link removed after the Copilot readiness permissions review (finding PR-014). Sensitivity label to be upgraded to Highly Confidential.",
+     "Market data: fictional 'Skills Sector Reward Survey 2026' (independent training providers, 120 participants)."
+    ]
+   },
+   {
+    "name": "Market benchmarks",
+    "columns": [
+     "Role family",
+     "Delcorn median",
+     "Market lower quartile",
+     "Market median",
+     "Market upper quartile",
+     "Position vs median"
+    ],
+    "rows": [
+     [
+      "Coach",
+      42500,
+      37500,
+      41000,
+      45500,
+      "=B2/D2-1"
+     ],
+     [
+      "Tutor",
+      35500,
+      31000,
+      34000,
+      37500,
+      "=B3/D3-1"
+     ],
+     [
+      "Specialist",
+      33500,
+      30000,
+      35500,
+      41000,
+      "=B4/D4-1"
+     ],
+     [
+      "Manager",
+      56500,
+      50000,
+      58000,
+      66000,
+      "=B5/D5-1"
+     ],
+     [
+      "Leadership",
+      108000,
+      95000,
+      112000,
+      135000,
+      "=B6/D6-1"
+     ]
+    ],
+    "format": {
+     "Position vs median": "pct"
+    }
+   },
+   {
+    "name": "By role family",
+    "sql": "SELECT role_family AS \"Role family\", COUNT(*) AS Headcount, MIN(salary_gbp) AS \"Min salary\", ROUND(AVG(salary_gbp)) AS \"Mean salary\", MAX(salary_gbp) AS \"Max salary\" FROM employees GROUP BY role_family ORDER BY \"Mean salary\" DESC",
+    "format": {
+     "Min salary": "gbp",
+     "Mean salary": "gbp",
+     "Max salary": "gbp"
+    }
+   },
+   {
+    "name": "Individual salaries",
+    "sql": "SELECT employee_id AS \"Employee ID\", full_name AS Name, job_title AS \"Job title\", department AS Department, location AS Location, fte AS FTE, salary_gbp AS Salary FROM employees ORDER BY department, salary_gbp DESC",
+    "format": {
+     "Salary": "gbp"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tech-ai-acceptable-use-policy",
+  "type": "docx",
+  "title": "AI Acceptable Use Policy",
+  "site": "tech",
+  "library": "IT & Data Policies",
+  "folder": "Policies",
+  "category": "Policy",
+  "author": "P036",
+  "owner": "P036",
+  "modified_by": "P036",
+  "approved_by": "P002",
+  "created": "2024-03-04",
+  "modified": "2026-09-15",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2027-03-15",
+  "classification": "Internal",
+  "tags": [
+   "AI",
+   "Copilot",
+   "acceptable use",
+   "generative AI",
+   "learner data",
+   "responsible AI"
+  ],
+  "summary": "Rules for using AI tools at Delcorn: approved tools including Microsoft 365 Copilot, prohibited data, learner data rules, human review and transparency.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2024-03-04",
+    "by": "P036",
+    "change": "First policy covering generative AI tools"
+   },
+   {
+    "version": "1.1",
+    "date": "2025-02-10",
+    "by": "P036",
+    "change": "Added Copilot Chat (web grounding off) as approved tool"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-09-15",
+    "by": "P036",
+    "change": "Rewritten for the Microsoft 365 Copilot rollout to all staff; agents and Copilot Studio section added"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "AI can save time and improve the quality of our work, but it also creates risks to learners, employers and Delcorn: inaccurate output, data leakage, bias and loss of trust. This policy sets out how staff may use AI tools safely, lawfully and in line with our value **Responsible with AI**. It supports our Data Protection Policy, Information Security Policy and Safeguarding & Prevent Policy."
+   },
+   {
+    "h1": "2. Scope"
+   },
+   {
+    "p": "This policy applies to all employees, associates and contractors using any AI tool for Delcorn work, on any device. It covers generative AI assistants (chat, writing, summarising, image and code generation), AI features embedded in other software, and agents built in Copilot Studio or similar platforms."
+   },
+   {
+    "h1": "3. Approved tools"
+   },
+   {
+    "table": {
+     "columns": [
+      "Tool",
+      "Status",
+      "Permitted data",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Microsoft 365 Copilot (Word, Excel, PowerPoint, Outlook, Teams, Copilot Chat)",
+       "Approved",
+       "Up to and including Confidential; Highly Confidential only by named teams (see 5.3)",
+       "Enterprise data protection applies; prompts and responses stay within our Microsoft 365 tenant and are not used to train models"
+      ],
+      [
+       "Microsoft 365 Copilot Chat — web grounding",
+       "Approved with care",
+       "Public information only in prompts that use web results",
+       "Web queries are sent to Bing; never include personal data in a web-grounded prompt"
+      ],
+      [
+       "Copilot Studio agents",
+       "Approved — by request",
+       "As defined in the approved agent design",
+       "Agents must be registered with Learning Technology and reviewed by the DPO before sharing beyond the maker"
+      ],
+      [
+       "Aptiva 'Smart Feedback' (vendor AI feature)",
+       "Approved",
+       "Learner evidence within Aptiva",
+       "Coach must review and edit before release to the learner"
+      ],
+      [
+       "GitHub Copilot (Learning Technology team only)",
+       "Approved",
+       "Code; no production data",
+       "—"
+      ],
+      [
+       "Public AI chatbots on personal accounts (any provider)",
+       "**Not approved**",
+       "None",
+       "Do not use for any Delcorn, learner or employer information"
+      ],
+      [
+       "AI meeting bots / note-takers from third parties",
+       "**Not approved**",
+       "None",
+       "Use Teams intelligent recap only"
+      ],
+      [
+       "AI detection tools for learner work",
+       "**Not approved**",
+       "—",
+       "Unreliable; follow the Academic Integrity guidance instead"
+      ]
+     ],
+     "caption": "Table 1 — Approved and prohibited tools (October 2026)"
+    }
+   },
+   {
+    "p": "To request a new tool, raise a FixDesk 'Data request' ticket; the DPO will complete a data protection impact assessment (DPIA) and supplier review before approval."
+   },
+   {
+    "h1": "4. Prohibited data in AI tools"
+   },
+   {
+    "p": "The following must **never** be entered into any AI tool other than Microsoft 365 Copilot within our tenant, and some must never be entered into any AI tool at all:"
+   },
+   {
+    "table": {
+     "columns": [
+      "Data type",
+      "Microsoft 365 Copilot",
+      "Any other AI tool"
+     ],
+     "rows": [
+      [
+       "Learner personal data (names, ULNs, contact details, dates of birth, employer + name combinations)",
+       "Allowed where needed for the task",
+       "**Prohibited**"
+      ],
+      [
+       "Special category data (health, disability/LLDD details, ethnicity, religion, sexual orientation)",
+       "Only where essential and within the restricted library it belongs to",
+       "**Prohibited**"
+      ],
+      [
+       "Safeguarding and Prevent case details",
+       "**Prohibited** outside the Safeguarding Case Management library; never summarised into emails or chats",
+       "**Prohibited**"
+      ],
+      [
+       "Staff HR data (salaries, absence, disciplinary, grievance)",
+       "People & Culture team only",
+       "**Prohibited**"
+      ],
+      [
+       "Passwords, MFA codes, API keys, connection strings",
+       "**Prohibited**",
+       "**Prohibited**"
+      ],
+      [
+       "Employer commercially sensitive information (contract values, levy balances, tenders)",
+       "Allowed for authorised staff",
+       "**Prohibited**"
+      ],
+      [
+       "Bank details and payment card data",
+       "**Prohibited**",
+       "**Prohibited**"
+      ],
+      [
+       "Highly Confidential labelled content",
+       "Named teams only (5.3)",
+       "**Prohibited**"
+      ]
+     ],
+     "caption": "Table 2 — Data rules"
+    }
+   },
+   {
+    "h1": "5. Rules for using Microsoft 365 Copilot"
+   },
+   {
+    "h2": "5.1 You are accountable for the output"
+   },
+   {
+    "bullets": [
+     "**Human review is mandatory.** Read, check and edit everything Copilot produces before you use, send or publish it.",
+     "Check facts, figures and dates against the source — use the citations Copilot provides.",
+     "Do not rely on Copilot for funding eligibility, safeguarding, HR or legal decisions. It can help draft; a qualified person decides.",
+     "Watch for bias in language about learners and employers, especially in progress reviews and references."
+    ]
+   },
+   {
+    "h2": "5.2 Learner data"
+   },
+   {
+    "bullets": [
+     "Coaches may use Copilot to draft progress review summaries from their own notes in Aptiva exports or Word. The coach must edit the draft so it reflects their own professional judgement, then sign it in Aptiva.",
+     "Only include the minimum learner data needed for the task. Prefer learner IDs to names when analysing data in Excel.",
+     "Never ask Copilot to infer sensitive characteristics (health, disability, ethnicity) about a learner.",
+     "Never use Copilot to make or recommend decisions to withdraw a learner, change funding status or grade evidence.",
+     "AI-generated feedback to learners must be reviewed and personalised by the coach."
+    ]
+   },
+   {
+    "h2": "5.3 Highly Confidential content"
+   },
+   {
+    "p": "Content labelled **Highly Confidential** (board papers, safeguarding case records, named salary data, disciplinary files) is excluded from Copilot for all users except the owning team. Do not copy Highly Confidential content into lower-labelled documents to get around this."
+   },
+   {
+    "h2": "5.4 Oversharing"
+   },
+   {
+    "p": "Copilot can surface any file you have permission to open, including files shared too widely by mistake. If Copilot shows you something you should not be able to see, **do not open or share it** — report it immediately via FixDesk (category 'Data request', priority P2) or to the DPO."
+   },
+   {
+    "h1": "6. Transparency"
+   },
+   {
+    "bullets": [
+     "Tell people when AI has materially contributed to content they receive, where it matters — for example: '*Drafted with Microsoft 365 Copilot and reviewed by [name]*' on reports, proposals and learner-facing resources.",
+     "Do not present AI-generated work as wholly your own in assessments, CPD submissions or recruitment.",
+     "Learners must be told how AI is used in their programme (see the Learner AI Guidance in the Curriculum site).",
+     "Do not record or transcribe meetings with learners or employers without telling participants at the start."
+    ]
+   },
+   {
+    "h1": "7. Agents and automation"
+   },
+   {
+    "p": "Staff who have completed the Copilot Studio Maker training may build agents for their team. Before an agent is shared beyond its maker it must be registered in the Agent Register (Learning Technology & IT > Projects), have a named owner, use only approved knowledge sources, include clear instructions to cite sources and decline out-of-scope questions, and be reviewed by the DPO. Agents must not take actions in Aptiva, PeopleFlow or Ledgerline without a human approval step."
+   },
+   {
+    "h1": "8. Breaches"
+   },
+   {
+    "p": "Entering prohibited data into an unapproved AI tool is a data protection incident and must be reported to the DPO within 24 hours. Deliberate or repeated breaches may be dealt with under the Disciplinary & Grievance Procedure."
+   },
+   {
+    "h1": "9. Contacts"
+   },
+   {
+    "kv": [
+     [
+      "Policy owner",
+      "Liam O'Connor, Information Security & Data Protection Officer"
+     ],
+     [
+      "Copilot rollout sponsor",
+      "Aisha Karim, Director of Learning Technology"
+     ],
+     [
+      "Help and training",
+      "Copilot Champions channel in Teams; FixDesk"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tech-information-security-policy",
+  "type": "docx",
+  "title": "Information Security Policy",
+  "site": "tech",
+  "library": "IT & Data Policies",
+  "folder": "Policies",
+  "category": "Policy",
+  "author": "P036",
+  "owner": "P036",
+  "modified_by": "P036",
+  "approved_by": "P002",
+  "created": "2022-09-05",
+  "modified": "2026-06-01",
+  "version": "3.1",
+  "status": "Approved",
+  "review_date": "2027-06-01",
+  "classification": "Internal",
+  "tags": [
+   "information security",
+   "Cyber Essentials Plus",
+   "MFA",
+   "sensitivity labels",
+   "passwords",
+   "incident"
+  ],
+  "summary": "Delcorn's information security policy: classification and sensitivity labels, access control, MFA, devices, passwords, incident reporting and supplier security.",
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "This policy protects the confidentiality, integrity and availability of Delcorn's information and that of our learners and employer partners. It applies to all staff, associates and suppliers with access to Delcorn systems. Delcorn holds **Cyber Essentials Plus** (renewed 12 May 2026) and aligns its controls to ISO/IEC 27001."
+   },
+   {
+    "h1": "2. Information classification and sensitivity labels"
+   },
+   {
+    "table": {
+     "columns": [
+      "Label",
+      "Meaning",
+      "Examples",
+      "Controls"
+     ],
+     "rows": [
+      [
+       "Public",
+       "Approved for anyone",
+       "Website content, published policies, gender pay gap note",
+       "No restrictions"
+      ],
+      [
+       "Internal",
+       "Default for Delcorn work",
+       "Most HR policies, process guides, team plans",
+       "Staff only; no external sharing without review"
+      ],
+      [
+       "Confidential",
+       "Could harm learners, employers or Delcorn if disclosed",
+       "Learner files, contracts, recruitment trackers, management accounts",
+       "Named groups only; external sharing to named people; watermark on print"
+      ],
+      [
+       "Highly Confidential",
+       "Serious harm if disclosed",
+       "Safeguarding case records, board papers, named salary data, disciplinary files",
+       "Encrypted; restricted to named owners; excluded from Copilot for other users; no external sharing"
+      ]
+     ],
+     "caption": "Table 1 — Sensitivity labels"
+    }
+   },
+   {
+    "p": "New documents default to **Internal**. Authors are responsible for applying a higher label where needed. From 2 November 2026, Confidential and Highly Confidential labels are auto-suggested when files contain ULNs, National Insurance numbers or bank details."
+   },
+   {
+    "h1": "3. Access control"
+   },
+   {
+    "bullets": [
+     "Access is granted on a least-privilege basis through Microsoft 365 groups owned by the site owner.",
+     "SharePoint sites must not use 'Everyone' or 'Everyone except external users' permissions, or organisation-wide sharing links, for Confidential or Highly Confidential content.",
+     "Site owners review membership **quarterly**; Learning Technology runs a tenant-wide permissions report monthly.",
+     "Leaver access is removed on the last working day (FixDesk 'Leaver / access removal' ticket raised by the manager at least 5 days in advance)."
+    ]
+   },
+   {
+    "h1": "4. Authentication"
+   },
+   {
+    "bullets": [
+     "**Multi-factor authentication** (Microsoft Authenticator number matching) is mandatory for all accounts.",
+     "Passwords: minimum 14 characters; passphrases encouraged; no forced expiry unless compromise is suspected.",
+     "Never share passwords or approve an MFA prompt you did not initiate — report it as a P1 security incident."
+    ]
+   },
+   {
+    "h1": "5. Devices"
+   },
+   {
+    "bullets": [
+     "Only Delcorn-managed Windows laptops (Intune enrolled, BitLocker encrypted) may access learner data.",
+     "Personal mobile phones may access Outlook and Teams through the managed apps with app protection policies; no downloads to personal storage.",
+     "Screens lock after 5 minutes; updates install within 14 days of release."
+    ]
+   },
+   {
+    "h1": "6. Email and phishing"
+   },
+   {
+    "p": "Report suspicious emails using the **Report** button in Outlook. Do not click links or open attachments you were not expecting. Delcorn runs monthly simulated phishing campaigns; the September 2026 click rate was 4.1% (target under 5%)."
+   },
+   {
+    "h1": "7. Incident reporting"
+   },
+   {
+    "p": "Report any actual or suspected security incident immediately via FixDesk (P1) or by calling the Service Desk on 020 7946 0199. Examples: lost laptop, malware, a suspicious MFA prompt, data sent to the wrong person, or content visible to people who should not see it. Personal data breaches are assessed by the DPO, who decides on ICO notification within 72 hours."
+   },
+   {
+    "h1": "8. Suppliers"
+   },
+   {
+    "p": "Suppliers processing Delcorn data must pass a security questionnaire, sign a data processing agreement and hold Cyber Essentials (or equivalent). Critical suppliers (Aptiva, PeopleFlow, Ledgerline, PipelineHQ) are reviewed annually."
+   }
+  ]
+ },
+ {
+  "id": "tech-data-protection-policy",
+  "type": "docx",
+  "title": "Data Protection Policy & ROPA Summary",
+  "site": "tech",
+  "library": "IT & Data Policies",
+  "folder": "Policies",
+  "category": "Policy",
+  "author": "P036",
+  "owner": "P036",
+  "modified_by": "P036",
+  "approved_by": "P001",
+  "created": "2022-09-05",
+  "modified": "2026-08-20",
+  "version": "3.0",
+  "status": "Approved",
+  "review_date": "2027-08-20",
+  "classification": "Internal",
+  "tags": [
+   "GDPR",
+   "data protection",
+   "ROPA",
+   "DPIA",
+   "subject access",
+   "lawful basis"
+  ],
+  "summary": "How Delcorn complies with UK GDPR and the Data Protection Act 2018, including roles, rights, DPIAs, breaches and a summary of the record of processing activities.",
+  "blocks": [
+   {
+    "h1": "1. Policy statement"
+   },
+   {
+    "p": "Delcorn Learning Ltd is a **controller** for the personal data of its staff, learners and employer contacts, and registered with the Information Commissioner's Office (registration ZB481207). For some apprenticeship data we act as a controller in our own right alongside the Department for Education. We process personal data in line with the UK GDPR principles: lawfulness, fairness and transparency; purpose limitation; data minimisation; accuracy; storage limitation; integrity and confidentiality; and accountability."
+   },
+   {
+    "h1": "2. Roles"
+   },
+   {
+    "kv": [
+     [
+      "Data Protection Officer",
+      "Liam O'Connor (dpo@delcorn.co.uk)"
+     ],
+     [
+      "Senior Information Risk Owner",
+      "David Okafor, Chief Operating Officer"
+     ],
+     [
+      "Information Asset Owners",
+      "Heads of function for the systems in Table 1"
+     ],
+     [
+      "All staff",
+      "Handle personal data in line with this policy; complete annual training"
+     ]
+    ]
+   },
+   {
+    "h1": "3. Record of processing activities (summary)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Processing activity",
+      "Data subjects",
+      "Key data",
+      "Lawful basis",
+      "System",
+      "Asset owner"
+     ],
+     "rows": [
+      [
+       "Apprenticeship delivery & ILR return",
+       "Learners",
+       "Identity, ULN, contact, employer, prior attainment, LLDD, ethnicity, progress, OTJ",
+       "Public task / legal obligation; special category: substantial public interest (equality monitoring)",
+       "Aptiva",
+       "Head of Delivery"
+      ],
+      [
+       "Progress reviews & evidence",
+       "Learners, employer line managers",
+       "Review notes, RAG, wellbeing check, signatures",
+       "Contract / public task",
+       "Aptiva",
+       "Head of Delivery"
+      ],
+      [
+       "Safeguarding & Prevent",
+       "Learners",
+       "Concern details, risk, referrals (special category)",
+       "Legal obligation; vital interests; substantial public interest (safeguarding)",
+       "SharePoint restricted library",
+       "Head of Safeguarding"
+      ],
+      [
+       "Employer account management",
+       "Employer contacts",
+       "Name, role, email, phone",
+       "Legitimate interests",
+       "PipelineHQ",
+       "Chief Commercial Officer"
+      ],
+      [
+       "Recruitment",
+       "Candidates",
+       "CV, interview notes, right to work, DBS outcome",
+       "Contract (steps prior); legal obligation",
+       "PeopleFlow / SharePoint",
+       "People Director"
+      ],
+      [
+       "Employment & payroll",
+       "Staff",
+       "Contract, salary, bank, absence, health (fit notes)",
+       "Contract; legal obligation; employment (special category)",
+       "PeopleFlow",
+       "People Director"
+      ],
+      [
+       "Finance & invoicing",
+       "Employer contacts, suppliers",
+       "Invoices, payment details",
+       "Contract; legal obligation",
+       "Ledgerline",
+       "CFO"
+      ],
+      [
+       "IT service & security monitoring",
+       "Staff",
+       "Account, device, sign-in and audit logs, tickets",
+       "Legitimate interests",
+       "FixDesk / Microsoft 365",
+       "Director of Learning Technology"
+      ],
+      [
+       "Microsoft 365 Copilot",
+       "Staff, learners, employer contacts (as present in content)",
+       "Prompts, responses, content the user can access",
+       "Legitimate interests (DPIA DP-2026-07)",
+       "Microsoft 365",
+       "Director of Learning Technology"
+      ],
+      [
+       "Learner feedback surveys",
+       "Learners",
+       "NPS, ratings, comments",
+       "Legitimate interests / public task",
+       "Aptiva surveys",
+       "Director of Quality"
+      ]
+     ],
+     "caption": "Table 1 — ROPA summary (full register held by the DPO)"
+    }
+   },
+   {
+    "h1": "4. Data protection impact assessments"
+   },
+   {
+    "p": "A DPIA is required before any new processing likely to result in high risk, including new AI tools, new systems holding learner data and new data sharing. The Microsoft 365 Copilot DPIA (**DP-2026-07**, approved 14 August 2026) concluded residual risk is **medium**, conditional on: completing the SharePoint permissions clean-up, deploying sensitivity labels, excluding Highly Confidential content, mandatory Responsible AI training and quarterly access reviews."
+   },
+   {
+    "h1": "5. Individual rights"
+   },
+   {
+    "p": "Requests (access, rectification, erasure, restriction, objection, portability) are logged by the DPO and answered within **one calendar month**. Forward any request you receive to dpo@delcorn.co.uk on the same day. Note that a subject access request includes content in emails, Teams chats and Copilot-generated documents."
+   },
+   {
+    "h1": "6. Personal data breaches"
+   },
+   {
+    "numbered": [
+     "Report suspected breaches to the DPO immediately (FixDesk P1 or phone).",
+     "The DPO assesses risk and records the incident in the breach log within 24 hours.",
+     "If there is a risk to individuals, the DPO notifies the ICO within **72 hours** of becoming aware.",
+     "If the risk is high, affected individuals are told without undue delay.",
+     "Lessons learned are reported to the Executive monthly."
+    ]
+   },
+   {
+    "h1": "7. Retention"
+   },
+   {
+    "p": "Personal data is kept only as long as necessary — see the **Data Retention Schedule**. Learner records are kept for **six years after the end of the funding period** to meet Department for Education audit requirements, then securely destroyed."
+   },
+   {
+    "h1": "8. International transfers"
+   },
+   {
+    "p": "Personal data is stored in UK or EEA data centres. Any transfer outside the UK requires an adequacy regulation or the UK International Data Transfer Agreement/Addendum, approved by the DPO."
+   }
+  ]
+ },
+ {
+  "id": "tech-data-retention-schedule",
+  "type": "xlsx",
+  "title": "Data Retention Schedule",
+  "site": "tech",
+  "library": "IT & Data Policies",
+  "folder": "Schedules",
+  "category": "Schedule",
+  "doc_type_label": "Retention Schedule",
+  "author": "P036",
+  "owner": "P036",
+  "modified_by": "P036",
+  "approved_by": "P002",
+  "created": "2023-01-16",
+  "modified": "2026-09-01",
+  "version": "2.4",
+  "status": "Approved",
+  "review_date": "2027-09-01",
+  "classification": "Internal",
+  "tags": [
+   "retention",
+   "records management",
+   "GDPR",
+   "learner records",
+   "Purview"
+  ],
+  "summary": "How long Delcorn keeps each record type, why, and what happens at the end — e.g. learner records 6 years after the end of the funding period.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Data Retention Schedule v2.4 — owner Liam O'Connor (DPO). Approved by the COO on 1 September 2026.",
+     "Retention periods are applied in Microsoft Purview retention labels for SharePoint/OneDrive/Exchange, and through scheduled deletion jobs in Aptiva, PeopleFlow and Ledgerline.",
+     "Where a legal hold, subject access request or funding audit is in progress, deletion is suspended — contact the DPO.",
+     "Funding period = the period for which Delcorn claimed funding for the learner, ending with the final funding claim."
+    ]
+   },
+   {
+    "name": "Schedule",
+    "columns": [
+     "Record type",
+     "Data subjects",
+     "System / location",
+     "Retention period",
+     "Reason / authority",
+     "Disposal action",
+     "Owner",
+     "Classification"
+    ],
+    "rows": [
+     [
+      "Learner records (ILR data, enrolment, eligibility, ID evidence)",
+      "Learners",
+      "Aptiva",
+      "6 years after the end of the funding period (final funding claim for the learner)",
+      "DfE funding agreement & audit requirements",
+      "Secure deletion; anonymised stats retained",
+      "Head of Delivery",
+      "Confidential"
+     ],
+     [
+      "Progress reviews, training plans, OTJ logs, evidence",
+      "Learners",
+      "Aptiva",
+      "6 years after the end of the funding period",
+      "DfE funding audit",
+      "Secure deletion",
+      "Head of Delivery",
+      "Confidential"
+     ],
+     [
+      "Commitment statements / training plans (signed)",
+      "Learners, employers",
+      "Aptiva",
+      "6 years after the end of the funding period",
+      "DfE funding audit",
+      "Secure deletion",
+      "Head of Delivery",
+      "Confidential"
+     ],
+     [
+      "EPA results and certificates",
+      "Learners",
+      "Aptiva",
+      "6 years after the end of the funding period",
+      "Funding audit; learner verification",
+      "Secure deletion",
+      "Head of Quality",
+      "Confidential"
+     ],
+     [
+      "Safeguarding case records",
+      "Learners",
+      "SharePoint (Case Management)",
+      "Until the learner's 25th birthday or 6 years after case closure, whichever is longer",
+      "Keeping Children Safe in Education; statutory guidance",
+      "Review by DSL, then secure deletion",
+      "Head of Safeguarding",
+      "Highly Confidential"
+     ],
+     [
+      "Prevent referrals",
+      "Learners",
+      "SharePoint (Case Management)",
+      "6 years after closure",
+      "Prevent duty guidance",
+      "Review by DSL",
+      "Head of Safeguarding",
+      "Highly Confidential"
+     ],
+     [
+      "Learner feedback survey responses",
+      "Learners",
+      "Aptiva surveys",
+      "3 years from response",
+      "Business need",
+      "Anonymise",
+      "Director of Quality",
+      "Internal"
+     ],
+     [
+      "Unsuccessful candidate records",
+      "Candidates",
+      "PeopleFlow / SharePoint",
+      "6 months after the recruitment decision",
+      "Equality Act claim period",
+      "Delete",
+      "Talent Acquisition Lead",
+      "Confidential"
+     ],
+     [
+      "Personnel files (contract, appraisals, training)",
+      "Staff",
+      "PeopleFlow",
+      "6 years after employment ends",
+      "Limitation Act 1980",
+      "Delete",
+      "People Director",
+      "Confidential"
+     ],
+     [
+      "Payroll and tax records",
+      "Staff",
+      "PeopleFlow / Ledgerline",
+      "6 years after the end of the tax year",
+      "HMRC requirements",
+      "Delete",
+      "CFO",
+      "Highly Confidential"
+     ],
+     [
+      "Right to work checks",
+      "Staff",
+      "PeopleFlow",
+      "2 years after employment ends",
+      "Immigration, Asylum and Nationality Act 2006",
+      "Delete",
+      "People Director",
+      "Confidential"
+     ],
+     [
+      "Sickness records and fit notes",
+      "Staff",
+      "PeopleFlow",
+      "6 years after employment ends",
+      "Limitation Act; SSP records",
+      "Delete",
+      "People Director",
+      "Highly Confidential"
+     ],
+     [
+      "Disciplinary and grievance records",
+      "Staff",
+      "PeopleFlow",
+      "Warning: expiry + 6 months; case file: 6 years after employment ends",
+      "Business need; Limitation Act",
+      "Delete",
+      "People Director",
+      "Highly Confidential"
+     ],
+     [
+      "Employer contracts and agreements",
+      "Employers",
+      "SharePoint (Contracts & Agreements)",
+      "6 years after contract end (12 if signed as a deed)",
+      "Limitation Act 1980",
+      "Archive then delete",
+      "Chief Commercial Officer",
+      "Confidential"
+     ],
+     [
+      "Financial records, invoices, POs",
+      "Employers, suppliers",
+      "Ledgerline",
+      "6 years after the end of the financial year (31 July)",
+      "Companies Act 2006; HMRC",
+      "Delete",
+      "CFO",
+      "Confidential"
+     ],
+     [
+      "Board papers and minutes",
+      "—",
+      "SharePoint (Board Packs)",
+      "Permanent",
+      "Companies Act 2006",
+      "Archive",
+      "Board Secretary",
+      "Highly Confidential"
+     ],
+     [
+      "IT service desk tickets",
+      "Staff",
+      "FixDesk",
+      "2 years after closure",
+      "Business need",
+      "Delete",
+      "IT Service Desk Lead",
+      "Internal"
+     ],
+     [
+      "Microsoft 365 audit logs",
+      "Staff",
+      "Microsoft Purview",
+      "1 year",
+      "Security monitoring",
+      "Automatic deletion",
+      "Information Security & DPO",
+      "Confidential"
+     ],
+     [
+      "Copilot prompts and responses (interaction history)",
+      "Staff",
+      "Microsoft 365 (Exchange mailbox)",
+      "1 year, then automatic deletion via retention policy",
+      "DPIA DP-2026-07",
+      "Automatic deletion",
+      "Information Security & DPO",
+      "Confidential"
+     ],
+     [
+      "Teams chat messages",
+      "Staff",
+      "Microsoft 365",
+      "2 years",
+      "Business need",
+      "Automatic deletion",
+      "Director of Learning Technology",
+      "Internal"
+     ],
+     [
+      "Teams meeting recordings and transcripts",
+      "Staff, learners",
+      "OneDrive / SharePoint",
+      "120 days",
+      "Data minimisation",
+      "Automatic deletion",
+      "Director of Learning Technology",
+      "Confidential"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "tech-copilot-rollout-plan",
+  "type": "pptx",
+  "title": "Microsoft 365 Copilot Rollout Plan",
+  "site": "tech",
+  "library": "Projects",
+  "folder": "Copilot Rollout",
+  "category": "Plan",
+  "author": "P007",
+  "owner": "P007",
+  "modified_by": "P036",
+  "approved_by": "P002",
+  "created": "2026-06-08",
+  "modified": "2026-10-31",
+  "version": "1.6",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "Copilot",
+   "rollout",
+   "adoption",
+   "licences",
+   "change management",
+   "champions"
+  ],
+  "summary": "The plan for rolling Microsoft 365 Copilot out to every Delcorn colleague in autumn 2026: phases, readiness, licences, training, risks and success metrics.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Microsoft 365 Copilot for everyone",
+    "subtitle": "Rollout plan — autumn 2026",
+    "meta": "Aisha Karim, Director of Learning Technology (sponsor) · v1.6, 31 October 2026",
+    "notes": "Approved by the Executive on 22 June 2026; updated after the pilot review on 27 October and the permissions review findings on 30 October."
+   },
+   {
+    "layout": "bullets",
+    "title": "Why we're doing this",
+    "bullets": [
+     "Engagement survey 2026: workload is our lowest-scoring theme (52% favourable)",
+     "Coaches spend an estimated 4–6 hours a week writing review summaries and employer emails",
+     "Central teams answer the same policy and data questions repeatedly",
+     "Our curriculum teaches AI — our own people should be expert, responsible users",
+     "Target: give back **2 hours per person per week** by July 2027"
+    ]
+   },
+   {
+    "layout": "steps",
+    "title": "Phases",
+    "steps": [
+     {
+      "label": "0 · Readiness",
+      "text": "Jul–Oct 2026: DPIA, SharePoint permissions review, sensitivity labels, Restricted Content Discovery for HR and safeguarding sites"
+     },
+     {
+      "label": "1 · Pilot",
+      "text": "1 Sep–23 Oct 2026: 30 Copilot Champions across every team"
+     },
+     {
+      "label": "2 · Wave 1",
+      "text": "2 Nov 2026: central teams (62 users)"
+     },
+     {
+      "label": "3 · Wave 2",
+      "text": "16 Nov 2026: skills coaches and tutors (64 users) after go/no-go on 11 Nov"
+     },
+     {
+      "label": "4 · Embed",
+      "text": "Dec 2026–Jul 2027: agents (HR Policy Helper, IT self-service), Copilot for Coaches CPD, quarterly access reviews"
+     }
+    ]
+   },
+   {
+    "layout": "table",
+    "title": "Readiness checklist",
+    "table": {
+     "columns": [
+      "Workstream",
+      "Owner",
+      "Status",
+      "Due"
+     ],
+     "rows": [
+      [
+       "DPIA DP-2026-07 approved",
+       "Liam O'Connor",
+       "Complete",
+       "14 Aug 2026"
+      ],
+      [
+       "Sensitivity labels published (4 labels)",
+       "Liam O'Connor",
+       "Complete",
+       "2 Sep 2026"
+      ],
+      [
+       "Auto-labelling for ULN / NI / bank details",
+       "Liam O'Connor",
+       "Complete",
+       "2 Nov 2026"
+      ],
+      [
+       "SharePoint permissions review — 10 sites",
+       "Kate Simmons",
+       "17 of 21 findings closed; 4 in progress",
+       "13 Nov 2026"
+      ],
+      [
+       "Restricted Content Discovery: Safeguarding, Exec, People sites",
+       "Kate Simmons",
+       "Complete",
+       "30 Oct 2026"
+      ],
+      [
+       "Responsible AI & Copilot Essentials e-learning",
+       "Ellie Wood",
+       "Live; 71% complete",
+       "Before licence"
+      ],
+      [
+       "Licence assignment groups",
+       "Mohammed Ali",
+       "Wave 1 assigned",
+       "16 Nov 2026"
+      ],
+      [
+       "Service desk knowledge articles (Copilot)",
+       "Mohammed Ali",
+       "12 published",
+       "2 Nov 2026"
+      ]
+     ]
+    },
+    "notes": "A licence is only assigned once the user has completed the 60-minute Responsible AI & Copilot Essentials module — the group membership is driven from PeopleFlow training records."
+   },
+   {
+    "layout": "kpis",
+    "title": "Licences and cost",
+    "kpis": [
+     {
+      "value": "150",
+      "label": "Copilot licences",
+      "note": "Annual commitment from 1 Aug 2026"
+     },
+     {
+      "value": "{{fact:headcount}}",
+      "label": "Colleagues to license",
+      "note": "Plus 8 spare for starters"
+     },
+     {
+      "value": "£44.1k",
+      "label": "Annual licence cost",
+      "note": "Budgeted in FY2026/27 IT budget"
+     },
+     {
+      "value": "30",
+      "label": "Champions",
+      "note": "At least one per team"
+     },
+     {
+      "value": "2 hrs",
+      "label": "Time saved target",
+      "note": "Per person per week by Jul 2027"
+     }
+    ]
+   },
+   {
+    "layout": "two_column",
+    "title": "Training and support",
+    "left": {
+     "heading": "Training",
+     "bullets": [
+      "Responsible AI & Copilot Essentials (60 min, mandatory)",
+      "Live 'Copilot in your day' sessions by role (coaches, managers, finance, partnerships)",
+      "Copilot for Coaches CPD pathway (by 31 Jan 2027)",
+      "Copilot Studio Maker course for agent builders (by invitation)"
+     ]
+    },
+    "right": {
+     "heading": "Support",
+     "bullets": [
+      "Copilot Champions channel in Teams",
+      "Prompt library in the Learning Technology site",
+      "FixDesk category 'Copilot access & licensing'",
+      "Weekly drop-in clinic, Thursdays 12:30"
+     ]
+    }
+   },
+   {
+    "layout": "table",
+    "title": "Key risks",
+    "table": {
+     "columns": [
+      "Risk",
+      "Mitigation",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Oversharing — Copilot surfaces files shared too widely (e.g. salary data)",
+       "Permissions review; remove org-wide links; Restricted Content Discovery; labels; monthly access report",
+       "Kate Simmons"
+      ],
+      [
+       "Learner or safeguarding data misused in prompts",
+       "AI AUP; training; Highly Confidential exclusion; DLP policy",
+       "Liam O'Connor"
+      ],
+      [
+       "Inaccurate output used without checking",
+       "Mandatory human review; citations; 'check the source' habit in training",
+       "Ellie Wood"
+      ],
+      [
+       "Low adoption among coaches",
+       "Champions; role-based prompts; protected learning time",
+       "Rachel Moss"
+      ],
+      [
+       "Licence cost not justified",
+       "Monthly usage report; reassign inactive licences after 60 days",
+       "Aisha Karim"
+      ]
+     ]
+    }
+   },
+   {
+    "layout": "table",
+    "title": "Success metrics",
+    "table": {
+     "columns": [
+      "Measure",
+      "Baseline",
+      "Target (Jul 2027)"
+     ],
+     "rows": [
+      [
+       "Weekly active Copilot users",
+       "Pilot: 87%",
+       "80% of licensed users"
+      ],
+      [
+       "Self-reported time saved",
+       "Pilot: 1.6 hrs/week",
+       "2 hrs/person/week"
+      ],
+      [
+       "Progress reviews signed within 48 hours",
+       "61%",
+       "80%"
+      ],
+      [
+       "Repetitive HR/IT tickets deflected by agents",
+       "0",
+       "25%"
+      ],
+      [
+       "Staff 'I trust Delcorn to use AI responsibly'",
+       "74%",
+       "80%"
+      ],
+      [
+       "Data incidents caused by Copilot use",
+       "0",
+       "0"
+      ]
+     ]
+    }
+   },
+   {
+    "layout": "chart",
+    "title": "Pilot results — tasks where Champions used Copilot",
+    "chart": {
+     "type": "bar",
+     "title": "% of pilot users using Copilot weekly for…",
+     "categories": [
+      "Summarising Teams meetings",
+      "Drafting emails",
+      "Review summaries (coaches)",
+      "Finding policy answers",
+      "Excel analysis",
+      "Creating slides"
+     ],
+     "series": [
+      {
+       "name": "% of pilot users",
+       "values": [
+        83,
+        77,
+        70,
+        63,
+        40,
+        33
+       ]
+      }
+     ],
+     "number_format": "0\"%\"",
+     "labels": true
+    },
+    "notes": "From the pilot survey on 20 October 2026 (27 of 30 champions responded)."
+   }
+  ]
+ },
+ {
+  "id": "tech-copilot-permissions-review",
+  "type": "xlsx",
+  "title": "Copilot Readiness — SharePoint Permissions Review",
+  "site": "tech",
+  "library": "Projects",
+  "folder": "Copilot Rollout",
+  "category": "Review",
+  "doc_type_label": "Readiness review",
+  "author": "P035",
+  "owner": "P007",
+  "modified_by": "P036",
+  "created": "2026-09-14",
+  "modified": "2026-11-04",
+  "version": "1.8",
+  "status": "Under review",
+  "classification": "Confidential",
+  "tags": [
+   "Copilot readiness",
+   "oversharing",
+   "permissions",
+   "SharePoint",
+   "sensitivity labels"
+  ],
+  "summary": "Findings from the pre-Copilot SharePoint and OneDrive permissions review across all ten sites, with risk ratings, remediation actions, owners and status.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Copilot Readiness — SharePoint Permissions Review. Prepared by Kate Simmons (Data & Systems Manager) with Liam O'Connor (DPO).",
+     "Method: SharePoint data access governance reports (sharing links, 'Everyone' permissions, broken inheritance) run 14 Sep and 28 Oct 2026, plus site owner interviews.",
+     "Risk: Critical = Highly Confidential/special category or secrets exposed widely; High = Confidential personal data exposed beyond need; Medium = over-broad access, low sensitivity; Low = acceptable.",
+     "Status: Open, In progress, Remediated, Closed (no action needed). Go/no-go for Wave 2 requires no Critical findings open (11 Nov 2026)."
+    ]
+   },
+   {
+    "name": "Findings",
+    "columns": [
+     "Finding ID",
+     "Site",
+     "Library",
+     "Scope",
+     "Exposure found",
+     "Sensitivity label",
+     "Risk",
+     "Issue",
+     "Action",
+     "Owner",
+     "Status",
+     "Target / closed date"
+    ],
+    "rows": [
+     [
+      "PR-001",
+      "Delcorn Hub",
+      "Company Policies",
+      "Library",
+      "Everyone except external users (read)",
+      "Internal",
+      "Low",
+      "Expected — company-wide policies",
+      "None — accepted",
+      "Kate Simmons",
+      "Closed",
+      "2026-09-18"
+     ],
+     [
+      "PR-002",
+      "Executive & Board",
+      "Board Packs",
+      "Site",
+      "Site members + 3 former EAs still members",
+      "Highly Confidential",
+      "High",
+      "Stale membership: 3 users no longer in role",
+      "Removed users; quarterly owner review set",
+      "Oliver Grant",
+      "Remediated",
+      "2026-09-25"
+     ],
+     [
+      "PR-003",
+      "Executive & Board",
+      "Risk & Governance",
+      "Folder",
+      "Shared with Meridian Group finance via guest links (expired accounts)",
+      "Confidential",
+      "Medium",
+      "Guest links to 4 Meridian contacts, 2 have left Meridian",
+      "Removed expired guests; links set to 30-day expiry",
+      "Oliver Grant",
+      "Remediated",
+      "2026-10-02"
+     ],
+     [
+      "PR-004",
+      "Learning Delivery",
+      "Learner Files",
+      "Library",
+      "All delivery staff (80) — broken inheritance on 214 folders",
+      "Confidential",
+      "High",
+      "Coaches can open learner files outside their caseload",
+      "Restructure to academy-level groups; reset inheritance",
+      "Kate Simmons",
+      "In progress",
+      "2026-11-13"
+     ],
+     [
+      "PR-005",
+      "Learning Delivery",
+      "Caseload Reports",
+      "File",
+      "'People in Delcorn with the link' on Caseload_Oct26.xlsx",
+      "Unlabelled",
+      "Medium",
+      "Org-wide link; contains learner names and RAG",
+      "Link removed; labelled Confidential",
+      "Rachel Moss",
+      "Remediated",
+      "2026-10-21"
+     ],
+     [
+      "PR-006",
+      "Safeguarding & Learner Support",
+      "Case Management",
+      "Library",
+      "Safeguarding team (4) — correct",
+      "Highly Confidential",
+      "Low",
+      "Permissions correct",
+      "Restricted Content Discovery applied as extra control",
+      "Grace Adeyemi",
+      "Closed",
+      "2026-10-30"
+     ],
+     [
+      "PR-007",
+      "Safeguarding & Learner Support",
+      "Learner Support",
+      "File",
+      "Shared with 2 coaches by direct link",
+      "Unlabelled",
+      "High",
+      "ALS support plan with disability details shared via email link",
+      "Access reduced to coach of record; labelled Confidential",
+      "Megan Taylor",
+      "Remediated",
+      "2026-10-09"
+     ],
+     [
+      "PR-008",
+      "Employer Partnerships",
+      "Contracts & Agreements",
+      "Library",
+      "All Partnerships + Finance (20)",
+      "Confidential",
+      "Low",
+      "Appropriate",
+      "None",
+      "Tom Whitfield",
+      "Closed",
+      "2026-09-18"
+     ],
+     [
+      "PR-009",
+      "Employer Partnerships",
+      "Proposals",
+      "Folder",
+      "External guest (bid consultant) with edit access",
+      "Internal",
+      "Medium",
+      "Guest access not reviewed since tender closed in May 2026",
+      "Guest removed",
+      "Sophie Turner",
+      "Remediated",
+      "2026-10-14"
+     ],
+     [
+      "PR-010",
+      "Finance & Funding",
+      "Management Accounts",
+      "Library",
+      "Finance team + Exec",
+      "Confidential",
+      "Low",
+      "Appropriate",
+      "None",
+      "Andrew Clarke",
+      "Closed",
+      "2026-09-18"
+     ],
+     [
+      "PR-011",
+      "Finance & Funding",
+      "Funding & ILR",
+      "File",
+      "'People in Delcorn with the link' on ILR_R02_working.xlsx",
+      "Unlabelled",
+      "High",
+      "Org-wide link; contains ULNs and dates of birth for 1,400 learners",
+      "Link removed; labelled Confidential; auto-label rule for ULNs",
+      "Nicole Brooks",
+      "Remediated",
+      "2026-10-23"
+     ],
+     [
+      "PR-012",
+      "Finance & Funding",
+      "Invoices",
+      "Library",
+      "Everyone except external users (read) — legacy setting",
+      "Internal",
+      "Medium",
+      "Legacy permission from 2021 migration",
+      "Permission removed",
+      "Peter Walsh",
+      "Remediated",
+      "2026-10-16"
+     ],
+     [
+      "PR-013",
+      "People & Culture",
+      "HR Policies",
+      "Library",
+      "Everyone except external users (read)",
+      "Internal",
+      "Low",
+      "Expected — staff need policy access",
+      "None — accepted (good grounding for HR agent)",
+      "Amy Collins",
+      "Closed",
+      "2026-09-18"
+     ],
+     [
+      "PR-014",
+      "People & Culture",
+      "Recruitment",
+      "File",
+      "'People in Delcorn with the link' on Salary Benchmarking 2026.xlsx",
+      "Confidential",
+      "Critical",
+      "Named salaries for all 142 staff visible org-wide; opened by 23 users outside People team in 90 days",
+      "Link removed 30 Oct; access restricted to People Director, HRBP, CFO; upgrade label to Highly Confidential",
+      "Marcus Bell",
+      "In progress",
+      "2026-11-06"
+     ],
+     [
+      "PR-015",
+      "People & Culture",
+      "Recruitment",
+      "Folder",
+      "Hiring managers group has access to all Interview Packs and candidate notes",
+      "Confidential",
+      "Medium",
+      "Candidate notes visible to managers not on the panel",
+      "Move candidate notes to per-requisition folders",
+      "Joe Fraser",
+      "In progress",
+      "2026-11-20"
+     ],
+     [
+      "PR-016",
+      "People & Culture",
+      "Wellbeing",
+      "File",
+      "EAP usage report shared with all managers",
+      "Internal",
+      "Medium",
+      "Contains team-level counts under 5 (re-identification risk)",
+      "Suppress counts under 5; restrict to People team",
+      "Marcus Bell",
+      "Remediated",
+      "2026-10-27"
+     ],
+     [
+      "PR-017",
+      "Learning Technology & IT",
+      "Systems & Data",
+      "File",
+      "Aptiva_API_config.txt in library readable by all Tech + Delivery Managers",
+      "Unlabelled",
+      "Critical",
+      "Contains an API key for Aptiva integration",
+      "Key rotated; file deleted; secret moved to Azure Key Vault",
+      "Kate Simmons",
+      "Remediated",
+      "2026-09-30"
+     ],
+     [
+      "PR-018",
+      "Learning Technology & IT",
+      "Service Desk",
+      "Library",
+      "Everyone except external users (read)",
+      "Internal",
+      "Low",
+      "Expected — self-service knowledge",
+      "None — accepted (good grounding for IT agent)",
+      "Mohammed Ali",
+      "Closed",
+      "2026-09-18"
+     ],
+     [
+      "PR-019",
+      "Curriculum & Academies",
+      "Workshop Materials",
+      "Library",
+      "Everyone except external users (edit)",
+      "Internal",
+      "Medium",
+      "Edit rights org-wide — risk of accidental changes",
+      "Reduced to read; Curriculum team edit",
+      "Ben Hartley",
+      "Remediated",
+      "2026-10-06"
+     ],
+     [
+      "PR-020",
+      "Quality & Compliance",
+      "Observations",
+      "Library",
+      "All managers (21)",
+      "Confidential",
+      "Medium",
+      "Observation grades visible to managers outside the coach's line",
+      "Restrict to Quality team + coach's own manager",
+      "Hannah Price",
+      "In progress",
+      "2026-11-13"
+     ],
+     [
+      "PR-021",
+      "OneDrive (tenant-wide)",
+      "—",
+      "Files",
+      "312 'anyone with the link' files across 41 OneDrives",
+      "Mixed",
+      "High",
+      "Anonymous links created before the July 2026 policy change",
+      "Anonymous links disabled tenant-wide; owners notified",
+      "Mohammed Ali",
+      "Remediated",
+      "2026-10-12"
+     ]
+    ],
+    "format": {
+     "Target / closed date": "date"
+    }
+   },
+   {
+    "name": "Summary by risk",
+    "columns": [
+     "Risk",
+     "Findings",
+     "Remediated / closed",
+     "Open / in progress"
+    ],
+    "rows": [
+     [
+      "Critical",
+      2,
+      1,
+      1
+     ],
+     [
+      "High",
+      5,
+      4,
+      1
+     ],
+     [
+      "Medium",
+      8,
+      6,
+      2
+     ],
+     [
+      "Low",
+      6,
+      6,
+      0
+     ]
+    ],
+    "totals": [
+     "Findings",
+     "Remediated / closed",
+     "Open / in progress"
+    ],
+    "chart": {
+     "type": "stacked",
+     "cat_col": "Risk",
+     "val_cols": [
+      "Remediated / closed",
+      "Open / in progress"
+     ],
+     "title": "Findings by risk and status"
+    }
+   }
+  ]
+ },
+ {
+  "id": "tech-aptiva-data-dictionary",
+  "type": "xlsx",
+  "title": "Aptiva Data Dictionary",
+  "site": "tech",
+  "library": "Systems & Data",
+  "folder": "Aptiva",
+  "category": "Reference",
+  "doc_type_label": "Data dictionary",
+  "author": "P035",
+  "owner": "P035",
+  "modified_by": "P035",
+  "approved_by": "P007",
+  "created": "2023-04-03",
+  "modified": "2026-10-06",
+  "version": "4.2",
+  "status": "Approved",
+  "review_date": "2027-04-01",
+  "classification": "Internal",
+  "tags": [
+   "Aptiva",
+   "data dictionary",
+   "ILR",
+   "learners",
+   "progress reviews",
+   "fields"
+  ],
+  "summary": "Field-by-field reference for Aptiva learner and progress review data, mapped to reporting database columns, ILR fields and classification.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Aptiva Data Dictionary v4.2 — owner Kate Simmons, Data & Systems Manager.",
+     "Maps Aptiva screen fields to the reporting database (tables 'learners' and 'progress_reviews', refreshed nightly at 02:00) and to ILR fields used in the monthly return.",
+     "Classification shows the most sensitive label applied to any export containing the field. LLDD is special category data and must not be used in Copilot prompts outside the restricted reports.",
+     "Change requests: FixDesk category 'Aptiva access / sync'."
+    ]
+   },
+   {
+    "name": "Fields",
+    "columns": [
+     "Entity",
+     "Aptiva field",
+     "DB table",
+     "DB column",
+     "Type",
+     "Example",
+     "Description / rules",
+     "ILR field",
+     "Classification"
+    ],
+    "rows": [
+     [
+      "Learner",
+      "Learner ID",
+      "learners",
+      "learner_id",
+      "Text (LRN + 5 digits)",
+      "LRN20001",
+      "Primary key in Aptiva",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Unique Learner Number",
+      "learners",
+      "uln",
+      "Text (10 digits)",
+      "5385873535",
+      "Learner Record Service identifier; mandatory for ILR",
+      "ULN",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "First name / Last name",
+      "learners",
+      "first_name, last_name",
+      "Text",
+      "Philip / Chan",
+      "Legal name as per ID",
+      "GivenNames / FamilyName",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Employer",
+      "learners",
+      "employer_id",
+      "Text (FK employers)",
+      "EMP1041",
+      "Links to PipelineHQ account",
+      "EmpId (via employer ERN)",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Work email",
+      "learners",
+      "email",
+      "Text",
+      "philip.chan@ryanmedical.co.uk",
+      "Used for Aptiva login and e-signatures",
+      "Email",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Region",
+      "learners",
+      "region",
+      "Choice",
+      "London",
+      "Region of workplace",
+      "Delivery postcode (derived)",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Programme",
+      "learners",
+      "programme_code",
+      "Text (FK programmes)",
+      "DA4",
+      "Delcorn programme code mapped to apprenticeship standard",
+      "StdCode",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Academy",
+      "learners",
+      "academy",
+      "Choice",
+      "Data Academy",
+      "Derived from programme",
+      "—",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Coach",
+      "learners",
+      "coach_id",
+      "Text (FK employees)",
+      "E1047",
+      "Coach of record",
+      "—",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Start date",
+      "learners",
+      "start_date",
+      "Date",
+      "2024-09-11",
+      "Learning start date",
+      "LearnStartDate",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Planned end date",
+      "learners",
+      "planned_end_date",
+      "Date",
+      "2026-06-10",
+      "Planned end of practical period",
+      "LearnPlanEndDate",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Actual end date",
+      "learners",
+      "actual_end_date",
+      "Date",
+      "2026-02-08",
+      "Set on completion or withdrawal",
+      "LearnActEndDate",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Status",
+      "learners",
+      "status",
+      "Choice",
+      "Active",
+      "Active, Break in learning, Gateway, EPA, Completed, Withdrawn",
+      "CompStatus (mapped)",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Withdrawal reason",
+      "learners",
+      "withdrawal_reason",
+      "Choice",
+      "Left employer",
+      "Required when status = Withdrawn",
+      "WithdrawReason",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Age band",
+      "learners",
+      "age_band",
+      "Choice",
+      "35-49",
+      "Derived from date of birth (DOB held in Aptiva only)",
+      "DateOfBirth (derived)",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Gender",
+      "learners",
+      "gender",
+      "Choice",
+      "Female",
+      "Self-declared",
+      "Sex",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "LLDD flag",
+      "learners",
+      "lldd",
+      "Yes/No (1/0)",
+      "0",
+      "Learning difficulty, disability or health problem declared — special category",
+      "LLDDHealthProb",
+      "Highly Confidential"
+     ],
+     [
+      "Learner",
+      "OTJ hours planned",
+      "learners",
+      "otj_hours_planned",
+      "Integer",
+      "370",
+      "Planned off-the-job hours in training plan",
+      "PHours",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "OTJ expected to date",
+      "learners",
+      "otj_expected_to_date",
+      "Integer",
+      "348",
+      "Pro-rata expected hours as at today",
+      "—",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "OTJ hours logged",
+      "learners",
+      "otj_hours_logged",
+      "Integer",
+      "200",
+      "Sum of approved OTJ log entries",
+      "OTJActHours",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Progress RAG",
+      "learners",
+      "progress_rag",
+      "Choice",
+      "Green",
+      "RAG from latest progress review",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "ALS support",
+      "learners",
+      "als_support",
+      "Yes/No (1/0)",
+      "0",
+      "Additional learning support in place",
+      "LSF / ALSCost",
+      "Confidential"
+     ],
+     [
+      "Learner",
+      "Functional Skills required",
+      "learners",
+      "functional_skills_required",
+      "Choice",
+      "Maths L2",
+      "Maths/English requirement",
+      "FS aims",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Last review date",
+      "learners",
+      "last_review_date",
+      "Date",
+      "2025-12-15",
+      "Date of latest signed review",
+      "—",
+      "Internal"
+     ],
+     [
+      "Learner",
+      "Next review due",
+      "learners",
+      "next_review_due",
+      "Date",
+      "2026-03-09",
+      "Last review + 12 weeks (84 days)",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "Review ID",
+      "progress_reviews",
+      "review_id",
+      "Text (PR + 6 digits)",
+      "PR100001",
+      "Primary key",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "Learner ID",
+      "progress_reviews",
+      "learner_id",
+      "Text (FK learners)",
+      "LRN20001",
+      "Learner reviewed",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Progress review",
+      "Coach",
+      "progress_reviews",
+      "coach_id",
+      "Text (FK employees)",
+      "E1047",
+      "Coach who held the review",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "Review number",
+      "progress_reviews",
+      "review_number",
+      "Integer",
+      "1",
+      "Sequential per learner",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "Review date",
+      "progress_reviews",
+      "review_date",
+      "Date",
+      "2024-10-16",
+      "Date review held (tripartite)",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "OTJ hours to date",
+      "progress_reviews",
+      "otj_hours_to_date",
+      "Integer",
+      "13",
+      "Snapshot at review",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "RAG",
+      "progress_reviews",
+      "rag",
+      "Choice",
+      "Green",
+      "Coach judgement of progress",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Progress review",
+      "Employer attended",
+      "progress_reviews",
+      "employer_attended",
+      "Yes/No (1/0)",
+      "0",
+      "Line manager present (Ofsted / funding expectation)",
+      "—",
+      "Internal"
+     ],
+     [
+      "Progress review",
+      "Wellbeing check",
+      "progress_reviews",
+      "wellbeing_check",
+      "Choice",
+      "No concerns",
+      "Outcome of wellbeing question; 'Referred to learner support' triggers ALS workflow",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Progress review",
+      "Coach summary",
+      "progress_reviews",
+      "coach_summary",
+      "Long text",
+      "Good progress against KSBs…",
+      "Narrative summary — may be drafted with Copilot, must be reviewed by coach",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Progress review",
+      "Next steps",
+      "progress_reviews",
+      "next_steps",
+      "Long text",
+      "Log OTJ hours weekly in Aptiva",
+      "SMART targets agreed",
+      "—",
+      "Confidential"
+     ],
+     [
+      "Progress review",
+      "Signature status",
+      "progress_reviews",
+      "signed_status",
+      "Choice",
+      "Signed by all parties",
+      "E-signature workflow status",
+      "—",
+      "Internal"
+     ]
+    ]
+   },
+   {
+    "name": "Row counts",
+    "sql": "SELECT 'learners' AS \"Table\", COUNT(*) AS \"Rows\" FROM learners UNION ALL SELECT 'progress_reviews', COUNT(*) FROM progress_reviews"
+   },
+   {
+    "name": "Status values",
+    "sql": "SELECT status AS Status, COUNT(*) AS Learners FROM learners GROUP BY status ORDER BY Learners DESC"
+   }
+  ]
+ },
+ {
+  "id": "tech-service-desk-report-oct-2026",
+  "type": "xlsx",
+  "title": "Service Desk Performance Report — October 2026",
+  "site": "tech",
+  "library": "Service Desk",
+  "folder": "Monthly Reports",
+  "category": "Report",
+  "author": "P034",
+  "owner": "P034",
+  "modified_by": "P034",
+  "approved_by": "P007",
+  "created": "2026-11-02",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "service desk",
+   "FixDesk",
+   "SLA",
+   "tickets",
+   "October 2026"
+  ],
+  "summary": "October 2026 FixDesk performance: tickets by category and priority, SLA met %, P1 incidents and a 12-month trend.",
+  "sheets": [
+   {
+    "name": "Summary",
+    "text": [
+     "Service Desk Performance Report — October 2026. Prepared by Mohammed Ali, IT Service Desk Lead.",
+     "Tickets opened in October: {{sql:SELECT COUNT(*) FROM it_tickets WHERE opened >= '2026-10-01' AND opened < '2026-11-01'}}.",
+     "SLA met in October (resolved tickets): {{sql:SELECT 1.0*SUM(sla_met)/COUNT(sla_met) FROM it_tickets WHERE opened >= '2026-10-01' AND opened < '2026-11-01'|pct}}. 12-month SLA rate: {{fact:it_sla_rate}} (target 90%).",
+     "P1 incidents in October: {{sql:SELECT COUNT(*) FROM it_tickets WHERE priority='P1' AND opened >= '2026-10-01' AND opened < '2026-11-01'}}. P1 incidents in the last 12 months: {{fact:tech_p1_tickets_12m}}.",
+     "Most common category over 12 months: {{fact:tech_top_ticket_category}}. Copilot access & licensing tickets (12 months): {{fact:tech_copilot_tickets_12m}} — expected to rise with Wave 1 and Wave 2 licensing in November.",
+     "Commentary: Password / MFA resets remain the top driver; the self-service password reset campaign and the planned IT self-service agent aim to deflect 25% of these. Aptiva sync issues fell after the 8 October patch."
+    ]
+   },
+   {
+    "name": "By category",
+    "sql": "SELECT category AS Category, COUNT(*) AS Tickets, SUM(CASE WHEN status='Resolved' THEN 1 ELSE 0 END) AS Resolved, ROUND(AVG(resolution_hours),1) AS \"Avg hours to resolve\", 1.0*SUM(sla_met)/COUNT(sla_met) AS \"SLA met %\" FROM it_tickets WHERE opened >= '2026-10-01' AND opened < '2026-11-01' GROUP BY category ORDER BY Tickets DESC",
+    "format": {
+     "SLA met %": "pct"
+    },
+    "totals": [
+     "Tickets",
+     "Resolved"
+    ],
+    "chart": {
+     "type": "bar",
+     "cat_col": "Category",
+     "val_cols": [
+      "Tickets"
+     ],
+     "title": "October tickets by category"
+    }
+   },
+   {
+    "name": "By priority",
+    "sql": "SELECT priority AS Priority, MAX(sla_target_hours) AS \"SLA target (hrs)\", COUNT(*) AS Tickets, 1.0*SUM(sla_met)/COUNT(sla_met) AS \"SLA met %\" FROM it_tickets WHERE opened >= '2026-10-01' AND opened < '2026-11-01' GROUP BY priority ORDER BY priority",
+    "format": {
+     "SLA met %": "pct"
+    }
+   },
+   {
+    "name": "P1 incidents (12m)",
+    "sql": "SELECT ticket_id AS Ticket, opened AS Opened, category AS Category, department AS Department, resolution_hours AS \"Hours to resolve\", CASE sla_met WHEN 1 THEN 'Yes' WHEN 0 THEN 'No' ELSE 'Open' END AS \"SLA met\", assigned_to AS \"Assigned to\" FROM it_tickets WHERE priority='P1' ORDER BY opened DESC",
+    "format": {
+     "Opened": "datetime"
+    }
+   },
+   {
+    "name": "12-month trend",
+    "sql": "SELECT substr(opened,1,7) AS Month, COUNT(*) AS Tickets, ROUND(100.0*SUM(sla_met)/COUNT(sla_met),1) AS \"SLA met %\" FROM it_tickets WHERE opened < '2026-11-01' GROUP BY 1 ORDER BY 1",
+    "chart": {
+     "type": "line",
+     "cat_col": "Month",
+     "val_cols": [
+      "Tickets"
+     ],
+     "title": "Tickets opened per month"
+    }
+   },
+   {
+    "name": "Open tickets",
+    "sql": "SELECT ticket_id AS Ticket, opened AS Opened, category AS Category, priority AS Priority, status AS Status, assigned_to AS \"Assigned to\" FROM it_tickets WHERE status <> 'Resolved' ORDER BY priority, opened"
+   }
+  ]
+ },
+ {
+  "id": "tech-bcdr-plan",
+  "type": "docx",
+  "title": "Business Continuity & Disaster Recovery Plan",
+  "site": "tech",
+  "library": "IT & Data Policies",
+  "folder": "Continuity",
+  "category": "Plan",
+  "author": "P007",
+  "owner": "P007",
+  "modified_by": "P034",
+  "approved_by": "P002",
+  "created": "2023-05-02",
+  "modified": "2026-05-18",
+  "version": "2.2",
+  "status": "Approved",
+  "review_date": "2027-05-18",
+  "classification": "Confidential",
+  "tags": [
+   "business continuity",
+   "disaster recovery",
+   "RTO",
+   "RPO",
+   "incident",
+   "cyber"
+  ],
+  "summary": "How Delcorn keeps delivering to learners during disruption: critical services, RTO/RPO targets, incident roles, scenarios and testing.",
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "This plan sets out how Delcorn responds to and recovers from disruption — cyber attack, supplier outage, loss of key staff or premises — so that learners continue to receive coaching, safeguarding duties are met and funding returns are submitted on time."
+   },
+   {
+    "h1": "2. Critical services"
+   },
+   {
+    "table": {
+     "columns": [
+      "Service",
+      "System",
+      "Max tolerable outage",
+      "RTO",
+      "RPO",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Safeguarding referrals",
+       "Teams / phone / SharePoint",
+       "4 hours",
+       "1 hour (manual fallback)",
+       "0",
+       "Head of Safeguarding"
+      ],
+      [
+       "Coaching and reviews",
+       "Teams, Aptiva",
+       "2 working days",
+       "8 hours",
+       "24 hours",
+       "Head of Delivery"
+      ],
+      [
+       "Email and collaboration",
+       "Microsoft 365",
+       "1 working day",
+       "4 hours",
+       "1 hour",
+       "Director of Learning Technology"
+      ],
+      [
+       "Learner records / e-portfolio",
+       "Aptiva (SaaS)",
+       "3 working days",
+       "24 hours",
+       "4 hours",
+       "Data & Systems Manager"
+      ],
+      [
+       "ILR monthly return",
+       "Aptiva → DfE submission",
+       "Return deadline (4th working day)",
+       "48 hours",
+       "24 hours",
+       "Funding & MI Analyst"
+      ],
+      [
+       "Payroll",
+       "PeopleFlow / Ledgerline",
+       "5 working days before pay date",
+       "48 hours",
+       "24 hours",
+       "CFO"
+      ],
+      [
+       "IT service desk",
+       "FixDesk",
+       "1 working day",
+       "8 hours",
+       "24 hours",
+       "IT Service Desk Lead"
+      ]
+     ],
+     "caption": "Table 1 — Recovery objectives"
+    }
+   },
+   {
+    "h1": "3. Incident management team"
+   },
+   {
+    "kv": [
+     [
+      "Incident lead",
+      "David Okafor, COO (deputy: Aisha Karim)"
+     ],
+     [
+      "Technical lead",
+      "Aisha Karim (deputy: Mohammed Ali)"
+     ],
+     [
+      "Data protection",
+      "Liam O'Connor, DPO"
+     ],
+     [
+      "Communications",
+      "Jess Morgan, Head of Marketing & Communications"
+     ],
+     [
+      "Learner & employer impact",
+      "Rachel Moss, Head of Delivery"
+     ],
+     [
+      "Safeguarding",
+      "Grace Adeyemi, DSL"
+     ]
+    ]
+   },
+   {
+    "p": "The incident lead convenes the team on a Teams bridge (fallback: WhatsApp group 'Delcorn IMT' and personal mobiles listed in the offline contact sheet) within **30 minutes** of a major incident being declared."
+   },
+   {
+    "h1": "4. Scenarios and responses"
+   },
+   {
+    "h2": "4.1 Ransomware or account compromise"
+   },
+   {
+    "numbered": [
+     "Isolate affected devices via Intune; disable compromised accounts; revoke sessions.",
+     "Engage the cyber insurer's incident response retainer (policy CYB-77213).",
+     "DPO assesses personal data impact; ICO notification decision within 72 hours.",
+     "Restore from immutable backups (Microsoft 365 backup retained 30 days; Aptiva vendor snapshots every 4 hours)."
+    ]
+   },
+   {
+    "h2": "4.2 Aptiva outage"
+   },
+   {
+    "bullets": [
+     "Coaches continue sessions on Teams and record notes in the offline Progress Review template (Word) in their OneDrive.",
+     "Notes are uploaded to Aptiva within 2 working days of restoration.",
+     "If the outage spans an ILR deadline, the Funding & MI Analyst notifies the DfE and submits from the last good extract."
+    ]
+   },
+   {
+    "h2": "4.3 Microsoft 365 outage"
+   },
+   {
+    "bullets": [
+     "Check the Microsoft 365 service health dashboard and the status page.",
+     "Use Aptiva messaging and phone for learner contact.",
+     "Safeguarding referrals by phone to the DSL duty mobile 07700 900 412."
+    ]
+   },
+   {
+    "h2": "4.4 Loss of key staff"
+   },
+   {
+    "p": "Each critical service has a named deputy. Coach caseloads are reassigned by Delivery Managers within 5 working days; learners are notified by email."
+   },
+   {
+    "h1": "5. Testing"
+   },
+   {
+    "table": {
+     "columns": [
+      "Test",
+      "Date",
+      "Result"
+     ],
+     "rows": [
+      [
+       "Tabletop: ransomware",
+       "12 Mar 2026",
+       "Passed — action to pre-draft learner comms (done)"
+      ],
+      [
+       "Restore test: SharePoint site",
+       "18 May 2026",
+       "Restored in 2h 40m (RTO 4h)"
+      ],
+      [
+       "Aptiva failover with vendor",
+       "9 Sep 2026",
+       "Passed — 3h 10m"
+      ],
+      [
+       "Next tabletop: Copilot data incident",
+       "Feb 2027",
+       "Planned"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "tech-service-desk-faq",
+  "type": "docx",
+  "title": "IT Service Desk FAQ & Known Issues",
+  "site": "tech",
+  "library": "Service Desk",
+  "folder": "Knowledge Base",
+  "category": "Guide",
+  "doc_type_label": "Knowledge article",
+  "author": "P034",
+  "owner": "P034",
+  "modified_by": "P034",
+  "approved_by": "P007",
+  "created": "2024-09-02",
+  "modified": "2026-11-03",
+  "version": "6.3",
+  "status": "Approved",
+  "review_date": "2027-02-01",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "FAQ",
+   "service desk",
+   "known issues",
+   "MFA",
+   "password",
+   "Copilot",
+   "Aptiva",
+   "self-service"
+  ],
+  "summary": "Self-service answers to the most common IT questions (passwords, MFA, Teams audio, Aptiva sync, Copilot licences) plus current known issues and how to raise a FixDesk ticket.",
+  "blocks": [
+   {
+    "h1": "How to get help"
+   },
+   {
+    "kv": [
+     [
+      "FixDesk portal",
+      "fixdesk.delcorn.co.uk (or 'IT help' on the Delcorn Hub)"
+     ],
+     [
+      "Phone",
+      "020 7946 0199 (08:00–18:00 Mon–Fri)"
+     ],
+     [
+      "Teams",
+      "Learning Technology & IT > IT Service Desk channel"
+     ],
+     [
+      "Out of hours P1",
+      "Phone line diverts to on-call engineer"
+     ]
+    ]
+   },
+   {
+    "table": {
+     "columns": [
+      "Priority",
+      "Definition",
+      "Response",
+      "Resolution target"
+     ],
+     "rows": [
+      [
+       "P1",
+       "Security incident, or many users unable to work",
+       "15 minutes",
+       "4 hours"
+      ],
+      [
+       "P2",
+       "One user unable to work, or data exposure suspected",
+       "1 hour",
+       "8 hours"
+      ],
+      [
+       "P3",
+       "Impaired but can work",
+       "4 hours",
+       "24 hours"
+      ],
+      [
+       "P4",
+       "Request or question",
+       "1 working day",
+       "72 hours"
+      ]
+     ],
+     "caption": "Service levels"
+    }
+   },
+   {
+    "h1": "Passwords and MFA"
+   },
+   {
+    "h3": "I've forgotten my password"
+   },
+   {
+    "p": "Use self-service password reset at **aka.ms/sspr** from any browser. You'll need your registered Authenticator app or mobile number. If you're locked out of both, call the Service Desk — we'll verify your identity with your line manager before resetting."
+   },
+   {
+    "h3": "I've got a new phone — how do I move Microsoft Authenticator?"
+   },
+   {
+    "p": "Before wiping your old phone, go to **mysignins.microsoft.com > Security info**, add the new phone as an Authenticator method, then remove the old one. If you've already lost the old phone, raise a P2 ticket 'Password / MFA reset' and we'll issue a temporary access pass valid for 8 hours."
+   },
+   {
+    "h3": "I got an MFA prompt I didn't request"
+   },
+   {
+    "p": "**Deny it** and report it immediately as a P1 (call 020 7946 0199). Someone may have your password. We'll reset it and review sign-in logs."
+   },
+   {
+    "h1": "Microsoft 365 Copilot"
+   },
+   {
+    "h3": "When do I get Copilot?"
+   },
+   {
+    "p": "Central teams were licensed in Wave 1 on **2 November 2026**. Skills coaches and tutors are licensed in Wave 2 from **16 November 2026**. Your licence is assigned automatically once you complete the **Responsible AI & Copilot Essentials** module in the Delcorn Academy LMS — allow up to 24 hours after completion."
+   },
+   {
+    "h3": "I've completed the training but Copilot isn't showing in Word/Outlook"
+   },
+   {
+    "numbered": [
+     "Wait 24 hours after completing training (group sync runs overnight).",
+     "Fully close Office apps, then sign out and back in (File > Account).",
+     "Check for updates: File > Account > Update Options > Update Now (Copilot needs the Current Channel).",
+     "In new Outlook, Copilot appears in the ribbon and in the message toolbar.",
+     "Still missing? Raise a ticket under **Copilot access & licensing** (P4)."
+    ]
+   },
+   {
+    "h3": "Copilot showed me a file I don't think I should see"
+   },
+   {
+    "p": "Don't open, forward or quote it. Raise a **P2 'Data request'** ticket with the file name and location (or copy the citation link) so the owner can fix permissions. This is exactly what we want to catch."
+   },
+   {
+    "h3": "Why can't Copilot find a document I know exists?"
+   },
+   {
+    "p": "Copilot only uses files you have access to, and Highly Confidential files and some restricted sites (Safeguarding Case Management, Executive & Board, parts of People & Culture) are excluded from Copilot search. Very new files can take a few hours to be indexed."
+   },
+   {
+    "h1": "Teams meetings and audio"
+   },
+   {
+    "bullets": [
+     "No sound: check the device selected in Teams > Settings > Devices; Delcorn headsets appear as 'Jabra Evolve2'.",
+     "Echo: ask others to mute or use headsets; turn off 'Noise suppression: Off'.",
+     "Can't join a learner's employer meeting: use 'Join on the web' if their tenant blocks guests.",
+     "Recordings and transcripts auto-delete after 120 days (Data Retention Schedule)."
+    ]
+   },
+   {
+    "h1": "Aptiva"
+   },
+   {
+    "h3": "Aptiva says 'Session expired' every few minutes"
+   },
+   {
+    "p": "Clear the browser cache for aptiva.cloud and make sure you are signing in through the **Sign in with Microsoft** button (single sign-on), not the legacy username form."
+   },
+   {
+    "h3": "OTJ hours not syncing to the reporting dashboard"
+   },
+   {
+    "p": "The reporting database refreshes nightly at 02:00. Hours logged today will appear tomorrow. If hours are still missing after 48 hours, raise 'Aptiva access / sync' with the learner ID (never the learner's name in the ticket title)."
+   },
+   {
+    "h1": "Laptops and equipment"
+   },
+   {
+    "bullets": [
+     "Request peripherals (second monitor, ergonomic mouse) through FixDesk > Request > Peripherals; standard items ship within 5 working days.",
+     "Laptop faults: raise 'Laptop hardware'; we'll send a replacement by next-day courier and a returns bag.",
+     "Lost or stolen laptop: report as P1 immediately so we can wipe it remotely."
+    ]
+   },
+   {
+    "h1": "Known issues (updated 3 November 2026)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Issue",
+      "Workaround",
+      "Status"
+     ],
+     "rows": [
+      [
+       "KI-118",
+       "Copilot in Excel says 'can't work with this data' on older .xls files",
+       "Save as .xlsx and format the data as a Table (Ctrl+T)",
+       "By design"
+      ],
+      [
+       "KI-121",
+       "Wave 1 users see Copilot in Teams but not in Outlook (classic)",
+       "Switch to new Outlook, or update Office to the Current Channel",
+       "Fix rolling out by 8 Nov"
+      ],
+      [
+       "KI-122",
+       "Aptiva e-signature emails going to employers' junk folders",
+       "Ask employer to allow-list notifications@aptiva.cloud",
+       "Vendor investigating"
+      ],
+      [
+       "KI-123",
+       "Power BI caseload report shows yesterday's data before 09:00",
+       "Refresh after 09:00",
+       "Monitoring"
+      ],
+      [
+       "KI-124",
+       "Copilot meeting recap missing for meetings with external guests where transcription was off",
+       "Turn on transcription at the start of the meeting",
+       "By design"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "Still stuck?"
+   },
+   {
+    "p": "Raise a FixDesk ticket with: what you were trying to do, the exact error message (a screenshot helps), when it started, and how many people are affected. Never include passwords or learner personal data in tickets."
+   }
+  ]
+ },
+ {
+  "id": "ppl-email-awayday-expenses-leave",
+  "type": "email",
+  "subject": "Leeds hub away-day — hotel, meals and a question about carry-over",
+  "summary": "Fatima Hussain asks HR about expenses for the AI & Data team away-day at the Leeds hub and carrying over unused leave; Amy Collins answers from the Expenses and Annual Leave policies.",
+  "sharepoint_copy": {
+   "site": "people",
+   "library": "HR Policies",
+   "folder": "Policy Queries"
+  },
+  "messages": [
+   {
+    "from": "P015",
+    "to": [
+     "P031"
+    ],
+    "cc": [
+     "P012"
+    ],
+    "date": "2026-11-02T08:47",
+    "body": "Hi Amy,\n\nSam has booked the AI & Data Academies away-day at the Leeds hub on Thursday 26 November (10:00–16:00) and there's a team dinner the night before. I'm coming up from Birmingham, so a couple of questions before I book anything:\n\n1. Can I stay over on the Wednesday night, and what's the hotel limit in Leeds?\n2. Is the dinner covered, and do I claim lunch on the day?\n3. Would it be better to drive (about 120 miles each way) or get the train?\n\nAlso, a separate one — I've still got 7 days of annual leave left for this year and with gateway prep I'm not sure I can use them all before Christmas. Can I carry them over?\n\nThanks,\nFatima"
+   },
+   {
+    "from": "P031",
+    "to": [
+     "P015"
+    ],
+    "cc": [
+     "P012"
+    ],
+    "date": "2026-11-02T11:20",
+    "body": "Hi Fatima,\n\nHappy to help — all of this is in the Expenses Policy (v3.2) and Annual Leave Policy in the HR Policies library, but here's the short version.\n\nAway-day expenses:\n- Overnight stay: yes. Birmingham to Leeds is more than 2.5 hours door to door, so one night is allowed. The cap outside London is £110 per night including breakfast. Sam needs to pre-approve the stay in Ledgerline as it's an overnight.\n- Team dinner: the evening team meal is covered up to £35 per head if Sam has had it pre-approved by Rachel (Head of function). One person pays and lists the attendees, so please don't claim your own dinner separately. If you eat on your own instead, the evening meal allowance is £30.\n- Lunch on the day is provided centrally at the hub, so no lunch claim.\n- Travel: standard-class rail booked 7+ days ahead is usually cheaper. Driving 240 miles at 45p per mile would be £108 plus parking, whereas an advance return is around £60. Please go for the train unless there's a good reason to drive.\n\nRemember to submit everything in Ledgerline Expenses within 30 days, so by 26 December at the latest.\n\nCarry-over: you can carry over up to 5 days into 2027, and they must be taken by 31 March 2027. Anything above 5 days is lost unless Marcus approves an exception, which is only for things like long-term sickness or family leave. Also note 3 days are reserved for the Christmas closure (29–31 December). Have a look at your PeopleFlow balance — if the 7 days doesn't already account for the closure, you'll need to book a couple more days before the end of the year.\n\nAmy"
+   },
+   {
+    "from": "P015",
+    "to": [
+     "P031"
+    ],
+    "cc": [
+     "P012"
+    ],
+    "date": "2026-11-02T13:05",
+    "body": "That's really clear, thanks Amy. PeopleFlow says 7 days remaining after the closure days, so I'll book Friday 11 and Monday 14 December and carry the other 5 into January.\n\nTrain booked for Wednesday 25th — £58.40 return. Sam, could you approve the hotel when it comes through?\n\nFatima"
+   },
+   {
+    "from": "P012",
+    "to": [
+     "P015"
+    ],
+    "cc": [
+     "P031"
+    ],
+    "date": "2026-11-02T15:32",
+    "body": "Approved — I'll sign off the hotel in Ledgerline when you submit. Rachel has approved the team dinner at £35 a head; I'll pay and claim for the group. Leave on 11 and 14 December is fine too, just move your two Friday reviews.\n\nSam"
+   }
+  ]
+ },
+ {
+  "id": "tech-email-oversharing-salary-file",
+  "type": "email",
+  "importance": "high",
+  "subject": "URGENT: Salary file visible org-wide — needs fixing before Copilot Wave 1",
+  "summary": "The DPO tells the Director of Learning Technology that a Confidential salary benchmarking file is shared org-wide; they agree remediation before Copilot Wave 1 go-live on 2 November.",
+  "messages": [
+   {
+    "from": "P036",
+    "to": [
+     "P007"
+    ],
+    "cc": [
+     "P035"
+    ],
+    "date": "2026-10-28T16:42",
+    "body": "Aisha,\n\nThe second run of the data access governance report this afternoon flagged a critical finding (PR-014 in the permissions review workbook).\n\nFile: Salary Benchmarking 2026.xlsx\nLocation: People & Culture site > Recruitment > Reward\nLabel: Confidential\nSharing: a 'People in Delcorn with the link' link created on 18 May 2026\nContent: named salaries, job titles and locations for all 142 staff\n\nThe audit log shows 23 people outside the People team opened it in the last 90 days, most of them recently, probably via the link being forwarded in a Teams chat. Once Wave 1 goes live on Monday, Copilot would happily answer 'what does X earn?' for anyone who has used that link, because the link grants them access.\n\nI'd suggest we (1) remove the link today, (2) restrict the file to Marcus, Amy and Priya, (3) upgrade the label to Highly Confidential so it's excluded from Copilot for everyone else, and (4) check whether there are other files in the Reward folder with the same problem. I don't think this is reportable to the ICO — it's internal access by staff bound by confidentiality — but I'll log it in the breach register as an incident and do a proper assessment.\n\nCan we talk first thing tomorrow?\n\nLiam"
+   },
+   {
+    "from": "P007",
+    "to": [
+     "P036"
+    ],
+    "cc": [
+     "P035",
+     "P006"
+    ],
+    "date": "2026-10-28T17:15",
+    "body": "Liam,\n\nThanks for catching this. It's exactly the scenario the readiness review was for. Agree with all four steps. Adding Marcus as the file owner.\n\nKate, could you remove the sharing link and break inheritance on the Reward folder tonight if you can, or first thing tomorrow at the latest? Please also run the same sharing-link check across the whole People & Culture site, not just Recruitment.\n\nI don't want to delay Wave 1 for the central teams. But I do want Restricted Content Discovery switched on for the People site before Monday as a belt-and-braces measure, and PR-014 has to be closed before the Wave 2 go/no-go on 11 November.\n\nMarcus, it would help to know why the link was created. If it was shared for the pay review working group, we should set up a proper private channel for them instead.\n\nAisha"
+   },
+   {
+    "from": "P006",
+    "to": [
+     "P007",
+     "P036"
+    ],
+    "cc": [
+     "P035"
+    ],
+    "date": "2026-10-29T08:31",
+    "body": "Morning both,\n\nMy fault, I'm afraid. I created the link in May so that Priya could review the draft, and didn't realise it worked for anyone who had it. I suspect it was then forwarded in the pay review chat. I'm mortified, but really glad we found it before Copilot did.\n\nI'm happy for the file to be restricted to me, Amy and Priya. I'll also send a short note to the 23 people reminding them of their confidentiality obligations. Liam, could you check the wording before it goes?\n\nMarcus"
+   },
+   {
+    "from": "P035",
+    "to": [
+     "P007",
+     "P036",
+     "P006"
+    ],
+    "cc": [],
+    "date": "2026-10-30T10:05",
+    "body": "All,\n\nDone as of 09:50 today:\n- Org-wide sharing link removed from Salary Benchmarking 2026.xlsx\n- Reward folder inheritance broken; access is now Marcus, Amy and Priya only\n- Restricted Content Discovery enabled on the People & Culture, Safeguarding and Executive sites\n- Site-wide link scan: one more org-wide link found, on the EAP usage report (PR-016), now removed\n\nOutstanding: the label on the salary file still says Confidential because the Highly Confidential label needs the owner to apply it (encryption). Marcus, could you change it from the sensitivity bar in Excel? I've left PR-014 as 'In progress' until that's done.\n\nKate"
+   },
+   {
+    "from": "P036",
+    "to": [
+     "P007",
+     "P006",
+     "P035"
+    ],
+    "cc": [],
+    "date": "2026-10-30T12:18",
+    "body": "Thanks Kate, that's great.\n\nI've logged this as incident DPI-2026-019 (internal oversharing, not reportable to the ICO), and I'll add a short anonymised case study to the Responsible AI training as a reminder to check sharing links.\n\nMarcus, I've approved your note to the 23 recipients with one wording change. Once the label is upgraded I'll close PR-014.\n\nLiam"
+   }
+  ]
+ },
+ {
+  "id": "tech-chat-copilot-champions",
+  "type": "chat",
+  "title": "Copilot Champions",
+  "team": "Learning Technology & IT",
+  "channel": "Copilot Champions",
+  "summary": "Copilot Champions share tips, questions and pitfalls during the pilot and Wave 1 rollout: prompts for reviews, citations, oversharing reports, Excel and agents.",
+  "sharepoint_copy": {
+   "site": "tech",
+   "library": "Projects",
+   "folder": "Copilot Rollout/Champions"
+  },
+  "messages": [
+   {
+    "from": "P007",
+    "time": "2026-10-26T09:02",
+    "text": "Morning Champions 👋 Wave 1 (central teams) goes live next Monday 2 Nov and Wave 2 (coaches and tutors) on 16 Nov. Please share your best tips here this week. We're turning them into the prompt library. Thank you for a brilliant pilot!",
+    "reactions": [
+     "🎉 14",
+     "👍 6"
+    ]
+   },
+   {
+    "from": "P015",
+    "time": "2026-10-26T09:40",
+    "text": "My go-to for review summaries: paste in your rough notes and ask: \"Draft a progress review summary for a Level 4 Data Analyst apprentice using these notes. Use UK English, three short paragraphs: progress against KSBs, OTJ position, and SMART targets for the next 12 weeks. Don't add anything that isn't in my notes.\" That last line stops it inventing things. Then I edit it into my own words before signing in Aptiva.",
+    "reactions": [
+     "🙌 11",
+     "👍 8"
+    ]
+   },
+   {
+    "from": "P016",
+    "time": "2026-10-26T10:12",
+    "text": "Is it OK to use learner names in that prompt? I've been using initials to be safe.",
+    "reactions": []
+   },
+   {
+    "from": "P036",
+    "time": "2026-10-26T10:25",
+    "text": "@Chloe In Microsoft 365 Copilot, yes, it stays inside our tenant and is covered by the DPIA. Keep it to the minimum the task needs, though. Never include health, disability or safeguarding details, and never use names in any public AI tool. Section 5.2 of the AI Acceptable Use Policy has the details.",
+    "reactions": [
+     "👍 9"
+    ]
+   },
+   {
+    "from": "P031",
+    "time": "2026-10-27T08:55",
+    "text": "HR tip: ask Copilot Chat \"what's the hotel cap in London according to our Expenses Policy?\" and then CLICK THE CITATION. In the pilot it once quoted the old £150 figure from an email in my inbox rather than the policy (it's £160 since Aug 2025). Always check the source.",
+    "reactions": [
+     "😮 5",
+     "👍 12"
+    ]
+   },
+   {
+    "from": "P034",
+    "time": "2026-10-27T09:30",
+    "text": "From the service desk side: if Copilot isn't showing in Outlook after you get your licence, it's almost always classic Outlook on an old update channel (KI-121). Switch to new Outlook or update Office. Please don't raise a P2 for it 🙂",
+    "reactions": [
+     "😂 7",
+     "👍 4"
+    ]
+   },
+   {
+    "from": "P029",
+    "time": "2026-10-28T11:14",
+    "text": "Excel tip: Copilot in Excel works MUCH better if the data is formatted as a Table (Ctrl+T) and saved as .xlsx. I asked it \"which academy has the most overdue reviews?\" on the caseload export and it built the pivot for me. I still check the numbers against Power BI though.",
+    "reactions": [
+     "👍 10"
+    ]
+   },
+   {
+    "from": "P019",
+    "time": "2026-10-28T14:47",
+    "text": "Slightly awkward one: I asked Copilot to \"summarise recent pay review discussions\" for a curriculum costing and it came back with a salary spreadsheet from the People site?! I didn't open it. Who do I tell?",
+    "reactions": [
+     "😬 6"
+    ]
+   },
+   {
+    "from": "P036",
+    "time": "2026-10-28T15:03",
+    "text": "@Nathan Thank you, that's exactly the right instinct. Please raise a P2 'Data request' in FixDesk with the citation link. We're already on it (permissions review finding PR-014) and it's being locked down before Monday. Everyone: if Copilot shows you something you shouldn't see, don't open it or share it. Report it.",
+    "reactions": [
+     "🙏 13"
+    ]
+   },
+   {
+    "from": "P017",
+    "time": "2026-10-29T12:20",
+    "text": "Meeting recap tip: in Teams, ask Copilot \"list the actions with owners and due dates\" rather than \"summarise\". You get a much more usable list for the minutes. Works only if transcription was on.",
+    "reactions": [
+     "👍 8"
+    ]
+   },
+   {
+    "from": "P033",
+    "time": "2026-10-30T09:10",
+    "text": "Reminder: licences are only assigned after the 60-min Responsible AI & Copilot Essentials module. 71% of Wave 1 have finished, so please nudge your teams. The live 'Copilot for Coaches' workshop is 19 Nov, sign up in the LMS.",
+    "reactions": [
+     "👍 5"
+    ]
+   },
+   {
+    "from": "P035",
+    "time": "2026-11-03T16:02",
+    "text": "Sneak peek: we're building an IT self-service agent in Copilot Studio grounded on the Service Desk FAQ. If it can't answer, it'll offer to raise a FixDesk ticket for you. Also an HR Policy Helper on the HR Policies library with Amy. Volunteers to test next week? 🙋",
+    "reactions": [
+     "🙋 9",
+     "🚀 6"
+    ]
+   },
+   {
+    "from": "P014",
+    "time": "2026-11-03T16:40",
+    "text": "Count me in for testing. Will the HR agent be able to see my own leave balance in PeopleFlow, or just the policies?",
+    "reactions": []
+   },
+   {
+    "from": "P035",
+    "time": "2026-11-03T16:52",
+    "text": "@James Policies only for v1. Personal data from PeopleFlow would need its own DPIA and a connector. v1 will tell you where to check your balance.",
+    "reactions": [
+     "👍 4"
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,139 @@
+[
+ {
+  "id": "S-DLV-01",
+  "title": "Draft a progress review summary and employer email",
+  "level": "Foundation",
+  "module": "Copilot in Word and Outlook",
+  "persona": "P014",
+  "context": "James Rowe is a Data Academy skills coach with {{fact:dlv_rowe_caseload}} learners. He held a progress review with Judith Lewis (DA4, Redwood Logistics) on 30 October; she was rated Red because her OTJ has fallen behind. It is late afternoon and he still needs to write up the review and email her line manager.",
+  "goal": "Use Copilot to draft an accurate coach summary for Judith's review and a polite, specific email to her line manager asking for protected OTJ time — then check both against the Coach Handbook.",
+  "task_steps": [
+   "Open Judith Lewis's progress review record in the Learner Files library (Data Academy / Redwood Logistics Ltd).",
+   "Ask Copilot to summarise her review history and current OTJ position.",
+   "Ask Copilot to draft a coach summary with 3 SMART targets in plain English.",
+   "Check the RAG rating against the thresholds in the Skills Coach Handbook.",
+   "In Outlook, ask Copilot to draft an email to the line manager requesting about 5 hours a week of protected learning time, referencing the employer OTJ guide.",
+   "Edit the tone and facts, and compare your draft with the actual email thread with Redwood Logistics."
+  ],
+  "sample_prompts": [
+   "Summarise /Progress Review - LRN20533 Judith Lewis: OTJ position, RAG and the trend across her reviews.",
+   "Using the Skills Coach Handbook, explain why Judith is rated Red and what I must do next.",
+   "Draft a 150-word coach summary for Judith's review with three SMART targets. Plain English, no personal details.",
+   "Draft a friendly email to Judith's line manager asking for a protected weekly study slot of around 5 hours. Attach the off-the-job training guide for employers."
+  ],
+  "success_criteria": [
+   "Summary quotes OTJ logged vs expected correctly and states Red (under 78%).",
+   "Escalation to the delivery manager within 5 working days is identified.",
+   "Email is specific (hours per week, start date, next check-in) and professional.",
+   "No health or sensitive personal data in the outputs."
+  ],
+  "data_sources": [
+   "dlv-progress-reviews-001",
+   "dlv-coach-handbook",
+   "dlv-otj-employer-guide",
+   "dlv-email-otj-redwood",
+   "progress_reviews"
+  ],
+  "fact_ids": [
+   "dlv_rag_thresholds",
+   "dlv_red_escalation",
+   "dlv_rowe_caseload",
+   "dlv_review_frequency"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "Good first scenario for coaches who are less confident with Copilot. Emphasise checking numbers against the source and removing sensitive detail. The real email thread shows a model answer."
+ },
+ {
+  "id": "S-DLV-02",
+  "title": "Find at-risk learners in the caseload workbook",
+  "level": "Intermediate",
+  "module": "Copilot in Excel",
+  "persona": "P012",
+  "context": "Sam Patel manages the AI, Data and Digital coaching teams. Rachel Moss has asked for a plan to clear {{fact:overdue_reviews}} overdue reviews and to know which coaches need caseload relief. The October Caseload Report holds coach capacity, Red learners and overdue reviews.",
+  "goal": "Use Copilot in Excel to analyse the caseload workbook, identify the coaches and learners at greatest risk, and produce a short action summary for the Head of Delivery.",
+  "task_steps": [
+   "Open Caseload Report — October 2026 in the Caseload Reports library.",
+   "On the Coaches sheet, ask Copilot to highlight coaches above 110% capacity and rank by overdue reviews.",
+   "On the Red learners sheet, ask Copilot to add a column showing how many OTJ hours each learner is short of 92% of expected.",
+   "Create a PivotTable or chart of Red learners and overdue reviews by academy.",
+   "Ask Copilot to list learners who are both Red and overdue for review.",
+   "Draft a 5-bullet summary for Rachel in Outlook or Word."
+  ],
+  "sample_prompts": [
+   "Which coaches are above 110% capacity used? Sort by overdue reviews.",
+   "Add a column: OTJ hours needed to reach 92% of expected = 0.92 × OTJ expected − OTJ logged.",
+   "Show a chart of Red learners by academy.",
+   "Which learners appear on both the Red learners and Overdue reviews sheets?",
+   "Summarise the top three risks in this workbook for the Head of Delivery in five bullets."
+  ],
+  "success_criteria": [
+   "Identifies AI Academy Reds correctly ({{fact:dlv_ai_red_learners}}) and Data Academy overdue reviews ({{fact:dlv_data_overdue}}).",
+   "Calculated column formula is correct and explained.",
+   "Cross-sheet list of Red and overdue learners is accurate.",
+   "Summary is concise, numeric and actionable."
+  ],
+  "data_sources": [
+   "dlv-caseload-report-oct26",
+   "dlv-weekly-dashboard-wc021126",
+   "dlv-email-overdue-reviews",
+   "coach_caseloads",
+   "learners"
+  ],
+  "fact_ids": [
+   "dlv_ai_red_learners",
+   "dlv_data_overdue",
+   "dlv_rowe_overdue",
+   "dlv_rag_thresholds"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "Learners may need to convert sheets to tables for Copilot in Excel. Check that they verify Copilot's counts with a filter or COUNTIFS."
+ },
+ {
+  "id": "S-DLV-03",
+  "title": "Build a Coach Assistant agent",
+  "level": "Advanced",
+  "module": "Copilot Studio",
+  "persona": "P015",
+  "context": "Fatima Hussain mentors new coaches, who ask the same questions every week: how often are reviews, what counts as OTJ, when do I escalate a Red, what's needed for gateway? The answers are spread across the Coach Handbook, Progress Review Procedure, Escalation Process, Gateway Checklist and the employer OTJ guide.",
+  "goal": "Build a Copilot Studio agent, grounded on the Learning Delivery coaching resources, that answers coaches' process questions with citations; optionally extend it with an agent flow that emails coaches a list of their overdue reviews.",
+  "task_steps": [
+   "Create a new agent in Copilot Studio called 'Coach Assistant'.",
+   "Add knowledge: the Coaching Resources library on the Learning Delivery site (Coach Handbook, Progress Review Procedure, At-Risk Learner Escalation Process, Gateway Readiness Checklist, OTJ guide, New Coach 30-60-90 Plan).",
+   "Write instructions (see reference) and add 4 starter prompts.",
+   "Test with the sample prompts and check citations are correct.",
+   "Stretch: build an agent flow, triggered weekly, that reads the Overdue reviews sheet and emails each coach their overdue list.",
+   "Publish to Teams for the 'Coaches – AI & Data' channel."
+  ],
+  "sample_prompts": [
+   "How often do I need to hold a progress review, and when is the first one?",
+   "My learner has logged 180 of 240 expected OTJ hours. What's their RAG and what do I do?",
+   "Does Functional Skills study count as off-the-job training?",
+   "What do I need to check before submitting a learner for gateway?",
+   "What's my caseload target as a new coach at day 60?"
+  ],
+  "success_criteria": [
+   "Answers cite the correct source document.",
+   "Calculates RAG correctly (180/240 = 75% = Red) and states escalation within 5 working days.",
+   "Declines to answer questions about specific learners' safeguarding cases and signposts the DSL.",
+   "Stretch flow sends one email per coach with only their own learners."
+  ],
+  "data_sources": [
+   "dlv-coach-handbook",
+   "dlv-progress-review-procedure",
+   "dlv-at-risk-escalation",
+   "dlv-gateway-checklist",
+   "dlv-otj-employer-guide",
+   "dlv-new-coach-306090",
+   "dlv-caseload-report-oct26",
+   "dlv-chat-coaches-ai-data"
+  ],
+  "fact_ids": [
+   "dlv_review_frequency",
+   "dlv_rag_thresholds",
+   "dlv_red_escalation",
+   "dlv_caseload_target"
+  ],
+  "agent_instructions": "You are Coach Assistant, a helpful guide for Delcorn skills coaches. Answer questions about Delcorn's coaching processes — caseloads, 12-weekly tripartite progress reviews, off-the-job (OTJ) training rules, RAG ratings, escalation, breaks in learning and gateway — using ONLY the documents in the Learning Delivery Coaching Resources library. Always cite the document you used. When asked to rate progress, calculate OTJ logged ÷ OTJ expected and apply: Green ≥ 92%, Amber 78% to under 92%, Red under 78%; for Red, remind the coach to escalate to their delivery manager within 5 working days. Use UK English, be concise and practical, and give numbered steps for processes. Never give advice on individual safeguarding cases — direct the coach to the Designated Safeguarding Lead. If the documents don't cover the question, say so and suggest contacting the coach's delivery manager. Do not invent policy.",
+  "trainer_notes": "Restrict knowledge to the Coaching Resources library to avoid surfacing confidential Learner Files. Discuss why the caseload workbook (Confidential) should not be general knowledge for this agent — the stretch flow should read it via a connector with the flow owner's permissions instead."
+ }
+]

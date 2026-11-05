@@ -1,0 +1,132 @@
+[
+  {
+    "id": "S-MTG-01",
+    "title": "Catch up on a client meeting you missed",
+    "level": "Foundation",
+    "module": "Copilot in Teams and meetings",
+    "persona": "P004",
+    "context": "Tom Whitfield, Chief Commercial Officer, missed the Northgrid Energy Q1 QBR on 20 October. He is now due to meet Northgrid's Chief Digital Officer in Coventry on 19 November with Helena Marsh, and a competitor is also pitching.",
+    "goal": "Use Copilot to get up to speed on what was discussed and agreed at the QBR, and what it means for the upcoming AI roadmap meeting.",
+    "task_steps": [
+      "Open Copilot Chat (Work mode) and ask for a summary of the Northgrid Q1 QBR.",
+      "Ask what was decided and which actions are still open, with owners and due dates.",
+      "Ask why the Data Analyst cohort moved and what that means for funding (cross-check with the P3 month-end meeting).",
+      "Open the calendar invite for the 19 November meeting and ask Copilot to list the pre-reads and agenda.",
+      "Open the transcript citation for at least one point to confirm Copilot's wording."
+    ],
+    "sample_prompts": [
+      "Summarise the Northgrid Energy quarterly business review on 20 October. What were the key decisions and who owns each follow-up?",
+      "Why did Northgrid move its Data Analyst cohort, and to when? How did that affect our October funding?",
+      "What did Terence Newton say about Northgrid's Chief Digital Officer and the AI roadmap? Quote the transcript.",
+      "I'm meeting Northgrid on 19 November. Give me a one-page briefing: who's attending, the agenda, what they want and the risks."
+    ],
+    "success_criteria": [
+      "States the Data Analyst cohort (12 starts) moved to 11 January 2027 because of the Network Analytics restructure.",
+      "Lists the six QBR actions with correct owners (Laura Chen, Ryan Fletcher x2, Sam Patel, Ravi Sharma x2).",
+      "Mentions the competitor approach to Dr Marion Ackroyd and the £57,000 Copilot Adoption Bootcamp proposal (six cohorts at £9,500).",
+      "Gives the 19 November meeting correctly: 14:00–15:30, Northgrid Coventry, with Helena Marsh, Ravi Sharma and Dr Ben Hartley.",
+      "Learner opens at least one transcript citation."
+    ],
+    "data_sources": ["mtg-ptn-qbr-northgrid-q1", "mtg-ptn-northgrid-ai-roadmap", "ptn-account-plan-northgrid", "mtg-fin-p3-month-end", "fin-email-funding-variance"],
+    "fact_ids": ["mtg_northgrid_da_cohort", "mtg_northgrid_ai_meeting", "ptn_northgrid_on_programme", "ptn_copilot_bootcamp_price"],
+    "trainer_notes": "Good first meetings exercise. Show the difference between the recap (quick) and the transcript (authoritative). The link to the finance meeting shows how Copilot can join up a client decision with its financial impact across sites."
+  },
+  {
+    "id": "S-MTG-02",
+    "title": "Verify an AI meeting recap against the transcript",
+    "level": "Intermediate",
+    "module": "Responsible AI — checking Copilot output",
+    "persona": "P013",
+    "context": "Laura Chen, Delivery Manager, was in the 4 November 'Overdue progress reviews — recovery plan' meeting. Rachel Moss said she would 'trust the recap for the actions' and will use it to update the COO on Monday. Laura wants to make sure the recap is right before it is relied on.",
+    "goal": "Check every action in the intelligent recap against the transcript, find any errors, and send a corrected action list.",
+    "task_steps": [
+      "Open the meeting recap for 'Overdue progress reviews — recovery plan' (Delivery site, Meeting Records).",
+      "List each follow-up task with owner and due date.",
+      "Use Copilot to search the transcript for who agreed to each action and when it is due — ask for quotes and timestamps.",
+      "Record any differences between the recap and the transcript.",
+      "Draft a short, polite email to Rachel Moss with the corrected action list."
+    ],
+    "sample_prompts": [
+      "From the transcript of the 4 November overdue reviews meeting, who agreed to move the five TL3 learners from Kwame to Chloe? Quote the exact lines.",
+      "What date did Kate Simmons commit to for the daily overdue tile in Power BI? Show me the part of the transcript where she says it.",
+      "Compare the follow-up tasks in the recap with what was agreed in the transcript. List any differences in owner or due date in a table.",
+      "Draft a short email to Rachel with the corrected action list, highlighting the two changes."
+    ],
+    "success_criteria": [
+      "Finds that the TL3 move (Kwame Mensah to Chloe Davies) belongs to Laura Chen, not Sam Patel — Sam offered, Laura declined, Rachel confirmed 'Laura owns that, Friday the sixth'.",
+      "Finds that the daily overdue tile is due Monday 9 November, not 16 November — Kate muddled the day, then corrected herself.",
+      "Confirms the other actions are correct (e.g. day-70 reminder 13 November; seven OTJ catch-up plans 14 November).",
+      "Uses transcript quotes or timestamps as evidence, not just the recap.",
+      "Corrected email is accurate, concise and suitable to send."
+    ],
+    "data_sources": ["mtg-dlv-overdue-reviews-recovery", "dlv-email-overdue-reviews", "dlv-team-minutes-oct26"],
+    "fact_ids": ["mtg_tl3_move_owner", "mtg_daily_tile_due", "mtg_overdue_target", "overdue_reviews"],
+    "trainer_notes": "This is the deliberate teaching flaw in the meetings content. The recap has exactly two errors, both plausible AI mistakes: an action moved to the person who offered rather than the person who kept it, and a date taken from a speaker's self-correction. Ask learners why Copilot might make each mistake and how they would build a 'check the recap' habit. If learners only use the recap as their source, Copilot will repeat the errors — that is the point."
+  },
+  {
+    "id": "S-MTG-03",
+    "title": "Prepare for the Meridian Q1 performance review",
+    "level": "Intermediate",
+    "module": "Copilot for executive briefing",
+    "persona": "P011",
+    "context": "Oliver Grant, Board Secretary, organises the in-person Meridian Education Group Q1 performance review on 26 November. Papers must go out two working days before, and Helena Marsh wants a briefing note for the exec on the likely questions.",
+    "goal": "Use the calendar invite, recent meeting recaps and the board and finance papers to produce a briefing note and a list of likely shareholder questions.",
+    "task_steps": [
+      "Ask Copilot for the details of the Meridian Q1 performance review (date, room, attendees, agenda, papers).",
+      "Pull together the latest position on each agenda item from the exec weekly, P3 month-end and Copilot stand-up recaps.",
+      "Check the Q1 funding numbers against the P3 management accounts and the funding variance email.",
+      "Compare what the Q1 trading update says about year-to-date funding with the P3 figures and flag any wording that needs care.",
+      "Draft a one-page briefing note with likely questions from Richard Alder and Helen Price-Whyte."
+    ],
+    "sample_prompts": [
+      "When and where is the Meridian Q1 performance review, who's attending, and what papers do I need to circulate?",
+      "Summarise everything decided in exec and finance meetings since 2 November that's relevant to the Meridian review agenda.",
+      "What was October and year-to-date apprenticeship funding against budget, and how much of the variance is timing versus structural?",
+      "Draft a one-page briefing for Helena with the five questions Meridian are most likely to ask and a suggested answer for each, citing sources."
+    ],
+    "success_criteria": [
+      "Gives 26 November 2026, 10:00–13:00, Boardroom at London HQ, and notes it is not a board meeting (next board 21 January 2027).",
+      "Quotes YTD funding {{fact:fy27_ytd_funding}} vs £2,330,000 budget (−£97,210), split c.£35k timing / c.£62k structural or at risk.",
+      "Includes the downside scenario (January starts −20%, Andrew Clarke) and the £186,000 coach recruitment cost.",
+      "Notices that the Q1 trading update describes YTD funding as 'slightly ahead of budget', which conflicts with the P3 figures, and flags it.",
+      "Includes Copilot go-live dates (9 and 23 November) and the overdue review position."
+    ],
+    "data_sources": ["mtg-exec-meridian-q1-review", "mtg-exec-weekly-2026-11-02", "mtg-fin-p3-month-end", "mtg-tech-copilot-standup", "exec-board-pack-oct26", "exec-board-minutes-2026-10-15", "exec-em-meridian-q1-update", "fin-mgmt-accounts-oct26", "fin-mgmt-commentary-oct26", "fin-email-funding-variance"],
+    "fact_ids": ["mtg_meridian_review", "mtg_fin_variance_split", "mtg_fin_downside", "fy27_ytd_funding", "fin_oct_funding", "exec_next_board_meeting", "exec_copilot_go_live"],
+    "trainer_notes": "Rewards cross-checking across sources. The trading update email says funding is 'slightly ahead of budget' while the P3 meeting and variance email show it is behind — a good discussion about which source wins and why a briefing must flag the discrepancy rather than average it away. Remind learners that exec and finance content is Confidential."
+  },
+  {
+    "id": "S-MTG-04",
+    "title": "Meeting actions tracker agent",
+    "level": "Advanced",
+    "module": "Copilot Studio agents",
+    "persona": "P002",
+    "context": "David Okafor, COO, sits in or receives recaps from several meetings a week and loses track of who owes what. He wants an agent that answers 'what's due this week and who owns it?' from Teams meeting recaps and transcripts — and that checks the transcript rather than trusting the recap blindly.",
+    "goal": "Build a Copilot Studio agent grounded on the Meeting Records libraries that lists open actions by owner and date and flags where a recap and transcript disagree.",
+    "task_steps": [
+      "Create an agent in Copilot Studio and add the Meeting Records libraries on the Exec, Delivery, Finance, Tech, Quality and Partnerships sites as knowledge.",
+      "Write instructions (see agent_instructions) so it answers from recaps but verifies owners and dates in the transcript.",
+      "Test: 'What actions are due in the week of 9 November, by owner?'",
+      "Test: 'What does Laura Chen owe from meetings this month?' and check the answer includes the TL3 move.",
+      "Test a question the sources can't answer and confirm the agent says so.",
+      "Ask the agent to draft follow-up emails or Planner task titles for one meeting's actions."
+    ],
+    "sample_prompts": [
+      "List all open actions from meetings since 1 November that are due between 9 and 13 November, grouped by owner.",
+      "What does Laura Chen owe from meetings this month? Check the transcripts as well as the recaps.",
+      "Are there any meetings where the recap and the transcript disagree about an owner or due date?",
+      "Turn the actions from the P3 month-end review into Planner task titles with owners and due dates."
+    ],
+    "success_criteria": [
+      "Agent cites the recap or transcript for every action it lists.",
+      "Week of 9 November includes: Andrew Clarke downside scenario (9 Nov), Kate Simmons daily tile (9 Nov), Laura Chen client partner nudge (9 Nov), Kate Simmons day-70 reminder (13 Nov), Laura Chen protected learning time (13 Nov).",
+      "Attributes the TL3 move to Laura Chen and flags the recap discrepancy.",
+      "Declines or says 'not found' rather than inventing actions.",
+      "Planner task titles are short, start with a verb and keep the correct owner and date."
+    ],
+    "data_sources": ["mtg-dlv-overdue-reviews-recovery", "mtg-fin-p3-month-end", "mtg-exec-weekly-2026-11-02", "mtg-tech-copilot-standup", "mtg-ptn-qbr-northgrid-q1", "mtg-qual-inspection-readiness"],
+    "fact_ids": ["mtg_tl3_move_owner", "mtg_daily_tile_due", "mtg_fin_downside", "mtg_pr014_status", "mtg_exec_coach_split"],
+    "agent_instructions": "You are the Delcorn Meeting Actions Tracker. You help leaders see who owns which follow-up from Teams meetings. Use only the meeting recaps and transcripts in the Meeting Records libraries. For every action, give the action, owner, due date (UK format), meeting name and date, and cite the source. Recaps are AI-generated and can be wrong: before giving an owner or due date, check the transcript, and if the transcript disagrees, use the transcript and say 'Recap says X; transcript says Y'. If no due date was agreed, say 'no date agreed' — never invent one. Do not include actions from Confidential meetings for users who cannot open them. If you can't find something, say so and suggest who to ask. Keep answers short and use tables for lists of actions.",
+    "trainer_notes": "Extends S-MTG-02 into an agent. The strongest builds explicitly tell the agent to prefer the transcript over the recap. Discuss permissions: the exec and finance recaps are Confidential, so the agent's answers will differ by user — that is correct behaviour, not a bug."
+  }
+]

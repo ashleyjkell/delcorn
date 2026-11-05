@@ -1,0 +1,1523 @@
+[
+  {
+    "id": "med-scan-agreement-blake",
+    "type": "scan",
+    "format": "pdf",
+    "title": "Apprenticeship Agreement & Commitment Statement - Patricia Blake",
+    "site": "delivery",
+    "library": "Learner Files",
+    "folder": "Leadership Academy/Kestrel Logistics UK/Signed Agreements",
+    "category": "Contract",
+    "doc_type_label": "Signed agreement (scanned)",
+    "author": "P037",
+    "created": "2026-09-24",
+    "modified": "2026-09-25",
+    "classification": "Confidential",
+    "tags": [
+      "commitment statement",
+      "apprenticeship agreement",
+      "Kestrel Logistics UK",
+      "PM4",
+      "scanned",
+      "signed"
+    ],
+    "summary": "Wet-ink signed apprenticeship agreement and commitment statement for Patricia Blake (Kestrel Logistics UK, PM4 Associate Project Manager). Scanned image - no text layer.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "p": "This agreement sets out the commitments made by the apprentice, the employer and Delcorn (the training provider) for the apprenticeship below. It must be signed by all three parties **before** the start date. One copy is uploaded to Aptiva; the original is held by the employer."
+      },
+      {
+        "h2": "1. Apprentice and employer"
+      },
+      {
+        "form": [
+          [
+            "Apprentice full name",
+            "Patricia Blake"
+          ],
+          [
+            "Unique Learner Number (ULN)",
+            "{{sql:SELECT uln FROM learners WHERE learner_id='LRN21314'}}"
+          ],
+          [
+            "Delcorn learner ID",
+            "LRN21314"
+          ],
+          [
+            "Job title",
+            "Project Coordinator - Network Planning"
+          ],
+          [
+            "Employer",
+            "Kestrel Logistics UK"
+          ],
+          [
+            "Employer contact (name and role)",
+            "Kate Williams - Early Careers Manager"
+          ],
+          [
+            "Line manager",
+            "Darren Fairweather, Network Planning Manager"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "h2": "2. Programme"
+      },
+      {
+        "kv": [
+          [
+            "Programme",
+            "PM4 Associate Project Manager (Level 4)"
+          ],
+          [
+            "Apprenticeship standard",
+            "Associate Project Manager"
+          ],
+          [
+            "End-point assessment organisation",
+            "Institute of Management Practice"
+          ],
+          [
+            "Delcorn skills coach",
+            "Nathan Marsden, Skills Coach (Leadership)"
+          ],
+          [
+            "Delivery model",
+            "Monthly 1:1 coaching, tripartite progress review at least every 12 weeks, live online workshops"
+          ]
+        ]
+      },
+      {
+        "form": [
+          [
+            "Practical period start date",
+            "{{sql:SELECT strftime('%d/%m/%Y', start_date) FROM learners WHERE learner_id='LRN21314'}}"
+          ],
+          [
+            "Planned end date (incl. EPA)",
+            "{{sql:SELECT strftime('%d/%m/%Y', planned_end_date) FROM learners WHERE learner_id='LRN21314'}}"
+          ],
+          [
+            "Planned off-the-job training hours",
+            "{{sql:SELECT otj_hours_planned FROM learners WHERE learner_id='LRN21314'}} hours"
+          ],
+          [
+            "Working hours per week",
+            "37.5"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "h2": "3. Commitments"
+      },
+      {
+        "checks": [
+          [
+            "Employer will release the apprentice for off-the-job training within paid working hours",
+            true
+          ],
+          [
+            "Employer will attend tripartite progress reviews and provide workplace projects",
+            true
+          ],
+          [
+            "Apprentice will log off-the-job training in Aptiva at least weekly",
+            true
+          ],
+          [
+            "Apprentice has received the Safeguarding & Prevent guide and knows how to raise a concern",
+            true
+          ],
+          [
+            "Employer is a levy payer (no co-investment due)",
+            true
+          ],
+          [
+            "Recognition of prior learning applied (reduced duration)",
+            false
+          ]
+        ]
+      },
+      {
+        "hand": "RPL checked at IA - none applicable. IH",
+        "ink": "blue"
+      },
+      {
+        "pagebreak": true
+      },
+      {
+        "h2": "4. Signatures"
+      },
+      {
+        "p": "By signing, each party confirms they have read and agree to the commitments above and to the Delcorn Employer Services Agreement."
+      },
+      {
+        "signature": {
+          "name": "Patricia Blake",
+          "title": "Apprentice"
+        },
+        "date": "2026-09-22"
+      },
+      {
+        "signature": {
+          "name": "Kate Williams",
+          "title": "Early Careers Manager, Kestrel Logistics UK"
+        },
+        "date": "2026-09-23"
+      },
+      {
+        "signature": "P037",
+        "date": "2026-09-24"
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "Uploaded to Aptiva",
+        "date": "2026-09-25"
+      },
+      {
+        "hand": "Original posted back to Kate W 25/09. Start confirmed for ILR.",
+        "ink": "blue"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-brightside-delivery-note",
+    "type": "scan",
+    "format": "pdf",
+    "title": "Event Delivery & Sign-off Note BSE-DN-0924 - Brightside Events",
+    "site": "finance",
+    "library": "Procurement & Suppliers",
+    "folder": "Supplier Documents/Brightside Events",
+    "category": "Delivery Note",
+    "doc_type_label": "Supplier delivery note (scanned)",
+    "author": "P030",
+    "created": "2026-10-30",
+    "modified": "2026-10-31",
+    "classification": "Internal",
+    "tags": [
+      "Brightside Events",
+      "Skills Summit",
+      "delivery note",
+      "PO-26-0412",
+      "BSE-4471",
+      "scanned"
+    ],
+    "summary": "Wet-ink signed event sign-off note from Brightside Events for the Delcorn Skills Summit (24 September 2026), including the extra items requested on the day. Scanned image - no text layer.",
+    "letterhead": false,
+    "show_title": false,
+    "blocks": [
+      {
+        "h1": "BRIGHTSIDE EVENTS"
+      },
+      {
+        "p": "Brightside Events Ltd · The Canal Wharf Rooms, 14 Wharf Approach, Birmingham B1 2XW · VAT No GB 471 2290 18"
+      },
+      {
+        "h2": "Event Delivery & Client Sign-off Note"
+      },
+      {
+        "kv": [
+          [
+            "Note number",
+            "BSE-DN-0924"
+          ],
+          [
+            "Client",
+            "Delcorn Learning Ltd"
+          ],
+          [
+            "Event",
+            "Delcorn Skills Summit"
+          ],
+          [
+            "Event date",
+            "Thursday 24 September 2026"
+          ],
+          [
+            "Client purchase order",
+            "PO-26-0412"
+          ],
+          [
+            "Related invoice",
+            "BSE-4471 (to follow)"
+          ]
+        ]
+      },
+      {
+        "h3": "Ordered items (per PO-26-0412)"
+      },
+      {
+        "table": {
+          "columns": [
+            "Item",
+            "Qty",
+            "Unit (£)",
+            "Net (£)"
+          ],
+          "rows": [
+            [
+              "Venue hire - main hall and two breakout rooms (full day)",
+              "1",
+              "3,400.00",
+              "3,400.00"
+            ],
+            [
+              "Delegate catering - refreshments and lunch",
+              "120",
+              "18.50",
+              "2,220.00"
+            ],
+            [
+              "Standard AV package (projector, PA, 2 radio mics)",
+              "1",
+              "1,180.00",
+              "1,180.00"
+            ],
+            [
+              "Event staffing (2 hosts)",
+              "1",
+              "400.00",
+              "400.00"
+            ],
+            [
+              "Subtotal ordered",
+              "",
+              "",
+              "7,200.00"
+            ]
+          ]
+        }
+      },
+      {
+        "h3": "Additional items requested on the day"
+      },
+      {
+        "form": [
+          [
+            "Item 1",
+            "Second screen + live-stream package - £1,218.00"
+          ],
+          [
+            "Item 2",
+            "12 extra delegate lunches @ £18.50 = £222.00"
+          ],
+          [
+            "Requested by / time",
+            "Jess Morgan (Delcorn) 08:15"
+          ],
+          [
+            "Delegates attending on the day",
+            "132"
+          ]
+        ],
+        "ink": "black"
+      },
+      {
+        "kv": [
+          [
+            "Total net (ordered + additional)",
+            "£8,640.00"
+          ],
+          [
+            "VAT @ 20%",
+            "£1,728.00"
+          ],
+          [
+            "Total including VAT",
+            "£10,368.00"
+          ]
+        ]
+      },
+      {
+        "checks": [
+          [
+            "Venue and catering delivered as ordered",
+            true
+          ],
+          [
+            "AV delivered and tested",
+            true
+          ],
+          [
+            "Additional items agreed by client representative",
+            true
+          ],
+          [
+            "Damage or missing items to report",
+            false
+          ]
+        ],
+        "ink": "black"
+      },
+      {
+        "p": "Client signature confirms the services above were received. Additional items will be added to the final invoice."
+      },
+      {
+        "signature": "P027",
+        "date": "2026-09-24",
+        "ink": "black"
+      },
+      {
+        "signature": {
+          "name": "Dean Holloway",
+          "title": "Event Manager, Brightside Events"
+        },
+        "date": "2026-09-24",
+        "ink": "black"
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "Received - Finance",
+        "date": "2026-10-30"
+      },
+      {
+        "hand": "Matched to PO-26-0412 as amended to £8,640 net - AC approved 31/10. Pay run 04/11. PW",
+        "ink": "blue"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-learner-feedback-morgan",
+    "type": "scan",
+    "format": "jpg",
+    "title": "Workshop Feedback Form - Prompting Fundamentals, 21 October 2026",
+    "site": "quality",
+    "library": "Self-Assessment & QIP",
+    "folder": "Learner Voice/Paper Feedback Forms",
+    "category": "Feedback",
+    "doc_type_label": "Handwritten feedback form (scanned)",
+    "author": "P021",
+    "created": "2026-10-23",
+    "modified": "2026-10-23",
+    "classification": "Internal",
+    "tags": [
+      "learner voice",
+      "feedback form",
+      "workshop",
+      "AI3",
+      "prompting",
+      "handwritten"
+    ],
+    "summary": "Handwritten paper feedback form completed by an AI3 learner after the in-person Prompting Fundamentals workshop at the Manchester hub. Phone scan - no text layer.",
+    "letterhead": false,
+    "show_title": true,
+    "blocks": [
+      {
+        "p": "Thank you for attending. Your feedback is anonymous unless you give your name. Please hand this form to your facilitator."
+      },
+      {
+        "form": [
+          [
+            "Workshop, date and venue",
+            "Prompting Fundamentals (AI3) - 21/10/2026 - Manchester hub"
+          ],
+          [
+            "Facilitator",
+            "Fatima Hussain"
+          ],
+          [
+            "Your name (optional)",
+            "Hannah Morgan"
+          ],
+          [
+            "Ratings 1-5: overall / facilitator / pace / relevance to my job",
+            "4 / 5 / 2 (far too quick after lunch) / 5"
+          ],
+          [
+            "What was most useful?",
+            "The prompt library exercise and rewriting our team's FAQ emails. Will use the 'give it a role + example' trick every day."
+          ],
+          [
+            "What could we improve?",
+            "Copilot in Excel bit was rushed - lost me. Could we have a follow-up session or a recording? Also the room was freezing!"
+          ],
+          [
+            "Anything else?",
+            "Please share the slides before the session next time."
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "checks": [
+          [
+            "I would recommend this workshop to a colleague",
+            true
+          ],
+          [
+            "I would like my coach to contact me about this feedback",
+            true
+          ]
+        ]
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "Logged - Learner Voice",
+        "date": "2026-10-23"
+      },
+      {
+        "hand": "Excel follow-up -> raise with Ben H for QIP. Slides 48h before. HP",
+        "ink": "red"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-new-starter-lacey",
+    "type": "scan",
+    "format": "pdf",
+    "title": "New Starter Form & Right to Work Checklist - Owen Lacey",
+    "site": "people",
+    "library": "Onboarding",
+    "folder": "New Starters/2026-11 Owen Lacey",
+    "category": "Form",
+    "doc_type_label": "Signed HR form (scanned)",
+    "author": "P032",
+    "created": "2026-10-29",
+    "modified": "2026-10-29",
+    "classification": "Confidential",
+    "tags": [
+      "new starter",
+      "right to work",
+      "onboarding",
+      "REQ-2610",
+      "DBS",
+      "scanned"
+    ],
+    "summary": "Signed new starter form and right to work checklist for Owen Lacey, Skills Coach (AI), starting 16 November 2026. Scanned image - no text layer. Fictional training data.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "p": "Complete this form with the new starter at the right to work check. Do **not** write National Insurance numbers, passport numbers or bank details on this form - record them directly in PeopleFlow."
+      },
+      {
+        "h2": "Section A - Role details"
+      },
+      {
+        "form": [
+          [
+            "Full name",
+            "Owen Lacey"
+          ],
+          [
+            "Job title",
+            "Skills Coach (AI)"
+          ],
+          [
+            "Requisition",
+            "REQ-2610"
+          ],
+          [
+            "Line manager",
+            "Sam Patel"
+          ],
+          [
+            "Base",
+            "Birmingham hub (opens 16/11) / hybrid"
+          ],
+          [
+            "Contract",
+            "Permanent, 1.0 FTE"
+          ],
+          [
+            "Start date",
+            "16/11/2026"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "h2": "Section B - Right to work check"
+      },
+      {
+        "checks": [
+          [
+            "Original document seen in person (List A)",
+            true
+          ],
+          [
+            "Online check using a share code",
+            false
+          ],
+          [
+            "Copy taken, signed and dated, uploaded to PeopleFlow",
+            true
+          ],
+          [
+            "Time-limited permission - follow-up check required",
+            false
+          ]
+        ]
+      },
+      {
+        "form": [
+          [
+            "Document type",
+            "UK passport"
+          ],
+          [
+            "Document number",
+            ""
+          ],
+          [
+            "Date of check",
+            "28/10/2026"
+          ],
+          [
+            "Checked by",
+            "Joe Fraser"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "hand": "Doc no. held in PeopleFlow only. JF",
+        "ink": "blue"
+      },
+      {
+        "h2": "Section C - Pre-employment checks"
+      },
+      {
+        "checks": [
+          [
+            "Two references received",
+            true
+          ],
+          [
+            "Enhanced DBS (with barred list) applied for",
+            true
+          ],
+          [
+            "Enhanced DBS certificate seen",
+            false
+          ],
+          [
+            "Safeguarding & Prevent training booked for week 1",
+            true
+          ],
+          [
+            "FixDesk 'New starter setup' ticket raised by hiring manager",
+            true
+          ]
+        ]
+      },
+      {
+        "form": [
+          [
+            "National Insurance number",
+            ""
+          ],
+          [
+            "Bank details",
+            ""
+          ],
+          [
+            "DBS notes",
+            "Applied 29/10/2026 - no learner contact until certificate seen"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "pagebreak": true
+      },
+      {
+        "h2": "Section D - Declarations"
+      },
+      {
+        "p": "I confirm the information I have given is correct and that I have the right to work in the UK. I understand Delcorn will process my data in line with the Data Protection Policy."
+      },
+      {
+        "signature": {
+          "name": "Owen Lacey",
+          "title": "New starter"
+        },
+        "date": "2026-10-28"
+      },
+      {
+        "signature": "P032",
+        "date": "2026-10-28"
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "Scanned to PeopleFlow",
+        "date": "2026-10-29"
+      },
+      {
+        "hand": "Laptop pack to ship 13/11 - signature on delivery. EW",
+        "ink": "red"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-complaints-policy-2019",
+    "type": "scan",
+    "format": "pdf",
+    "quality": "poor",
+    "title": "Complaints Procedure v1.2 (2019) - SUPERSEDED",
+    "site": "quality",
+    "library": "Policies & Procedures",
+    "folder": "Archive/Superseded",
+    "category": "Policy",
+    "doc_type_label": "Superseded policy (scanned paper copy)",
+    "author": "P001",
+    "created": "2019-03-01",
+    "modified": "2023-08-01",
+    "version": "1.2",
+    "status": "Superseded",
+    "classification": "Internal",
+    "tags": [
+      "complaints",
+      "superseded",
+      "archive",
+      "2019",
+      "scanned"
+    ],
+    "summary": "Scanned paper copy of the 2019 Complaints Procedure, stamped SUPERSEDED in August 2023. Kept for audit history only - see the current Complaints Policy.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "kv": [
+          [
+            "Version",
+            "1.2"
+          ],
+          [
+            "Effective from",
+            "1 March 2019"
+          ],
+          [
+            "Owner",
+            "Managing Director"
+          ],
+          [
+            "Next review",
+            "March 2020"
+          ]
+        ]
+      },
+      {
+        "h2": "1. Purpose"
+      },
+      {
+        "p": "Delcorn aims to provide an excellent service to every apprentice and employer. If something goes wrong we want to know, so that we can put it right and learn from it."
+      },
+      {
+        "h2": "2. How to complain"
+      },
+      {
+        "p": "Complaints should be made in writing, by letter to the Managing Director at our office or by email to info@delcorn.co.uk. Please give your name, employer, programme and details of the complaint."
+      },
+      {
+        "h2": "3. Stages and timescales"
+      },
+      {
+        "table": {
+          "columns": [
+            "Stage",
+            "Handled by",
+            "Timescale"
+          ],
+          "rows": [
+            [
+              "Stage 1 - Formal complaint",
+              "Programme Manager",
+              "Acknowledged within 5 working days; response within 20 working days"
+            ],
+            [
+              "Stage 2 - Appeal",
+              "Managing Director",
+              "Appeal within 20 working days of Stage 1 response; decision within 20 working days"
+            ],
+            [
+              "Stage 3 - External",
+              "Education and Skills Funding Agency (ESFA) complaints team",
+              "When Delcorn's procedure is exhausted"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "4. Records"
+      },
+      {
+        "p": "The Programme Manager keeps a paper log of complaints, which is reviewed by the Managing Director every six months."
+      },
+      {
+        "signature": "P001",
+        "date": "2019-03-01",
+        "ink": "black"
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "SUPERSEDED",
+        "date": "2023-08-01"
+      },
+      {
+        "hand": "SUPERSEDED - replaced by Complaints Policy (Aug 2023). Do not issue to learners. HP",
+        "ink": "red"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-ts-policy-2019",
+    "type": "scan",
+    "format": "pdf",
+    "title": "Travel & Subsistence Policy v2.0 (2019) - SUPERSEDED",
+    "site": "people",
+    "library": "HR Policies",
+    "folder": "Archive/Superseded",
+    "category": "Policy",
+    "doc_type_label": "Superseded policy (scanned paper copy)",
+    "author": "P001",
+    "created": "2019-04-01",
+    "modified": "2023-03-01",
+    "version": "2.0",
+    "status": "Superseded",
+    "classification": "Internal",
+    "tags": [
+      "expenses",
+      "travel",
+      "subsistence",
+      "superseded",
+      "archive",
+      "2019",
+      "scanned"
+    ],
+    "summary": "Scanned paper copy of the 2019 Travel & Subsistence Policy, replaced by the Expenses Policy in March 2023. Old limits - do not use for current claims.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "kv": [
+          [
+            "Version",
+            "2.0"
+          ],
+          [
+            "Effective from",
+            "1 April 2019"
+          ],
+          [
+            "Approved by",
+            "Helena Marsh, Managing Director"
+          ]
+        ]
+      },
+      {
+        "h2": "1. Claiming"
+      },
+      {
+        "p": "Complete the paper expenses claim form, attach original receipts and hand it to the office manager by the last Friday of the month. Claims are paid by BACS within 30 days."
+      },
+      {
+        "h2": "2. Limits"
+      },
+      {
+        "table": {
+          "columns": [
+            "Expense",
+            "Limit"
+          ],
+          "rows": [
+            [
+              "Hotel - London",
+              "£120 per night (room only)"
+            ],
+            [
+              "Hotel - elsewhere",
+              "£90 per night (room only)"
+            ],
+            [
+              "Breakfast",
+              "£8"
+            ],
+            [
+              "Lunch",
+              "£7.50"
+            ],
+            [
+              "Evening meal (overnight stays)",
+              "£25, which may include one alcoholic drink"
+            ],
+            [
+              "Mileage",
+              "45p per mile"
+            ],
+            [
+              "Rail",
+              "Standard class; first class with MD approval"
+            ]
+          ]
+        }
+      },
+      {
+        "h2": "3. Hospitality"
+      },
+      {
+        "p": "Entertaining clients must be agreed in advance with the Managing Director."
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "SUPERSEDED",
+        "date": "2023-03-01"
+      },
+      {
+        "hand": "Replaced by Expenses Policy v1.0 (Mar 2023) - now in Ledgerline. Keep for audit only. AC",
+        "ink": "red"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-board-minutes-jul26-signed",
+    "type": "scan",
+    "format": "pdf",
+    "title": "Board Minutes - 16 July 2026 (signed copy)",
+    "site": "exec",
+    "library": "Board Packs",
+    "folder": "2026-07 July",
+    "category": "Minutes",
+    "doc_type_label": "Signed minutes (scanned)",
+    "author": "P011",
+    "created": "2026-10-16",
+    "modified": "2026-10-16",
+    "classification": "Confidential",
+    "tags": [
+      "board",
+      "minutes",
+      "signed",
+      "July 2026",
+      "scanned"
+    ],
+    "summary": "Wet-ink signed copy of the 16 July 2026 board minutes, approved as a true record at the 15 October 2026 meeting with a handwritten amendment. Scanned image - no text layer.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "kv": [
+          [
+            "Meeting",
+            "Board of Directors, Delcorn Learning Ltd"
+          ],
+          [
+            "Date",
+            "Thursday 16 July 2026, 10:00-13:00"
+          ],
+          [
+            "Location",
+            "Meridian Education Group offices, Birmingham"
+          ],
+          [
+            "Chair",
+            "Catherine Ashworth"
+          ],
+          [
+            "Minutes",
+            "Oliver Grant"
+          ]
+        ]
+      },
+      {
+        "h3": "Summary of resolutions"
+      },
+      {
+        "numbered": [
+          "Minutes of 23 April 2026 approved as a true record.",
+          "Strategy 2026-2029 'Growing Together' approved.",
+          "Launch of programme AI4 approved for September 2026 starts.",
+          "FY2026/27 budget approved, including the Copilot licence provision, the Birmingham hub and a 3% pay award from 1 August 2026.",
+          "Copilot pilot: full business case and DPIA requested for the October meeting."
+        ]
+      },
+      {
+        "p": "Action log A-2607-01 to A-2607-07 recorded in the full minutes. Next meeting: Thursday 15 October 2026."
+      },
+      {
+        "hand": "Item 3 - add: 'F. Gallagher asked for quarterly tracking of the 2029 targets in every board pack.' Agreed 15/10. CA",
+        "ink": "blue"
+      },
+      {
+        "h3": "Approval"
+      },
+      {
+        "p": "Approved by the Board as a true and accurate record of the meeting held on 16 July 2026, subject to the amendment noted above."
+      },
+      {
+        "signature": {
+          "name": "Catherine Ashworth",
+          "title": "Independent Non-Executive Chair"
+        },
+        "date": "2026-10-15",
+        "ink": "black"
+      },
+      {
+        "signature": "P011",
+        "date": "2026-10-15",
+        "ink": "black"
+      },
+      {
+        "spacer": 160
+      },
+      {
+        "stamp": "Original filed - minute book",
+        "date": "2026-10-16",
+        "colour": "blue"
+      }
+    ]
+  },
+  {
+    "id": "med-scan-obs-note-nolan",
+    "type": "scan",
+    "format": "jpg",
+    "title": "Coach Workplace Observation Notes - Donna Nolan, 3 November 2026",
+    "site": "delivery",
+    "library": "Learner Files",
+    "folder": "AI Academy/Pennant Combined Authority",
+    "category": "Observation",
+    "doc_type_label": "Handwritten coach notes (scanned)",
+    "author": "P015",
+    "created": "2026-11-03",
+    "modified": "2026-11-03",
+    "classification": "Confidential",
+    "tags": [
+      "observation",
+      "workplace evidence",
+      "AI4",
+      "Pennant Combined Authority",
+      "handwritten"
+    ],
+    "summary": "Fatima Hussain's handwritten notes from a workplace observation of AI4 apprentice Donna Nolan (LRN21443), photographed on her phone. No text layer - not yet typed into Aptiva.",
+    "letterhead": true,
+    "show_title": true,
+    "blocks": [
+      {
+        "form": [
+          [
+            "Apprentice / ID",
+            "Donna Nolan - LRN21443"
+          ],
+          [
+            "Programme",
+            "AI4 AI & Automation Practitioner"
+          ],
+          [
+            "Employer / location",
+            "Pennant Combined Authority - Customer Contact team, on site"
+          ],
+          [
+            "Date / time",
+            "03/11/2026  10:00-11:30"
+          ],
+          [
+            "Observed by",
+            "Fatima Hussain (Senior Skills Coach)"
+          ]
+        ],
+        "ink": "blue"
+      },
+      {
+        "h3": "What I observed"
+      },
+      {
+        "hand": "Donna demoed her Power Automate flow that triages FOI requests into 4 queues. Explained the prompt + rules clearly to her manager.",
+        "ink": "blue"
+      },
+      {
+        "hand": "Team estimate: saves approx 3 hrs per week. Human check before any reply goes out - good!",
+        "ink": "blue"
+      },
+      {
+        "hand": "Weaker: no test log / no record of failed cases. Couldn't explain how she'd measure accuracy.",
+        "ink": "blue"
+      },
+      {
+        "h3": "KSBs evidenced"
+      },
+      {
+        "hand": "K4, S2, S6, B3 (strong). S7 partial - needs evaluation evidence.",
+        "ink": "blue"
+      },
+      {
+        "h3": "Next steps"
+      },
+      {
+        "hand": "1) Write 1-page design + test log for the flow by 17/11",
+        "ink": "red"
+      },
+      {
+        "hand": "2) Ask manager for witness statement",
+        "ink": "red"
+      },
+      {
+        "hand": "3) Add to Aptiva + discuss at review 24/11",
+        "ink": "red"
+      },
+      {
+        "signature": "P015",
+        "date": "2026-11-03"
+      }
+    ]
+  },
+  {
+    "id": "med-img-receipt-rowe-lunch",
+    "type": "image",
+    "kind": "receipt",
+    "title": "Receipt - James Rowe - Platform Nine Deli lunch 20-10-2026",
+    "site": "finance",
+    "library": "Invoices",
+    "folder": "Expense Receipts/James Rowe",
+    "category": "Receipt",
+    "author": "P014",
+    "created": "2026-10-20",
+    "modified": "2026-10-20",
+    "classification": "Internal",
+    "tags": [
+      "expenses",
+      "receipt",
+      "lunch",
+      "Ledgerline"
+    ],
+    "summary": "Photo of James Rowe's lunch receipt from an employer visit to Northgrid Energy in Derby, attached to his Ledgerline claim.",
+    "receipt": {
+      "merchant": "Platform Nine Deli",
+      "address": [
+        "Unit 3, Station Approach",
+        "Derby DE1 9QZ"
+      ],
+      "vat_no": "GB 318 4407 62",
+      "date": "2026-10-20",
+      "time": "12:41",
+      "ref": "Till 2  Order 0417",
+      "items": [
+        [
+          "Chicken & pesto wrap",
+          1,
+          5.95
+        ],
+        [
+          "Sparkling water",
+          1,
+          1.85
+        ]
+      ],
+      "payment": "VISA CONTACTLESS ****2281",
+      "footer": [
+        "Thanks - see you next time!"
+      ]
+    }
+  },
+  {
+    "id": "med-img-receipt-murray-dinner",
+    "type": "image",
+    "kind": "receipt",
+    "title": "Receipt - Lewis Murray - The Lantern & Quay dinner 14-10-2026",
+    "site": "finance",
+    "library": "Invoices",
+    "folder": "Expense Receipts/Lewis Murray",
+    "category": "Receipt",
+    "author": "P026",
+    "created": "2026-10-15",
+    "modified": "2026-10-15",
+    "classification": "Internal",
+    "tags": [
+      "expenses",
+      "receipt",
+      "evening meal",
+      "overnight",
+      "Ledgerline"
+    ],
+    "summary": "Photo of Lewis Murray's evening meal receipt from an overnight stay in Bristol for a prospect meeting, attached to his Ledgerline claim.",
+    "receipt": {
+      "merchant": "The Lantern & Quay",
+      "address": [
+        "7 Harbourside Walk",
+        "Bristol BS1 5WQ"
+      ],
+      "vat_no": "GB 562 9031 44",
+      "date": "2026-10-14",
+      "time": "20:37",
+      "ref": "Table 7  Covers 1  Server: Mia",
+      "items": [
+        [
+          "Steak frites",
+          1,
+          21.5
+        ],
+        [
+          "Side salad",
+          1,
+          4.5
+        ],
+        [
+          "Malbec 250ml",
+          1,
+          9.8
+        ],
+        [
+          "Sticky toffee pudding",
+          1,
+          6.95
+        ]
+      ],
+      "service": 0.125,
+      "payment": "MASTERCARD ****6093",
+      "footer": [
+        "Discretionary service added",
+        "Thank you for dining with us"
+      ]
+    }
+  },
+  {
+    "id": "med-img-receipt-chen-team-meal",
+    "type": "image",
+    "kind": "receipt",
+    "title": "Receipt - Laura Chen - Ember & Oak team meal 22-10-2026",
+    "site": "finance",
+    "library": "Invoices",
+    "folder": "Expense Receipts/Laura Chen",
+    "category": "Receipt",
+    "author": "P013",
+    "created": "2026-10-23",
+    "modified": "2026-10-23",
+    "classification": "Internal",
+    "tags": [
+      "expenses",
+      "receipt",
+      "team meal",
+      "away-day",
+      "Manchester hub",
+      "Ledgerline"
+    ],
+    "summary": "Photo of the receipt for the Leadership & People Academies away-day team meal in Manchester (8 covers), paid by Laura Chen.",
+    "receipt": {
+      "merchant": "Ember & Oak Kitchen",
+      "address": [
+        "41 Cotton Row, Ancoats",
+        "Manchester M4 6JQ"
+      ],
+      "vat_no": "GB 207 5518 93",
+      "date": "2026-10-22",
+      "time": "21:58",
+      "ref": "Table 12  Covers 8  Server: Jo",
+      "items": [
+        [
+          "Set menu (2 courses)",
+          8,
+          24.0
+        ],
+        [
+          "Elderflower presse",
+          4,
+          3.8
+        ],
+        [
+          "Soft drink",
+          6,
+          3.2
+        ],
+        [
+          "Sparkling water 750ml",
+          3,
+          4.5
+        ]
+      ],
+      "service": 0.1,
+      "payment": "VISA ****7350",
+      "footer": [
+        "Service charge 10% for parties of 6+",
+        "Thank you!"
+      ]
+    }
+  },
+  {
+    "id": "med-img-receipt-barker-breakfast",
+    "type": "image",
+    "kind": "receipt",
+    "title": "Receipt - Emily Barker - Early Bird Cafe breakfast 28-10-2026",
+    "site": "finance",
+    "library": "Invoices",
+    "folder": "Expense Receipts/Emily Barker",
+    "category": "Receipt",
+    "author": "P018",
+    "created": "2026-10-28",
+    "modified": "2026-10-28",
+    "classification": "Internal",
+    "tags": [
+      "expenses",
+      "receipt",
+      "breakfast",
+      "Ledgerline"
+    ],
+    "summary": "Photo of Emily Barker's breakfast receipt from Norwich station before an early train to a London workshop.",
+    "receipt": {
+      "merchant": "Early Bird Cafe",
+      "address": [
+        "Kiosk 2, Station Forecourt",
+        "Norwich NR1 4QX"
+      ],
+      "date": "2026-10-28",
+      "time": "06:52",
+      "items": [
+        [
+          "Full breakfast",
+          1,
+          9.45
+        ],
+        [
+          "Large latte",
+          1,
+          3.3
+        ]
+      ],
+      "vat": false,
+      "payment": "DEBIT CARD ****0148",
+      "footer": [
+        "Cash & card welcome"
+      ]
+    }
+  },
+  {
+    "id": "med-img-whiteboard-exec-awayday",
+    "type": "image",
+    "kind": "whiteboard",
+    "title": "Whiteboard - Exec away-day 1 October 2026",
+    "heading": "Exec away-day 1/10 - Year 1 priorities",
+    "site": "exec",
+    "library": "Strategy",
+    "folder": "Away-days/2026-10-01",
+    "category": "Photo",
+    "author": "P002",
+    "created": "2026-10-01",
+    "modified": "2026-10-01",
+    "classification": "Confidential",
+    "tags": [
+      "away-day",
+      "priorities",
+      "strategy",
+      "whiteboard",
+      "photo"
+    ],
+    "summary": "Phone photo of the whiteboard from the Executive Team away-day on 1 October 2026: top three priorities for 2026/27, worries and parked ideas. Not yet written up.",
+    "columns": [
+      {
+        "heading": "Top 3 for 26/27",
+        "items": [
+          "1. Copilot for all - Wave 2 by 16/11",
+          "2. Birmingham hub live 16/11",
+          "3. Caseload reset - all coaches on target by Jan"
+        ]
+      },
+      {
+        "heading": "Worries",
+        "items": [
+          "!L7 funding cut",
+          "Coach turnover 14%",
+          "!Permissions clean-up before Wave 2",
+          "Northgrid = too big a share?"
+        ]
+      },
+      {
+        "heading": "Parked",
+        "items": [
+          "~Rebrand",
+          "~2nd London office",
+          "Degree appr. - 27/28",
+          "AI for leaders offer"
+        ]
+      }
+    ],
+    "footer": "DO to write up for board 15/10 - photo to Oliver"
+  },
+  {
+    "id": "med-img-whiteboard-copilot-wave2",
+    "type": "image",
+    "kind": "whiteboard",
+    "title": "Whiteboard - Copilot Wave 2 planning 3 November 2026",
+    "heading": "Copilot Wave 2 planning 3/11",
+    "site": "tech",
+    "library": "Projects",
+    "folder": "Copilot Rollout/Wave 2",
+    "category": "Photo",
+    "author": "P007",
+    "created": "2026-11-03",
+    "modified": "2026-11-03",
+    "classification": "Internal",
+    "tags": [
+      "Copilot",
+      "rollout",
+      "Wave 2",
+      "whiteboard",
+      "photo",
+      "planning"
+    ],
+    "summary": "Phone photo of the Learning Technology whiteboard from the Copilot Wave 2 planning session on 3 November 2026.",
+    "columns": [
+      {
+        "heading": "Before go/no-go 11/11",
+        "items": [
+          "!Close last 4 permissions findings",
+          "Champion in every coach team",
+          "Licence group from PeopleFlow",
+          "~Buy 20 extra licences"
+        ]
+      },
+      {
+        "heading": "Wave 2 week 16/11",
+        "items": [
+          "3 x 'Copilot in your day' for coaches",
+          "Drop-in Thurs 12:30",
+          "FixDesk triage rota"
+        ]
+      },
+      {
+        "heading": "Risks",
+        "items": [
+          "!Learner data saved in OneDrive",
+          "Only 71% done e-learning",
+          "Coaches too busy (gateway)"
+        ]
+      }
+    ],
+    "footer": "Owner: AK - next stand-up Mon 9/11"
+  },
+  {
+    "id": "med-img-sticky-learner-journey",
+    "type": "image",
+    "kind": "sticky_notes",
+    "title": "Sticky notes - Learner journey retro, AI & Data Academies 29 October 2026",
+    "heading": "Learner journey retro - AI & Data 29/10",
+    "site": "delivery",
+    "library": "Team Records",
+    "folder": "Retros/2026-10",
+    "category": "Photo",
+    "author": "P012",
+    "created": "2026-10-29",
+    "modified": "2026-10-29",
+    "classification": "Internal",
+    "tags": [
+      "retro",
+      "learner journey",
+      "sticky notes",
+      "photo",
+      "AI Academy",
+      "Data Academy"
+    ],
+    "summary": "Photo of the sticky-note board from the AI & Data Academies learner journey retrospective on 29 October 2026.",
+    "columns": [
+      {
+        "heading": "Sign-up",
+        "notes": [
+          "Too many forms!",
+          "Employers slow to sign commitment statement",
+          "IA links expire after 48h",
+          "Welcome call works well"
+        ]
+      },
+      {
+        "heading": "First 12 weeks",
+        "notes": [
+          "OTJ log confusing",
+          "Reviews clash with shifts",
+          "Learners love the prompt library",
+          "Need Excel help earlier"
+        ]
+      },
+      {
+        "heading": "Gateway",
+        "notes": [
+          "Unsure what evidence counts",
+          "Mock EPA = great",
+          "EPAO dates late",
+          "Chasing employer sign-off"
+        ]
+      },
+      {
+        "heading": "Ideas",
+        "notes": [
+          "E-sign everything in Aptiva",
+          "OTJ tracker in Teams",
+          "Gateway checklist at month 9",
+          "Excel clinic in week 6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "med-img-chart-monthly-starts",
+    "type": "image",
+    "kind": "chart",
+    "format": "png",
+    "title": "Chart - Apprenticeship starts by month",
+    "site": "hub",
+    "library": "Brand & Comms",
+    "folder": "Charts/2026-11",
+    "category": "Chart",
+    "author": "P027",
+    "created": "2026-11-04",
+    "modified": "2026-11-04",
+    "classification": "Internal",
+    "tags": [
+      "chart",
+      "starts",
+      "news",
+      "digest",
+      "data"
+    ],
+    "summary": "Chart image of new apprenticeship starts per month (November 2025 to October 2026) for use in the Delcorn Digest and news posts.",
+    "chart": {
+      "type": "column",
+      "title": "New apprenticeship starts by month",
+      "subtitle": "November 2025 - October 2026, all academies",
+      "sql": "SELECT substr('JanFebMarAprMayJunJulAugSepOctNovDec', 3*CAST(substr(start_date,6,2) AS INTEGER)-2, 3) || ' ' || substr(start_date,3,2) AS Month, COUNT(*) AS Starts FROM learners WHERE start_date BETWEEN '2025-11-01' AND '2026-10-31' GROUP BY substr(start_date,1,7) ORDER BY substr(start_date,1,7)",
+      "source": "Aptiva learner register"
+    }
+  },
+  {
+    "id": "med-img-chart-achievement-academy",
+    "type": "image",
+    "kind": "chart",
+    "format": "png",
+    "title": "Chart - Achievement rate by academy 2025-26",
+    "site": "hub",
+    "library": "Brand & Comms",
+    "folder": "Charts/2026-11",
+    "category": "Chart",
+    "author": "P027",
+    "created": "2026-11-04",
+    "modified": "2026-11-04",
+    "classification": "Internal",
+    "tags": [
+      "chart",
+      "achievement",
+      "academies",
+      "news",
+      "data"
+    ],
+    "summary": "Chart image of the 2025/26 achievement rate by academy for news posts and the annual review.",
+    "chart": {
+      "type": "column",
+      "title": "Achievement rate by academy, 2025/26 (%)",
+      "subtitle": "Completed / (completed + withdrawn), leavers 1 Aug 2025 - 31 Jul 2026",
+      "sql": "SELECT REPLACE(academy, ' Academy', '') AS Academy, ROUND(100.0 * SUM(status='Completed') / COUNT(*), 1) AS \"Achievement rate %\" FROM learners WHERE status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY academy ORDER BY 2 DESC",
+      "source": "Aptiva learner register"
+    }
+  }
+]

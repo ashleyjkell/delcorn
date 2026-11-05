@@ -1,0 +1,130 @@
+[
+ {
+  "id": "S-PTN-01",
+  "title": "Tailor the proposal template for a new prospect",
+  "level": "Foundation",
+  "module": "Copilot in Word",
+  "persona": "P026",
+  "context": "Lewis Murray has a discovery call write-up for Orbis Telecom (EMP1007), a levy-paying employer interested in a Data Analyst and Business Analysis cohort (PipelineHQ OPP9024 and OPP9025). He needs a first-draft proposal by Friday.",
+  "goal": "Use Copilot in Word to create a tailored proposal from the approved template, with correct programmes, funding bands, prices and case studies.",
+  "task_steps": [
+   "Open the Proposal Template in Employer Partnerships > Proposals > Templates.",
+   "Ask Copilot to draft the executive summary and needs sections for Orbis Telecom, referencing the pipeline report.",
+   "Insert the programme table using funding bands from the Pricing & Commercial Offer Sheet.",
+   "Add a relevant case study (Kestrel Logistics) and check all figures.",
+   "Check discount and approval rules in the Sales Playbook."
+  ],
+  "sample_prompts": [
+   "Using /Proposal Template and /Sales Pipeline Report — October 2026, draft a proposal for Orbis Telecom for 20 Data Analyst and 14 Business Analysis apprentices.",
+   "What is the funding band for the Data Analyst and Business Analysis programmes? Use /Pricing & Commercial Offer Sheet 2026/27.",
+   "Summarise the Kestrel Logistics case study in 80 words for a telecoms audience.",
+   "Does this proposal need CCO approval under the Sales Playbook rules?"
+  ],
+  "success_criteria": [
+   "Uses the template structure and removes guidance text",
+   "Funding bands correct (Data Analyst £17,000; Business Analysis £18,000)",
+   "Correctly states that a total value over £100,000 needs CCO approval",
+   "Quotes only approved case-study figures",
+   "Commercial prices match the 2026/27 price list"
+  ],
+  "data_sources": [
+   "ptn-proposal-template",
+   "ptn-pricing-offer-2627",
+   "ptn-pipeline-report-oct26",
+   "ptn-case-study-kestrel",
+   "ptn-sales-playbook",
+   "opportunities"
+  ],
+  "fact_ids": [
+   "ptn_copilot_bootcamp_price",
+   "ptn_top_pipeline_stage"
+  ],
+  "agent_instructions": "You are a proposal-writing assistant for Delcorn's Employer Partnerships team. Always start from the approved Proposal Template structure. Use only prices from the Pricing & Commercial Offer Sheet 2026/27 and programme details from the programmes data. Never invent case-study results; quote only the Case Studies library. Flag when a proposal exceeds £100,000 or a discount exceeds 10% (CCO approval required). Write in UK English with a warm, professional tone.",
+  "trainer_notes": "Good opportunity to show grounding with / references. Common error: Copilot invents an Ofsted grade or achievement figures — learners should check against the template's 'Why Delcorn' section."
+ },
+ {
+  "id": "S-FIN-01",
+  "title": "Variance analysis with Copilot in Excel",
+  "level": "Intermediate",
+  "module": "Copilot in Excel",
+  "persona": "P028",
+  "context": "It is month-end. The October 2026 (P3) management accounts show apprenticeship funding behind budget. The CFO wants a breakdown by academy, a split between timing and structural causes, and a downside scenario before she signs off the R03 ILR return.",
+  "goal": "Use Copilot in Excel to analyse budget vs actual, identify the largest variances, and draft commentary consistent with the data.",
+  "task_steps": [
+   "Open Management Accounts — October 2026 and the Budget FY2026/27 workbook.",
+   "Ask Copilot to identify the largest favourable and adverse variances on the P&L YTD sheet.",
+   "Analyse the Funding by academy sheet: which academy drives the shortfall?",
+   "Create a downside scenario where January starts slip by 20%.",
+   "Draft three bullet points of variance commentary and compare with the Management Accounts Commentary draft and the email thread."
+  ],
+  "sample_prompts": [
+   "Which three lines on the P&L YTD sheet have the largest adverse variance? Show them as a chart.",
+   "On the Funding by academy sheet, which academy has the largest shortfall against budget and by how much?",
+   "Add a column showing each cost variance as a percentage of budget and highlight anything over 10%.",
+   "Write variance commentary for apprenticeship funding in under 60 words, using only figures in this workbook."
+  ],
+  "success_criteria": [
+   "Identifies October funding {{fact:fin_oct_funding}} vs £790,000 budget",
+   "Identifies Data Academy as the largest adverse funding variance (c. −£80.8k)",
+   "Correct sign convention for revenue vs cost variances",
+   "Commentary consistent with Nicole Brooks's email (≈£35k timing, ≈£62k structural)",
+   "States full-year budgeted EBITDA {{fact:fin_budget_ebitda}} correctly"
+  ],
+  "data_sources": [
+   "fin-mgmt-accounts-oct26",
+   "fin-budget-fy2627",
+   "fin-mgmt-commentary-oct26",
+   "fin-email-funding-variance",
+   "monthly_funding"
+  ],
+  "fact_ids": [
+   "fin_oct_funding",
+   "fin_budget_ebitda"
+  ],
+  "agent_instructions": "You are a finance analyst assistant for Delcorn. Use only figures in the provided workbooks and the monthly_funding data. Positive variance means favourable. Always show the source sheet for every number. Distinguish timing differences from structural variances, and never present forecasts as actuals. Use UK English and GBP.",
+  "trainer_notes": "The P&L sheet uses formulas, so it is not an Excel Table — learners may need to convert the range to a table for Copilot. Discuss the Highly Confidential label and who should be able to see this workbook."
+ },
+ {
+  "id": "S-FIN-02",
+  "title": "Finance inbox triage agent for supplier queries",
+  "level": "Advanced",
+  "module": "Copilot Studio & Power Automate",
+  "persona": "P030",
+  "context": "Peter Walsh receives dozens of supplier emails each week to accounts payable: payment chases, bank-detail change requests, missing PO queries and new invoices. Most answers are in the Procurement Policy and the Supplier Contract Renewals Tracker.",
+  "goal": "Build an agent (with a Power Automate flow) that classifies incoming supplier emails, looks up the supplier and policy rules, drafts a reply and flags anything risky for human review.",
+  "task_steps": [
+   "Create a Copilot Studio agent grounded in the Procurement Policy and Supplier Contract Renewals Tracker.",
+   "Define categories: payment chase, PO mismatch, bank-detail change, new invoice, other.",
+   "Build a flow triggered by new email to the shared AP mailbox that calls the agent to classify and draft a reply.",
+   "Route any bank-detail change request to a human with a fraud warning — never auto-reply.",
+   "Test with the Brightside Events thread and three made-up supplier emails."
+  ],
+  "sample_prompts": [
+   "Classify this email and draft a reply following Delcorn's Procurement Policy.",
+   "Is Brightside Events' contract due for renewal, and who owns it?",
+   "This invoice doesn't match the PO by £1,440. What approval is needed for the amended PO?",
+   "A supplier has asked us to update their bank details by email. What should we do?"
+  ],
+  "success_criteria": [
+   "Classifies the Brightside thread as a PO mismatch / payment chase",
+   "Correctly states 30-day payment terms and 'no PO, no pay'",
+   "Applies the right approval level (£1,000–£9,999: head of department + Finance Manager)",
+   "Never auto-actions bank-detail changes; escalates with a verification step",
+   "Uses the tracker to identify that Brightside's contract ends 31 December 2026"
+  ],
+  "data_sources": [
+   "fin-procurement-policy",
+   "fin-supplier-renewals",
+   "fin-email-ap-brightside",
+   "suppliers"
+  ],
+  "fact_ids": [
+   "fin_po_ceo_threshold",
+   "fin_invoice_terms",
+   "fin_contracts_ending_6m",
+   "fin_top_supplier"
+  ],
+  "agent_instructions": "You are the Delcorn Accounts Payable triage assistant. For each supplier email: (1) classify it as Payment chase, PO mismatch, Bank detail change, New invoice or Other; (2) identify the supplier and look up its contract status, owner and DPA status in the Supplier Contract Renewals Tracker; (3) apply the Procurement Policy — no PO, no pay; 30-day payment terms; approval thresholds £1k/£10k/£50k; (4) draft a polite reply in UK English signed 'Delcorn Accounts Payable'. Never confirm or change bank details — always route to a human and remind them to verify by phone on a known number. Never promise a payment date unless the invoice matches an approved PO.",
+  "trainer_notes": "Emphasise human-in-the-loop for fraud-prone categories. Advanced learners can add a step that writes a row to a SharePoint list for each triaged email."
+ }
+]

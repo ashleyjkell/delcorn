@@ -1,0 +1,2112 @@
+{
+  "seed": 2026,
+  "locale": "en_GB",
+  "tables": [
+    {
+      "name": "programmes",
+      "title": "Programme Catalogue",
+      "department": "curriculum",
+      "system": "Aptiva",
+      "description": "Apprenticeship programmes Delcorn delivers, with standard, level, duration, funding band and EPAO.",
+      "columns": [
+        "programme_code",
+        "programme_name",
+        "standard",
+        "level",
+        "duration_months",
+        "funding_band_gbp",
+        "academy",
+        "epao",
+        "grading",
+        "popularity"
+      ],
+      "data": [
+        [
+          "AI3",
+          "Working Smarter with AI",
+          "Digital Support Technician",
+          3,
+          15,
+          13000,
+          "AI Academy",
+          "Pinnacle Assessment Services",
+          "DMP",
+          14
+        ],
+        [
+          "AI4",
+          "AI & Automation Practitioner",
+          "AI & Automation Practitioner",
+          4,
+          15,
+          19000,
+          "AI Academy",
+          "Pinnacle Assessment Services",
+          "DP",
+          9
+        ],
+        [
+          "ML6",
+          "Applied Machine Learning",
+          "Machine Learning Engineer",
+          6,
+          24,
+          24000,
+          "AI Academy",
+          "NorthStar EPA",
+          "DP",
+          3
+        ],
+        [
+          "DT3",
+          "Data Foundations",
+          "Data Technician",
+          3,
+          15,
+          12000,
+          "Data Academy",
+          "NorthStar EPA",
+          "DMP",
+          8
+        ],
+        [
+          "DA4",
+          "Data Analyst",
+          "Data Analyst",
+          4,
+          15,
+          17000,
+          "Data Academy",
+          "NorthStar EPA",
+          "DMP",
+          16
+        ],
+        [
+          "DE5",
+          "Data Engineering",
+          "Data Engineer",
+          5,
+          24,
+          21000,
+          "Data Academy",
+          "NorthStar EPA",
+          "DP",
+          4
+        ],
+        [
+          "BA4",
+          "Business Analysis",
+          "Business Analyst",
+          4,
+          18,
+          18000,
+          "Data Academy",
+          "Pinnacle Assessment Services",
+          "DMP",
+          5
+        ],
+        [
+          "SD4",
+          "Software Development",
+          "Software Developer",
+          4,
+          18,
+          21000,
+          "Digital Academy",
+          "Pinnacle Assessment Services",
+          "DP",
+          4
+        ],
+        [
+          "DO4",
+          "DevOps Engineering",
+          "DevOps Engineer",
+          4,
+          18,
+          22000,
+          "Digital Academy",
+          "Pinnacle Assessment Services",
+          "DP",
+          2
+        ],
+        [
+          "DTS6",
+          "Digital & Technology Solutions (Degree)",
+          "Digital & Technology Solutions Professional",
+          6,
+          36,
+          27000,
+          "Digital Academy",
+          "University of Wessex",
+          "DMP",
+          2
+        ],
+        [
+          "TL3",
+          "Team Leader",
+          "Team Leader / Supervisor",
+          3,
+          13,
+          4500,
+          "Leadership Academy",
+          "Institute of Management Practice",
+          "DMP",
+          10
+        ],
+        [
+          "OM5",
+          "Operations Manager",
+          "Operations / Departmental Manager",
+          5,
+          18,
+          7000,
+          "Leadership Academy",
+          "Institute of Management Practice",
+          "DMP",
+          9
+        ],
+        [
+          "CM6",
+          "Chartered Manager (Degree)",
+          "Chartered Manager",
+          6,
+          36,
+          22000,
+          "Leadership Academy",
+          "University of Wessex",
+          "DMP",
+          3
+        ],
+        [
+          "SL7",
+          "Senior Leader",
+          "Senior Leader",
+          7,
+          24,
+          14000,
+          "Leadership Academy",
+          "Institute of Management Practice",
+          "DMP",
+          3
+        ],
+        [
+          "PM4",
+          "Associate Project Manager",
+          "Associate Project Manager",
+          4,
+          18,
+          6000,
+          "Leadership Academy",
+          "Institute of Management Practice",
+          "DP",
+          5
+        ],
+        [
+          "BAD3",
+          "Business Administrator",
+          "Business Administrator",
+          3,
+          15,
+          5000,
+          "Leadership Academy",
+          "NorthStar EPA",
+          "DMP",
+          3
+        ],
+        [
+          "FR3",
+          "Fundraiser",
+          "Fundraiser",
+          3,
+          15,
+          6000,
+          "Leadership Academy",
+          "NorthStar EPA",
+          "DMP",
+          1
+        ],
+        [
+          "PP5",
+          "People Professional",
+          "People Professional",
+          5,
+          18,
+          8000,
+          "People Academy",
+          "Institute of People Practice",
+          "DMP",
+          5
+        ],
+        [
+          "SPP7",
+          "Senior People Professional",
+          "Senior People Professional",
+          7,
+          24,
+          14000,
+          "People Academy",
+          "Institute of People Practice",
+          "DMP",
+          1
+        ]
+      ]
+    },
+    {
+      "name": "employers",
+      "title": "Employer Accounts",
+      "department": "partnerships",
+      "system": "PipelineHQ CRM",
+      "description": "Employer partners (clients) with sector, levy status, account manager and contracted learner targets.",
+      "rows": 72,
+      "seed_rows": [
+        {
+          "employer_id": "EMP1001",
+          "employer_name": "Northgrid Energy plc",
+          "sector": "Utilities & Energy",
+          "size_band": "Large (250+)",
+          "region": "Midlands",
+          "tier": "Strategic",
+          "target_learners": 120,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1002",
+          "employer_name": "Valemont Insurance Group",
+          "sector": "Financial Services",
+          "size_band": "Large (250+)",
+          "region": "London",
+          "tier": "Strategic",
+          "target_learners": 95,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1003",
+          "employer_name": "Brightwell Foods Ltd",
+          "sector": "Retail & Consumer",
+          "size_band": "Large (250+)",
+          "region": "Yorkshire & Humber",
+          "tier": "Strategic",
+          "target_learners": 110,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1004",
+          "employer_name": "Halden Valley NHS Foundation Trust",
+          "sector": "Healthcare & NHS",
+          "size_band": "Large (250+)",
+          "region": "North West",
+          "tier": "Strategic",
+          "target_learners": 85,
+          "account_manager_id": "P025",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1005",
+          "employer_name": "Corrigan Facilities Services",
+          "sector": "Facilities Management",
+          "size_band": "Large (250+)",
+          "region": "South East",
+          "tier": "Key",
+          "target_learners": 60,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1006",
+          "employer_name": "Bluewater Bank",
+          "sector": "Financial Services",
+          "size_band": "Large (250+)",
+          "region": "Scotland",
+          "tier": "Key",
+          "target_learners": 55,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1007",
+          "employer_name": "Orbis Telecom",
+          "sector": "Technology & Telecoms",
+          "size_band": "Large (250+)",
+          "region": "London",
+          "tier": "Key",
+          "target_learners": 50,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1008",
+          "employer_name": "Kestrel Logistics UK",
+          "sector": "Logistics & Transport",
+          "size_band": "Large (250+)",
+          "region": "Midlands",
+          "tier": "Key",
+          "target_learners": 45,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1009",
+          "employer_name": "Hearth & Home Housing Association",
+          "sector": "Housing",
+          "size_band": "Large (250+)",
+          "region": "North East",
+          "tier": "Key",
+          "target_learners": 30,
+          "account_manager_id": "P025",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1010",
+          "employer_name": "Sunstone Pharmaceuticals UK",
+          "sector": "Life Sciences",
+          "size_band": "Large (250+)",
+          "region": "East of England",
+          "tier": "Key",
+          "target_learners": 40,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1011",
+          "employer_name": "Marlow Borough Council",
+          "sector": "Public Sector",
+          "size_band": "Large (250+)",
+          "region": "South East",
+          "tier": "Key",
+          "target_learners": 35,
+          "account_manager_id": "P025",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1012",
+          "employer_name": "CareFirst Charity",
+          "sector": "Charity & Third Sector",
+          "size_band": "Medium (50-249)",
+          "region": "London",
+          "tier": "Key",
+          "target_learners": 18,
+          "account_manager_id": "P025",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1013",
+          "employer_name": "Thameside Water",
+          "sector": "Utilities & Energy",
+          "size_band": "Large (250+)",
+          "region": "London",
+          "tier": "Key",
+          "target_learners": 50,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1014",
+          "employer_name": "Arden Retail Group",
+          "sector": "Retail & Consumer",
+          "size_band": "Large (250+)",
+          "region": "Midlands",
+          "tier": "Key",
+          "target_learners": 42,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1015",
+          "employer_name": "Greyfriars Hotels",
+          "sector": "Hospitality",
+          "size_band": "Large (250+)",
+          "region": "Scotland",
+          "tier": "Key",
+          "target_learners": 25,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1016",
+          "employer_name": "Atlas Build & Civil",
+          "sector": "Construction",
+          "size_band": "Large (250+)",
+          "region": "North West",
+          "tier": "Key",
+          "target_learners": 28,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1017",
+          "employer_name": "Fieldhouse Mutual",
+          "sector": "Financial Services",
+          "size_band": "Large (250+)",
+          "region": "Yorkshire & Humber",
+          "tier": "Key",
+          "target_learners": 32,
+          "account_manager_id": "P024",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1018",
+          "employer_name": "Pennine Community Health CIC",
+          "sector": "Healthcare & NHS",
+          "size_band": "Medium (50-249)",
+          "region": "Yorkshire & Humber",
+          "tier": "Key",
+          "target_learners": 15,
+          "account_manager_id": "P025",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1019",
+          "employer_name": "Lumen Digital Media",
+          "sector": "Technology & Telecoms",
+          "size_band": "Medium (50-249)",
+          "region": "North West",
+          "tier": "Key",
+          "target_learners": 14,
+          "account_manager_id": "P026",
+          "status": "Active"
+        },
+        {
+          "employer_id": "EMP1020",
+          "employer_name": "Harbourline Ports",
+          "sector": "Logistics & Transport",
+          "size_band": "Large (250+)",
+          "region": "South West",
+          "tier": "Key",
+          "target_learners": 26,
+          "account_manager_id": "P024",
+          "status": "Active"
+        }
+      ],
+      "columns": [
+        {
+          "name": "employer_id",
+          "gen": "seq",
+          "prefix": "EMP",
+          "start": 1001
+        },
+        {
+          "name": "sector",
+          "gen": "choice",
+          "values": [
+            "Financial Services",
+            "Retail & Consumer",
+            "Healthcare & NHS",
+            "Public Sector",
+            "Technology & Telecoms",
+            "Utilities & Energy",
+            "Professional Services",
+            "Charity & Third Sector",
+            "Logistics & Transport",
+            "Manufacturing",
+            "Hospitality",
+            "Construction"
+          ],
+          "weights": [
+            14,
+            12,
+            9,
+            9,
+            10,
+            5,
+            12,
+            6,
+            6,
+            8,
+            4,
+            5
+          ]
+        },
+        {
+          "name": "employer_name",
+          "gen": "expr",
+          "expr": "choice([fake.last_name(), choice(['Albion','Meridian','Northway','Kingsbridge','Oakfield','Riverside','Summit','Beacon','Crown','Highland','Westfield','Granite','Silverline','Redwood','Harbour','Pennant','Lockwood','Ashby','Calder','Severn'])]) + ' ' + choice({'Financial Services':['Capital','Insurance','Building Society','Wealth'],'Retail & Consumer':['Retail','Stores','Brands','Foods'],'Healthcare & NHS':['Health','Care','Medical'],'Public Sector':['Borough Council','District Council','Combined Authority'],'Technology & Telecoms':['Digital','Technologies','Networks','Software'],'Utilities & Energy':['Energy','Power','Water'],'Professional Services':['Consulting','Partners','Advisory','Legal'],'Charity & Third Sector':['Trust','Foundation','Charity'],'Logistics & Transport':['Logistics','Freight','Transport'],'Manufacturing':['Engineering','Manufacturing','Industries'],'Hospitality':['Hotels','Leisure','Hospitality'],'Construction':['Construction','Homes','Build']}[sector]) + ('' if sector in ('Public Sector','Charity & Third Sector') else choice([' Ltd',' Ltd',' Group',' plc','',' LLP' if sector=='Professional Services' else ' Ltd']))"
+        },
+        {
+          "name": "size_band",
+          "gen": "choice",
+          "values": [
+            "Large (250+)",
+            "Medium (50-249)",
+            "Small (<50)"
+          ],
+          "weights": [
+            62,
+            28,
+            10
+          ]
+        },
+        {
+          "name": "region",
+          "gen": "choice",
+          "values": [
+            "London",
+            "South East",
+            "South West",
+            "East of England",
+            "Midlands",
+            "North West",
+            "North East",
+            "Yorkshire & Humber",
+            "Scotland",
+            "Wales"
+          ],
+          "weights": [
+            22,
+            13,
+            7,
+            7,
+            13,
+            12,
+            5,
+            9,
+            7,
+            5
+          ]
+        },
+        {
+          "name": "tier",
+          "gen": "const",
+          "value": "Standard"
+        },
+        {
+          "name": "target_learners",
+          "gen": "int",
+          "min": 2,
+          "max": 16
+        },
+        {
+          "name": "account_manager_id",
+          "gen": "expr",
+          "expr": "choice(['P024', 'P025', 'P026', 'P026', 'P025'])"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "rnd.choices(['Active', 'Paused', 'Lapsed'], [84, 7, 9])[0]"
+        },
+        {
+          "name": "email_domain",
+          "gen": "expr",
+          "expr": "''.join(ch for ch in employer_name.lower().replace(' plc', '').replace(' ltd', '').replace(' group', '').replace(' and ', '') if ch.isalnum())[:20] + '.co.uk'"
+        },
+        {
+          "name": "levy_payer",
+          "gen": "expr",
+          "expr": "size_band.startswith('Large') or rnd.random() < 0.1"
+        },
+        {
+          "name": "annual_levy_gbp",
+          "gen": "expr",
+          "expr": "(rnd.randint(1500, 9000) if tier == 'Strategic' else rnd.randint(400, 2500) if tier == 'Key' else rnd.randint(60, 900)) * 1000 if levy_payer else 0"
+        },
+        {
+          "name": "das_account_id",
+          "gen": "expr",
+          "expr": "('DAS-' + str(rnd.randint(100000, 999999))) if levy_payer else None"
+        },
+        {
+          "name": "relationship_start",
+          "gen": "expr",
+          "expr": "(d('2017-06-01') + timedelta(days=rnd.randint(0, 900 if tier != 'Standard' else 3300))).date().isoformat()"
+        },
+        {
+          "name": "primary_contact",
+          "gen": "expr",
+          "expr": "fake.first_name() + ' ' + fake.last_name()"
+        },
+        {
+          "name": "contact_email",
+          "gen": "expr",
+          "expr": "primary_contact.lower().replace(' ', '.').replace(\"'\", '') + '@' + email_domain"
+        },
+        {
+          "name": "contact_role",
+          "gen": "choice",
+          "values": [
+            "Head of Learning & Development",
+            "Early Careers Manager",
+            "Apprenticeship Lead",
+            "HR Business Partner",
+            "Talent Development Manager",
+            "Head of People"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "employees",
+      "title": "Staff Directory",
+      "department": "people",
+      "system": "PeopleFlow HR",
+      "description": "All Delcorn employees (named personas plus wider staff), with role, manager, location, salary and coach caseload targets. Confidential: contains salary data.",
+      "rows": 104,
+      "seed_from_company": "people",
+      "map": {
+        "employee_id": "id",
+        "full_name": "name",
+        "job_title": "title",
+        "department": "department",
+        "manager_id": "manager",
+        "location": "location",
+        "start_date": "start_date",
+        "email": "email"
+      },
+      "columns": [
+        {
+          "name": "employee_id",
+          "gen": "seq",
+          "prefix": "E",
+          "start": 1001
+        },
+        {
+          "name": "full_name",
+          "gen": "expr",
+          "expr": "fake.first_name() + ' ' + fake.last_name()"
+        },
+        {
+          "name": "department",
+          "gen": "choice",
+          "values": [
+            "delivery",
+            "curriculum",
+            "quality",
+            "safeguarding",
+            "partnerships",
+            "finance",
+            "people",
+            "tech",
+            "hub"
+          ],
+          "weights": [
+            64,
+            8,
+            5,
+            3,
+            8,
+            4,
+            4,
+            6,
+            2
+          ]
+        },
+        {
+          "name": "job_title",
+          "gen": "expr",
+          "expr": "choice({'delivery': ['Skills Coach (Data)', 'Skills Coach (Data)', 'Skills Coach (Data)', 'Skills Coach (AI)', 'Skills Coach (AI)', 'Skills Coach (AI)', 'Skills Coach (Digital)', 'Skills Coach (Digital)', 'Skills Coach (Leadership)', 'Skills Coach (Leadership)', 'Skills Coach (Leadership)', 'Skills Coach (People)', 'Skills Coach (Project Management)', 'Functional Skills Tutor (Maths & English)', 'Learner Engagement Officer', 'Delivery Coordinator'], 'curriculum': ['Curriculum Developer', 'Learning Designer', 'Content Coordinator', 'Workshop Facilitator'], 'quality': ['Quality Officer', 'Compliance Officer', 'Data Quality Officer'], 'safeguarding': ['Safeguarding Officer', 'Learner Support Adviser', 'Wellbeing Practitioner'], 'partnerships': ['Client Partner', 'Business Development Executive', 'Marketing Executive', 'Bid Writer', 'Employer Engagement Coordinator'], 'finance': ['Finance Assistant', 'Credit Controller', 'Funding Officer'], 'people': ['HR Adviser', 'Recruitment Coordinator', 'People Systems Administrator'], 'tech': ['IT Support Analyst', 'Systems Analyst', 'Data Engineer', 'Power BI Developer'], 'hub': ['Internal Communications Officer', 'Office & Events Coordinator']}[department])"
+        },
+        {
+          "name": "email",
+          "gen": "expr",
+          "expr": "full_name.lower().replace(' ', '.').replace(\"'\", '') + '@delcorn.co.uk'"
+        },
+        {
+          "name": "role_family",
+          "gen": "expr",
+          "expr": "'Coach' if 'Skills Coach' in job_title else ('Tutor' if 'Tutor' in job_title else ('Leadership' if any(k in job_title for k in ['Chief', 'Director', 'Head of']) else ('Manager' if 'Manager' in job_title or 'Lead' in job_title else 'Specialist')))"
+        },
+        {
+          "name": "academy",
+          "gen": "expr",
+          "expr": "next((v for k, v in {'(AI)': 'AI Academy', '(Data)': 'Data Academy', '(Digital)': 'Digital Academy', '(Leadership)': 'Leadership Academy', '(Project Management)': 'Leadership Academy', '(People)': 'People Academy'}.items() if k in job_title), None)"
+        },
+        {
+          "name": "manager_id",
+          "gen": "expr",
+          "expr": "(('P012' if academy in ('AI Academy', 'Data Academy', 'Digital Academy') else 'P013') if role_family == 'Coach' else next(dd['head'] for dd in company['departments'] if dd['id'] == department))"
+        },
+        {
+          "name": "location",
+          "gen": "choice",
+          "values": [
+            "London",
+            "Leeds",
+            "Manchester",
+            "Birmingham",
+            "Remote (Bristol)",
+            "Remote (Glasgow)",
+            "Remote (Newcastle)",
+            "Remote (Cardiff)",
+            "Remote (Nottingham)",
+            "Remote (Brighton)"
+          ],
+          "weights": [
+            20,
+            14,
+            14,
+            10,
+            7,
+            6,
+            7,
+            7,
+            8,
+            7
+          ]
+        },
+        {
+          "name": "start_date",
+          "gen": "date",
+          "start": "2016-09-01",
+          "end": "2026-10-01",
+          "weekdays": true
+        },
+        {
+          "name": "contract_type",
+          "gen": "choice",
+          "values": [
+            "Permanent",
+            "Fixed term"
+          ],
+          "weights": [
+            93,
+            7
+          ]
+        },
+        {
+          "name": "fte",
+          "gen": "choice",
+          "values": [
+            1.0,
+            0.8,
+            0.6
+          ],
+          "weights": [
+            86,
+            10,
+            4
+          ]
+        },
+        {
+          "name": "salary_gbp",
+          "gen": "expr",
+          "expr": "round(rnd.randint(165000, 195000) if 'Chief Executive' in job_title else rnd.randint(140000, 165000) if 'Chief' in job_title else rnd.randint(105000, 130000) if 'Director' in job_title else rnd.randint(72000, 90000) if 'Head of' in job_title else rnd.randint(52000, 64000) if ('Manager' in job_title or 'Lead' in job_title) else rnd.randint(40000, 46000) if 'Senior' in job_title else rnd.randint(34000, 41000) if role_family in ('Coach', 'Tutor') else rnd.randint(27000, 42000), -2)"
+        },
+        {
+          "name": "caseload_target",
+          "gen": "expr",
+          "expr": "(20 if 'Senior' in job_title else 26) if role_family == 'Coach' else None"
+        },
+        {
+          "name": "status",
+          "gen": "const",
+          "value": "Active"
+        }
+      ]
+    },
+    {
+      "name": "learners",
+      "title": "Learner Register",
+      "department": "delivery",
+      "system": "Aptiva",
+      "description": "Every apprentice enrolled since August 2023 with employer, programme, coach, dates, status, off-the-job (OTJ) hours and review dates. Confidential: personal data.",
+      "rows": 2300,
+      "columns": [
+        {
+          "name": "learner_id",
+          "gen": "seq",
+          "prefix": "LRN",
+          "start": 20001
+        },
+        {
+          "name": "uln",
+          "gen": "expr",
+          "expr": "str(rnd.randint(1000000000, 9999999999))"
+        },
+        {
+          "name": "first_name",
+          "gen": "faker",
+          "provider": "first_name"
+        },
+        {
+          "name": "last_name",
+          "gen": "faker",
+          "provider": "last_name"
+        },
+        {
+          "name": "employer_id",
+          "gen": "fk",
+          "table": "employers",
+          "column": "employer_id",
+          "weight_col": "target_learners",
+          "filter": "ref['status'] == 'Active' or rnd.random() < 0.4",
+          "carry": {
+            "region": "region",
+            "_domain": "email_domain"
+          }
+        },
+        {
+          "name": "email",
+          "gen": "expr",
+          "expr": "(first_name + '.' + last_name).lower().replace(\"'\", '').replace(' ', '') + '@' + _domain"
+        },
+        {
+          "name": "region",
+          "gen": "carried"
+        },
+        {
+          "name": "programme_code",
+          "gen": "fk",
+          "table": "programmes",
+          "column": "programme_code",
+          "weight_col": "popularity",
+          "carry": {
+            "_dur": "duration_months",
+            "_level": "level",
+            "academy": "academy"
+          }
+        },
+        {
+          "name": "academy",
+          "gen": "carried"
+        },
+        {
+          "name": "coach_id",
+          "gen": "fk",
+          "table": "employees",
+          "column": "employee_id",
+          "filter": "ref['role_family'] == 'Coach' and ref['academy'] == academy"
+        },
+        {
+          "name": "start_date",
+          "gen": "expr",
+          "expr": "(d('2023-08-01') + timedelta(days=int((rnd.random() ** 0.85) * ((d('2025-12-15') if _level == 7 else as_of - timedelta(days=12)) - d('2023-08-01')).days))).date().isoformat()"
+        },
+        {
+          "name": "planned_end_date",
+          "gen": "expr",
+          "expr": "(d(start_date) + timedelta(days=int(_dur * 30.44) + 90)).date().isoformat()"
+        },
+        {
+          "name": "age_band",
+          "gen": "choice",
+          "values": [
+            "16-18",
+            "19-24",
+            "25-34",
+            "35-49",
+            "50+"
+          ],
+          "weights": [
+            3,
+            22,
+            37,
+            28,
+            10
+          ]
+        },
+        {
+          "name": "gender",
+          "gen": "choice",
+          "values": [
+            "Female",
+            "Male",
+            "Non-binary",
+            "Prefer not to say"
+          ],
+          "weights": [
+            52,
+            45,
+            1.5,
+            1.5
+          ]
+        },
+        {
+          "name": "lldd",
+          "gen": "bool",
+          "p": 0.14
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "(lambda e, s, r: (('Completed' if r < 0.81 else 'Withdrawn') if e < as_of - timedelta(days=90) else (('Gateway' if r < 0.3 else 'EPA' if r < 0.58 else 'Completed' if r < 0.72 else 'Withdrawn' if r < 0.78 else 'Active') if e < as_of + timedelta(days=60) else ('Withdrawn' if r < 0.06 and (as_of - s).days > 90 else 'Break in learning' if r < 0.09 and (as_of - s).days > 60 else 'Active'))))(d(planned_end_date), d(start_date), rnd.random())"
+        },
+        {
+          "name": "actual_end_date",
+          "gen": "expr",
+          "expr": "min(d(planned_end_date) - timedelta(days=rnd.randint(0, 45)), as_of - timedelta(days=rnd.randint(1, 20))).date().isoformat() if status == 'Completed' else ((d(start_date) + timedelta(days=rnd.randint(45, max(46, (min(d(planned_end_date), as_of) - d(start_date)).days - 5)))).date().isoformat() if status == 'Withdrawn' else None)"
+        },
+        {
+          "name": "withdrawal_reason",
+          "gen": "expr",
+          "when": "status == 'Withdrawn'",
+          "expr": "rnd.choices(['Left employer', 'Changed role', 'Personal / health reasons', 'Workload / unable to commit OTJ', 'Moved to a different programme', 'Redundancy', 'Programme not the right fit'], [34, 14, 16, 15, 5, 7, 9])[0]"
+        },
+        {
+          "name": "otj_hours_planned",
+          "gen": "expr",
+          "expr": "int(round(_dur * 4.33 * 6 * 0.8 / 10.0) * 10)"
+        },
+        {
+          "name": "otj_expected_to_date",
+          "gen": "expr",
+          "expr": "int(otj_hours_planned * min(1.0, ((d(actual_end_date) if actual_end_date else as_of) - d(start_date)).days / max(1, (d(planned_end_date) - timedelta(days=90) - d(start_date)).days)))"
+        },
+        {
+          "name": "otj_hours_logged",
+          "gen": "expr",
+          "expr": "int(otj_expected_to_date * (rnd.uniform(1.0, 1.1) if status in ('Completed', 'Gateway', 'EPA') else rnd.uniform(0.45, 0.85) if status == 'Withdrawn' else rnd.choices([rnd.uniform(0.93, 1.1), rnd.uniform(0.79, 0.92), rnd.uniform(0.5, 0.78)], [70, 21, 9])[0]))"
+        },
+        {
+          "name": "progress_rag",
+          "gen": "expr",
+          "expr": "None if status in ('Completed', 'Withdrawn') else ('Green' if otj_hours_logged >= 0.92 * otj_expected_to_date else 'Amber' if otj_hours_logged >= 0.78 * otj_expected_to_date else 'Red')"
+        },
+        {
+          "name": "als_support",
+          "gen": "expr",
+          "expr": "bool(lldd and rnd.random() < 0.7)"
+        },
+        {
+          "name": "functional_skills_required",
+          "gen": "expr",
+          "expr": "rnd.choices(['None', 'Maths L2', 'English L2', 'Maths & English L2'], [74, 13, 7, 6])[0] if _level <= 3 else 'None'"
+        },
+        {
+          "name": "last_review_date",
+          "gen": "const",
+          "value": null
+        },
+        {
+          "name": "next_review_due",
+          "gen": "const",
+          "value": null
+        }
+      ]
+    },
+    {
+      "name": "progress_reviews",
+      "title": "Progress Reviews",
+      "department": "delivery",
+      "system": "Aptiva",
+      "description": "Tripartite progress reviews (learner, employer, coach) held every 12 weeks, with OTJ hours to date and RAG rating.",
+      "from_table": "learners",
+      "explode": "(lambda L: [dict(x, last=(i == len(L) - 1)) for i, x in enumerate(L)])((lambda s, end, skip: (lambda R: R[:-1] if skip and R else R)([{'n': k + 1, 'date': (s + timedelta(days=42 + 84 * k + rnd.randint(-7, 7))).date().isoformat()} for k in range(60) if s + timedelta(days=42 + 84 * k + 7) < end]))(d(start_date), d(actual_end_date) if actual_end_date else as_of, status == 'Active' and rnd.random() < 0.09))",
+      "columns": [
+        {
+          "name": "review_id",
+          "gen": "seq",
+          "prefix": "PR",
+          "start": 100001
+        },
+        {
+          "name": "learner_id",
+          "gen": "base",
+          "field": "learner_id"
+        },
+        {
+          "name": "coach_id",
+          "gen": "base",
+          "field": "coach_id"
+        },
+        {
+          "name": "review_number",
+          "gen": "expr",
+          "expr": "item['n']"
+        },
+        {
+          "name": "review_date",
+          "gen": "expr",
+          "expr": "item['date']"
+        },
+        {
+          "name": "otj_hours_to_date",
+          "gen": "expr",
+          "expr": "int(base['otj_hours_logged'] * min(1.0, (d(item['date']) - d(base['start_date'])).days / max(1, ((d(base['actual_end_date']) if base['actual_end_date'] else as_of) - d(base['start_date'])).days)))"
+        },
+        {
+          "name": "rag",
+          "gen": "expr",
+          "expr": "base['progress_rag'] if (item['last'] and base['progress_rag']) else rnd.choices(['Green', 'Amber', 'Red'], [74, 20, 6])[0]"
+        },
+        {
+          "name": "employer_attended",
+          "gen": "bool",
+          "p": 0.83
+        },
+        {
+          "name": "wellbeing_check",
+          "gen": "choice",
+          "values": [
+            "No concerns",
+            "Workload pressure",
+            "Personal circumstances",
+            "Referred to learner support"
+          ],
+          "weights": [
+            82,
+            11,
+            5,
+            2
+          ]
+        },
+        {
+          "name": "coach_summary",
+          "gen": "choice",
+          "values": [
+            "Good progress against KSBs; portfolio evidence up to date.",
+            "OTJ slightly behind plan; agreed protected learning time with line manager.",
+            "Strong workplace project underway; employer very positive.",
+            "Learner struggling with workload; action plan agreed with employer.",
+            "Ready to begin gateway preparation next review.",
+            "Functional Skills exam booked; maths practice set.",
+            "Excellent reflective journal entries; stretch targets set.",
+            "Missed two workshops; catch-up recordings assigned."
+          ],
+          "weights": [
+            30,
+            15,
+            15,
+            8,
+            8,
+            6,
+            10,
+            8
+          ]
+        },
+        {
+          "name": "next_steps",
+          "gen": "choice",
+          "values": [
+            "Complete next module and upload evidence",
+            "Log OTJ hours weekly in Aptiva",
+            "Attend live workshop and complete reflection",
+            "Draft workplace project proposal",
+            "Book mock professional discussion",
+            "Meet line manager to agree protected study time"
+          ]
+        },
+        {
+          "name": "signed_status",
+          "gen": "choice",
+          "values": [
+            "Signed by all parties",
+            "Awaiting employer signature",
+            "Awaiting learner signature"
+          ],
+          "weights": [
+            86,
+            10,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "epa_results",
+      "title": "End-Point Assessment Results",
+      "department": "quality",
+      "system": "Aptiva",
+      "description": "Gateway and EPA outcomes for every completed apprentice.",
+      "from_table": "learners",
+      "where": "status == 'Completed'",
+      "columns": [
+        {
+          "name": "epa_id",
+          "gen": "seq",
+          "prefix": "EPA",
+          "start": 5001
+        },
+        {
+          "name": "learner_id",
+          "gen": "base",
+          "field": "learner_id"
+        },
+        {
+          "name": "programme_code",
+          "gen": "base",
+          "field": "programme_code"
+        },
+        {
+          "name": "epao",
+          "gen": "expr",
+          "expr": "next(p['epao'] for p in tables['programmes'] if p['programme_code'] == base['programme_code'])"
+        },
+        {
+          "name": "gateway_date",
+          "gen": "expr",
+          "expr": "(d(base['actual_end_date']) - timedelta(days=rnd.randint(55, 85))).date().isoformat()"
+        },
+        {
+          "name": "epa_date",
+          "gen": "expr",
+          "expr": "(d(base['actual_end_date']) - timedelta(days=rnd.randint(3, 20))).date().isoformat()"
+        },
+        {
+          "name": "grade",
+          "gen": "expr",
+          "expr": "rnd.choices(['Distinction', 'Merit', 'Pass'], [24, 37, 39])[0] if next(p['grading'] for p in tables['programmes'] if p['programme_code'] == base['programme_code']) == 'DMP' else rnd.choices(['Distinction', 'Pass'], [31, 69])[0]"
+        },
+        {
+          "name": "first_attempt",
+          "gen": "bool",
+          "p": 0.93
+        },
+        {
+          "name": "certificate_date",
+          "gen": "base",
+          "field": "actual_end_date"
+        }
+      ]
+    },
+    {
+      "name": "safeguarding_concerns",
+      "title": "Safeguarding Concerns Log",
+      "department": "safeguarding",
+      "system": "Aptiva (restricted module)",
+      "description": "Restricted log of safeguarding and wellbeing concerns raised about apprentices. Highly confidential — DSL team only.",
+      "rows": 74,
+      "columns": [
+        {
+          "name": "case_id",
+          "gen": "seq",
+          "prefix": "SG",
+          "start": 3001
+        },
+        {
+          "name": "learner_id",
+          "gen": "fk",
+          "table": "learners",
+          "column": "learner_id",
+          "filter": "(ref['actual_end_date'] is None or ref['actual_end_date'] > '2025-03-01') and ref['start_date'] < '2026-09-15'",
+          "carry": {
+            "_start": "start_date",
+            "_end": "actual_end_date",
+            "raised_by": "coach_id"
+          }
+        },
+        {
+          "name": "date_raised",
+          "gen": "expr",
+          "expr": "(lambda a, b: (a + timedelta(days=rnd.randint(0, max(0, (b - a).days)))).date().isoformat())(max(d(_start) + timedelta(days=10), as_of - timedelta(days=600)), d(_end) if _end else as_of - timedelta(days=1))"
+        },
+        {
+          "name": "raised_by",
+          "gen": "carried"
+        },
+        {
+          "name": "category",
+          "gen": "choice",
+          "values": [
+            "Mental health & wellbeing",
+            "Workplace concern / bullying",
+            "Domestic abuse",
+            "Financial hardship",
+            "Self-harm / suicidal ideation",
+            "Prevent / radicalisation",
+            "Online safety",
+            "Substance misuse",
+            "Housing / homelessness",
+            "Other"
+          ],
+          "weights": [
+            34,
+            10,
+            7,
+            12,
+            6,
+            3,
+            5,
+            4,
+            6,
+            5
+          ]
+        },
+        {
+          "name": "risk_level",
+          "gen": "choice",
+          "values": [
+            "Low",
+            "Medium",
+            "High"
+          ],
+          "weights": [
+            45,
+            40,
+            15
+          ]
+        },
+        {
+          "name": "dsl_assigned",
+          "gen": "choice",
+          "values": [
+            "P010",
+            "P023"
+          ],
+          "weights": [
+            45,
+            55
+          ]
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "('Open' if rnd.random() < 0.7 else 'Monitoring') if (as_of - d(date_raised)).days < 45 else ('Monitoring' if rnd.random() < 0.08 else 'Closed')"
+        },
+        {
+          "name": "external_referral",
+          "gen": "expr",
+          "expr": "category.startswith('Prevent') or (risk_level == 'High' and rnd.random() < 0.6) or rnd.random() < 0.08"
+        },
+        {
+          "name": "referral_agency",
+          "gen": "expr",
+          "when": "external_referral",
+          "expr": "{'Prevent / radicalisation': 'Local authority Prevent team', 'Domestic abuse': 'Local domestic abuse service', 'Self-harm / suicidal ideation': 'GP / NHS crisis team'}.get(category, choice(['Employee assistance programme', 'Local authority adult social care', 'GP', 'Citizens Advice']))"
+        },
+        {
+          "name": "closed_date",
+          "gen": "expr",
+          "when": "status == 'Closed'",
+          "expr": "min(d(date_raised) + timedelta(days=rnd.randint(3, 40)), as_of).date().isoformat()"
+        },
+        {
+          "name": "days_open",
+          "gen": "expr",
+          "expr": "((d(closed_date) if closed_date else as_of) - d(date_raised)).days"
+        }
+      ]
+    },
+    {
+      "name": "learner_feedback",
+      "title": "Learner Feedback Survey",
+      "department": "quality",
+      "system": "Aptiva surveys",
+      "description": "Onboarding, mid-point and exit survey responses: NPS, coach and workshop ratings, free-text comments.",
+      "rows": 1150,
+      "columns": [
+        {
+          "name": "response_id",
+          "gen": "seq",
+          "prefix": "FB",
+          "start": 70001
+        },
+        {
+          "name": "learner_id",
+          "gen": "fk",
+          "table": "learners",
+          "column": "learner_id",
+          "filter": "ref['start_date'] < '2026-10-01'",
+          "carry": {
+            "_start": "start_date",
+            "_end": "actual_end_date",
+            "_status": "status",
+            "_rag": "progress_rag",
+            "coach_id": "coach_id",
+            "programme_code": "programme_code"
+          }
+        },
+        {
+          "name": "coach_id",
+          "gen": "carried"
+        },
+        {
+          "name": "programme_code",
+          "gen": "carried"
+        },
+        {
+          "name": "survey",
+          "gen": "expr",
+          "expr": "'Exit survey' if _end and rnd.random() < 0.55 else choice(['Onboarding survey', 'Mid-point survey', 'Mid-point survey'])"
+        },
+        {
+          "name": "response_date",
+          "gen": "expr",
+          "expr": "_end if survey == 'Exit survey' else (lambda a, b: (a + timedelta(days=rnd.randint(0, max(0, (b - a).days)))).date().isoformat())(d(_start) + timedelta(days=20), d(_end) if _end else as_of)"
+        },
+        {
+          "name": "nps_score",
+          "gen": "expr",
+          "expr": "max(0, min(10, int(round(rnd.gauss(8.7 if _rag in (None, 'Green') else 7.4 if _rag == 'Amber' else 6.1, 1.4))) - (3 if _status == 'Withdrawn' else 0)))"
+        },
+        {
+          "name": "nps_category",
+          "gen": "expr",
+          "expr": "'Promoter' if nps_score >= 9 else ('Passive' if nps_score >= 7 else 'Detractor')"
+        },
+        {
+          "name": "coach_rating",
+          "gen": "expr",
+          "expr": "max(1, min(5, round(nps_score / 2 + rnd.uniform(-0.4, 0.9))))"
+        },
+        {
+          "name": "workshop_rating",
+          "gen": "expr",
+          "expr": "max(1, min(5, round(nps_score / 2 + rnd.uniform(-1.0, 0.6))))"
+        },
+        {
+          "name": "comment",
+          "gen": "expr",
+          "expr": "choice(['My coach is brilliant - always prepared and really knows the industry.', 'The live workshops are the best part; practical and relevant to my job.', 'I have already used what I learned to automate a weekly report at work.', 'Aptiva is easy to use and I like seeing my OTJ hours build up.', 'Great balance of theory and workplace projects.', 'Really supportive when I had a difficult few months.']) if nps_score >= 9 else (choice(['Good overall but some workshops feel rushed.', 'Content is useful but it is hard to find time for OTJ alongside my job.', 'Coach is good, though reviews sometimes get rescheduled.', 'Would like more examples from my sector.', 'Logging OTJ hours is a bit fiddly.']) if nps_score >= 7 else choice(['My manager does not give me time for off-the-job training.', 'Too many changes of coach.', 'I did not feel the programme matched my role.', 'Workshops clash with my shifts and recordings are not the same.', 'I have struggled with the workload and did not feel listened to.']))"
+        }
+      ]
+    },
+    {
+      "name": "coach_observations",
+      "title": "Coaching Observations",
+      "department": "quality",
+      "system": "SharePoint form",
+      "description": "Observations of coaching and teaching practice, with grade, strengths and development areas.",
+      "rows": 180,
+      "columns": [
+        {
+          "name": "obs_id",
+          "gen": "seq",
+          "prefix": "OBS",
+          "start": 4001
+        },
+        {
+          "name": "coach_id",
+          "gen": "fk",
+          "table": "employees",
+          "column": "employee_id",
+          "filter": "ref['role_family'] in ('Coach', 'Tutor')",
+          "carry": {
+            "coach_name": "full_name",
+            "academy": "academy"
+          }
+        },
+        {
+          "name": "coach_name",
+          "gen": "carried"
+        },
+        {
+          "name": "academy",
+          "gen": "expr",
+          "expr": "academy or 'Functional Skills'"
+        },
+        {
+          "name": "observer_id",
+          "gen": "expr",
+          "expr": "choice(['P021', 'P021', 'P021', 'P005', 'P012', 'P013', 'P009'])"
+        },
+        {
+          "name": "obs_date",
+          "gen": "date",
+          "start": "2024-09-02",
+          "weekdays": true
+        },
+        {
+          "name": "session_type",
+          "gen": "choice",
+          "values": [
+            "Progress review",
+            "1:1 coaching",
+            "Group workshop",
+            "Functional Skills lesson",
+            "Gateway preparation"
+          ],
+          "weights": [
+            30,
+            25,
+            25,
+            8,
+            12
+          ]
+        },
+        {
+          "name": "grade",
+          "gen": "choice",
+          "values": [
+            "Strong",
+            "Secure",
+            "Developing",
+            "Requires improvement"
+          ],
+          "weights": [
+            30,
+            48,
+            17,
+            5
+          ]
+        },
+        {
+          "name": "strength",
+          "gen": "choice",
+          "values": [
+            "Skilful questioning that deepened learner reflection",
+            "Clear links between KSBs and workplace tasks",
+            "Highly personalised targets",
+            "Strong rapport and wellbeing check-in",
+            "Effective use of real employer data in examples",
+            "Well-paced workshop with good participation"
+          ]
+        },
+        {
+          "name": "development_area",
+          "gen": "choice",
+          "values": [
+            "Set sharper, measurable targets",
+            "Check understanding more frequently",
+            "Stretch more able learners",
+            "Embed Prevent / British values discussion more naturally",
+            "Improve employer involvement in review",
+            "Use Aptiva evidence more during the session"
+          ]
+        },
+        {
+          "name": "follow_up_required",
+          "gen": "expr",
+          "expr": "grade in ('Developing', 'Requires improvement')"
+        }
+      ]
+    },
+    {
+      "name": "opportunities",
+      "title": "Sales Pipeline",
+      "department": "partnerships",
+      "system": "PipelineHQ CRM",
+      "description": "Open and closed opportunities for new apprenticeship cohorts and commercial programmes.",
+      "rows": 130,
+      "sharepoint_list": true,
+      "list_title": "Sales Pipeline",
+      "columns": [
+        {
+          "name": "opp_id",
+          "gen": "seq",
+          "prefix": "OPP",
+          "start": 9001
+        },
+        {
+          "name": "employer_id",
+          "gen": "fk",
+          "table": "employers",
+          "column": "employer_id",
+          "filter": "ref['status'] != 'Lapsed'",
+          "carry": {
+            "employer_name": "employer_name",
+            "owner_id": "account_manager_id"
+          }
+        },
+        {
+          "name": "employer_name",
+          "gen": "carried"
+        },
+        {
+          "name": "owner_id",
+          "gen": "carried"
+        },
+        {
+          "name": "programme_code",
+          "gen": "fk",
+          "table": "programmes",
+          "column": "programme_code",
+          "weight_col": "popularity",
+          "carry": {
+            "_band": "funding_band_gbp",
+            "programme_name": "programme_name"
+          }
+        },
+        {
+          "name": "programme_name",
+          "gen": "carried"
+        },
+        {
+          "name": "opportunity_name",
+          "gen": "expr",
+          "expr": "employer_name + ' - ' + programme_name + ' cohort'"
+        },
+        {
+          "name": "stage",
+          "gen": "choice",
+          "values": [
+            "Prospecting",
+            "Discovery",
+            "Proposal",
+            "Negotiation",
+            "Closed Won",
+            "Closed Lost"
+          ],
+          "weights": [
+            16,
+            20,
+            21,
+            12,
+            19,
+            12
+          ]
+        },
+        {
+          "name": "probability",
+          "gen": "expr",
+          "expr": "{'Prospecting': 0.1, 'Discovery': 0.25, 'Proposal': 0.5, 'Negotiation': 0.75, 'Closed Won': 1.0, 'Closed Lost': 0.0}[stage]"
+        },
+        {
+          "name": "est_starts",
+          "gen": "int",
+          "mean": 14,
+          "sd": 9,
+          "min": 3,
+          "max": 60
+        },
+        {
+          "name": "est_value_gbp",
+          "gen": "expr",
+          "expr": "est_starts * _band"
+        },
+        {
+          "name": "weighted_value_gbp",
+          "gen": "expr",
+          "expr": "int(round(est_value_gbp * probability))"
+        },
+        {
+          "name": "created_date",
+          "gen": "date",
+          "start": "2025-09-01",
+          "end": "2026-10-20",
+          "weekdays": true
+        },
+        {
+          "name": "expected_close",
+          "gen": "expr",
+          "expr": "min(d(created_date) + timedelta(days=rnd.randint(20, 120)), as_of).date().isoformat() if stage.startswith('Closed') else (as_of + timedelta(days=rnd.randint(10, 260))).date().isoformat()"
+        },
+        {
+          "name": "source",
+          "gen": "choice",
+          "values": [
+            "Existing account",
+            "Referral",
+            "Event",
+            "Inbound web",
+            "Outbound",
+            "Framework tender"
+          ],
+          "weights": [
+            38,
+            12,
+            14,
+            14,
+            12,
+            10
+          ]
+        },
+        {
+          "name": "funding_route",
+          "gen": "choice",
+          "values": [
+            "Levy",
+            "Levy transfer",
+            "Co-investment (5%)",
+            "Commercial"
+          ],
+          "weights": [
+            64,
+            10,
+            14,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "name": "it_tickets",
+      "title": "IT Service Desk Tickets",
+      "department": "tech",
+      "system": "FixDesk",
+      "description": "Service desk incidents and requests from the last 12 months, with priority, SLA and resolution.",
+      "rows": 460,
+      "sharepoint_list": true,
+      "list_title": "Service Desk Tickets",
+      "columns": [
+        {
+          "name": "ticket_id",
+          "gen": "seq",
+          "prefix": "INC",
+          "start": 60001
+        },
+        {
+          "name": "raised_by",
+          "gen": "fk",
+          "table": "employees",
+          "column": "employee_id",
+          "carry": {
+            "raised_by_name": "full_name",
+            "department": "department"
+          }
+        },
+        {
+          "name": "raised_by_name",
+          "gen": "carried"
+        },
+        {
+          "name": "department",
+          "gen": "carried"
+        },
+        {
+          "name": "category",
+          "gen": "choice",
+          "values": [
+            "Aptiva access / sync",
+            "Laptop hardware",
+            "Microsoft 365 / Outlook",
+            "Teams meetings & audio",
+            "Password / MFA reset",
+            "Copilot access & licensing",
+            "Power BI report",
+            "New starter setup",
+            "Leaver / access removal",
+            "Phishing report",
+            "Peripherals",
+            "Data request"
+          ],
+          "weights": [
+            16,
+            9,
+            12,
+            10,
+            14,
+            8,
+            5,
+            6,
+            4,
+            6,
+            4,
+            6
+          ]
+        },
+        {
+          "name": "priority",
+          "gen": "choice",
+          "values": [
+            "P1",
+            "P2",
+            "P3",
+            "P4"
+          ],
+          "weights": [
+            3,
+            15,
+            52,
+            30
+          ]
+        },
+        {
+          "name": "opened",
+          "gen": "datetime",
+          "start": "2025-11-03",
+          "end": "2026-11-04",
+          "weekdays": true
+        },
+        {
+          "name": "sla_target_hours",
+          "gen": "expr",
+          "expr": "{'P1': 4, 'P2': 8, 'P3': 24, 'P4': 72}[priority]"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "choice(['Open', 'In progress']) if (as_of - d(opened)).days < 4 and rnd.random() < 0.6 else 'Resolved'"
+        },
+        {
+          "name": "resolution_hours",
+          "gen": "expr",
+          "when": "status == 'Resolved'",
+          "expr": "round(max(0.2, rnd.gauss(sla_target_hours * 0.55, sla_target_hours * 0.35)), 1)"
+        },
+        {
+          "name": "resolved",
+          "gen": "expr",
+          "when": "status == 'Resolved'",
+          "expr": "(d(opened) + timedelta(hours=resolution_hours)).strftime('%Y-%m-%dT%H:%M:00')"
+        },
+        {
+          "name": "sla_met",
+          "gen": "expr",
+          "when": "status == 'Resolved'",
+          "expr": "resolution_hours <= sla_target_hours"
+        },
+        {
+          "name": "assigned_to",
+          "gen": "expr",
+          "expr": "choice(['Mohammed Ali', 'Service Desk Team', 'Service Desk Team', 'Kate Simmons', 'Liam O\\'Connor']) if category not in ('Aptiva access / sync', 'Phishing report', 'Data request') else {'Aptiva access / sync': 'Kate Simmons', 'Phishing report': 'Liam O\\'Connor', 'Data request': 'Kate Simmons'}[category]"
+        }
+      ]
+    },
+    {
+      "name": "risk_register",
+      "title": "Corporate Risk Register",
+      "department": "exec",
+      "system": "SharePoint list",
+      "description": "Board-level corporate risks with owners, scores and controls.",
+      "sharepoint_list": true,
+      "list_title": "Corporate Risk Register",
+      "columns": [
+        "risk_id",
+        "title",
+        "category",
+        "owner_id",
+        "likelihood",
+        "impact",
+        "inherent_score",
+        "key_controls",
+        "residual_score",
+        "trend",
+        "last_reviewed"
+      ],
+      "data": [
+        [
+          "R01",
+          "Changes to apprenticeship funding policy reduce income",
+          "Funding & Policy",
+          "P003",
+          4,
+          5,
+          20,
+          "Policy horizon scanning; diversified commercial income; scenario modelling",
+          12,
+          "Rising",
+          "2026-10-14"
+        ],
+        [
+          "R02",
+          "Ofsted judgement below 'Strong' on next inspection",
+          "Quality & Regulatory",
+          "P005",
+          2,
+          5,
+          10,
+          "SAR/QIP cycle; observation programme; mock deep dives",
+          6,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R03",
+          "Safeguarding incident not identified or escalated",
+          "Safeguarding",
+          "P010",
+          2,
+          5,
+          10,
+          "Mandatory annual training; DSL rota; concern log reviewed weekly",
+          6,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R04",
+          "Data breach involving learner personal data",
+          "Information Security",
+          "P036",
+          3,
+          5,
+          15,
+          "MFA; DLP; sensitivity labels; Copilot access review",
+          8,
+          "Rising",
+          "2026-10-14"
+        ],
+        [
+          "R05",
+          "Coach attrition increases caseloads and harms learner progress",
+          "People",
+          "P006",
+          3,
+          4,
+          12,
+          "Pay benchmarking; CPD pathway; caseload cap of 26",
+          8,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R06",
+          "Funding audit identifies ineligible OTJ evidence",
+          "Funding & Policy",
+          "P022",
+          3,
+          4,
+          12,
+          "Monthly OTJ sampling; Aptiva validation rules",
+          6,
+          "Falling",
+          "2026-10-14"
+        ],
+        [
+          "R07",
+          "Dependence on a small number of strategic employers",
+          "Commercial",
+          "P004",
+          3,
+          4,
+          12,
+          "Account plans; new-logo targets; sector diversification",
+          9,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R08",
+          "Aptiva platform outage disrupts delivery",
+          "Technology",
+          "P007",
+          2,
+          4,
+          8,
+          "Vendor SLA; offline review templates; DR test",
+          4,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R09",
+          "AI curriculum becomes outdated",
+          "Curriculum",
+          "P008",
+          3,
+          3,
+          9,
+          "Quarterly curriculum review; employer advisory panel",
+          6,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R10",
+          "Withdrawals rise as employers restructure",
+          "Delivery",
+          "P009",
+          3,
+          4,
+          12,
+          "Early-warning RAG; employer escalation process; BIL policy",
+          8,
+          "Rising",
+          "2026-10-14"
+        ],
+        [
+          "R11",
+          "Integration with Meridian group systems causes disruption",
+          "Strategic",
+          "P002",
+          2,
+          3,
+          6,
+          "Integration board; phased plan; retain local systems until 2027",
+          4,
+          "Falling",
+          "2026-10-14"
+        ],
+        [
+          "R12",
+          "Non-compliance with Prevent duty",
+          "Safeguarding",
+          "P010",
+          1,
+          5,
+          5,
+          "Prevent training; risk assessment; British values in curriculum",
+          3,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R13",
+          "Cash flow pressure from delayed funding payments",
+          "Finance",
+          "P003",
+          2,
+          4,
+          8,
+          "13-week cash forecast; group facility",
+          4,
+          "Stable",
+          "2026-10-14"
+        ],
+        [
+          "R14",
+          "Inaccurate ILR return leads to funding clawback",
+          "Funding & Policy",
+          "P029",
+          2,
+          4,
+          8,
+          "Pre-submission validation; dual sign-off; monthly reconciliation",
+          4,
+          "Stable",
+          "2026-10-14"
+        ]
+      ]
+    },
+    {
+      "name": "suppliers",
+      "title": "Supplier Register",
+      "department": "finance",
+      "system": "Ledgerline",
+      "description": "Key suppliers, annual spend, contract end dates and risk ratings.",
+      "sharepoint_list": true,
+      "list_title": "Supplier Register",
+      "columns": [
+        "supplier_id",
+        "supplier_name",
+        "category",
+        "annual_spend_gbp",
+        "contract_start",
+        "contract_end",
+        "owner_id",
+        "risk_rating",
+        "dpa_in_place"
+      ],
+      "data": [
+        [
+          "SUP01",
+          "Aptiva Systems Ltd",
+          "E-portfolio platform",
+          312000,
+          "2021-08-01",
+          "2027-07-31",
+          "P007",
+          "High",
+          true
+        ],
+        [
+          "SUP02",
+          "PipelineHQ Ltd",
+          "CRM software",
+          46000,
+          "2023-04-01",
+          "2026-03-31",
+          "P004",
+          "Medium",
+          true
+        ],
+        [
+          "SUP03",
+          "Ledgerline Software",
+          "Finance system",
+          38000,
+          "2022-08-01",
+          "2027-07-31",
+          "P003",
+          "Medium",
+          true
+        ],
+        [
+          "SUP04",
+          "PeopleFlow HR",
+          "HR system",
+          29000,
+          "2022-01-01",
+          "2026-12-31",
+          "P006",
+          "Medium",
+          true
+        ],
+        [
+          "SUP05",
+          "Microsoft (via CloudReseller UK)",
+          "Microsoft 365 & Copilot licences",
+          168000,
+          "2025-08-01",
+          "2026-07-31",
+          "P007",
+          "High",
+          true
+        ],
+        [
+          "SUP06",
+          "Pinnacle Assessment Services",
+          "End-point assessment",
+          0,
+          "2019-01-01",
+          "2027-12-31",
+          "P005",
+          "Medium",
+          true
+        ],
+        [
+          "SUP07",
+          "NorthStar EPA",
+          "End-point assessment",
+          0,
+          "2020-06-01",
+          "2027-05-31",
+          "P005",
+          "Medium",
+          true
+        ],
+        [
+          "SUP08",
+          "University of Wessex",
+          "Degree apprenticeship partner",
+          410000,
+          "2022-09-01",
+          "2028-08-31",
+          "P008",
+          "High",
+          true
+        ],
+        [
+          "SUP09",
+          "Wellspring EAP",
+          "Employee assistance programme",
+          14500,
+          "2024-04-01",
+          "2027-03-31",
+          "P006",
+          "Low",
+          true
+        ],
+        [
+          "SUP10",
+          "Fenwick Laptop Leasing",
+          "Device leasing",
+          96000,
+          "2024-09-01",
+          "2027-08-31",
+          "P007",
+          "Low",
+          false
+        ],
+        [
+          "SUP11",
+          "Brightside Events",
+          "Event venues & catering",
+          37000,
+          "2025-01-01",
+          "2026-12-31",
+          "P027",
+          "Low",
+          false
+        ],
+        [
+          "SUP12",
+          "Clearview Accessibility",
+          "Accessibility audits & BSL",
+          12000,
+          "2025-05-01",
+          "2026-04-30",
+          "P020",
+          "Low",
+          true
+        ]
+      ]
+    }
+  ],
+  "post_sql": [
+    "UPDATE learners SET last_review_date = (SELECT MAX(review_date) FROM progress_reviews p WHERE p.learner_id = learners.learner_id)",
+    "UPDATE learners SET next_review_due = CASE WHEN status NOT IN ('Active', 'Break in learning', 'Gateway', 'EPA') THEN NULL WHEN last_review_date IS NULL THEN date(start_date, '+42 days') ELSE date(last_review_date, '+84 days') END"
+  ],
+  "derived": [
+    {
+      "name": "monthly_funding",
+      "title": "Monthly Funding by Academy",
+      "department": "finance",
+      "system": "Ledgerline / ILR",
+      "description": "Apprenticeship funding earned per month by academy: on-programme payments (80% of band spread over the training period) and completion payments (20% on achievement), with learner counts and new starts.",
+      "sql": "WITH RECURSIVE m(month_start) AS (SELECT '2024-08-01' UNION ALL SELECT date(month_start, '+1 month') FROM m WHERE month_start < '2026-10-01'), l AS (SELECT l.*, p.funding_band_gbp, p.duration_months, p.academy AS acad FROM learners l JOIN programmes p USING (programme_code)) SELECT strftime('%Y-%m', m.month_start) AS month, CASE WHEN CAST(strftime('%m', m.month_start) AS INTEGER) >= 8 THEN strftime('%Y', m.month_start) || '/' || substr(CAST(CAST(strftime('%Y', m.month_start) AS INTEGER) + 1 AS TEXT), 3) ELSE CAST(CAST(strftime('%Y', m.month_start) AS INTEGER) - 1 AS TEXT) || '/' || substr(strftime('%Y', m.month_start), 3) END AS academic_year, l.acad AS academy, SUM(CASE WHEN l.start_date <= date(m.month_start, '+1 month', '-1 day') AND COALESCE(l.actual_end_date, '9999-12-31') >= m.month_start THEN 1 ELSE 0 END) AS learners_on_programme, SUM(CASE WHEN strftime('%Y-%m', l.start_date) = strftime('%Y-%m', m.month_start) THEN 1 ELSE 0 END) AS new_starts, ROUND(SUM(CASE WHEN l.start_date <= date(m.month_start, '+1 month', '-1 day') AND COALESCE(l.actual_end_date, '9999-12-31') >= m.month_start AND m.month_start <= date(l.start_date, '+' || l.duration_months || ' months') AND l.status != 'Break in learning' THEN l.funding_band_gbp * 0.8 / l.duration_months ELSE 0 END), 0) AS on_programme_funding_gbp, ROUND(SUM(CASE WHEN l.status = 'Completed' AND strftime('%Y-%m', l.actual_end_date) = strftime('%Y-%m', m.month_start) THEN l.funding_band_gbp * 0.2 ELSE 0 END), 0) AS completion_funding_gbp FROM m CROSS JOIN l GROUP BY 1, 2, 3 ORDER BY 1, 3"
+    },
+    {
+      "name": "coach_caseloads",
+      "title": "Coach Caseloads",
+      "department": "delivery",
+      "system": "Aptiva / Power BI",
+      "description": "Current caseload per coach: active learners, RAG split, overdue reviews and capacity versus target.",
+      "sharepoint_list": true,
+      "list_title": "Coach Caseloads",
+      "sql": "SELECT e.employee_id AS coach_id, e.full_name AS coach_name, e.academy, e.manager_id, e.caseload_target, COUNT(l.learner_id) AS active_learners, SUM(l.progress_rag = 'Green') AS green, SUM(l.progress_rag = 'Amber') AS amber, SUM(l.progress_rag = 'Red') AS red, SUM(l.next_review_due < '2026-11-05') AS overdue_reviews, ROUND(1.0 * COUNT(l.learner_id) / e.caseload_target, 2) AS capacity_used FROM employees e LEFT JOIN learners l ON l.coach_id = e.employee_id AND l.status IN ('Active', 'Break in learning', 'Gateway', 'EPA') WHERE e.role_family = 'Coach' GROUP BY e.employee_id ORDER BY e.academy, e.full_name"
+    }
+  ]
+}

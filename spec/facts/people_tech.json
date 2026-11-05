@@ -1,0 +1,141 @@
+[
+ {
+  "id": "ppl_london_hotel_cap",
+  "category": "HR Policy",
+  "question": "What is the maximum Delcorn will pay per night for a hotel in London?",
+  "answer": "£160 per night including breakfast (Head of function may approve up to £190 during major events)",
+  "sources": [
+   "ppl-expenses-policy",
+   "ppl-employee-handbook-2026"
+  ]
+ },
+ {
+  "id": "ppl_regional_hotel_cap",
+  "category": "HR Policy",
+  "question": "What is the hotel cap outside London (e.g. Leeds or Manchester)?",
+  "answer": "£110 per night including breakfast",
+  "sources": [
+   "ppl-expenses-policy",
+   "ppl-email-awayday-expenses-leave"
+  ]
+ },
+ {
+  "id": "ppl_mileage_rate",
+  "category": "HR Policy",
+  "question": "What mileage rate does Delcorn pay for business journeys in your own car?",
+  "answer": "45p per mile for the first 10,000 business miles in a tax year, then 25p per mile",
+  "sources": [
+   "ppl-expenses-policy"
+  ]
+ },
+ {
+  "id": "ppl_expense_claim_deadline",
+  "category": "HR Policy",
+  "question": "How long do staff have to submit an expense claim?",
+  "answer": "30 days from the date the expense was incurred, via Ledgerline Expenses (older than 30 days needs Finance Manager approval; over 90 days not paid)",
+  "sources": [
+   "ppl-expenses-policy"
+  ]
+ },
+ {
+  "id": "ppl_annual_leave_entitlement",
+  "category": "HR Policy",
+  "question": "What is the annual leave entitlement for a full-time employee?",
+  "answer": "27 days plus bank holidays, rising by 1 day for every 2 years' service to a maximum of 30 days, plus one wellbeing day",
+  "sources": [
+   "ppl-annual-leave-policy",
+   "ppl-employee-handbook-2026"
+  ]
+ },
+ {
+  "id": "ppl_leave_carry_over",
+  "category": "HR Policy",
+  "question": "How much annual leave can be carried over and by when must it be used?",
+  "answer": "Up to 5 days, to be taken by 31 March of the following year (more only with People Director approval in exceptional circumstances)",
+  "sources": [
+   "ppl-annual-leave-policy",
+   "ppl-email-awayday-expenses-leave"
+  ]
+ },
+ {
+  "id": "ppl_bradford_trigger",
+  "category": "HR Policy",
+  "question": "What Bradford factor score triggers a formal (Stage 1) absence review?",
+  "answer": "128 or more over a rolling 52 weeks (or 3 spells in 6 months); B = S² × D",
+  "sources": [
+   "ppl-sickness-absence-policy"
+  ]
+ },
+ {
+  "id": "tech_ai_prohibited_data",
+  "category": "Technology",
+  "question": "What data must never be entered into AI tools at Delcorn?",
+  "answer": "Passwords/MFA codes/API keys and bank or card details in any AI tool; safeguarding and Prevent case details outside the restricted library; and any learner personal data, special category data, staff HR data or employer commercially sensitive information in any tool other than Microsoft 365 Copilot",
+  "sources": [
+   "tech-ai-acceptable-use-policy"
+  ]
+ },
+ {
+  "id": "tech_learner_record_retention",
+  "category": "Technology",
+  "question": "How long are learner records kept?",
+  "answer": "6 years after the end of the funding period (the learner's final funding claim), then securely deleted",
+  "sources": [
+   "tech-data-retention-schedule",
+   "tech-data-protection-policy"
+  ]
+ },
+ {
+  "id": "ppl_top_location",
+  "category": "People",
+  "question": "Which location has the most Delcorn employees?",
+  "sql": "SELECT location FROM employees GROUP BY location ORDER BY COUNT(*) DESC LIMIT 1",
+  "sources": [
+   "employees",
+   "ppl-headcount-summary"
+  ]
+ },
+ {
+  "id": "ppl_top_location_headcount",
+  "category": "People",
+  "question": "How many employees are based in Delcorn's largest location?",
+  "sql": "SELECT COUNT(*) FROM employees GROUP BY location ORDER BY COUNT(*) DESC LIMIT 1",
+  "format": "int",
+  "sources": [
+   "employees",
+   "ppl-headcount-summary"
+  ]
+ },
+ {
+  "id": "tech_top_ticket_category",
+  "category": "Technology",
+  "question": "What is the most common IT service desk ticket category in the last 12 months?",
+  "sql": "SELECT category FROM it_tickets WHERE opened >= date('2026-11-05','-12 months') GROUP BY category ORDER BY COUNT(*) DESC LIMIT 1",
+  "sources": [
+   "it_tickets",
+   "tech-service-desk-report-oct-2026"
+  ]
+ },
+ {
+  "id": "tech_p1_tickets_12m",
+  "category": "Technology",
+  "question": "How many P1 (critical) IT tickets were raised in the last 12 months?",
+  "sql": "SELECT COUNT(*) FROM it_tickets WHERE priority = 'P1' AND opened >= date('2026-11-05','-12 months')",
+  "format": "int",
+  "sources": [
+   "it_tickets",
+   "tech-service-desk-report-oct-2026"
+  ]
+ },
+ {
+  "id": "tech_copilot_tickets_12m",
+  "category": "Technology",
+  "question": "How many 'Copilot access & licensing' tickets were raised in the last 12 months?",
+  "sql": "SELECT COUNT(*) FROM it_tickets WHERE category = 'Copilot access & licensing' AND opened >= date('2026-11-05','-12 months')",
+  "format": "int",
+  "sources": [
+   "it_tickets",
+   "tech-service-desk-report-oct-2026"
+  ]
+ }
+]

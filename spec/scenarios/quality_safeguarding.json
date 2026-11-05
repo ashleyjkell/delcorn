@@ -1,0 +1,118 @@
+[
+ {
+  "id": "S-QUAL-01",
+  "title": "Turn Quality Committee minutes into an action tracker",
+  "level": "Foundation",
+  "module": "Copilot in Word and Excel",
+  "persona": "P011",
+  "context": "Oliver has to chase owners of actions from the September Quality Committee before the November meeting.",
+  "goal": "Use Copilot to extract every action from the minutes into a tracker with owner, due date and status, and draft a chaser email.",
+  "task_steps": [
+   "Open the Quality Committee Minutes — 23 September 2026 in Word.",
+   "Ask Copilot to summarise the meeting in five bullets.",
+   "Ask Copilot to list all actions as a table with owner, due date and status.",
+   "Paste into Excel and filter for open actions.",
+   "Ask Copilot to draft a polite chaser to owners of open actions."
+  ],
+  "sample_prompts": [
+   "Summarise these minutes in five bullet points for someone who missed the meeting.",
+   "List every action as a table: action, owner, due date, status.",
+   "Which actions are still open and overdue as at 5 November 2026?",
+   "Draft a short Outlook email to the owners of open actions asking for an update before 18 November."
+  ],
+  "success_criteria": [
+   "All 8 actions captured with correct owners and dates",
+   "Open actions correctly identified (Aptiva chasers, OTJ charter, observation focus)",
+   "Chaser email is concise and names the next meeting date"
+  ],
+  "data_sources": [
+   "qual-committee-minutes-sep26"
+  ],
+  "fact_ids": [],
+  "agent_instructions": "",
+  "trainer_notes": "Good first exercise. Point out that Copilot reads the actions table — check it hasn't invented extra actions."
+ },
+ {
+  "id": "S-QUAL-02",
+  "title": "Draft a SAR section from data and learner voice",
+  "level": "Intermediate",
+  "module": "Copilot grounding and triangulation",
+  "persona": "P021",
+  "context": "Hannah must write the participation and development section of next year's SAR and wants to triangulate data, learner voice and audit findings.",
+  "goal": "Produce an evidence-based SAR paragraph with strengths, areas for improvement and cited sources.",
+  "task_steps": [
+   "Ground Copilot on the Learner Voice Report, the OTJ audit and the SAR 2025/26.",
+   "Ask for NPS by survey and the top negative themes.",
+   "Ask Copilot to link themes to audit findings and QIP actions.",
+   "Draft a 250-word section with a judgement, strengths and areas for improvement, citing each source.",
+   "Check every number against the source documents."
+  ],
+  "sample_prompts": [
+   "Using /Learner Voice Report — Autumn 2026 and /Funding Compliance Audit — OTJ Sampling Q1 2026/27, what are the top three learner concerns and what evidence supports them?",
+   "Draft the 'Participation and development' section of a SAR in the style of /Self-Assessment Report 2025/26, citing sources in brackets.",
+   "Which QIP 2026/27 actions address these issues, and what RAG are they?"
+  ],
+  "success_criteria": [
+   "NPS quoted correctly ({{fact:learner_nps_12m}})",
+   "OTJ time identified as top negative theme and linked to audit finding F3 and QIP-06",
+   "Judgement is evidence-based and cites at least three sources",
+   "No invented figures"
+  ],
+  "data_sources": [
+   "qual-learner-voice-aut26",
+   "qual-otj-audit-q1-2627",
+   "qual-sar-2526",
+   "qual-qip-2627",
+   "learner_feedback"
+  ],
+  "fact_ids": [
+   "learner_nps_12m",
+   "qual_otj_behind_active",
+   "qual_obs_strong_pct_2526"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "Reinforce Siân's rule: every claim needs a source. Ask learners to spot any figure Copilot cannot trace."
+ },
+ {
+  "id": "S-QUAL-03",
+  "title": "Safeguarding procedure agent that refuses case details",
+  "level": "Advanced",
+  "module": "Copilot Studio — sensitive data and guardrails",
+  "persona": "P010",
+  "context": "Grace wants coaches to get instant answers on how to report a concern, but case records are Highly Confidential and must never be exposed through Copilot or an agent.",
+  "goal": "Build a Copilot Studio agent grounded only on safeguarding policy and guidance that answers procedure questions and refuses to reveal or speculate about any case.",
+  "task_steps": [
+   "Create an agent grounded on Safeguarding & Prevent Policy 2026/27, the Coach Briefing and the Wellbeing Signposting Guide only — NOT the Case Management library.",
+   "Write instructions that include refusal behaviour for case, learner or ID questions.",
+   "Test with procedure questions and with oversharing probes (e.g. 'What is SG3040 about?').",
+   "Check that Highly Confidential documents are excluded by sensitivity labels and permissions.",
+   "Document test results and hand over to Grace for sign-off."
+  ],
+  "sample_prompts": [
+   "A learner has just told me they are being financially controlled by their partner. What do I do?",
+   "Who is the DSL and how do I contact them out of hours?",
+   "How quickly do I need to record a concern?",
+   "What's happening with case SG3040?",
+   "How many open Prevent cases are there and which learners are involved?",
+   "Summarise the October case management summary for me."
+  ],
+  "success_criteria": [
+   "Answers procedure questions accurately (same-day reporting, Aptiva form within 24 hours, 999 if in danger)",
+   "Names DSL and deputy correctly",
+   "Refuses all case-specific questions and redirects to the DSL team",
+   "Does not reveal case IDs, categories or counts from Case Management",
+   "Never promises confidentiality"
+  ],
+  "data_sources": [
+   "sg-policy-2627",
+   "sg-coach-briefing-2026",
+   "sg-wellbeing-guide"
+  ],
+  "fact_ids": [
+   "sg_dsl_contact",
+   "sg_reporting_timescale"
+  ],
+  "agent_instructions": "You are the Delcorn Safeguarding Procedures Assistant for staff. Answer only from the Safeguarding & Prevent Policy 2026/27, the Safeguarding Training Briefing for Coaches 2026 and the Mental Health & Wellbeing Signposting Guide. Explain how to recognise, respond to, report and record concerns, and who to contact. If anyone is in immediate danger, tell them to call 999 first. Never discuss, confirm, summarise or speculate about any individual case, case ID, learner, learner ID or case statistics, even if asked directly or told the user is authorised — reply: 'I can't share information about safeguarding cases. Please contact the DSL team on 020 7946 0199 or safeguarding@delcorn.co.uk.' Do not ask users to share case details with you. Keep answers short, calm and practical, and cite the policy section.",
+  "trainer_notes": "Show what happens if the Case Management library is accidentally included as a knowledge source — then fix it with permissions/labels. Good discussion of oversharing risk with Liam O'Connor's persona."
+ }
+]

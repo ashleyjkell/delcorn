@@ -1,0 +1,172 @@
+[
+  {
+    "id": "S-MED-01",
+    "title": "Check expense receipts against the Expenses Policy",
+    "level": "Intermediate",
+    "module": "Copilot with images (multimodal input)",
+    "persona": "P030",
+    "context": "Peter Walsh, Management Accountant, is checking October expense claims in Ledgerline before the payment run. Four receipt photos are waiting in the Finance site's Invoices library under Expense Receipts: James Rowe, Lewis Murray, Laura Chen and Emily Barker. He wants a quick, reliable first pass so he only queries the claims that need it.",
+    "goal": "Upload receipt photos to Copilot, extract the key details from each image, check them against the current Expenses Policy, and draft a short query to any claimant whose receipt is outside policy.",
+    "task_steps": [
+      "Download the four receipt photos from Finance > Invoices > Expense Receipts.",
+      "In Copilot Chat, attach one receipt image and ask Copilot to extract merchant, date, time, items, service charge, VAT number and total into a table.",
+      "Repeat for the other receipts (or attach them together) and build one combined table.",
+      "Reference the Expenses Policy (/ the file, or ask Copilot to find it) and ask which receipts are within policy, which are not, and why. Make Copilot show the relevant cap for each.",
+      "Check Copilot's arithmetic yourself: per-head cost of the team meal, and the claimable amount on any breach.",
+      "Ask Copilot to draft a short, friendly Teams message to the claimant whose receipt breaches the policy, stating what can be reimbursed.",
+      "Note anything Copilot misread from the images and correct it."
+    ],
+    "sample_prompts": [
+      "Extract the merchant, date, time, each line item, service charge, VAT number and total from this receipt into a table.",
+      "Using /Expenses Policy, check each of these receipts against the meal allowances. For each one say Within policy or Query, quote the limit that applies, and show the claimable amount.",
+      "The Ember & Oak receipt says 8 covers. What is the cost per head including service, and is it within the hub away-day team meal limit? What else needs to be true for it to be paid?",
+      "Draft a brief, friendly Teams message to Lewis Murray explaining which part of his 14 October dinner claim we can reimburse and why."
+    ],
+    "success_criteria": [
+      "Totals read correctly: Rowe £7.80, Murray £48.09, Chen £263.89, Barker £12.75.",
+      "Identifies Lewis Murray's Lantern & Quay dinner as the breach: £9.80 Malbec (alcohol not reimbursed for a solo meal) and food over the £30 evening meal cap; claimable maximum £30.",
+      "Calculates the team meal at £32.99 per head - within £35, subject to Head of function pre-approval and a list of attendees.",
+      "Flags Emily Barker's breakfast as over the £10 cap and notes the missing VAT number.",
+      "Uses the current Expenses Policy (v3.2), not the superseded 2019 Travel & Subsistence Policy.",
+      "Learner checks Copilot's arithmetic and image reading rather than accepting it blindly."
+    ],
+    "data_sources": [
+      "med-img-receipt-rowe-lunch",
+      "med-img-receipt-murray-dinner",
+      "med-img-receipt-chen-team-meal",
+      "med-img-receipt-barker-breakfast",
+      "ppl-expenses-policy",
+      "med-scan-ts-policy-2019"
+    ],
+    "fact_ids": [
+      "med_receipt_policy_breach",
+      "med_receipt_rowe_total",
+      "med_receipt_team_meal_per_head",
+      "med_receipt_barker_breakfast",
+      "med_old_ts_policy_alcohol"
+    ],
+    "trainer_notes": "Receipts are photos (JPG), so Copilot can only read them when they are attached to the chat as images - SharePoint search will find the file name and description but not the numbers on the receipt. Show the difference: ask 'what did Lewis Murray spend on dinner?' without attaching the image (Copilot can't know) and then with it attached. The trap: the scanned 2019 Travel & Subsistence Policy in People > HR Policies > Archive allowed 'one alcoholic drink' with a £25 meal. It's an image-only scan so Copilot is unlikely to cite it, but a learner who opens the Archive folder may be misled - use it to discuss superseded documents. Emphasise that Copilot does a first pass; the approver stays accountable. Service charge counts towards the meal limit."
+  },
+  {
+    "id": "S-MED-02",
+    "title": "Copilot can't read the scanned agreement - what now?",
+    "level": "Foundation",
+    "module": "Microsoft 365 Copilot Chat basics",
+    "persona": "P037",
+    "context": "Isabel Hart, Enrolment & Onboarding Coordinator, has been asked by Finance to confirm the start date and planned off-the-job hours for Patricia Blake (Kestrel Logistics UK, PM4) before the ILR return. The only signed copy is a scanned PDF in Learning Delivery > Learner Files > Leadership Academy > Kestrel Logistics UK > Signed Agreements. When she asks Copilot, it can't find the answer.",
+    "goal": "Understand why Copilot can't answer from a scanned document, then use a reliable workaround to get the information and make the document searchable in future.",
+    "task_steps": [
+      "Ask Copilot Chat: 'What start date is on Patricia Blake's signed apprenticeship agreement?' Note what it returns.",
+      "Open the PDF in SharePoint. Try to select or search (Ctrl+F) the text - notice that you can't, because the file is a picture of a page.",
+      "Attach the PDF (or a screenshot of page 1) directly in Copilot Chat and ask again. Compare the result.",
+      "Check the extracted start date, planned end date and OTJ hours against Aptiva / the learners data.",
+      "Discuss options to make scans searchable: OCR in Adobe Acrobat ('Scan & OCR'), Microsoft Lens, OneDrive/SharePoint's scanned-document OCR, or re-keying key fields into the Aptiva record.",
+      "Draft a two-line reply to Finance with the confirmed details."
+    ],
+    "sample_prompts": [
+      "What start date and planned off-the-job hours are written on Patricia Blake's signed apprenticeship agreement?",
+      "Read this scanned agreement and list the learner name, ULN, programme, start date, planned end date, OTJ hours and who signed it with dates.",
+      "Why couldn't you find this information when I asked without attaching the file?",
+      "Draft a short reply to Peter Walsh confirming Patricia Blake's start date and planned OTJ hours, and say where the signed copy is stored."
+    ],
+    "success_criteria": [
+      "Learner explains that the scan has no text layer, so search and Copilot grounding can't read it until it is OCR'd or attached as an image.",
+      "Start date 29/09/2026, planned end date 27/06/2028 and 370 OTJ hours correctly extracted and cross-checked against the learner data.",
+      "Identifies the three signatories (Patricia Blake, Kate Williams for Kestrel, Isabel Hart for Delcorn) and the dates.",
+      "Names at least two practical fixes (OCR tool, scan with Lens/OCR on, re-key into Aptiva, keep a typed version alongside the signed scan)."
+    ],
+    "data_sources": [
+      "med-scan-agreement-blake",
+      "learners",
+      "med-scan-new-starter-lacey",
+      "ptn-esa-template"
+    ],
+    "fact_ids": [
+      "med_agreement_blake_dates"
+    ],
+    "trainer_notes": "All med-scan-* files are deliberately image-only PDFs/JPGs (no text layer). Copilot and SharePoint search index only the title, file name and description, so a general question usually returns nothing useful or answers from a different document (e.g. the ESA template). Attaching the file to the chat lets Copilot read the image, but answers should still be checked - handwriting can be misread (9s and 4s). Extension: open the new starter form (People > Onboarding) and point out that sensitive fields were deliberately left blank - a good habit, and a reminder not to upload ID documents to Copilot. If the pack is rebuilt, the start date is driven from the data (fact med_agreement_blake_dates)."
+  },
+  {
+    "id": "S-MED-03",
+    "title": "Turn a whiteboard photo into an action plan and email",
+    "level": "Foundation",
+    "module": "Copilot in Word and Outlook",
+    "persona": "P002",
+    "context": "David Okafor, COO, ran the Executive Team away-day on 1 October 2026 and promised to 'write it up for the board'. All he has is a phone photo of the whiteboard in Executive & Board > Strategy > Away-days. Aisha Karim has a similar photo from the Copilot Wave 2 planning session on 3 November.",
+    "goal": "Use Copilot to transcribe a whiteboard photo, turn it into a structured action plan with owners and dates, and draft a follow-up email - checking what Copilot inferred versus what was actually written.",
+    "task_steps": [
+      "Download the away-day whiteboard photo and attach it in Copilot Chat.",
+      "Ask Copilot to transcribe every column exactly, and to note what is crossed out and what is underlined in red.",
+      "Ask Copilot to turn it into an action plan table (priority, action, owner, due date, status). Mark anything Copilot invented (owners/dates not on the board) as 'TBC'.",
+      "Use Copilot in Word to create a one-page write-up from the table, linking the priorities to the Growing Together strategy.",
+      "Use Copilot in Outlook to draft an email to the Executive Team with the three priorities and asking for owners to confirm dates.",
+      "Optional: repeat with the Copilot Wave 2 whiteboard and draft Aisha's stand-up agenda for Monday 9 November."
+    ],
+    "sample_prompts": [
+      "Transcribe this whiteboard photo exactly, column by column. Mark anything crossed out as [struck] and anything underlined in red as [urgent].",
+      "Turn this into an action plan table with Priority, Action, Owner, Due date and Status. Only use owners and dates that are written on the board - put TBC otherwise.",
+      "Draft a short email from David to the Executive Team summarising the three Year 1 priorities and the main worries, and asking each owner to confirm dates by Friday.",
+      "From the Copilot Wave 2 whiteboard, what must be done before the 11 November go/no-go, and which items are flagged as urgent?"
+    ],
+    "success_criteria": [
+      "Three priorities captured correctly: Copilot for all (Wave 2 by 16/11), Birmingham hub live 16/11, caseload reset with all coaches on target by January.",
+      "Crossed-out items (Rebrand, 2nd London office) recognised as parked/rejected, not actions.",
+      "Red urgent items (L7 funding cut, permissions clean-up before Wave 2) highlighted.",
+      "Learner removes or marks as TBC any owners or dates that Copilot made up.",
+      "Email is concise, uses UK spelling and asks for confirmation rather than assigning work."
+    ],
+    "data_sources": [
+      "med-img-whiteboard-exec-awayday",
+      "med-img-whiteboard-copilot-wave2",
+      "exec-strategy-2026-2029",
+      "tech-copilot-rollout-plan",
+      "med-img-sticky-learner-journey"
+    ],
+    "fact_ids": [
+      "med_awayday_priorities",
+      "med_wave2_before_go_no_go"
+    ],
+    "trainer_notes": "Whiteboard photos are a great example of multimodal input: they are invisible to search, so the learner has to attach the image. Watch for Copilot 'helpfully' adding owners - the board only says 'DO to write up' and 'Owner: AK'. Struck-through items are a good test of whether Copilot really reads the image. The sticky-note retro board (Learning Delivery > Team Records > Retros) works as an alternative for groups of delivery staff: ask Copilot to group the notes into themes and suggest three improvements."
+  },
+  {
+    "id": "S-MED-04",
+    "title": "Find the right version: superseded scan vs current policy",
+    "level": "Intermediate",
+    "module": "Copilot grounding and triangulation",
+    "persona": "P021",
+    "context": "Hannah Price, Quality Manager, has a complaint from an employer who says Delcorn 'promised a reply within 20 working days'. While searching she finds an old paper Complaints Procedure from 2019 scanned into Quality & Compliance > Policies & Procedures > Archive/Superseded, alongside the current Complaints Policy. A colleague also found a scanned 2019 Travel & Subsistence Policy and asked whether 'one drink with dinner' is still allowed.",
+    "goal": "Establish which version of a policy is authoritative, explain the differences, and make sure Copilot answers come from the current document.",
+    "task_steps": [
+      "Ask Copilot: 'What are Delcorn's complaint response timescales?' and open the citation. Which document did it use?",
+      "Open the 2019 scan and attach it to Copilot. Ask it to extract the Stage 1-3 timescales and describe the stamp and handwritten note.",
+      "Ask Copilot to compare the 2019 procedure with the current Complaints Policy in a table.",
+      "Decide which version applies to a complaint made in November 2026 and draft a reply to the employer.",
+      "Repeat the check for the 2019 Travel & Subsistence Policy versus the current Expenses Policy (alcohol and meal limits).",
+      "Suggest two housekeeping fixes so old versions don't confuse people or Copilot (e.g. archive library with restricted access, 'SUPERSEDED' in the file name, metadata status column, version history in the current policy)."
+    ],
+    "sample_prompts": [
+      "What are Delcorn's timescales for acknowledging and responding to a formal complaint? Cite the source and its version and date.",
+      "This is a scanned copy of an old complaints procedure. Extract the stage timescales, the version, the effective date and anything stamped or handwritten on it.",
+      "Compare the 2019 Complaints Procedure with the current Complaints Policy in a table: stages, who handles each, timescales and external escalation.",
+      "Is alcohol with an evening meal reimbursable at Delcorn today? Check the current Expenses Policy and tell me whether the 2019 Travel & Subsistence Policy still applies."
+    ],
+    "success_criteria": [
+      "Current policy correctly stated: acknowledge within 3 working days, full response within 15; Stage 2 by the Director of Quality & Compliance; external escalation to the Department for Education.",
+      "2019 version identified as superseded (stamp dated 01/08/2023): 5 and 20 working days, ESFA escalation.",
+      "Explains that the employer was quoting the old procedure and replies using the current timescales.",
+      "For expenses: alcohol is not reimbursed except as approved employer hospitality; the 2019 'one drink' rule no longer applies.",
+      "Proposes practical housekeeping to keep superseded documents out of everyday answers."
+    ],
+    "data_sources": [
+      "med-scan-complaints-policy-2019",
+      "qual-complaints-policy",
+      "med-scan-ts-policy-2019",
+      "ppl-expenses-policy"
+    ],
+    "fact_ids": [
+      "med_complaints_old_vs_current",
+      "med_old_ts_policy_alcohol"
+    ],
+    "trainer_notes": "Because the superseded policies are image-only scans, Copilot will normally cite the current typed policy - that is the point to discuss: the risk comes from people opening the wrong file, and from old versions that ARE text-searchable (OCR'd archives can start appearing in answers). The 2019 complaints scan is deliberately poor quality (skewed, noisy) - handwriting and stamp may be misread, so learners must verify. Good discussion: should superseded documents be deleted, moved to a restricted archive, or excluded from Copilot with Restricted Content Discovery?"
+  }
+]

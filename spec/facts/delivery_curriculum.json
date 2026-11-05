@@ -1,0 +1,132 @@
+[
+ {
+  "id": "dlv_ai_red_learners",
+  "category": "Delivery",
+  "question": "How many AI Academy learners are currently rated Red for progress?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE progress_rag = 'Red' AND academy = 'AI Academy'",
+  "format": "int",
+  "sources": [
+   "learners",
+   "dlv-caseload-report-oct26",
+   "dlv-at-risk-escalation"
+  ]
+ },
+ {
+  "id": "dlv_rowe_caseload",
+  "category": "Delivery",
+  "question": "How many learners are on James Rowe's caseload?",
+  "sql": "SELECT active_learners FROM coach_caseloads WHERE coach_id = 'P014'",
+  "format": "int",
+  "sources": [
+   "coach_caseloads",
+   "dlv-caseload-report-oct26"
+  ],
+  "notes": "Includes learners on a break in learning and in EPA"
+ },
+ {
+  "id": "dlv_rowe_overdue",
+  "category": "Delivery",
+  "question": "How many of James Rowe's learners have an overdue progress review?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE coach_id = 'P014' AND next_review_due < '2026-11-05'",
+  "format": "int",
+  "sources": [
+   "learners",
+   "coach_caseloads",
+   "dlv-caseload-report-oct26"
+  ]
+ },
+ {
+  "id": "dlv_data_overdue",
+  "category": "Delivery",
+  "question": "How many overdue progress reviews are there in the Data Academy?",
+  "sql": "SELECT SUM(overdue_reviews) FROM coach_caseloads WHERE academy = 'Data Academy'",
+  "format": "int",
+  "sources": [
+   "coach_caseloads",
+   "dlv-caseload-report-oct26",
+   "dlv-email-overdue-reviews"
+  ]
+ },
+ {
+  "id": "dlv_left_employer_2526",
+  "category": "Delivery",
+  "question": "How many learners withdrew in 2025/26 because they left their employer?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE status = 'Withdrawn' AND withdrawal_reason = 'Left employer' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31'",
+  "format": "int",
+  "sources": [
+   "learners",
+   "dlv-withdrawals-2526"
+  ]
+ },
+ {
+  "id": "dlv_review_frequency",
+  "category": "Delivery",
+  "question": "How often must a tripartite progress review be held, and when is the first one due?",
+  "answer": "At least every 12 weeks; the first review within 8 weeks of the start date",
+  "sources": [
+   "dlv-coach-handbook",
+   "dlv-progress-review-procedure"
+  ]
+ },
+ {
+  "id": "dlv_rag_thresholds",
+  "category": "Delivery",
+  "question": "What are the RAG progress thresholds?",
+  "answer": "Green: OTJ logged ≥ 92% of expected; Amber: 78% to under 92%; Red: under 78%",
+  "sources": [
+   "dlv-coach-handbook",
+   "dlv-otj-employer-guide"
+  ]
+ },
+ {
+  "id": "dlv_red_escalation",
+  "category": "Delivery",
+  "question": "How quickly must a Red-rated learner be escalated, and to whom?",
+  "answer": "To the delivery manager within 5 working days of the review",
+  "sources": [
+   "dlv-at-risk-escalation",
+   "dlv-coach-handbook"
+  ]
+ },
+ {
+  "id": "dlv_caseload_target",
+  "category": "Delivery",
+  "question": "What is the caseload target for a full-time skills coach?",
+  "answer": "26 learners (20 for senior skills coaches)",
+  "sources": [
+   "dlv-coach-handbook",
+   "coach_caseloads"
+  ]
+ },
+ {
+  "id": "cur_top_programme",
+  "category": "Curriculum",
+  "question": "Which programme has the most learners on programme?",
+  "sql": "SELECT p.programme_code || ' ' || p.programme_name FROM learners l JOIN programmes p USING(programme_code) WHERE l.status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1 ORDER BY COUNT(*) DESC LIMIT 1",
+  "sources": [
+   "learners",
+   "programmes",
+   "cur-spec-da4"
+  ]
+ },
+ {
+  "id": "cur_ai4_duration",
+  "category": "Curriculum",
+  "question": "How long is the practical period of the AI & Automation Practitioner (AI4) programme?",
+  "sql": "SELECT duration_months || ' months' FROM programmes WHERE programme_code = 'AI4'",
+  "sources": [
+   "programmes",
+   "cur-spec-ai4"
+  ]
+ },
+ {
+  "id": "cur_review_overdue",
+  "category": "Curriculum",
+  "question": "Which programme reviews are overdue in the Curriculum Review Cycle 2026?",
+  "answer": "DE5 Data Engineering and SL7 Senior Leader",
+  "sources": [
+   "cur-review-cycle-2026",
+   "cur-advisory-panel-oct26"
+  ]
+ }
+]

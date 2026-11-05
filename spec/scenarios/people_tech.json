@@ -1,0 +1,198 @@
+[
+ {
+  "id": "S-PPL-01",
+  "title": "Ask Copilot HR policy questions — and check the source",
+  "level": "Foundation",
+  "module": "Microsoft 365 Copilot Chat basics",
+  "persona": "P016",
+  "context": "Chloe Davies is a skills coach in Swansea, newer to Copilot. She is going to the Leeds hub away-day, has some leave left, and wants quick, reliable answers without emailing HR.",
+  "goal": "Use Microsoft 365 Copilot Chat to answer HR policy questions, then verify each answer against the cited policy document.",
+  "task_steps": [
+   "Open Copilot Chat (Work mode).",
+   "Ask about hotel caps, meal allowances and mileage for the Leeds away-day.",
+   "Ask about annual leave entitlement after 4 years' service and the carry-over rule.",
+   "Open each citation and confirm the figure in the source policy (Expenses Policy, Annual Leave Policy).",
+   "Ask a follow-up that the policies don't cover (e.g. 'Can I claim for my dog sitter?') and note how Copilot responds.",
+   "Write a 3-line summary email to your manager with the confirmed figures."
+  ],
+  "sample_prompts": [
+   "According to Delcorn's Expenses Policy, what is the hotel cap in Leeds and in London?",
+   "I'm driving 120 miles each way to the Leeds hub. What can I claim for mileage? Show the calculation.",
+   "How many days' annual leave do I get after 4 complete years, and how many can I carry over into next year?",
+   "What Bradford factor score triggers a formal absence review? Explain it in plain English with an example."
+  ],
+  "success_criteria": [
+   "States London hotel cap £160 and regional cap £110, citing the Expenses Policy.",
+   "Mileage at 45p per mile (240 miles = £108).",
+   "Leave: 29 days after 4 years (27 + 1 per 2 years) plus bank holidays and a wellbeing day; carry-over up to 5 days by 31 March.",
+   "Bradford trigger of 128 explained correctly.",
+   "Learner opens at least one citation and spots if Copilot used a non-policy source (e.g. an old email)."
+  ],
+  "data_sources": [
+   "ppl-expenses-policy",
+   "ppl-annual-leave-policy",
+   "ppl-sickness-absence-policy",
+   "ppl-employee-handbook-2026",
+   "ppl-email-awayday-expenses-leave"
+  ],
+  "fact_ids": [
+   "ppl_london_hotel_cap",
+   "ppl_regional_hotel_cap",
+   "ppl_mileage_rate",
+   "ppl_annual_leave_entitlement",
+   "ppl_leave_carry_over",
+   "ppl_bradford_trigger"
+  ],
+  "trainer_notes": "Emphasise the 'check the citation' habit. The Copilot Champions chat mentions an old £150 figure. Use it to discuss why the policy is the authoritative source."
+ },
+ {
+  "id": "S-PPL-02",
+  "title": "Build an 'HR Policy Helper' agent",
+  "level": "Intermediate",
+  "module": "Copilot Studio — knowledge agents",
+  "persona": "P031",
+  "context": "Amy Collins, HR Business Partner, answers the same expenses, leave and absence questions every day. The HR Policies library is readable by all staff (permissions review PR-013) and is good grounding for an agent.",
+  "goal": "Build and test a Copilot Studio agent grounded only on the People & Culture > HR Policies library, which answers policy questions with citations and hands off to HR when it can't help.",
+  "task_steps": [
+   "Create a new agent in Copilot Studio (or Copilot Chat > Create agent) called 'HR Policy Helper'.",
+   "Add the HR Policies SharePoint library as the only knowledge source; turn off web search.",
+   "Write instructions (see agent_instructions) covering tone, citations, scope and escalation.",
+   "Add 4 starter prompts.",
+   "Test with the sample prompts and with out-of-scope questions (personal leave balance, salary questions).",
+   "Compare answers to the answer key; refine instructions.",
+   "Share with a test group; register the agent in the Agent Register."
+  ],
+  "sample_prompts": [
+   "What's the overnight hotel limit in London?",
+   "Can I carry over 7 days of leave?",
+   "How does the Bradford factor work?",
+   "How much enhanced maternity pay does Delcorn offer?",
+   "What does Marcus Bell earn?",
+   "How many days leave do I have left?"
+  ],
+  "success_criteria": [
+   "Answers cite the correct policy document for every factual answer.",
+   "Correct figures: £160 London, £110 regional, 45p mileage, 30-day claim deadline, 5 days carry-over by 31 March, Bradford 128.",
+   "Declines salary questions about individuals and points to the People team.",
+   "For personal leave balance, directs the user to PeopleFlow rather than guessing.",
+   "Tone is warm, concise and UK English."
+  ],
+  "data_sources": [
+   "ppl-employee-handbook-2026",
+   "ppl-expenses-policy",
+   "ppl-annual-leave-policy",
+   "ppl-hybrid-remote-policy",
+   "ppl-sickness-absence-policy",
+   "ppl-family-leave-policy",
+   "ppl-edi-policy",
+   "ppl-disciplinary-grievance"
+  ],
+  "fact_ids": [
+   "ppl_london_hotel_cap",
+   "ppl_regional_hotel_cap",
+   "ppl_mileage_rate",
+   "ppl_expense_claim_deadline",
+   "ppl_annual_leave_entitlement",
+   "ppl_leave_carry_over",
+   "ppl_bradford_trigger"
+  ],
+  "agent_instructions": "You are HR Policy Helper, Delcorn's assistant for staff questions about HR policies. Answer only from the documents in the People & Culture > HR Policies library. Always cite the policy name (and section where possible) for every answer. Use UK English, a warm and concise tone, and give the specific figure or rule first, then any conditions. If a question needs personal data (leave balances, pay, absence records), do not guess: tell the user to check PeopleFlow or contact their HR Business Partner, Amy Collins. Never discuss any individual's salary, absence, disciplinary or grievance details. If the policies do not cover the question, say so clearly and suggest emailing the People team. For sensitive topics (grievances, health, family circumstances), respond with empathy and signpost the Employee Assistance Programme and HR contacts. Do not provide legal advice.",
+  "trainer_notes": "Good moment to discuss why grounding on a single, well-governed library beats 'search everything'. The salary file (PR-014) was in the Recruitment library — not HR Policies — which is why scoping knowledge sources matters."
+ },
+ {
+  "id": "S-TECH-01",
+  "title": "IT self-service agent that raises a FixDesk ticket",
+  "level": "Advanced",
+  "module": "Copilot Studio — agent flows and actions",
+  "persona": "P034",
+  "context": "Mohammed Ali runs the service desk. Password/MFA resets are the top ticket category and Copilot licensing questions are rising with the rollout. He wants an agent that answers from the FAQ and, when it can't, creates a FixDesk ticket for the user.",
+  "goal": "Build an 'IT Help' agent grounded on the Service Desk library and add an agent flow that creates a FixDesk ticket (category, priority, description) when the agent cannot resolve the issue.",
+  "task_steps": [
+   "Create an agent grounded on the Learning Technology & IT > Service Desk library (FAQ & Known Issues).",
+   "Write instructions to troubleshoot step by step and check known issues first.",
+   "Create an agent flow 'Create FixDesk ticket' with inputs: summary, category (from the FixDesk category list), priority (P1–P4), user email. Use an HTTP action or a SharePoint list as a stand-in for the FixDesk API.",
+   "Add a topic that confirms details with the user before calling the flow, and returns the ticket reference.",
+   "Make the agent route security incidents (unexpected MFA prompt, lost laptop, oversharing) to P1/P2 and tell the user to phone 020 7946 0199 for P1.",
+   "Test with the sample prompts; check it never asks for passwords.",
+   "Use the October Service Desk report to estimate deflection potential."
+  ],
+  "sample_prompts": [
+   "I've got a new phone, how do I move my Authenticator?",
+   "I finished the Copilot training yesterday but there's no Copilot in Outlook.",
+   "Copilot showed me a spreadsheet with everyone's salaries.",
+   "My Aptiva OTJ hours aren't showing in Power BI.",
+   "My laptop screen is flickering. Can you log a ticket?",
+   "What's the most common type of IT ticket?"
+  ],
+  "success_criteria": [
+   "Answers FAQ questions with citations to the Service Desk FAQ (e.g. KI-121 for Outlook).",
+   "Creates a ticket only after confirming details; returns a reference.",
+   "Classifies the oversharing report as P2 'Data request' and advises not to open or share the file.",
+   "Classifies an unexpected MFA prompt as P1 and gives the phone number.",
+   "Never requests passwords or learner names.",
+   "Learner can state the top ticket category (Password / MFA reset) and P1 count from the report."
+  ],
+  "data_sources": [
+   "tech-service-desk-faq",
+   "tech-service-desk-report-oct-2026",
+   "it_tickets",
+   "tech-information-security-policy",
+   "tech-ai-acceptable-use-policy"
+  ],
+  "fact_ids": [
+   "tech_top_ticket_category",
+   "tech_p1_tickets_12m",
+   "tech_copilot_tickets_12m",
+   "it_sla_rate"
+  ],
+  "agent_instructions": "You are IT Help, Delcorn's self-service IT assistant. Answer using only the IT Service Desk FAQ & Known Issues and IT policies in the Learning Technology & IT site, and cite the article or known-issue reference. Troubleshoot step by step, one step at a time, and check the Known Issues table first. Never ask for or accept passwords, MFA codes or learner personal data. If the user reports a security issue (an MFA prompt they didn't request, a lost or stolen device, malware, or data they shouldn't be able to see), treat it as urgent: tell them not to open or share the content, and advise P1 issues to phone 020 7946 0199. If you cannot resolve the issue, offer to create a FixDesk ticket. Confirm a one-line summary, the category (Password / MFA reset, Microsoft 365 / Outlook, Teams meetings & audio, Aptiva access / sync, Copilot access & licensing, Laptop hardware, Peripherals, Power BI report, Data request, Phishing report, New starter setup, Leaver / access removal) and a priority (P1–P4 per the service levels), then call the Create FixDesk ticket flow and give the user the reference. Be friendly and brief, and use UK English.",
+  "trainer_notes": "If no FixDesk API is available, use a SharePoint list 'FixDesk Tickets' as the target of the flow. Discuss human approval for any action that changes access."
+ },
+ {
+  "id": "S-TECH-02",
+  "title": "Spot oversharing and sensitive data before Copilot goes live",
+  "level": "Intermediate",
+  "module": "Copilot readiness — data governance",
+  "persona": "P036",
+  "context": "Liam O'Connor, DPO, must confirm there are no Critical findings before the Wave 2 go/no-go on 11 November 2026. A salary file was shared org-wide and other risky files exist across sites.",
+  "goal": "Use Copilot and the permissions review to identify oversharing, assess sensitivity against the label policy, and produce a go/no-go briefing.",
+  "task_steps": [
+   "Ask Copilot to summarise open findings in the Copilot Readiness — SharePoint Permissions Review workbook by risk and owner.",
+   "Read the oversharing email thread and confirm what remediation was done and what is outstanding for PR-014.",
+   "Compare the Salary Benchmarking 2026 file's current label with the Information Security Policy label definitions — what label should it have?",
+   "Check the Aptiva Data Dictionary for fields that are Highly Confidential (special category) and the AI Acceptable Use Policy rules for them.",
+   "Draft a one-page go/no-go note for Aisha Karim: open Critical/High findings, owners, dates and a recommendation.",
+   "Reflect: which prompts might a normal user type that would have surfaced the salary file?"
+  ],
+  "sample_prompts": [
+   "Summarise the open findings in the Copilot readiness permissions review by risk, owner and due date.",
+   "What happened with the salary benchmarking file, and what's still outstanding?",
+   "Under our Information Security Policy, what sensitivity label should a file containing named salaries have?",
+   "Which Aptiva fields are special category data, and what does the AI Acceptable Use Policy say about using them in Copilot?",
+   "Draft a go/no-go recommendation for Copilot Wave 2 based on the permissions review."
+  ],
+  "success_criteria": [
+   "Identifies PR-014 (salary file) as the open Critical finding, pending label upgrade to Highly Confidential by Marcus Bell.",
+   "Lists other open items (PR-004, PR-015, PR-020) with owners and dates.",
+   "Correctly states that named salary data is Highly Confidential and is excluded from Copilot for other users.",
+   "Identifies LLDD as Highly Confidential special category data.",
+   "Recommendation is conditional: go for Wave 2 only if PR-014 is closed by 11 Nov.",
+   "Does not open or quote the individual salary data itself."
+  ],
+  "data_sources": [
+   "tech-copilot-permissions-review",
+   "tech-email-oversharing-salary-file",
+   "tech-information-security-policy",
+   "tech-ai-acceptable-use-policy",
+   "tech-aptiva-data-dictionary",
+   "tech-copilot-rollout-plan",
+   "ppl-salary-benchmarking-2026",
+   "tech-chat-copilot-champions"
+  ],
+  "fact_ids": [
+   "tech_ai_prohibited_data",
+   "tech_learner_record_retention"
+  ],
+  "trainer_notes": "In the tenant, Salary Benchmarking 2026 is labelled Confidential, which is deliberately too low. Learners should spot this. If the trainer tenant has SharePoint Advanced Management, demo the data access governance report."
+ }
+]

@@ -1,0 +1,159 @@
+[
+ {
+  "id": "ptn_northgrid_on_programme",
+  "category": "Commercial",
+  "question": "How many Northgrid Energy plc apprentices are currently on programme?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE employer_id='EMP1001' AND status IN ('Active','Break in learning','Gateway','EPA')",
+  "format": "int",
+  "sources": [
+   "learners",
+   "ptn-account-plan-northgrid"
+  ],
+  "notes": "Active, break in learning, gateway or EPA"
+ },
+ {
+  "id": "ptn_northgrid_ai_learners",
+  "category": "Commercial",
+  "question": "How many Northgrid apprentices are on AI Academy programmes right now?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE employer_id='EMP1001' AND academy='AI Academy' AND status IN ('Active','Break in learning','Gateway','EPA')",
+  "format": "int",
+  "sources": [
+   "learners",
+   "ptn-account-plan-northgrid"
+  ]
+ },
+ {
+  "id": "ptn_top_pipeline_stage",
+  "category": "Commercial",
+  "question": "Which open pipeline stage has the highest weighted value?",
+  "sql": "SELECT stage FROM opportunities WHERE stage NOT LIKE 'Closed%' GROUP BY stage ORDER BY SUM(weighted_value_gbp) DESC LIMIT 1",
+  "sources": [
+   "opportunities",
+   "ptn-pipeline-report-oct26"
+  ]
+ },
+ {
+  "id": "ptn_proposal_weighted",
+  "category": "Commercial",
+  "question": "What is the weighted value of opportunities at Proposal stage?",
+  "sql": "SELECT SUM(weighted_value_gbp) FROM opportunities WHERE stage='Proposal'",
+  "format": "gbp",
+  "sources": [
+   "opportunities",
+   "ptn-pipeline-report-oct26"
+  ]
+ },
+ {
+  "id": "ptn_brightwell_green_pct",
+  "category": "Commercial",
+  "question": "What percentage of Brightwell Foods' on-programme apprentices are rated Green?",
+  "sql": "SELECT 1.0*SUM(progress_rag='Green')/COUNT(*) FROM learners WHERE employer_id='EMP1003' AND status IN ('Active','Break in learning','Gateway','EPA')",
+  "format": "pct",
+  "sources": [
+   "learners",
+   "ptn-qbr-brightwell-q1"
+  ]
+ },
+ {
+  "id": "ptn_valemont_levy_value",
+  "category": "Commercial",
+  "question": "What is the levy-funded value of the Valemont AI Academy proposal as submitted (v1.3)?",
+  "answer": "£496,000",
+  "raw": 496000,
+  "sources": [
+   "ptn-proposal-valemont-ai",
+   "ptn-email-valemont-levy"
+  ],
+  "notes": "16 x AI4 at £19,000 + 8 x ML6 at £24,000. Rises to £572,000 if the AI4 cohort increases to 20 (agreed by email 23 Oct 2026); strategic discount raised to 10%, commercial add-ons £51,030 + VAT."
+ },
+ {
+  "id": "ptn_copilot_bootcamp_price",
+  "category": "Commercial",
+  "question": "What is the 2026/27 price of a Copilot Adoption Bootcamp?",
+  "answer": "£9,500 per cohort of up to 20 (ex VAT)",
+  "raw": 9500,
+  "sources": [
+   "ptn-pricing-offer-2627"
+  ]
+ },
+ {
+  "id": "fin_top_supplier",
+  "category": "Finance",
+  "question": "Which supplier has the highest annual spend?",
+  "sql": "SELECT supplier_name FROM suppliers ORDER BY annual_spend_gbp DESC LIMIT 1",
+  "sources": [
+   "suppliers",
+   "fin-supplier-renewals"
+  ]
+ },
+ {
+  "id": "fin_contracts_ending_6m",
+  "category": "Finance",
+  "question": "How many supplier contracts end in the next six months (from 5 November 2026)?",
+  "sql": "SELECT COUNT(*) FROM suppliers WHERE contract_end BETWEEN '2026-11-05' AND date('2026-11-05','+6 months')",
+  "format": "int",
+  "sources": [
+   "suppliers",
+   "fin-supplier-renewals"
+  ],
+  "notes": "PeopleFlow HR, Brightside Events, Wellspring EAP. Three further contracts have already expired and are rolling."
+ },
+ {
+  "id": "fin_oct_funding",
+  "category": "Finance",
+  "question": "How much apprenticeship funding was earned in October 2026?",
+  "sql": "SELECT SUM(on_programme_funding_gbp + completion_funding_gbp) FROM monthly_funding WHERE month='2026-10'",
+  "format": "gbp",
+  "sources": [
+   "monthly_funding",
+   "fin-mgmt-accounts-oct26",
+   "fin-email-funding-variance"
+  ],
+  "notes": "Budget £790,000 — variance −£37,920"
+ },
+ {
+  "id": "fin_budget_ebitda",
+  "category": "Finance",
+  "question": "What is Delcorn's budgeted EBITDA for FY2026/27?",
+  "answer": "£1,330,000 (11.0% of revenue)",
+  "raw": 1330000,
+  "sources": [
+   "fin-budget-fy2627",
+   "fin-mgmt-accounts-oct26"
+  ],
+  "notes": "Revenue £12,100,000 less costs £10,770,000"
+ },
+ {
+  "id": "fin_po_ceo_threshold",
+  "category": "Policy",
+  "question": "Above what order value does a purchase order need CEO and CFO approval?",
+  "answer": "£50,000 and above (whole contract value, ex VAT); £10,000–£49,999 needs the CFO; £1,000–£9,999 head of department + Finance Manager; up to £1,000 budget holder",
+  "sources": [
+   "fin-procurement-policy"
+  ]
+ },
+ {
+  "id": "fin_invoice_terms",
+  "category": "Finance",
+  "question": "What are the payment terms on Delcorn co-investment invoices?",
+  "answer": "30 days from invoice date",
+  "sources": [
+   "fin-coinvest-invoices-001",
+   "ptn-esa-template",
+   "fin-procurement-policy"
+  ]
+ },
+ {
+  "id": "fin_coinvest_oct_total",
+  "category": "Finance",
+  "question": "What is the total value of the October 2026 co-investment invoice run?",
+  "sql": "SELECT SUM(total) FROM (SELECT SUM(p.funding_band_gbp*0.05) AS total, COUNT(*) AS n, e.employer_id FROM employers e JOIN learners l ON l.employer_id=e.employer_id JOIN programmes p ON p.programme_code=l.programme_code WHERE e.levy_payer=0 AND l.start_date BETWEEN '2026-05-01' AND '2026-09-30' AND l.status <> 'Withdrawn' AND NOT (e.size_band = 'Small (<50)' AND l.age_band = '16-18') GROUP BY e.employer_id ORDER BY n DESC, e.employer_id LIMIT 8)",
+  "format": "gbp2",
+  "sources": [
+   "fin-coinvest-invoices-001",
+   "employers",
+   "learners"
+  ],
+  "notes": "8 invoices dated 31 October 2026, due 30 November 2026"
+ }
+]

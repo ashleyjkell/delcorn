@@ -1,0 +1,3229 @@
+[
+ {
+  "id": "qual-sar-2526",
+  "type": "docx",
+  "title": "Self-Assessment Report 2025/26",
+  "site": "quality",
+  "library": "Self-Assessment & QIP",
+  "folder": "2025-26",
+  "category": "Report",
+  "doc_type_label": "Self-Assessment Report",
+  "tags": [
+   "SAR",
+   "self-assessment",
+   "Ofsted",
+   "quality",
+   "2025/26"
+  ],
+  "summary": "Delcorn's annual self-assessment of apprenticeship quality for 2025/26 against the Ofsted report-card framework, with judgements, strengths, areas for improvement and supporting data.",
+  "author": "P005",
+  "owner": "P005",
+  "modified_by": "P005",
+  "created": "2026-09-08",
+  "modified": "2026-11-02",
+  "version": "0.9",
+  "status": "Under review",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-09-08",
+    "by": "P005",
+    "change": "Structure agreed at Quality Committee"
+   },
+   {
+    "version": "0.5",
+    "date": "2026-10-09",
+    "by": "P021",
+    "change": "Data tables and observation evidence added"
+   },
+   {
+    "version": "0.8",
+    "date": "2026-10-23",
+    "by": "P005",
+    "change": "Leadership & governance section drafted; learner voice triangulated"
+   },
+   {
+    "version": "0.9",
+    "date": "2026-11-02",
+    "by": "P005",
+    "change": "Revised after executive review; for Board approval 10 Dec 2026"
+   }
+  ],
+  "review_date": "2027-10-31",
+  "approved_by": "P001",
+  "blocks": [
+   {
+    "h1": "1. Introduction and context"
+   },
+   {
+    "p": "This self-assessment report (SAR) evaluates the quality of Delcorn's apprenticeship provision for the academic year 2025/26 (1 August 2025 – 31 July 2026). It has been written against the Ofsted report-card framework used at our inspection in February 2026 and follows the same five evaluation areas: **achievement**, **curriculum and teaching**, **participation and development**, **inclusion**, and **leadership and governance**."
+   },
+   {
+    "p": "Delcorn delivers apprenticeships from Level 3 to Level 7 through five academies (AI, Data, Digital, Leadership and People) to large employers across England. All delivery is remote: skills coaches provide 1:1 coaching and 12-weekly tripartite progress reviews, academies run live online workshops, and apprentices record evidence and off-the-job (OTJ) training in Aptiva. At 5 November 2026 there were {{fact:active_learners}} apprentices on programme with {{fact:active_employers}} active employer partners."
+   },
+   {
+    "p": "The SAR draws on Aptiva and ILR data, the coaching observation programme, learner and employer voice, EPA results, internal funding audits, safeguarding records (aggregate only) and the findings of the February 2026 inspection. Every judgement below cites its evidence; where evidence is incomplete we say so."
+   },
+   {
+    "kv": [
+     [
+      "Overall self-assessed grade",
+      "Strong standard"
+     ],
+     [
+      "Previous self-assessment (2024/25)",
+      "Expected standard (achievement); Strong standard (all other areas)"
+     ],
+     [
+      "Ofsted inspection (Feb 2026)",
+      "Strong standard in all evaluation areas"
+     ],
+     [
+      "Achievement rate 2025/26",
+      "{{fact:achievement_rate_2526}} (2024/25: {{fact:achievement_rate_2425}})"
+     ],
+     [
+      "Leavers in year",
+      "{{fact:leavers_2526}}"
+     ],
+     [
+      "Learner NPS (12 months)",
+      "{{fact:learner_nps_12m}}"
+     ]
+    ]
+   },
+   {
+    "h2": "Summary of judgements"
+   },
+   {
+    "table": {
+     "columns": [
+      "Evaluation area",
+      "Self-assessed grade 2025/26",
+      "Grade 2024/25",
+      "Direction"
+     ],
+     "rows": [
+      [
+       "Achievement",
+       "Strong standard",
+       "Expected standard",
+       "Improving"
+      ],
+      [
+       "Curriculum and teaching",
+       "Strong standard",
+       "Strong standard",
+       "Stable"
+      ],
+      [
+       "Participation and development",
+       "Strong standard",
+       "Strong standard",
+       "Improving"
+      ],
+      [
+       "Inclusion",
+       "Strong standard",
+       "Strong standard",
+       "Stable"
+      ],
+      [
+       "Leadership and governance",
+       "Strong standard",
+       "Strong standard",
+       "Stable"
+      ]
+     ],
+     "caption": "Table 1 – Self-assessed grades by evaluation area"
+    }
+   },
+   {
+    "pagebreak": true
+   },
+   {
+    "h1": "2. Achievement"
+   },
+   {
+    "p": "**Judgement: Strong standard.** The overall achievement rate rose by 14 percentage points, from {{fact:achievement_rate_2425}} in 2024/25 to {{fact:achievement_rate_2526}} in 2025/26, placing Delcorn well above the most recent national rate for apprenticeships. Of {{fact:leavers_2526}} leavers, {{fact:withdrawals_2526}} withdrew. The most common withdrawal reason remains '{{fact:top_withdrawal_reason}}', which is largely outside our control but is mitigated by our transfer-to-new-employer process."
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, COUNT(*) AS Leavers, SUM(status='Completed') AS Achieved, SUM(status='Withdrawn') AS Withdrawn, printf('%.1f%%', 100.0*SUM(status='Completed')/COUNT(*)) AS \"Achievement rate\" FROM learners WHERE status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1",
+     "caption": "Table 2 – Achievement by academy, 2025/26 leavers"
+    }
+   },
+   {
+    "p": "Achievement is strongest in the Data Academy and weakest in the People Academy and Digital Academy, both of which are smaller and were affected by coach turnover in the first half of the year. The EPA grade profile is positive: the first-attempt pass rate for 2025/26 was {{fact:qual_epa_first_attempt_2526}}, and around one in four apprentices achieved a Distinction."
+   },
+   {
+    "table": {
+     "sql": "SELECT grade AS Grade, COUNT(*) AS Results, printf('%.1f%%', 100.0*COUNT(*)/(SELECT COUNT(*) FROM epa_results WHERE epa_date BETWEEN '2025-08-01' AND '2026-07-31')) AS Share, printf('%.1f%%', 100.0*AVG(first_attempt)) AS \"First attempt\" FROM epa_results WHERE epa_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY CASE grade WHEN 'Distinction' THEN 1 WHEN 'Merit' THEN 2 ELSE 3 END",
+     "caption": "Table 3 – EPA grade profile, results in 2025/26"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT withdrawal_reason AS \"Withdrawal reason\", COUNT(*) AS Learners FROM learners WHERE status='Withdrawn' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2 DESC",
+     "caption": "Table 4 – Withdrawal reasons, 2025/26 leavers"
+    }
+   },
+   {
+    "h3": "Strengths"
+   },
+   {
+    "bullets": [
+     "Sustained improvement in achievement across all five academies, driven by the at-risk learner process introduced in September 2025.",
+     "High proportion of Merit and Distinction grades, particularly on Data Analyst (DA4) and Operations Manager (OM5).",
+     "Gateway readiness checks mean very few apprentices fail EPA at first attempt."
+    ]
+   },
+   {
+    "h3": "Areas for improvement"
+   },
+   {
+    "bullets": [
+     "Close the achievement gap in the People and Digital academies (QIP ref QIP-01).",
+     "Reduce early withdrawals in the first 90 days by strengthening initial assessment and employer commitment to OTJ (QIP-02).",
+     "Improve timeliness: a minority of apprentices pass their planned end date before reaching gateway."
+    ]
+   },
+   {
+    "h1": "3. Curriculum and teaching"
+   },
+   {
+    "p": "**Judgement: Strong standard.** Curricula are ambitious, current and planned with employers, particularly in the AI Academy, where content is reviewed each term against developments in generative AI and regulation. Coaches are industry experts who use real employer data and projects. During 2025/26 we completed {{sql:SELECT COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'}} observations of coaching, workshops and reviews; {{fact:qual_obs_strong_pct_2526}} were graded Strong and {{sql:SELECT 1.0*SUM(grade IN ('Strong','Secure'))/COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'|pct}} Strong or Secure."
+   },
+   {
+    "table": {
+     "sql": "SELECT grade AS Grade, COUNT(*) AS Observations, printf('%.1f%%', 100.0*COUNT(*)/(SELECT COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31')) AS Share FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY CASE grade WHEN 'Strong' THEN 1 WHEN 'Secure' THEN 2 WHEN 'Developing' THEN 3 ELSE 4 END",
+     "caption": "Table 5 – Observation grades, 2025/26"
+    }
+   },
+   {
+    "table": {
+     "sql": "SELECT development_area AS \"Development area\", COUNT(*) AS Observations FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2 DESC",
+     "caption": "Table 6 – Most frequent development areas from observations"
+    }
+   },
+   {
+    "h3": "Strengths"
+   },
+   {
+    "bullets": [
+     "Skilful questioning and personalised targets were the most frequently recorded strengths in observations.",
+     "Strong links between KSBs and workplace tasks; apprentices apply learning quickly (e.g. automating reports, building dashboards).",
+     "Live workshops are rated highly by learners and are recorded for those who cannot attend."
+    ]
+   },
+   {
+    "h3": "Areas for improvement"
+   },
+   {
+    "bullets": [
+     "Targets set in progress reviews are not always specific or measurable (QIP-04).",
+     "Coaches do not consistently use Aptiva evidence during sessions to check and extend learning (QIP-05).",
+     "More able apprentices are not always stretched towards Distinction criteria early enough."
+    ]
+   },
+   {
+    "h1": "4. Participation and development"
+   },
+   {
+    "p": "**Judgement: Strong standard.** Apprentices value their programmes: the 12-month learner NPS is {{fact:learner_nps_12m}}. Personal development, careers guidance and wellbeing support are well integrated into reviews. Attendance at live workshops averaged 81% across the year."
+   },
+   {
+    "table": {
+     "sql": "SELECT survey AS Survey, COUNT(*) AS Responses, SUM(nps_category='Promoter') AS Promoters, SUM(nps_category='Detractor') AS Detractors, printf('%+d', ROUND(100.0*SUM(nps_category='Promoter')/COUNT(*) - 100.0*SUM(nps_category='Detractor')/COUNT(*))) AS NPS, printf('%.2f', AVG(coach_rating)) AS \"Coach rating (1-5)\", printf('%.2f', AVG(workshop_rating)) AS \"Workshop rating (1-5)\" FROM learner_feedback WHERE response_date > '2025-11-05' GROUP BY 1 ORDER BY 1",
+     "caption": "Table 7 – Learner voice by survey, last 12 months"
+    }
+   },
+   {
+    "p": "The most common negative theme in learner comments is lack of time for OTJ training alongside work; a small number of apprentices report that their manager does not protect learning time. At 5 November 2026, {{fact:qual_otj_behind_active}} active apprentices were more than 20% behind their expected OTJ hours."
+   },
+   {
+    "h3": "Areas for improvement"
+   },
+   {
+    "bullets": [
+     "Work with employers to secure protected OTJ time, especially for shift-based roles (QIP-06).",
+     "Reduce rescheduled progress reviews; at 5 November 2026, {{fact:overdue_reviews}} reviews were overdue (QIP-07)."
+    ]
+   },
+   {
+    "h1": "5. Inclusion"
+   },
+   {
+    "p": "**Judgement: Strong standard.** Apprentices with learning difficulties or disabilities (LLDD) achieve in line with their peers. Additional learning support (ALS) is identified at initial assessment and reviewed every 12 weeks. Safeguarding arrangements are effective: {{fact:sg_concerns_2526}} concerns were raised in 2025/26 and all were triaged by the DSL team on the day they were raised. The most common category was {{fact:sg_top_category}}."
+   },
+   {
+    "table": {
+     "sql": "SELECT CASE lldd WHEN 1 THEN 'LLDD declared' ELSE 'No LLDD declared' END AS Group_, COUNT(*) AS Leavers, printf('%.1f%%', 100.0*SUM(status='Completed')/COUNT(*)) AS \"Achievement rate\" FROM learners WHERE status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1",
+     "columns": [
+      "Group",
+      "Leavers",
+      "Achievement rate"
+     ],
+     "caption": "Table 8 – Achievement by LLDD status, 2025/26"
+    }
+   },
+   {
+    "h3": "Areas for improvement"
+   },
+   {
+    "bullets": [
+     "Embed Prevent and British values discussion more naturally in coaching, rather than as a checklist item (QIP-08).",
+     "Increase uptake of Functional Skills support by apprentices who are exempt but would benefit."
+    ]
+   },
+   {
+    "h1": "6. Leadership and governance"
+   },
+   {
+    "p": "**Judgement: Strong standard.** Leaders have a clear, ambitious vision and act on accurate data. The Quality Committee meets six times a year; the Meridian Education Group board receives a quality and safeguarding report each term. Funding compliance is robust: internal OTJ sampling found no material errors, although evidence quality varies (see the Funding Compliance Audit Q1 2026/27)."
+   },
+   {
+    "bullets": [
+     "Strong governance oversight of safeguarding, with an independent safeguarding governor appointed in January 2026.",
+     "Staff development is well planned; all coaches complete at least 30 hours of CPD per year.",
+     "Area for improvement: the QIP needs sharper, measurable success criteria and monthly RAG review (QIP-10)."
+    ]
+   },
+   {
+    "h1": "7. Next steps"
+   },
+   {
+    "p": "Areas for improvement are carried into the Quality Improvement Plan 2026/27, which is reviewed monthly by the Quality Manager and each meeting of the Quality Committee."
+   },
+   {
+    "signature": "P005",
+    "date": "2026-11-02"
+   }
+  ]
+ },
+ {
+  "id": "qual-qip-2627",
+  "type": "xlsx",
+  "title": "Quality Improvement Plan 2026/27",
+  "site": "quality",
+  "library": "Self-Assessment & QIP",
+  "folder": "2026-27",
+  "category": "Plan",
+  "tags": [
+   "QIP",
+   "quality improvement",
+   "RAG",
+   "2026/27"
+  ],
+  "summary": "Actions arising from the 2025/26 SAR, with owners, success measures, due dates and RAG status, reviewed monthly.",
+  "author": "P021",
+  "owner": "P021",
+  "modified_by": "P021",
+  "created": "2026-09-01",
+  "modified": "2026-11-04",
+  "version": "1.3",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-09-24",
+    "by": "P021",
+    "change": "Approved at Quality Committee"
+   },
+   {
+    "version": "1.3",
+    "date": "2026-11-04",
+    "by": "P021",
+    "change": "October RAG update"
+   }
+  ],
+  "approved_by": "P005",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Quality Improvement Plan 2026/27 — Delcorn Learning Ltd",
+     "Owner: Hannah Price, Quality Manager. Approved by Dr Siân Llewellyn, Director of Quality & Compliance.",
+     "Each action links to an area for improvement in the Self-Assessment Report 2025/26.",
+     "RAG: Green = on track; Amber = at risk; Red = off track; Complete; Not started.",
+     "Updated monthly before each Quality Committee. Last update: 4 November 2026."
+    ]
+   },
+   {
+    "name": "Actions",
+    "columns": [
+     "Ref",
+     "SAR area",
+     "Area for improvement",
+     "Action",
+     "Success measure",
+     "Owner",
+     "Start",
+     "Due",
+     "RAG",
+     "Latest update"
+    ],
+    "rows": [
+     [
+      "QIP-01",
+      "Achievement",
+      "Achievement gap in People and Digital academies",
+      "Monthly at-risk panels for People and Digital; additional senior coach capacity",
+      "Achievement rate in both academies ≥ 80% in 2026/27",
+      "{{person:P009}}",
+      "2026-09-01",
+      "2027-07-31",
+      "Amber",
+      "Panels running since Sept; Digital coach vacancy filled 12 Oct"
+     ],
+     [
+      "QIP-02",
+      "Achievement",
+      "Early withdrawals (first 90 days)",
+      "Strengthen initial assessment and employer commitment statement",
+      "Withdrawals within 90 days down by 25%",
+      "{{person:P037}}",
+      "2026-09-01",
+      "2027-03-31",
+      "Green",
+      "New commitment statement live from 1 Oct"
+     ],
+     [
+      "QIP-03",
+      "Achievement",
+      "Apprentices passing planned end date before gateway",
+      "Gateway forecast report in Power BI; delivery manager review fortnightly",
+      "≤ 5% of on-programme learners past planned end date",
+      "{{person:P012}}",
+      "2026-10-01",
+      "2027-01-31",
+      "Amber",
+      "Report in test with Data & Systems"
+     ],
+     [
+      "QIP-04",
+      "Curriculum and teaching",
+      "Targets not specific or measurable",
+      "SMART target CPD session; target quality added to review audit",
+      "90% of sampled reviews have SMART targets",
+      "{{person:P021}}",
+      "2026-09-15",
+      "2026-12-18",
+      "Green",
+      "CPD delivered 7 Oct to 58 coaches"
+     ],
+     [
+      "QIP-05",
+      "Curriculum and teaching",
+      "Limited use of Aptiva evidence in sessions",
+      "Coach guide and peer-share sessions on using evidence live",
+      "Development area recorded in < 10% of observations",
+      "{{person:P015}}",
+      "2026-10-01",
+      "2027-02-28",
+      "Amber",
+      "Guide drafted"
+     ],
+     [
+      "QIP-06",
+      "Participation and development",
+      "OTJ time not protected by some employers",
+      "Employer OTJ charter; escalate learners > 20% behind to account manager",
+      "Learners > 20% behind OTJ reduced to < 8%",
+      "{{person:P022}}",
+      "2026-09-01",
+      "2027-04-30",
+      "Red",
+      "Q1 audit shows little change; employer escalation not yet consistent"
+     ],
+     [
+      "QIP-07",
+      "Participation and development",
+      "Overdue and rescheduled progress reviews",
+      "Weekly overdue review report; caseload rebalancing for coaches over target",
+      "Overdue reviews < 5% of caseload",
+      "{{person:P009}}",
+      "2026-09-01",
+      "2027-01-31",
+      "Red",
+      "Overdue reviews still above tolerance at 5 Nov"
+     ],
+     [
+      "QIP-08",
+      "Inclusion",
+      "Prevent and British values not naturally embedded",
+      "Prevent scenario bank for coaches; observation focus in Spring term",
+      "Development area recorded in < 5% of observations",
+      "{{person:P010}}",
+      "2026-10-01",
+      "2027-03-31",
+      "Green",
+      "Scenario bank published in Training & Briefings"
+     ],
+     [
+      "QIP-09",
+      "Inclusion",
+      "Low uptake of optional Functional Skills support",
+      "Promote drop-in sessions at onboarding and mid-point",
+      "Uptake up 30%",
+      "{{person:P018}}",
+      "2026-11-01",
+      "2027-05-31",
+      "Not started",
+      ""
+     ],
+     [
+      "QIP-10",
+      "Leadership and governance",
+      "QIP success criteria not sharp enough",
+      "Rewrite QIP measures; monthly RAG review at Quality Committee",
+      "All actions have measurable criteria and monthly updates",
+      "{{person:P021}}",
+      "2026-09-01",
+      "2026-10-31",
+      "Complete",
+      "Completed — this version"
+     ],
+     [
+      "QIP-11",
+      "Leadership and governance",
+      "Copilot and AI tools introduce data-oversharing risk to learner records",
+      "Sensitivity labels on Case Management and Learner Files; staff briefing",
+      "Labels applied; zero oversharing incidents",
+      "{{person:P036}}",
+      "2026-10-01",
+      "2026-12-31",
+      "Amber",
+      "Labels applied to Safeguarding site; Delivery to follow"
+     ]
+    ]
+   },
+   {
+    "name": "Summary",
+    "columns": [
+     "RAG",
+     "Actions"
+    ],
+    "rows": [
+     [
+      "Green",
+      "=COUNTIF(Actions!I:I,\"Green\")"
+     ],
+     [
+      "Amber",
+      "=COUNTIF(Actions!I:I,\"Amber\")"
+     ],
+     [
+      "Red",
+      "=COUNTIF(Actions!I:I,\"Red\")"
+     ],
+     [
+      "Complete",
+      "=COUNTIF(Actions!I:I,\"Complete\")"
+     ],
+     [
+      "Not started",
+      "=COUNTIF(Actions!I:I,\"Not started\")"
+     ],
+     [
+      "Total",
+      "=SUM(B2:B6)"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-ofsted-summary-feb26",
+  "type": "pdf",
+  "title": "Ofsted Inspection Report Summary — February 2026",
+  "site": "quality",
+  "library": "Ofsted & Inspection",
+  "folder": "2026 Inspection",
+  "category": "Report",
+  "doc_type_label": "Internal summary",
+  "tags": [
+   "Ofsted",
+   "inspection",
+   "report card",
+   "Strong standard"
+  ],
+  "summary": "Delcorn's internal summary of the February 2026 Ofsted inspection outcome: Strong standard in all evaluation areas, key findings and recommendations.",
+  "author": "P005",
+  "owner": "P005",
+  "modified_by": "P005",
+  "created": "2026-03-16",
+  "modified": "2026-03-27",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-03-16",
+    "by": "P005",
+    "change": "First draft after publication of report"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-03-27",
+    "by": "P005",
+    "change": "Approved by executive team"
+   }
+  ],
+  "approved_by": "P001",
+  "blocks": [
+   {
+    "h1": "Inspection overview"
+   },
+   {
+    "kv": [
+     [
+      "Inspection dates",
+      "10–13 February 2026"
+     ],
+     [
+      "Type",
+      "Full inspection, report-card framework"
+     ],
+     [
+      "Inspection team",
+      "Lead inspector plus four Ofsted inspectors (remote and on-site with employers)"
+     ],
+     [
+      "Nominee",
+      "Dr Siân Llewellyn, Director of Quality & Compliance"
+     ],
+     [
+      "Report published",
+      "12 March 2026"
+     ],
+     [
+      "Apprentices on programme at inspection",
+      "c. 1,350"
+     ]
+    ]
+   },
+   {
+    "table": {
+     "columns": [
+      "Evaluation area",
+      "Outcome"
+     ],
+     "rows": [
+      [
+       "Achievement",
+       "Strong standard"
+      ],
+      [
+       "Curriculum and teaching",
+       "Strong standard"
+      ],
+      [
+       "Participation and development",
+       "Strong standard"
+      ],
+      [
+       "Inclusion",
+       "Strong standard"
+      ],
+      [
+       "Leadership and governance",
+       "Strong standard"
+      ],
+      [
+       "Safeguarding",
+       "Met"
+      ]
+     ],
+     "caption": "Report card outcomes"
+    }
+   },
+   {
+    "h1": "Key findings"
+   },
+   {
+    "bullets": [
+     "Inspectors judged curricula to be ambitious and highly relevant to employers' needs, particularly in AI and data, where coaches 'bring current industry practice into every session'.",
+     "Apprentices develop substantial new knowledge, skills and behaviours and apply them at work quickly; employers gave many examples of productivity gains.",
+     "Achievement has improved markedly and is now high; the proportion of high grades at EPA is above that of similar providers.",
+     "Progress reviews are thorough and involve employers well, although targets are sometimes too broad.",
+     "Safeguarding arrangements are effective. Apprentices feel safe, know how to report concerns and understand the risks of radicalisation and online harms relevant to their sectors.",
+     "Leaders and governors have an accurate view of strengths and weaknesses; self-assessment closely matched inspection findings."
+    ]
+   },
+   {
+    "h1": "What Delcorn should do to improve"
+   },
+   {
+    "numbered": [
+     "Ensure coaches set precise, measurable targets in every progress review so that apprentices know exactly what they need to do next.",
+     "Work with a minority of employers to make sure apprentices receive their full entitlement to off-the-job training.",
+     "Ensure that the most able apprentices are challenged early to achieve the highest grades.",
+     "Strengthen the way coaches revisit Prevent and British values so that apprentices' understanding is deepened over time."
+    ]
+   },
+   {
+    "callout": "All four recommendations were incorporated into the Quality Improvement Plan 2026/27 (QIP-04, QIP-06, QIP-05 and QIP-08).",
+    "title": "Follow-up"
+   },
+   {
+    "h1": "Inspection learning for next time"
+   },
+   {
+    "bullets": [
+     "The Inspection Readiness Evidence Map made it easy to retrieve evidence during the call; keep it current monthly.",
+     "Inspectors sampled 46 apprentices; having review records signed by all parties was essential.",
+     "Employer interviews were the most influential evidence for curriculum judgements — maintain a bank of willing employer contacts."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-evidence-map",
+  "type": "xlsx",
+  "title": "Inspection Readiness Evidence Map",
+  "site": "quality",
+  "library": "Ofsted & Inspection",
+  "folder": "Readiness",
+  "category": "Register",
+  "tags": [
+   "Ofsted",
+   "evidence",
+   "inspection readiness"
+  ],
+  "summary": "Maps each report-card evaluation area to the evidence held, its SharePoint location, owner and currency.",
+  "author": "P021",
+  "owner": "P021",
+  "modified_by": "P021",
+  "created": "2025-10-06",
+  "modified": "2026-10-30",
+  "version": "3.2",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2026-01-20",
+    "by": "P021",
+    "change": "Pre-inspection refresh"
+   },
+   {
+    "version": "3.0",
+    "date": "2026-09-01",
+    "by": "P021",
+    "change": "Updated for 2026/27"
+   },
+   {
+    "version": "3.2",
+    "date": "2026-10-30",
+    "by": "P021",
+    "change": "Monthly currency check"
+   }
+  ],
+  "approved_by": "P005",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Inspection Readiness Evidence Map",
+     "Each row is a key piece of evidence for an Ofsted evaluation area.",
+     "Currency RAG: Green = updated within 3 months; Amber = 3–6 months; Red = older than 6 months or missing.",
+     "Owner: Hannah Price. Reviewed monthly."
+    ]
+   },
+   {
+    "name": "Evidence map",
+    "columns": [
+     "Evaluation area",
+     "Key question",
+     "Evidence",
+     "Location",
+     "Owner",
+     "Last updated",
+     "Currency RAG"
+    ],
+    "rows": [
+     [
+      "Achievement",
+      "Do apprentices achieve and progress?",
+      "Achievement rates by academy (Power BI)",
+      "Power BI – Quality dashboard",
+      "{{person:P029}}",
+      "2026-10-31",
+      "Green"
+     ],
+     [
+      "Achievement",
+      "Do apprentices achieve and progress?",
+      "EPA results and grade profile",
+      "Quality & Compliance › Self-Assessment & QIP",
+      "{{person:P021}}",
+      "2026-10-28",
+      "Green"
+     ],
+     [
+      "Achievement",
+      "Do apprentices achieve and progress?",
+      "Destinations and progression survey",
+      "Quality & Compliance › Self-Assessment & QIP",
+      "{{person:P021}}",
+      "2026-03-30",
+      "Amber"
+     ],
+     [
+      "Curriculum and teaching",
+      "Is the curriculum ambitious and well taught?",
+      "Programme specifications",
+      "Curriculum & Academies › Programme Specifications",
+      "{{person:P008}}",
+      "2026-08-15",
+      "Green"
+     ],
+     [
+      "Curriculum and teaching",
+      "Is the curriculum ambitious and well taught?",
+      "Observation records and summary 2025/26",
+      "Quality & Compliance › Observations",
+      "{{person:P021}}",
+      "2026-09-18",
+      "Green"
+     ],
+     [
+      "Curriculum and teaching",
+      "Is the curriculum ambitious and well taught?",
+      "Coach CPD records",
+      "People & Culture › CPD & Development",
+      "{{person:P033}}",
+      "2026-04-10",
+      "Amber"
+     ],
+     [
+      "Participation and development",
+      "Do apprentices engage and develop personally?",
+      "Learner Voice Report — Autumn 2026",
+      "Quality & Compliance › Self-Assessment & QIP",
+      "{{person:P021}}",
+      "2026-11-04",
+      "Green"
+     ],
+     [
+      "Participation and development",
+      "Do apprentices engage and develop personally?",
+      "OTJ compliance sampling",
+      "Quality & Compliance › Policies & Procedures",
+      "{{person:P022}}",
+      "2026-11-03",
+      "Green"
+     ],
+     [
+      "Participation and development",
+      "Do apprentices engage and develop personally?",
+      "Progress review audit",
+      "Learning Delivery › Caseload Reports",
+      "{{person:P009}}",
+      "2026-02-27",
+      "Red"
+     ],
+     [
+      "Inclusion",
+      "Are all apprentices supported and safe?",
+      "Safeguarding & Prevent Policy 2026/27",
+      "Safeguarding › Policies & Guidance",
+      "{{person:P010}}",
+      "2026-08-28",
+      "Green"
+     ],
+     [
+      "Inclusion",
+      "Are all apprentices supported and safe?",
+      "Safeguarding annual report (aggregate)",
+      "Safeguarding › Training & Briefings",
+      "{{person:P010}}",
+      "2026-09-30",
+      "Green"
+     ],
+     [
+      "Inclusion",
+      "Are all apprentices supported and safe?",
+      "ALS procedure and support plans",
+      "Safeguarding › Learner Support",
+      "{{person:P023}}",
+      "2026-08-20",
+      "Green"
+     ],
+     [
+      "Leadership and governance",
+      "Do leaders and governors drive improvement?",
+      "SAR 2025/26 and QIP 2026/27",
+      "Quality & Compliance › Self-Assessment & QIP",
+      "{{person:P005}}",
+      "2026-11-02",
+      "Green"
+     ],
+     [
+      "Leadership and governance",
+      "Do leaders and governors drive improvement?",
+      "Quality Committee minutes",
+      "Quality & Compliance › Self-Assessment & QIP",
+      "{{person:P011}}",
+      "2026-09-29",
+      "Green"
+     ],
+     [
+      "Leadership and governance",
+      "Do leaders and governors drive improvement?",
+      "Board quality reports",
+      "Executive & Board › Board Packs",
+      "{{person:P011}}",
+      "2026-07-15",
+      "Amber"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-obs-framework",
+  "type": "docx",
+  "title": "Observation of Coaching Framework",
+  "site": "quality",
+  "library": "Observations",
+  "category": "Procedure",
+  "tags": [
+   "observation",
+   "coaching",
+   "grade descriptors",
+   "quality"
+  ],
+  "summary": "How Delcorn observes coaching, workshops, progress reviews and Functional Skills lessons, with grade descriptors Strong, Secure, Developing and Requires improvement.",
+  "author": "P021",
+  "owner": "P021",
+  "modified_by": "P021",
+  "created": "2024-07-15",
+  "modified": "2026-08-26",
+  "version": "3.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2024-07-15",
+    "by": "P021",
+    "change": "New developmental framework replacing graded lesson observations"
+   },
+   {
+    "version": "2.0",
+    "date": "2025-08-20",
+    "by": "P021",
+    "change": "Added Gateway preparation sessions"
+   },
+   {
+    "version": "3.0",
+    "date": "2026-08-26",
+    "by": "P021",
+    "change": "Aligned to report-card framework; re-observation timescales tightened"
+   }
+  ],
+  "review_date": "2027-08-31",
+  "approved_by": "P005",
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "Observation is how we assure and improve the quality of teaching, coaching and assessment. It is developmental: its purpose is to help every coach and tutor improve, and to give leaders an accurate picture of quality to inform the SAR. Grades are recorded against the descriptors below and are never used in isolation for performance management."
+   },
+   {
+    "h1": "2. Scope and frequency"
+   },
+   {
+    "bullets": [
+     "Every skills coach and Functional Skills tutor is formally observed **at least once each academic year**.",
+     "New coaches are observed **within their first 3 months**, before their probation review.",
+     "Any session graded Requires improvement is followed by a support plan and a **re-observation within 6 weeks**.",
+     "Sessions graded Developing are re-observed within one term.",
+     "Session types: 1:1 coaching, progress review, group workshop, Functional Skills lesson and Gateway preparation."
+    ]
+   },
+   {
+    "h1": "3. Observers"
+   },
+   {
+    "p": "Observations are carried out by the Quality Manager (Hannah Price), the Director of Quality & Compliance, the Head of Delivery and delivery managers, all of whom complete annual standardisation. Ten per cent of observations are jointly observed to moderate judgements."
+   },
+   {
+    "h1": "4. Grade descriptors"
+   },
+   {
+    "table": {
+     "columns": [
+      "Grade",
+      "Descriptor"
+     ],
+     "rows": [
+      [
+       "Strong",
+       "Learning is highly effective. The coach skilfully sequences content, uses questioning to deepen thinking, links every activity to KSBs and the workplace, and stretches the apprentice towards higher grades. Wellbeing, Prevent and British values are woven in naturally. Targets are precise and owned by the apprentice."
+      ],
+      [
+       "Secure",
+       "Learning is effective. The session is well planned and relevant, the apprentice makes clear progress and targets are mostly specific. Minor improvements would increase impact."
+      ],
+      [
+       "Developing",
+       "Some learning takes place, but planning, questioning, use of evidence or target setting are inconsistent. The apprentice's progress is not always checked. A development plan is agreed."
+      ],
+      [
+       "Requires improvement",
+       "Learning is not effective or the apprentice is not making sufficient progress. Significant weaknesses exist in planning, checking understanding, compliance (e.g. OTJ, safeguarding) or employer involvement. A support plan and re-observation within 6 weeks are mandatory."
+      ]
+     ],
+     "caption": "Table 1 – Grade descriptors"
+    }
+   },
+   {
+    "h1": "5. Process"
+   },
+   {
+    "numbered": [
+     "Observer agrees the session with the coach at least 5 working days in advance (unannounced 'drop-ins' are used only for follow-up).",
+     "Observer joins the Teams session with camera off after introduction; learner consent is confirmed at the start.",
+     "Observer records evidence against the five focus areas: planning; questioning and checking learning; KSB and workplace links; personal development and safeguarding; target setting.",
+     "Verbal feedback within 2 working days; written record in the observation log within 5 working days.",
+     "Coach and observer agree one strength and one development area, recorded in the log.",
+     "Follow-up actions are tracked by the Quality Manager and reported to the Quality Committee."
+    ]
+   },
+   {
+    "h1": "6. Use of results"
+   },
+   {
+    "p": "Aggregate results are reported termly by academy and session type and summarised annually in the Observation Summary Report. Individual records are confidential to the coach, their manager and the Quality team."
+   }
+  ]
+ },
+ {
+  "id": "qual-obs-summary-2526",
+  "type": "pptx",
+  "title": "Observation Summary Report 2025/26",
+  "site": "quality",
+  "library": "Observations",
+  "folder": "2025-26",
+  "category": "Report",
+  "tags": [
+   "observation",
+   "coaching quality",
+   "2025/26"
+  ],
+  "summary": "Annual summary of coaching observations for 2025/26: grade profile, results by academy and session type, strengths and development themes.",
+  "author": "P021",
+  "owner": "P021",
+  "modified_by": "P021",
+  "created": "2026-09-10",
+  "modified": "2026-09-18",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-09-18",
+    "by": "P021",
+    "change": "Presented at Quality Committee 23 Sept 2026"
+   }
+  ],
+  "approved_by": "P005",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Observation Summary Report 2025/26",
+    "subtitle": "Quality of coaching, workshops and reviews",
+    "meta": "Hannah Price, Quality Manager | September 2026"
+   },
+   {
+    "layout": "kpis",
+    "title": "The year at a glance",
+    "kpis": [
+     {
+      "value": "{{sql:SELECT COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'}}",
+      "label": "Observations",
+      "note": "Aug 2025 – Jul 2026"
+     },
+     {
+      "value": "{{fact:qual_obs_strong_pct_2526}}",
+      "label": "Graded Strong"
+     },
+     {
+      "value": "{{sql:SELECT 1.0*SUM(grade IN ('Strong','Secure'))/COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'|pct}}",
+      "label": "Strong or Secure"
+     },
+     {
+      "value": "{{sql:SELECT SUM(grade='Requires improvement') FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'}}",
+      "label": "Requires improvement",
+      "note": "All re-observed within 6 weeks"
+     }
+    ],
+    "notes": "Observation numbers rose compared with 2024/25 because new coaches were observed within three months. The headline is that most sessions are Strong or Secure."
+   },
+   {
+    "layout": "chart",
+    "title": "Grade profile",
+    "chart": {
+     "type": "doughnut",
+     "title": "Observation grades 2025/26",
+     "sql": "SELECT grade, COUNT(*) AS Observations FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY CASE grade WHEN 'Strong' THEN 1 WHEN 'Secure' THEN 2 WHEN 'Developing' THEN 3 ELSE 4 END",
+     "labels": true
+    }
+   },
+   {
+    "layout": "chart",
+    "title": "Grades by academy",
+    "chart": {
+     "type": "stacked",
+     "title": "Observations by academy and grade",
+     "sql": "SELECT academy, SUM(grade='Strong') AS Strong, SUM(grade='Secure') AS Secure, SUM(grade='Developing') AS Developing, SUM(grade='Requires improvement') AS \"Requires improvement\" FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "bullets": [
+     "Leadership and Data academies strongest",
+     "Digital and Functional Skills need focus",
+     "Small samples in People Academy"
+    ],
+    "notes": "Digital Academy had two new coaches in the autumn term, which explains the higher proportion of Developing grades."
+   },
+   {
+    "layout": "chart",
+    "title": "Grades by session type",
+    "chart": {
+     "type": "bar",
+     "title": "Share of Strong or Secure by session type",
+     "sql": "SELECT session_type, ROUND(100.0*SUM(grade IN ('Strong','Secure'))/COUNT(*),1) AS \"% Strong or Secure\" FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2",
+     "labels": true
+    }
+   },
+   {
+    "layout": "table",
+    "title": "Most common development areas",
+    "table": {
+     "sql": "SELECT development_area AS \"Development area\", COUNT(*) AS Observations FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2 DESC"
+    }
+   },
+   {
+    "layout": "two_column",
+    "title": "Themes",
+    "left": {
+     "heading": "Strengths",
+     "bullets": [
+      "Skilful questioning that deepens reflection",
+      "Clear links between KSBs and workplace tasks",
+      "Strong rapport and wellbeing check-ins",
+      "Use of real employer data"
+     ]
+    },
+    "right": {
+     "heading": "Development priorities",
+     "bullets": [
+      "Sharper, measurable targets (QIP-04)",
+      "Use Aptiva evidence live (QIP-05)",
+      "Stretch more able learners",
+      "Embed Prevent naturally (QIP-08)"
+     ]
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "Recommendations for 2026/27",
+    "bullets": [
+     "Observation focus in autumn term: target setting in progress reviews",
+     "Pair Developing coaches with a Strong-graded peer",
+     "Joint observations with Functional Skills to standardise",
+     "Report results by academy to every Quality Committee"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-learner-voice-aut26",
+  "type": "docx",
+  "title": "Learner Voice Report — Autumn 2026",
+  "site": "quality",
+  "library": "Self-Assessment & QIP",
+  "folder": "Learner Voice",
+  "category": "Report",
+  "tags": [
+   "learner voice",
+   "NPS",
+   "survey",
+   "feedback"
+  ],
+  "summary": "Analysis of learner survey responses for the last 12 months and autumn 2026: NPS, coach and workshop ratings, and themes from comments.",
+  "author": "P021",
+  "owner": "P021",
+  "modified_by": "P021",
+  "created": "2026-10-20",
+  "modified": "2026-11-04",
+  "version": "0.4",
+  "status": "Draft",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-10-20",
+    "by": "P021",
+    "change": "Data extract"
+   },
+   {
+    "version": "0.4",
+    "date": "2026-11-04",
+    "by": "P021",
+    "change": "Themes and actions added"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "Summary"
+   },
+   {
+    "p": "Learner voice remains positive. The Net Promoter Score for the 12 months to 5 November 2026 is **{{fact:learner_nps_12m}}**. Satisfaction is highest at onboarding and lowest in exit surveys, where apprentices reflect on the whole programme including the pressures of OTJ training."
+   },
+   {
+    "table": {
+     "sql": "SELECT survey AS Survey, COUNT(*) AS Responses, SUM(nps_category='Promoter') AS Promoters, SUM(nps_category='Detractor') AS Detractors, printf('%+d', ROUND(100.0*SUM(nps_category='Promoter')/COUNT(*) - 100.0*SUM(nps_category='Detractor')/COUNT(*))) AS NPS, printf('%.2f', AVG(coach_rating)) AS \"Coach rating (1-5)\", printf('%.2f', AVG(workshop_rating)) AS \"Workshop rating (1-5)\" FROM learner_feedback WHERE response_date > '2025-11-05' GROUP BY 1 ORDER BY 1",
+     "caption": "Table 1 – NPS and ratings by survey, last 12 months"
+    }
+   },
+   {
+    "h2": "Autumn term so far (1 August – 5 November 2026)"
+   },
+   {
+    "table": {
+     "sql": "SELECT survey AS Survey, COUNT(*) AS Responses, printf('%+d', ROUND(100.0*SUM(nps_category='Promoter')/COUNT(*) - 100.0*SUM(nps_category='Detractor')/COUNT(*))) AS NPS FROM learner_feedback WHERE response_date >= '2026-08-01' GROUP BY 1 ORDER BY 1",
+     "caption": "Table 2 – Autumn 2026"
+    }
+   },
+   {
+    "h2": "NPS by academy (12 months)"
+   },
+   {
+    "table": {
+     "sql": "SELECT p.academy AS Academy, COUNT(*) AS Responses, printf('%+d', ROUND(100.0*SUM(f.nps_category='Promoter')/COUNT(*) - 100.0*SUM(f.nps_category='Detractor')/COUNT(*))) AS NPS FROM learner_feedback f JOIN programmes p USING (programme_code) WHERE f.response_date > '2025-11-05' GROUP BY 1 ORDER BY 1",
+     "caption": "Table 3 – NPS by academy"
+    }
+   },
+   {
+    "h1": "Themes from comments"
+   },
+   {
+    "table": {
+     "sql": "SELECT comment AS Comment, COUNT(*) AS Mentions FROM learner_feedback WHERE response_date > '2025-11-05' GROUP BY 1 ORDER BY 2 DESC LIMIT 10",
+     "caption": "Table 4 – Most frequent comments, last 12 months"
+    }
+   },
+   {
+    "h3": "What learners value"
+   },
+   {
+    "bullets": [
+     "Live workshops that are practical and relevant to their job.",
+     "Knowledgeable coaches who understand their industry.",
+     "Seeing learning applied quickly — automating reports, building dashboards.",
+     "Support during difficult personal circumstances."
+    ]
+   },
+   {
+    "h3": "What learners want us to improve"
+   },
+   {
+    "bullets": [
+     "Time for OTJ training — the most common concern, often linked to managers not protecting time.",
+     "OTJ logging in Aptiva is seen as fiddly.",
+     "Rescheduled progress reviews and changes of coach.",
+     "More sector-specific examples, especially for NHS and retail apprentices.",
+     "Workshop times that clash with shift patterns."
+    ]
+   },
+   {
+    "h1": "Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Share OTJ theme with account managers and add to employer QBR agenda",
+      "owner": "P024",
+      "due": "2026-12-12",
+      "status": "Open"
+     },
+     {
+      "action": "Raise Aptiva OTJ logging usability with Data & Systems",
+      "owner": "P035",
+      "due": "2026-11-28",
+      "status": "Open"
+     },
+     {
+      "action": "Pilot evening repeat of popular workshops for shift workers",
+      "owner": "P008",
+      "due": "2027-01-31",
+      "status": "Open"
+     },
+     {
+      "action": "Report coach-change frequency to Delivery leadership",
+      "owner": "P009",
+      "due": "2026-11-30",
+      "status": "In progress"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-otj-audit-q1-2627",
+  "type": "docx",
+  "title": "Funding Compliance Audit — OTJ Sampling Q1 2026/27",
+  "site": "quality",
+  "library": "Policies & Procedures",
+  "folder": "Funding Audits",
+  "category": "Report",
+  "doc_type_label": "Internal audit report",
+  "classification": "Confidential",
+  "tags": [
+   "funding",
+   "OTJ",
+   "audit",
+   "compliance",
+   "ILR"
+  ],
+  "summary": "Internal sample audit of off-the-job training evidence for August–October 2026, with findings, risk ratings and actions.",
+  "author": "P022",
+  "owner": "P022",
+  "modified_by": "P022",
+  "created": "2026-10-27",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Approved",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-10-27",
+    "by": "P022",
+    "change": "Fieldwork complete"
+   },
+   {
+    "version": "0.3",
+    "date": "2026-10-31",
+    "by": "P022",
+    "change": "Draft findings to Director of Quality"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-11-03",
+    "by": "P022",
+    "change": "Final after management responses"
+   }
+  ],
+  "approved_by": "P005",
+  "blocks": [
+   {
+    "h1": "1. Scope and method"
+   },
+   {
+    "p": "This audit tested whether off-the-job (OTJ) training recorded in Aptiva for apprentices on programme between 1 August and 31 October 2026 is planned, evidenced and compliant with the Department for Education apprenticeship funding rules. A risk-weighted sample of 60 apprentices was drawn across all five academies, over-sampling learners flagged in Aptiva as more than 20% behind their expected OTJ hours."
+   },
+   {
+    "kv": [
+     [
+      "Population (active apprentices)",
+      "{{fact:active_only_learners}}"
+     ],
+     [
+      "Active apprentices > 20% behind expected OTJ",
+      "{{fact:qual_otj_behind_active}}"
+     ],
+     [
+      "Sample size",
+      "60 (of which 20 behind plan)"
+     ],
+     [
+      "Fieldwork",
+      "20–27 October 2026"
+     ],
+     [
+      "Auditor",
+      "Daniel Evans, Compliance & Funding Assurance Lead"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Overall opinion"
+   },
+   {
+    "callout": "**Reasonable assurance.** No ineligible funding claims were identified. OTJ planning is compliant in all sampled cases, but evidence quality and the escalation of learners behind plan need improvement.",
+    "title": "Opinion"
+   },
+   {
+    "h1": "3. Findings"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Finding",
+      "Sample result",
+      "Risk",
+      "Action"
+     ],
+     "rows": [
+      [
+       "F1",
+       "Training plans state planned OTJ hours correctly and are signed by all parties",
+       "60/60 compliant",
+       "Low",
+       "None"
+      ],
+      [
+       "F2",
+       "OTJ log entries lack a description linking the activity to KSBs",
+       "11/60 had one or more vague entries (e.g. 'study')",
+       "Medium",
+       "Coach briefing; Aptiva mandatory KSB field"
+      ],
+      [
+       "F3",
+       "Learners > 20% behind plan without a documented catch-up plan",
+       "7/20 had no catch-up plan in the latest review",
+       "High",
+       "Escalation to delivery manager and employer within 10 working days"
+      ],
+      [
+       "F4",
+       "OTJ hours recorded during annual leave or BIL dates",
+       "2/60 entries (total 9 hours) — corrected",
+       "Medium",
+       "Kate Simmons to add Aptiva date validation"
+      ],
+      [
+       "F5",
+       "Progress reviews not signed by employer within 30 days",
+       "9/60",
+       "Medium",
+       "Weekly chaser automation"
+      ],
+      [
+       "F6",
+       "Evidence of English/maths Functional Skills OTJ separated from programme hours",
+       "All 6 relevant learners compliant",
+       "Low",
+       "None"
+      ]
+     ],
+     "caption": "Table 1 – Findings"
+    }
+   },
+   {
+    "h1": "4. Comparison with previous audit"
+   },
+   {
+    "p": "Compared with the Q4 2025/26 audit, vague OTJ entries fell from 24% to 18% of the sample, but the proportion of behind-plan learners without a catch-up plan rose from 25% to 35%. QIP-06 is therefore rated Red."
+   },
+   {
+    "h1": "5. Management actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Brief all coaches on OTJ evidence standards at November team meetings",
+      "owner": "P009",
+      "due": "2026-11-27",
+      "status": "Open"
+     },
+     {
+      "action": "Make the KSB link field mandatory on Aptiva OTJ entries",
+      "owner": "P035",
+      "due": "2026-12-15",
+      "status": "Open"
+     },
+     {
+      "action": "Catch-up plans for all 7 learners in F3",
+      "owner": "P012",
+      "due": "2026-11-14",
+      "status": "In progress"
+     },
+     {
+      "action": "Re-test F3 and F5 in Q2 sample",
+      "owner": "P022",
+      "due": "2027-02-06",
+      "status": "Open"
+     }
+    ]
+   },
+   {
+    "signature": "P022",
+    "date": "2026-11-03"
+   }
+  ]
+ },
+ {
+  "id": "qual-complaints-policy",
+  "type": "docx",
+  "title": "Complaints Policy",
+  "site": "quality",
+  "library": "Policies & Procedures",
+  "category": "Policy",
+  "tags": [
+   "complaints",
+   "policy",
+   "learners",
+   "employers"
+  ],
+  "summary": "How apprentices, employers and others can complain, the three stages, timescales and escalation to the Department for Education.",
+  "author": "P021",
+  "owner": "P005",
+  "modified_by": "P021",
+  "created": "2023-08-01",
+  "modified": "2026-08-12",
+  "version": "4.1",
+  "status": "Approved",
+  "classification": "Public",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2024-08-05",
+    "by": "P021",
+    "change": "Annual review"
+   },
+   {
+    "version": "4.0",
+    "date": "2025-08-11",
+    "by": "P021",
+    "change": "Added Meridian Group escalation"
+   },
+   {
+    "version": "4.1",
+    "date": "2026-08-12",
+    "by": "P021",
+    "change": "Annual review; contact details updated"
+   }
+  ],
+  "review_date": "2027-08-31",
+  "approved_by": "P005",
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "Delcorn welcomes feedback and treats complaints as an opportunity to improve. This policy explains how apprentices, employers, parents or carers and members of the public can raise a complaint and what they can expect from us."
+   },
+   {
+    "h1": "2. Informal resolution"
+   },
+   {
+    "p": "Most concerns can be resolved quickly by speaking to your skills coach, delivery manager or account manager. We encourage this first, but you may go straight to a formal complaint if you prefer."
+   },
+   {
+    "h1": "3. Formal complaints"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Who handles it",
+      "Timescale"
+     ],
+     "rows": [
+      [
+       "Stage 1 – Formal complaint",
+       "Quality Manager assigns an investigating manager",
+       "Acknowledged within 3 working days; full response within 15 working days"
+      ],
+      [
+       "Stage 2 – Review",
+       "Director of Quality & Compliance",
+       "Request within 10 working days of Stage 1 response; response within 15 working days"
+      ],
+      [
+       "Stage 3 – External",
+       "Department for Education apprenticeship service complaints team",
+       "After Delcorn's process is exhausted"
+      ]
+     ],
+     "caption": "Table 1 – Complaint stages"
+    }
+   },
+   {
+    "p": "Complaints can be made by emailing complaints@delcorn.co.uk, using the form in Aptiva, or by telephone on 020 7946 0100. Please include your name, programme, a description of the issue and what outcome you are seeking."
+   },
+   {
+    "h1": "4. Safeguarding and whistleblowing"
+   },
+   {
+    "p": "If a complaint raises a safeguarding concern it is passed immediately to the Designated Safeguarding Lead and handled under the Safeguarding & Prevent Policy. Staff concerns about wrongdoing are handled under the Whistleblowing Policy."
+   },
+   {
+    "h1": "5. Recording and learning"
+   },
+   {
+    "bullets": [
+     "All formal complaints are logged by the Quality team, including outcome and lessons learned.",
+     "Themes are reported to every Quality Committee and summarised in the SAR.",
+     "Complainants will not be treated less favourably for raising a complaint."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "qual-committee-minutes-sep26",
+  "type": "docx",
+  "title": "Quality Committee Minutes — 23 September 2026",
+  "site": "quality",
+  "library": "Self-Assessment & QIP",
+  "folder": "Quality Committee",
+  "category": "Minutes",
+  "tags": [
+   "minutes",
+   "quality committee",
+   "actions"
+  ],
+  "summary": "Minutes of the Quality Committee on 23 September 2026: SAR timetable, observation summary, QIP approval, safeguarding update and OTJ compliance.",
+  "author": "P011",
+  "owner": "P011",
+  "modified_by": "P011",
+  "created": "2026-09-23",
+  "modified": "2026-09-29",
+  "version": "1.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "0.1",
+    "date": "2026-09-24",
+    "by": "P011",
+    "change": "Draft minutes"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-09-29",
+    "by": "P011",
+    "change": "Approved by chair"
+   }
+  ],
+  "approved_by": "P005",
+  "doc_control": false,
+  "blocks": [
+   {
+    "kv": [
+     [
+      "Date",
+      "Wednesday 23 September 2026, 10:00–12:00"
+     ],
+     [
+      "Location",
+      "Microsoft Teams"
+     ],
+     [
+      "Chair",
+      "Dr Siân Llewellyn (Director of Quality & Compliance)"
+     ],
+     [
+      "Present",
+      "David Okafor, Rachel Moss, Hannah Price, Daniel Evans, Grace Adeyemi, Dr Ben Hartley, Nicole Brooks"
+     ],
+     [
+      "Minutes",
+      "Oliver Grant"
+     ],
+     [
+      "Apologies",
+      "Helena Marsh"
+     ]
+    ]
+   },
+   {
+    "h2": "1. Minutes and matters arising"
+   },
+   {
+    "p": "Minutes of 15 July 2026 approved. Action on Aptiva review-signature chasers carried forward (see action 6)."
+   },
+   {
+    "h2": "2. Achievement data 2025/26"
+   },
+   {
+    "p": "Nicole Brooks presented validated achievement data: {{fact:achievement_rate_2526}} overall, up from {{fact:achievement_rate_2425}}. The committee noted the gap in the People and Digital academies. David Okafor asked for a breakdown of withdrawals in the first 90 days."
+   },
+   {
+    "h2": "3. Observation Summary 2025/26"
+   },
+   {
+    "p": "Hannah Price presented the summary: {{fact:qual_obs_strong_pct_2526}} of observations Strong. Target setting is the most common development area. The committee agreed an autumn observation focus on target setting."
+   },
+   {
+    "h2": "4. Quality Improvement Plan 2026/27"
+   },
+   {
+    "p": "QIP approved subject to adding measurable success criteria for every action. Ofsted recommendations are mapped to QIP-04, QIP-05, QIP-06 and QIP-08."
+   },
+   {
+    "h2": "5. Safeguarding update"
+   },
+   {
+    "p": "Grace Adeyemi reported {{fact:sg_concerns_2526}} concerns raised in 2025/26 (aggregate only). Mental health and wellbeing remains the largest category. Prevent risk assessment refreshed for 2026/27; no changes to overall risk rating. All staff completed annual safeguarding refresher by 31 August except four new starters, booked for October."
+   },
+   {
+    "h2": "6. OTJ compliance"
+   },
+   {
+    "p": "Daniel Evans reported that Q4 2025/26 sampling found no ineligible claims but some vague OTJ entries. Q1 2026/27 sampling to complete by end of October."
+   },
+   {
+    "h2": "7. SAR timetable"
+   },
+   {
+    "p": "Draft SAR to executive by 30 October; Board approval at 10 December meeting."
+   },
+   {
+    "h2": "Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Produce withdrawals-in-first-90-days analysis by academy",
+      "owner": "P029",
+      "due": "2026-10-14",
+      "status": "Complete"
+     },
+     {
+      "action": "Add measurable success criteria to all QIP actions and recirculate",
+      "owner": "P021",
+      "due": "2026-10-07",
+      "status": "Complete"
+     },
+     {
+      "action": "Run autumn observation focus on target setting (min. 20 observations)",
+      "owner": "P021",
+      "due": "2026-12-18",
+      "status": "In progress"
+     },
+     {
+      "action": "Book safeguarding refresher for four new starters",
+      "owner": "P023",
+      "due": "2026-10-16",
+      "status": "Complete"
+     },
+     {
+      "action": "Complete Q1 2026/27 OTJ sampling audit",
+      "owner": "P022",
+      "due": "2026-10-31",
+      "status": "Complete"
+     },
+     {
+      "action": "Deliver Aptiva automated review-signature chasers",
+      "owner": "P035",
+      "due": "2026-11-30",
+      "status": "Open"
+     },
+     {
+      "action": "Circulate draft SAR 2025/26 to executive team",
+      "owner": "P005",
+      "due": "2026-10-30",
+      "status": "Complete"
+     },
+     {
+      "action": "Present employer OTJ charter proposal",
+      "owner": "P009",
+      "due": "2026-11-18",
+      "status": "Open"
+     }
+    ]
+   },
+   {
+    "p": "Next meeting: Wednesday 18 November 2026."
+   }
+  ]
+ },
+ {
+  "id": "qual-gateway-declarations",
+  "type": "series",
+  "site": "quality",
+  "library": "Gateway & EPA",
+  "folder": "{{row.programme_code}}",
+  "sql": "SELECT l.learner_id, l.uln, l.first_name, l.last_name, l.programme_code, l.academy, l.start_date, l.planned_end_date, l.otj_hours_planned, l.otj_hours_logged, l.functional_skills_required, l.last_review_date, e.employer_name, e.primary_contact, e.contact_role, p.programme_name, p.standard, p.level, p.epao, p.grading, COALESCE(c.coach_name, 'Skills coach') AS coach_name, CASE WHEN l.functional_skills_required = 'None' THEN 'Not required — prior Level 2 attainment evidenced at enrolment' ELSE l.functional_skills_required || ' achieved — certificate verified' END AS fs_status, printf('%.0f%%', 100.0 * l.otj_hours_logged / l.otj_hours_planned) AS otj_pct FROM learners l JOIN employers e USING (employer_id) JOIN programmes p ON p.programme_code = l.programme_code LEFT JOIN coach_caseloads c ON c.coach_id = l.coach_id WHERE l.status = 'Gateway' ORDER BY l.learner_id LIMIT 8",
+  "filename": "Gateway Declaration - {{row.learner_id}} {{row.first_name}} {{row.last_name}}",
+  "author": "P022",
+  "classification": "Confidential",
+  "category": "Gateway Declaration",
+  "tags": [
+   "gateway",
+   "EPA",
+   "declaration"
+  ],
+  "template": {
+   "type": "pdf",
+   "title": "EPA Gateway Declaration — {{row.first_name}} {{row.last_name}}",
+   "created": "{{row.last_review_date}}",
+   "modified": "{{row.last_review_date}}",
+   "version": "1.0",
+   "status": "Approved",
+   "summary": "Gateway declaration confirming {{row.learner_id}} is ready for end-point assessment on {{row.programme_code}}.",
+   "doc_control": false,
+   "blocks": [
+    {
+     "h1": "Apprentice, employer and programme"
+    },
+    {
+     "kv": [
+      [
+       "Apprentice",
+       "{{row.first_name}} {{row.last_name}}"
+      ],
+      [
+       "Learner ID / ULN",
+       "{{row.learner_id}} / {{row.uln}}"
+      ],
+      [
+       "Employer",
+       "{{row.employer_name}}"
+      ],
+      [
+       "Employer contact",
+       "{{row.primary_contact}} ({{row.contact_role}})"
+      ],
+      [
+       "Programme",
+       "{{row.programme_code}} – {{row.programme_name}}"
+      ],
+      [
+       "Apprenticeship standard",
+       "{{row.standard}} (Level {{row.level}})"
+      ],
+      [
+       "Academy",
+       "{{row.academy}}"
+      ],
+      [
+       "Skills coach",
+       "{{row.coach_name}}"
+      ],
+      [
+       "Start date",
+       "{{row.start_date}}"
+      ],
+      [
+       "Planned end date",
+       "{{row.planned_end_date}}"
+      ],
+      [
+       "EPAO",
+       "{{row.epao}}"
+      ],
+      [
+       "Grading",
+       "{{row.grading}}"
+      ]
+     ]
+    },
+    {
+     "h1": "Gateway requirements"
+    },
+    {
+     "table": {
+      "columns": [
+       "Requirement",
+       "Evidence",
+       "Met"
+      ],
+      "rows": [
+       [
+        "Minimum duration on programme (12 months+)",
+        "Start {{row.start_date}}",
+        "Yes"
+       ],
+       [
+        "Off-the-job training",
+        "{{row.otj_hours_logged}} hours logged of {{row.otj_hours_planned}} planned ({{row.otj_pct}})",
+        "Yes"
+       ],
+       [
+        "English and maths",
+        "{{row.fs_status}}",
+        "Yes"
+       ],
+       [
+        "KSBs evidenced in portfolio",
+        "Final progress review {{row.last_review_date}}; all KSBs mapped in Aptiva",
+        "Yes"
+       ],
+       [
+        "Assessment method prerequisites (portfolio/project)",
+        "Uploaded to EPAO portal",
+        "Yes"
+       ]
+      ]
+     }
+    },
+    {
+     "h2": "OTJ hours detail"
+    },
+    {
+     "table": {
+      "sql": "SELECT review_number AS Review, review_date AS Date, otj_hours_to_date AS \"OTJ hours to date\", rag AS RAG FROM progress_reviews WHERE learner_id = '{{row.learner_id}}' ORDER BY review_number DESC LIMIT 6"
+     }
+    },
+    {
+     "h1": "KSB readiness confirmation"
+    },
+    {
+     "p": "The apprentice, employer and Delcorn confirm that the apprentice has completed the on-programme training, consistently demonstrates the knowledge, skills and behaviours of the {{row.standard}} standard at the required level, and is ready to undertake end-point assessment with {{row.epao}}."
+    },
+    {
+     "h1": "Declarations"
+    },
+    {
+     "table": {
+      "columns": [
+       "Party",
+       "Name",
+       "Signature",
+       "Date"
+      ],
+      "rows": [
+       [
+        "Apprentice",
+        "{{row.first_name}} {{row.last_name}}",
+        "Signed in Aptiva",
+        "{{row.last_review_date}}"
+       ],
+       [
+        "Employer",
+        "{{row.primary_contact}}",
+        "Signed in Aptiva",
+        "{{row.last_review_date}}"
+       ],
+       [
+        "Skills coach",
+        "{{row.coach_name}}",
+        "Signed in Aptiva",
+        "{{row.last_review_date}}"
+       ],
+       [
+        "Compliance check",
+        "{{person:P022}}",
+        "Verified",
+        "{{row.last_review_date}}"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "sg-policy-2627",
+  "type": "docx",
+  "title": "Safeguarding & Prevent Policy 2026/27",
+  "site": "safeguarding",
+  "library": "Policies & Guidance",
+  "category": "Policy",
+  "tags": [
+   "safeguarding",
+   "Prevent",
+   "DSL",
+   "online safety",
+   "policy"
+  ],
+  "summary": "Delcorn's safeguarding and Prevent duty policy for 2026/27: roles, how to report a concern, Prevent risk assessment, online safety, record keeping and key contacts.",
+  "author": "P010",
+  "owner": "P010",
+  "modified_by": "P010",
+  "created": "2019-08-01",
+  "modified": "2026-08-28",
+  "version": "8.0",
+  "status": "Approved",
+  "classification": "Public",
+  "version_history": [
+   {
+    "version": "6.0",
+    "date": "2024-08-30",
+    "by": "P010",
+    "change": "Annual review; KCSIE and Prevent duty guidance updates"
+   },
+   {
+    "version": "7.0",
+    "date": "2025-08-29",
+    "by": "P010",
+    "change": "Online safety and AI-generated content risks added"
+   },
+   {
+    "version": "8.0",
+    "date": "2026-08-28",
+    "by": "P010",
+    "change": "Annual review; reporting via Aptiva Safeguarding form; Meridian group governor role"
+   }
+  ],
+  "review_date": "2027-08-31",
+  "approved_by": "P001",
+  "blocks": [
+   {
+    "h1": "1. Policy statement"
+   },
+   {
+    "p": "Delcorn is committed to safeguarding and promoting the welfare of every apprentice, including adults at risk and the small number of apprentices aged 16–18. Safeguarding is everyone's responsibility. All staff, contractors and volunteers must act on any concern, however small, and must never promise confidentiality to a learner."
+   },
+   {
+    "p": "This policy meets our duties under the Children Act 1989 and 2004, the Care Act 2014, Keeping Children Safe in Education, the Counter-Terrorism and Security Act 2015 (Prevent duty) and the Department for Education funding rules. It applies to remote and in-person contact, including Teams sessions, email, Aptiva messages and visits to employers."
+   },
+   {
+    "h1": "2. Roles and responsibilities"
+   },
+   {
+    "table": {
+     "columns": [
+      "Role",
+      "Name",
+      "Responsibilities"
+     ],
+     "rows": [
+      [
+       "Designated Safeguarding Lead (DSL) and Prevent Lead",
+       "Grace Adeyemi, Head of Safeguarding",
+       "Strategic lead; decides on referrals to external agencies; Channel and local authority Prevent liaison; reports to the Board"
+      ],
+      [
+       "Deputy DSL and Learner Support Lead",
+       "Megan Taylor",
+       "Case management; acts as DSL in Grace's absence; coordinates wellbeing and additional learning support"
+      ],
+      [
+       "Safeguarding officers",
+       "Delivery managers (Sam Patel, Laura Chen)",
+       "First-line support to coaches; cover rota"
+      ],
+      [
+       "Executive lead",
+       "David Okafor, Chief Operating Officer",
+       "Ensures resources and compliance"
+      ],
+      [
+       "Safeguarding governor",
+       "Nominated Meridian Education Group board member",
+       "Independent oversight; termly review"
+      ],
+      [
+       "All staff",
+       "Everyone",
+       "Recognise, respond, report and record; complete annual training"
+      ]
+     ],
+     "caption": "Table 1 – Safeguarding roles"
+    }
+   },
+   {
+    "h1": "3. What to look out for"
+   },
+   {
+    "bullets": [
+     "Mental health concerns, including anxiety, low mood, self-harm or suicidal thoughts.",
+     "Domestic abuse, coercive control, honour-based abuse and forced marriage.",
+     "Financial hardship, housing insecurity or homelessness.",
+     "Bullying, harassment or discrimination in the workplace.",
+     "Online harms: sextortion, scams, grooming, misuse of AI-generated images.",
+     "Substance misuse.",
+     "Radicalisation or extremist views (Prevent).",
+     "Neglect, exploitation (including modern slavery) and abuse by a person in a position of trust."
+    ]
+   },
+   {
+    "h1": "4. How to report a concern"
+   },
+   {
+    "callout": "If someone is in immediate danger, call **999** first, then inform the DSL. Otherwise report the **same working day** — and immediately if you believe there is a risk of harm.",
+    "title": "Golden rule"
+   },
+   {
+    "numbered": [
+     "**Listen** calmly; do not ask leading questions or investigate.",
+     "**Do not promise confidentiality** — explain that you will need to share the concern with the safeguarding team.",
+     "**Report** to the safeguarding team by phoning the safeguarding line on 020 7946 0199 (08:00–18:00, Mon–Fri) or calling the DSL or Deputy DSL directly.",
+     "**Record** the concern on the Aptiva Safeguarding form within 24 hours, using the learner's words where possible. Use the learner ID; do not include details in email or Teams.",
+     "The DSL team triages the concern **on the day it is received**, assigns a risk level (High, Medium or Low) and a case ID, and confirms next steps to the reporter.",
+     "High-risk cases are reviewed by the DSL within 24 hours; the DSL decides whether to refer to an external agency (police, local authority, adult social care, Prevent team, GP or EAP)."
+    ]
+   },
+   {
+    "p": "Outside office hours, staff should contact emergency services if required and email safeguarding@delcorn.co.uk, which is monitored by the on-call DSL until 21:00 on weekdays and 10:00–16:00 at weekends."
+   },
+   {
+    "h1": "5. The Prevent duty"
+   },
+   {
+    "p": "Delcorn has a duty to have due regard to the need to prevent people from being drawn into terrorism. We do this by training staff, promoting fundamental British values (democracy, the rule of law, individual liberty, mutual respect and tolerance), managing online risks and referring concerns appropriately. Prevent concerns follow the same reporting route; only the DSL makes a Prevent referral to the local authority or police."
+   },
+   {
+    "h2": "Prevent risk assessment summary"
+   },
+   {
+    "table": {
+     "columns": [
+      "Risk area",
+      "Risk level",
+      "Key controls"
+     ],
+     "rows": [
+      [
+       "Remote delivery limits observation of behaviour",
+       "Medium",
+       "Coach training; camera-on reviews; wellbeing check in every review"
+      ],
+      [
+       "Online radicalisation via personal devices",
+       "Medium",
+       "Online safety module at induction; termly content in workshops"
+      ],
+      [
+       "Workplace tensions in some sectors",
+       "Low",
+       "Employer safeguarding agreement; coach escalation"
+      ],
+      [
+       "External speakers and guest sessions",
+       "Low",
+       "Speaker vetting procedure"
+      ],
+      [
+       "Staff awareness",
+       "Low",
+       "Annual Prevent training, 100% completion target"
+      ]
+     ],
+     "caption": "Table 2 – Prevent risk assessment 2026/27 (full assessment held in the Prevent Risk Assessment & Action Plan)"
+    }
+   },
+   {
+    "p": "Since March 2025, {{fact:sg_prevent_cases}} concerns have been recorded under the Prevent category; all were assessed by the DSL and, where appropriate, discussed with the local authority Prevent team."
+   },
+   {
+    "h1": "6. Online safety"
+   },
+   {
+    "bullets": [
+     "All sessions use Delcorn Microsoft Teams accounts; never personal messaging apps or social media.",
+     "Recordings of 1:1 sessions are only made with consent and stored in Aptiva.",
+     "Coaches must not share personal contact details with apprentices.",
+     "Apprentices complete the online safety module, including scams, sextortion and AI-generated content, in their first month.",
+     "Web filtering and monitoring apply to Delcorn devices; concerns are routed to the DSL."
+    ]
+   },
+   {
+    "h1": "7. Record keeping and information sharing"
+   },
+   {
+    "bullets": [
+     "Safeguarding records are kept in Aptiva Safeguarding and the restricted **Case Management** library, accessible only to the DSL team.",
+     "Records are labelled **Highly Confidential**; they must not be copied to other sites, emails, Teams chats or AI tools.",
+     "Reports and dashboards use aggregate data only — no learner names.",
+     "Information is shared with external agencies on a need-to-know basis under UK GDPR and the Data Protection Act 2018, recorded with the reason.",
+     "Records are retained for 6 years after the apprentice leaves, or longer if a case is ongoing."
+    ]
+   },
+   {
+    "h1": "8. Allegations against staff"
+   },
+   {
+    "p": "Allegations that a member of staff may have harmed a learner are reported directly to the DSL (or to the COO if the allegation concerns the DSL). The Local Authority Designated Officer (LADO) is contacted within one working day where the learner is under 18 or an adult at risk."
+   },
+   {
+    "h1": "9. Training"
+   },
+   {
+    "bullets": [
+     "All staff: safeguarding and Prevent induction in the first week; annual refresher by 31 August.",
+     "Coaches: additional annual briefing on recognising and responding to disclosures.",
+     "DSL team: Level 3 DSL training every 2 years and termly supervision."
+    ]
+   },
+   {
+    "h1": "10. Key contacts"
+   },
+   {
+    "table": {
+     "columns": [
+      "Contact",
+      "Details"
+     ],
+     "rows": [
+      [
+       "Grace Adeyemi, DSL & Prevent Lead",
+       "{{person:P010.email}} · {{person:P010.phone}}"
+      ],
+      [
+       "Megan Taylor, Deputy DSL",
+       "{{person:P023.email}} · {{person:P023.phone}}"
+      ],
+      [
+       "Safeguarding line",
+       "020 7946 0199 (08:00–18:00 Mon–Fri)"
+      ],
+      [
+       "Safeguarding mailbox",
+       "safeguarding@delcorn.co.uk"
+      ],
+      [
+       "Emergency",
+       "999"
+      ],
+      [
+       "Samaritans (learners)",
+       "116 123, free, 24/7"
+      ],
+      [
+       "Anti-Terrorist Hotline",
+       "0800 789 321"
+      ]
+     ]
+    }
+   },
+   {
+    "signature": "P010",
+    "date": "2026-08-28"
+   }
+  ]
+ },
+ {
+  "id": "sg-prevent-ra-2627",
+  "type": "xlsx",
+  "title": "Prevent Risk Assessment & Action Plan 2026/27",
+  "site": "safeguarding",
+  "library": "Policies & Guidance",
+  "folder": "Prevent",
+  "category": "Plan",
+  "tags": [
+   "Prevent",
+   "risk assessment",
+   "action plan"
+  ],
+  "summary": "Annual Prevent duty risk assessment with likelihood, impact, controls and an action plan for 2026/27.",
+  "author": "P010",
+  "owner": "P010",
+  "modified_by": "P010",
+  "created": "2025-09-01",
+  "modified": "2026-09-15",
+  "version": "2.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2025-09-12",
+    "by": "P010",
+    "change": "2025/26 assessment"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-09-15",
+    "by": "P010",
+    "change": "Refreshed for 2026/27; reviewed by Quality Committee"
+   }
+  ],
+  "approved_by": "P002",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Prevent Risk Assessment & Action Plan 2026/27",
+     "Owner: Grace Adeyemi, DSL & Prevent Lead.",
+     "Score = likelihood × impact (1–5 each). 1–6 Low, 8–12 Medium, 15+ High.",
+     "Reviewed annually and after any significant Prevent concern."
+    ]
+   },
+   {
+    "name": "Risk assessment",
+    "columns": [
+     "Ref",
+     "Risk area",
+     "Description",
+     "Likelihood",
+     "Impact",
+     "Score",
+     "Existing controls",
+     "Owner",
+     "RAG"
+    ],
+    "rows": [
+     [
+      "PR1",
+      "Leadership",
+      "Leaders do not understand or prioritise the Prevent duty",
+      1,
+      4,
+      "=D2*E2",
+      "Prevent in Board and Quality Committee reports; trained executive lead",
+      "{{person:P002}}",
+      "Green"
+     ],
+     [
+      "PR2",
+      "Staff training",
+      "Staff do not recognise signs of radicalisation",
+      2,
+      4,
+      "=D3*E3",
+      "Annual Prevent training; coach briefing",
+      "{{person:P023}}",
+      "Green"
+     ],
+     [
+      "PR3",
+      "Remote delivery",
+      "Changes in behaviour harder to spot remotely",
+      3,
+      4,
+      "=D4*E4",
+      "Wellbeing check in every review; camera-on encouraged",
+      "{{person:P009}}",
+      "Amber"
+     ],
+     [
+      "PR4",
+      "Online safety",
+      "Learners exposed to extremist content online",
+      3,
+      4,
+      "=D5*E5",
+      "Online safety module; filtering on Delcorn devices",
+      "{{person:P036}}",
+      "Amber"
+     ],
+     [
+      "PR5",
+      "British values",
+      "Curriculum does not develop understanding of British values",
+      2,
+      3,
+      "=D6*E6",
+      "Embedded in workshops; observation focus",
+      "{{person:P008}}",
+      "Amber"
+     ],
+     [
+      "PR6",
+      "External speakers",
+      "Unsuitable speakers at workshops or events",
+      1,
+      4,
+      "=D7*E7",
+      "Speaker vetting procedure",
+      "{{person:P027}}",
+      "Green"
+     ],
+     [
+      "PR7",
+      "Referral process",
+      "Concerns not referred appropriately or on time",
+      1,
+      5,
+      "=D8*E8",
+      "Single reporting route; DSL triage same day; local authority links",
+      "{{person:P010}}",
+      "Green"
+     ],
+     [
+      "PR8",
+      "Partnerships",
+      "Employers unaware of shared responsibilities",
+      2,
+      3,
+      "=D9*E9",
+      "Employer safeguarding agreement; onboarding briefing",
+      "{{person:P024}}",
+      "Green"
+     ]
+    ]
+   },
+   {
+    "name": "Action plan",
+    "columns": [
+     "Ref",
+     "Action",
+     "Owner",
+     "Due",
+     "Status"
+    ],
+    "rows": [
+     [
+      "PR3",
+      "Publish Prevent scenario bank for coaches (QIP-08)",
+      "{{person:P010}}",
+      "2026-10-31",
+      "Complete"
+     ],
+     [
+      "PR4",
+      "Update online safety module with AI deepfake and sextortion content",
+      "{{person:P020}}",
+      "2026-12-15",
+      "In progress"
+     ],
+     [
+      "PR5",
+      "Spring term observation focus on British values",
+      "{{person:P021}}",
+      "2027-03-31",
+      "Not started"
+     ],
+     [
+      "PR2",
+      "100% staff Prevent refresher completion",
+      "{{person:P033}}",
+      "2027-08-31",
+      "In progress"
+     ],
+     [
+      "PR8",
+      "Add Prevent responsibilities to employer onboarding pack",
+      "{{person:P038}}",
+      "2027-01-31",
+      "Not started"
+     ]
+    ]
+   },
+   {
+    "name": "Prevent concerns (aggregate)",
+    "sql": "SELECT substr(date_raised,1,4) AS Year, risk_level AS \"Risk level\", status AS Status, COUNT(*) AS Concerns, SUM(external_referral) AS \"Referred externally\" FROM safeguarding_concerns WHERE category = 'Prevent / radicalisation' GROUP BY 1,2,3 ORDER BY 1,2"
+   }
+  ]
+ },
+ {
+  "id": "sg-annual-report-2526",
+  "type": "pptx",
+  "title": "Safeguarding Annual Report to Board 2025/26",
+  "site": "safeguarding",
+  "library": "Training & Briefings",
+  "folder": "Board Reports",
+  "category": "Report",
+  "classification": "Confidential",
+  "tags": [
+   "safeguarding",
+   "annual report",
+   "board",
+   "Prevent"
+  ],
+  "summary": "Aggregate safeguarding and Prevent report for 2025/26 for the Board: volumes, categories, risk, referrals, training and priorities. No learner-identifiable data.",
+  "author": "P010",
+  "owner": "P010",
+  "modified_by": "P010",
+  "created": "2026-09-08",
+  "modified": "2026-09-30",
+  "version": "1.0",
+  "status": "Approved",
+  "version_history": [
+   {
+    "version": "0.5",
+    "date": "2026-09-18",
+    "by": "P010",
+    "change": "Draft to COO"
+   },
+   {
+    "version": "1.0",
+    "date": "2026-09-30",
+    "by": "P010",
+    "change": "Final for Board"
+   }
+  ],
+  "approved_by": "P002",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Safeguarding Annual Report 2025/26",
+    "subtitle": "Report to the Board — aggregate data only",
+    "meta": "Grace Adeyemi, DSL | September 2026"
+   },
+   {
+    "layout": "kpis",
+    "title": "2025/26 at a glance",
+    "kpis": [
+     {
+      "value": "{{fact:sg_concerns_2526}}",
+      "label": "Concerns raised",
+      "note": "1 Aug 2025 – 31 Jul 2026"
+     },
+     {
+      "value": "{{sql:SELECT SUM(risk_level='High') FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31'}}",
+      "label": "High-risk concerns"
+     },
+     {
+      "value": "{{sql:SELECT SUM(external_referral) FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31'}}",
+      "label": "External referrals"
+     },
+     {
+      "value": "100%",
+      "label": "Triaged same day"
+     },
+     {
+      "value": "{{fact:open_safeguarding}}",
+      "label": "Open or monitoring",
+      "note": "at 5 Nov 2026"
+     }
+    ],
+    "notes": "All figures are aggregate. Individual case information is held only in the restricted Case Management library and is not presented to the Board."
+   },
+   {
+    "layout": "chart",
+    "title": "Concerns by category",
+    "chart": {
+     "type": "bar",
+     "title": "Concerns by category, 2025/26",
+     "sql": "SELECT category, COUNT(*) AS Concerns FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2",
+     "labels": true
+    },
+    "bullets": [
+     "{{fact:sg_top_category}} is the largest category",
+     "Financial hardship rising with cost of living",
+     "Prevent concerns low but taken seriously"
+    ]
+   },
+   {
+    "layout": "chart",
+    "title": "Concerns by month",
+    "chart": {
+     "type": "line",
+     "title": "Concerns raised per month",
+     "sql": "SELECT substr(date_raised,1,7) AS Month, COUNT(*) AS Concerns FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "notes": "Peaks in spring and July align with EPA pressure and the end of the academic year."
+   },
+   {
+    "layout": "chart",
+    "title": "Risk level",
+    "chart": {
+     "type": "doughnut",
+     "title": "Concerns by risk level",
+     "sql": "SELECT risk_level, COUNT(*) AS Concerns FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY CASE risk_level WHEN 'High' THEN 1 WHEN 'Medium' THEN 2 ELSE 3 END",
+     "labels": true
+    }
+   },
+   {
+    "layout": "table",
+    "title": "External referrals by agency",
+    "table": {
+     "sql": "SELECT referral_agency AS Agency, COUNT(*) AS Referrals FROM safeguarding_concerns WHERE external_referral = 1 AND date_raised BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2 DESC"
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "Training and compliance",
+    "bullets": [
+     "All staff completed annual safeguarding and Prevent refresher (new starters within first week)",
+     "DSL team completed Level 3 refresher (May 2026)",
+     "Ofsted (Feb 2026): safeguarding arrangements effective",
+     "Prevent scenario bank launched for coaches"
+    ]
+   },
+   {
+    "layout": "bullets",
+    "title": "Priorities for 2026/27",
+    "bullets": [
+     "Embed Prevent and British values in coaching (QIP-08)",
+     "Expand wellbeing signposting for learners",
+     "Sensitivity labels and Copilot controls on case records",
+     "Faster closure of long-running monitoring cases"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sg-als-procedure",
+  "type": "docx",
+  "title": "Learner Support & Additional Learning Support Procedure",
+  "site": "safeguarding",
+  "library": "Learner Support",
+  "category": "Procedure",
+  "tags": [
+   "ALS",
+   "learner support",
+   "LLDD",
+   "reasonable adjustments"
+  ],
+  "summary": "How Delcorn identifies, plans, delivers and reviews additional learning support and reasonable adjustments for apprentices.",
+  "author": "P023",
+  "owner": "P023",
+  "modified_by": "P023",
+  "created": "2022-09-01",
+  "modified": "2026-08-20",
+  "version": "3.2",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2025-08-15",
+    "by": "P023",
+    "change": "Revised for EPA reasonable adjustments"
+   },
+   {
+    "version": "3.2",
+    "date": "2026-08-20",
+    "by": "P023",
+    "change": "Annual review; ALS funding evidence clarified"
+   }
+  ],
+  "review_date": "2027-08-31",
+  "approved_by": "P010",
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "This procedure makes sure every apprentice who needs extra help to succeed — because of a learning difficulty, disability, health condition or other barrier — receives timely, effective support, and that ALS funding is claimed only where support is planned, delivered and evidenced."
+   },
+   {
+    "h1": "2. Identifying need"
+   },
+   {
+    "bullets": [
+     "Self-declaration at enrolment (LLDD question) and the initial assessment screening tool.",
+     "Coach observation or disclosure during reviews.",
+     "Functional Skills diagnostics.",
+     "Employer information (with consent)."
+    ]
+   },
+   {
+    "h1": "3. Process"
+   },
+   {
+    "numbered": [
+     "Coach or enrolment team refers via the Aptiva Learner Support form within 5 working days of the need being identified.",
+     "Learner Support Lead (Megan Taylor) contacts the apprentice within 5 working days to discuss needs.",
+     "An ALS plan is agreed and signed by the apprentice, coach and Learner Support Lead within 20 working days of referral.",
+     "Support is delivered (e.g. specialist tutor sessions, assistive technology, extra time, recorded workshops with captions).",
+     "Impact is reviewed at every 12-weekly progress review and the plan updated.",
+     "Reasonable adjustments for EPA are requested from the EPAO at least 8 weeks before gateway."
+    ]
+   },
+   {
+    "h1": "4. Funding and evidence"
+   },
+   {
+    "p": "ALS funding is claimed monthly only where there is a signed plan and evidence of support delivered in the month. The Compliance & Funding Assurance Lead samples ALS evidence each quarter."
+   },
+   {
+    "h1": "5. Wellbeing and safeguarding"
+   },
+   {
+    "p": "If support needs relate to mental health, safety or wellbeing, the Learner Support Lead considers whether a safeguarding concern should be raised under the Safeguarding & Prevent Policy."
+   },
+   {
+    "h1": "6. Confidentiality"
+   },
+   {
+    "p": "Information about disabilities and health is special category data. It is shared only with those who need it to provide support, with the apprentice's consent."
+   }
+  ]
+ },
+ {
+  "id": "sg-wellbeing-guide",
+  "type": "pdf",
+  "title": "Mental Health & Wellbeing Signposting Guide for Learners",
+  "site": "safeguarding",
+  "library": "Learner Support",
+  "category": "Guide",
+  "classification": "Public",
+  "tags": [
+   "wellbeing",
+   "mental health",
+   "signposting",
+   "learners"
+  ],
+  "summary": "Learner-facing guide to looking after your wellbeing, getting help from Delcorn and external support services.",
+  "author": "P023",
+  "owner": "P023",
+  "modified_by": "P023",
+  "created": "2024-09-02",
+  "modified": "2026-09-07",
+  "version": "2.1",
+  "status": "Approved",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2025-09-01",
+    "by": "P023",
+    "change": "Refreshed"
+   },
+   {
+    "version": "2.1",
+    "date": "2026-09-07",
+    "by": "P023",
+    "change": "Helpline numbers checked; added financial support"
+   }
+  ],
+  "approved_by": "P010",
+  "blocks": [
+   {
+    "h1": "Looking after yourself during your apprenticeship"
+   },
+   {
+    "p": "Balancing work, study and life can be hard. It's normal to have difficult times — and it's always okay to ask for help. Your skills coach checks in on your wellbeing at every review, but you don't have to wait for a review to talk to us."
+   },
+   {
+    "h1": "Getting help from Delcorn"
+   },
+   {
+    "bullets": [
+     "Talk to your skills coach — they can help with workload, OTJ time and adjustments.",
+     "Contact the safeguarding team: safeguarding@delcorn.co.uk or 020 7946 0199 (08:00–18:00, Monday to Friday).",
+     "Ask for additional learning support if you have a learning difficulty, disability or health condition.",
+     "Request a break in learning if you need time away from your apprenticeship."
+    ]
+   },
+   {
+    "callout": "If you are in immediate danger or have seriously harmed yourself, call **999** or go to A&E.",
+    "title": "In an emergency"
+   },
+   {
+    "h1": "External support"
+   },
+   {
+    "table": {
+     "columns": [
+      "Service",
+      "What it helps with",
+      "Contact"
+     ],
+     "rows": [
+      [
+       "Samaritans",
+       "Anyone struggling to cope, 24/7",
+       "116 123"
+      ],
+      [
+       "Shout",
+       "Text support, 24/7",
+       "Text SHOUT to 85258"
+      ],
+      [
+       "NHS 111 (option 2)",
+       "Urgent mental health help",
+       "111"
+      ],
+      [
+       "Mind",
+       "Information on mental health",
+       "0300 123 3393"
+      ],
+      [
+       "National Domestic Abuse Helpline",
+       "Domestic abuse support, 24/7",
+       "0808 2000 247"
+      ],
+      [
+       "Citizens Advice",
+       "Money, debt, housing and work",
+       "0800 144 8848"
+      ],
+      [
+       "Shelter",
+       "Housing and homelessness",
+       "0808 800 4444"
+      ],
+      [
+       "Your employer's EAP",
+       "Confidential counselling",
+       "See your employer intranet"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "Small things that help"
+   },
+   {
+    "bullets": [
+     "Block out OTJ time in your calendar and agree it with your manager.",
+     "Take breaks away from screens.",
+     "Stay connected — join the learner community in Teams.",
+     "Keep sleep, exercise and food routines where you can."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "sg-coach-briefing-2026",
+  "type": "pptx",
+  "title": "Safeguarding Training Briefing for Coaches 2026",
+  "site": "safeguarding",
+  "library": "Training & Briefings",
+  "folder": "Coach Briefings",
+  "category": "Training",
+  "tags": [
+   "safeguarding",
+   "training",
+   "coaches",
+   "Prevent",
+   "disclosure"
+  ],
+  "summary": "Annual safeguarding and Prevent briefing for skills coaches: recognising, responding, reporting and recording concerns in remote delivery.",
+  "author": "P023",
+  "owner": "P023",
+  "modified_by": "P023",
+  "created": "2026-08-24",
+  "modified": "2026-09-02",
+  "version": "1.1",
+  "status": "Approved",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-08-28",
+    "by": "P023",
+    "change": "Created"
+   },
+   {
+    "version": "1.1",
+    "date": "2026-09-02",
+    "by": "P010",
+    "change": "Added October scenario bank link"
+   }
+  ],
+  "approved_by": "P010",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Safeguarding Briefing for Coaches 2026",
+    "subtitle": "Recognise · Respond · Report · Record",
+    "meta": "Megan Taylor & Grace Adeyemi | September 2026"
+   },
+   {
+    "layout": "kpis",
+    "title": "Why it matters",
+    "kpis": [
+     {
+      "value": "{{fact:sg_concerns_2526}}",
+      "label": "Concerns in 2025/26"
+     },
+     {
+      "value": "{{fact:sg_top_category}}",
+      "label": "Most common category"
+     },
+     {
+      "value": "Same day",
+      "label": "Reporting timescale"
+     }
+    ],
+    "notes": "Most concerns are first noticed by coaches during reviews or 1:1 sessions."
+   },
+   {
+    "layout": "steps",
+    "title": "The 4 Rs",
+    "steps": [
+     {
+      "label": "Recognise",
+      "text": "Changes in mood, engagement, appearance, language; disclosures in reviews or chats"
+     },
+     {
+      "label": "Respond",
+      "text": "Listen, stay calm, don't investigate, never promise confidentiality"
+     },
+     {
+      "label": "Report",
+      "text": "Same working day to the safeguarding line or DSL — immediately if risk of harm; 999 if in danger"
+     },
+     {
+      "label": "Record",
+      "text": "Aptiva Safeguarding form within 24 hours; learner ID only, no details in email or Teams"
+     }
+    ]
+   },
+   {
+    "layout": "two_column",
+    "title": "Remote delivery: what to watch for",
+    "left": {
+     "heading": "Signs",
+     "bullets": [
+      "Camera always off after previously on",
+      "Someone else present and controlling",
+      "Sudden drop in engagement",
+      "Talk of debt, eviction or unsafe home"
+     ]
+    },
+    "right": {
+     "heading": "What to do",
+     "bullets": [
+      "Ask open questions privately",
+      "Offer a call at a safe time",
+      "Use the wellbeing check field",
+      "Report — let the DSL team decide"
+     ]
+    }
+   },
+   {
+    "layout": "bullets",
+    "title": "Prevent in coaching",
+    "bullets": [
+     "Use the scenario bank to discuss British values naturally",
+     "Challenge extremist language respectfully, then report",
+     "Only the DSL makes Prevent referrals",
+     "Online risks: extremist content, AI-generated propaganda"
+    ]
+   },
+   {
+    "layout": "bullets",
+    "title": "Records and AI tools",
+    "bullets": [
+     "Case details live only in Aptiva Safeguarding and the restricted Case Management library",
+     "Never paste case details into Copilot, Teams or email",
+     "Use learner IDs, not names, when contacting the DSL team",
+     "Board and quality reports use aggregate data only"
+    ],
+    "notes": "With Copilot rolling out, oversharing is a new risk. Highly Confidential labels block Copilot from summarising case records for anyone outside the DSL team."
+   },
+   {
+    "layout": "table",
+    "title": "Who to contact",
+    "table": {
+     "columns": [
+      "Who",
+      "How"
+     ],
+     "rows": [
+      [
+       "Grace Adeyemi (DSL)",
+       "{{person:P010.phone}}"
+      ],
+      [
+       "Megan Taylor (Deputy DSL)",
+       "{{person:P023.phone}}"
+      ],
+      [
+       "Safeguarding line",
+       "020 7946 0199"
+      ],
+      [
+       "Mailbox",
+       "safeguarding@delcorn.co.uk"
+      ]
+     ]
+    }
+   },
+   {
+    "layout": "quote",
+    "title": "Remember",
+    "quote": "If in doubt, report it. You don't have to be sure — that's our job.",
+    "by": "Grace Adeyemi, Designated Safeguarding Lead"
+   }
+  ]
+ },
+ {
+  "id": "sg-case-summary-oct26",
+  "type": "docx",
+  "title": "Safeguarding Concerns Monthly Summary — October 2026",
+  "site": "safeguarding",
+  "library": "Case Management",
+  "folder": "Monthly Summaries/2026-27",
+  "category": "Report",
+  "doc_type_label": "Case management summary",
+  "classification": "Highly Confidential",
+  "tags": [
+   "safeguarding",
+   "case management",
+   "monthly summary",
+   "restricted"
+  ],
+  "summary": "Restricted monthly summary of open and monitoring safeguarding cases at end of October 2026, by case ID only.",
+  "author": "P023",
+  "owner": "P023",
+  "modified_by": "P023",
+  "created": "2026-11-02",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Approved",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-11-03",
+    "by": "P010",
+    "change": "Reviewed by DSL"
+   }
+  ],
+  "approved_by": "P010",
+  "blocks": [
+   {
+    "callout": "**HIGHLY CONFIDENTIAL — DSL team only.** Do not copy, forward, summarise in AI tools or move outside the Case Management library. Case IDs only; learner identities are held in Aptiva Safeguarding.",
+    "title": "Restricted"
+   },
+   {
+    "h1": "1. Summary"
+   },
+   {
+    "kv": [
+     [
+      "Concerns raised in October 2026",
+      "{{sql:SELECT COUNT(*) FROM safeguarding_concerns WHERE date_raised LIKE '2026-10%'}}"
+     ],
+     [
+      "Open cases at month end",
+      "{{sql:SELECT COUNT(*) FROM safeguarding_concerns WHERE status = 'Open'}}"
+     ],
+     [
+      "Monitoring cases at month end",
+      "{{sql:SELECT COUNT(*) FROM safeguarding_concerns WHERE status = 'Monitoring'}}"
+     ],
+     [
+      "High-risk cases (open or monitoring)",
+      "{{sql:SELECT COUNT(*) FROM safeguarding_concerns WHERE status IN ('Open','Monitoring') AND risk_level = 'High'}}"
+     ],
+     [
+      "Cases closed in October",
+      "{{sql:SELECT COUNT(*) FROM safeguarding_concerns WHERE closed_date LIKE '2026-10%'}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Open and monitoring cases"
+   },
+   {
+    "table": {
+     "sql": "SELECT case_id AS \"Case ID\", date_raised AS Raised, category AS Category, risk_level AS Risk, status AS Status, CASE dsl_assigned WHEN 'P010' THEN 'G. Adeyemi' ELSE 'M. Taylor' END AS \"Case lead\", COALESCE(referral_agency, '—') AS \"External referral\", days_open AS \"Days open\" FROM safeguarding_concerns WHERE status IN ('Open','Monitoring') ORDER BY CASE risk_level WHEN 'High' THEN 1 WHEN 'Medium' THEN 2 ELSE 3 END, date_raised",
+     "caption": "Table 1 – Open and monitoring cases at 31 October 2026"
+    }
+   },
+   {
+    "h1": "3. Cases requiring attention"
+   },
+   {
+    "bullets": [
+     "**SG3040** (Prevent, High): local authority Prevent team engaged; Channel panel outcome awaited. DSL review weekly.",
+     "**SG3024** (Housing, High): emergency accommodation secured; monitoring fortnightly until tenancy confirmed.",
+     "**SG3005** (Workplace concern, Low): open for over 600 days in monitoring; recommend closure review at November supervision.",
+     "**SG3016** (Mental health, Medium): raised 26 October by coach; safety plan agreed, GP contact encouraged; review 9 November."
+    ]
+   },
+   {
+    "h1": "4. Themes and actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Closure review of monitoring cases older than 120 days",
+      "owner": "P023",
+      "due": "2026-11-20",
+      "status": "Open"
+     },
+     {
+      "action": "Supervision session for coaches who raised October concerns",
+      "owner": "P010",
+      "due": "2026-11-13",
+      "status": "Open"
+     },
+     {
+      "action": "Confirm sensitivity label on all Case Management files",
+      "owner": "P036",
+      "due": "2026-11-10",
+      "status": "In progress"
+     }
+    ]
+   },
+   {
+    "signature": "P010",
+    "date": "2026-11-03"
+   }
+  ]
+ },
+ {
+  "id": "sg-em-wellbeing-concern",
+  "type": "email",
+  "subject": "Wellbeing concern – LRN21231",
+  "importance": "high",
+  "summary": "Data coach raises a wellbeing concern to the DSL using learner ID only; DSL triages, opens case SG3016 and advises on next steps.",
+  "messages": [
+   {
+    "from": "P014",
+    "to": [
+     "P010"
+    ],
+    "cc": [
+     "P023"
+    ],
+    "date": "2026-10-26T11:42",
+    "body": "Hi Grace,\n\nI've just finished a progress review with LRN21231 and I'm worried about them. They said they haven't been sleeping, feel like they're 'failing at everything' and became tearful when we talked about their EPA timeline. No mention of self-harm, but they did say they'd been avoiding friends and family.\n\nI haven't promised to keep it confidential and told them I'd pass it to the safeguarding team. I'm completing the Aptiva Safeguarding form now. They're happy to be contacted on their work mobile this afternoon.\n\nIs there anything you'd like me to do in the meantime?\n\nThanks,\nJames"
+   },
+   {
+    "from": "P010",
+    "to": [
+     "P014"
+    ],
+    "cc": [
+     "P023"
+    ],
+    "date": "2026-10-26T12:15",
+    "body": "Hi James,\n\nThank you — you've done exactly the right thing, and thank you for keeping the detail out of email. I've read your Aptiva form and logged this as case SG3016, Medium risk, with me as case lead.\n\nI'll call the learner at 2pm today to talk through how they're feeling, agree a safety plan and encourage them to contact their GP. I'll also check whether their employer's EAP is an option.\n\nIn the meantime, please don't follow up on the disclosure yourself. If they contact you before I've spoken to them and anything suggests immediate risk, call me straight away or 999.\n\nCould you hold off on the EPA timeline conversation for now? We'll pick that up together once I've spoken to them.\n\nGrace"
+   },
+   {
+    "from": "P014",
+    "to": [
+     "P010"
+    ],
+    "cc": [
+     "P023"
+    ],
+    "date": "2026-10-26T12:31",
+    "body": "Thanks Grace, will do. I've paused the gateway prep tasks in Aptiva and moved our next session to next week.\n\nJames"
+   },
+   {
+    "from": "P010",
+    "to": [
+     "P014"
+    ],
+    "cc": [
+     "P023"
+    ],
+    "date": "2026-10-27T09:05",
+    "body": "Morning James,\n\nQuick update: I spoke to the learner yesterday. A safety plan is in place, they have a GP appointment this week and they're happy for you to carry on coaching as normal. Further detail is in the case record.\n\nPlease keep your next session supportive and log a wellbeing check in the review. I'll review the case on 9 November. If you'd like a debrief, Megan has supervision slots on Thursday.\n\nThanks again for acting so quickly.\n\nGrace"
+   }
+  ],
+  "classification": "Internal"
+ },
+ {
+  "id": "qual-em-otj-audit",
+  "type": "email",
+  "subject": "Q1 OTJ sampling – draft findings",
+  "summary": "Compliance lead shares draft OTJ audit findings; Director of Quality and Quality Manager agree escalation of behind-plan learners and QIP-06 rating.",
+  "sharepoint_copy": {
+   "site": "quality",
+   "library": "Policies & Procedures",
+   "folder": "Funding Audits"
+  },
+  "messages": [
+   {
+    "from": "P022",
+    "to": [
+     "P005"
+    ],
+    "cc": [
+     "P021"
+    ],
+    "date": "2026-10-31T16:20",
+    "body": "Hi Siân,\n\nDraft findings from the Q1 OTJ sample (60 learners) are below; full draft is in the Funding Audits folder.\n\n- No ineligible claims and all training plans compliant.\n- 11/60 have vague OTJ entries with no KSB link — better than Q4 (24%) but still not where we need it.\n- 7 of the 20 behind-plan learners have no catch-up plan in their latest review. This is the one that worries me.\n- 2 entries logged during BIL/annual leave — corrected, 9 hours in total.\n\nI'd like to rate F3 as High and QIP-06 as Red. Are you comfortable with that before I send for management responses?\n\nThanks,\nDaniel"
+   },
+   {
+    "from": "P005",
+    "to": [
+     "P022"
+    ],
+    "cc": [
+     "P021",
+     "P009"
+    ],
+    "date": "2026-11-02T08:47",
+    "body": "Morning Daniel,\n\nThanks — clear and well evidenced. Yes, High for F3 and Red for QIP-06. If an auditor or inspector sampled those seven, we couldn't show we'd acted, and that's exactly the Ofsted recommendation we committed to fix.\n\nRachel — copying you in. Can Sam get catch-up plans in place for the seven by 14 November? Daniel will send the IDs.\n\nHannah, please reflect the Red in the QIP update and the SAR participation section.\n\nSiân"
+   },
+   {
+    "from": "P021",
+    "to": [
+     "P005",
+     "P022"
+    ],
+    "cc": [
+     "P009"
+    ],
+    "date": "2026-11-02T10:12",
+    "body": "Will do. I'll also add a line to the Learner Voice report — OTJ time is the top negative theme in comments, so it triangulates nicely with Daniel's findings.\n\nDaniel, could you re-test F3 in the Q2 sample so we have evidence of impact before the Board?\n\nHannah"
+   },
+   {
+    "from": "P022",
+    "to": [
+     "P005",
+     "P021"
+    ],
+    "cc": [
+     "P009"
+    ],
+    "date": "2026-11-03T15:30",
+    "body": "Final report now approved and saved. Re-test of F3 and F5 is in the Q2 plan (fieldwork late January). Kate has confirmed the Aptiva KSB field can be made mandatory by mid-December.\n\nDaniel"
+   }
+  ],
+  "classification": "Internal"
+ },
+ {
+  "id": "qual-ch-sar-2526",
+  "type": "chat",
+  "title": "SAR 2025/26",
+  "team": "Quality & Compliance",
+  "channel": "SAR 2025/26",
+  "summary": "Quality team channel coordinating the 2025/26 SAR: data validation, evidence gaps, learner voice and Board timetable.",
+  "sharepoint_copy": {
+   "site": "quality",
+   "library": "Self-Assessment & QIP",
+   "folder": "2025-26"
+  },
+  "messages": [
+   {
+    "from": "P005",
+    "time": "2026-10-05T09:02",
+    "text": "Morning all. SAR draft v0.4 is in Self-Assessment & QIP › 2025-26. Exec deadline is 30 Oct. Please add evidence to your sections this week — every judgement needs a source."
+   },
+   {
+    "from": "P029",
+    "time": "2026-10-05T09:20",
+    "text": "Validated achievement data uploaded: {{fact:achievement_rate_2526}} overall. Academy table is pulled straight from the ILR R14 snapshot, so it matches funding."
+   },
+   {
+    "from": "P021",
+    "time": "2026-10-05T09:31",
+    "text": "Thanks Nicole! I'll drop the observation grade profile and development areas into section 3 today.",
+    "reactions": [
+     "👍 2"
+    ]
+   },
+   {
+    "from": "P005",
+    "time": "2026-10-07T14:10",
+    "text": "Hannah — can we triangulate the 'targets not SMART' theme? Observations, the Ofsted recommendation and the review audit all say the same thing, which is strong evidence that we know ourselves."
+   },
+   {
+    "from": "P021",
+    "time": "2026-10-07T14:26",
+    "text": "Yes — I'll reference all three. Review audit is a bit old (Feb) though; flagged Red on the evidence map."
+   },
+   {
+    "from": "P022",
+    "time": "2026-10-09T11:45",
+    "text": "Leadership section: Q4 OTJ audit shows no ineligible claims. Q1 sampling finishes 27 Oct — I'll update once done."
+   },
+   {
+    "from": "P010",
+    "time": "2026-10-12T16:03",
+    "text": "Inclusion section updated with safeguarding totals for the year — aggregate only, no case IDs. Please don't paste anything from Case Management into the SAR."
+   },
+   {
+    "from": "P005",
+    "time": "2026-10-12T16:15",
+    "text": "Noted, thanks Grace. Aggregate is all we need.",
+    "reactions": [
+     "✅ 3"
+    ]
+   },
+   {
+    "from": "P021",
+    "time": "2026-10-21T10:40",
+    "text": "Learner voice: NPS {{fact:learner_nps_12m}}. Top negative theme is OTJ time. Adding to participation section."
+   },
+   {
+    "from": "P005",
+    "time": "2026-10-23T17:22",
+    "text": "v0.8 done. Achievement now Strong standard. Going to exec Thursday, then Board on 10 Dec. Thanks everyone — great teamwork.",
+    "reactions": [
+     "🎉 4"
+    ]
+   },
+   {
+    "from": "P009",
+    "time": "2026-10-24T08:15",
+    "text": "Read it last night — really clear. One ask: can the People/Digital gap mention the coach vacancy is now filled?"
+   },
+   {
+    "from": "P005",
+    "time": "2026-10-24T08:30",
+    "text": "Good shout Rachel, added."
+   }
+  ],
+  "classification": "Internal"
+ }
+]

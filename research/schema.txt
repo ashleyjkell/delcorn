@@ -1,0 +1,220 @@
+
+## coach_caseloads (60 rows)
+  - coach_id  e.g. 'E1057'
+  - coach_name  e.g. 'Abbie Edwards'
+  - academy  e.g. 'AI Academy'  values: ['AI Academy', 'Data Academy', 'Digital Academy', 'Leadership Academy', 'People Academy']
+  - manager_id  e.g. 'P012'  values: ['P012', 'P013']
+  - caseload_target  e.g. 26  values: [26, 20]
+  - active_learners  e.g. 21
+  - green  e.g. 18
+  - amber  e.g. 2  values: [2, 9, 8, 6, 5, 3, 4, 1, 7, 0, 10]
+  - red  e.g. 1  values: [1, 2, 5, 3, 0, 4]
+  - overdue_reviews  e.g. 2  values: [2, 5, 3, 4, 10, 1, 6, 0, 8, 7]
+  - capacity_used  e.g. 0.81
+
+## coach_observations (180 rows)
+  - obs_id  e.g. 'OBS4001'
+  - coach_id  e.g. 'E1072'
+  - coach_name  e.g. 'Glenn Chapman'
+  - academy  e.g. 'AI Academy'  values: ['AI Academy', 'Data Academy', 'Leadership Academy', 'Digital Academy', 'People Academy', 'Functional Skills']
+  - observer_id  e.g. 'P021'  values: ['P021', 'P005', 'P013', 'P009', 'P012']
+  - obs_date  e.g. '2025-06-03'
+  - session_type  e.g. '1:1 coaching'  values: ['1:1 coaching', 'Functional Skills lesson', 'Progress review', 'Group workshop', 'Gateway preparation']
+  - grade  e.g. 'Secure'  values: ['Secure', 'Strong', 'Developing', 'Requires improvement']
+  - strength  e.g. 'Well-paced workshop with good participation'  values: ['Well-paced workshop with good participation', 'Effective use of real employer data in examples', 'Skilful questioning that deepened learner reflection', 'Strong rapport and wellbeing check-in', 'Highly personalised targets', 'Clear links between KSBs and workplace tasks']
+  - development_area  e.g. 'Use Aptiva evidence more during the session'  values: ['Use Aptiva evidence more during the session', 'Check understanding more frequently', 'Set sharper, measurable targets', 'Embed Prevent / British values discussion more naturally', 'Stretch more able learners', 'Improve employer involvement in review']
+  - follow_up_required  e.g. 0  values: [0, 1]
+
+## employees (142 rows)
+  - employee_id  e.g. 'P001'
+  - full_name  e.g. 'Helena Marsh'
+  - department  e.g. 'exec'  values: ['exec', 'finance', 'partnerships', 'quality', 'people', 'tech', 'curriculum', 'delivery', 'safeguarding', 'hub']
+  - job_title  e.g. 'Chief Executive Officer & Founder'
+  - email  e.g. 'helena.marsh@delcorn.co.uk'
+  - role_family  e.g. 'Leadership'  values: ['Leadership', 'Specialist', 'Manager', 'Coach', 'Tutor']
+  - academy  e.g. None  values: [None, 'Data Academy', 'AI Academy', 'Leadership Academy', 'Digital Academy', 'People Academy']
+  - manager_id  e.g. None
+  - location  e.g. 'London'
+  - start_date  e.g. '2015-04-01'
+  - contract_type  e.g. 'Permanent'  values: ['Permanent', 'Fixed term']
+  - fte  e.g. 1.0  values: [1.0, 0.6, 0.8]
+  - salary_gbp  e.g. 188300
+  - caseload_target  e.g. None  values: [None, 26, 20]
+  - status  e.g. 'Active'  values: ['Active']
+
+## employers (92 rows)
+  - employer_id  e.g. 'EMP1001'
+  - sector  e.g. 'Utilities & Energy'
+  - employer_name  e.g. 'Northgrid Energy plc'
+  - size_band  e.g. 'Large (250+)'  values: ['Large (250+)', 'Medium (50-249)', 'Small (<50)']
+  - region  e.g. 'Midlands'  values: ['Midlands', 'London', 'Yorkshire & Humber', 'North West', 'South East', 'Scotland', 'North East', 'East of England', 'South West', 'Wales']
+  - tier  e.g. 'Strategic'  values: ['Strategic', 'Key', 'Standard']
+  - target_learners  e.g. 120
+  - account_manager_id  e.g. 'P024'  values: ['P024', 'P025', 'P026']
+  - status  e.g. 'Active'  values: ['Active', 'Lapsed', 'Paused']
+  - email_domain  e.g. 'northgridenergy.co.uk'
+  - levy_payer  e.g. 1  values: [1, 0]
+  - annual_levy_gbp  e.g. 2475000
+  - das_account_id  e.g. 'DAS-435003'
+  - relationship_start  e.g. '2018-10-28'
+  - primary_contact  e.g. 'Terence Newton'
+  - contact_email  e.g. 'terence.newton@northgridenergy.co.uk'
+  - contact_role  e.g. 'Head of People'  values: ['Head of People', 'Talent Development Manager', 'HR Business Partner', 'Head of Learning & Development', 'Apprenticeship Lead', 'Early Careers Manager']
+
+## epa_results (692 rows)
+  - epa_id  e.g. 'EPA5001'
+  - learner_id  e.g. 'LRN20002'
+  - programme_code  e.g. 'SD4'
+  - epao  e.g. 'Pinnacle Assessment Services'  values: ['Pinnacle Assessment Services', 'NorthStar EPA', 'Institute of Management Practice', 'Institute of People Practice', 'University of Wessex']
+  - gateway_date  e.g. '2025-10-27'
+  - epa_date  e.g. '2025-12-26'
+  - grade  e.g. 'Distinction'  values: ['Distinction', 'Pass', 'Merit']
+  - first_attempt  e.g. 1  values: [1, 0]
+  - certificate_date  e.g. '2026-01-14'
+
+## it_tickets (460 rows)
+  - ticket_id  e.g. 'INC60001'
+  - raised_by  e.g. 'E1046'
+  - raised_by_name  e.g. 'Philip Harris'
+  - department  e.g. 'delivery'  values: ['delivery', 'exec', 'partnerships', 'curriculum', 'quality', 'finance', 'tech', 'safeguarding', 'hub', 'people']
+  - category  e.g. 'Teams meetings & audio'  values: ['Teams meetings & audio', 'Phishing report', 'Data request', 'Microsoft 365 / Outlook', 'Password / MFA reset', 'New starter setup', 'Leaver / access removal', 'Laptop hardware', 'Aptiva access / sync', 'Power BI report', 'Copilot access & licensing', 'Peripherals']
+  - priority  e.g. 'P4'  values: ['P4', 'P3', 'P1', 'P2']
+  - opened  e.g. '2026-05-18T09:30:00'
+  - sla_target_hours  e.g. 72  values: [72, 24, 4, 8]
+  - status  e.g. 'Resolved'  values: ['Resolved', 'Open', 'In progress']
+  - resolution_hours  e.g. 43.6
+  - resolved  e.g. '2026-05-20T05:06:00'
+  - sla_met  e.g. 1  values: [1, 0, None]
+  - assigned_to  e.g. "Liam O'Connor"  values: ["Liam O'Connor", 'Kate Simmons', 'Service Desk Team', 'Mohammed Ali']
+
+## learner_feedback (1150 rows)
+  - response_id  e.g. 'FB70001'
+  - learner_id  e.g. 'LRN20619'
+  - coach_id  e.g. 'E1111'
+  - programme_code  e.g. 'PM4'
+  - survey  e.g. 'Mid-point survey'  values: ['Mid-point survey', 'Onboarding survey', 'Exit survey']
+  - response_date  e.g. '2026-07-10'
+  - nps_score  e.g. 10  values: [10, 8, 9, 7, 6, 5, 4, 3]
+  - nps_category  e.g. 'Promoter'  values: ['Promoter', 'Passive', 'Detractor']
+  - coach_rating  e.g. 5  values: [5, 4, 3, 2, 1]
+  - workshop_rating  e.g. 5  values: [5, 4, 3, 2, 1]
+  - comment  e.g. 'Great balance of theory and workplace projects.'
+
+## learners (2300 rows)
+  - learner_id  e.g. 'LRN20001'
+  - uln  e.g. '5385873535'
+  - first_name  e.g. 'Philip'
+  - last_name  e.g. 'Chan'
+  - employer_id  e.g. 'EMP1041'
+  - email  e.g. 'philip.chan@ryanmedical.co.uk'
+  - region  e.g. 'London'  values: ['London', 'Scotland', 'Yorkshire & Humber', 'South West', 'Midlands', 'North West', 'East of England', 'South East', 'North East', 'Wales']
+  - programme_code  e.g. 'DO4'
+  - academy  e.g. 'Digital Academy'  values: ['Digital Academy', 'Data Academy', 'AI Academy', 'People Academy', 'Leadership Academy']
+  - coach_id  e.g. 'E1047'
+  - start_date  e.g. '2024-09-11'
+  - planned_end_date  e.g. '2026-06-10'
+  - age_band  e.g. '35-49'  values: ['35-49', '25-34', '19-24', '16-18', '50+']
+  - gender  e.g. 'Female'  values: ['Female', 'Male', 'Non-binary', 'Prefer not to say']
+  - lldd  e.g. 0  values: [0, 1]
+  - status  e.g. 'Withdrawn'  values: ['Withdrawn', 'Completed', 'Active', 'Break in learning', 'Gateway', 'EPA']
+  - actual_end_date  e.g. '2026-02-08'
+  - withdrawal_reason  e.g. 'Left employer'  values: ['Left employer', None, 'Changed role', 'Programme not the right fit', 'Personal / health reasons', 'Moved to a different programme', 'Workload / unable to commit OTJ', 'Redundancy']
+  - otj_hours_planned  e.g. 370  values: [370, 310, 500, 270, 750]
+  - otj_expected_to_date  e.g. 348
+  - otj_hours_logged  e.g. 200
+  - progress_rag  e.g. None  values: [None, 'Green', 'Amber', 'Red']
+  - als_support  e.g. 0  values: [0, 1]
+  - functional_skills_required  e.g. 'None'  values: ['None', 'Maths L2', 'Maths & English L2', 'English L2']
+  - last_review_date  e.g. '2025-12-15'
+  - next_review_due  e.g. None
+
+## monthly_funding (135 rows)
+  - month  e.g. '2024-08'
+  - academic_year  e.g. '2024/25'  values: ['2024/25', '2025/26', '2026/27']
+  - academy  e.g. 'AI Academy'  values: ['AI Academy', 'Data Academy', 'Digital Academy', 'Leadership Academy', 'People Academy']
+  - learners_on_programme  e.g. 148
+  - new_starts  e.g. 12
+  - on_programme_funding_gbp  e.g. 120960.0
+  - completion_funding_gbp  e.g. 0.0
+
+## opportunities (130 rows)
+  - opp_id  e.g. 'OPP9001'
+  - employer_id  e.g. 'EMP1032'
+  - employer_name  e.g. 'Young Industries Ltd'
+  - owner_id  e.g. 'P024'  values: ['P024', 'P026', 'P025']
+  - programme_code  e.g. 'DO4'
+  - programme_name  e.g. 'DevOps Engineering'
+  - opportunity_name  e.g. 'Young Industries Ltd - DevOps Engineering cohort'
+  - stage  e.g. 'Prospecting'  values: ['Prospecting', 'Discovery', 'Negotiation', 'Proposal', 'Closed Lost', 'Closed Won']
+  - probability  e.g. 0.1  values: [0.1, 0.25, 0.75, 0.5, 0.0, 1.0]
+  - est_starts  e.g. 17
+  - est_value_gbp  e.g. 374000
+  - weighted_value_gbp  e.g. 37400
+  - created_date  e.g. '2026-06-04'
+  - expected_close  e.g. '2027-01-18'
+  - source  e.g. 'Inbound web'  values: ['Inbound web', 'Existing account', 'Event', 'Framework tender', 'Referral', 'Outbound']
+  - funding_route  e.g. 'Levy'  values: ['Levy', 'Levy transfer', 'Co-investment (5%)', 'Commercial']
+
+## programmes (19 rows)
+  - programme_code  e.g. 'AI3'
+  - programme_name  e.g. 'Working Smarter with AI'
+  - standard  e.g. 'Digital Support Technician'
+  - level  e.g. 3  values: [3, 4, 6, 5, 7]
+  - duration_months  e.g. 15  values: [15, 24, 18, 36, 13]
+  - funding_band_gbp  e.g. 13000
+  - academy  e.g. 'AI Academy'  values: ['AI Academy', 'Data Academy', 'Digital Academy', 'Leadership Academy', 'People Academy']
+  - epao  e.g. 'Pinnacle Assessment Services'  values: ['Pinnacle Assessment Services', 'NorthStar EPA', 'University of Wessex', 'Institute of Management Practice', 'Institute of People Practice']
+  - grading  e.g. 'DMP'  values: ['DMP', 'DP']
+  - popularity  e.g. 14  values: [14, 9, 3, 8, 16, 4, 5, 2, 10, 1]
+
+## progress_reviews (11011 rows)
+  - review_id  e.g. 'PR100001'
+  - learner_id  e.g. 'LRN20001'
+  - coach_id  e.g. 'E1047'
+  - review_number  e.g. 1
+  - review_date  e.g. '2024-10-16'
+  - otj_hours_to_date  e.g. 13
+  - rag  e.g. 'Green'  values: ['Green', 'Amber', 'Red']
+  - employer_attended  e.g. 0  values: [0, 1]
+  - wellbeing_check  e.g. 'No concerns'  values: ['No concerns', 'Workload pressure', 'Personal circumstances', 'Referred to learner support']
+  - coach_summary  e.g. 'Good progress against KSBs; portfolio evidence up to date.'  values: ['Good progress against KSBs; portfolio evidence up to date.', 'Excellent reflective journal entries; stretch targets set.', 'Ready to begin gateway preparation next review.', 'Strong workplace project underway; employer very positive.', 'Missed two workshops; catch-up recordings assigned.', 'Learner struggling with workload; action plan agreed with employer.', 'OTJ slightly behind plan; agreed protected learning time with line manager.', 'Functional Skills exam booked; maths practice set.']
+  - next_steps  e.g. 'Meet line manager to agree protected study time'  values: ['Meet line manager to agree protected study time', 'Log OTJ hours weekly in Aptiva', 'Attend live workshop and complete reflection', 'Book mock professional discussion', 'Draft workplace project proposal', 'Complete next module and upload evidence']
+  - signed_status  e.g. 'Awaiting employer signature'  values: ['Awaiting employer signature', 'Signed by all parties', 'Awaiting learner signature']
+
+## risk_register (14 rows)
+  - risk_id  e.g. 'R01'
+  - title  e.g. 'Changes to apprenticeship funding policy reduce income'
+  - category  e.g. 'Funding & Policy'  values: ['Funding & Policy', 'Quality & Regulatory', 'Safeguarding', 'Information Security', 'People', 'Commercial', 'Technology', 'Curriculum', 'Delivery', 'Strategic', 'Finance']
+  - owner_id  e.g. 'P003'  values: ['P003', 'P005', 'P010', 'P036', 'P006', 'P022', 'P004', 'P007', 'P008', 'P009', 'P002', 'P029']
+  - likelihood  e.g. 4  values: [4, 2, 3, 1]
+  - impact  e.g. 5  values: [5, 4, 3]
+  - inherent_score  e.g. 20  values: [20, 10, 15, 12, 8, 9, 6, 5]
+  - key_controls  e.g. 'Policy horizon scanning; diversified commercial income; scenario modelling'
+  - residual_score  e.g. 12  values: [12, 6, 8, 9, 4, 3]
+  - trend  e.g. 'Rising'  values: ['Rising', 'Stable', 'Falling']
+  - last_reviewed  e.g. '2026-10-14'  values: ['2026-10-14']
+
+## safeguarding_concerns (74 rows)
+  - case_id  e.g. 'SG3001'
+  - learner_id  e.g. 'LRN21372'
+  - date_raised  e.g. '2026-04-18'
+  - raised_by  e.g. 'E1066'
+  - category  e.g. 'Financial hardship'  values: ['Financial hardship', 'Online safety', 'Self-harm / suicidal ideation', 'Workplace concern / bullying', 'Domestic abuse', 'Housing / homelessness', 'Prevent / radicalisation', 'Mental health & wellbeing', 'Substance misuse', 'Other']
+  - risk_level  e.g. 'High'  values: ['High', 'Medium', 'Low']
+  - dsl_assigned  e.g. 'P023'  values: ['P023', 'P010']
+  - status  e.g. 'Closed'  values: ['Closed', 'Monitoring', 'Open']
+  - external_referral  e.g. 1  values: [1, 0]
+  - referral_agency  e.g. 'Employee assistance programme'  values: ['Employee assistance programme', None, 'GP', 'Local authority Prevent team', 'Citizens Advice', 'Local authority adult social care']
+  - closed_date  e.g. '2026-05-08'
+  - days_open  e.g. 20
+
+## suppliers (12 rows)
+  - supplier_id  e.g. 'SUP01'  values: ['SUP01', 'SUP02', 'SUP03', 'SUP04', 'SUP05', 'SUP06', 'SUP07', 'SUP08', 'SUP09', 'SUP10', 'SUP11', 'SUP12']
+  - supplier_name  e.g. 'Aptiva Systems Ltd'  values: ['Aptiva Systems Ltd', 'PipelineHQ Ltd', 'Ledgerline Software', 'PeopleFlow HR', 'Microsoft (via CloudReseller UK)', 'Pinnacle Assessment Services', 'NorthStar EPA', 'University of Wessex', 'Wellspring EAP', 'Fenwick Laptop Leasing', 'Brightside Events', 'Clearview Accessibility']
+  - category  e.g. 'E-portfolio platform'  values: ['E-portfolio platform', 'CRM software', 'Finance system', 'HR system', 'Microsoft 365 & Copilot licences', 'End-point assessment', 'Degree apprenticeship partner', 'Employee assistance programme', 'Device leasing', 'Event venues & catering', 'Accessibility audits & BSL']
+  - annual_spend_gbp  e.g. 312000  values: [312000, 46000, 38000, 29000, 168000, 0, 410000, 14500, 96000, 37000, 12000]
+  - contract_start  e.g. '2021-08-01'  values: ['2021-08-01', '2023-04-01', '2022-08-01', '2022-01-01', '2025-08-01', '2019-01-01', '2020-06-01', '2022-09-01', '2024-04-01', '2024-09-01', '2025-01-01', '2025-05-01']
+  - contract_end  e.g. '2027-07-31'  values: ['2027-07-31', '2026-03-31', '2026-12-31', '2026-07-31', '2027-12-31', '2027-05-31', '2028-08-31', '2027-03-31', '2027-08-31', '2026-04-30']
+  - owner_id  e.g. 'P007'  values: ['P007', 'P004', 'P003', 'P006', 'P005', 'P008', 'P027', 'P020']
+  - risk_rating  e.g. 'High'  values: ['High', 'Medium', 'Low']
+  - dpa_in_place  e.g. 1  values: [1, 0]

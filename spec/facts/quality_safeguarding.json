@@ -1,0 +1,109 @@
+[
+ {
+  "id": "qual_obs_strong_pct_2526",
+  "category": "Quality",
+  "question": "What proportion of coaching observations in 2025/26 were graded Strong?",
+  "sql": "SELECT 1.0*SUM(grade='Strong')/COUNT(*) FROM coach_observations WHERE obs_date BETWEEN '2025-08-01' AND '2026-07-31'",
+  "format": "pct",
+  "sources": [
+   "coach_observations",
+   "qual-obs-summary-2526",
+   "qual-sar-2526"
+  ],
+  "notes": "Observations 1 Aug 2025 – 31 Jul 2026"
+ },
+ {
+  "id": "qual_epa_first_attempt_2526",
+  "category": "Quality",
+  "question": "What was the EPA first-attempt pass rate for results in 2025/26?",
+  "sql": "SELECT 1.0*SUM(first_attempt)/COUNT(*) FROM epa_results WHERE epa_date BETWEEN '2025-08-01' AND '2026-07-31'",
+  "format": "pct",
+  "sources": [
+   "epa_results",
+   "qual-sar-2526"
+  ]
+ },
+ {
+  "id": "qual_otj_behind_active",
+  "category": "Compliance",
+  "question": "How many active apprentices are more than 20% behind their expected OTJ hours?",
+  "sql": "SELECT COUNT(*) FROM learners WHERE status='Active' AND otj_hours_logged < 0.8*otj_expected_to_date",
+  "format": "int",
+  "sources": [
+   "learners",
+   "qual-otj-audit-q1-2627"
+  ],
+  "notes": "As at 5 Nov 2026"
+ },
+ {
+  "id": "qual_obs_frequency",
+  "category": "Quality",
+  "question": "How often must each skills coach be formally observed, and when is a re-observation required?",
+  "answer": "At least once per academic year; new coaches within their first 3 months; Requires improvement → support plan and re-observation within 6 weeks",
+  "sources": [
+   "qual-obs-framework"
+  ]
+ },
+ {
+  "id": "qual_complaint_timescales",
+  "category": "Policy",
+  "question": "How quickly must Delcorn acknowledge and respond to a Stage 1 formal complaint?",
+  "answer": "Acknowledged within 3 working days; full response within 15 working days",
+  "sources": [
+   "qual-complaints-policy"
+  ]
+ },
+ {
+  "id": "sg_top_category",
+  "category": "Safeguarding",
+  "question": "What is the most common category of safeguarding concern?",
+  "sql": "SELECT category FROM safeguarding_concerns GROUP BY 1 ORDER BY COUNT(*) DESC LIMIT 1",
+  "sources": [
+   "safeguarding_concerns",
+   "sg-annual-report-2526"
+  ]
+ },
+ {
+  "id": "sg_concerns_2526",
+  "category": "Safeguarding",
+  "question": "How many safeguarding concerns were raised in 2025/26?",
+  "sql": "SELECT COUNT(*) FROM safeguarding_concerns WHERE date_raised BETWEEN '2025-08-01' AND '2026-07-31'",
+  "format": "int",
+  "sources": [
+   "safeguarding_concerns",
+   "sg-annual-report-2526"
+  ]
+ },
+ {
+  "id": "sg_prevent_cases",
+  "category": "Safeguarding",
+  "question": "How many Prevent / radicalisation concerns have been recorded since records began (March 2025)?",
+  "sql": "SELECT COUNT(*) FROM safeguarding_concerns WHERE category='Prevent / radicalisation'",
+  "format": "int",
+  "sources": [
+   "safeguarding_concerns",
+   "sg-policy-2627",
+   "sg-prevent-ra-2627"
+  ]
+ },
+ {
+  "id": "sg_dsl_contact",
+  "category": "Safeguarding",
+  "question": "Who is Delcorn's Designated Safeguarding Lead, and who is the deputy?",
+  "answer": "Grace Adeyemi, Head of Safeguarding (DSL & Prevent Lead); deputy Megan Taylor. Safeguarding line 020 7946 0199, safeguarding@delcorn.co.uk",
+  "sources": [
+   "sg-policy-2627",
+   "sg-coach-briefing-2026"
+  ]
+ },
+ {
+  "id": "sg_reporting_timescale",
+  "category": "Safeguarding",
+  "question": "How quickly must a member of staff report and record a safeguarding concern?",
+  "answer": "Report the same working day (immediately if risk of harm; 999 if in immediate danger) and record on the Aptiva Safeguarding form within 24 hours",
+  "sources": [
+   "sg-policy-2627",
+   "sg-coach-briefing-2026"
+  ]
+ }
+]

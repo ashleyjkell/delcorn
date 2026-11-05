@@ -1,0 +1,4848 @@
+[
+ {
+  "id": "dlv-coach-handbook",
+  "type": "docx",
+  "title": "Skills Coach Handbook 2026/27",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Handbooks & Procedures",
+  "category": "Handbook",
+  "doc_type_label": "Coach Handbook",
+  "author": "P009",
+  "owner": "P009",
+  "modified_by": "P012",
+  "approved_by": "P002",
+  "created": "2024-07-22",
+  "modified": "2026-08-28",
+  "version": "4.0",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "coaching",
+   "caseload",
+   "progress review",
+   "OTJ",
+   "RAG",
+   "gateway",
+   "break in learning",
+   "handbook"
+  ],
+  "summary": "The definitive guide for Delcorn skills coaches in 2026/27: caseloads, 12-weekly tripartite reviews, OTJ recording, RAG ratings, escalation, breaks in learning and gateway readiness.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2024-08-01",
+    "by": "P009",
+    "change": "Rewritten for fully remote delivery and Aptiva v5"
+   },
+   {
+    "version": "3.0",
+    "date": "2025-08-04",
+    "by": "P009",
+    "change": "New RAG thresholds based on OTJ % of expected; AI Academy added"
+   },
+   {
+    "version": "3.1",
+    "date": "2026-02-23",
+    "by": "P012",
+    "change": "Post-Ofsted updates: employer involvement in reviews, wellbeing check wording"
+   },
+   {
+    "version": "4.0",
+    "date": "2026-08-28",
+    "by": "P009",
+    "change": "2026/27 edition: apprenticeship units, revised caseload weighting, Copilot guidance for review notes"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Welcome and purpose"
+   },
+   {
+    "p": "This handbook sets out what Delcorn expects of every skills coach in the 2026/27 academic year (1 August 2026 – 31 July 2027). It is the single reference point for caseload management, progress reviews, off-the-job (OTJ) training, progress ratings, escalation, breaks in learning and gateway. Where a separate procedure exists (for example the **Progress Review Procedure** or the **At-Risk Learner Escalation Process**) this handbook summarises it and the procedure takes precedence on detail."
+   },
+   {
+    "p": "We currently support **{{fact:active_learners}}** apprentices on programme through **{{fact:coach_count}}** skills coaches across the AI, Data, Digital, Leadership and People academies. Delivery is fully remote: 1:1 coaching and reviews take place on Microsoft Teams, workshops are live online, and all evidence, OTJ hours and signatures live in **Aptiva**."
+   },
+   {
+    "callout": "If it isn't in Aptiva, it didn't happen. Funding auditors, Ofsted inspectors and end-point assessors all look at Aptiva first. Record reviews, OTJ and contact the same working day wherever possible, and never later than 3 working days.",
+    "title": "The golden rule"
+   },
+   {
+    "h1": "2. Your role as a skills coach"
+   },
+   {
+    "p": "You are the apprentice's main point of contact with Delcorn for the whole programme. You plan learning against the apprenticeship standard's knowledge, skills and behaviours (KSBs), coach the apprentice to apply them at work, keep the employer actively involved, and make sure the apprentice is safe, well and making progress."
+   },
+   {
+    "bullets": [
+     "Hold a 1:1 coaching session with each apprentice at least every 4 weeks (monthly), plus a tripartite progress review at least every 12 weeks.",
+     "Keep the individual training plan live: planned OTJ hours, module sequence, Functional Skills and any additional learning support (ALS).",
+     "Review and sign off evidence in Aptiva within 10 working days of submission.",
+     "Rate every learner Green, Amber or Red at every review using the OTJ-based thresholds in section 6.",
+     "Raise safeguarding or Prevent concerns immediately via the safeguarding referral form — never wait for a review.",
+     "Prepare apprentices for gateway and end-point assessment (EPA) with mock assessments and a gateway readiness check."
+    ]
+   },
+   {
+    "h1": "3. Caseload expectations"
+   },
+   {
+    "p": "Caseloads are allocated by your delivery manager (Sam Patel for AI, Data and Digital; Laura Chen for Leadership, Project and People). Targets are set per full-time equivalent (FTE) and pro-rated for part-time coaches."
+   },
+   {
+    "table": {
+     "columns": [
+      "Role",
+      "Caseload target (FTE)",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Skills coach",
+       "26 learners",
+       "Standard target for Level 3–5 programmes"
+      ],
+      [
+       "Senior skills coach",
+       "20 learners",
+       "Lower target to allow mentoring of new coaches and quality work"
+      ],
+      [
+       "New coach (first 90 days)",
+       "Ramp: 8 → 16 → 26",
+       "See the New Coach 30-60-90 Plan"
+      ],
+      [
+       "Degree / Level 6–7 programmes",
+       "Each learner counts as 1.2",
+       "Weighting reflects longer reviews and academic assignments"
+      ]
+     ],
+     "caption": "Table 1 – Caseload targets 2026/27"
+    }
+   },
+   {
+    "p": "Capacity is reported as active learners ÷ caseload target. Above 110% your delivery manager must agree a plan to rebalance within 6 weeks. Currently **{{fact:coaches_over_target}}** coaches are above target and the average caseload is **{{fact:avg_caseload}}** learners."
+   },
+   {
+    "h2": "3.1 Weekly caseload routine"
+   },
+   {
+    "numbered": [
+     "Monday: open the Aptiva 'My Caseload' view and the Power BI Caseload dashboard; check reviews due in the next 14 days and any overdue.",
+     "Book all reviews due in the next 4 weeks with the learner and line manager (send the Teams invite from Aptiva so it links to the record).",
+     "Check OTJ logged in the last 4 weeks for every learner; message anyone with no OTJ logged in 14 days.",
+     "Clear evidence marking older than 7 days.",
+     "Friday: update RAG notes for anyone whose position has changed and flag new Reds to your delivery manager."
+    ]
+   },
+   {
+    "h1": "4. Tripartite progress reviews (every 12 weeks)"
+   },
+   {
+    "p": "Every apprentice must have a formal progress review **at least every 12 weeks**, attended by the apprentice, the coach and the employer (normally the line manager). This is a funding rule as well as good practice: the review is where all three parties agree progress, OTJ, targets and support. The first review is held within 8 weeks of the start date."
+   },
+   {
+    "kv": [
+     [
+      "Frequency",
+      "At least every 12 weeks; first review within 8 weeks of start"
+     ],
+     [
+      "Attendees",
+      "Apprentice, skills coach, employer representative (line manager or mentor)"
+     ],
+     [
+      "Duration",
+      "60 minutes (90 minutes for Level 6–7)"
+     ],
+     [
+      "Format",
+      "Microsoft Teams, using the Aptiva review form shared on screen"
+     ],
+     [
+      "Recorded in",
+      "Aptiva → Reviews → New tripartite review"
+     ],
+     [
+      "Signatures",
+      "All three parties e-sign in Aptiva within 10 working days"
+     ],
+     [
+      "Overdue",
+      "A review is overdue the day after its 'next review due' date"
+     ]
+    ]
+   },
+   {
+    "h2": "4.1 What every review must cover"
+   },
+   {
+    "bullets": [
+     "Progress against KSBs and the training plan since the last review, with evidence references.",
+     "OTJ hours logged versus expected to date, and the resulting RAG rating.",
+     "Employer feedback on how the apprentice is applying learning at work.",
+     "Wellbeing check, safeguarding and Prevent/British values discussion (use the prompt card).",
+     "Functional Skills progress where required.",
+     "SMART targets for the next 12 weeks, with owners (apprentice, employer and coach).",
+     "Next review date booked before the call ends."
+    ]
+   },
+   {
+    "p": "Write the coach summary in plain English so the employer can understand it without jargon. You may use Microsoft 365 Copilot to draft the summary from your Teams meeting transcript, but you must check every statement, remove anything sensitive (health, safeguarding detail) and never paste learner personal data into tools other than Delcorn's licensed Copilot."
+   },
+   {
+    "p": "As at {{today}}, **{{fact:overdue_reviews}}** on-programme learners have an overdue review. Reducing this is the delivery team's top priority for the autumn term."
+   },
+   {
+    "h1": "5. Off-the-job (OTJ) training recording rules"
+   },
+   {
+    "p": "OTJ training is learning undertaken during the apprentice's normal paid hours, for the purpose of achieving the apprenticeship, that is not part of their normal duties. Every apprentice has a planned OTJ figure on their training plan (for example 310 hours for AI4 and DA4, 370 hours for OM5 and PP5). Expected OTJ to date is calculated by Aptiva on a straight-line basis from start date to planned end of the practical period."
+   },
+   {
+    "h2": "5.1 What counts"
+   },
+   {
+    "bullets": [
+     "Delcorn live workshops and webinars, and watching recordings of them.",
+     "1:1 coaching sessions (but **not** the tripartite progress review itself).",
+     "Self-directed study on the Aptiva learning modules.",
+     "Shadowing, mentoring and work on a stretch project designed to build new KSBs.",
+     "Writing assignments, reflective journals and project reports.",
+     "Mock assessments and gateway preparation."
+    ]
+   },
+   {
+    "h2": "5.2 What does not count"
+   },
+   {
+    "bullets": [
+     "Progress reviews and English/maths (Functional Skills) study.",
+     "Training to do the current job that is not linked to the standard.",
+     "Learning done outside paid working hours (unless time off in lieu is given).",
+     "End-point assessment itself."
+    ]
+   },
+   {
+    "h2": "5.3 Recording rules"
+   },
+   {
+    "numbered": [
+     "Apprentices log OTJ in Aptiva at least weekly using the OTJ log, with date, activity type, duration and a short description linked to KSBs.",
+     "Coaches verify OTJ entries at each monthly 1:1; unverified entries older than 8 weeks are flagged to Compliance.",
+     "Minimum entry 15 minutes; maximum single entry 7.5 hours (one working day).",
+     "Workshop attendance is imported automatically from Teams attendance reports overnight — learners should not log these manually (avoid duplicates).",
+     "Any change to planned OTJ hours requires a training plan variation signed by all three parties."
+    ]
+   },
+   {
+    "h1": "6. RAG progress ratings"
+   },
+   {
+    "p": "RAG is driven primarily by **OTJ hours logged as a percentage of OTJ expected to date**. Coaches may move a learner one rating worse (never better) on professional judgement — for example missing evidence or a wellbeing concern — and must explain why in the review notes."
+   },
+   {
+    "table": {
+     "columns": [
+      "Rating",
+      "OTJ logged vs expected",
+      "What it means",
+      "Coach action"
+     ],
+     "rows": [
+      [
+       "Green",
+       "92% or more",
+       "On track",
+       "Continue plan; set stretch targets"
+      ],
+      [
+       "Amber",
+       "78% to under 92%",
+       "Slipping behind",
+       "Agree catch-up plan with learner and line manager; review again within 6 weeks"
+      ],
+      [
+       "Red",
+       "Under 78%",
+       "At risk of not completing on time",
+       "Escalate to delivery manager within 5 working days; follow the At-Risk Learner Escalation Process"
+      ]
+     ],
+     "caption": "Table 2 – RAG definitions (2026/27)"
+    }
+   },
+   {
+    "p": "The current breakdown across the business is shown below (from Aptiva, refreshed nightly)."
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, SUM(progress_rag='Green') AS Green, SUM(progress_rag='Amber') AS Amber, SUM(progress_rag='Red') AS Red, COUNT(*) AS 'On programme' FROM learners WHERE status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1 ORDER BY 1",
+     "caption": "Table 3 – RAG by academy (on-programme learners)"
+    }
+   },
+   {
+    "h1": "7. Escalation"
+   },
+   {
+    "p": "Escalate early. A learner who is Red for two consecutive reviews is far less likely to achieve. The full process is in the **At-Risk Learner Escalation Process**; in summary:"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Trigger",
+      "Who",
+      "Timescale"
+     ],
+     "rows": [
+      [
+       "1 – Coach action",
+       "Amber rating, or no OTJ logged for 14 days",
+       "Coach with learner and line manager",
+       "Catch-up plan within 10 working days"
+      ],
+      [
+       "2 – Delivery manager",
+       "Red rating, or Amber at two consecutive reviews",
+       "Delivery manager joins a call with employer",
+       "Within 5 working days of the review"
+      ],
+      [
+       "3 – Account escalation",
+       "Red with no improvement after 6 weeks, or employer not releasing OTJ",
+       "Head of Delivery and Client Partner",
+       "Within 10 working days"
+      ],
+      [
+       "4 – Programme decision",
+       "No realistic route to completion",
+       "Head of Delivery, learner, employer",
+       "Agree break in learning, plan variation or withdrawal"
+      ]
+     ],
+     "caption": "Table 4 – Escalation stages"
+    }
+   },
+   {
+    "callout": "Safeguarding is never a progress escalation. If you are worried about a learner's safety or wellbeing, contact the Designated Safeguarding Lead (Grace Adeyemi) or the Deputy DSL (Megan Taylor) the same day.",
+    "title": "Safeguarding first"
+   },
+   {
+    "h1": "8. Break in learning (BIL)"
+   },
+   {
+    "p": "A break in learning is a planned pause, requested by the apprentice, for reasons such as illness, parental leave, a temporary change of role or caring responsibilities. A BIL pauses funding and the programme clock; it is not a withdrawal. There are currently **{{fact:bil_learners}}** learners on a break in learning."
+   },
+   {
+    "numbered": [
+     "Learner (or employer) requests the break; coach holds a conversation to confirm the reason and expected return date.",
+     "Coach completes the BIL request form in Aptiva with the last day of learning and evidence of the reason.",
+     "Delivery manager approves within 3 working days; Compliance updates the ILR in the next monthly return.",
+     "Coach diarises a keep-in-touch call at least every 8 weeks during the break.",
+     "On return, coach holds a re-start review and issues a revised training plan with new planned end date, signed by all three parties.",
+     "If no contact for 8 weeks after the expected return date, refer to the delivery manager to consider withdrawal."
+    ]
+   },
+   {
+    "h1": "9. Gateway readiness"
+   },
+   {
+    "p": "Gateway is the point where employer, apprentice and Delcorn agree the apprentice is ready for end-point assessment. Use the **Gateway Readiness Checklist** template; the delivery manager signs off every gateway before it is submitted to the EPAO."
+   },
+   {
+    "bullets": [
+     "Minimum duration of the practical period completed (at least 12 months, or as set by the standard).",
+     "Planned OTJ hours achieved in full (100%) and verified.",
+     "All KSBs evidenced and mapped in Aptiva; portfolio or project submission complete.",
+     "English and maths requirements met (where applicable) and certificates uploaded.",
+     "Mock professional discussion or mock assessment completed with feedback.",
+     "Employer confirms readiness in the gateway review and signs the declaration.",
+     "EPAO booking requested at least 6 weeks before the intended EPA window."
+    ]
+   },
+   {
+    "h1": "10. Quality, observation and CPD"
+   },
+   {
+    "p": "Every coach is observed at least twice a year by the Quality team or their delivery manager (one progress review, one coaching session or workshop). Grades are Strong, Secure, Developing or Requires improvement. You are expected to complete 30 hours of CPD per year, including the annual safeguarding refresher, Prevent training and one sector-currency activity."
+   },
+   {
+    "h1": "11. Using AI responsibly in your coaching"
+   },
+   {
+    "bullets": [
+     "Use Delcorn's Microsoft 365 Copilot (signed in with your Delcorn account) — never public AI tools — for anything containing learner information.",
+     "Good uses: drafting review summaries from transcripts, turning notes into SMART targets, drafting employer emails, summarising caseload reports.",
+     "Always check, edit and own the output. Copilot drafts; you decide.",
+     "Do not use AI to grade or judge evidence against KSBs.",
+     "Follow the AI Acceptable Use Policy owned by the Data Protection Officer."
+    ]
+   },
+   {
+    "h1": "12. Key contacts"
+   },
+   {
+    "table": {
+     "columns": [
+      "Topic",
+      "Contact"
+     ],
+     "rows": [
+      [
+       "Caseload, reviews, escalation (AI, Data, Digital)",
+       "{{person:P012}} – {{person:P012.email}}"
+      ],
+      [
+       "Caseload, reviews, escalation (Leadership, Project, People)",
+       "{{person:P013}} – {{person:P013.email}}"
+      ],
+      [
+       "Head of Delivery",
+       "{{person:P009}} – {{person:P009.email}}"
+      ],
+      [
+       "Functional Skills",
+       "{{person:P018}} – {{person:P018.email}}"
+      ],
+      [
+       "Enrolment and training plans",
+       "{{person:P037}} – {{person:P037.email}}"
+      ],
+      [
+       "Aptiva configuration and data",
+       "{{person:P035}} – {{person:P035.email}}"
+      ],
+      [
+       "Safeguarding (DSL)",
+       "{{person:P010}} – {{person:P010.email}}"
+      ],
+      [
+       "OTJ and funding compliance",
+       "{{person:P022}} – {{person:P022.email}}"
+      ]
+     ]
+    }
+   },
+   {
+    "signature": "P009",
+    "date": "2026-08-28"
+   }
+  ]
+ },
+ {
+  "id": "dlv-progress-review-procedure",
+  "type": "docx",
+  "title": "Progress Review Procedure",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Handbooks & Procedures",
+  "category": "Procedure",
+  "author": "P012",
+  "owner": "P009",
+  "approved_by": "P005",
+  "created": "2023-09-04",
+  "modified": "2026-08-20",
+  "version": "3.2",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "progress review",
+   "tripartite",
+   "procedure",
+   "Aptiva",
+   "signatures"
+  ],
+  "summary": "Step-by-step procedure for planning, holding, recording and signing off 12-weekly tripartite progress reviews in Aptiva.",
+  "version_history": [
+   {
+    "version": "3.0",
+    "date": "2025-08-01",
+    "by": "P012",
+    "change": "Aligned to new RAG thresholds"
+   },
+   {
+    "version": "3.1",
+    "date": "2026-03-02",
+    "by": "P012",
+    "change": "Employer attendance target raised to 90% after Ofsted feedback"
+   },
+   {
+    "version": "3.2",
+    "date": "2026-08-20",
+    "by": "P012",
+    "change": "Signature chase timescales and Copilot drafting guidance added"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "This procedure applies to every apprentice on a Delcorn apprenticeship programme and every skills coach. It describes how the tripartite progress review is planned, held, recorded and signed off. It supports the Skills Coach Handbook 2026/27 and the DfE apprenticeship funding rules requirement for regular reviews involving the employer."
+   },
+   {
+    "h1": "2. Key requirements"
+   },
+   {
+    "kv": [
+     [
+      "Review frequency",
+      "At least every 12 weeks (84 days) from the previous review"
+     ],
+     [
+      "First review",
+      "Within 8 weeks of the apprenticeship start date"
+     ],
+     [
+      "Employer attendance target",
+      "90% of reviews attended by the line manager or nominated mentor"
+     ],
+     [
+      "Recording deadline",
+      "Review form completed in Aptiva within 3 working days"
+     ],
+     [
+      "Signature deadline",
+      "All parties signed within 10 working days of the review"
+     ],
+     [
+      "Overdue definition",
+      "Any learner whose 'next review due' date has passed without a completed review"
+     ]
+    ]
+   },
+   {
+    "h1": "3. Procedure"
+   },
+   {
+    "h2": "3.1 Before the review (at least 10 working days before)"
+   },
+   {
+    "numbered": [
+     "Coach sends the Teams invite from Aptiva to the apprentice and line manager, using the standard invitation text.",
+     "Coach asks the apprentice to update their OTJ log and upload evidence 3 days before.",
+     "Coach reviews the Aptiva record: OTJ logged vs expected, KSB coverage, previous targets, attendance at workshops, Functional Skills."
+    ]
+   },
+   {
+    "h2": "3.2 During the review"
+   },
+   {
+    "numbered": [
+     "Welcome and wellbeing check (apprentice first, then with employer present).",
+     "Review previous targets — met, partly met, not met.",
+     "Apprentice presents progress and evidence since the last review.",
+     "Employer feedback on application in the workplace.",
+     "Agree OTJ position and RAG rating (see Handbook section 6).",
+     "Safeguarding, Prevent and British values discussion using the termly prompt card.",
+     "Set 3–5 SMART targets with owners and dates.",
+     "Confirm the next review date (no more than 12 weeks away) and book it."
+    ]
+   },
+   {
+    "h2": "3.3 After the review"
+   },
+   {
+    "numbered": [
+     "Coach completes the Aptiva review form within 3 working days: coach summary, next steps, RAG, wellbeing outcome, employer attendance.",
+     "Aptiva sends the form for e-signature to the apprentice and employer automatically.",
+     "Day 5: Aptiva sends an automatic reminder to anyone who has not signed.",
+     "Day 8: coach sends a personal reminder; day 10: delivery manager is notified of any outstanding signature.",
+     "Red ratings are escalated to the delivery manager within 5 working days (At-Risk Learner Escalation Process)."
+    ]
+   },
+   {
+    "h1": "4. Writing a good coach summary"
+   },
+   {
+    "bullets": [
+     "Lead with progress: what the apprentice has achieved, mapped to KSBs.",
+     "State OTJ position as numbers: 'OTJ 226 of 310 hours expected (73%) – Red'.",
+     "Be specific about support: who will do what by when.",
+     "Keep wellbeing detail factual and minimal; anything sensitive goes through the safeguarding route, not the review form.",
+     "Copilot may draft the summary from the meeting transcript; the coach remains accountable for accuracy."
+    ]
+   },
+   {
+    "quote": "Strong workplace project underway; employer very positive. OTJ slightly behind plan; agreed protected learning time with line manager on Wednesday afternoons.",
+    "by": "Example coach summary"
+   },
+   {
+    "h1": "5. Monitoring"
+   },
+   {
+    "p": "Delivery managers monitor review timeliness weekly from the Caseload Report. Quality samples 5% of reviews each term for quality of targets and employer involvement. Review compliance is reported monthly to the COO and quarterly to the Quality & Standards Committee."
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, COUNT(*) AS 'Reviews held', ROUND(100.0*SUM(employer_attended)/COUNT(*),1) AS 'Employer attended %', ROUND(100.0*SUM(signed_status='Signed by all parties')/COUNT(*),1) AS 'Fully signed %' FROM progress_reviews pr JOIN learners l USING(learner_id) WHERE review_date >= '2026-08-01' GROUP BY 1 ORDER BY 1",
+     "caption": "Review compliance, 2026/27 to date"
+    }
+   }
+  ]
+ },
+ {
+  "id": "dlv-otj-employer-guide",
+  "type": "pdf",
+  "title": "Off-the-Job Training: A Guide for Employers",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Employer Guides",
+  "category": "Guide",
+  "doc_type_label": "Employer Guide",
+  "author": "P013",
+  "owner": "P009",
+  "approved_by": "P022",
+  "created": "2025-01-13",
+  "modified": "2026-09-01",
+  "version": "2.1",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Public",
+  "doc_control": true,
+  "tags": [
+   "OTJ",
+   "employer",
+   "guide",
+   "line manager",
+   "off-the-job"
+  ],
+  "summary": "Plain-English guide for employers and line managers explaining off-the-job training requirements, what counts, how it is recorded and how to support apprentices.",
+  "blocks": [
+   {
+    "h1": "Why off-the-job training matters"
+   },
+   {
+    "p": "Every apprentice must spend part of their paid working hours on off-the-job (OTJ) training. It is a condition of apprenticeship funding and, more importantly, it is the time that turns a job into a programme of genuine development. Apprentices who get their OTJ time consistently are far more likely to finish on time and achieve a higher grade."
+   },
+   {
+    "callout": "Your apprentice's training plan shows their planned OTJ hours — for example 310 hours over a 15-month Data Analyst programme, which is around 5 hours per week. Protecting a regular weekly slot is the single most effective thing a line manager can do.",
+    "title": "In short"
+   },
+   {
+    "h1": "What counts as off-the-job training"
+   },
+   {
+    "table": {
+     "columns": [
+      "Counts",
+      "Does not count"
+     ],
+     "rows": [
+      [
+       "Delcorn live workshops and recordings",
+       "Progress reviews"
+      ],
+      [
+       "1:1 coaching with the skills coach",
+       "English and maths (Functional Skills) study"
+      ],
+      [
+       "Online learning modules in Aptiva",
+       "Doing their normal job"
+      ],
+      [
+       "Shadowing colleagues in other teams",
+       "Training outside paid hours (without time off in lieu)"
+      ],
+      [
+       "Stretch projects that build new skills",
+       "The end-point assessment itself"
+      ],
+      [
+       "Writing assignments and reflective journals",
+       "Mandatory company training unrelated to the standard"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "How OTJ is recorded"
+   },
+   {
+    "p": "Apprentices record their OTJ in Aptiva, our e-portfolio, at least weekly. Workshop attendance is recorded automatically. The skills coach checks entries every month, and you will see the OTJ position at every 12-weekly progress review. You can view your apprentices' progress at any time through the Aptiva Employer Portal."
+   },
+   {
+    "h1": "How we rate progress"
+   },
+   {
+    "table": {
+     "columns": [
+      "Rating",
+      "OTJ logged vs expected to date",
+      "What we will ask of you"
+     ],
+     "rows": [
+      [
+       "Green",
+       "92% or more",
+       "Keep doing what you're doing"
+      ],
+      [
+       "Amber",
+       "78% to under 92%",
+       "Agree a short catch-up plan with the coach"
+      ],
+      [
+       "Red",
+       "Under 78%",
+       "Meet with the coach and delivery manager to protect time and agree a recovery plan"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "What we ask of line managers"
+   },
+   {
+    "numbered": [
+     "Agree a regular, protected weekly learning slot with your apprentice and put it in both calendars.",
+     "Attend the 12-weekly progress review (60 minutes, on Teams). We aim for employer attendance at 90% of reviews.",
+     "Give the apprentice real workplace projects that let them practise new skills.",
+     "Sign the review record in Aptiva within 10 working days.",
+     "Tell the skills coach early about changes — new role, extended leave, redundancy risk or wellbeing concerns."
+    ]
+   },
+   {
+    "h1": "Frequently asked questions"
+   },
+   {
+    "h3": "Can OTJ be done in one block rather than weekly?"
+   },
+   {
+    "p": "Yes. Some employers prefer a study day every fortnight or a block week. What matters is that the planned total is reached by the end of the practical period and recorded accurately."
+   },
+   {
+    "h3": "What if peak season means my apprentice can't take time this month?"
+   },
+   {
+    "p": "Talk to the skills coach before it happens. We can re-profile OTJ around busy periods, but we must agree it in writing and the total cannot reduce."
+   },
+   {
+    "h3": "What happens if OTJ falls too far behind?"
+   },
+   {
+    "p": "The apprentice is rated Red and we will contact you to agree a recovery plan. If OTJ cannot be released, the apprenticeship may need to be paused or ended, which affects your levy investment."
+   },
+   {
+    "h1": "Contact"
+   },
+   {
+    "p": "Your apprentice's skills coach is your first point of contact. For anything else, contact the Learning Delivery team at delivery@delcorn.co.uk."
+   }
+  ],
+  "filename": "Off-the-Job Training - A Guide for Employers"
+ },
+ {
+  "id": "dlv-caseload-report-oct26",
+  "type": "xlsx",
+  "title": "Caseload Report — October 2026",
+  "site": "delivery",
+  "library": "Caseload Reports",
+  "folder": "2026-27",
+  "category": "Report",
+  "author": "P012",
+  "owner": "P009",
+  "modified_by": "P012",
+  "created": "2026-10-31",
+  "modified": "2026-11-02",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Confidential",
+  "tags": [
+   "caseload",
+   "RAG",
+   "overdue reviews",
+   "at-risk learners",
+   "October 2026"
+  ],
+  "summary": "Month-end caseload report for October 2026: capacity by academy and coach, Red-rated learners and overdue progress reviews.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Caseload Report — October 2026 (data as at 5 November 2026, extracted from Aptiva).",
+     "Prepared by Sam Patel for the Head of Delivery and the Monday operations meeting.",
+     "Sheets: By academy | Coaches | Red learners | Overdue reviews.",
+     "RAG thresholds: Green = OTJ logged ≥ 92% of expected; Amber = 78% to under 92%; Red = under 78%.",
+     "A review is overdue when the next review due date is before 5 November 2026 (12-weekly tripartite review rule).",
+     "Capacity used = active learners ÷ caseload target (26 for coaches, 20 for senior coaches).",
+     "CONFIDENTIAL — contains learner personal data. Do not forward outside Delcorn."
+    ]
+   },
+   {
+    "name": "By academy",
+    "sql": "SELECT academy AS Academy, COUNT(*) AS Coaches, SUM(caseload_target) AS 'Target capacity', SUM(active_learners) AS 'Active learners', SUM(green) AS Green, SUM(amber) AS Amber, SUM(red) AS Red, SUM(overdue_reviews) AS 'Overdue reviews', ROUND(1.0*SUM(active_learners)/SUM(caseload_target),3) AS 'Capacity used' FROM coach_caseloads GROUP BY 1 ORDER BY 1",
+    "format": {
+     "Capacity used": "pct"
+    },
+    "totals": [
+     "Coaches",
+     "Target capacity",
+     "Active learners",
+     "Green",
+     "Amber",
+     "Red",
+     "Overdue reviews"
+    ],
+    "chart": {
+     "type": "stacked",
+     "cat_col": "Academy",
+     "val_cols": [
+      "Green",
+      "Amber",
+      "Red"
+     ],
+     "title": "Learners by RAG and academy"
+    }
+   },
+   {
+    "name": "Coaches",
+    "sql": "SELECT coach_id AS 'Coach ID', coach_name AS Coach, academy AS Academy, manager_id AS Manager, caseload_target AS Target, active_learners AS 'Active learners', green AS Green, amber AS Amber, red AS Red, overdue_reviews AS 'Overdue reviews', capacity_used AS 'Capacity used' FROM coach_caseloads ORDER BY capacity_used DESC",
+    "format": {
+     "Capacity used": "pct"
+    }
+   },
+   {
+    "name": "Red learners",
+    "sql": "SELECT l.learner_id AS 'Learner ID', l.first_name || ' ' || l.last_name AS Learner, l.programme_code AS Programme, l.academy AS Academy, e.employer_name AS Employer, l.coach_id AS 'Coach ID', em.full_name AS Coach, l.status AS Status, l.otj_expected_to_date AS 'OTJ expected', l.otj_hours_logged AS 'OTJ logged', ROUND(1.0*l.otj_hours_logged/l.otj_expected_to_date,3) AS 'OTJ % of expected', l.last_review_date AS 'Last review', l.next_review_due AS 'Next review due' FROM learners l JOIN employers e USING(employer_id) LEFT JOIN employees em ON em.employee_id = l.coach_id WHERE l.progress_rag = 'Red' ORDER BY l.academy, 11",
+    "format": {
+     "OTJ % of expected": "pct",
+     "Last review": "date",
+     "Next review due": "date"
+    }
+   },
+   {
+    "name": "Overdue reviews",
+    "sql": "SELECT l.learner_id AS 'Learner ID', l.first_name || ' ' || l.last_name AS Learner, l.programme_code AS Programme, l.academy AS Academy, e.employer_name AS Employer, em.full_name AS Coach, l.progress_rag AS RAG, l.last_review_date AS 'Last review', l.next_review_due AS 'Review due', CAST(julianday('2026-11-05') - julianday(l.next_review_due) AS INTEGER) AS 'Days overdue' FROM learners l JOIN employers e USING(employer_id) LEFT JOIN employees em ON em.employee_id = l.coach_id WHERE l.next_review_due < '2026-11-05' ORDER BY 10 DESC",
+    "format": {
+     "Last review": "date",
+     "Review due": "date",
+     "Days overdue": "int"
+    }
+   }
+  ],
+  "filename": "Caseload Report - October 2026"
+ },
+ {
+  "id": "dlv-weekly-dashboard-wc021126",
+  "type": "docx",
+  "title": "Weekly Delivery Dashboard — w/c 2 November 2026",
+  "site": "delivery",
+  "library": "Caseload Reports",
+  "folder": "2026-27/Weekly",
+  "category": "Report",
+  "doc_type_label": "Weekly Dashboard",
+  "author": "P009",
+  "owner": "P009",
+  "created": "2026-11-02",
+  "modified": "2026-11-03",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Confidential",
+  "doc_control": false,
+  "tags": [
+   "dashboard",
+   "weekly",
+   "caseload",
+   "overdue reviews",
+   "RAG"
+  ],
+  "summary": "Head of Delivery's weekly narrative for the COO: on-programme numbers, RAG, overdue reviews and coach capacity for w/c 2 November 2026.",
+  "blocks": [
+   {
+    "p": "**To:** {{person:P002}}, COO  |  **From:** {{person:P009}}, Head of Delivery  |  **Data as at:** 5 November 2026 (Aptiva nightly extract)"
+   },
+   {
+    "h1": "Headlines"
+   },
+   {
+    "bullets": [
+     "**{{fact:active_learners}}** apprentices on programme, of whom **{{fact:gateway_epa_learners}}** are at gateway or in EPA and **{{fact:bil_learners}}** are on a break in learning.",
+     "**{{fact:red_learners}}** learners rated Red (OTJ under 78% of expected). Data Academy carries the most Reds in absolute terms.",
+     "**{{fact:overdue_reviews}}** overdue progress reviews — up from 176 at the start of October. This is my main concern for the week.",
+     "**{{fact:coaches_over_target}}** coaches are above caseload target; average caseload is {{fact:avg_caseload}}.",
+     "October starts were strong, especially Data Analyst (DA4) and Working Smarter with AI (AI3); new starters need first reviews booked within 8 weeks."
+    ]
+   },
+   {
+    "h1": "Caseload and RAG by academy"
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, SUM(active_learners) AS 'Active learners', SUM(green) AS Green, SUM(amber) AS Amber, SUM(red) AS Red, SUM(overdue_reviews) AS 'Overdue reviews', ROUND(100.0*SUM(active_learners)/SUM(caseload_target),0) || '%' AS 'Capacity used' FROM coach_caseloads GROUP BY 1 ORDER BY 1",
+     "caption": "Source: coach_caseloads (Aptiva)"
+    }
+   },
+   {
+    "h1": "Overdue reviews — coaches needing support"
+   },
+   {
+    "p": "Ten coaches account for a large share of overdue reviews. Delivery managers will hold 1:1s with each this week and re-book reviews in priority order (Red learners first, then longest overdue)."
+   },
+   {
+    "table": {
+     "sql": "SELECT coach_name AS Coach, academy AS Academy, active_learners AS Caseload, caseload_target AS Target, overdue_reviews AS 'Overdue reviews', red AS Red FROM coach_caseloads ORDER BY overdue_reviews DESC, red DESC LIMIT 10",
+     "caption": "Top 10 coaches by overdue reviews"
+    }
+   },
+   {
+    "h1": "Starts this term"
+   },
+   {
+    "table": {
+     "sql": "SELECT programme_code AS Programme, COUNT(*) AS 'Starts since 1 Aug 2026' FROM learners WHERE start_date >= '2026-08-01' GROUP BY 1 ORDER BY 2 DESC LIMIT 8"
+    }
+   },
+   {
+    "h1": "Actions this week"
+   },
+   {
+    "actions": [
+     {
+      "action": "Re-book all overdue reviews for Red learners by Friday",
+      "owner": "P012",
+      "due": "2026-11-06",
+      "status": "In progress"
+     },
+     {
+      "action": "Re-book all overdue reviews for Red learners (Leadership & People)",
+      "owner": "P013",
+      "due": "2026-11-06",
+      "status": "In progress"
+     },
+     {
+      "action": "Rebalance caseloads for coaches above 115% capacity",
+      "owner": "P009",
+      "due": "2026-11-20",
+      "status": "Open"
+     },
+     {
+      "action": "Confirm Aptiva automated reminder at day 70 since last review is live",
+      "owner": "P035",
+      "due": "2026-11-13",
+      "status": "Open"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "dlv-withdrawals-2526",
+  "type": "pptx",
+  "title": "Withdrawals Analysis 2025/26",
+  "site": "delivery",
+  "library": "Caseload Reports",
+  "folder": "Annual Analysis",
+  "category": "Report",
+  "doc_type_label": "Analysis",
+  "author": "P012",
+  "owner": "P009",
+  "approved_by": "P009",
+  "created": "2026-09-08",
+  "modified": "2026-09-22",
+  "version": "1.2",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "withdrawals",
+   "retention",
+   "achievement",
+   "2025/26",
+   "analysis"
+  ],
+  "summary": "Analysis of apprentice withdrawals in 2025/26 by reason, academy and month, with retention actions for 2026/27.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Withdrawals Analysis 2025/26",
+    "subtitle": "Why learners left early — and what we're doing about it",
+    "meta": "Learning Delivery | Sam Patel & Rachel Moss | September 2026",
+    "notes": "Presented at the Delivery leadership meeting on 22 September 2026 and shared with Quality for the SAR."
+   },
+   {
+    "layout": "kpis",
+    "title": "2025/26 at a glance",
+    "kpis": [
+     {
+      "value": "{{fact:leavers_2526}}",
+      "label": "Leavers",
+      "note": "Completed or withdrew, 1 Aug 2025 – 31 Jul 2026"
+     },
+     {
+      "value": "{{fact:withdrawals_2526}}",
+      "label": "Withdrawals"
+     },
+     {
+      "value": "{{fact:achievement_rate_2526}}",
+      "label": "Achievement rate",
+      "note": "Up from {{fact:achievement_rate_2425}} in 2024/25"
+     },
+     {
+      "value": "{{fact:top_withdrawal_reason}}",
+      "label": "Top reason",
+      "note": "{{fact:dlv_left_employer_2526}} withdrawals"
+     }
+    ],
+    "notes": "Achievement rate is completers who achieved divided by all leavers. The big improvement on 2024/25 came from earlier escalation of Red learners and better employer involvement in reviews."
+   },
+   {
+    "layout": "chart",
+    "title": "Withdrawals by reason",
+    "subtitle": "2025/26 leavers",
+    "chart": {
+     "type": "bar",
+     "title": "Withdrawals by reason",
+     "labels": true,
+     "sql": "SELECT withdrawal_reason AS Reason, COUNT(*) AS Withdrawals FROM learners WHERE status='Withdrawn' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 2 DESC"
+    },
+    "bullets": [
+     "Leaving the employer is by far the biggest driver — largely outside our control",
+     "Workload / OTJ withdrawals are the ones we can most influence",
+     "Changed role: earlier plan variations could save some of these"
+    ],
+    "notes": "Left employer accounts for over a third of withdrawals. Workload and unable to commit OTJ is smaller but is the reason most directly linked to our coaching and employer engagement."
+   },
+   {
+    "layout": "chart",
+    "title": "Withdrawals by academy",
+    "chart": {
+     "type": "column",
+     "title": "Withdrawals by academy, 2025/26",
+     "labels": true,
+     "sql": "SELECT academy AS Academy, COUNT(*) AS Withdrawals FROM learners WHERE status='Withdrawn' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "notes": "Leadership Academy has the most withdrawals in absolute terms, reflecting the larger Team Leader and Operations Manager cohorts and more frequent role changes among managers."
+   },
+   {
+    "layout": "table",
+    "title": "Achievement by academy",
+    "table": {
+     "sql": "SELECT academy AS Academy, COUNT(*) AS Leavers, SUM(status='Completed') AS Completed, SUM(status='Withdrawn') AS Withdrawn, ROUND(100.0*SUM(status='Completed')/COUNT(*),1) || '%' AS 'Achievement rate' FROM learners WHERE status IN ('Completed','Withdrawn') AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "notes": "Data Academy has the highest achievement rate; People Academy is a small cohort so percentages move a lot with a few learners."
+   },
+   {
+    "layout": "chart",
+    "title": "Withdrawals by month",
+    "chart": {
+     "type": "line",
+     "title": "Withdrawals per month",
+     "sql": "SELECT substr(actual_end_date,1,7) AS Month, COUNT(*) AS Withdrawals FROM learners WHERE status='Withdrawn' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "notes": "December spike is linked to year-end restructures at two large employers. Autumn is our other risk period as new starters settle in."
+   },
+   {
+    "layout": "chart",
+    "title": "Reasons by academy",
+    "chart": {
+     "type": "stacked",
+     "title": "Withdrawal reasons by academy",
+     "sql": "SELECT academy AS Academy, SUM(withdrawal_reason='Left employer') AS 'Left employer', SUM(withdrawal_reason='Changed role') AS 'Changed role', SUM(withdrawal_reason='Personal / health reasons') AS 'Personal / health', SUM(withdrawal_reason='Workload / unable to commit OTJ') AS 'Workload / OTJ', SUM(withdrawal_reason IN ('Redundancy','Moved to a different programme','Programme not the right fit')) AS Other FROM learners WHERE status='Withdrawn' AND actual_end_date BETWEEN '2025-08-01' AND '2026-07-31' GROUP BY 1 ORDER BY 1"
+    },
+    "notes": "People Academy's withdrawals are mostly workload-related — PP5 learners are often sole HR practitioners in smaller teams."
+   },
+   {
+    "layout": "two_column",
+    "title": "What we learned",
+    "left": {
+     "heading": "Patterns",
+     "bullets": [
+      "Most withdrawals were Red or Amber at the preceding review",
+      "Employer absent from the last review in many workload cases",
+      "Role changes rarely triggered a plan variation conversation"
+     ]
+    },
+    "right": {
+     "heading": "Controllable vs not",
+     "bullets": [
+      "Not controllable: left employer, redundancy",
+      "Partly controllable: changed role, personal / health",
+      "Controllable: workload / OTJ, not the right fit"
+     ]
+    },
+    "notes": "The key insight is that the warning signs were in the data: Amber or Red at the previous review, and the employer not attending."
+   },
+   {
+    "layout": "steps",
+    "title": "Retention actions for 2026/27",
+    "steps": [
+     {
+      "label": "Detect",
+      "text": "Weekly Red/Amber list from the caseload report; Copilot summary for delivery managers"
+     },
+     {
+      "label": "Escalate",
+      "text": "Red escalated within 5 working days; employer call with delivery manager"
+     },
+     {
+      "label": "Protect OTJ",
+      "text": "Agree protected weekly learning slot at onboarding and every review"
+     },
+     {
+      "label": "Adapt",
+      "text": "Plan variation or programme transfer offered when role changes"
+     },
+     {
+      "label": "Exit well",
+      "text": "Exit survey and exit interview for every withdrawal"
+     }
+    ],
+    "notes": "These actions are now built into the Coach Handbook 2026/27 and the At-Risk Learner Escalation Process."
+   }
+  ]
+ },
+ {
+  "id": "dlv-at-risk-escalation",
+  "type": "docx",
+  "title": "At-Risk Learner Escalation Process",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Handbooks & Procedures",
+  "category": "Procedure",
+  "author": "P009",
+  "owner": "P009",
+  "modified_by": "P013",
+  "approved_by": "P002",
+  "created": "2025-03-17",
+  "modified": "2026-09-15",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2027-09-30",
+  "classification": "Internal",
+  "tags": [
+   "escalation",
+   "at risk",
+   "Red",
+   "Amber",
+   "retention",
+   "employer"
+  ],
+  "summary": "Four-stage escalation process for Amber and Red learners, including triggers, owners, timescales and the employer recovery meeting.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2025-03-17",
+    "by": "P009",
+    "change": "First issue"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-09-15",
+    "by": "P013",
+    "change": "Stage 3 account escalation with Client Partners added following withdrawals analysis"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose"
+   },
+   {
+    "p": "To identify learners at risk of not completing early and act quickly and consistently. The withdrawals analysis for 2025/26 showed most learners who withdrew had been Amber or Red at their previous review — the warning signs were visible."
+   },
+   {
+    "h1": "2. Triggers"
+   },
+   {
+    "bullets": [
+     "RAG rating of **Red** (OTJ logged under 78% of expected to date) at any review.",
+     "RAG rating of **Amber** (78% to under 92%) at two consecutive reviews.",
+     "No OTJ logged for 14 days, or no contact with the learner for 21 days.",
+     "Employer has missed two consecutive progress reviews.",
+     "Learner tells the coach they are thinking of leaving the programme or the employer.",
+     "Missed two or more live workshops without catching up."
+    ]
+   },
+   {
+    "h1": "3. Escalation stages"
+   },
+   {
+    "table": {
+     "columns": [
+      "Stage",
+      "Owner",
+      "Action",
+      "Timescale",
+      "Recorded in"
+     ],
+     "rows": [
+      [
+       "1",
+       "Skills coach",
+       "Call with learner; agree catch-up plan with line manager; increase 1:1 frequency to fortnightly",
+       "Within 10 working days of trigger",
+       "Aptiva contact log"
+      ],
+      [
+       "2",
+       "Delivery manager",
+       "Recovery meeting with learner and employer; written recovery plan with protected OTJ time",
+       "Within 5 working days of a Red rating",
+       "Aptiva 'At risk' flag + recovery plan"
+      ],
+      [
+       "3",
+       "Head of Delivery + Client Partner",
+       "Account-level conversation with employer sponsor; agree organisational support",
+       "If no improvement within 6 weeks of stage 2",
+       "PipelineHQ account note + Aptiva"
+      ],
+      [
+       "4",
+       "Head of Delivery",
+       "Decision: continue with revised plan, break in learning, programme transfer, or withdrawal",
+       "Within 10 working days of stage 3",
+       "Aptiva + ILR update by Compliance"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "4. The recovery meeting"
+   },
+   {
+    "numbered": [
+     "Share the OTJ position and what it means for the planned end date.",
+     "Ask the learner and employer what is getting in the way (workload, role change, wellbeing, confidence).",
+     "Agree a protected weekly learning slot and a target OTJ figure for the next 6 weeks.",
+     "Identify extra support: catch-up workshop recordings, ALS, Functional Skills, mentoring.",
+     "Confirm who reviews progress and when (normally 6 weeks)."
+    ]
+   },
+   {
+    "h1": "5. Current position"
+   },
+   {
+    "p": "As at {{today}} there are **{{fact:red_learners}}** Red learners across Delcorn, including **{{fact:dlv_ai_red_learners}}** in the AI Academy."
+   },
+   {
+    "table": {
+     "sql": "SELECT academy AS Academy, SUM(progress_rag='Red') AS Red, SUM(progress_rag='Amber') AS Amber, ROUND(100.0*SUM(progress_rag='Red')/COUNT(*),1) || '%' AS '% Red' FROM learners WHERE status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1 ORDER BY 2 DESC"
+    }
+   },
+   {
+    "callout": "Escalation is about support, not blame. Never threaten withdrawal in a first conversation. If a learner's wellbeing is part of the picture, involve the Learner Support team.",
+    "title": "Tone"
+   }
+  ]
+ },
+ {
+  "id": "dlv-team-minutes-oct26",
+  "type": "docx",
+  "title": "Delivery Team Meeting — 21 October 2026",
+  "site": "delivery",
+  "library": "Team Records",
+  "folder": "Meeting Minutes/2026-27",
+  "category": "Minutes",
+  "author": "P013",
+  "owner": "P009",
+  "created": "2026-10-21",
+  "modified": "2026-10-23",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Internal",
+  "tags": [
+   "minutes",
+   "delivery team",
+   "overdue reviews",
+   "Aptiva",
+   "OTJ"
+  ],
+  "summary": "Minutes of the monthly Learning Delivery team meeting, 21 October 2026: overdue reviews, OTJ logging issues, new starters, Copilot pilot and actions.",
+  "blocks": [
+   {
+    "kv": [
+     [
+      "Date",
+      "Wednesday 21 October 2026, 10:00–11:30 (Microsoft Teams)"
+     ],
+     [
+      "Chair",
+      "{{person:P009}}, Head of Delivery"
+     ],
+     [
+      "Minutes",
+      "{{person:P013}}"
+     ],
+     [
+      "Attendees",
+      "{{person:P012}}, {{person:P013}}, {{person:P014}}, {{person:P015}}, {{person:P016}}, {{person:P017}}, {{person:P018}}, {{person:P037}}, plus 41 coaches"
+     ],
+     [
+      "Guests",
+      "{{person:P035}} (item 3), {{person:P021}} (item 5)"
+     ],
+     [
+      "Apologies",
+      "{{person:P002}}"
+     ]
+    ]
+   },
+   {
+    "h1": "1. Welcome and previous actions"
+   },
+   {
+    "p": "Rachel welcomed the eight coaches who joined in September. All actions from the September meeting were closed except the Aptiva reminder automation (carried forward, item 3)."
+   },
+   {
+    "h1": "2. Overdue reviews"
+   },
+   {
+    "p": "Rachel reported overdue reviews had risen to just under 200, driven by the September/October start peak and four coaches on leave. Sam noted that the Data Academy has the most overdue reviews and several coaches are over 115% capacity. Laura said Leadership is similar, with many reviews slipping because line managers cancel at short notice."
+   },
+   {
+    "bullets": [
+     "Agreed: Red learners' reviews are re-booked first, then longest overdue.",
+     "Agreed: coaches can hold a review with a nominated workplace mentor if the line manager cancels twice — but must still get employer sign-off.",
+     "Kwame asked whether reviews can be booked as a recurring series; Isabel confirmed Aptiva supports this from release 5.4."
+    ]
+   },
+   {
+    "h1": "3. Aptiva OTJ logging"
+   },
+   {
+    "p": "Kate Simmons explained the duplicate OTJ issue: some learners were logging workshops manually as well as receiving the automatic Teams attendance import, inflating OTJ. A fix to flag duplicates went live on 14 October. Coaches should remind learners not to log workshops manually. James asked about learners whose OTJ shows as zero after a programme transfer; Kate will investigate."
+   },
+   {
+    "h1": "4. New starters and first reviews"
+   },
+   {
+    "p": "Isabel reported a strong October intake, particularly DA4 and AI3. All new starters need a first review within 8 weeks. Coaches will receive a list of first reviews due by mid-December."
+   },
+   {
+    "h1": "5. Observations and Copilot pilot"
+   },
+   {
+    "p": "Hannah Price shared themes from autumn observations: strong rapport and wellbeing check-ins, but targets need to be sharper and more measurable. Fatima gave a demo of using Copilot in Teams to draft a review summary from the transcript; the draft took 2 minutes and needed light editing. Rachel asked Fatima to write a short prompt guide for the team."
+   },
+   {
+    "h1": "6. AOB"
+   },
+   {
+    "p": "Chloe raised that some employers find the Aptiva Employer Portal hard to navigate. Laura will share the OTJ guide for employers with all Leadership Academy line managers."
+   },
+   {
+    "h1": "Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Re-book all overdue reviews for Red learners; report progress weekly",
+      "owner": "P012",
+      "due": "2026-11-06",
+      "status": "In progress"
+     },
+     {
+      "action": "Same for Leadership & People academies",
+      "owner": "P013",
+      "due": "2026-11-06",
+      "status": "In progress"
+     },
+     {
+      "action": "Enable automated Aptiva reminder at day 70 since last review",
+      "owner": "P035",
+      "due": "2026-11-13",
+      "status": "Open"
+     },
+     {
+      "action": "Investigate zero OTJ after programme transfer",
+      "owner": "P035",
+      "due": "2026-10-30",
+      "status": "Complete"
+     },
+     {
+      "action": "Write a one-page Copilot prompt guide for review summaries",
+      "owner": "P015",
+      "due": "2026-11-20",
+      "status": "Open"
+     },
+     {
+      "action": "Send first-review-due list to all coaches",
+      "owner": "P037",
+      "due": "2026-10-28",
+      "status": "Complete"
+     },
+     {
+      "action": "Share OTJ employer guide with Leadership Academy line managers",
+      "owner": "P013",
+      "due": "2026-11-04",
+      "status": "Complete"
+     }
+    ]
+   },
+   {
+    "p": "Next meeting: Wednesday 18 November 2026, 10:00."
+   }
+  ]
+ },
+ {
+  "id": "dlv-gateway-checklist",
+  "type": "docx",
+  "title": "Gateway Readiness Checklist",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Templates",
+  "category": "Template",
+  "author": "P015",
+  "owner": "P012",
+  "approved_by": "P009",
+  "created": "2024-05-20",
+  "modified": "2026-07-14",
+  "version": "2.3",
+  "status": "Approved",
+  "classification": "Internal",
+  "doc_control": false,
+  "tags": [
+   "gateway",
+   "EPA",
+   "checklist",
+   "template"
+  ],
+  "summary": "Template checklist completed by the coach, apprentice and employer to confirm readiness for end-point assessment before gateway submission.",
+  "blocks": [
+   {
+    "p": "Complete this checklist at the gateway review. Upload the signed copy to Aptiva → Gateway. The delivery manager must countersign before the EPAO booking is submitted."
+   },
+   {
+    "h2": "Section A — Learner details"
+   },
+   {
+    "kv": [
+     [
+      "Learner name",
+      ""
+     ],
+     [
+      "Learner ID / ULN",
+      ""
+     ],
+     [
+      "Programme and standard",
+      ""
+     ],
+     [
+      "Employer",
+      ""
+     ],
+     [
+      "Skills coach",
+      ""
+     ],
+     [
+      "EPAO",
+      ""
+     ],
+     [
+      "Planned EPA window",
+      ""
+     ]
+    ]
+   },
+   {
+    "h2": "Section B — Eligibility"
+   },
+   {
+    "table": {
+     "columns": [
+      "Requirement",
+      "Evidence",
+      "Met?"
+     ],
+     "rows": [
+      [
+       "Minimum practical period completed (≥ 12 months or per standard)",
+       "Start date and Aptiva timeline",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "Planned OTJ hours achieved (100%) and verified",
+       "Aptiva OTJ report",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "English and maths requirements met",
+       "Certificates uploaded",
+       "☐ Yes ☐ N/A"
+      ],
+      [
+       "All progress reviews signed by all parties",
+       "Aptiva reviews tab",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "No open safeguarding concerns affecting readiness",
+       "Confirmed with DSL if relevant",
+       "☐ Yes ☐ N/A"
+      ]
+     ]
+    }
+   },
+   {
+    "h2": "Section C — Assessment readiness"
+   },
+   {
+    "table": {
+     "columns": [
+      "Requirement",
+      "Evidence",
+      "Met?"
+     ],
+     "rows": [
+      [
+       "All KSBs evidenced and mapped",
+       "KSB tracker at 100%",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "Portfolio / project submission complete",
+       "Aptiva portfolio",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "Mock professional discussion or assessment completed",
+       "Mock feedback form",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "Learner understands EPA methods and grading criteria",
+       "Coach discussion",
+       "☐ Yes ☐ No"
+      ],
+      [
+       "Reasonable adjustments requested (if needed)",
+       "EPAO form",
+       "☐ Yes ☐ N/A"
+      ]
+     ]
+    }
+   },
+   {
+    "h2": "Section D — Declarations"
+   },
+   {
+    "p": "We confirm the apprentice has met the gateway requirements of the apprenticeship standard and is ready for end-point assessment."
+   },
+   {
+    "table": {
+     "columns": [
+      "Role",
+      "Name",
+      "Signature",
+      "Date"
+     ],
+     "rows": [
+      [
+       "Apprentice",
+       "",
+       "",
+       ""
+      ],
+      [
+       "Employer",
+       "",
+       "",
+       ""
+      ],
+      [
+       "Skills coach",
+       "",
+       "",
+       ""
+      ],
+      [
+       "Delivery manager (countersign)",
+       "",
+       "",
+       ""
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "dlv-new-coach-306090",
+  "type": "docx",
+  "title": "New Coach 30-60-90 Day Plan",
+  "site": "delivery",
+  "library": "Coaching Resources",
+  "folder": "Onboarding",
+  "category": "Plan",
+  "author": "P015",
+  "owner": "P009",
+  "approved_by": "P009",
+  "created": "2025-06-09",
+  "modified": "2026-08-24",
+  "version": "1.3",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "onboarding",
+   "new coach",
+   "30-60-90",
+   "caseload ramp",
+   "mentoring"
+  ],
+  "summary": "Structured first 90 days for newly appointed skills coaches: learning goals, caseload ramp-up, shadowing, observations and sign-off criteria.",
+  "blocks": [
+   {
+    "h1": "Overview"
+   },
+   {
+    "p": "Every new skills coach is paired with a senior coach mentor (for AI and Data, normally Fatima Hussain) and follows this plan. Caseload ramps from 8 learners at day 30 to 16 at day 60 and the full target of 26 by day 90. The plan complements the People & Culture corporate induction."
+   },
+   {
+    "h1": "Days 1–30: Learn"
+   },
+   {
+    "bullets": [
+     "Complete corporate induction, safeguarding and Prevent training, data protection and AI acceptable use modules.",
+     "Aptiva training (2 × 2-hour sessions with the Data & Systems team).",
+     "Read the Skills Coach Handbook 2026/27, Progress Review Procedure and At-Risk Learner Escalation Process.",
+     "Shadow at least 6 progress reviews and 4 coaching sessions with your mentor.",
+     "Learn your programme standard: KSBs, EPA plan, module sequence and workshop schedule.",
+     "Take on your first 8 learners (mid-programme, Green-rated)."
+    ]
+   },
+   {
+    "h1": "Days 31–60: Do with support"
+   },
+   {
+    "bullets": [
+     "Lead progress reviews with your mentor observing (minimum 4).",
+     "Caseload rises to 16 learners, including at least two new starters.",
+     "Run one workshop catch-up session.",
+     "Complete your first Red/Amber escalation with delivery manager support.",
+     "Developmental observation by your delivery manager (not graded)."
+    ]
+   },
+   {
+    "h1": "Days 61–90: Own"
+   },
+   {
+    "bullets": [
+     "Caseload rises to the full target of 26 (pro-rated for part-time).",
+     "Zero overdue reviews on your caseload at day 90.",
+     "First graded observation by the Quality team.",
+     "Agree your CPD plan for the year (30 hours including sector currency).",
+     "Probation review meeting with your delivery manager."
+    ]
+   },
+   {
+    "h1": "Sign-off criteria at day 90"
+   },
+   {
+    "table": {
+     "columns": [
+      "Measure",
+      "Target"
+     ],
+     "rows": [
+      [
+       "Caseload",
+       "26 learners (FTE)"
+      ],
+      [
+       "Overdue reviews",
+       "0"
+      ],
+      [
+       "Reviews signed within 10 working days",
+       "≥ 85%"
+      ],
+      [
+       "Evidence marked within 10 working days",
+       "≥ 90%"
+      ],
+      [
+       "Observation grade",
+       "Secure or Strong"
+      ],
+      [
+       "Mandatory training",
+       "100% complete"
+      ]
+     ]
+    }
+   },
+   {
+    "signature": "P009",
+    "date": "2026-08-24"
+   }
+  ]
+ },
+ {
+  "id": "cur-spec-ai4",
+  "type": "docx",
+  "title": "Programme Specification — AI4 AI & Automation Practitioner",
+  "site": "curriculum",
+  "library": "Programme Specifications",
+  "folder": "AI Academy",
+  "category": "Specification",
+  "doc_type_label": "Programme Specification",
+  "author": "P019",
+  "owner": "P008",
+  "approved_by": "P008",
+  "modified_by": "P019",
+  "created": "2026-03-16",
+  "modified": "2026-07-30",
+  "version": "1.1",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "programme specification",
+   "AI4",
+   "KSBs",
+   "curriculum",
+   "workshops",
+   "EPA",
+   "AI Academy",
+   "automation",
+   "Copilot Studio"
+  ],
+  "summary": "Programme specification for AI4: standard, duration, KSB summary, module plan, workshop schedule, OTJ and end-point assessment.",
+  "blocks": [
+   {
+    "h1": "1. Programme at a glance"
+   },
+   {
+    "kv": [
+     [
+      "Programme code",
+      "AI4"
+     ],
+     [
+      "Delcorn programme name",
+      "{{sql:SELECT programme_name FROM programmes WHERE programme_code='AI4'}}"
+     ],
+     [
+      "Apprenticeship standard",
+      "{{sql:SELECT standard FROM programmes WHERE programme_code='AI4'}} (Level {{sql:SELECT level FROM programmes WHERE programme_code='AI4'}})"
+     ],
+     [
+      "Academy",
+      "{{sql:SELECT academy FROM programmes WHERE programme_code='AI4'}}"
+     ],
+     [
+      "Practical period",
+      "{{sql:SELECT duration_months FROM programmes WHERE programme_code='AI4'}} months, followed by end-point assessment (allow c. 3 months)"
+     ],
+     [
+      "Funding band",
+      "{{sql:SELECT funding_band_gbp FROM programmes WHERE programme_code='AI4'|gbp}}"
+     ],
+     [
+      "Planned OTJ hours",
+      "310 hours"
+     ],
+     [
+      "End-point assessment organisation",
+      "{{sql:SELECT epao FROM programmes WHERE programme_code='AI4'}}"
+     ],
+     [
+      "Grading",
+      "{{sql:SELECT grading FROM programmes WHERE programme_code='AI4'}} (DMP = Distinction / Merit / Pass; DP = Distinction / Pass)"
+     ],
+     [
+      "Learners currently on programme",
+      "{{sql:SELECT COUNT(*) FROM learners WHERE programme_code='AI4' AND status IN ('Active','Break in learning','Gateway','EPA')}}"
+     ],
+     [
+      "Programme lead",
+      "{{person:P019}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Overview and intent"
+   },
+   {
+    "p": "The AI & Automation Practitioner programme develops people who identify, design, build and safely deploy AI-enabled and automated solutions to business problems. It launched in August 2026 and is aimed at analysts, operations specialists and technically confident business users who already work with data or process improvement."
+   },
+   {
+    "p": "The curriculum is built around a workplace automation project from month 4 onwards, so every apprentice delivers measurable value to their employer before gateway. Responsible AI — data protection, bias, transparency and human oversight — is threaded through every module rather than taught once."
+   },
+   {
+    "h1": "3. Knowledge, skills and behaviours (summary)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Type",
+      "Summary"
+     ],
+     "rows": [
+      [
+       "K1",
+       "Knowledge",
+       "AI and machine-learning concepts, including generative AI and large language models"
+      ],
+      [
+       "K4",
+       "Knowledge",
+       "Legal, ethical and regulatory considerations: UK GDPR, data protection impact assessments, bias"
+      ],
+      [
+       "K7",
+       "Knowledge",
+       "Process mapping and automation opportunity assessment"
+      ],
+      [
+       "S2",
+       "Skill",
+       "Design and test prompts and retrieval-grounded AI solutions"
+      ],
+      [
+       "S5",
+       "Skill",
+       "Build low-code automations and agents (e.g. Power Automate, Copilot Studio)"
+      ],
+      [
+       "S8",
+       "Skill",
+       "Measure and communicate business benefit of an AI solution"
+      ],
+      [
+       "B1",
+       "Behaviour",
+       "Acts responsibly and ethically; challenges unsafe use of AI"
+      ],
+      [
+       "B3",
+       "Behaviour",
+       "Continuous learning in a fast-moving field"
+      ]
+     ],
+     "caption": "Summary only — see the published standard for full wording"
+    }
+   },
+   {
+    "h1": "4. Module plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "Module",
+      "Title",
+      "Months",
+      "Key KSBs",
+      "OTJ hours"
+     ],
+     "rows": [
+      [
+       "1",
+       "AI foundations and responsible AI",
+       "1–2",
+       "K1, K4, B1",
+       "45"
+      ],
+      [
+       "2",
+       "Prompting and working with LLMs",
+       "3–4",
+       "K1, S2",
+       "50"
+      ],
+      [
+       "3",
+       "Process discovery and automation design",
+       "4–6",
+       "K7, S8",
+       "50"
+      ],
+      [
+       "4",
+       "Low-code automation and agents",
+       "6–9",
+       "S5, K4",
+       "70"
+      ],
+      [
+       "5",
+       "Data, retrieval and evaluation",
+       "9–11",
+       "S2, K1",
+       "45"
+      ],
+      [
+       "6",
+       "Workplace automation project and EPA preparation",
+       "11–15",
+       "S8, B1, B3",
+       "50"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Live workshop schedule"
+   },
+   {
+    "p": "Workshops are delivered live on Microsoft Teams (2.5 hours unless stated), recorded and published in Aptiva within 24 hours. Attendance is imported to the OTJ log automatically."
+   },
+   {
+    "table": {
+     "columns": [
+      "Month",
+      "Workshop",
+      "Format"
+     ],
+     "rows": [
+      [
+       "1",
+       "Welcome to AI & Automation; responsible AI principles",
+       "Live workshop"
+      ],
+      [
+       "2",
+       "Prompting Fundamentals for the Workplace (advanced track)",
+       "Live workshop"
+      ],
+      [
+       "4",
+       "Mapping processes for automation",
+       "Live workshop"
+      ],
+      [
+       "6",
+       "Building your first Copilot Studio agent",
+       "Live lab (3 hours)"
+      ],
+      [
+       "8",
+       "Power Automate flows and approvals",
+       "Live lab (3 hours)"
+      ],
+      [
+       "10",
+       "Evaluating AI outputs: accuracy, bias and hallucination",
+       "Live workshop"
+      ],
+      [
+       "12",
+       "Presenting business benefit",
+       "Live workshop"
+      ],
+      [
+       "14",
+       "Mock professional discussion",
+       "1:1 with coach"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. Assessment"
+   },
+   {
+    "bullets": [
+     "Gateway: OTJ complete, KSBs evidenced, workplace project report submitted.",
+     "EPA method 1: Work-based project with report and presentation (questioning).",
+     "EPA method 2: Professional discussion underpinned by a portfolio of evidence.",
+     "Grading: Distinction / Pass (DP)."
+    ]
+   },
+   {
+    "h1": "7. Progress monitoring"
+   },
+   {
+    "p": "Progress is reviewed every 12 weeks in a tripartite review (apprentice, coach, employer) and rated Green (OTJ ≥ 92% of expected), Amber (78% to under 92%) or Red (under 78%), as set out in the Skills Coach Handbook 2026/27."
+   },
+   {
+    "h1": "8. Entry requirements and Functional Skills"
+   },
+   {
+    "p": "Applicants complete an initial skills scan and English/maths assessment at enrolment. Apprentices without Level 2 English and maths (or equivalent) study Functional Skills alongside the programme with our Functional Skills tutors; this time does not count towards OTJ."
+   }
+  ]
+ },
+ {
+  "id": "cur-spec-da4",
+  "type": "docx",
+  "title": "Programme Specification — DA4 Data Analyst",
+  "site": "curriculum",
+  "library": "Programme Specifications",
+  "folder": "Data Academy",
+  "category": "Specification",
+  "doc_type_label": "Programme Specification",
+  "author": "P020",
+  "owner": "P008",
+  "approved_by": "P008",
+  "modified_by": "P020",
+  "created": "2023-06-05",
+  "modified": "2026-08-11",
+  "version": "3.2",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "programme specification",
+   "DA4",
+   "KSBs",
+   "curriculum",
+   "workshops",
+   "EPA",
+   "Data Academy",
+   "Power BI",
+   "SQL"
+  ],
+  "summary": "Programme specification for DA4: standard, duration, KSB summary, module plan, workshop schedule, OTJ and end-point assessment.",
+  "blocks": [
+   {
+    "h1": "1. Programme at a glance"
+   },
+   {
+    "kv": [
+     [
+      "Programme code",
+      "DA4"
+     ],
+     [
+      "Delcorn programme name",
+      "{{sql:SELECT programme_name FROM programmes WHERE programme_code='DA4'}}"
+     ],
+     [
+      "Apprenticeship standard",
+      "{{sql:SELECT standard FROM programmes WHERE programme_code='DA4'}} (Level {{sql:SELECT level FROM programmes WHERE programme_code='DA4'}})"
+     ],
+     [
+      "Academy",
+      "{{sql:SELECT academy FROM programmes WHERE programme_code='DA4'}}"
+     ],
+     [
+      "Practical period",
+      "{{sql:SELECT duration_months FROM programmes WHERE programme_code='DA4'}} months, followed by end-point assessment (allow c. 3 months)"
+     ],
+     [
+      "Funding band",
+      "{{sql:SELECT funding_band_gbp FROM programmes WHERE programme_code='DA4'|gbp}}"
+     ],
+     [
+      "Planned OTJ hours",
+      "310 hours"
+     ],
+     [
+      "End-point assessment organisation",
+      "{{sql:SELECT epao FROM programmes WHERE programme_code='DA4'}}"
+     ],
+     [
+      "Grading",
+      "{{sql:SELECT grading FROM programmes WHERE programme_code='DA4'}} (DMP = Distinction / Merit / Pass; DP = Distinction / Pass)"
+     ],
+     [
+      "Learners currently on programme",
+      "{{sql:SELECT COUNT(*) FROM learners WHERE programme_code='DA4' AND status IN ('Active','Break in learning','Gateway','EPA')}}"
+     ],
+     [
+      "Programme lead",
+      "{{person:P020}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Overview and intent"
+   },
+   {
+    "p": "The Data Analyst programme is Delcorn's most popular apprenticeship. It develops analysts who collect, clean, analyse and visualise data to support business decisions, using Excel, SQL and Power BI, with an introduction to Python."
+   },
+   {
+    "p": "From 2026/27 the programme includes an expanded data storytelling strand and a module on using AI assistants (such as Copilot in Excel and Power BI) responsibly for analysis."
+   },
+   {
+    "h1": "3. Knowledge, skills and behaviours (summary)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Type",
+      "Summary"
+     ],
+     "rows": [
+      [
+       "K2",
+       "Knowledge",
+       "Data structures, data quality and data lifecycle"
+      ],
+      [
+       "K5",
+       "Knowledge",
+       "Data protection and ethical handling of data"
+      ],
+      [
+       "K9",
+       "Knowledge",
+       "Statistical methods and their appropriate use"
+      ],
+      [
+       "S1",
+       "Skill",
+       "Clean, transform and join data from multiple sources (Excel, SQL)"
+      ],
+      [
+       "S4",
+       "Skill",
+       "Build dashboards and visualisations (Power BI)"
+      ],
+      [
+       "S7",
+       "Skill",
+       "Present findings and recommendations to stakeholders"
+      ],
+      [
+       "B2",
+       "Behaviour",
+       "Logical and analytical approach; attention to detail"
+      ],
+      [
+       "B4",
+       "Behaviour",
+       "Curiosity and professional scepticism about data"
+      ]
+     ],
+     "caption": "Summary only — see the published standard for full wording"
+    }
+   },
+   {
+    "h1": "4. Module plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "Module",
+      "Title",
+      "Months",
+      "Key KSBs",
+      "OTJ hours"
+     ],
+     "rows": [
+      [
+       "1",
+       "Data foundations and Excel for analysis",
+       "1–3",
+       "K2, S1",
+       "55"
+      ],
+      [
+       "2",
+       "SQL for analysts",
+       "3–5",
+       "S1, K2",
+       "55"
+      ],
+      [
+       "3",
+       "Statistics for decision-making",
+       "5–7",
+       "K9, B2",
+       "45"
+      ],
+      [
+       "4",
+       "Power BI and data storytelling",
+       "7–10",
+       "S4, S7",
+       "65"
+      ],
+      [
+       "5",
+       "AI-assisted analysis and data ethics",
+       "10–12",
+       "K5, B4",
+       "40"
+      ],
+      [
+       "6",
+       "Workplace analysis project and EPA preparation",
+       "12–15",
+       "S7, B2",
+       "50"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Live workshop schedule"
+   },
+   {
+    "p": "Workshops are delivered live on Microsoft Teams (2.5 hours unless stated), recorded and published in Aptiva within 24 hours. Attendance is imported to the OTJ log automatically."
+   },
+   {
+    "table": {
+     "columns": [
+      "Month",
+      "Workshop",
+      "Format"
+     ],
+     "rows": [
+      [
+       "1",
+       "Welcome to the Data Academy",
+       "Live workshop"
+      ],
+      [
+       "2",
+       "Excel power skills: lookups, PivotTables, Power Query",
+       "Live lab"
+      ],
+      [
+       "4",
+       "SQL joins and aggregation",
+       "Live lab"
+      ],
+      [
+       "6",
+       "Descriptive statistics in practice",
+       "Live workshop"
+      ],
+      [
+       "8",
+       "Data Storytelling with Power BI",
+       "Live workshop"
+      ],
+      [
+       "10",
+       "Copilot in Excel and Power BI — responsible use",
+       "Live workshop"
+      ],
+      [
+       "12",
+       "Project clinic",
+       "Small-group drop-in"
+      ],
+      [
+       "14",
+       "Mock professional discussion",
+       "1:1 with coach"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. Assessment"
+   },
+   {
+    "bullets": [
+     "Gateway: OTJ complete, portfolio of evidence, English and maths Level 2.",
+     "EPA method 1: Project with report and presentation, plus questioning.",
+     "EPA method 2: Professional discussion underpinned by a portfolio.",
+     "Grading: Distinction / Merit / Pass (DMP)."
+    ]
+   },
+   {
+    "h1": "7. Progress monitoring"
+   },
+   {
+    "p": "Progress is reviewed every 12 weeks in a tripartite review (apprentice, coach, employer) and rated Green (OTJ ≥ 92% of expected), Amber (78% to under 92%) or Red (under 78%), as set out in the Skills Coach Handbook 2026/27."
+   },
+   {
+    "h1": "8. Entry requirements and Functional Skills"
+   },
+   {
+    "p": "Applicants complete an initial skills scan and English/maths assessment at enrolment. Apprentices without Level 2 English and maths (or equivalent) study Functional Skills alongside the programme with our Functional Skills tutors; this time does not count towards OTJ."
+   }
+  ]
+ },
+ {
+  "id": "cur-spec-om5",
+  "type": "docx",
+  "title": "Programme Specification — OM5 Operations Manager",
+  "site": "curriculum",
+  "library": "Programme Specifications",
+  "folder": "Leadership Academy",
+  "category": "Specification",
+  "doc_type_label": "Programme Specification",
+  "author": "P020",
+  "owner": "P008",
+  "approved_by": "P008",
+  "modified_by": "P020",
+  "created": "2022-09-12",
+  "modified": "2026-06-29",
+  "version": "4.0",
+  "status": "Approved",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "programme specification",
+   "OM5",
+   "KSBs",
+   "curriculum",
+   "workshops",
+   "EPA",
+   "Leadership Academy",
+   "management",
+   "hybrid"
+  ],
+  "summary": "Programme specification for OM5: standard, duration, KSB summary, module plan, workshop schedule, OTJ and end-point assessment.",
+  "blocks": [
+   {
+    "h1": "1. Programme at a glance"
+   },
+   {
+    "kv": [
+     [
+      "Programme code",
+      "OM5"
+     ],
+     [
+      "Delcorn programme name",
+      "{{sql:SELECT programme_name FROM programmes WHERE programme_code='OM5'}}"
+     ],
+     [
+      "Apprenticeship standard",
+      "{{sql:SELECT standard FROM programmes WHERE programme_code='OM5'}} (Level {{sql:SELECT level FROM programmes WHERE programme_code='OM5'}})"
+     ],
+     [
+      "Academy",
+      "{{sql:SELECT academy FROM programmes WHERE programme_code='OM5'}}"
+     ],
+     [
+      "Practical period",
+      "{{sql:SELECT duration_months FROM programmes WHERE programme_code='OM5'}} months, followed by end-point assessment (allow c. 3 months)"
+     ],
+     [
+      "Funding band",
+      "{{sql:SELECT funding_band_gbp FROM programmes WHERE programme_code='OM5'|gbp}}"
+     ],
+     [
+      "Planned OTJ hours",
+      "370 hours"
+     ],
+     [
+      "End-point assessment organisation",
+      "{{sql:SELECT epao FROM programmes WHERE programme_code='OM5'}}"
+     ],
+     [
+      "Grading",
+      "{{sql:SELECT grading FROM programmes WHERE programme_code='OM5'}} (DMP = Distinction / Merit / Pass; DP = Distinction / Pass)"
+     ],
+     [
+      "Learners currently on programme",
+      "{{sql:SELECT COUNT(*) FROM learners WHERE programme_code='OM5' AND status IN ('Active','Break in learning','Gateway','EPA')}}"
+     ],
+     [
+      "Programme lead",
+      "{{person:P020}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Overview and intent"
+   },
+   {
+    "p": "The Operations Manager programme develops managers responsible for teams, departments or functions to lead people, manage resources and deliver operational plans. Most apprentices are established managers in large employers across retail, logistics, financial services and the NHS."
+   },
+   {
+    "p": "The 2026/27 revision adds content on leading hybrid and distributed teams and on using data and AI tools to improve operational decision-making."
+   },
+   {
+    "h1": "3. Knowledge, skills and behaviours (summary)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Type",
+      "Summary"
+     ],
+     "rows": [
+      [
+       "K1",
+       "Knowledge",
+       "Operational management: planning, resource and performance management"
+      ],
+      [
+       "K3",
+       "Knowledge",
+       "Finance: budgets, forecasting and business cases"
+      ],
+      [
+       "K6",
+       "Knowledge",
+       "Leading people: motivation, coaching, hybrid working"
+      ],
+      [
+       "S2",
+       "Skill",
+       "Develop and implement operational plans"
+      ],
+      [
+       "S5",
+       "Skill",
+       "Manage change and continuous improvement"
+      ],
+      [
+       "S9",
+       "Skill",
+       "Build relationships with stakeholders"
+      ],
+      [
+       "B1",
+       "Behaviour",
+       "Takes responsibility; leads by example"
+      ],
+      [
+       "B5",
+       "Behaviour",
+       "Inclusive and values diversity"
+      ]
+     ],
+     "caption": "Summary only — see the published standard for full wording"
+    }
+   },
+   {
+    "h1": "4. Module plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "Module",
+      "Title",
+      "Months",
+      "Key KSBs",
+      "OTJ hours"
+     ],
+     "rows": [
+      [
+       "1",
+       "Self-awareness and leadership styles",
+       "1–3",
+       "K6, B1",
+       "60"
+      ],
+      [
+       "2",
+       "Leading hybrid teams",
+       "3–5",
+       "K6, B5",
+       "60"
+      ],
+      [
+       "3",
+       "Operational planning and performance",
+       "5–8",
+       "K1, S2",
+       "65"
+      ],
+      [
+       "4",
+       "Finance for managers",
+       "8–10",
+       "K3",
+       "55"
+      ],
+      [
+       "5",
+       "Change and continuous improvement",
+       "10–13",
+       "S5, S9",
+       "65"
+      ],
+      [
+       "6",
+       "Work-based project and EPA preparation",
+       "13–18",
+       "S2, S5, B1",
+       "65"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Live workshop schedule"
+   },
+   {
+    "p": "Workshops are delivered live on Microsoft Teams (2.5 hours unless stated), recorded and published in Aptiva within 24 hours. Attendance is imported to the OTJ log automatically."
+   },
+   {
+    "table": {
+     "columns": [
+      "Month",
+      "Workshop",
+      "Format"
+     ],
+     "rows": [
+      [
+       "1",
+       "Leadership launchpad",
+       "Live workshop"
+      ],
+      [
+       "3",
+       "Leading Hybrid Teams",
+       "Live workshop"
+      ],
+      [
+       "5",
+       "Coaching conversations",
+       "Live workshop with practice triads"
+      ],
+      [
+       "7",
+       "Operational planning and KPIs",
+       "Live workshop"
+      ],
+      [
+       "9",
+       "Budgets and business cases",
+       "Live workshop"
+      ],
+      [
+       "11",
+       "Leading change",
+       "Live workshop"
+      ],
+      [
+       "14",
+       "Project presentation clinic",
+       "Small-group"
+      ],
+      [
+       "16",
+       "Mock professional discussion",
+       "1:1 with coach"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. Assessment"
+   },
+   {
+    "bullets": [
+     "Gateway: OTJ complete, project proposal approved, portfolio complete.",
+     "EPA method 1: Project with presentation and questioning.",
+     "EPA method 2: Professional discussion underpinned by a portfolio of evidence.",
+     "Grading: Distinction / Merit / Pass (DMP)."
+    ]
+   },
+   {
+    "h1": "7. Progress monitoring"
+   },
+   {
+    "p": "Progress is reviewed every 12 weeks in a tripartite review (apprentice, coach, employer) and rated Green (OTJ ≥ 92% of expected), Amber (78% to under 92%) or Red (under 78%), as set out in the Skills Coach Handbook 2026/27."
+   },
+   {
+    "h1": "8. Entry requirements and Functional Skills"
+   },
+   {
+    "p": "Applicants complete an initial skills scan and English/maths assessment at enrolment. Apprentices without Level 2 English and maths (or equivalent) study Functional Skills alongside the programme with our Functional Skills tutors; this time does not count towards OTJ."
+   }
+  ]
+ },
+ {
+  "id": "cur-spec-pp5",
+  "type": "docx",
+  "title": "Programme Specification — PP5 People Professional",
+  "site": "curriculum",
+  "library": "Programme Specifications",
+  "folder": "People Academy",
+  "category": "Specification",
+  "doc_type_label": "Programme Specification",
+  "author": "P020",
+  "owner": "P008",
+  "approved_by": "P008",
+  "modified_by": "P020",
+  "created": "2023-01-23",
+  "modified": "2026-10-19",
+  "version": "2.2",
+  "status": "Under review",
+  "review_date": "2027-07-31",
+  "classification": "Internal",
+  "doc_control": true,
+  "tags": [
+   "programme specification",
+   "PP5",
+   "KSBs",
+   "curriculum",
+   "workshops",
+   "EPA",
+   "People Academy",
+   "HR",
+   "people analytics"
+  ],
+  "summary": "Programme specification for PP5: standard, duration, KSB summary, module plan, workshop schedule, OTJ and end-point assessment.",
+  "blocks": [
+   {
+    "h1": "1. Programme at a glance"
+   },
+   {
+    "kv": [
+     [
+      "Programme code",
+      "PP5"
+     ],
+     [
+      "Delcorn programme name",
+      "{{sql:SELECT programme_name FROM programmes WHERE programme_code='PP5'}}"
+     ],
+     [
+      "Apprenticeship standard",
+      "{{sql:SELECT standard FROM programmes WHERE programme_code='PP5'}} (Level {{sql:SELECT level FROM programmes WHERE programme_code='PP5'}})"
+     ],
+     [
+      "Academy",
+      "{{sql:SELECT academy FROM programmes WHERE programme_code='PP5'}}"
+     ],
+     [
+      "Practical period",
+      "{{sql:SELECT duration_months FROM programmes WHERE programme_code='PP5'}} months, followed by end-point assessment (allow c. 3 months)"
+     ],
+     [
+      "Funding band",
+      "{{sql:SELECT funding_band_gbp FROM programmes WHERE programme_code='PP5'|gbp}}"
+     ],
+     [
+      "Planned OTJ hours",
+      "370 hours"
+     ],
+     [
+      "End-point assessment organisation",
+      "{{sql:SELECT epao FROM programmes WHERE programme_code='PP5'}}"
+     ],
+     [
+      "Grading",
+      "{{sql:SELECT grading FROM programmes WHERE programme_code='PP5'}} (DMP = Distinction / Merit / Pass; DP = Distinction / Pass)"
+     ],
+     [
+      "Learners currently on programme",
+      "{{sql:SELECT COUNT(*) FROM learners WHERE programme_code='PP5' AND status IN ('Active','Break in learning','Gateway','EPA')}}"
+     ],
+     [
+      "Programme lead",
+      "{{person:P020}}"
+     ]
+    ]
+   },
+   {
+    "h1": "2. Overview and intent"
+   },
+   {
+    "p": "The People Professional programme develops HR and L&D practitioners who give evidence-based people advice and deliver people solutions aligned to organisational strategy."
+   },
+   {
+    "p": "Version 2.2 is under review following feedback at the Curriculum Advisory Panel in October 2026 on employment law updates and the growth of AI in recruitment."
+   },
+   {
+    "h1": "3. Knowledge, skills and behaviours (summary)"
+   },
+   {
+    "table": {
+     "columns": [
+      "Ref",
+      "Type",
+      "Summary"
+     ],
+     "rows": [
+      [
+       "K1",
+       "Knowledge",
+       "Employment law and regulation"
+      ],
+      [
+       "K4",
+       "Knowledge",
+       "Organisational design and workforce planning"
+      ],
+      [
+       "K7",
+       "Knowledge",
+       "Evidence-based practice and people analytics"
+      ],
+      [
+       "S3",
+       "Skill",
+       "Provide people advice and manage cases"
+      ],
+      [
+       "S6",
+       "Skill",
+       "Use people data to diagnose issues and propose solutions"
+      ],
+      [
+       "S8",
+       "Skill",
+       "Design and evaluate learning interventions"
+      ],
+      [
+       "B2",
+       "Behaviour",
+       "Ethical practice and professional courage"
+      ],
+      [
+       "B4",
+       "Behaviour",
+       "Inclusive, valuing difference"
+      ]
+     ],
+     "caption": "Summary only — see the published standard for full wording"
+    }
+   },
+   {
+    "h1": "4. Module plan"
+   },
+   {
+    "table": {
+     "columns": [
+      "Module",
+      "Title",
+      "Months",
+      "Key KSBs",
+      "OTJ hours"
+     ],
+     "rows": [
+      [
+       "1",
+       "The people profession and ethical practice",
+       "1–3",
+       "B2, K1",
+       "60"
+      ],
+      [
+       "2",
+       "Employment law in practice",
+       "3–6",
+       "K1, S3",
+       "65"
+      ],
+      [
+       "3",
+       "People analytics and evidence-based practice",
+       "6–9",
+       "K7, S6",
+       "65"
+      ],
+      [
+       "4",
+       "Organisational design and workforce planning",
+       "9–12",
+       "K4",
+       "60"
+      ],
+      [
+       "5",
+       "Learning, development and engagement",
+       "12–14",
+       "S8, B4",
+       "55"
+      ],
+      [
+       "6",
+       "Work-based project and EPA preparation",
+       "14–18",
+       "S6, S8",
+       "65"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Live workshop schedule"
+   },
+   {
+    "p": "Workshops are delivered live on Microsoft Teams (2.5 hours unless stated), recorded and published in Aptiva within 24 hours. Attendance is imported to the OTJ log automatically."
+   },
+   {
+    "table": {
+     "columns": [
+      "Month",
+      "Workshop",
+      "Format"
+     ],
+     "rows": [
+      [
+       "1",
+       "Welcome to the People Academy",
+       "Live workshop"
+      ],
+      [
+       "3",
+       "Employment law update",
+       "Live workshop"
+      ],
+      [
+       "5",
+       "Handling difficult conversations",
+       "Live workshop with role-play"
+      ],
+      [
+       "7",
+       "People analytics with Excel and Power BI",
+       "Live lab"
+      ],
+      [
+       "9",
+       "AI in recruitment: opportunities and risks",
+       "Live workshop"
+      ],
+      [
+       "12",
+       "Designing learning that sticks",
+       "Live workshop"
+      ],
+      [
+       "15",
+       "Project clinic",
+       "Small-group"
+      ],
+      [
+       "17",
+       "Mock professional discussion",
+       "1:1 with coach"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "6. Assessment"
+   },
+   {
+    "bullets": [
+     "Gateway: OTJ complete, portfolio complete, project scope approved.",
+     "EPA method 1: Work-based project with presentation and questioning.",
+     "EPA method 2: Professional discussion underpinned by a portfolio.",
+     "Grading: Distinction / Merit / Pass (DMP)."
+    ]
+   },
+   {
+    "h1": "7. Progress monitoring"
+   },
+   {
+    "p": "Progress is reviewed every 12 weeks in a tripartite review (apprentice, coach, employer) and rated Green (OTJ ≥ 92% of expected), Amber (78% to under 92%) or Red (under 78%), as set out in the Skills Coach Handbook 2026/27."
+   },
+   {
+    "h1": "8. Entry requirements and Functional Skills"
+   },
+   {
+    "p": "Applicants complete an initial skills scan and English/maths assessment at enrolment. Apprentices without Level 2 English and maths (or equivalent) study Functional Skills alongside the programme with our Functional Skills tutors; this time does not count towards OTJ."
+   }
+  ]
+ },
+ {
+  "id": "cur-intent-statement",
+  "type": "docx",
+  "title": "Curriculum Intent & Implementation Statement 2026/27",
+  "site": "curriculum",
+  "library": "Curriculum Planning",
+  "folder": "Strategy",
+  "category": "Strategy",
+  "author": "P008",
+  "owner": "P008",
+  "approved_by": "P001",
+  "modified_by": "P008",
+  "created": "2024-08-12",
+  "modified": "2026-09-04",
+  "version": "3.0",
+  "status": "Approved",
+  "review_date": "2027-08-31",
+  "classification": "Internal",
+  "tags": [
+   "curriculum intent",
+   "implementation",
+   "impact",
+   "Ofsted",
+   "academies"
+  ],
+  "summary": "Delcorn's statement of curriculum intent, implementation and impact across the five academies for 2026/27.",
+  "version_history": [
+   {
+    "version": "2.0",
+    "date": "2025-08-29",
+    "by": "P008",
+    "change": "AI Academy and responsible AI thread added"
+   },
+   {
+    "version": "3.0",
+    "date": "2026-09-04",
+    "by": "P008",
+    "change": "Updated after February 2026 inspection; apprenticeship units added"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "Intent"
+   },
+   {
+    "p": "Our curriculum exists to give working adults the knowledge, skills and behaviours that make a real difference to them and to their employers, in the areas where UK organisations most need capability: artificial intelligence, data, digital, leadership and people practice."
+   },
+   {
+    "bullets": [
+     "**Employer-led:** every programme is co-designed and reviewed with employers through the Curriculum Advisory Panel and annual programme reviews.",
+     "**Applied:** learning is sequenced so apprentices apply each new concept at work within weeks, building towards a workplace project.",
+     "**Current:** we refresh content at least annually, and within 3 months for significant changes in technology, law or policy (particularly AI).",
+     "**Responsible:** responsible and ethical use of AI and data is a thread through every academy, not a single module.",
+     "**Inclusive:** content meets WCAG 2.2 AA, offers multiple ways in, and is supported by additional learning support where needed."
+    ]
+   },
+   {
+    "h1": "Implementation"
+   },
+   {
+    "p": "Programmes are delivered fully remotely through a blend of live workshops, 1:1 coaching, self-directed Aptiva modules and workplace projects. Skills coaches are sector experts who personalise the curriculum to each apprentice's role through the training plan and 12-weekly tripartite reviews."
+   },
+   {
+    "table": {
+     "sql": "SELECT p.academy AS Academy, COUNT(DISTINCT p.programme_code) AS Programmes, SUM(l.status IN ('Active','Break in learning','Gateway','EPA')) AS 'Learners on programme' FROM programmes p LEFT JOIN learners l USING(programme_code) GROUP BY 1 ORDER BY 3 DESC",
+     "caption": "Programmes and learners by academy"
+    }
+   },
+   {
+    "h2": "Sequencing principles"
+   },
+   {
+    "numbered": [
+     "Foundations and responsible practice first (months 1–3).",
+     "Core technical or management skills, practised at work (months 3–10).",
+     "Integration through a workplace project that delivers business value.",
+     "Explicit EPA preparation in the final quarter, including mock assessments."
+    ]
+   },
+   {
+    "h1": "Impact"
+   },
+   {
+    "p": "We measure impact through achievement, progress, destinations and employer value. In 2025/26 our achievement rate was **{{fact:achievement_rate_2526}}** (up from {{fact:achievement_rate_2425}} in 2024/25), {{fact:epa_distinction_rate}} of EPA results since 2023 have been Distinctions, and learner NPS for the last 12 months is {{fact:learner_nps_12m}}."
+   },
+   {
+    "quote": "The curriculum is ambitious and carefully sequenced. Apprentices apply new knowledge at work quickly, and employers value the projects they complete.",
+    "by": "Ofsted inspection report, February 2026 (summary)"
+   },
+   {
+    "signature": "P008",
+    "date": "2026-09-04"
+   }
+  ]
+ },
+ {
+  "id": "cur-review-cycle-2026",
+  "type": "xlsx",
+  "title": "Curriculum Review Cycle 2026",
+  "site": "curriculum",
+  "library": "Curriculum Planning",
+  "folder": "Programme Reviews",
+  "category": "Tracker",
+  "author": "P008",
+  "owner": "P008",
+  "modified_by": "P020",
+  "created": "2026-01-06",
+  "modified": "2026-11-02",
+  "version": "2.4",
+  "status": "Live",
+  "classification": "Internal",
+  "tags": [
+   "curriculum review",
+   "tracker",
+   "programmes",
+   "2026"
+  ],
+  "summary": "Tracker of the annual review cycle for all 19 programmes: last and next review dates, current stage, RAG and key changes.",
+  "sheets": [
+   {
+    "name": "README",
+    "text": [
+     "Curriculum Review Cycle 2026 — owned by Dr Ben Hartley, Head of AI & Curriculum.",
+     "Every programme has a full review at least every 12 months (anniversary of last review), plus a rapid review within 3 months of any major policy, legal or technology change.",
+     "Stages: Scheduled → Employer consultation → Content redevelopment → Quality sign-off → Complete. 'Not due' = next review more than 3 months away.",
+     "RAG: Green = on schedule; Amber = in progress, due within 3 months; Red = past next review date.",
+     "Update the Stage and RAG columns every fortnight before the curriculum team meeting."
+    ]
+   },
+   {
+    "name": "Tracker",
+    "columns": [
+     "Code",
+     "Programme",
+     "Academy",
+     "Review lead",
+     "Last review",
+     "Next review",
+     "Stage",
+     "RAG",
+     "Key changes / notes",
+     "Employer consultation"
+    ],
+    "rows": [
+     [
+      "AI3",
+      "Working Smarter with AI",
+      "AI Academy",
+      "Nathan Shaw",
+      "2025-11-10",
+      "2026-11-30",
+      "Employer consultation",
+      "Amber",
+      "Update for revised AI Acceptable Use Policy; new Copilot agents content",
+      "Yes – 6 employers"
+     ],
+     [
+      "AI4",
+      "AI & Automation Practitioner",
+      "AI Academy",
+      "Nathan Shaw",
+      "2026-07-30",
+      "2027-07-30",
+      "Not due",
+      "Green",
+      "New programme launched Aug 2026; first-cohort review at month 6",
+      "Yes – 4 employers"
+     ],
+     [
+      "ML6",
+      "Applied Machine Learning",
+      "AI Academy",
+      "Dr Ben Hartley",
+      "2026-01-19",
+      "2027-01-19",
+      "Scheduled",
+      "Green",
+      "Add MLOps and model evaluation content",
+      "Planned"
+     ],
+     [
+      "DT3",
+      "Data Foundations",
+      "Data Academy",
+      "Zara Ahmed",
+      "2026-04-27",
+      "2027-04-27",
+      "Not due",
+      "Green",
+      "Accessibility refresh complete",
+      "Yes – 3 employers"
+     ],
+     [
+      "DA4",
+      "Data Analyst",
+      "Data Academy",
+      "Zara Ahmed",
+      "2026-08-11",
+      "2027-08-11",
+      "Complete",
+      "Green",
+      "Data storytelling strand expanded; Copilot in Excel module",
+      "Yes – 8 employers"
+     ],
+     [
+      "DE5",
+      "Data Engineering",
+      "Data Academy",
+      "Dr Ben Hartley",
+      "2025-10-06",
+      "2026-10-06",
+      "Overdue",
+      "Red",
+      "Cloud platform labs out of date; review slipped due to AI4 launch",
+      "No"
+     ],
+     [
+      "BA4",
+      "Business Analysis",
+      "Data Academy",
+      "Zara Ahmed",
+      "2026-02-09",
+      "2027-02-09",
+      "Scheduled",
+      "Green",
+      "Minor updates",
+      "Planned"
+     ],
+     [
+      "SD4",
+      "Software Development",
+      "Digital Academy",
+      "Nathan Shaw",
+      "2026-03-02",
+      "2027-03-02",
+      "Not due",
+      "Green",
+      "AI pair-programming guidance added",
+      "Yes – 2 employers"
+     ],
+     [
+      "DO4",
+      "DevOps Engineering",
+      "Digital Academy",
+      "Nathan Shaw",
+      "2025-12-08",
+      "2026-12-08",
+      "Content redevelopment",
+      "Amber",
+      "Pipeline labs being rebuilt",
+      "Yes – 2 employers"
+     ],
+     [
+      "DTS6",
+      "Digital & Technology Solutions (Degree)",
+      "Digital Academy",
+      "Dr Ben Hartley",
+      "2026-05-18",
+      "2027-05-18",
+      "Not due",
+      "Green",
+      "Joint review with University of Wessex",
+      "Yes"
+     ],
+     [
+      "TL3",
+      "Team Leader",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2025-11-24",
+      "2026-11-24",
+      "Quality sign-off",
+      "Amber",
+      "Leading Hybrid Teams workshop refreshed",
+      "Yes – 5 employers"
+     ],
+     [
+      "OM5",
+      "Operations Manager",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2026-06-29",
+      "2027-06-29",
+      "Complete",
+      "Green",
+      "Hybrid leadership and data-driven decisions content",
+      "Yes – 7 employers"
+     ],
+     [
+      "CM6",
+      "Chartered Manager (Degree)",
+      "Leadership Academy",
+      "Dr Ben Hartley",
+      "2026-03-23",
+      "2027-03-23",
+      "Not due",
+      "Green",
+      "University validation renewed",
+      "Yes"
+     ],
+     [
+      "SL7",
+      "Senior Leader",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2025-09-15",
+      "2026-09-15",
+      "Overdue",
+      "Red",
+      "Strategy module rewrite in progress",
+      "No"
+     ],
+     [
+      "PM4",
+      "Associate Project Manager",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2026-01-12",
+      "2027-01-12",
+      "Scheduled",
+      "Green",
+      "Agile content update",
+      "Planned"
+     ],
+     [
+      "BAD3",
+      "Business Administrator",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2026-05-04",
+      "2027-05-04",
+      "Not due",
+      "Green",
+      "Copilot for admin tasks added",
+      "Yes – 3 employers"
+     ],
+     [
+      "FR3",
+      "Fundraiser",
+      "Leadership Academy",
+      "Zara Ahmed",
+      "2025-12-01",
+      "2026-12-01",
+      "Employer consultation",
+      "Amber",
+      "Low volumes — viability review",
+      "Yes – 2 charities"
+     ],
+     [
+      "PP5",
+      "People Professional",
+      "People Academy",
+      "Zara Ahmed",
+      "2025-10-20",
+      "2026-10-20",
+      "Content redevelopment",
+      "Amber",
+      "Employment law updates; AI in recruitment workshop",
+      "Yes – 4 employers"
+     ],
+     [
+      "SPP7",
+      "Senior People Professional",
+      "People Academy",
+      "Zara Ahmed",
+      "2026-02-23",
+      "2027-02-23",
+      "Not due",
+      "Green",
+      "Minor updates",
+      "Planned"
+     ]
+    ],
+    "format": {
+     "Last review": "date",
+     "Next review": "date"
+    }
+   },
+   {
+    "name": "Summary",
+    "columns": [
+     "Stage",
+     "Programmes"
+    ],
+    "rows": [
+     [
+      "Scheduled",
+      "=COUNTIF(Tracker!G:G,A2)"
+     ],
+     [
+      "Employer consultation",
+      "=COUNTIF(Tracker!G:G,A3)"
+     ],
+     [
+      "Content redevelopment",
+      "=COUNTIF(Tracker!G:G,A4)"
+     ],
+     [
+      "Quality sign-off",
+      "=COUNTIF(Tracker!G:G,A5)"
+     ],
+     [
+      "Complete",
+      "=COUNTIF(Tracker!G:G,A6)"
+     ],
+     [
+      "Not due",
+      "=COUNTIF(Tracker!G:G,A7)"
+     ],
+     [
+      "Overdue",
+      "=COUNTIF(Tracker!G:G,A8)"
+     ]
+    ]
+   }
+  ]
+ },
+ {
+  "id": "cur-workshop-prompting",
+  "type": "pptx",
+  "title": "Prompting Fundamentals for the Workplace",
+  "site": "curriculum",
+  "library": "Workshop Materials",
+  "folder": "AI Academy/AI3",
+  "category": "Workshop",
+  "doc_type_label": "Workshop Deck",
+  "author": "P019",
+  "owner": "P008",
+  "modified_by": "P019",
+  "created": "2025-02-10",
+  "modified": "2026-10-28",
+  "version": "3.1",
+  "status": "Under review",
+  "classification": "Internal",
+  "tags": [
+   "AI3",
+   "prompting",
+   "Copilot",
+   "workshop",
+   "generative AI",
+   "responsible AI"
+  ],
+  "summary": "AI3 live workshop deck (2.5 hours) teaching the GOAL prompt framework, iteration, grounding on work files and responsible use of Copilot.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Prompting Fundamentals for the Workplace",
+    "subtitle": "AI3 Working Smarter with AI — Workshop 2",
+    "meta": "AI Academy | Live workshop | 2.5 hours",
+    "notes": "Welcome everyone. Check cameras and audio. Remind learners this session counts towards OTJ automatically via Teams attendance — they should not log it manually in Aptiva."
+   },
+   {
+    "layout": "bullets",
+    "title": "Today's outcomes",
+    "bullets": [
+     "Explain what a large language model does — and doesn't do",
+     "Write effective prompts using the GOAL framework",
+     "Iterate and refine outputs",
+     "Ground prompts on your own work files safely",
+     "Apply our AI acceptable use rules"
+    ],
+    "notes": "Map to KSBs: K1 (AI concepts), S2 (design and test prompts), B1 (responsible use). Ask learners to pick one real task from their job they want to improve by the end of the session."
+   },
+   {
+    "layout": "two_column",
+    "title": "How a large language model works (in one slide)",
+    "left": {
+     "heading": "What it does",
+     "bullets": [
+      "Predicts likely next words",
+      "Draws on patterns in training data",
+      "Can summarise, draft, rewrite, classify"
+     ]
+    },
+    "right": {
+     "heading": "What it doesn't do",
+     "bullets": [
+      "Know facts with certainty",
+      "Check its own work",
+      "Understand your context unless you give it"
+     ]
+    },
+    "notes": "Use the autocomplete analogy. Emphasise hallucination: confident but wrong. That's why the human stays accountable."
+   },
+   {
+    "layout": "steps",
+    "title": "The GOAL framework",
+    "steps": [
+     {
+      "label": "Goal",
+      "text": "What do you want? 'Draft a summary of…'"
+     },
+     {
+      "label": "Origin",
+      "text": "Where should it look? 'Using the attached report…'"
+     },
+     {
+      "label": "Audience",
+      "text": "Who is it for? 'For my line manager, non-technical'"
+     },
+     {
+      "label": "Layout",
+      "text": "What format? 'Three bullet points, under 100 words'"
+     }
+    ],
+    "notes": "GOAL is our house framework. Give the bad prompt 'summarise this' and rebuild it live using GOAL. Show the difference in output quality."
+   },
+   {
+    "layout": "table",
+    "title": "Weak vs strong prompts",
+    "table": {
+     "columns": [
+      "Weak",
+      "Strong"
+     ],
+     "rows": [
+      [
+       "Write an email to my manager",
+       "Draft a 150-word email to my line manager asking for two hours of protected study time each Wednesday, polite and specific"
+      ],
+      [
+       "Summarise this",
+       "Summarise the attached October sales report in 3 bullets for the leadership team, highlighting the biggest variance"
+      ],
+      [
+       "Make a plan",
+       "Create a 4-week plan to learn PivotTables, 1 hour per week, with one practice task per week"
+      ]
+     ]
+    },
+    "notes": "Ask learners to vote in the chat for which strong prompt they'd use this week."
+   },
+   {
+    "layout": "bullets",
+    "title": "Iterate, don't start again",
+    "bullets": [
+     "Ask for changes: 'shorter', 'more formal', 'add a table'",
+     "Ask it to critique itself: 'what's missing?'",
+     "Give an example of the style you want",
+     "Ask for options: 'give me three versions'"
+    ],
+    "notes": "Live demo in Copilot Chat. Start with a mediocre draft and improve it in three turns."
+   },
+   {
+    "layout": "bullets",
+    "title": "Grounding on your work",
+    "bullets": [
+     "Use / to reference a file, email or meeting in Copilot",
+     "Copilot only sees what YOU can already access",
+     "Check sources — click the citations",
+     "Never paste personal data into public AI tools"
+    ],
+    "notes": "Explain that Microsoft 365 Copilot respects permissions. Oversharing in SharePoint is a real risk: if a file is shared too widely, Copilot can surface it."
+   },
+   {
+    "layout": "bullets",
+    "title": "Responsible use — our rules",
+    "bullets": [
+     "Use your organisation's approved AI tools only",
+     "You own the output: check facts, numbers and tone",
+     "Be transparent when AI drafted something important",
+     "Don't use AI to make decisions about people",
+     "Report anything that looks wrong or unsafe"
+    ],
+    "notes": "UPDATE PENDING: Nathan to align this slide with the revised Delcorn AI Acceptable Use Policy and employer policies (see email with Ben, Oct 2026). Learners should follow their employer's policy first."
+   },
+   {
+    "layout": "steps",
+    "title": "Practice: your real task",
+    "steps": [
+     {
+      "label": "1. Pick",
+      "text": "Choose a real task from your role"
+     },
+     {
+      "label": "2. GOAL",
+      "text": "Write a GOAL prompt"
+     },
+     {
+      "label": "3. Iterate",
+      "text": "Improve it in 3 turns"
+     },
+     {
+      "label": "4. Reflect",
+      "text": "Log time saved and quality in your reflective journal"
+     }
+    ],
+    "notes": "20-minute breakout. Coaches join rooms. Learners upload their prompt and reflection to Aptiva as evidence for S2 and B1."
+   },
+   {
+    "layout": "bullets",
+    "title": "Before next session",
+    "bullets": [
+     "Complete Aptiva module 2.3 'Prompt patterns'",
+     "Use GOAL at work at least three times",
+     "Bring one example that went wrong — we'll fix it together"
+    ],
+    "notes": "Close with the reminder that OTJ is logged automatically. Share the survey link."
+   }
+  ],
+  "filename": "Prompting Fundamentals for the Workplace"
+ },
+ {
+  "id": "cur-workshop-data-storytelling",
+  "type": "pptx",
+  "title": "Data Storytelling with Power BI",
+  "site": "curriculum",
+  "library": "Workshop Materials",
+  "folder": "Data Academy/DA4",
+  "category": "Workshop",
+  "doc_type_label": "Workshop Deck",
+  "author": "P020",
+  "owner": "P008",
+  "created": "2024-11-04",
+  "modified": "2026-08-11",
+  "version": "2.0",
+  "status": "Approved",
+  "classification": "Internal",
+  "tags": [
+   "DA4",
+   "Power BI",
+   "data storytelling",
+   "visualisation",
+   "workshop"
+  ],
+  "summary": "DA4 month-8 live workshop deck on turning analysis into a clear story with Power BI: audience, the big idea, chart choice, decluttering and narrative.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Data Storytelling with Power BI",
+    "subtitle": "DA4 Data Analyst — Workshop 5",
+    "meta": "Data Academy | Live workshop | 2.5 hours",
+    "notes": "Welcome. This workshop maps to S4 (dashboards) and S7 (present findings). Learners should have Power BI Desktop open with the sample dataset downloaded from Aptiva."
+   },
+   {
+    "layout": "quote",
+    "title": "Why stories?",
+    "quote": "Numbers have an important story to tell. They rely on you to give them a clear and convincing voice.",
+    "by": "Workshop principle",
+    "notes": "Ask: when did a chart last change a decision in your organisation? Collect two or three examples in the chat."
+   },
+   {
+    "layout": "steps",
+    "title": "The storytelling process",
+    "steps": [
+     {
+      "label": "Audience",
+      "text": "Who decides, and what do they need?"
+     },
+     {
+      "label": "Big idea",
+      "text": "One sentence: the point and the ask"
+     },
+     {
+      "label": "Evidence",
+      "text": "The 2–3 charts that prove it"
+     },
+     {
+      "label": "Declutter",
+      "text": "Remove anything that doesn't help"
+     },
+     {
+      "label": "Narrate",
+      "text": "Title, annotation, call to action"
+     }
+    ],
+    "notes": "Spend most time on the big idea. Most dashboards fail because they show everything and say nothing."
+   },
+   {
+    "layout": "table",
+    "title": "Choosing the right visual",
+    "table": {
+     "columns": [
+      "You want to show…",
+      "Use",
+      "Avoid"
+     ],
+     "rows": [
+      [
+       "Change over time",
+       "Line chart",
+       "Pie chart"
+      ],
+      [
+       "Comparison between categories",
+       "Bar / column",
+       "3D charts"
+      ],
+      [
+       "Part of a whole (few parts)",
+       "Stacked bar, 100% bar",
+       "Pie with 8+ slices"
+      ],
+      [
+       "Single key number",
+       "Card / KPI",
+       "Gauge"
+      ],
+      [
+       "Relationship",
+       "Scatter",
+       "Dual axes without labels"
+      ]
+     ]
+    },
+    "notes": "Demonstrate changing a pie into a bar in Power BI and ask which is easier to read."
+   },
+   {
+    "layout": "chart",
+    "title": "Worked example: where are our apprentices?",
+    "chart": {
+     "type": "bar",
+     "title": "Learners on programme by academy",
+     "labels": true,
+     "sql": "SELECT academy AS Academy, COUNT(*) AS Learners FROM learners WHERE status IN ('Active','Break in learning','Gateway','EPA') GROUP BY 1 ORDER BY 2 DESC"
+    },
+    "bullets": [
+     "Sorted descending",
+     "Direct labels, no gridlines",
+     "Title states the insight"
+    ],
+    "notes": "This uses Delcorn's own training dataset. Ask learners to write an insight title, e.g. 'Data and Leadership academies hold most of our learners'."
+   },
+   {
+    "layout": "two_column",
+    "title": "Declutter: before and after",
+    "left": {
+     "heading": "Before",
+     "bullets": [
+      "Default theme, 6 colours",
+      "Legend far from data",
+      "Gridlines and borders",
+      "Title: 'Sum of Learners by Academy'"
+     ]
+    },
+    "right": {
+     "heading": "After",
+     "bullets": [
+      "One highlight colour",
+      "Direct data labels",
+      "White space",
+      "Title: the insight in plain English"
+     ]
+    },
+    "notes": "Live demo: format pane, turn off gridlines, use one accent colour for the bar you want people to notice."
+   },
+   {
+    "layout": "bullets",
+    "title": "Using Copilot in Power BI — responsibly",
+    "bullets": [
+     "Ask Copilot to suggest a narrative summary of a report page",
+     "Check every number it quotes against the visual",
+     "Use it to draft, not to decide",
+     "Respect data sensitivity labels"
+    ],
+    "notes": "Copilot can draft narrative visuals. Show an example where it misreads a filter — this is why we check."
+   },
+   {
+    "layout": "steps",
+    "title": "Practice: build a one-page story",
+    "steps": [
+     {
+      "label": "1",
+      "text": "Write your big idea"
+     },
+     {
+      "label": "2",
+      "text": "Choose 2–3 visuals"
+     },
+     {
+      "label": "3",
+      "text": "Declutter and title"
+     },
+     {
+      "label": "4",
+      "text": "Present in 60 seconds in your breakout"
+     }
+    ],
+    "notes": "30-minute breakout. Peer feedback using 'one thing that worked, one thing to change'."
+   },
+   {
+    "layout": "bullets",
+    "title": "Evidence for your portfolio",
+    "bullets": [
+     "Upload your one-page report (PBIX + PDF) to Aptiva",
+     "Write a 200-word reflection: audience, big idea, design choices",
+     "Tag S4 and S7",
+     "Discuss at your next 1:1 with your coach"
+    ],
+    "notes": "Remind learners this workshop is logged to OTJ automatically; reflection time should be logged manually."
+   }
+  ]
+ },
+ {
+  "id": "cur-workshop-hybrid-teams",
+  "type": "pptx",
+  "title": "Leading Hybrid Teams",
+  "site": "curriculum",
+  "library": "Workshop Materials",
+  "folder": "Leadership Academy/TL3-OM5",
+  "category": "Workshop",
+  "doc_type_label": "Workshop Deck",
+  "author": "P020",
+  "owner": "P008",
+  "modified_by": "P016",
+  "created": "2023-03-06",
+  "modified": "2026-11-02",
+  "version": "2.3",
+  "status": "Draft",
+  "classification": "Internal",
+  "tags": [
+   "TL3",
+   "OM5",
+   "hybrid working",
+   "leadership",
+   "workshop"
+  ],
+  "summary": "Leadership Academy workshop deck for TL3 and OM5 on leading hybrid teams: fairness, communication rhythms, trust, wellbeing and performance.",
+  "slides": [
+   {
+    "layout": "title",
+    "title": "Leading Hybrid Teams",
+    "subtitle": "TL3 Team Leader & OM5 Operations Manager — Workshop 2",
+    "meta": "Leadership Academy | Live workshop | 2.5 hours",
+    "notes": "Draft refresh for 2026/27 — Chloe Davies has added coach feedback from the summer cohort. Open with a poll: how many days is your team in the workplace each week?"
+   },
+   {
+    "layout": "bullets",
+    "title": "Session outcomes",
+    "bullets": [
+     "Recognise the hidden inequalities of hybrid work",
+     "Design a team communication rhythm",
+     "Build trust without 'presenteeism'",
+     "Spot wellbeing risks early",
+     "Manage performance fairly across locations"
+    ],
+    "notes": "Maps to OM5 K6, B5 and TL3 leading people KSBs."
+   },
+   {
+    "layout": "two_column",
+    "title": "Proximity bias",
+    "left": {
+     "heading": "What it looks like",
+     "bullets": [
+      "Office-based staff get the stretch projects",
+      "Remote voices drowned out in meetings",
+      "Promotion follows visibility"
+     ]
+    },
+    "right": {
+     "heading": "What to do",
+     "bullets": [
+      "Remote-first meetings: everyone on their own screen",
+      "Rotate who leads and who speaks first",
+      "Track who gets opportunities"
+     ]
+    },
+    "notes": "Ask learners for examples from their own teams. Keep it anonymous in the chat."
+   },
+   {
+    "layout": "table",
+    "title": "A team communication rhythm",
+    "table": {
+     "columns": [
+      "Cadence",
+      "What",
+      "Channel"
+     ],
+     "rows": [
+      [
+       "Daily",
+       "Quick check-in / stand-up (15 min)",
+       "Teams call or chat"
+      ],
+      [
+       "Weekly",
+       "Team meeting: priorities and blockers",
+       "Teams meeting"
+      ],
+      [
+       "Fortnightly",
+       "1:1 with each team member",
+       "Video call"
+      ],
+      [
+       "Monthly",
+       "In-person or social time",
+       "Office / offsite"
+      ],
+      [
+       "Quarterly",
+       "Objectives and development review",
+       "1:1 with notes"
+      ]
+     ]
+    },
+    "notes": "There is no single right answer; the point is to make it explicit and agreed by the team. Learners draft their own in the breakout."
+   },
+   {
+    "layout": "bullets",
+    "title": "Trust: outcomes over hours",
+    "bullets": [
+     "Agree clear outcomes and deadlines",
+     "Make work visible: shared plans and boards",
+     "Avoid surveillance tools as a substitute for leadership",
+     "Give recognition publicly — in channels, not just the office"
+    ],
+    "notes": "Discuss the difference between visibility of work and visibility of people."
+   },
+   {
+    "layout": "bullets",
+    "title": "Wellbeing at a distance",
+    "bullets": [
+     "Watch for changes: camera off, slower replies, late-night messages",
+     "Ask twice: 'How are you really?'",
+     "Respect boundaries — schedule send",
+     "Know your organisation's support routes (EAP, mental health first aiders)"
+    ],
+    "notes": "Be careful with this section — some learners may have personal experience. Signpost Delcorn's learner support if anything is raised."
+   },
+   {
+    "layout": "steps",
+    "title": "Fair performance management",
+    "steps": [
+     {
+      "label": "Set",
+      "text": "Clear SMART objectives"
+     },
+     {
+      "label": "Observe",
+      "text": "Evidence from outputs, not presence"
+     },
+     {
+      "label": "Feedback",
+      "text": "Regular, specific, on video"
+     },
+     {
+      "label": "Review",
+      "text": "Consistent criteria for everyone"
+     }
+    ],
+    "notes": "Link to the coaching conversations workshop for OM5 learners."
+   },
+   {
+    "layout": "bullets",
+    "title": "Practice: your hybrid team charter",
+    "bullets": [
+     "Draft a one-page team charter: rhythm, norms, channels, core hours",
+     "Share with a partner for feedback",
+     "Test it with your team before your next progress review"
+    ],
+    "notes": "25-minute breakout. Evidence: upload the charter and a reflection to Aptiva. Encourage learners to involve their line manager — good review discussion point."
+   }
+  ]
+ },
+ {
+  "id": "cur-units-pilot-plan",
+  "type": "docx",
+  "title": "Apprenticeship Units Pilot Plan 2026/27",
+  "site": "curriculum",
+  "library": "Curriculum Planning",
+  "folder": "Apprenticeship Units",
+  "category": "Plan",
+  "author": "P019",
+  "owner": "P008",
+  "approved_by": "P002",
+  "modified_by": "P019",
+  "created": "2026-05-11",
+  "modified": "2026-10-14",
+  "version": "1.2",
+  "status": "Approved",
+  "review_date": "2027-03-31",
+  "classification": "Internal",
+  "tags": [
+   "apprenticeship units",
+   "pilot",
+   "short courses",
+   "growth and skills levy",
+   "AI"
+  ],
+  "summary": "Plan for piloting three short, levy-funded apprenticeship units from autumn 2026: scope, cohorts, timeline, delivery model, success measures and risks.",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-05-11",
+    "by": "P019",
+    "change": "First draft for exec"
+   },
+   {
+    "version": "1.1",
+    "date": "2026-07-20",
+    "by": "P019",
+    "change": "Approved by COO; pilot employers confirmed"
+   },
+   {
+    "version": "1.2",
+    "date": "2026-10-14",
+    "by": "P019",
+    "change": "Cohort 1 start dates and early enrolment numbers"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Background"
+   },
+   {
+    "p": "From 2026, the reformed growth and skills levy allows employers to fund shorter **apprenticeship units** in priority areas, alongside full apprenticeships. Employers have told us — through the Curriculum Advisory Panel and account reviews — that they want short, focused upskilling in AI and data for existing staff who do not need, or cannot commit to, a 15–18-month programme."
+   },
+   {
+    "h1": "2. Pilot units"
+   },
+   {
+    "table": {
+     "columns": [
+      "Unit",
+      "Title",
+      "Academy",
+      "Guided hours",
+      "Duration",
+      "Target audience"
+     ],
+     "rows": [
+      [
+       "AIU1",
+       "Generative AI in the Workplace",
+       "AI Academy",
+       "45",
+       "8 weeks",
+       "Any knowledge worker"
+      ],
+      [
+       "AIU2",
+       "Building Copilot Agents and Automations",
+       "AI Academy",
+       "60",
+       "10 weeks",
+       "Power users, analysts, operations"
+      ],
+      [
+       "DU1",
+       "Data Literacy for Managers",
+       "Data Academy",
+       "40",
+       "8 weeks",
+       "Team leaders and managers"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "3. Delivery model"
+   },
+   {
+    "bullets": [
+     "Weekly 90-minute live workshop plus 3–4 hours of self-directed Aptiva learning.",
+     "Workplace task each week, applied to the learner's own role.",
+     "Group coaching (1 coach : 25 learners) rather than individual 1:1s; two short check-ins with the line manager.",
+     "Assessment by a portfolio task and short online professional discussion (internal, quality-assured).",
+     "Digital badge and certificate on completion."
+    ]
+   },
+   {
+    "h1": "4. Pilot employers and timeline"
+   },
+   {
+    "table": {
+     "columns": [
+      "Milestone",
+      "Date",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Content build complete (AIU1, DU1)",
+       "2026-09-25",
+       "{{person:P019}}"
+      ],
+      [
+       "Cohort 1 AIU1 start — Northgrid Energy plc, Valemont Insurance Group",
+       "2026-10-12",
+       "{{person:P015}}"
+      ],
+      [
+       "Cohort 1 DU1 start — Brightwell Foods Ltd",
+       "2026-11-09",
+       "{{person:P014}}"
+      ],
+      [
+       "AIU2 content build complete",
+       "2026-12-11",
+       "{{person:P019}}"
+      ],
+      [
+       "Cohort 1 AIU2 start — Halden Valley NHS Foundation Trust",
+       "2027-01-18",
+       "{{person:P015}}"
+      ],
+      [
+       "Mid-pilot evaluation to exec",
+       "2027-02-26",
+       "{{person:P008}}"
+      ],
+      [
+       "Go / no-go for full launch",
+       "2027-03-31",
+       "{{person:P002}}"
+      ]
+     ]
+    }
+   },
+   {
+    "h1": "5. Success measures"
+   },
+   {
+    "kv": [
+     [
+      "Completion rate",
+      "≥ 85% of starters complete the unit"
+     ],
+     [
+      "Learner satisfaction",
+      "Workshop rating ≥ 4.3 / 5"
+     ],
+     [
+      "Employer value",
+      "≥ 80% of line managers report a measurable improvement in the workplace task"
+     ],
+     [
+      "Progression",
+      "≥ 15% of unit completers enquire about a full apprenticeship (e.g. AI4, DA4)"
+     ],
+     [
+      "Margin",
+      "Positive contribution after coach and content costs"
+     ]
+    ]
+   },
+   {
+    "h1": "6. Risks"
+   },
+   {
+    "table": {
+     "columns": [
+      "Risk",
+      "Mitigation",
+      "Owner"
+     ],
+     "rows": [
+      [
+       "Funding rules for units still evolving",
+       "Monthly horizon scan with Compliance; contracts allow variation",
+       "{{person:P022}}"
+      ],
+      [
+       "Aptiva not designed for short units",
+       "Lightweight unit template configured by Data & Systems",
+       "{{person:P035}}"
+      ],
+      [
+       "Cannibalises full apprenticeships",
+       "Position units as a pathway, with progression conversations at week 6",
+       "{{person:P004}}"
+      ],
+      [
+       "Group coaching quality",
+       "Observation of every pilot cohort; learner feedback at week 4",
+       "{{person:P021}}"
+      ]
+     ]
+    }
+   }
+  ]
+ },
+ {
+  "id": "cur-advisory-panel-oct26",
+  "type": "docx",
+  "title": "Curriculum Advisory Panel — Minutes, 15 October 2026",
+  "site": "curriculum",
+  "library": "Curriculum Planning",
+  "folder": "Advisory Panel",
+  "category": "Minutes",
+  "author": "P020",
+  "owner": "P008",
+  "created": "2026-10-15",
+  "modified": "2026-10-20",
+  "version": "1.0",
+  "status": "Final",
+  "classification": "Internal",
+  "tags": [
+   "advisory panel",
+   "minutes",
+   "employers",
+   "curriculum",
+   "AI"
+  ],
+  "summary": "Minutes of the termly Curriculum Advisory Panel with employer representatives: AI curriculum currency, PP5 review, apprenticeship units pilot and actions.",
+  "blocks": [
+   {
+    "kv": [
+     [
+      "Date",
+      "Thursday 15 October 2026, 14:00–16:00 (Microsoft Teams)"
+     ],
+     [
+      "Chair",
+      "{{person:P008}}, Head of AI & Curriculum"
+     ],
+     [
+      "Minutes",
+      "{{person:P020}}"
+     ],
+     [
+      "Delcorn attendees",
+      "{{person:P019}}, {{person:P009}}, {{person:P005}}, {{person:P015}}"
+     ],
+     [
+      "Employer members",
+      "Terence Newton (Head of People, Northgrid Energy plc); Lorraine Gray (Head of Learning & Development, Bluewater Bank); Timothy Young (Talent Development Manager, Brightwell Foods Ltd); Sally Miah (Head of People, Valemont Insurance Group)"
+     ],
+     [
+      "Academic member",
+      "Dr Priya Kaur, University of Wessex"
+     ],
+     [
+      "Apologies",
+      "Anthony Price (Granite Health plc)"
+     ]
+    ]
+   },
+   {
+    "h1": "1. AI curriculum currency"
+   },
+   {
+    "p": "Ben presented the curriculum response to recent changes in AI tools and policy. Employers welcomed the shift from 'what is AI' to applied agent and automation skills. Terence noted that Northgrid's own AI policy now requires human review of any AI-generated customer communication and asked that workshops reflect employer policies, not just Delcorn's. Sally asked for more content on evaluating AI outputs for bias in insurance pricing contexts."
+   },
+   {
+    "bullets": [
+     "Agreed: AI3 and AI4 workshops will include a 'check your employer's AI policy' activity.",
+     "Agreed: Prompting Fundamentals deck to be updated to align with the revised Delcorn AI Acceptable Use Policy by the end of November."
+    ]
+   },
+   {
+    "h1": "2. People Professional (PP5) review"
+   },
+   {
+    "p": "Lorraine and Sally supported the proposed new workshop 'AI in recruitment: opportunities and risks'. Timothy asked for more practical employment law case studies from manufacturing and food sectors. Zara will incorporate these into version 2.3."
+   },
+   {
+    "h1": "3. Apprenticeship units pilot"
+   },
+   {
+    "p": "Nathan updated the panel: AIU1 cohort 1 started on 12 October with learners from Northgrid and Valemont. Early feedback is positive. Timothy confirmed Brightwell's DU1 cohort for 9 November. The panel suggested a manager briefing session before each cohort."
+   },
+   {
+    "h1": "4. Data Analyst and Power BI"
+   },
+   {
+    "p": "Employers reported strong demand for data storytelling. Lorraine noted Bluewater analysts often struggle to present to senior stakeholders; the panel endorsed the expanded storytelling strand in DA4 version 3.2."
+   },
+   {
+    "h1": "Actions"
+   },
+   {
+    "actions": [
+     {
+      "action": "Update Prompting Fundamentals deck for revised AI Acceptable Use Policy and employer policy activity",
+      "owner": "P019",
+      "due": "2026-11-27",
+      "status": "In progress"
+     },
+     {
+      "action": "Add sector employment law case studies to PP5 v2.3",
+      "owner": "P020",
+      "due": "2026-12-18",
+      "status": "Open"
+     },
+     {
+      "action": "Design a 45-minute manager briefing for apprenticeship units",
+      "owner": "P019",
+      "due": "2026-11-06",
+      "status": "In progress"
+     },
+     {
+      "action": "Share bias-evaluation exercise draft with Valemont for comment",
+      "owner": "P008",
+      "due": "2026-12-04",
+      "status": "Open"
+     },
+     {
+      "action": "Circulate DE5 and SL7 review timetable (both overdue)",
+      "owner": "P008",
+      "due": "2026-10-30",
+      "status": "Complete"
+     }
+    ]
+   },
+   {
+    "p": "Next panel meeting: Thursday 11 February 2027."
+   }
+  ]
+ },
+ {
+  "id": "dlv-progress-reviews",
+  "type": "series",
+  "site": "delivery",
+  "library": "Learner Files",
+  "folder": "{{row.academy}}/{{row.employer_name}}",
+  "sql": "SELECT l.learner_id, l.uln, l.first_name, l.last_name, l.programme_code, l.academy, l.coach_id, l.start_date, l.planned_end_date, l.otj_hours_planned, l.otj_expected_to_date, l.otj_hours_logged, ROUND(100.0*l.otj_hours_logged/l.otj_expected_to_date,1) AS otj_pct, l.progress_rag, l.last_review_date, l.next_review_due, l.functional_skills_required, e.employer_name, e.primary_contact, e.contact_role, p.programme_name, p.level, em.full_name AS coach_name, (SELECT COUNT(*) FROM progress_reviews r WHERE r.learner_id=l.learner_id) AS review_count, (SELECT coach_summary FROM progress_reviews r WHERE r.learner_id=l.learner_id ORDER BY review_number DESC LIMIT 1) AS latest_summary, (SELECT next_steps FROM progress_reviews r WHERE r.learner_id=l.learner_id ORDER BY review_number DESC LIMIT 1) AS latest_next_steps, (SELECT wellbeing_check FROM progress_reviews r WHERE r.learner_id=l.learner_id ORDER BY review_number DESC LIMIT 1) AS latest_wellbeing, (SELECT signed_status FROM progress_reviews r WHERE r.learner_id=l.learner_id ORDER BY review_number DESC LIMIT 1) AS latest_signed FROM learners l JOIN employers e USING(employer_id) JOIN programmes p USING(programme_code) JOIN employees em ON em.employee_id = l.coach_id WHERE l.coach_id IN ('P014','P015','P016','P017') AND l.status='Active' AND l.learner_id IN ('LRN20533','LRN21779','LRN21477','LRN20635','LRN20610','LRN20396','LRN20203','LRN22091','LRN20809','LRN20658','LRN21612','LRN20123') ORDER BY l.coach_id, l.learner_id",
+  "filename": "Progress Review - {{row.learner_id}} {{row.first_name}} {{row.last_name}}",
+  "author": "{{row.coach_id}}",
+  "classification": "Confidential",
+  "category": "Progress Review",
+  "doc_type_label": "Tripartite Progress Review",
+  "tags": [
+   "progress review",
+   "{{row.programme_code}}",
+   "{{row.progress_rag}}"
+  ],
+  "template": {
+   "type": "docx",
+   "title": "Progress Review — {{row.first_name}} {{row.last_name}} ({{row.programme_code}})",
+   "owner": "{{row.coach_id}}",
+   "created": "{{row.last_review_date}}",
+   "modified": "{{row.last_review_date}}",
+   "version": "1.0",
+   "status": "{{row.latest_signed}}",
+   "doc_control": false,
+   "summary": "Tripartite progress review record for {{row.first_name}} {{row.last_name}}, {{row.programme_name}} apprentice at {{row.employer_name}} — rated {{row.progress_rag}}.",
+   "blocks": [
+    {
+     "h1": "Learner details"
+    },
+    {
+     "kv": [
+      [
+       "Learner",
+       "{{row.first_name}} {{row.last_name}}"
+      ],
+      [
+       "Learner ID / ULN",
+       "{{row.learner_id}} / {{row.uln}}"
+      ],
+      [
+       "Programme",
+       "{{row.programme_code}} {{row.programme_name}} (Level {{row.level}})"
+      ],
+      [
+       "Academy",
+       "{{row.academy}}"
+      ],
+      [
+       "Employer",
+       "{{row.employer_name}}"
+      ],
+      [
+       "Employer apprenticeship contact",
+       "{{row.primary_contact}}, {{row.contact_role}}"
+      ],
+      [
+       "Skills coach",
+       "{{row.coach_name}}"
+      ],
+      [
+       "Start date",
+       "{{row.start_date}}"
+      ],
+      [
+       "Planned end date",
+       "{{row.planned_end_date}}"
+      ],
+      [
+       "Functional Skills",
+       "{{row.functional_skills_required}}"
+      ]
+     ]
+    },
+    {
+     "h1": "Latest review"
+    },
+    {
+     "kv": [
+      [
+       "Review date",
+       "{{row.last_review_date}}"
+      ],
+      [
+       "Review number",
+       "{{row.review_count}}"
+      ],
+      [
+       "OTJ hours planned (total)",
+       "{{row.otj_hours_planned}}"
+      ],
+      [
+       "OTJ expected to date",
+       "{{row.otj_expected_to_date}}"
+      ],
+      [
+       "OTJ logged to date",
+       "{{row.otj_hours_logged}}"
+      ],
+      [
+       "OTJ % of expected",
+       "{{row.otj_pct}}%"
+      ],
+      [
+       "Progress rating (RAG)",
+       "**{{row.progress_rag}}**"
+      ],
+      [
+       "Wellbeing check",
+       "{{row.latest_wellbeing}}"
+      ],
+      [
+       "Next review due",
+       "{{row.next_review_due}}"
+      ]
+     ]
+    },
+    {
+     "callout": "Green = OTJ logged ≥ 92% of expected; Amber = 78% to under 92%; Red = under 78% (escalate to delivery manager within 5 working days).",
+     "title": "RAG thresholds 2026/27"
+    },
+    {
+     "h2": "Coach summary"
+    },
+    {
+     "p": "{{row.latest_summary}}"
+    },
+    {
+     "h2": "Agreed next steps"
+    },
+    {
+     "bullets": [
+      "{{row.latest_next_steps}}",
+      "Log OTJ at least weekly in Aptiva and attend all scheduled live workshops",
+      "Line manager to confirm protected learning time before the next review"
+     ]
+    },
+    {
+     "h1": "Review history"
+    },
+    {
+     "table": {
+      "sql": "SELECT review_number AS 'No.', review_date AS Date, otj_hours_to_date AS 'OTJ hrs to date', rag AS RAG, CASE employer_attended WHEN 1 THEN 'Yes' ELSE 'No' END AS 'Employer attended', wellbeing_check AS Wellbeing, signed_status AS Signatures FROM progress_reviews WHERE learner_id='{{row.learner_id}}' ORDER BY review_number",
+      "caption": "All tripartite reviews (Aptiva)"
+     }
+    },
+    {
+     "h1": "Signatures"
+    },
+    {
+     "p": "Signature status of latest review: **{{row.latest_signed}}**."
+    },
+    {
+     "table": {
+      "columns": [
+       "Role",
+       "Name",
+       "Signed"
+      ],
+      "rows": [
+       [
+        "Apprentice",
+        "{{row.first_name}} {{row.last_name}}",
+        "Via Aptiva e-signature"
+       ],
+       [
+        "Employer",
+        "Line manager / {{row.primary_contact}}",
+        "Via Aptiva e-signature"
+       ],
+       [
+        "Skills coach",
+        "{{row.coach_name}}",
+        "Via Aptiva e-signature"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "dlv-training-plans",
+  "type": "series",
+  "site": "delivery",
+  "library": "Learner Files",
+  "folder": "{{row.academy}}/{{row.employer_name}}",
+  "sql": "SELECT l.learner_id, l.uln, l.first_name, l.last_name, l.programme_code, l.academy, l.start_date, l.planned_end_date, l.otj_hours_planned, l.functional_skills_required, CASE l.als_support WHEN 1 THEN 'Yes — support plan in place' ELSE 'None identified' END AS als, e.employer_name, e.primary_contact, e.contact_role, e.contact_email, p.programme_name, p.standard, p.level, p.duration_months, p.epao, p.grading, ROUND(l.otj_hours_planned / (p.duration_months * 4.33), 1) AS otj_per_week, date(l.start_date, '+56 days') AS first_review_due, COALESCE(em.full_name, 'To be allocated') AS coach_name FROM learners l JOIN employers e USING(employer_id) JOIN programmes p USING(programme_code) LEFT JOIN employees em ON em.employee_id = l.coach_id WHERE l.status='Active' ORDER BY l.start_date DESC, l.learner_id LIMIT 6",
+  "filename": "Training Plan - {{row.learner_id}} {{row.first_name}} {{row.last_name}}",
+  "author": "P037",
+  "classification": "Confidential",
+  "category": "Training Plan",
+  "doc_type_label": "Individual Training Plan",
+  "tags": [
+   "training plan",
+   "{{row.programme_code}}",
+   "new starter"
+  ],
+  "template": {
+   "type": "pdf",
+   "title": "Training Plan — {{row.first_name}} {{row.last_name}}",
+   "owner": "P037",
+   "created": "{{row.start_date}}",
+   "modified": "{{row.start_date}}",
+   "version": "1.0",
+   "status": "Signed",
+   "doc_control": false,
+   "summary": "Individual training plan for {{row.first_name}} {{row.last_name}}, {{row.programme_name}} apprentice at {{row.employer_name}}, starting {{row.start_date}}.",
+   "blocks": [
+    {
+     "h1": "1. Apprentice and employer"
+    },
+    {
+     "kv": [
+      [
+       "Apprentice",
+       "{{row.first_name}} {{row.last_name}}"
+      ],
+      [
+       "Learner ID / ULN",
+       "{{row.learner_id}} / {{row.uln}}"
+      ],
+      [
+       "Employer",
+       "{{row.employer_name}}"
+      ],
+      [
+       "Employer contact",
+       "{{row.primary_contact}}, {{row.contact_role}} ({{row.contact_email}})"
+      ],
+      [
+       "Skills coach",
+       "{{row.coach_name}}"
+      ],
+      [
+       "Enrolment coordinator",
+       "{{person:P037}}"
+      ]
+     ]
+    },
+    {
+     "h1": "2. Programme"
+    },
+    {
+     "kv": [
+      [
+       "Programme",
+       "{{row.programme_code}} {{row.programme_name}}"
+      ],
+      [
+       "Apprenticeship standard",
+       "{{row.standard}} (Level {{row.level}})"
+      ],
+      [
+       "Academy",
+       "{{row.academy}}"
+      ],
+      [
+       "Practical period",
+       "{{row.duration_months}} months"
+      ],
+      [
+       "Start date",
+       "{{row.start_date}}"
+      ],
+      [
+       "Planned end date (including EPA)",
+       "{{row.planned_end_date}}"
+      ],
+      [
+       "End-point assessment organisation",
+       "{{row.epao}}"
+      ],
+      [
+       "Grading",
+       "{{row.grading}}"
+      ]
+     ]
+    },
+    {
+     "h1": "3. Off-the-job training"
+    },
+    {
+     "kv": [
+      [
+       "Planned OTJ hours (total)",
+       "{{row.otj_hours_planned}} hours"
+      ],
+      [
+       "Average per week",
+       "c. {{row.otj_per_week}} hours"
+      ],
+      [
+       "Recording",
+       "Logged by the apprentice in Aptiva at least weekly; workshops imported automatically"
+      ]
+     ]
+    },
+    {
+     "p": "OTJ is training during paid working hours, away from normal duties. Progress reviews and Functional Skills study do not count towards OTJ. Progress is rated Green (≥ 92% of expected), Amber (78% to under 92%) or Red (under 78%)."
+    },
+    {
+     "h1": "4. Additional requirements"
+    },
+    {
+     "kv": [
+      [
+       "Functional Skills required",
+       "{{row.functional_skills_required}}"
+      ],
+      [
+       "Additional learning support",
+       "{{row.als}}"
+      ],
+      [
+       "First progress review due",
+       "{{row.first_review_due}} (within 8 weeks of start), then at least every 12 weeks"
+      ]
+     ]
+    },
+    {
+     "h1": "5. Responsibilities"
+    },
+    {
+     "h3": "The apprentice will"
+    },
+    {
+     "bullets": [
+      "Attend all live workshops and 1:1 coaching sessions",
+      "Log OTJ in Aptiva weekly and upload evidence",
+      "Attend 12-weekly progress reviews and sign records within 10 working days"
+     ]
+    },
+    {
+     "h3": "The employer will"
+    },
+    {
+     "bullets": [
+      "Release the apprentice for planned OTJ during paid hours (c. {{row.otj_per_week}} hours per week)",
+      "Provide work that allows the apprentice to practise new KSBs",
+      "Attend progress reviews and sign records",
+      "Tell Delcorn promptly about changes of role, leave or circumstances"
+     ]
+    },
+    {
+     "h3": "Delcorn will"
+    },
+    {
+     "bullets": [
+      "Provide a qualified skills coach and deliver the programme as set out in the programme specification",
+      "Hold progress reviews at least every 12 weeks",
+      "Support preparation for gateway and end-point assessment",
+      "Provide safeguarding, wellbeing and additional learning support"
+     ]
+    },
+    {
+     "h1": "6. Signatures"
+    },
+    {
+     "table": {
+      "columns": [
+       "Party",
+       "Name",
+       "Date"
+      ],
+      "rows": [
+       [
+        "Apprentice",
+        "{{row.first_name}} {{row.last_name}}",
+        "{{row.start_date}}"
+       ],
+       [
+        "Employer",
+        "{{row.primary_contact}}",
+        "{{row.start_date}}"
+       ],
+       [
+        "Delcorn",
+        "{{person:P037}}",
+        "{{row.start_date}}"
+       ]
+      ]
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "dlv-email-otj-redwood",
+  "type": "email",
+  "subject": "Judith Lewis – protected time for off-the-job training",
+  "importance": "high",
+  "summary": "James Rowe and a Redwood Logistics line manager agree a recovery plan after Data Analyst apprentice Judith Lewis was rated Red for OTJ.",
+  "sharepoint_copy": {
+   "site": "delivery",
+   "library": "Learner Files",
+   "folder": "Data Academy/Redwood Logistics Ltd"
+  },
+  "messages": [
+   {
+    "from": "P014",
+    "to": [
+     {
+      "name": "Gareth Pryce",
+      "email": "gareth.pryce@redwoodlogistics.co.uk"
+     }
+    ],
+    "cc": [
+     {
+      "name": "Elizabeth Hussain",
+      "email": "elizabeth.hussain@redwoodlogistics.co.uk"
+     }
+    ],
+    "date": "2026-10-30T16:42",
+    "body": "Hi Gareth,\n\nThanks for joining Judith's progress review this morning. As we discussed, Judith is doing really well on her workplace project — the depot utilisation dashboard is genuinely impressive — but her off-the-job training has fallen behind. She has logged {{sql:SELECT otj_hours_logged FROM learners WHERE learner_id='LRN20533'}} hours against {{sql:SELECT otj_expected_to_date FROM learners WHERE learner_id='LRN20533'}} expected at this point, which puts her below our 78% threshold, so her progress is now rated Red.\n\nJudith mentioned she's been covering the planning desk most Wednesdays since September, which is when she'd normally do her study. Could we agree a protected slot each week again? Around 5 hours a week would get her back on track by the end of January.\n\nI've attached our guide for employers on OTJ in case it's useful for the wider team.\n\nBest wishes,\nJames",
+    "attachments": [
+     "dlv-otj-employer-guide"
+    ]
+   },
+   {
+    "from": {
+     "name": "Gareth Pryce",
+     "email": "gareth.pryce@redwoodlogistics.co.uk"
+    },
+    "to": [
+     "P014"
+    ],
+    "cc": [
+     {
+      "name": "Elizabeth Hussain",
+      "email": "elizabeth.hussain@redwoodlogistics.co.uk"
+     }
+    ],
+    "date": "2026-11-02T08:15",
+    "body": "Morning James,\n\nFair point, and I'm sorry — it's been the run-up to peak and we've been two planners down. Judith has been brilliant covering, which is partly the problem.\n\nI can't give her every Wednesday afternoon until after Christmas, but I could do Tuesday and Thursday mornings (2.5 hours each) from next week. Would that work?\n\nGareth\nTransport Planning Manager, Redwood Logistics"
+   },
+   {
+    "from": "P014",
+    "to": [
+     {
+      "name": "Gareth Pryce",
+      "email": "gareth.pryce@redwoodlogistics.co.uk"
+     }
+    ],
+    "cc": [
+     {
+      "name": "Elizabeth Hussain",
+      "email": "elizabeth.hussain@redwoodlogistics.co.uk"
+     }
+    ],
+    "date": "2026-11-02T11:03",
+    "body": "Hi Gareth,\n\nThat works well — two 2.5-hour slots gives her the 5 hours a week we need. Could you put them in both your diaries as recurring 'Apprenticeship study' blocks so they're visible to the team?\n\nTo help her catch up I'll also point Judith at the recording of the Data Storytelling with Power BI workshop, which links directly to her project. I'll check her OTJ log at our 1:1 on 19 November and we'll aim to move her back to Amber by her next review in January.\n\nThanks for being so supportive.\n\nJames"
+   },
+   {
+    "from": {
+     "name": "Elizabeth Hussain",
+     "email": "elizabeth.hussain@redwoodlogistics.co.uk"
+    },
+    "to": [
+     "P014",
+     {
+      "name": "Gareth Pryce",
+      "email": "gareth.pryce@redwoodlogistics.co.uk"
+     }
+    ],
+    "cc": [],
+    "date": "2026-11-03T09:27",
+    "body": "Hi both,\n\nThanks for sorting this so quickly. Gareth, please let me know if cover becomes a problem again — we can look at temporary support from the Leeds planning team.\n\nJames, could you copy me into the next review invite?\n\nKind regards,\nElizabeth\nEarly Careers Manager, Redwood Logistics"
+   },
+   {
+    "from": "P014",
+    "to": [
+     {
+      "name": "Elizabeth Hussain",
+      "email": "elizabeth.hussain@redwoodlogistics.co.uk"
+     },
+     {
+      "name": "Gareth Pryce",
+      "email": "gareth.pryce@redwoodlogistics.co.uk"
+     }
+    ],
+    "cc": [
+     "P012"
+    ],
+    "date": "2026-11-03T10:12",
+    "body": "Thanks Elizabeth — will do. I've updated Judith's record in Aptiva with the agreed plan (Tuesday and Thursday mornings, review of progress on 19 November) and copied in my delivery manager, Sam Patel, as we do for every Red rating.\n\nBest wishes,\nJames"
+   }
+  ]
+ },
+ {
+  "id": "dlv-email-overdue-reviews",
+  "type": "email",
+  "subject": "Overdue progress reviews – action needed this week",
+  "importance": "high",
+  "summary": "Head of Delivery Rachel Moss chases both delivery managers about the overdue progress review backlog and agrees a recovery plan.",
+  "sharepoint_copy": {
+   "site": "delivery",
+   "library": "Team Records",
+   "folder": "Correspondence"
+  },
+  "messages": [
+   {
+    "from": "P009",
+    "to": [
+     "P012",
+     "P013"
+    ],
+    "cc": [
+     "P002"
+    ],
+    "date": "2026-11-02T08:05",
+    "body": "Hi Sam and Laura,\n\nThis morning's Aptiva extract shows {{fact:overdue_reviews}} on-programme learners with an overdue progress review. That's the highest it has been this year and, with the funding audit sample due in December, it's a real risk — every overdue review is a potential evidence gap.\n\nCan you each send me by Wednesday:\n\n1. Your overdue numbers by coach\n2. A plan to clear Red learners' reviews by Friday 6 November and everything else by Friday 27 November\n3. Any coaches you think need caseload relief\n\nThe October caseload report is on the Delivery site if you need it.\n\nThanks,\nRachel",
+    "attachments": [
+     "dlv-caseload-report-oct26"
+    ]
+   },
+   {
+    "from": "P012",
+    "to": [
+     "P009"
+    ],
+    "cc": [
+     "P013"
+    ],
+    "date": "2026-11-03T17:20",
+    "body": "Hi Rachel,\n\nAI, Data and Digital: the Data Academy has {{fact:dlv_data_overdue}} overdue, the AI Academy {{sql:SELECT SUM(overdue_reviews) FROM coach_caseloads WHERE academy='AI Academy'}} and Digital {{sql:SELECT SUM(overdue_reviews) FROM coach_caseloads WHERE academy='Digital Academy'}}. Most of it sits with coaches carrying more than 30 learners after the October intake.\n\nPlan:\n\n- All Red learners re-booked by Friday — 70% already in diaries\n- Fatima and two other senior coaches will pick up 10 reviews each from the busiest caseloads\n- I'm moving 12 new DA4 starters from the two most stretched coaches to our September joiners\n\nI've used Copilot in Excel on the caseload report to rank coaches by overdue reviews and Reds — happy to share the approach.\n\nSam"
+   },
+   {
+    "from": "P013",
+    "to": [
+     "P009"
+    ],
+    "cc": [
+     "P012"
+    ],
+    "date": "2026-11-04T09:02",
+    "body": "Hi Rachel,\n\nLeadership & People: {{sql:SELECT SUM(overdue_reviews) FROM coach_caseloads WHERE academy='Leadership Academy'}} overdue in Leadership and {{sql:SELECT SUM(overdue_reviews) FROM coach_caseloads WHERE academy='People Academy'}} in People. The main issue is line managers cancelling at short notice — about a third of the overdue reviews were booked and then cancelled by the employer.\n\nWe'll use the new rule from the team meeting (nominated mentor can attend after two cancellations) and I'll ask Client Partners to nudge the three worst-affected employers. Kwame's caseload (30) needs relief — I'd like to move five TL3 learners to Chloe.\n\nLaura"
+   },
+   {
+    "from": "P009",
+    "to": [
+     "P012",
+     "P013"
+    ],
+    "cc": [
+     "P002"
+    ],
+    "date": "2026-11-04T12:30",
+    "body": "Thanks both — this is exactly what I needed.\n\nApproved: Sam's reallocation of DA4 starters and Laura's TL3 move from Kwame to Chloe. Please confirm in Aptiva by Friday so the caseload report is right for next Monday.\n\nI'll update David at Monday's ops meeting. Let's track the overdue number daily until it's under 100.\n\nRachel"
+   }
+  ]
+ },
+ {
+  "id": "cur-email-ai-policy-workshop",
+  "type": "email",
+  "subject": "Prompting Fundamentals – updates for the revised AI policy",
+  "summary": "Curriculum developer Nathan Shaw and Head of AI Ben Hartley agree changes to the AI3 Prompting Fundamentals workshop following the revised AI acceptable use policy and Advisory Panel feedback.",
+  "sharepoint_copy": {
+   "site": "curriculum",
+   "library": "Workshop Materials",
+   "folder": "AI Academy/AI3"
+  },
+  "messages": [
+   {
+    "from": "P019",
+    "to": [
+     "P008"
+    ],
+    "cc": [
+     "P020"
+    ],
+    "date": "2026-10-27T10:14",
+    "body": "Hi Ben,\n\nFollowing the Advisory Panel and the revised AI Acceptable Use Policy that Liam circulated last week, I've been through the Prompting Fundamentals deck. I think we need three changes before the November cohorts:\n\n1. Slide 8 (responsible use) — align wording with the new policy: approved tools only, human review of anything customer-facing, and a clear 'don't use AI to make decisions about people' rule.\n2. Add an activity where learners check their own employer's AI policy (Terence's point from Northgrid).\n3. Update the grounding slide to cover Copilot agents and the oversharing risk in SharePoint.\n\nDraft v3.1 is in Workshop Materials. Could you review by Friday?\n\nThanks,\nNathan",
+    "attachments": [
+     "cur-workshop-prompting"
+    ]
+   },
+   {
+    "from": "P008",
+    "to": [
+     "P019"
+    ],
+    "cc": [
+     "P020",
+     "P036"
+    ],
+    "date": "2026-10-28T15:47",
+    "body": "Hi Nathan,\n\nThanks — all three make sense. A few thoughts:\n\n- On slide 8, let's not quote our internal policy word for word; learners work for 70+ employers with their own rules. Frame it as principles, then 'check your employer's policy'.\n- I'd like a short bias-and-accuracy check exercise — Sally at Valemont asked for this. Five minutes, using a deliberately flawed Copilot summary.\n- I've copied Liam so he can sanity-check the data protection wording.\n\nIf we can have it signed off by 20 November it can go live for the 24 November AI3 cohort.\n\nBen"
+   },
+   {
+    "from": "P036",
+    "to": [
+     "P019",
+     "P008"
+    ],
+    "cc": [
+     "P020"
+    ],
+    "date": "2026-10-29T09:30",
+    "body": "Morning both,\n\nHappy to review. Two points: please make clear that Microsoft 365 Copilot only surfaces content the user already has permission to see — that's the most common misconception. And avoid showing any real learner data in demos; use the fictional training dataset.\n\nLiam"
+   },
+   {
+    "from": "P019",
+    "to": [
+     "P008",
+     "P036"
+    ],
+    "cc": [
+     "P020"
+    ],
+    "date": "2026-11-03T14:05",
+    "body": "Thanks both. v3.2 now includes the principles framing, an employer-policy activity, a five-minute 'spot the error' exercise and Liam's permissions point on the grounding slide. Zara is checking accessibility (alt text and colour contrast) this week. I'll send the final for sign-off on 13 November.\n\nNathan"
+   }
+  ]
+ },
+ {
+  "id": "dlv-chat-coaches-ai-data",
+  "type": "chat",
+  "title": "Coaches – AI & Data",
+  "team": "Learning Delivery",
+  "channel": "Coaches – AI & Data",
+  "summary": "Coaches in the AI and Data academies swap tips on Aptiva OTJ logging, duplicate workshop hours, the overdue reviews push and Copilot review summaries.",
+  "sharepoint_copy": {
+   "site": "delivery",
+   "library": "Team Records",
+   "folder": "Teams Exports"
+  },
+  "messages": [
+   {
+    "from": "P014",
+    "time": "2026-11-04T08:47",
+    "text": "Morning all ☕ Quick one — anyone else seeing learners' OTJ jump overnight? Two of mine went up by 2.5 hours each for a workshop they also logged manually last week.",
+    "reactions": [
+     "👀 3"
+    ]
+   },
+   {
+    "from": "P015",
+    "time": "2026-11-04T08:52",
+    "text": "Yes! That's the Teams attendance import. Since 14 Oct Aptiva flags the duplicates in amber on the OTJ log — you need to reject the manual entry, not the imported one."
+   },
+   {
+    "from": "P014",
+    "time": "2026-11-04T08:55",
+    "text": "Ah, legend. I've been deleting the wrong one 🙈"
+   },
+   {
+    "from": "P035",
+    "time": "2026-11-04T09:03",
+    "text": "Confirming what Fatima said. Imported entries have the little Teams icon and the session ID — always keep those. Reject manual duplicates with reason 'Duplicate – auto-imported'. Compliance can then see why the hours changed.",
+    "reactions": [
+     "👍 6"
+    ]
+   },
+   {
+    "from": "P012",
+    "time": "2026-11-04T09:10",
+    "text": "Reminder: Red learners' overdue reviews need to be booked by Friday. If the line manager can't make it, book with a nominated workplace mentor (new rule from the team meeting) but still get employer sign-off."
+   },
+   {
+    "from": "P014",
+    "time": "2026-11-04T09:14",
+    "text": "Mine are all in except Raymond at Arden Retail — manager's on leave until the 16th. Booked the mentor for the 12th."
+   },
+   {
+    "from": "P012",
+    "time": "2026-11-04T09:15",
+    "text": "Perfect, thanks James 👏"
+   },
+   {
+    "from": "P015",
+    "time": "2026-11-04T10:31",
+    "text": "For anyone who missed the demo — I'm writing up a Copilot prompt for review summaries. Current version: \"Using the transcript of this meeting, draft a progress review summary for [learner] covering KSB progress, OTJ position, employer feedback and 3 SMART targets. Plain English, under 200 words. Leave out any health or personal details.\"",
+    "reactions": [
+     "❤️ 5",
+     "🔥 2"
+    ]
+   },
+   {
+    "from": "P014",
+    "time": "2026-11-04T10:40",
+    "text": "Tried that on yesterday's review — took 2 mins and I only changed one target. Saved me a good 20 minutes of typing at 6pm 😅"
+   },
+   {
+    "from": "P018",
+    "time": "2026-11-04T11:02",
+    "text": "Small reminder from the Functional Skills side: maths and English study does NOT count as OTJ, so please don't let learners log FS sessions in the OTJ log. I've spotted a few this month."
+   },
+   {
+    "from": "P015",
+    "time": "2026-11-04T11:05",
+    "text": "Good shout Emily. Same goes for the progress review itself — doesn't count either."
+   },
+   {
+    "from": "P014",
+    "time": "2026-11-04T11:20",
+    "text": "Question for Kate: if a learner transfers from DT3 to DA4, does their OTJ carry over? Saw one show as zero last week."
+   },
+   {
+    "from": "P035",
+    "time": "2026-11-04T11:34",
+    "text": "It carries over if the transfer is done as a 'programme change' rather than a new enrolment. The zero issue was a bad transfer — fixed now. Raise a FixDesk ticket (category 'Aptiva access / sync') if you see it again.",
+    "reactions": [
+     "👍 4"
+    ]
+   },
+   {
+    "from": "P012",
+    "time": "2026-11-04T11:40",
+    "text": "Great thread, everyone. Fatima — can you pin your prompt in the channel once it's final?"
+   }
+  ]
+ }
+]
