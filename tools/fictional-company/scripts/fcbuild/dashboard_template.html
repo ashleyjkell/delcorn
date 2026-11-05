@@ -291,7 +291,9 @@ const svgUrl = s => 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(s);
 /* ---------------- chrome ---------------- */
 $('#suiteLogo').src = svgUrl(D.brand.logo_white_svg);
 document.title = D.company.fictional_name + ' Intranet';
+const hubSite = D.sites.find(s=>s.hub);
 function hubNav(active){
+  if (hubSite && active===hubSite.key) active = 'home';
   $('#hub').innerHTML = `<a class="hubname" href="#/" style="border:0"><img src="${svgUrl(D.brand.emblem_svg)}" alt="">${esc(D.company.fictional_name)}</a>` +
    `<a href="#/" class="${active==='home'?'on':''}">Home</a>` +
    D.sites.filter(s=>!s.hub).map(s => `<a href="#/site/${s.key}" class="${active===s.key?'on':''}">${esc(s.title)}</a>`).join('') +
@@ -304,6 +306,8 @@ function siteHead(site, tab){
   if (!site){ $('#sitehead').innerHTML=''; return; }
   const libs = site.libraries.map((l,i)=>`<a href="#/site/${site.key}/lib/${i}" class="${tab==='lib'+i?'on':''}">${esc(l.title)}</a>`).join('');
   const lists = (site.lists||[]).map(n=>`<a href="#/list/${n}" class="${tab==='list'+n?'on':''}">${esc(tables[n]?.title||n)}</a>`).join('');
+  // the hub is the home page: just its library bar, no site title block
+  if (site.hub){ $('#sitehead').innerHTML = `<div class="sitehead" style="padding-top:0"><nav class="sitenav" style="margin-top:0"><a href="#/" class="${tab==='home'?'on':''}">Home</a>${libs}${lists}</nav></div>`; return; }
   $('#sitehead').innerHTML = `<div class="sitehead"><div class="row"><div class="sitelogo" style="background:${site.color}">${esc(initials(site.title))}</div>
    <div><h1>${esc(site.title)}</h1><div class="sub">${esc(site.description||'')}</div></div></div>
    <nav class="sitenav"><a href="#/site/${site.key}" class="${tab==='home'?'on':''}">Home</a>${libs}${lists}</nav></div>`;
@@ -334,7 +338,7 @@ const isNews = x => /news|announcement|update|bulletin|newsletter/i.test((x.cate
 
 /* ---------------- views ---------------- */
 function viewHome(){
-  hubNav('home'); siteHead(null);
+  hubNav('home'); siteHead(hubSite, 'home');
   const c = D.company, recent = [...D.items].filter(i=>!isComms(i)).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
   const mine = me ? recent.filter(i=>i.author_id===me || i.modified_by_id===me).slice(0,6) : [];
   const news = recent.filter(isNews).slice(0,4);
@@ -365,7 +369,7 @@ function viewHome(){
 }
 
 function viewSite(key){
-  const s = sites[key]; if (!s) return viewHome();
+  const s = sites[key]; if (!s || s.hub) return viewHome();
   hubNav(key); siteHead(s, 'home');
   const its = D.items.filter(i=>i.site===key).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
   const news = its.filter(isNews).slice(0,3);
