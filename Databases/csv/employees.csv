@@ -1,0 +1,143 @@
+﻿employee_id,full_name,department,job_title,email,role_family,academy,manager_id,location,start_date,contract_type,fte,salary_gbp,caseload_target,status
+P001,Helena Marsh,exec,Chief Executive Officer & Founder,helena.marsh@delcorn.co.uk,Leadership,,,London,2015-04-01,Permanent,1.0,188300,,Active
+P002,David Okafor,exec,Chief Operating Officer,david.okafor@delcorn.co.uk,Leadership,,P001,London,2018-01-08,Fixed term,0.6,147400,,Active
+P003,Priya Raman,finance,Chief Financial Officer,priya.raman@delcorn.co.uk,Leadership,,P001,London,2019-06-03,Permanent,1.0,145400,,Active
+P004,Tom Whitfield,partnerships,Chief Commercial Officer,tom.whitfield@delcorn.co.uk,Leadership,,P001,Manchester,2020-02-17,Permanent,1.0,144200,,Active
+P005,Dr Siân Llewellyn,quality,Director of Quality & Compliance,sian.llewellyn@delcorn.co.uk,Leadership,,P001,Remote (Cardiff),2018-09-03,Permanent,1.0,117900,,Active
+P006,Marcus Bell,people,People Director,marcus.bell@delcorn.co.uk,Leadership,,P001,London,2021-03-01,Permanent,1.0,122800,,Active
+P007,Aisha Karim,tech,Director of Learning Technology,aisha.karim@delcorn.co.uk,Leadership,,P002,London,2020-10-12,Permanent,1.0,113600,,Active
+P008,Dr Ben Hartley,curriculum,Head of AI & Curriculum,ben.hartley@delcorn.co.uk,Leadership,,P002,Remote (Bristol),2022-05-09,Permanent,0.8,79900,,Active
+P009,Rachel Moss,delivery,Head of Delivery,rachel.moss@delcorn.co.uk,Leadership,,P002,Leeds,2017-11-06,Permanent,1.0,78400,,Active
+P010,Grace Adeyemi,safeguarding,Head of Safeguarding & Designated Safeguarding Lead,grace.adeyemi@delcorn.co.uk,Leadership,,P005,London,2019-02-11,Permanent,1.0,76100,,Active
+P011,Oliver Grant,exec,Executive Assistant & Board Secretary,oliver.grant@delcorn.co.uk,Specialist,,P001,London,2021-07-19,Permanent,1.0,35100,,Active
+P012,Sam Patel,delivery,Delivery Manager – AI & Data Academies,sam.patel@delcorn.co.uk,Manager,,P009,London,2019-09-02,Permanent,1.0,52600,,Active
+P013,Laura Chen,delivery,Delivery Manager – Leadership & People Academies,laura.chen@delcorn.co.uk,Manager,,P009,Manchester,2020-04-14,Permanent,1.0,61200,,Active
+P014,James Rowe,delivery,Skills Coach (Data),james.rowe@delcorn.co.uk,Coach,Data Academy,P012,Leeds,2022-01-10,Permanent,1.0,39700,26,Active
+P015,Fatima Hussain,delivery,Senior Skills Coach (AI),fatima.hussain@delcorn.co.uk,Coach,AI Academy,P012,Birmingham,2021-05-04,Permanent,1.0,44200,20,Active
+P016,Chloe Davies,delivery,Skills Coach (Leadership),chloe.davies@delcorn.co.uk,Coach,Leadership Academy,P013,Remote (Swansea),2023-02-20,Permanent,1.0,62100,26,Active
+P017,Kwame Mensah,delivery,Skills Coach (Project Management),kwame.mensah@delcorn.co.uk,Coach,Leadership Academy,P013,London,2023-09-11,Permanent,1.0,36900,26,Active
+P018,Emily Barker,delivery,Functional Skills Tutor (Maths & English),emily.barker@delcorn.co.uk,Tutor,,P009,Remote (Norwich),2022-08-30,Permanent,1.0,34100,,Active
+P019,Nathan Shaw,curriculum,Curriculum Developer (AI),nathan.shaw@delcorn.co.uk,Specialist,AI Academy,P008,London,2024-03-04,Permanent,1.0,37200,,Active
+P020,Zara Ahmed,curriculum,Learning Designer,zara.ahmed@delcorn.co.uk,Specialist,,P008,Manchester,2023-06-12,Permanent,1.0,40100,,Active
+P021,Hannah Price,quality,Quality Manager,hannah.price@delcorn.co.uk,Manager,,P005,Leeds,2020-11-02,Permanent,1.0,57800,,Active
+P022,Daniel Evans,quality,Compliance & Funding Assurance Lead,daniel.evans@delcorn.co.uk,Manager,,P005,Remote (Cardiff),2021-01-18,Permanent,0.8,52500,,Active
+P023,Megan Taylor,safeguarding,Deputy DSL & Learner Support Lead,megan.taylor@delcorn.co.uk,Manager,,P010,Manchester,2022-04-25,Permanent,1.0,60000,,Active
+P024,Ravi Sharma,partnerships,Senior Client Partner,ravi.sharma@delcorn.co.uk,Specialist,,P004,London,2019-03-11,Permanent,1.0,41300,,Active
+P025,Sophie Turner,partnerships,Client Partner (Public Sector & Health),sophie.turner@delcorn.co.uk,Specialist,,P004,Leeds,2021-10-04,Permanent,1.0,27500,,Active
+P026,Lewis Murray,partnerships,Business Development Manager,lewis.murray@delcorn.co.uk,Manager,,P004,Manchester,2023-01-09,Permanent,0.6,53900,,Active
+P027,Jess Morgan,hub,Head of Marketing & Communications,jess.morgan@delcorn.co.uk,Leadership,,P004,London,2022-02-14,Permanent,1.0,83400,,Active
+P028,Andrew Clarke,finance,Finance Manager,andrew.clarke@delcorn.co.uk,Manager,,P003,London,2020-06-01,Permanent,0.6,62300,,Active
+P029,Nicole Brooks,finance,Funding & MI Analyst,nicole.brooks@delcorn.co.uk,Specialist,,P003,Remote (Nottingham),2022-09-05,Permanent,1.0,32100,,Active
+P030,Peter Walsh,finance,Management Accountant,peter.walsh@delcorn.co.uk,Specialist,,P028,London,2023-04-17,Permanent,1.0,28100,,Active
+P031,Amy Collins,people,HR Business Partner,amy.collins@delcorn.co.uk,Specialist,,P006,Leeds,2021-08-09,Permanent,1.0,34600,,Active
+P032,Joe Fraser,people,Talent Acquisition Lead,joe.fraser@delcorn.co.uk,Manager,,P006,Manchester,2022-11-21,Permanent,1.0,53700,,Active
+P033,Ellie Wood,people,CPD & Onboarding Coordinator,ellie.wood@delcorn.co.uk,Specialist,,P006,Remote (York),2023-05-30,Permanent,1.0,40100,,Active
+P034,Mohammed Ali,tech,IT Service Desk Lead,mohammed.ali@delcorn.co.uk,Manager,,P007,London,2020-01-13,Permanent,1.0,61700,,Active
+P035,Kate Simmons,tech,Data & Systems Manager,kate.simmons@delcorn.co.uk,Manager,,P007,Leeds,2021-02-01,Permanent,1.0,55900,,Active
+P036,Liam O'Connor,tech,Information Security & Data Protection Officer,liam.oconnor@delcorn.co.uk,Specialist,,P007,London,2022-07-04,Permanent,1.0,41000,,Active
+P037,Isabel Hart,delivery,Enrolment & Onboarding Coordinator,isabel.hart@delcorn.co.uk,Specialist,,P009,London,2023-08-14,Permanent,0.8,36000,,Active
+P038,Ryan Fletcher,partnerships,Employer Engagement Coordinator,ryan.fletcher@delcorn.co.uk,Specialist,,P024,Manchester,2024-01-08,Permanent,1.0,29100,,Active
+E1039,Oliver Porter,delivery,Learner Engagement Officer,oliver.porter@delcorn.co.uk,Specialist,,P009,Manchester,2017-05-15,Permanent,1.0,34800,,Active
+E1040,Lewis Nolan,delivery,Skills Coach (AI),lewis.nolan@delcorn.co.uk,Coach,AI Academy,P012,Remote (Brighton),2018-09-14,Permanent,1.0,39800,26,Active
+E1041,Ronald Whitehouse,delivery,Skills Coach (Digital),ronald.whitehouse@delcorn.co.uk,Coach,Digital Academy,P012,Manchester,2020-08-04,Fixed term,1.0,35200,26,Active
+E1042,Darren Carter,delivery,Skills Coach (Leadership),darren.carter@delcorn.co.uk,Coach,Leadership Academy,P013,Leeds,2025-08-28,Permanent,1.0,55700,26,Active
+E1043,Jeffrey Willis,delivery,Skills Coach (Data),jeffrey.willis@delcorn.co.uk,Coach,Data Academy,P012,Manchester,2023-10-10,Permanent,1.0,36200,26,Active
+E1044,Kenneth O'Sullivan,delivery,Skills Coach (Leadership),kenneth.osullivan@delcorn.co.uk,Coach,Leadership Academy,P013,Leeds,2025-12-01,Permanent,1.0,58900,26,Active
+E1045,Martyn Fox,delivery,Skills Coach (Leadership),martyn.fox@delcorn.co.uk,Coach,Leadership Academy,P013,Birmingham,2019-12-03,Permanent,1.0,56300,26,Active
+E1046,Philip Harris,delivery,Learner Engagement Officer,philip.harris@delcorn.co.uk,Specialist,,P009,London,2025-10-21,Permanent,0.8,32100,,Active
+E1047,Guy Wade,delivery,Skills Coach (Digital),guy.wade@delcorn.co.uk,Coach,Digital Academy,P012,London,2018-11-21,Permanent,1.0,36600,26,Active
+E1048,Douglas Collins,quality,Data Quality Officer,douglas.collins@delcorn.co.uk,Specialist,,P005,London,2020-06-10,Permanent,1.0,34600,,Active
+E1049,Victoria Taylor,delivery,Skills Coach (AI),victoria.taylor@delcorn.co.uk,Coach,AI Academy,P012,Remote (Brighton),2026-06-01,Permanent,1.0,39600,26,Active
+E1050,Douglas Carroll,delivery,Skills Coach (Leadership),douglas.carroll@delcorn.co.uk,Coach,Leadership Academy,P013,Birmingham,2020-09-07,Permanent,1.0,57700,26,Active
+E1051,Stephen Tomlinson,partnerships,Bid Writer,stephen.tomlinson@delcorn.co.uk,Specialist,,P004,London,2021-04-21,Permanent,1.0,41200,,Active
+E1052,Damian Brown,quality,Data Quality Officer,damian.brown@delcorn.co.uk,Specialist,,P005,Remote (Brighton),2025-07-25,Permanent,1.0,34100,,Active
+E1053,Adrian Green,delivery,Skills Coach (Leadership),adrian.green@delcorn.co.uk,Coach,Leadership Academy,P013,Remote (Nottingham),2024-08-16,Permanent,1.0,52900,26,Active
+E1054,Chelsea Allen,delivery,Skills Coach (AI),chelsea.allen@delcorn.co.uk,Coach,AI Academy,P012,London,2020-10-13,Fixed term,0.6,38400,26,Active
+E1055,Bruce Saunders,delivery,Skills Coach (Data),bruce.saunders@delcorn.co.uk,Coach,Data Academy,P012,Leeds,2017-11-17,Permanent,1.0,39700,26,Active
+E1056,Caroline Jenkins,hub,Internal Communications Officer,caroline.jenkins@delcorn.co.uk,Specialist,,P027,Remote (Cardiff),2017-06-22,Fixed term,0.8,38800,,Active
+E1057,Abbie Edwards,delivery,Skills Coach (AI),abbie.edwards@delcorn.co.uk,Coach,AI Academy,P012,Manchester,2026-01-07,Permanent,1.0,40300,26,Active
+E1058,Ian Bennett,finance,Credit Controller,ian.bennett@delcorn.co.uk,Specialist,,P003,Remote (Nottingham),2022-11-29,Permanent,1.0,30100,,Active
+E1059,Guy Jenkins,tech,Power BI Developer,guy.jenkins@delcorn.co.uk,Specialist,,P007,Leeds,2023-11-03,Fixed term,1.0,36900,,Active
+E1060,Marilyn Hall,delivery,Skills Coach (Data),marilyn.hall@delcorn.co.uk,Coach,Data Academy,P012,London,2023-02-08,Permanent,1.0,39200,26,Active
+E1061,Sian Shaw,curriculum,Curriculum Developer,sian.shaw@delcorn.co.uk,Specialist,,P008,Leeds,2025-06-04,Permanent,1.0,30100,,Active
+E1062,Joyce Patel,delivery,Learner Engagement Officer,joyce.patel@delcorn.co.uk,Specialist,,P009,Birmingham,2018-05-11,Permanent,1.0,40100,,Active
+E1063,Donna Davies,curriculum,Curriculum Developer,donna.davies@delcorn.co.uk,Specialist,,P008,Remote (Nottingham),2018-11-01,Permanent,1.0,33400,,Active
+E1064,Tony McCarthy,tech,IT Support Analyst,tony.mccarthy@delcorn.co.uk,Specialist,,P007,Manchester,2024-03-07,Permanent,1.0,30200,,Active
+E1065,Susan Tomlinson,delivery,Skills Coach (Data),susan.tomlinson@delcorn.co.uk,Coach,Data Academy,P012,Leeds,2022-12-22,Permanent,1.0,39600,26,Active
+E1066,Amanda Shaw,delivery,Skills Coach (People),amanda.shaw@delcorn.co.uk,Coach,People Academy,P013,Remote (Cardiff),2026-06-02,Permanent,1.0,38500,26,Active
+E1067,Lawrence Booth,delivery,Skills Coach (AI),lawrence.booth@delcorn.co.uk,Coach,AI Academy,P012,Manchester,2023-04-06,Permanent,1.0,35500,26,Active
+E1068,Gregory Wood,safeguarding,Learner Support Adviser,gregory.wood@delcorn.co.uk,Specialist,,P010,Manchester,2018-03-09,Permanent,1.0,40100,,Active
+E1069,Adrian Jordan,delivery,Skills Coach (People),adrian.jordan@delcorn.co.uk,Coach,People Academy,P013,Remote (Cardiff),2024-09-23,Permanent,1.0,34300,26,Active
+E1070,Helen Newton,people,HR Adviser,helen.newton@delcorn.co.uk,Specialist,,P006,Leeds,2021-01-26,Permanent,0.8,38700,,Active
+E1071,Michael Freeman,delivery,Skills Coach (Leadership),michael.freeman@delcorn.co.uk,Coach,Leadership Academy,P013,London,2024-04-08,Permanent,1.0,57200,26,Active
+E1072,Glenn Chapman,delivery,Skills Coach (AI),glenn.chapman@delcorn.co.uk,Coach,AI Academy,P012,Remote (Brighton),2024-07-16,Permanent,1.0,34600,26,Active
+E1073,William Atkinson,delivery,Functional Skills Tutor (Maths & English),william.atkinson@delcorn.co.uk,Tutor,,P009,London,2018-12-05,Permanent,0.8,34100,,Active
+E1074,Nathan Marsden,delivery,Skills Coach (Leadership),nathan.marsden@delcorn.co.uk,Coach,Leadership Academy,P013,Leeds,2026-02-04,Permanent,1.0,60500,26,Active
+E1075,Adrian Iqbal,partnerships,Marketing Executive,adrian.iqbal@delcorn.co.uk,Specialist,,P004,Birmingham,2023-07-28,Permanent,1.0,38100,,Active
+E1076,Malcolm Bishop,delivery,Delivery Coordinator,malcolm.bishop@delcorn.co.uk,Specialist,,P009,Remote (Brighton),2022-02-23,Permanent,1.0,37700,,Active
+E1077,Jodie Miah,delivery,Skills Coach (People),jodie.miah@delcorn.co.uk,Coach,People Academy,P013,Leeds,2019-07-08,Permanent,1.0,40500,26,Active
+E1078,Abbie Stokes,delivery,Skills Coach (Data),abbie.stokes@delcorn.co.uk,Coach,Data Academy,P012,Remote (Bristol),2026-08-12,Permanent,1.0,37800,26,Active
+E1079,Diane Whitehead,tech,IT Support Analyst,diane.whitehead@delcorn.co.uk,Specialist,,P007,Remote (Bristol),2017-02-09,Permanent,0.8,34800,,Active
+E1080,Susan Allan,delivery,Skills Coach (People),susan.allan@delcorn.co.uk,Coach,People Academy,P013,Remote (Brighton),2019-08-19,Permanent,1.0,39300,26,Active
+E1081,Gemma Smith,delivery,Skills Coach (Digital),gemma.smith@delcorn.co.uk,Coach,Digital Academy,P012,Manchester,2024-05-07,Permanent,1.0,38300,26,Active
+E1082,Emily Adams,delivery,Skills Coach (AI),emily.adams@delcorn.co.uk,Coach,AI Academy,P012,Manchester,2025-09-01,Fixed term,1.0,35600,26,Active
+E1083,Malcolm Akhtar,quality,Compliance Officer,malcolm.akhtar@delcorn.co.uk,Specialist,,P005,London,2021-07-01,Permanent,1.0,36100,,Active
+E1084,Matthew Adams,delivery,Skills Coach (Data),matthew.adams@delcorn.co.uk,Coach,Data Academy,P012,Manchester,2026-03-11,Permanent,1.0,38500,26,Active
+E1085,Joanna Richardson,quality,Data Quality Officer,joanna.richardson@delcorn.co.uk,Specialist,,P005,Remote (Newcastle),2019-08-09,Permanent,0.6,30900,,Active
+E1086,Patricia Gregory,quality,Data Quality Officer,patricia.gregory@delcorn.co.uk,Specialist,,P005,Remote (Nottingham),2022-11-01,Permanent,1.0,31400,,Active
+E1087,Sean Wilson,delivery,Learner Engagement Officer,sean.wilson@delcorn.co.uk,Specialist,,P009,London,2025-05-06,Permanent,1.0,33700,,Active
+E1088,Andrew White,delivery,Learner Engagement Officer,andrew.white@delcorn.co.uk,Specialist,,P009,London,2026-04-01,Fixed term,0.8,31800,,Active
+E1089,Catherine Fletcher,quality,Data Quality Officer,catherine.fletcher@delcorn.co.uk,Specialist,,P005,London,2026-01-06,Permanent,1.0,38400,,Active
+E1090,Guy Khan,partnerships,Bid Writer,guy.khan@delcorn.co.uk,Specialist,,P004,Remote (Nottingham),2022-05-26,Permanent,1.0,28500,,Active
+E1091,Kayleigh Wright,delivery,Skills Coach (Leadership),kayleigh.wright@delcorn.co.uk,Coach,Leadership Academy,P013,London,2017-04-14,Permanent,1.0,57300,26,Active
+E1092,Antony Fisher,partnerships,Marketing Executive,antony.fisher@delcorn.co.uk,Specialist,,P004,Remote (Brighton),2019-08-23,Permanent,1.0,38100,,Active
+E1093,Francesca Taylor,delivery,Skills Coach (AI),francesca.taylor@delcorn.co.uk,Coach,AI Academy,P012,Birmingham,2019-09-27,Permanent,1.0,38200,26,Active
+E1094,Katherine Perry,safeguarding,Wellbeing Practitioner,katherine.perry@delcorn.co.uk,Specialist,,P010,London,2019-08-26,Permanent,1.0,29900,,Active
+E1095,Maurice Parkinson,delivery,Skills Coach (Data),maurice.parkinson@delcorn.co.uk,Coach,Data Academy,P012,Remote (Bristol),2025-02-19,Permanent,1.0,38600,26,Active
+E1096,Elliott George,delivery,Skills Coach (Data),elliott.george@delcorn.co.uk,Coach,Data Academy,P012,Remote (Nottingham),2024-09-12,Permanent,1.0,35100,26,Active
+E1097,Mark Johnson,delivery,Delivery Coordinator,mark.johnson@delcorn.co.uk,Specialist,,P009,London,2023-04-28,Fixed term,1.0,27800,,Active
+E1098,Norman Jones,delivery,Skills Coach (AI),norman.jones@delcorn.co.uk,Coach,AI Academy,P012,Birmingham,2019-02-14,Permanent,1.0,35600,26,Active
+E1099,Ross Davies,delivery,Delivery Coordinator,ross.davies@delcorn.co.uk,Specialist,,P009,Manchester,2022-08-08,Permanent,1.0,33900,,Active
+E1100,Derek Bennett,tech,Power BI Developer,derek.bennett@delcorn.co.uk,Specialist,,P007,Remote (Nottingham),2020-02-04,Permanent,1.0,28300,,Active
+E1101,Tracey Goddard,delivery,Skills Coach (Data),tracey.goddard@delcorn.co.uk,Coach,Data Academy,P012,Leeds,2019-05-13,Fixed term,1.0,36500,26,Active
+E1102,Rebecca Watson,delivery,Skills Coach (Digital),rebecca.watson@delcorn.co.uk,Coach,Digital Academy,P012,London,2016-09-29,Permanent,1.0,40200,26,Active
+E1103,Donald Moore,delivery,Skills Coach (Data),donald.moore@delcorn.co.uk,Coach,Data Academy,P012,Remote (Nottingham),2022-03-11,Permanent,0.8,35500,26,Active
+E1104,Martyn Ward,partnerships,Business Development Executive,martyn.ward@delcorn.co.uk,Specialist,,P004,Remote (Nottingham),2017-08-01,Permanent,1.0,34200,,Active
+E1105,Marc Patel,delivery,Skills Coach (Data),marc.patel@delcorn.co.uk,Coach,Data Academy,P012,Remote (Cardiff),2025-05-15,Permanent,1.0,37900,26,Active
+E1106,Kelly Todd,delivery,Skills Coach (Leadership),kelly.todd@delcorn.co.uk,Coach,Leadership Academy,P013,Remote (Cardiff),2023-06-09,Permanent,1.0,62100,26,Active
+E1107,Lorraine Barker,delivery,Skills Coach (Data),lorraine.barker@delcorn.co.uk,Coach,Data Academy,P012,Remote (Newcastle),2026-09-21,Permanent,1.0,40900,26,Active
+E1108,Ellie Jackson,delivery,Delivery Coordinator,ellie.jackson@delcorn.co.uk,Specialist,,P009,Remote (Glasgow),2017-10-18,Permanent,1.0,36100,,Active
+E1109,Roy Steele,finance,Finance Assistant,roy.steele@delcorn.co.uk,Specialist,,P003,Remote (Cardiff),2026-04-24,Permanent,1.0,42000,,Active
+E1110,Victoria Dyer,delivery,Delivery Coordinator,victoria.dyer@delcorn.co.uk,Specialist,,P009,Remote (Nottingham),2024-02-16,Permanent,1.0,32100,,Active
+E1111,Christopher Watson,delivery,Skills Coach (Leadership),christopher.watson@delcorn.co.uk,Coach,Leadership Academy,P013,London,2020-05-13,Permanent,1.0,60500,26,Active
+E1112,Zoe Campbell,delivery,Skills Coach (Leadership),zoe.campbell@delcorn.co.uk,Coach,Leadership Academy,P013,Remote (Bristol),2018-11-12,Permanent,1.0,54300,26,Active
+E1113,Ian Dawson,delivery,Learner Engagement Officer,ian.dawson@delcorn.co.uk,Specialist,,P009,Remote (Nottingham),2026-09-09,Permanent,1.0,29600,,Active
+E1114,Graham Burns,delivery,Skills Coach (Digital),graham.burns@delcorn.co.uk,Coach,Digital Academy,P012,Remote (Cardiff),2021-03-24,Permanent,1.0,40600,26,Active
+E1115,Janice Elliott,delivery,Skills Coach (Data),janice.elliott@delcorn.co.uk,Coach,Data Academy,P012,Remote (Brighton),2023-07-12,Permanent,1.0,38300,26,Active
+E1116,Ashley Edwards,quality,Data Quality Officer,ashley.edwards@delcorn.co.uk,Specialist,,P005,Remote (Brighton),2024-07-25,Permanent,1.0,29500,,Active
+E1117,Oliver Watkins,delivery,Skills Coach (Leadership),oliver.watkins@delcorn.co.uk,Coach,Leadership Academy,P013,London,2022-07-08,Permanent,1.0,52400,26,Active
+E1118,Jack Ashton,partnerships,Employer Engagement Coordinator,jack.ashton@delcorn.co.uk,Specialist,,P004,Remote (Bristol),2017-02-28,Permanent,0.8,37600,,Active
+E1119,Bethan Jackson,delivery,Learner Engagement Officer,bethan.jackson@delcorn.co.uk,Specialist,,P009,London,2020-03-05,Permanent,0.8,27900,,Active
+E1120,Marion Thomas,partnerships,Business Development Executive,marion.thomas@delcorn.co.uk,Specialist,,P004,Leeds,2023-09-05,Permanent,0.8,33300,,Active
+E1121,Lisa Palmer,delivery,Functional Skills Tutor (Maths & English),lisa.palmer@delcorn.co.uk,Tutor,,P009,Remote (Newcastle),2018-11-07,Fixed term,1.0,40800,,Active
+E1122,Georgia Cartwright,partnerships,Bid Writer,georgia.cartwright@delcorn.co.uk,Specialist,,P004,Manchester,2017-01-13,Permanent,1.0,38300,,Active
+E1123,Irene Steele,finance,Credit Controller,irene.steele@delcorn.co.uk,Specialist,,P003,Remote (Bristol),2017-09-20,Permanent,0.6,33600,,Active
+E1124,Natasha Webb,delivery,Skills Coach (Data),natasha.webb@delcorn.co.uk,Coach,Data Academy,P012,London,2018-02-07,Permanent,1.0,40200,26,Active
+E1125,Patrick Hope,curriculum,Workshop Facilitator,patrick.hope@delcorn.co.uk,Specialist,,P008,Remote (Bristol),2020-06-01,Permanent,1.0,35000,,Active
+E1126,Brett French,delivery,Skills Coach (Project Management),brett.french@delcorn.co.uk,Coach,Leadership Academy,P013,Remote (Nottingham),2026-04-23,Permanent,1.0,40100,26,Active
+E1127,Dylan Thomas,delivery,Skills Coach (Data),dylan.thomas@delcorn.co.uk,Coach,Data Academy,P012,Remote (Newcastle),2025-09-04,Permanent,1.0,39900,26,Active
+E1128,Jenna Adams,delivery,Skills Coach (Data),jenna.adams@delcorn.co.uk,Coach,Data Academy,P012,Remote (Newcastle),2025-03-27,Permanent,0.8,35000,26,Active
+E1129,Karl Marsden,delivery,Skills Coach (Leadership),karl.marsden@delcorn.co.uk,Coach,Leadership Academy,P013,Leeds,2023-09-25,Permanent,1.0,61100,26,Active
+E1130,Iain Harris,delivery,Functional Skills Tutor (Maths & English),iain.harris@delcorn.co.uk,Tutor,,P009,Remote (Brighton),2025-04-30,Permanent,1.0,34900,,Active
+E1131,Mitchell Evans,delivery,Skills Coach (Data),mitchell.evans@delcorn.co.uk,Coach,Data Academy,P012,London,2023-09-15,Fixed term,1.0,36900,26,Active
+E1132,Charlotte Barrett,delivery,Skills Coach (AI),charlotte.barrett@delcorn.co.uk,Coach,AI Academy,P012,Manchester,2018-06-11,Permanent,0.6,35000,26,Active
+E1133,Harriet Potts,delivery,Skills Coach (AI),harriet.potts@delcorn.co.uk,Coach,AI Academy,P012,Remote (Bristol),2019-06-24,Permanent,1.0,35700,26,Active
+E1134,Lynda Miah,delivery,Skills Coach (Data),lynda.miah@delcorn.co.uk,Coach,Data Academy,P012,Remote (Nottingham),2018-02-28,Permanent,0.6,37300,26,Active
+E1135,Mary Evans,quality,Quality Officer,mary.evans@delcorn.co.uk,Specialist,,P005,Remote (Cardiff),2025-08-20,Permanent,1.0,38800,,Active
+E1136,Shannon Thompson,delivery,Skills Coach (AI),shannon.thompson@delcorn.co.uk,Coach,AI Academy,P012,Remote (Brighton),2024-07-15,Permanent,1.0,39400,26,Active
+E1137,Georgia Day,curriculum,Learning Designer,georgia.day@delcorn.co.uk,Specialist,,P008,Birmingham,2025-07-11,Permanent,1.0,27800,,Active
+E1138,Guy Powell,delivery,Skills Coach (Data),guy.powell@delcorn.co.uk,Coach,Data Academy,P012,Manchester,2018-08-03,Permanent,1.0,39600,26,Active
+E1139,Ben Day,delivery,Skills Coach (AI),ben.day@delcorn.co.uk,Coach,AI Academy,P012,Leeds,2021-09-06,Permanent,1.0,34600,26,Active
+E1140,Connor Lewis,curriculum,Learning Designer,connor.lewis@delcorn.co.uk,Specialist,,P008,Remote (Bristol),2026-03-09,Permanent,1.0,31200,,Active
+E1141,Geraldine Graham,quality,Compliance Officer,geraldine.graham@delcorn.co.uk,Specialist,,P005,Manchester,2017-02-09,Permanent,0.6,39300,,Active
+E1142,Paul Gray,delivery,Skills Coach (Digital),paul.gray@delcorn.co.uk,Coach,Digital Academy,P012,Remote (Bristol),2021-01-20,Permanent,1.0,36800,26,Active

@@ -1,0 +1,20 @@
+﻿programme_code,programme_name,standard,level,duration_months,funding_band_gbp,academy,epao,grading,popularity
+AI3,Working Smarter with AI,Digital Support Technician,3,15,13000,AI Academy,Pinnacle Assessment Services,DMP,14
+AI4,AI & Automation Practitioner,AI & Automation Practitioner,4,15,19000,AI Academy,Pinnacle Assessment Services,DP,9
+ML6,Applied Machine Learning,Machine Learning Engineer,6,24,24000,AI Academy,NorthStar EPA,DP,3
+DT3,Data Foundations,Data Technician,3,15,12000,Data Academy,NorthStar EPA,DMP,8
+DA4,Data Analyst,Data Analyst,4,15,17000,Data Academy,NorthStar EPA,DMP,16
+DE5,Data Engineering,Data Engineer,5,24,21000,Data Academy,NorthStar EPA,DP,4
+BA4,Business Analysis,Business Analyst,4,18,18000,Data Academy,Pinnacle Assessment Services,DMP,5
+SD4,Software Development,Software Developer,4,18,21000,Digital Academy,Pinnacle Assessment Services,DP,4
+DO4,DevOps Engineering,DevOps Engineer,4,18,22000,Digital Academy,Pinnacle Assessment Services,DP,2
+DTS6,Digital & Technology Solutions (Degree),Digital & Technology Solutions Professional,6,36,27000,Digital Academy,University of Wessex,DMP,2
+TL3,Team Leader,Team Leader / Supervisor,3,13,4500,Leadership Academy,Institute of Management Practice,DMP,10
+OM5,Operations Manager,Operations / Departmental Manager,5,18,7000,Leadership Academy,Institute of Management Practice,DMP,9
+CM6,Chartered Manager (Degree),Chartered Manager,6,36,22000,Leadership Academy,University of Wessex,DMP,3
+SL7,Senior Leader,Senior Leader,7,24,14000,Leadership Academy,Institute of Management Practice,DMP,3
+PM4,Associate Project Manager,Associate Project Manager,4,18,6000,Leadership Academy,Institute of Management Practice,DP,5
+BAD3,Business Administrator,Business Administrator,3,15,5000,Leadership Academy,NorthStar EPA,DMP,3
+FR3,Fundraiser,Fundraiser,3,15,6000,Leadership Academy,NorthStar EPA,DMP,1
+PP5,People Professional,People Professional,5,18,8000,People Academy,Institute of People Practice,DMP,5
+SPP7,Senior People Professional,Senior People Professional,7,24,14000,People Academy,Institute of People Practice,DMP,1

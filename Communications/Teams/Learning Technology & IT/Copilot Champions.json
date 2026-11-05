@@ -1,0 +1,133 @@
+{
+  "channel": "Copilot Champions",
+  "team": "Learning Technology & IT",
+  "messages": [
+    {
+      "from": "Aisha Karim",
+      "from_email": "aisha.karim@delcorn.co.uk",
+      "time": "2026-10-26T09:02",
+      "text": "Morning Champions 👋 Wave 1 (central teams) goes live next Monday 2 Nov and Wave 2 (coaches and tutors) on 16 Nov. Please share your best tips here this week. We're turning them into the prompt library. Thank you for a brilliant pilot!",
+      "reactions": [
+        "🎉 14",
+        "👍 6"
+      ]
+    },
+    {
+      "from": "Fatima Hussain",
+      "from_email": "fatima.hussain@delcorn.co.uk",
+      "time": "2026-10-26T09:40",
+      "text": "My go-to for review summaries: paste in your rough notes and ask: \"Draft a progress review summary for a Level 4 Data Analyst apprentice using these notes. Use UK English, three short paragraphs: progress against KSBs, OTJ position, and SMART targets for the next 12 weeks. Don't add anything that isn't in my notes.\" That last line stops it inventing things. Then I edit it into my own words before signing in Aptiva.",
+      "reactions": [
+        "🙌 11",
+        "👍 8"
+      ]
+    },
+    {
+      "from": "Chloe Davies",
+      "from_email": "chloe.davies@delcorn.co.uk",
+      "time": "2026-10-26T10:12",
+      "text": "Is it OK to use learner names in that prompt? I've been using initials to be safe.",
+      "reactions": []
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-26T10:25",
+      "text": "@Chloe In Microsoft 365 Copilot, yes, it stays inside our tenant and is covered by the DPIA. Keep it to the minimum the task needs, though. Never include health, disability or safeguarding details, and never use names in any public AI tool. Section 5.2 of the AI Acceptable Use Policy has the details.",
+      "reactions": [
+        "👍 9"
+      ]
+    },
+    {
+      "from": "Amy Collins",
+      "from_email": "amy.collins@delcorn.co.uk",
+      "time": "2026-10-27T08:55",
+      "text": "HR tip: ask Copilot Chat \"what's the hotel cap in London according to our Expenses Policy?\" and then CLICK THE CITATION. In the pilot it once quoted the old £150 figure from an email in my inbox rather than the policy (it's £160 since Aug 2025). Always check the source.",
+      "reactions": [
+        "😮 5",
+        "👍 12"
+      ]
+    },
+    {
+      "from": "Mohammed Ali",
+      "from_email": "mohammed.ali@delcorn.co.uk",
+      "time": "2026-10-27T09:30",
+      "text": "From the service desk side: if Copilot isn't showing in Outlook after you get your licence, it's almost always classic Outlook on an old update channel (KI-121). Switch to new Outlook or update Office. Please don't raise a P2 for it 🙂",
+      "reactions": [
+        "😂 7",
+        "👍 4"
+      ]
+    },
+    {
+      "from": "Nicole Brooks",
+      "from_email": "nicole.brooks@delcorn.co.uk",
+      "time": "2026-10-28T11:14",
+      "text": "Excel tip: Copilot in Excel works MUCH better if the data is formatted as a Table (Ctrl+T) and saved as .xlsx. I asked it \"which academy has the most overdue reviews?\" on the caseload export and it built the pivot for me. I still check the numbers against Power BI though.",
+      "reactions": [
+        "👍 10"
+      ]
+    },
+    {
+      "from": "Nathan Shaw",
+      "from_email": "nathan.shaw@delcorn.co.uk",
+      "time": "2026-10-28T14:47",
+      "text": "Slightly awkward one: I asked Copilot to \"summarise recent pay review discussions\" for a curriculum costing and it came back with a salary spreadsheet from the People site?! I didn't open it. Who do I tell?",
+      "reactions": [
+        "😬 6"
+      ]
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-28T15:03",
+      "text": "@Nathan Thank you, that's exactly the right instinct. Please raise a P2 'Data request' in FixDesk with the citation link. We're already on it (permissions review finding PR-014) and it's being locked down before Monday. Everyone: if Copilot shows you something you shouldn't see, don't open it or share it. Report it.",
+      "reactions": [
+        "🙏 13"
+      ]
+    },
+    {
+      "from": "Kwame Mensah",
+      "from_email": "kwame.mensah@delcorn.co.uk",
+      "time": "2026-10-29T12:20",
+      "text": "Meeting recap tip: in Teams, ask Copilot \"list the actions with owners and due dates\" rather than \"summarise\". You get a much more usable list for the minutes. Works only if transcription was on.",
+      "reactions": [
+        "👍 8"
+      ]
+    },
+    {
+      "from": "Ellie Wood",
+      "from_email": "ellie.wood@delcorn.co.uk",
+      "time": "2026-10-30T09:10",
+      "text": "Reminder: licences are only assigned after the 60-min Responsible AI & Copilot Essentials module. 71% of Wave 1 have finished, so please nudge your teams. The live 'Copilot for Coaches' workshop is 19 Nov, sign up in the LMS.",
+      "reactions": [
+        "👍 5"
+      ]
+    },
+    {
+      "from": "Kate Simmons",
+      "from_email": "kate.simmons@delcorn.co.uk",
+      "time": "2026-11-03T16:02",
+      "text": "Sneak peek: we're building an IT self-service agent in Copilot Studio grounded on the Service Desk FAQ. If it can't answer, it'll offer to raise a FixDesk ticket for you. Also an HR Policy Helper on the HR Policies library with Amy. Volunteers to test next week? 🙋",
+      "reactions": [
+        "🙋 9",
+        "🚀 6"
+      ]
+    },
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-03T16:40",
+      "text": "Count me in for testing. Will the HR agent be able to see my own leave balance in PeopleFlow, or just the policies?",
+      "reactions": []
+    },
+    {
+      "from": "Kate Simmons",
+      "from_email": "kate.simmons@delcorn.co.uk",
+      "time": "2026-11-03T16:52",
+      "text": "@James Policies only for v1. Personal data from PeopleFlow would need its own DPIA and a connector. v1 will tell you where to check your balance.",
+      "reactions": [
+        "👍 4"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1151 @@
+﻿response_id,learner_id,coach_id,programme_code,survey,response_date,nps_score,nps_category,coach_rating,workshop_rating,comment
+FB70001,LRN20619,E1111,PM4,Mid-point survey,2026-07-10,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70002,LRN20842,E1084,BA4,Onboarding survey,2026-10-12,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70003,LRN20905,E1042,BAD3,Mid-point survey,2026-01-20,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70004,LRN20498,E1049,AI4,Mid-point survey,2025-02-12,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70005,LRN20676,E1138,DT3,Exit survey,2025-05-20,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70006,LRN20428,E1134,DA4,Onboarding survey,2026-03-02,6,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70007,LRN21856,E1074,TL3,Exit survey,2025-12-13,7,Passive,3,4,Good overall but some workshops feel rushed.
+FB70008,LRN21395,E1112,TL3,Mid-point survey,2024-07-12,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70009,LRN20193,E1115,DT3,Mid-point survey,2026-05-01,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70010,LRN21483,E1105,DA4,Exit survey,2025-02-05,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70011,LRN20378,E1049,AI4,Exit survey,2026-05-10,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70012,LRN21282,E1124,DA4,Mid-point survey,2026-04-29,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70013,LRN20635,P015,ML6,Mid-point survey,2026-06-14,7,Passive,4,4,Would like more examples from my sector.
+FB70014,LRN21088,E1129,PM4,Onboarding survey,2026-07-28,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70015,LRN21940,E1054,AI3,Onboarding survey,2026-10-07,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70016,LRN22248,P017,SL7,Mid-point survey,2024-05-02,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70017,LRN22155,E1111,TL3,Onboarding survey,2026-05-28,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70018,LRN21491,E1082,AI3,Mid-point survey,2024-12-05,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70019,LRN22028,E1107,BA4,Exit survey,2026-06-07,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70020,LRN21220,E1078,DT3,Onboarding survey,2026-10-06,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70021,LRN20449,E1050,OM5,Exit survey,2025-08-29,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70022,LRN20053,E1103,DT3,Onboarding survey,2026-11-02,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70023,LRN22215,E1057,ML6,Mid-point survey,2026-05-28,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70024,LRN20325,E1050,OM5,Onboarding survey,2024-06-03,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70025,LRN20919,P015,AI3,Onboarding survey,2026-06-18,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70026,LRN20621,E1117,OM5,Exit survey,2026-03-07,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70027,LRN20548,E1053,BAD3,Exit survey,2025-07-21,7,Passive,4,3,Would like more examples from my sector.
+FB70028,LRN22133,E1053,OM5,Mid-point survey,2026-09-06,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70029,LRN21131,E1133,AI3,Mid-point survey,2026-01-16,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70030,LRN21185,E1069,PP5,Exit survey,2025-05-09,7,Passive,4,3,Would like more examples from my sector.
+FB70031,LRN20915,E1139,AI4,Mid-point survey,2026-09-07,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70032,LRN21741,E1142,SD4,Onboarding survey,2026-05-10,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70033,LRN20158,E1124,DA4,Onboarding survey,2026-09-22,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70034,LRN20132,E1132,AI4,Exit survey,2025-06-08,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70035,LRN21473,E1040,AI4,Exit survey,2025-10-23,8,Passive,4,4,Would like more examples from my sector.
+FB70036,LRN21569,E1045,OM5,Mid-point survey,2025-11-12,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70037,LRN21731,E1126,OM5,Exit survey,2025-12-20,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70038,LRN20840,E1138,DA4,Onboarding survey,2024-08-31,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70039,LRN21383,E1049,AI4,Exit survey,2025-11-16,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70040,LRN20311,E1133,AI3,Exit survey,2026-03-13,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70041,LRN21775,E1077,SPP7,Mid-point survey,2025-02-23,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70042,LRN20634,E1049,AI3,Mid-point survey,2026-10-09,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70043,LRN20988,E1132,AI3,Exit survey,2025-12-04,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70044,LRN21373,E1047,SD4,Onboarding survey,2026-06-10,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70045,LRN21466,E1115,DE5,Mid-point survey,2026-01-01,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70046,LRN20257,E1065,DT3,Onboarding survey,2026-02-03,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70047,LRN20442,E1050,OM5,Onboarding survey,2026-10-04,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70048,LRN22105,P016,TL3,Onboarding survey,2026-02-11,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70049,LRN20158,E1124,DA4,Onboarding survey,2026-08-18,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70050,LRN20584,E1103,DA4,Mid-point survey,2025-03-13,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70051,LRN21549,E1080,PP5,Onboarding survey,2026-10-26,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70052,LRN20419,E1096,DA4,Onboarding survey,2026-02-02,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70053,LRN20390,E1047,SD4,Exit survey,2025-05-09,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70054,LRN20669,E1106,TL3,Onboarding survey,2026-06-07,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70055,LRN22069,E1078,DA4,Mid-point survey,2025-11-23,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70056,LRN20704,E1127,DT3,Mid-point survey,2026-02-04,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70057,LRN21559,E1124,DA4,Mid-point survey,2026-09-24,7,Passive,4,3,Would like more examples from my sector.
+FB70058,LRN20673,E1045,TL3,Mid-point survey,2026-09-17,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70059,LRN21078,E1105,DA4,Onboarding survey,2026-03-22,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70060,LRN21840,E1050,OM5,Exit survey,2026-10-22,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70061,LRN21182,E1040,AI3,Exit survey,2025-12-06,5,Detractor,2,3,Too many changes of coach.
+FB70062,LRN21757,E1114,SD4,Exit survey,2026-08-29,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70063,LRN20861,E1050,OM5,Mid-point survey,2026-09-19,6,Detractor,4,3,Too many changes of coach.
+FB70064,LRN21429,E1128,DA4,Onboarding survey,2026-10-12,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70065,LRN22239,E1129,SL7,Mid-point survey,2025-04-13,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70066,LRN20793,E1066,PP5,Mid-point survey,2026-10-23,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70067,LRN22143,E1049,AI4,Exit survey,2026-06-15,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70068,LRN22016,E1053,TL3,Mid-point survey,2026-04-28,4,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70069,LRN21130,E1082,AI3,Mid-point survey,2026-09-13,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70070,LRN20217,E1136,ML6,Mid-point survey,2025-11-14,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70071,LRN20599,E1054,AI3,Mid-point survey,2024-07-17,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70072,LRN21126,E1096,DT3,Mid-point survey,2024-09-20,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70073,LRN20898,E1105,DA4,Onboarding survey,2025-06-13,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70074,LRN21229,E1095,DA4,Mid-point survey,2026-03-06,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70075,LRN22294,E1131,DT3,Mid-point survey,2025-04-23,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70076,LRN21065,P014,DE5,Mid-point survey,2026-10-08,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70077,LRN20301,E1142,DTS6,Mid-point survey,2026-08-28,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70078,LRN21623,E1107,DA4,Mid-point survey,2025-09-12,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70079,LRN20403,E1072,AI3,Mid-point survey,2026-10-10,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70080,LRN21680,E1127,DT3,Mid-point survey,2024-12-12,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70081,LRN21739,E1098,AI3,Mid-point survey,2026-02-13,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70082,LRN22279,E1124,DT3,Exit survey,2025-07-14,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70083,LRN20678,E1115,DA4,Mid-point survey,2026-08-26,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70084,LRN21969,E1050,OM5,Exit survey,2025-10-23,6,Detractor,4,2,Workshops clash with my shifts and recordings are not the same.
+FB70085,LRN21727,E1044,TL3,Onboarding survey,2026-07-09,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70086,LRN22260,E1074,TL3,Mid-point survey,2026-03-24,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70087,LRN20303,E1124,DT3,Onboarding survey,2026-04-09,6,Detractor,3,2,Too many changes of coach.
+FB70088,LRN21119,E1128,DT3,Exit survey,2025-07-20,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70089,LRN21324,E1115,BA4,Exit survey,2025-08-18,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70090,LRN21958,E1106,TL3,Mid-point survey,2026-10-16,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70091,LRN21389,E1054,AI4,Exit survey,2023-11-24,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70092,LRN21959,E1128,DA4,Mid-point survey,2026-09-20,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70093,LRN20135,P017,CM6,Onboarding survey,2026-07-23,6,Detractor,3,2,I did not feel the programme matched my role.
+FB70094,LRN21390,E1096,DA4,Onboarding survey,2024-11-01,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70095,LRN20413,E1139,AI4,Onboarding survey,2026-05-19,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70096,LRN21067,P015,ML6,Mid-point survey,2025-09-26,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70097,LRN20463,E1106,OM5,Mid-point survey,2026-08-16,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70098,LRN20652,E1078,BA4,Exit survey,2025-11-23,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70099,LRN20745,E1045,TL3,Exit survey,2025-07-08,5,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70100,LRN21114,E1055,DA4,Onboarding survey,2025-07-02,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70101,LRN20072,E1082,AI4,Exit survey,2025-10-12,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70102,LRN21841,E1117,CM6,Mid-point survey,2026-11-01,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70103,LRN21358,E1060,DE5,Onboarding survey,2026-10-17,7,Passive,3,3,Good overall but some workshops feel rushed.
+FB70104,LRN21922,E1126,TL3,Mid-point survey,2026-10-11,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70105,LRN20992,E1101,DA4,Mid-point survey,2026-05-26,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70106,LRN20537,E1049,AI4,Onboarding survey,2026-06-19,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70107,LRN21737,E1129,BAD3,Exit survey,2025-03-07,4,Detractor,2,1,I have struggled with the workload and did not feel listened to.
+FB70108,LRN20653,E1115,DA4,Mid-point survey,2025-09-25,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70109,LRN21705,E1084,DT3,Mid-point survey,2026-08-16,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70110,LRN22138,E1091,BAD3,Onboarding survey,2026-04-16,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70111,LRN20025,E1132,ML6,Onboarding survey,2026-09-26,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70112,LRN21189,E1098,AI4,Exit survey,2025-09-12,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70113,LRN21763,E1134,DA4,Onboarding survey,2024-11-29,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70114,LRN20308,E1077,SPP7,Onboarding survey,2026-02-03,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70115,LRN22039,E1072,AI3,Mid-point survey,2026-02-26,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70116,LRN21676,E1117,CM6,Mid-point survey,2026-08-15,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70117,LRN21396,E1050,TL3,Exit survey,2025-05-07,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70118,LRN21452,P017,TL3,Exit survey,2025-12-15,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70119,LRN20778,E1133,AI3,Mid-point survey,2026-08-09,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70120,LRN20562,E1139,AI3,Mid-point survey,2026-05-19,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70121,LRN20271,E1093,ML6,Mid-point survey,2026-09-12,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70122,LRN20049,E1101,DA4,Mid-point survey,2026-08-29,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70123,LRN22021,E1071,PM4,Mid-point survey,2025-02-07,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70124,LRN20289,E1111,PM4,Exit survey,2025-07-22,8,Passive,4,4,Would like more examples from my sector.
+FB70125,LRN20987,E1055,DA4,Mid-point survey,2026-01-09,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70126,LRN21429,E1128,DA4,Mid-point survey,2026-10-04,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70127,LRN20379,E1098,AI3,Mid-point survey,2025-09-16,8,Passive,5,4,Would like more examples from my sector.
+FB70128,LRN21134,E1080,PP5,Mid-point survey,2026-06-19,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70129,LRN20230,E1132,AI4,Exit survey,2026-01-17,8,Passive,4,5,Good overall but some workshops feel rushed.
+FB70130,LRN21626,E1093,ML6,Mid-point survey,2026-07-25,8,Passive,5,3,Would like more examples from my sector.
+FB70131,LRN22188,E1084,DT3,Mid-point survey,2025-07-22,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70132,LRN21570,E1111,CM6,Onboarding survey,2026-11-01,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70133,LRN21614,E1082,ML6,Onboarding survey,2026-10-31,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70134,LRN21678,E1111,SL7,Mid-point survey,2026-05-04,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70135,LRN20468,E1128,DA4,Mid-point survey,2026-01-08,6,Detractor,4,3,My manager does not give me time for off-the-job training.
+FB70136,LRN22153,E1107,DA4,Onboarding survey,2026-03-24,7,Passive,4,3,Would like more examples from my sector.
+FB70137,LRN20835,E1069,PP5,Exit survey,2025-11-20,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70138,LRN20668,E1049,ML6,Onboarding survey,2026-09-26,6,Detractor,4,3,I did not feel the programme matched my role.
+FB70139,LRN20662,E1045,OM5,Mid-point survey,2026-07-03,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70140,LRN22235,E1084,DA4,Mid-point survey,2026-11-05,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70141,LRN21831,E1078,DA4,Exit survey,2025-07-13,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70142,LRN20803,E1043,BA4,Exit survey,2026-02-20,8,Passive,4,5,Would like more examples from my sector.
+FB70143,LRN21870,E1136,AI3,Exit survey,2026-01-29,8,Passive,5,3,Logging OTJ hours is a bit fiddly.
+FB70144,LRN22143,E1049,AI4,Exit survey,2026-06-15,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70145,LRN21082,P014,DA4,Mid-point survey,2026-10-30,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70146,LRN21122,E1131,DA4,Mid-point survey,2026-10-15,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70147,LRN20940,E1055,DA4,Onboarding survey,2026-09-11,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70148,LRN20310,E1117,BAD3,Exit survey,2026-05-11,8,Passive,5,4,Would like more examples from my sector.
+FB70149,LRN20467,E1072,AI3,Exit survey,2026-02-05,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70150,LRN21589,E1049,AI3,Mid-point survey,2026-10-20,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70151,LRN21219,E1098,AI4,Mid-point survey,2025-08-18,7,Passive,3,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70152,LRN20644,E1069,PP5,Onboarding survey,2025-03-24,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70153,LRN21260,E1084,DA4,Mid-point survey,2026-03-11,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70154,LRN20675,E1105,DA4,Mid-point survey,2025-07-20,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70155,LRN20053,E1103,DT3,Mid-point survey,2026-10-22,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70156,LRN20282,E1053,CM6,Mid-point survey,2026-05-10,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70157,LRN20656,E1069,PP5,Mid-point survey,2024-11-11,6,Detractor,4,2,I have struggled with the workload and did not feel listened to.
+FB70158,LRN20709,E1041,SD4,Onboarding survey,2026-06-04,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70159,LRN20501,E1096,DA4,Mid-point survey,2026-01-24,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70160,LRN21247,E1084,DT3,Exit survey,2026-03-31,4,Detractor,2,2,I have struggled with the workload and did not feel listened to.
+FB70161,LRN21998,E1115,DA4,Mid-point survey,2025-09-29,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70162,LRN22295,E1124,DT3,Exit survey,2026-10-27,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70163,LRN20526,E1124,DA4,Mid-point survey,2026-10-23,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70164,LRN20094,E1055,DE5,Exit survey,2026-05-30,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70165,LRN20234,E1077,SPP7,Onboarding survey,2025-04-25,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70166,LRN20086,E1081,DTS6,Onboarding survey,2026-08-10,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70167,LRN22041,E1082,ML6,Mid-point survey,2026-10-10,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70168,LRN20907,P014,DT3,Onboarding survey,2024-11-17,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70169,LRN20476,E1139,AI4,Exit survey,2026-05-02,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70170,LRN21055,P016,CM6,Mid-point survey,2024-02-14,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70171,LRN20182,E1115,DA4,Mid-point survey,2025-12-13,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70172,LRN21934,E1112,OM5,Exit survey,2025-12-23,3,Detractor,2,1,My manager does not give me time for off-the-job training.
+FB70173,LRN21591,E1095,DA4,Exit survey,2025-04-23,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70174,LRN20329,E1093,AI3,Mid-point survey,2025-08-05,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70175,LRN20571,E1117,PM4,Exit survey,2025-08-17,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70176,LRN21492,E1041,SD4,Exit survey,2025-08-10,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70177,LRN20593,P017,OM5,Exit survey,2026-03-16,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70178,LRN20522,E1071,CM6,Mid-point survey,2025-07-16,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70179,LRN20222,E1041,SD4,Exit survey,2026-08-22,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70180,LRN22094,E1081,DO4,Mid-point survey,2025-04-08,7,Passive,4,3,Would like more examples from my sector.
+FB70181,LRN21520,E1078,BA4,Mid-point survey,2026-05-31,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70182,LRN21933,E1041,SD4,Onboarding survey,2026-05-05,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70183,LRN21744,E1067,AI3,Mid-point survey,2026-07-13,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70184,LRN20226,E1096,DA4,Mid-point survey,2026-04-17,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70185,LRN21233,E1103,DE5,Exit survey,2026-09-09,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70186,LRN20935,E1106,FR3,Onboarding survey,2026-01-10,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70187,LRN21691,E1129,BAD3,Onboarding survey,2026-05-26,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70188,LRN20010,E1074,OM5,Onboarding survey,2025-07-17,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70189,LRN21858,E1098,AI4,Mid-point survey,2024-05-17,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70190,LRN20360,E1115,DT3,Onboarding survey,2026-07-31,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70191,LRN22286,E1082,AI3,Mid-point survey,2025-02-17,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70192,LRN21933,E1041,SD4,Mid-point survey,2026-10-30,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70193,LRN20550,E1126,TL3,Mid-point survey,2024-11-23,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70194,LRN22127,E1042,TL3,Onboarding survey,2025-11-12,8,Passive,5,5,"Coach is good, though reviews sometimes get rescheduled."
+FB70195,LRN22265,E1107,DT3,Onboarding survey,2025-06-05,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70196,LRN21289,E1053,TL3,Mid-point survey,2024-02-05,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70197,LRN21381,E1107,DA4,Exit survey,2026-08-24,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70198,LRN22152,E1106,SL7,Onboarding survey,2026-05-21,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70199,LRN21084,E1071,TL3,Exit survey,2025-03-12,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70200,LRN20288,E1136,AI3,Exit survey,2024-12-25,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70201,LRN21688,P014,DT3,Mid-point survey,2026-10-13,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70202,LRN21508,E1115,DT3,Onboarding survey,2026-06-30,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70203,LRN20646,E1117,TL3,Onboarding survey,2025-07-06,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70204,LRN20371,E1134,DE5,Onboarding survey,2025-08-02,7,Passive,4,3,Would like more examples from my sector.
+FB70205,LRN22045,E1072,AI4,Exit survey,2025-07-03,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70206,LRN22170,E1045,TL3,Exit survey,2025-02-17,9,Promoter,4,4,I have already used what I learned to automate a weekly report at work.
+FB70207,LRN21468,E1126,TL3,Exit survey,2024-11-10,5,Detractor,3,2,Too many changes of coach.
+FB70208,LRN20952,E1060,DE5,Mid-point survey,2026-04-03,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70209,LRN20569,E1136,AI3,Onboarding survey,2025-02-04,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70210,LRN20724,E1091,TL3,Onboarding survey,2026-09-17,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70211,LRN21510,E1065,DA4,Mid-point survey,2026-09-16,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70212,LRN21895,E1072,AI4,Exit survey,2025-10-01,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70213,LRN20354,E1138,DA4,Mid-point survey,2026-10-23,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70214,LRN21058,P016,TL3,Exit survey,2025-11-16,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70215,LRN21289,E1053,TL3,Mid-point survey,2024-03-23,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70216,LRN21227,E1128,DT3,Mid-point survey,2026-10-30,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70217,LRN20234,E1077,SPP7,Onboarding survey,2026-02-21,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70218,LRN21109,E1041,DO4,Mid-point survey,2026-07-27,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70219,LRN21091,E1074,CM6,Mid-point survey,2024-02-21,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70220,LRN21364,E1117,TL3,Mid-point survey,2026-02-23,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70221,LRN20726,E1142,DTS6,Mid-point survey,2026-09-12,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70222,LRN20915,E1139,AI4,Mid-point survey,2026-10-09,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70223,LRN21069,E1047,DTS6,Mid-point survey,2026-05-31,8,Passive,5,3,Logging OTJ hours is a bit fiddly.
+FB70224,LRN20589,E1136,AI4,Mid-point survey,2026-03-17,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70225,LRN20928,E1041,DO4,Mid-point survey,2026-10-11,7,Passive,3,3,Would like more examples from my sector.
+FB70226,LRN20169,E1134,DA4,Mid-point survey,2026-05-14,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70227,LRN21610,E1111,FR3,Mid-point survey,2024-08-18,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70228,LRN21491,E1082,AI3,Exit survey,2025-06-10,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70229,LRN22049,E1127,DA4,Exit survey,2026-09-09,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70230,LRN21526,E1054,AI3,Exit survey,2025-02-26,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70231,LRN20011,E1126,OM5,Mid-point survey,2026-07-20,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70232,LRN20395,E1142,DO4,Exit survey,2026-06-24,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70233,LRN20068,E1045,TL3,Onboarding survey,2026-10-28,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70234,LRN22226,E1093,AI4,Exit survey,2025-03-12,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB70235,LRN20243,E1077,PP5,Exit survey,2025-05-09,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70236,LRN20069,E1117,CM6,Mid-point survey,2025-07-24,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70237,LRN20939,E1115,DA4,Onboarding survey,2025-09-10,7,Passive,3,3,Would like more examples from my sector.
+FB70238,LRN20050,E1072,AI3,Onboarding survey,2026-01-16,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70239,LRN20728,E1081,DO4,Mid-point survey,2025-05-18,8,Passive,4,3,Would like more examples from my sector.
+FB70240,LRN20898,E1105,DA4,Mid-point survey,2025-02-07,6,Detractor,4,3,My manager does not give me time for off-the-job training.
+FB70241,LRN21923,E1084,DA4,Mid-point survey,2024-12-15,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70242,LRN21348,E1115,DA4,Mid-point survey,2026-09-30,7,Passive,4,3,Would like more examples from my sector.
+FB70243,LRN21832,E1091,CM6,Mid-point survey,2026-10-19,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70244,LRN20300,E1047,SD4,Mid-point survey,2024-11-05,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70245,LRN21160,E1131,DE5,Mid-point survey,2026-10-02,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70246,LRN22241,E1132,AI3,Mid-point survey,2026-02-20,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70247,LRN21956,P017,BAD3,Mid-point survey,2026-01-03,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70248,LRN21920,E1043,DT3,Mid-point survey,2026-09-20,8,Passive,5,3,Good overall but some workshops feel rushed.
+FB70249,LRN21597,P014,DA4,Mid-point survey,2026-08-20,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70250,LRN22000,E1138,BA4,Onboarding survey,2026-10-08,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70251,LRN21197,E1084,BA4,Onboarding survey,2026-07-22,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70252,LRN21742,E1136,AI3,Mid-point survey,2026-01-12,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70253,LRN21603,E1069,PP5,Mid-point survey,2026-03-30,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70254,LRN21698,E1049,AI4,Exit survey,2025-07-09,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70255,LRN20633,P017,PM4,Exit survey,2025-07-25,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70256,LRN20890,E1096,DA4,Mid-point survey,2026-04-11,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70257,LRN20147,E1072,AI3,Onboarding survey,2026-11-01,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70258,LRN20866,E1057,AI3,Onboarding survey,2024-11-30,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70259,LRN20604,E1107,DT3,Exit survey,2025-08-29,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70260,LRN21028,E1041,DO4,Mid-point survey,2026-09-21,8,Passive,5,5,Would like more examples from my sector.
+FB70261,LRN22243,E1128,DT3,Mid-point survey,2025-03-19,5,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70262,LRN22269,E1139,AI4,Mid-point survey,2025-09-19,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70263,LRN21736,E1078,BA4,Onboarding survey,2026-10-28,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70264,LRN21174,E1082,AI3,Onboarding survey,2025-05-11,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70265,LRN21333,E1098,AI3,Exit survey,2026-01-22,7,Passive,3,3,Would like more examples from my sector.
+FB70266,LRN21086,E1129,OM5,Mid-point survey,2026-03-10,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70267,LRN20947,E1142,SD4,Onboarding survey,2026-09-27,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70268,LRN20656,E1069,PP5,Mid-point survey,2024-11-16,6,Detractor,3,3,Too many changes of coach.
+FB70269,LRN20472,E1091,PM4,Mid-point survey,2026-08-25,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70270,LRN20975,E1101,DT3,Mid-point survey,2025-04-20,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70271,LRN21694,E1124,BA4,Exit survey,2026-04-25,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70272,LRN21185,E1069,PP5,Exit survey,2025-05-09,4,Detractor,2,1,I have struggled with the workload and did not feel listened to.
+FB70273,LRN21393,E1117,CM6,Mid-point survey,2025-11-05,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70274,LRN21074,E1117,TL3,Mid-point survey,2026-05-31,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70275,LRN21422,E1107,DA4,Exit survey,2026-08-31,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70276,LRN20096,E1074,OM5,Mid-point survey,2025-09-30,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70277,LRN20504,E1050,CM6,Exit survey,2025-08-19,7,Passive,4,3,Would like more examples from my sector.
+FB70278,LRN20211,E1043,DA4,Mid-point survey,2026-08-14,6,Detractor,3,3,Too many changes of coach.
+FB70279,LRN21194,E1053,TL3,Exit survey,2025-11-08,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70280,LRN21271,E1138,DA4,Mid-point survey,2026-10-24,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70281,LRN20546,E1103,DT3,Mid-point survey,2026-04-27,8,Passive,5,5,Would like more examples from my sector.
+FB70282,LRN20558,E1060,DT3,Mid-point survey,2026-08-11,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70283,LRN21319,P016,OM5,Mid-point survey,2026-07-13,7,Passive,4,3,Would like more examples from my sector.
+FB70284,LRN20853,E1129,CM6,Mid-point survey,2024-09-01,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70285,LRN21322,E1128,DA4,Mid-point survey,2025-09-26,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70286,LRN22296,E1111,TL3,Mid-point survey,2026-05-19,8,Passive,4,4,Would like more examples from my sector.
+FB70287,LRN22290,E1041,SD4,Mid-point survey,2026-10-23,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70288,LRN21789,E1080,PP5,Onboarding survey,2026-10-03,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70289,LRN21140,E1138,DT3,Exit survey,2025-12-15,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70290,LRN21288,E1081,SD4,Mid-point survey,2026-04-30,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70291,LRN20608,E1055,DA4,Mid-point survey,2026-07-27,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70292,LRN21699,E1067,AI3,Exit survey,2026-05-23,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70293,LRN20380,P017,TL3,Mid-point survey,2025-06-03,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70294,LRN20813,E1067,AI4,Exit survey,2026-03-15,5,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70295,LRN22107,E1102,DTS6,Mid-point survey,2026-11-05,7,Passive,3,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70296,LRN20326,E1049,AI3,Onboarding survey,2026-08-08,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70297,LRN21725,E1067,AI4,Mid-point survey,2026-03-13,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70298,LRN22128,E1138,BA4,Mid-point survey,2025-10-14,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70299,LRN21557,E1107,DE5,Mid-point survey,2026-10-31,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70300,LRN21516,E1106,TL3,Exit survey,2026-04-10,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70301,LRN20109,E1102,SD4,Onboarding survey,2026-10-31,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70302,LRN21210,E1074,PM4,Mid-point survey,2025-09-13,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70303,LRN20389,E1103,BA4,Mid-point survey,2024-11-20,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70304,LRN21937,E1082,AI4,Mid-point survey,2026-07-07,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70305,LRN21350,E1142,DO4,Exit survey,2026-07-06,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70306,LRN20115,E1112,OM5,Mid-point survey,2026-10-23,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70307,LRN21754,E1078,DE5,Mid-point survey,2025-05-05,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70308,LRN21785,E1111,OM5,Exit survey,2025-08-22,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70309,LRN20284,E1057,AI4,Mid-point survey,2026-04-03,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70310,LRN20149,E1078,BA4,Exit survey,2025-07-01,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70311,LRN21442,E1055,DA4,Exit survey,2026-03-30,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70312,LRN20573,E1124,DA4,Onboarding survey,2024-11-26,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70313,LRN21995,E1095,DE5,Onboarding survey,2025-08-09,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70314,LRN21921,E1072,AI3,Mid-point survey,2026-06-21,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70315,LRN20513,E1133,AI4,Onboarding survey,2026-05-29,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70316,LRN20788,E1095,DA4,Onboarding survey,2026-07-18,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70317,LRN20357,E1050,TL3,Onboarding survey,2025-06-29,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70318,LRN20126,E1045,OM5,Mid-point survey,2024-01-12,5,Detractor,2,2,My manager does not give me time for off-the-job training.
+FB70319,LRN21534,E1054,AI4,Onboarding survey,2026-06-03,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70320,LRN21707,E1131,DA4,Exit survey,2025-07-07,5,Detractor,2,3,I did not feel the programme matched my role.
+FB70321,LRN20035,E1071,PM4,Exit survey,2025-10-14,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70322,LRN21450,E1128,DA4,Mid-point survey,2026-04-03,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70323,LRN20524,E1065,DE5,Mid-point survey,2024-09-26,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70324,LRN20588,E1098,AI3,Mid-point survey,2025-11-28,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70325,LRN20354,E1138,DA4,Onboarding survey,2026-07-22,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70326,LRN21954,E1065,DE5,Exit survey,2026-01-01,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70327,LRN21611,P014,DA4,Exit survey,2024-12-28,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70328,LRN21672,E1112,OM5,Onboarding survey,2025-02-11,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70329,LRN20715,E1040,AI3,Mid-point survey,2026-01-16,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70330,LRN20600,E1126,CM6,Mid-point survey,2026-10-17,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB70331,LRN21840,E1050,OM5,Mid-point survey,2025-08-16,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70332,LRN21204,E1057,AI3,Exit survey,2025-04-19,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB70333,LRN21409,E1043,DA4,Onboarding survey,2026-11-05,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70334,LRN21446,E1111,SL7,Onboarding survey,2025-11-02,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70335,LRN21455,E1047,SD4,Exit survey,2026-02-03,7,Passive,3,4,Good overall but some workshops feel rushed.
+FB70336,LRN21521,E1074,CM6,Mid-point survey,2025-12-25,7,Passive,4,4,Would like more examples from my sector.
+FB70337,LRN21947,E1126,SL7,Mid-point survey,2026-08-03,8,Passive,4,4,Would like more examples from my sector.
+FB70338,LRN21756,E1106,CM6,Mid-point survey,2026-10-07,6,Detractor,3,2,I did not feel the programme matched my role.
+FB70339,LRN21544,E1091,TL3,Exit survey,2025-10-11,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70340,LRN22242,E1055,DA4,Onboarding survey,2026-06-21,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70341,LRN20918,E1103,DT3,Mid-point survey,2026-10-28,5,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70342,LRN21361,E1074,SL7,Exit survey,2025-12-16,6,Detractor,3,3,Too many changes of coach.
+FB70343,LRN21139,E1102,SD4,Exit survey,2025-06-01,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70344,LRN21520,E1078,BA4,Mid-point survey,2026-08-21,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70345,LRN20453,E1129,SL7,Onboarding survey,2025-10-31,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70346,LRN21778,E1074,PM4,Exit survey,2025-03-19,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70347,LRN21641,E1060,DA4,Mid-point survey,2026-06-05,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70348,LRN20554,E1114,DO4,Mid-point survey,2026-02-20,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70349,LRN20924,E1139,AI4,Mid-point survey,2026-03-21,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70350,LRN20010,E1074,OM5,Mid-point survey,2025-09-14,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70351,LRN22133,E1053,OM5,Mid-point survey,2026-07-19,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70352,LRN21048,E1133,AI3,Onboarding survey,2024-07-02,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70353,LRN20699,E1060,DT3,Mid-point survey,2026-02-24,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70354,LRN21783,E1057,AI3,Exit survey,2025-06-06,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70355,LRN21347,E1131,DT3,Mid-point survey,2025-10-26,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70356,LRN21636,E1084,DA4,Mid-point survey,2025-12-24,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70357,LRN20107,E1124,DA4,Onboarding survey,2026-10-20,5,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70358,LRN20222,E1041,SD4,Mid-point survey,2026-08-04,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70359,LRN20839,E1047,SD4,Mid-point survey,2025-09-01,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70360,LRN20006,E1124,DT3,Mid-point survey,2026-10-08,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70361,LRN20567,E1107,DA4,Exit survey,2025-04-20,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70362,LRN21608,E1114,SD4,Exit survey,2025-04-10,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70363,LRN21702,E1069,PP5,Exit survey,2026-03-16,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70364,LRN20745,E1045,TL3,Exit survey,2025-07-08,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70365,LRN21400,E1139,AI3,Mid-point survey,2026-11-01,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70366,LRN21300,E1084,DA4,Onboarding survey,2025-10-24,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70367,LRN20235,E1084,DA4,Mid-point survey,2026-07-27,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70368,LRN21034,E1057,AI3,Exit survey,2025-07-12,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70369,LRN20784,E1138,DT3,Mid-point survey,2026-09-15,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70370,LRN20003,E1060,DT3,Onboarding survey,2026-04-24,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70371,LRN22293,E1126,PM4,Mid-point survey,2026-07-25,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70372,LRN20436,E1117,TL3,Exit survey,2025-11-03,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70373,LRN20473,E1136,AI4,Mid-point survey,2025-04-21,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70374,LRN20013,E1103,DT3,Mid-point survey,2024-04-01,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70375,LRN20012,E1105,DT3,Mid-point survey,2026-10-13,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70376,LRN21500,E1074,TL3,Onboarding survey,2024-11-04,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70377,LRN21898,E1126,CM6,Mid-point survey,2026-09-09,9,Promoter,4,5,I have already used what I learned to automate a weekly report at work.
+FB70378,LRN21242,E1107,DE5,Mid-point survey,2026-08-20,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70379,LRN20070,E1096,DT3,Mid-point survey,2025-07-30,4,Detractor,2,1,I did not feel the programme matched my role.
+FB70380,LRN20243,E1077,PP5,Exit survey,2025-05-09,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70381,LRN20275,E1136,AI4,Mid-point survey,2025-03-08,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70382,LRN20273,E1107,BA4,Mid-point survey,2025-12-19,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70383,LRN21835,E1084,DA4,Mid-point survey,2026-08-02,6,Detractor,4,3,My manager does not give me time for off-the-job training.
+FB70384,LRN21262,E1055,DA4,Exit survey,2025-03-18,8,Passive,5,3,Logging OTJ hours is a bit fiddly.
+FB70385,LRN22292,E1126,OM5,Mid-point survey,2026-04-11,4,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70386,LRN21356,E1084,DA4,Onboarding survey,2024-04-26,6,Detractor,4,2,Workshops clash with my shifts and recordings are not the same.
+FB70387,LRN21760,E1117,PM4,Onboarding survey,2026-06-24,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70388,LRN20940,E1055,DA4,Mid-point survey,2026-07-11,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70389,LRN21688,P014,DT3,Mid-point survey,2026-08-27,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70390,LRN20364,E1066,PP5,Mid-point survey,2026-03-21,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70391,LRN22129,E1095,DT3,Mid-point survey,2026-01-15,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70392,LRN21562,E1044,TL3,Mid-point survey,2026-07-27,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70393,LRN20795,E1053,PM4,Mid-point survey,2025-04-24,6,Detractor,4,2,I did not feel the programme matched my role.
+FB70394,LRN22251,E1091,TL3,Exit survey,2025-07-15,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70395,LRN21424,E1080,PP5,Mid-point survey,2025-08-01,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70396,LRN20148,E1111,TL3,Mid-point survey,2026-09-21,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70397,LRN21381,E1107,DA4,Mid-point survey,2025-10-17,7,Passive,3,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70398,LRN21273,E1096,DA4,Onboarding survey,2026-07-26,8,Passive,4,5,Logging OTJ hours is a bit fiddly.
+FB70399,LRN21791,E1084,DE5,Mid-point survey,2026-08-24,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70400,LRN21823,E1093,AI3,Mid-point survey,2025-01-17,5,Detractor,3,2,Too many changes of coach.
+FB70401,LRN21185,E1069,PP5,Mid-point survey,2025-05-08,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70402,LRN20381,P014,BA4,Onboarding survey,2026-05-23,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70403,LRN21592,E1080,PP5,Mid-point survey,2026-09-23,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70404,LRN21248,E1065,DA4,Onboarding survey,2025-02-12,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70405,LRN21524,E1043,DA4,Exit survey,2026-02-14,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70406,LRN22183,E1101,DE5,Mid-point survey,2026-08-18,7,Passive,3,4,Would like more examples from my sector.
+FB70407,LRN21525,E1139,AI3,Mid-point survey,2024-08-30,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70408,LRN20324,E1045,TL3,Onboarding survey,2024-08-21,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70409,LRN20773,P015,AI3,Onboarding survey,2025-12-06,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70410,LRN22202,E1136,AI3,Onboarding survey,2026-07-20,5,Detractor,2,3,Workshops clash with my shifts and recordings are not the same.
+FB70411,LRN20463,E1106,OM5,Mid-point survey,2026-07-21,6,Detractor,4,3,I did not feel the programme matched my role.
+FB70412,LRN21206,P017,PM4,Onboarding survey,2025-09-12,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70413,LRN20973,P014,DE5,Mid-point survey,2025-02-17,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70414,LRN21405,E1115,DT3,Exit survey,2026-02-28,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70415,LRN20019,E1042,BAD3,Mid-point survey,2026-08-15,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70416,LRN20002,E1047,SD4,Exit survey,2026-01-14,7,Passive,3,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70417,LRN21889,E1115,DT3,Mid-point survey,2023-12-13,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70418,LRN20423,E1106,TL3,Mid-point survey,2024-09-24,6,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70419,LRN20200,E1117,TL3,Exit survey,2025-06-01,7,Passive,3,4,Logging OTJ hours is a bit fiddly.
+FB70420,LRN20570,E1127,DA4,Exit survey,2025-05-31,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70421,LRN21492,E1041,SD4,Onboarding survey,2025-01-02,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70422,LRN20108,E1069,SPP7,Exit survey,2026-03-11,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70423,LRN21851,E1138,DT3,Onboarding survey,2026-08-08,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70424,LRN21522,E1139,AI4,Mid-point survey,2026-03-12,5,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70425,LRN20286,E1107,DA4,Exit survey,2025-05-29,8,Passive,4,5,Would like more examples from my sector.
+FB70426,LRN20147,E1072,AI3,Mid-point survey,2026-10-20,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70427,LRN21976,E1103,DT3,Mid-point survey,2026-04-03,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70428,LRN20904,E1054,AI3,Exit survey,2025-10-09,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70429,LRN21959,E1128,DA4,Onboarding survey,2026-08-31,7,Passive,3,3,Would like more examples from my sector.
+FB70430,LRN20121,E1098,AI4,Mid-point survey,2026-10-27,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70431,LRN21882,E1111,OM5,Exit survey,2026-05-19,5,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70432,LRN21902,E1127,BA4,Mid-point survey,2025-03-20,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70433,LRN21005,E1105,DE5,Mid-point survey,2025-05-09,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70434,LRN21618,E1066,PP5,Onboarding survey,2026-07-25,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70435,LRN20213,E1054,AI4,Mid-point survey,2026-07-02,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70436,LRN21282,E1124,DA4,Mid-point survey,2026-03-08,8,Passive,4,5,"Coach is good, though reviews sometimes get rescheduled."
+FB70437,LRN21337,E1054,AI4,Mid-point survey,2026-08-17,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70438,LRN20458,E1053,OM5,Mid-point survey,2026-07-21,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70439,LRN22000,E1138,BA4,Onboarding survey,2026-04-30,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70440,LRN20427,E1101,DA4,Mid-point survey,2026-09-04,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB70441,LRN21658,E1106,SL7,Onboarding survey,2025-01-21,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70442,LRN20928,E1041,DO4,Onboarding survey,2026-10-27,9,Promoter,4,5,Great balance of theory and workplace projects.
+FB70443,LRN21528,E1105,DE5,Exit survey,2026-10-13,8,Passive,4,4,Would like more examples from my sector.
+FB70444,LRN20964,E1081,SD4,Mid-point survey,2026-03-13,4,Detractor,3,2,Too many changes of coach.
+FB70445,LRN21823,E1093,AI3,Exit survey,2025-09-08,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70446,LRN20939,E1115,DA4,Onboarding survey,2025-03-24,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70447,LRN20457,E1128,BA4,Mid-point survey,2023-12-25,3,Detractor,1,2,Workshops clash with my shifts and recordings are not the same.
+FB70448,LRN20156,E1112,TL3,Onboarding survey,2026-08-28,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70449,LRN21265,E1098,ML6,Onboarding survey,2026-05-24,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB70450,LRN21479,P015,AI3,Onboarding survey,2025-03-02,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70451,LRN21487,E1132,AI3,Onboarding survey,2026-10-01,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70452,LRN20513,E1133,AI4,Mid-point survey,2026-08-14,7,Passive,3,3,Would like more examples from my sector.
+FB70453,LRN21975,E1138,DA4,Mid-point survey,2024-02-13,6,Detractor,3,4,My manager does not give me time for off-the-job training.
+FB70454,LRN20996,E1114,SD4,Onboarding survey,2026-07-07,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70455,LRN20980,E1142,SD4,Exit survey,2024-06-29,4,Detractor,2,1,My manager does not give me time for off-the-job training.
+FB70456,LRN22068,E1102,DTS6,Mid-point survey,2023-12-24,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70457,LRN20061,E1066,PP5,Exit survey,2025-11-08,8,Passive,4,4,Would like more examples from my sector.
+FB70458,LRN21331,E1138,BA4,Onboarding survey,2025-09-10,7,Passive,3,3,Good overall but some workshops feel rushed.
+FB70459,LRN21435,E1054,AI4,Mid-point survey,2026-03-25,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70460,LRN22114,E1044,TL3,Exit survey,2025-08-12,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70461,LRN20489,E1131,DA4,Onboarding survey,2025-07-30,5,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70462,LRN20425,E1128,DT3,Exit survey,2025-12-05,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70463,LRN20776,E1066,SPP7,Onboarding survey,2026-02-20,4,Detractor,2,1,I have struggled with the workload and did not feel listened to.
+FB70464,LRN22112,E1049,AI3,Exit survey,2025-11-13,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70465,LRN20973,P014,DE5,Mid-point survey,2026-04-06,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70466,LRN20759,E1139,AI3,Onboarding survey,2024-06-23,7,Passive,3,4,Would like more examples from my sector.
+FB70467,LRN21383,E1049,AI4,Exit survey,2025-11-16,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70468,LRN20902,E1129,TL3,Mid-point survey,2026-10-18,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70469,LRN21286,E1078,DA4,Onboarding survey,2026-05-24,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70470,LRN20232,E1077,SPP7,Mid-point survey,2025-01-10,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70471,LRN20537,E1049,AI4,Mid-point survey,2026-04-10,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB70472,LRN20247,E1134,DA4,Onboarding survey,2026-01-04,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70473,LRN22142,P017,OM5,Mid-point survey,2025-04-25,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70474,LRN21576,E1044,PM4,Mid-point survey,2025-08-11,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70475,LRN20003,E1060,DT3,Mid-point survey,2025-07-20,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70476,LRN21204,E1057,AI3,Exit survey,2025-04-19,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70477,LRN21888,E1134,DA4,Mid-point survey,2024-06-22,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70478,LRN20549,E1093,AI4,Exit survey,2025-09-04,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70479,LRN20313,E1107,DA4,Exit survey,2025-11-28,8,Passive,4,4,Would like more examples from my sector.
+FB70480,LRN20540,E1128,DE5,Exit survey,2026-06-06,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70481,LRN22252,E1106,CM6,Onboarding survey,2026-09-30,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70482,LRN21248,E1065,DA4,Exit survey,2026-01-08,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70483,LRN20045,E1112,TL3,Mid-point survey,2026-03-16,5,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70484,LRN22074,E1128,DA4,Mid-point survey,2026-07-31,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70485,LRN20595,E1124,DA4,Mid-point survey,2026-04-16,5,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70486,LRN20351,E1126,CM6,Mid-point survey,2025-11-29,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70487,LRN21924,E1044,TL3,Mid-point survey,2025-05-23,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70488,LRN21891,P017,OM5,Mid-point survey,2026-08-28,5,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70489,LRN21314,E1074,PM4,Mid-point survey,2026-11-05,6,Detractor,4,3,Too many changes of coach.
+FB70490,LRN20980,E1142,SD4,Exit survey,2024-06-29,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70491,LRN21400,E1139,AI3,Onboarding survey,2026-06-16,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70492,LRN20845,E1042,PM4,Onboarding survey,2026-04-09,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70493,LRN20129,E1081,DTS6,Onboarding survey,2026-10-14,6,Detractor,4,4,I did not feel the programme matched my role.
+FB70494,LRN20734,E1040,AI3,Mid-point survey,2026-08-21,7,Passive,4,4,Would like more examples from my sector.
+FB70495,LRN20978,E1111,PM4,Exit survey,2026-05-24,6,Detractor,4,3,I did not feel the programme matched my role.
+FB70496,LRN21008,E1081,SD4,Onboarding survey,2026-07-17,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70497,LRN21257,E1101,DA4,Onboarding survey,2024-11-23,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70498,LRN21359,E1107,DE5,Mid-point survey,2026-03-26,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70499,LRN20457,E1128,BA4,Mid-point survey,2024-01-11,8,Passive,4,5,"Coach is good, though reviews sometimes get rescheduled."
+FB70500,LRN21895,E1072,AI4,Mid-point survey,2025-04-28,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70501,LRN21391,E1133,AI3,Mid-point survey,2026-08-15,4,Detractor,2,1,Too many changes of coach.
+FB70502,LRN20836,E1069,PP5,Mid-point survey,2026-02-01,8,Passive,4,4,Would like more examples from my sector.
+FB70503,LRN20146,E1098,ML6,Onboarding survey,2025-09-14,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70504,LRN21125,E1131,DA4,Mid-point survey,2026-03-27,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70505,LRN20371,E1134,DE5,Exit survey,2025-12-11,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70506,LRN20252,E1040,AI4,Mid-point survey,2026-02-14,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70507,LRN20917,E1055,DA4,Onboarding survey,2026-02-04,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70508,LRN21895,E1072,AI4,Mid-point survey,2025-04-29,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70509,LRN20870,E1042,OM5,Onboarding survey,2024-10-03,6,Detractor,3,3,Too many changes of coach.
+FB70510,LRN21465,E1129,PM4,Onboarding survey,2026-05-08,8,Passive,5,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70511,LRN21960,P017,PM4,Mid-point survey,2026-11-05,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70512,LRN21024,E1139,AI3,Mid-point survey,2025-09-25,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70513,LRN20804,E1114,SD4,Mid-point survey,2026-05-31,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70514,LRN20291,E1129,OM5,Mid-point survey,2026-10-06,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70515,LRN21292,P015,AI3,Exit survey,2026-07-17,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70516,LRN20827,E1101,DA4,Mid-point survey,2024-10-18,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70517,LRN21763,E1134,DA4,Exit survey,2025-07-11,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70518,LRN21412,P017,OM5,Onboarding survey,2026-10-16,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70519,LRN20391,E1136,AI3,Mid-point survey,2024-01-26,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70520,LRN20333,E1096,BA4,Exit survey,2026-02-05,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70521,LRN20911,E1041,SD4,Mid-point survey,2026-10-22,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70522,LRN20161,E1114,DO4,Exit survey,2026-01-10,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70523,LRN22209,P015,AI3,Mid-point survey,2026-07-10,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70524,LRN21693,E1132,AI4,Mid-point survey,2026-06-30,7,Passive,3,4,Logging OTJ hours is a bit fiddly.
+FB70525,LRN21599,E1131,DA4,Mid-point survey,2026-03-04,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70526,LRN20245,E1117,OM5,Mid-point survey,2026-09-16,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70527,LRN20815,E1050,TL3,Mid-point survey,2025-08-18,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB70528,LRN21834,E1067,AI4,Onboarding survey,2026-08-30,8,Passive,4,3,Would like more examples from my sector.
+FB70529,LRN21069,E1047,DTS6,Onboarding survey,2026-10-01,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70530,LRN21538,E1142,SD4,Exit survey,2026-07-19,9,Promoter,4,4,My coach is brilliant - always prepared and really knows the industry.
+FB70531,LRN20903,E1129,TL3,Onboarding survey,2026-08-07,8,Passive,5,3,Good overall but some workshops feel rushed.
+FB70532,LRN20846,E1128,DA4,Mid-point survey,2026-10-27,6,Detractor,3,4,I have struggled with the workload and did not feel listened to.
+FB70533,LRN21806,E1049,AI3,Onboarding survey,2026-05-23,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70534,LRN20240,E1139,AI4,Mid-point survey,2026-10-28,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70535,LRN21935,E1078,DA4,Onboarding survey,2026-03-22,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70536,LRN20323,P016,BAD3,Onboarding survey,2026-06-17,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70537,LRN21781,E1129,FR3,Mid-point survey,2026-09-18,8,Passive,4,4,Would like more examples from my sector.
+FB70538,LRN20801,E1080,PP5,Mid-point survey,2026-08-08,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70539,LRN21412,P017,OM5,Mid-point survey,2026-09-30,8,Passive,5,3,Good overall but some workshops feel rushed.
+FB70540,LRN21470,E1050,FR3,Onboarding survey,2026-08-31,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70541,LRN20844,E1136,AI3,Mid-point survey,2026-03-31,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70542,LRN21884,E1105,DA4,Mid-point survey,2026-02-26,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70543,LRN22108,E1096,BA4,Mid-point survey,2026-06-05,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70544,LRN20676,E1138,DT3,Exit survey,2025-05-20,4,Detractor,2,2,I did not feel the programme matched my role.
+FB70545,LRN20725,P016,OM5,Mid-point survey,2026-04-07,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB70546,LRN20303,E1124,DT3,Mid-point survey,2026-04-18,7,Passive,4,4,Would like more examples from my sector.
+FB70547,LRN21616,E1101,DA4,Mid-point survey,2026-07-20,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70548,LRN21149,E1049,ML6,Onboarding survey,2025-01-08,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70549,LRN20218,E1049,AI4,Mid-point survey,2026-08-23,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70550,LRN21513,E1134,DA4,Mid-point survey,2025-07-12,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70551,LRN20301,E1142,DTS6,Mid-point survey,2026-07-08,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70552,LRN20819,E1044,OM5,Mid-point survey,2024-12-12,7,Passive,4,4,Would like more examples from my sector.
+FB70553,LRN21786,E1131,DE5,Onboarding survey,2025-02-14,6,Detractor,3,4,Too many changes of coach.
+FB70554,LRN21705,E1084,DT3,Mid-point survey,2026-01-07,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70555,LRN20415,E1065,BA4,Exit survey,2025-12-20,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70556,LRN20281,E1111,OM5,Exit survey,2025-04-09,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70557,LRN20113,E1055,DA4,Mid-point survey,2026-05-26,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70558,LRN21424,E1080,PP5,Mid-point survey,2025-07-25,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70559,LRN21714,P016,FR3,Mid-point survey,2026-10-03,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70560,LRN20775,P016,FR3,Mid-point survey,2026-05-31,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70561,LRN21957,E1081,DTS6,Mid-point survey,2024-12-24,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70562,LRN20984,E1134,DT3,Onboarding survey,2026-10-29,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70563,LRN20568,E1081,DO4,Exit survey,2025-12-09,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70564,LRN21388,E1078,BA4,Mid-point survey,2024-09-11,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70565,LRN20566,E1074,TL3,Mid-point survey,2026-08-10,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70566,LRN20668,E1049,ML6,Onboarding survey,2026-09-10,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70567,LRN20915,E1139,AI4,Onboarding survey,2026-09-18,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70568,LRN21573,E1114,SD4,Mid-point survey,2026-10-24,7,Passive,4,3,Would like more examples from my sector.
+FB70569,LRN21951,E1044,PM4,Mid-point survey,2026-10-18,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70570,LRN21814,E1132,ML6,Onboarding survey,2026-07-22,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70571,LRN22025,E1117,PM4,Mid-point survey,2026-09-16,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70572,LRN21925,E1043,DT3,Exit survey,2025-04-04,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70573,LRN20999,P015,AI3,Mid-point survey,2026-09-29,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70574,LRN20376,E1106,PM4,Mid-point survey,2026-02-26,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70575,LRN20970,E1132,AI4,Exit survey,2026-01-12,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70576,LRN20258,E1067,AI4,Exit survey,2026-08-30,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70577,LRN20808,E1098,AI3,Mid-point survey,2024-08-17,8,Passive,4,5,"Coach is good, though reviews sometimes get rescheduled."
+FB70578,LRN21259,E1132,AI4,Onboarding survey,2026-02-01,5,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70579,LRN21886,E1053,PM4,Onboarding survey,2025-11-25,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70580,LRN21582,E1105,DA4,Mid-point survey,2024-12-25,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70581,LRN20973,P014,DE5,Mid-point survey,2024-11-04,8,Passive,4,4,Would like more examples from my sector.
+FB70582,LRN21516,E1106,TL3,Exit survey,2026-04-10,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70583,LRN21286,E1078,DA4,Onboarding survey,2026-09-28,7,Passive,3,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70584,LRN20232,E1077,SPP7,Mid-point survey,2026-05-10,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70585,LRN20321,E1098,AI3,Mid-point survey,2025-05-26,5,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70586,LRN21065,P014,DE5,Mid-point survey,2026-05-05,4,Detractor,2,2,I have struggled with the workload and did not feel listened to.
+FB70587,LRN22104,E1078,DA4,Mid-point survey,2026-09-24,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70588,LRN21611,P014,DA4,Onboarding survey,2024-02-06,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70589,LRN20319,E1041,DTS6,Mid-point survey,2026-07-30,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70590,LRN20761,E1069,SPP7,Mid-point survey,2026-05-23,3,Detractor,1,2,Too many changes of coach.
+FB70591,LRN20256,E1112,OM5,Mid-point survey,2026-10-14,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70592,LRN20309,E1077,PP5,Exit survey,2025-09-02,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70593,LRN20537,E1049,AI4,Exit survey,2026-09-29,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70594,LRN21420,E1136,AI3,Mid-point survey,2024-09-16,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70595,LRN21848,E1139,AI3,Onboarding survey,2026-09-12,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70596,LRN21958,E1106,TL3,Mid-point survey,2026-10-11,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70597,LRN21147,E1041,DO4,Mid-point survey,2025-03-03,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70598,LRN22278,E1077,PP5,Onboarding survey,2025-08-05,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70599,LRN21049,E1047,SD4,Onboarding survey,2026-03-18,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70600,LRN21351,E1067,AI4,Mid-point survey,2026-10-06,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70601,LRN21556,E1071,TL3,Mid-point survey,2025-02-19,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70602,LRN21848,E1139,AI3,Mid-point survey,2026-02-19,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70603,LRN22103,E1124,DA4,Mid-point survey,2024-04-27,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70604,LRN21773,E1071,PM4,Onboarding survey,2026-04-16,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70605,LRN21030,E1114,SD4,Onboarding survey,2026-07-08,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70606,LRN22246,E1129,PM4,Onboarding survey,2026-05-17,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70607,LRN21521,E1074,CM6,Onboarding survey,2025-09-01,7,Passive,3,3,Would like more examples from my sector.
+FB70608,LRN21938,E1084,DT3,Exit survey,2026-06-12,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70609,LRN21594,E1129,OM5,Onboarding survey,2025-09-09,5,Detractor,2,3,I have struggled with the workload and did not feel listened to.
+FB70610,LRN20507,E1042,CM6,Mid-point survey,2026-08-10,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70611,LRN20692,E1054,AI3,Exit survey,2025-07-02,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70612,LRN21683,E1107,DT3,Mid-point survey,2026-02-02,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70613,LRN21638,E1053,OM5,Onboarding survey,2026-03-04,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70614,LRN21794,E1124,DT3,Exit survey,2024-05-28,4,Detractor,2,2,My manager does not give me time for off-the-job training.
+FB70615,LRN20927,E1105,DA4,Onboarding survey,2026-07-04,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70616,LRN20498,E1049,AI4,Mid-point survey,2024-11-18,8,Passive,4,4,Would like more examples from my sector.
+FB70617,LRN20444,E1065,DA4,Exit survey,2025-03-07,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70618,LRN21850,E1067,AI4,Mid-point survey,2025-10-05,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70619,LRN20488,E1074,OM5,Exit survey,2025-11-14,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70620,LRN21522,E1139,AI4,Onboarding survey,2026-01-18,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70621,LRN20601,E1114,SD4,Mid-point survey,2026-06-10,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70622,LRN21224,E1139,AI4,Mid-point survey,2026-04-28,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70623,LRN22138,E1091,BAD3,Mid-point survey,2026-03-15,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70624,LRN21760,E1117,PM4,Onboarding survey,2026-08-25,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70625,LRN20945,E1055,DA4,Exit survey,2025-05-12,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70626,LRN20888,E1091,PM4,Onboarding survey,2026-11-04,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70627,LRN21962,E1043,DA4,Onboarding survey,2024-06-30,8,Passive,5,3,Good overall but some workshops feel rushed.
+FB70628,LRN20125,E1117,TL3,Exit survey,2025-08-16,8,Passive,4,4,Would like more examples from my sector.
+FB70629,LRN21330,E1095,DE5,Mid-point survey,2026-03-30,7,Passive,3,3,Would like more examples from my sector.
+FB70630,LRN20474,E1128,DT3,Onboarding survey,2026-09-15,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70631,LRN21578,P015,AI3,Exit survey,2025-04-04,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70632,LRN21051,E1111,SL7,Mid-point survey,2025-10-02,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70633,LRN20389,E1103,BA4,Mid-point survey,2024-04-24,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70634,LRN20519,E1132,AI4,Onboarding survey,2026-03-08,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70635,LRN20698,E1091,BAD3,Exit survey,2025-04-28,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70636,LRN21569,E1045,OM5,Mid-point survey,2026-01-27,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70637,LRN20713,E1045,TL3,Exit survey,2026-05-18,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70638,LRN21505,E1080,SPP7,Mid-point survey,2025-08-02,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70639,LRN20250,E1050,CM6,Mid-point survey,2026-10-02,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70640,LRN21737,E1129,BAD3,Exit survey,2025-03-07,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70641,LRN22204,E1040,AI3,Onboarding survey,2025-12-17,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70642,LRN20585,P016,SL7,Exit survey,2026-09-04,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70643,LRN20438,E1132,AI3,Mid-point survey,2026-06-16,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70644,LRN21523,E1129,OM5,Exit survey,2026-05-17,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70645,LRN22080,E1114,DO4,Onboarding survey,2026-01-29,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70646,LRN20375,E1078,BA4,Mid-point survey,2026-06-10,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70647,LRN21282,E1124,DA4,Onboarding survey,2026-10-31,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70648,LRN21069,E1047,DTS6,Mid-point survey,2026-02-05,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70649,LRN22283,E1098,AI3,Exit survey,2025-12-14,8,Passive,5,4,Would like more examples from my sector.
+FB70650,LRN20515,E1132,AI3,Onboarding survey,2025-03-23,6,Detractor,3,3,Too many changes of coach.
+FB70651,LRN20652,E1078,BA4,Exit survey,2025-11-23,8,Passive,4,3,Would like more examples from my sector.
+FB70652,LRN21146,E1042,BAD3,Mid-point survey,2024-12-17,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70653,LRN21218,E1053,BAD3,Mid-point survey,2025-06-23,7,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70654,LRN20730,E1111,BAD3,Mid-point survey,2026-06-06,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70655,LRN20007,E1080,PP5,Onboarding survey,2026-09-18,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70656,LRN21197,E1084,BA4,Onboarding survey,2026-08-05,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70657,LRN20566,E1074,TL3,Onboarding survey,2026-08-12,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70658,LRN21080,E1128,DE5,Mid-point survey,2025-07-31,8,Passive,4,4,Would like more examples from my sector.
+FB70659,LRN20119,E1117,BAD3,Onboarding survey,2026-02-22,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70660,LRN21281,E1043,DA4,Mid-point survey,2026-08-03,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70661,LRN21092,E1074,OM5,Exit survey,2026-07-16,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70662,LRN20844,E1136,AI3,Onboarding survey,2026-04-10,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70663,LRN21611,P014,DA4,Exit survey,2024-12-28,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70664,LRN20437,E1045,BAD3,Onboarding survey,2026-10-12,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70665,LRN20906,E1049,AI3,Mid-point survey,2026-01-22,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70666,LRN20848,E1101,DT3,Onboarding survey,2026-04-04,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70667,LRN22120,E1077,PP5,Mid-point survey,2026-04-15,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70668,LRN20621,E1117,OM5,Exit survey,2026-03-07,8,Passive,4,4,Would like more examples from my sector.
+FB70669,LRN22187,E1082,AI3,Mid-point survey,2024-09-20,6,Detractor,3,2,Too many changes of coach.
+FB70670,LRN21867,E1134,DA4,Exit survey,2026-04-02,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70671,LRN22212,E1142,SD4,Mid-point survey,2026-02-05,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70672,LRN20502,E1053,OM5,Exit survey,2026-03-16,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB70673,LRN21141,E1095,DT3,Onboarding survey,2025-09-22,5,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70674,LRN21766,E1138,DT3,Exit survey,2025-04-23,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70675,LRN21749,P017,TL3,Exit survey,2026-05-19,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70676,LRN21598,E1093,AI3,Mid-point survey,2026-07-06,5,Detractor,3,2,I did not feel the programme matched my role.
+FB70677,LRN20458,E1053,OM5,Mid-point survey,2026-09-01,6,Detractor,4,3,My manager does not give me time for off-the-job training.
+FB70678,LRN20721,E1117,PM4,Exit survey,2025-12-03,6,Detractor,3,2,I did not feel the programme matched my role.
+FB70679,LRN21884,E1105,DA4,Mid-point survey,2026-03-06,7,Passive,3,3,Would like more examples from my sector.
+FB70680,LRN20979,E1112,TL3,Mid-point survey,2026-02-02,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70681,LRN22037,E1115,DA4,Mid-point survey,2024-06-22,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70682,LRN20309,E1077,PP5,Exit survey,2025-09-02,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70683,LRN20517,E1091,BAD3,Onboarding survey,2024-11-10,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70684,LRN21660,E1129,PM4,Mid-point survey,2025-05-05,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70685,LRN20953,E1045,TL3,Mid-point survey,2025-11-11,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70686,LRN20529,E1112,OM5,Onboarding survey,2026-09-06,7,Passive,4,3,Would like more examples from my sector.
+FB70687,LRN20321,E1098,AI3,Exit survey,2026-01-03,6,Detractor,3,2,Too many changes of coach.
+FB70688,LRN21433,E1043,DT3,Exit survey,2026-04-05,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70689,LRN21044,E1080,PP5,Exit survey,2026-07-11,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70690,LRN22182,E1102,SD4,Mid-point survey,2026-11-02,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70691,LRN22175,E1044,PM4,Mid-point survey,2026-02-18,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70692,LRN21885,P017,SL7,Onboarding survey,2026-07-08,9,Promoter,4,5,Great balance of theory and workplace projects.
+FB70693,LRN20819,E1044,OM5,Exit survey,2025-10-11,6,Detractor,3,2,Too many changes of coach.
+FB70694,LRN20063,E1057,AI4,Exit survey,2025-10-19,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70695,LRN20496,E1071,OM5,Mid-point survey,2025-11-15,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70696,LRN21951,E1044,PM4,Onboarding survey,2026-10-28,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70697,LRN20954,E1142,DO4,Mid-point survey,2025-12-22,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70698,LRN20591,E1080,PP5,Mid-point survey,2026-04-26,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70699,LRN21072,E1044,TL3,Mid-point survey,2025-06-17,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70700,LRN21402,E1132,AI3,Exit survey,2026-07-22,5,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70701,LRN21923,E1084,DA4,Exit survey,2026-04-25,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70702,LRN21469,E1065,BA4,Mid-point survey,2024-11-29,5,Detractor,2,2,I did not feel the programme matched my role.
+FB70703,LRN21716,E1117,OM5,Mid-point survey,2026-09-28,9,Promoter,4,4,My coach is brilliant - always prepared and really knows the industry.
+FB70704,LRN22021,E1071,PM4,Exit survey,2026-01-07,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70705,LRN20620,E1084,DA4,Exit survey,2025-09-17,3,Detractor,2,1,Workshops clash with my shifts and recordings are not the same.
+FB70706,LRN21653,E1044,SL7,Onboarding survey,2026-03-24,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB70707,LRN21499,E1049,AI3,Onboarding survey,2026-04-16,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70708,LRN21829,E1105,DE5,Mid-point survey,2026-10-17,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70709,LRN20997,E1112,TL3,Mid-point survey,2026-06-29,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70710,LRN20029,E1139,AI4,Mid-point survey,2025-10-16,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70711,LRN21918,E1077,PP5,Mid-point survey,2026-07-19,8,Passive,5,3,Would like more examples from my sector.
+FB70712,LRN20707,E1101,DT3,Exit survey,2025-12-16,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70713,LRN21211,E1067,AI4,Mid-point survey,2026-07-19,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70714,LRN21251,E1112,OM5,Mid-point survey,2025-07-25,7,Passive,4,3,Would like more examples from my sector.
+FB70715,LRN22045,E1072,AI4,Exit survey,2025-07-03,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70716,LRN21255,E1139,AI3,Mid-point survey,2026-10-07,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70717,LRN20831,E1115,DA4,Mid-point survey,2024-05-17,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70718,LRN21632,E1050,TL3,Exit survey,2025-09-21,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70719,LRN20112,E1071,OM5,Mid-point survey,2025-06-29,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70720,LRN21345,E1049,AI3,Exit survey,2026-09-07,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70721,LRN21635,E1127,BA4,Mid-point survey,2025-01-28,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70722,LRN21216,E1043,DE5,Exit survey,2025-07-17,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70723,LRN22178,E1136,AI3,Mid-point survey,2026-06-11,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70724,LRN21142,E1081,SD4,Mid-point survey,2026-09-09,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70725,LRN20347,E1101,DA4,Mid-point survey,2026-01-04,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70726,LRN21773,E1071,PM4,Mid-point survey,2025-09-10,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70727,LRN22038,P017,OM5,Exit survey,2025-08-24,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70728,LRN20843,E1045,OM5,Onboarding survey,2025-07-19,6,Detractor,3,2,Too many changes of coach.
+FB70729,LRN20018,E1133,AI3,Exit survey,2026-04-15,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70730,LRN20992,E1101,DA4,Mid-point survey,2025-12-04,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70731,LRN21583,E1115,DA4,Mid-point survey,2026-04-17,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70732,LRN20947,E1142,SD4,Mid-point survey,2026-08-26,7,Passive,4,4,Would like more examples from my sector.
+FB70733,LRN21861,E1126,SL7,Mid-point survey,2025-10-10,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70734,LRN20182,E1115,DA4,Onboarding survey,2026-08-20,8,Passive,4,4,Would like more examples from my sector.
+FB70735,LRN22294,E1131,DT3,Mid-point survey,2025-05-29,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70736,LRN21056,E1105,BA4,Mid-point survey,2026-01-15,8,Passive,5,3,Logging OTJ hours is a bit fiddly.
+FB70737,LRN21228,E1050,SL7,Mid-point survey,2025-01-29,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70738,LRN22257,E1042,TL3,Onboarding survey,2024-04-19,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70739,LRN21059,E1069,PP5,Mid-point survey,2024-02-13,6,Detractor,4,2,Workshops clash with my shifts and recordings are not the same.
+FB70740,LRN20639,E1043,DA4,Exit survey,2025-07-15,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70741,LRN22005,E1091,OM5,Onboarding survey,2025-09-28,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70742,LRN21798,E1054,AI3,Onboarding survey,2024-10-06,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70743,LRN21853,E1139,AI3,Mid-point survey,2026-02-21,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70744,LRN21351,E1067,AI4,Mid-point survey,2026-05-19,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70745,LRN20955,E1065,DA4,Mid-point survey,2026-08-30,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70746,LRN21811,E1115,DA4,Mid-point survey,2026-10-22,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70747,LRN20328,E1067,AI3,Mid-point survey,2025-05-13,8,Passive,4,4,Would like more examples from my sector.
+FB70748,LRN21781,E1129,FR3,Onboarding survey,2026-06-26,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70749,LRN20986,E1067,AI3,Exit survey,2026-10-03,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70750,LRN20857,E1106,OM5,Mid-point survey,2026-08-02,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70751,LRN21840,E1050,OM5,Mid-point survey,2025-06-21,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70752,LRN20504,E1050,CM6,Exit survey,2025-08-19,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70753,LRN20971,E1067,AI3,Exit survey,2026-10-31,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70754,LRN22161,E1115,BA4,Mid-point survey,2026-02-26,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70755,LRN20605,E1055,DA4,Mid-point survey,2025-08-15,8,Passive,4,4,Would like more examples from my sector.
+FB70756,LRN21162,E1102,DTS6,Mid-point survey,2026-07-16,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70757,LRN20772,E1045,TL3,Mid-point survey,2025-09-15,7,Passive,4,3,Would like more examples from my sector.
+FB70758,LRN21445,E1044,PM4,Mid-point survey,2025-11-27,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70759,LRN20965,E1131,DA4,Onboarding survey,2025-01-20,8,Passive,4,4,Would like more examples from my sector.
+FB70760,LRN22017,E1050,CM6,Mid-point survey,2025-11-27,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70761,LRN20844,E1136,AI3,Mid-point survey,2026-05-25,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70762,LRN21611,P014,DA4,Exit survey,2024-12-28,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB70763,LRN21394,E1053,OM5,Onboarding survey,2025-05-12,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70764,LRN21318,E1054,AI4,Exit survey,2026-05-15,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70765,LRN20275,E1136,AI4,Exit survey,2025-11-13,6,Detractor,3,3,Too many changes of coach.
+FB70766,LRN20767,E1124,DA4,Exit survey,2024-09-13,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB70767,LRN21050,E1095,DA4,Onboarding survey,2026-05-11,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70768,LRN21206,P017,PM4,Onboarding survey,2024-10-26,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70769,LRN20075,E1040,AI3,Onboarding survey,2026-02-01,4,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70770,LRN20377,E1074,OM5,Onboarding survey,2026-03-14,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70771,LRN20490,E1041,DO4,Onboarding survey,2026-08-08,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70772,LRN20090,E1080,PP5,Mid-point survey,2026-10-21,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70773,LRN20312,E1072,AI4,Exit survey,2025-09-03,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70774,LRN21631,E1044,TL3,Onboarding survey,2026-07-28,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70775,LRN20326,E1049,AI3,Mid-point survey,2026-02-18,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70776,LRN21851,E1138,DT3,Mid-point survey,2025-08-11,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70777,LRN20320,E1124,DA4,Mid-point survey,2026-10-21,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70778,LRN21688,P014,DT3,Onboarding survey,2026-09-04,8,Passive,5,4,Would like more examples from my sector.
+FB70779,LRN21867,E1134,DA4,Onboarding survey,2025-09-07,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70780,LRN21248,E1065,DA4,Exit survey,2026-01-08,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70781,LRN20950,E1072,AI4,Onboarding survey,2025-10-22,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70782,LRN21754,E1078,DE5,Exit survey,2026-06-08,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB70783,LRN20113,E1055,DA4,Mid-point survey,2026-09-05,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70784,LRN20877,E1045,PM4,Mid-point survey,2026-01-02,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70785,LRN20863,E1054,AI3,Mid-point survey,2026-03-16,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70786,LRN20672,E1057,AI4,Mid-point survey,2026-02-20,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70787,LRN20621,E1117,OM5,Exit survey,2026-03-07,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70788,LRN21347,E1131,DT3,Onboarding survey,2025-11-06,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70789,LRN21037,E1095,DA4,Mid-point survey,2026-10-09,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70790,LRN20512,E1055,DT3,Mid-point survey,2025-07-29,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70791,LRN22037,E1115,DA4,Onboarding survey,2025-07-09,7,Passive,4,3,Would like more examples from my sector.
+FB70792,LRN20200,E1117,TL3,Exit survey,2025-06-01,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70793,LRN21305,E1103,DT3,Mid-point survey,2026-08-14,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70794,LRN20783,E1111,TL3,Mid-point survey,2026-08-23,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70795,LRN20602,E1054,AI4,Exit survey,2025-03-26,5,Detractor,2,2,Workshops clash with my shifts and recordings are not the same.
+FB70796,LRN21289,E1053,TL3,Exit survey,2025-03-15,8,Passive,5,3,Would like more examples from my sector.
+FB70797,LRN21841,E1117,CM6,Mid-point survey,2026-10-24,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70798,LRN20030,E1054,AI3,Exit survey,2026-04-25,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70799,LRN20973,P014,DE5,Mid-point survey,2025-04-01,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70800,LRN21027,E1102,DTS6,Onboarding survey,2025-12-16,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70801,LRN21376,E1091,BAD3,Onboarding survey,2026-09-15,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70802,LRN20410,P014,BA4,Mid-point survey,2025-09-19,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70803,LRN21419,E1107,BA4,Mid-point survey,2026-02-15,7,Passive,4,3,Would like more examples from my sector.
+FB70804,LRN20184,E1133,AI4,Exit survey,2026-09-21,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70805,LRN20966,E1093,AI3,Onboarding survey,2026-10-26,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70806,LRN20820,E1045,OM5,Mid-point survey,2026-04-26,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70807,LRN20561,E1096,DT3,Onboarding survey,2026-10-10,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70808,LRN21618,E1066,PP5,Mid-point survey,2026-09-02,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70809,LRN21070,P016,PM4,Exit survey,2025-12-01,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70810,LRN20306,E1133,AI3,Onboarding survey,2025-02-08,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70811,LRN20239,E1112,OM5,Exit survey,2026-06-02,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70812,LRN21046,E1072,AI4,Mid-point survey,2026-06-17,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70813,LRN21078,E1105,DA4,Mid-point survey,2025-06-03,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70814,LRN21728,E1081,SD4,Mid-point survey,2024-11-29,8,Passive,4,4,Would like more examples from my sector.
+FB70815,LRN22200,E1133,AI3,Mid-point survey,2025-01-26,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70816,LRN21962,E1043,DA4,Exit survey,2025-10-09,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70817,LRN21570,E1111,CM6,Mid-point survey,2026-07-12,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70818,LRN20591,E1080,PP5,Onboarding survey,2025-04-14,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70819,LRN20875,E1106,TL3,Onboarding survey,2024-04-08,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70820,LRN20011,E1126,OM5,Mid-point survey,2026-03-01,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70821,LRN20020,E1072,AI3,Mid-point survey,2026-07-27,5,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70822,LRN21830,E1041,SD4,Onboarding survey,2024-06-28,5,Detractor,3,2,Too many changes of coach.
+FB70823,LRN20147,E1072,AI3,Mid-point survey,2026-10-19,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB70824,LRN21587,E1078,DT3,Mid-point survey,2026-07-17,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70825,LRN20116,E1106,OM5,Onboarding survey,2026-10-20,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70826,LRN21138,E1107,DT3,Mid-point survey,2026-03-31,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70827,LRN20792,E1049,AI3,Mid-point survey,2026-06-19,7,Passive,4,3,Would like more examples from my sector.
+FB70828,LRN22180,E1093,AI3,Mid-point survey,2025-10-06,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70829,LRN20786,E1055,DA4,Onboarding survey,2026-06-10,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70830,LRN20191,E1053,TL3,Mid-point survey,2025-10-14,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70831,LRN20986,E1067,AI3,Onboarding survey,2025-05-29,8,Passive,4,3,Would like more examples from my sector.
+FB70832,LRN21044,E1080,PP5,Exit survey,2026-07-11,6,Detractor,3,2,I did not feel the programme matched my role.
+FB70833,LRN21546,E1101,DT3,Mid-point survey,2026-05-29,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70834,LRN21418,E1082,AI4,Exit survey,2025-06-17,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70835,LRN21897,E1106,SL7,Mid-point survey,2025-09-15,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70836,LRN21965,E1142,SD4,Mid-point survey,2025-03-13,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70837,LRN21592,E1080,PP5,Onboarding survey,2026-08-19,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70838,LRN21423,E1101,DA4,Mid-point survey,2026-04-24,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70839,LRN20148,E1111,TL3,Mid-point survey,2026-06-15,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70840,LRN20372,E1107,DA4,Exit survey,2026-11-03,7,Passive,4,3,Would like more examples from my sector.
+FB70841,LRN21957,E1081,DTS6,Onboarding survey,2025-10-29,7,Passive,4,3,Would like more examples from my sector.
+FB70842,LRN21790,E1065,DA4,Exit survey,2025-04-02,4,Detractor,2,1,I have struggled with the workload and did not feel listened to.
+FB70843,LRN20058,E1093,ML6,Exit survey,2024-09-21,4,Detractor,2,2,My manager does not give me time for off-the-job training.
+FB70844,LRN20053,E1103,DT3,Onboarding survey,2026-10-30,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70845,LRN20713,E1045,TL3,Onboarding survey,2025-07-28,5,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70846,LRN21374,E1074,OM5,Mid-point survey,2026-10-24,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB70847,LRN20165,E1050,PM4,Mid-point survey,2026-04-22,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70848,LRN20093,E1084,DA4,Onboarding survey,2026-05-08,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70849,LRN20220,E1045,OM5,Mid-point survey,2026-07-15,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70850,LRN21046,E1072,AI4,Mid-point survey,2026-06-27,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70851,LRN20360,E1115,DT3,Onboarding survey,2026-11-03,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB70852,LRN20495,E1049,AI3,Mid-point survey,2026-09-22,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70853,LRN20451,E1131,DA4,Mid-point survey,2026-10-18,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70854,LRN21756,E1106,CM6,Onboarding survey,2026-08-28,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB70855,LRN20894,E1042,OM5,Mid-point survey,2026-10-29,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70856,LRN21860,E1142,DO4,Mid-point survey,2026-06-08,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70857,LRN20742,E1057,AI3,Mid-point survey,2025-08-22,5,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70858,LRN20449,E1050,OM5,Mid-point survey,2025-07-06,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70859,LRN20272,E1131,DT3,Onboarding survey,2025-06-03,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70860,LRN20523,E1053,PM4,Onboarding survey,2026-09-24,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70861,LRN22238,P017,PM4,Onboarding survey,2026-10-13,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70862,LRN21202,E1042,SL7,Mid-point survey,2024-09-15,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB70863,LRN21397,E1045,OM5,Onboarding survey,2026-06-07,7,Passive,4,3,Would like more examples from my sector.
+FB70864,LRN22043,E1074,OM5,Mid-point survey,2026-05-21,7,Passive,4,3,Would like more examples from my sector.
+FB70865,LRN21932,E1077,PP5,Exit survey,2025-11-13,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70866,LRN20286,E1107,DA4,Exit survey,2025-05-29,7,Passive,4,3,Would like more examples from my sector.
+FB70867,LRN20093,E1084,DA4,Mid-point survey,2026-08-25,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70868,LRN22097,E1043,DE5,Mid-point survey,2026-10-06,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70869,LRN22107,E1102,DTS6,Mid-point survey,2026-11-03,8,Passive,4,3,Would like more examples from my sector.
+FB70870,LRN20711,E1129,FR3,Onboarding survey,2026-05-26,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70871,LRN21472,E1045,CM6,Onboarding survey,2026-06-26,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70872,LRN20243,E1077,PP5,Mid-point survey,2023-09-13,7,Passive,4,3,Would like more examples from my sector.
+FB70873,LRN20364,E1066,PP5,Onboarding survey,2026-03-27,5,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB70874,LRN21502,E1129,PM4,Onboarding survey,2026-08-24,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70875,LRN20234,E1077,SPP7,Onboarding survey,2026-01-13,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70876,LRN21128,E1103,DT3,Exit survey,2026-06-21,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70877,LRN21699,E1067,AI3,Exit survey,2026-05-23,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70878,LRN21066,E1115,DT3,Exit survey,2025-11-24,9,Promoter,4,5,I have already used what I learned to automate a weekly report at work.
+FB70879,LRN22059,E1101,DT3,Onboarding survey,2026-09-16,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70880,LRN21065,P014,DE5,Mid-point survey,2026-02-12,7,Passive,3,3,Would like more examples from my sector.
+FB70881,LRN20521,E1045,PM4,Mid-point survey,2024-03-11,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70882,LRN22172,E1103,DA4,Mid-point survey,2026-02-18,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70883,LRN21031,E1072,ML6,Exit survey,2026-03-15,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70884,LRN20151,E1071,FR3,Mid-point survey,2024-07-15,6,Detractor,4,3,Too many changes of coach.
+FB70885,LRN20668,E1049,ML6,Mid-point survey,2026-09-03,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70886,LRN20198,E1133,AI3,Onboarding survey,2026-02-24,7,Passive,4,4,Would like more examples from my sector.
+FB70887,LRN20763,E1103,DA4,Onboarding survey,2024-06-16,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70888,LRN20951,E1060,DT3,Mid-point survey,2026-04-22,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70889,LRN21012,E1098,AI4,Onboarding survey,2026-08-07,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70890,LRN21212,E1129,FR3,Onboarding survey,2025-02-08,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70891,LRN21224,E1139,AI4,Mid-point survey,2026-02-21,9,Promoter,4,4,The live workshops are the best part; practical and relevant to my job.
+FB70892,LRN20197,E1084,DA4,Onboarding survey,2024-06-16,7,Passive,3,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70893,LRN22085,E1067,AI3,Mid-point survey,2025-01-22,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70894,LRN22205,E1126,CM6,Mid-point survey,2024-07-15,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70895,LRN21066,E1115,DT3,Exit survey,2025-11-24,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70896,LRN21050,E1095,DA4,Mid-point survey,2026-07-27,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70897,LRN20939,E1115,DA4,Onboarding survey,2025-02-01,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70898,LRN20538,E1078,DT3,Onboarding survey,2026-07-09,5,Detractor,3,2,Too many changes of coach.
+FB70899,LRN21865,E1105,DA4,Exit survey,2025-02-17,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70900,LRN20194,E1043,DA4,Onboarding survey,2026-07-21,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70901,LRN20321,E1098,AI3,Onboarding survey,2024-12-09,4,Detractor,2,2,Too many changes of coach.
+FB70902,LRN20595,E1124,DA4,Mid-point survey,2026-02-18,6,Detractor,4,2,Too many changes of coach.
+FB70903,LRN21433,E1043,DT3,Mid-point survey,2025-11-08,8,Passive,5,5,Would like more examples from my sector.
+FB70904,LRN20891,E1093,AI3,Onboarding survey,2025-11-20,7,Passive,4,4,Would like more examples from my sector.
+FB70905,LRN21263,E1053,OM5,Exit survey,2026-01-25,5,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70906,LRN21386,E1098,AI4,Onboarding survey,2026-08-22,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB70907,LRN20400,E1057,AI3,Exit survey,2026-06-07,6,Detractor,3,3,I did not feel the programme matched my role.
+FB70908,LRN21471,E1091,TL3,Onboarding survey,2025-12-10,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70909,LRN22178,E1136,AI3,Mid-point survey,2026-06-30,8,Passive,5,4,Would like more examples from my sector.
+FB70910,LRN22162,E1139,AI3,Onboarding survey,2026-04-22,6,Detractor,3,3,Too many changes of coach.
+FB70911,LRN21277,E1065,DA4,Exit survey,2026-02-17,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB70912,LRN21792,E1066,PP5,Mid-point survey,2026-01-01,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70913,LRN21148,E1115,DT3,Onboarding survey,2025-07-27,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70914,LRN20970,E1132,AI4,Exit survey,2026-01-12,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70915,LRN20045,E1112,TL3,Mid-point survey,2026-03-17,9,Promoter,4,4,My coach is brilliant - always prepared and really knows the industry.
+FB70916,LRN20381,P014,BA4,Onboarding survey,2026-06-21,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70917,LRN22031,E1127,DA4,Mid-point survey,2026-10-15,10,Promoter,5,4,Great balance of theory and workplace projects.
+FB70918,LRN20349,E1115,BA4,Onboarding survey,2026-07-28,9,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70919,LRN21568,E1055,BA4,Mid-point survey,2026-10-16,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70920,LRN21731,E1126,OM5,Exit survey,2025-12-20,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70921,LRN20727,E1071,OM5,Onboarding survey,2026-05-20,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70922,LRN21587,E1078,DT3,Mid-point survey,2025-03-29,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70923,LRN20285,E1077,PP5,Mid-point survey,2026-07-14,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB70924,LRN21321,E1045,PM4,Mid-point survey,2025-08-11,6,Detractor,3,2,My manager does not give me time for off-the-job training.
+FB70925,LRN20861,E1050,OM5,Mid-point survey,2026-10-31,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70926,LRN21090,E1114,DTS6,Mid-point survey,2025-10-03,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70927,LRN21596,E1126,OM5,Mid-point survey,2026-09-06,9,Promoter,4,4,My coach is brilliant - always prepared and really knows the industry.
+FB70928,LRN21009,P015,AI3,Exit survey,2025-05-02,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70929,LRN21417,E1060,DE5,Exit survey,2026-01-14,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70930,LRN21431,E1102,DTS6,Onboarding survey,2026-05-16,5,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB70931,LRN21384,E1142,DO4,Mid-point survey,2026-06-13,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70932,LRN22109,E1136,AI4,Mid-point survey,2026-09-20,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70933,LRN22104,E1078,DA4,Mid-point survey,2026-08-10,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB70934,LRN21084,E1071,TL3,Exit survey,2025-03-12,8,Passive,4,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70935,LRN21093,E1132,AI3,Onboarding survey,2026-01-12,10,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB70936,LRN20135,P017,CM6,Onboarding survey,2026-07-11,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70937,LRN20179,E1060,BA4,Mid-point survey,2023-10-22,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70938,LRN21157,E1084,DT3,Onboarding survey,2025-10-24,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70939,LRN21945,E1093,AI3,Mid-point survey,2026-10-29,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70940,LRN21757,E1114,SD4,Exit survey,2026-08-29,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70941,LRN20725,P016,OM5,Onboarding survey,2026-05-01,8,Passive,4,5,Would like more examples from my sector.
+FB70942,LRN21859,E1095,BA4,Onboarding survey,2026-11-02,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70943,LRN20685,P017,TL3,Exit survey,2025-08-12,9,Promoter,4,4,I have already used what I learned to automate a weekly report at work.
+FB70944,LRN21219,E1098,AI4,Mid-point survey,2026-01-02,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70945,LRN20833,E1128,DT3,Mid-point survey,2026-10-22,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70946,LRN22124,E1044,TL3,Onboarding survey,2026-01-24,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70947,LRN21683,E1107,DT3,Mid-point survey,2025-11-30,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB70948,LRN21365,E1138,DE5,Mid-point survey,2025-09-09,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70949,LRN21426,E1071,OM5,Onboarding survey,2026-06-15,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB70950,LRN20210,E1071,OM5,Onboarding survey,2025-06-03,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70951,LRN21190,E1132,AI3,Mid-point survey,2026-05-11,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB70952,LRN21667,E1103,DT3,Onboarding survey,2026-07-21,8,Passive,5,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70953,LRN22025,E1117,PM4,Mid-point survey,2026-08-05,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70954,LRN20350,E1106,SL7,Onboarding survey,2025-04-27,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70955,LRN20489,E1131,DA4,Onboarding survey,2026-02-22,6,Detractor,3,3,Too many changes of coach.
+FB70956,LRN21260,E1084,DA4,Mid-point survey,2026-08-19,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70957,LRN21808,E1074,CM6,Mid-point survey,2026-02-16,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70958,LRN20223,E1101,DA4,Mid-point survey,2025-10-01,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70959,LRN22145,E1057,ML6,Mid-point survey,2024-06-21,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70960,LRN20688,E1131,DT3,Onboarding survey,2025-06-01,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70961,LRN20746,E1103,DE5,Mid-point survey,2026-10-11,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB70962,LRN21729,E1049,AI3,Mid-point survey,2026-08-30,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB70963,LRN20395,E1142,DO4,Mid-point survey,2025-07-10,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB70964,LRN20320,E1124,DA4,Mid-point survey,2026-08-15,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70965,LRN21047,E1053,CM6,Mid-point survey,2026-09-27,9,Promoter,4,4,I have already used what I learned to automate a weekly report at work.
+FB70966,LRN22209,P015,AI3,Mid-point survey,2026-03-17,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70967,LRN21736,E1078,BA4,Mid-point survey,2026-10-10,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70968,LRN21915,E1040,AI3,Exit survey,2025-01-29,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70969,LRN21665,E1098,AI3,Exit survey,2025-05-17,9,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70970,LRN22123,P016,PM4,Mid-point survey,2025-07-04,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70971,LRN20471,P015,AI3,Onboarding survey,2026-10-29,7,Passive,3,4,Logging OTJ hours is a bit fiddly.
+FB70972,LRN21370,E1054,AI3,Mid-point survey,2026-10-07,9,Promoter,4,5,The live workshops are the best part; practical and relevant to my job.
+FB70973,LRN21924,E1044,TL3,Exit survey,2025-11-02,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB70974,LRN20830,E1072,AI4,Mid-point survey,2026-10-01,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB70975,LRN22227,E1049,AI3,Mid-point survey,2026-10-28,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70976,LRN21426,E1071,OM5,Mid-point survey,2025-11-21,9,Promoter,4,5,I have already used what I learned to automate a weekly report at work.
+FB70977,LRN21632,E1050,TL3,Exit survey,2025-09-21,6,Detractor,4,2,Workshops clash with my shifts and recordings are not the same.
+FB70978,LRN20818,E1071,SL7,Exit survey,2026-04-28,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB70979,LRN20333,E1096,BA4,Mid-point survey,2025-08-05,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70980,LRN20634,E1049,AI3,Mid-point survey,2026-08-08,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70981,LRN20342,E1072,AI3,Mid-point survey,2026-10-05,8,Passive,5,4,Would like more examples from my sector.
+FB70982,LRN20492,E1055,DA4,Mid-point survey,2026-05-01,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB70983,LRN21390,E1096,DA4,Mid-point survey,2024-08-22,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70984,LRN21972,E1047,SD4,Mid-point survey,2026-05-26,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB70985,LRN21000,E1084,DA4,Onboarding survey,2025-01-27,7,Passive,4,4,Would like more examples from my sector.
+FB70986,LRN21770,E1133,AI4,Exit survey,2024-06-11,8,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB70987,LRN22025,E1117,PM4,Mid-point survey,2026-09-13,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB70988,LRN21874,E1106,TL3,Exit survey,2026-02-08,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB70989,LRN20101,E1072,AI3,Mid-point survey,2025-06-08,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70990,LRN20626,E1095,DA4,Mid-point survey,2026-03-15,3,Detractor,2,2,I have struggled with the workload and did not feel listened to.
+FB70991,LRN20068,E1045,TL3,Onboarding survey,2026-10-30,8,Passive,5,3,Would like more examples from my sector.
+FB70992,LRN21759,E1067,AI3,Mid-point survey,2026-10-05,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB70993,LRN20546,E1103,DT3,Mid-point survey,2026-08-10,5,Detractor,2,2,I did not feel the programme matched my role.
+FB70994,LRN22234,E1074,CM6,Mid-point survey,2026-01-01,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB70995,LRN22210,E1093,AI4,Mid-point survey,2026-02-28,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB70996,LRN20923,P016,PM4,Mid-point survey,2026-04-14,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70997,LRN21680,E1127,DT3,Exit survey,2026-03-27,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB70998,LRN22094,E1081,DO4,Mid-point survey,2025-07-07,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB70999,LRN21794,E1124,DT3,Exit survey,2024-05-28,5,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB71000,LRN21063,E1054,AI3,Mid-point survey,2026-05-24,6,Detractor,3,3,I did not feel the programme matched my role.
+FB71001,LRN22232,P017,CM6,Mid-point survey,2026-09-06,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71002,LRN21527,E1093,AI4,Mid-point survey,2026-04-11,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB71003,LRN22187,E1082,AI3,Mid-point survey,2024-10-31,5,Detractor,2,3,My manager does not give me time for off-the-job training.
+FB71004,LRN20051,E1142,DTS6,Mid-point survey,2025-05-26,7,Passive,4,3,Would like more examples from my sector.
+FB71005,LRN22288,E1049,AI4,Mid-point survey,2025-08-23,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB71006,LRN21790,E1065,DA4,Exit survey,2025-04-02,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB71007,LRN21191,E1040,AI3,Mid-point survey,2025-12-08,9,Promoter,4,4,My coach is brilliant - always prepared and really knows the industry.
+FB71008,LRN20368,E1096,DA4,Onboarding survey,2024-12-29,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB71009,LRN20443,E1117,SL7,Mid-point survey,2024-06-11,9,Promoter,4,4,I have already used what I learned to automate a weekly report at work.
+FB71010,LRN20923,P016,PM4,Mid-point survey,2026-08-20,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB71011,LRN22057,E1044,TL3,Mid-point survey,2026-07-05,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71012,LRN21180,E1127,DA4,Onboarding survey,2025-01-29,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71013,LRN20471,P015,AI3,Mid-point survey,2026-10-14,6,Detractor,3,3,Too many changes of coach.
+FB71014,LRN21486,E1047,SD4,Mid-point survey,2025-09-08,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71015,LRN20099,E1098,AI3,Onboarding survey,2025-08-22,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB71016,LRN21550,E1044,OM5,Mid-point survey,2026-06-25,6,Detractor,4,2,I have struggled with the workload and did not feel listened to.
+FB71017,LRN22194,E1136,AI3,Mid-point survey,2025-10-17,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71018,LRN21756,E1106,CM6,Onboarding survey,2026-10-06,10,Promoter,5,4,Really supportive when I had a difficult few months.
+FB71019,LRN20094,E1055,DE5,Exit survey,2026-05-30,9,Promoter,4,5,I have already used what I learned to automate a weekly report at work.
+FB71020,LRN21309,E1044,TL3,Exit survey,2026-02-16,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB71021,LRN20332,E1040,AI3,Mid-point survey,2026-09-24,8,Passive,4,4,Would like more examples from my sector.
+FB71022,LRN21270,E1055,DT3,Mid-point survey,2025-10-16,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71023,LRN21273,E1096,DA4,Onboarding survey,2026-05-19,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71024,LRN20059,E1078,DA4,Onboarding survey,2026-02-14,6,Detractor,3,3,Too many changes of coach.
+FB71025,LRN21643,E1091,OM5,Mid-point survey,2026-07-10,7,Passive,3,3,"Coach is good, though reviews sometimes get rescheduled."
+FB71026,LRN21191,E1040,AI3,Exit survey,2026-03-08,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71027,LRN22110,E1041,DTS6,Mid-point survey,2026-09-25,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB71028,LRN20828,E1098,AI4,Mid-point survey,2026-10-09,9,Promoter,4,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71029,LRN20521,E1045,PM4,Exit survey,2025-06-27,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71030,LRN21697,E1053,OM5,Mid-point survey,2025-08-25,8,Passive,5,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71031,LRN20299,E1069,PP5,Onboarding survey,2026-09-27,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71032,LRN21272,E1139,ML6,Mid-point survey,2026-03-13,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB71033,LRN21568,E1055,BA4,Mid-point survey,2026-10-22,8,Passive,5,4,"Coach is good, though reviews sometimes get rescheduled."
+FB71034,LRN21932,E1077,PP5,Exit survey,2025-11-13,8,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB71035,LRN21657,E1102,SD4,Onboarding survey,2026-10-01,7,Passive,4,4,Good overall but some workshops feel rushed.
+FB71036,LRN21277,E1065,DA4,Mid-point survey,2026-02-07,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB71037,LRN21644,E1093,AI4,Onboarding survey,2026-09-25,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB71038,LRN21780,E1117,TL3,Exit survey,2026-06-22,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB71039,LRN20549,E1093,AI4,Exit survey,2025-09-04,7,Passive,4,3,Would like more examples from my sector.
+FB71040,LRN22259,E1080,PP5,Onboarding survey,2026-09-27,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB71041,LRN21039,E1074,OM5,Mid-point survey,2026-08-01,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71042,LRN21751,E1115,DA4,Mid-point survey,2026-05-20,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB71043,LRN20786,E1055,DA4,Mid-point survey,2026-09-03,7,Passive,3,3,Good overall but some workshops feel rushed.
+FB71044,LRN20950,E1072,AI4,Onboarding survey,2026-01-18,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB71045,LRN21962,E1043,DA4,Exit survey,2025-10-09,8,Passive,5,3,Good overall but some workshops feel rushed.
+FB71046,LRN21953,P014,DA4,Mid-point survey,2026-09-13,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB71047,LRN21023,E1054,AI4,Exit survey,2026-03-12,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71048,LRN21570,E1111,CM6,Mid-point survey,2026-08-07,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB71049,LRN22111,E1117,TL3,Mid-point survey,2026-04-30,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71050,LRN20839,E1047,SD4,Exit survey,2025-10-30,5,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB71051,LRN20319,E1041,DTS6,Mid-point survey,2026-05-12,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71052,LRN21361,E1074,SL7,Mid-point survey,2025-11-25,6,Detractor,4,3,I have struggled with the workload and did not feel listened to.
+FB71053,LRN22124,E1044,TL3,Mid-point survey,2026-09-19,8,Passive,4,4,Would like more examples from my sector.
+FB71054,LRN22237,E1117,OM5,Mid-point survey,2026-09-12,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71055,LRN21062,E1095,DE5,Mid-point survey,2026-09-19,9,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71056,LRN20700,E1040,AI4,Mid-point survey,2024-08-22,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71057,LRN20147,E1072,AI3,Onboarding survey,2026-10-15,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71058,LRN21915,E1040,AI3,Exit survey,2025-01-29,10,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB71059,LRN22153,E1107,DA4,Mid-point survey,2025-05-16,7,Passive,3,4,Would like more examples from my sector.
+FB71060,LRN21659,E1106,OM5,Onboarding survey,2026-04-26,7,Passive,3,4,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71061,LRN20316,E1041,SD4,Mid-point survey,2026-09-15,6,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB71062,LRN22163,E1078,DT3,Mid-point survey,2026-09-09,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71063,LRN20713,E1045,TL3,Exit survey,2026-05-18,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71064,LRN20865,E1054,AI3,Exit survey,2025-10-15,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB71065,LRN21819,E1069,SPP7,Exit survey,2026-02-19,6,Detractor,3,3,Workshops clash with my shifts and recordings are not the same.
+FB71066,LRN21190,E1132,AI3,Mid-point survey,2025-12-24,8,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71067,LRN21572,E1041,DO4,Mid-point survey,2026-10-08,4,Detractor,2,2,My manager does not give me time for off-the-job training.
+FB71068,LRN20663,E1057,AI3,Onboarding survey,2026-08-31,7,Passive,4,3,"Coach is good, though reviews sometimes get rescheduled."
+FB71069,LRN21321,E1045,PM4,Mid-point survey,2025-04-30,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71070,LRN22228,E1091,SL7,Mid-point survey,2025-06-24,7,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71071,LRN20924,E1139,AI4,Mid-point survey,2025-07-22,9,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71072,LRN20588,E1098,AI3,Mid-point survey,2025-07-28,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71073,LRN20799,E1106,OM5,Mid-point survey,2026-03-16,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71074,LRN21804,E1134,DA4,Onboarding survey,2024-08-20,6,Detractor,4,3,Workshops clash with my shifts and recordings are not the same.
+FB71075,LRN21908,E1115,DA4,Exit survey,2025-10-07,9,Promoter,4,4,I have already used what I learned to automate a weekly report at work.
+FB71076,LRN22092,E1065,DE5,Onboarding survey,2025-09-18,7,Passive,3,4,Would like more examples from my sector.
+FB71077,LRN21241,E1065,DA4,Onboarding survey,2026-07-14,6,Detractor,3,4,Workshops clash with my shifts and recordings are not the same.
+FB71078,LRN21607,E1047,SD4,Onboarding survey,2026-06-10,6,Detractor,4,2,I did not feel the programme matched my role.
+FB71079,LRN22135,E1103,DE5,Onboarding survey,2025-03-15,8,Passive,5,4,Would like more examples from my sector.
+FB71080,LRN21937,E1082,AI4,Mid-point survey,2026-08-17,7,Passive,4,3,Good overall but some workshops feel rushed.
+FB71081,LRN20748,E1053,PM4,Mid-point survey,2026-10-31,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71082,LRN21388,E1078,BA4,Exit survey,2025-06-06,6,Detractor,4,2,My manager does not give me time for off-the-job training.
+FB71083,LRN21483,E1105,DA4,Exit survey,2025-02-05,9,Promoter,4,5,Really supportive when I had a difficult few months.
+FB71084,LRN21565,E1105,DT3,Mid-point survey,2026-02-27,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB71085,LRN21209,E1053,PM4,Onboarding survey,2026-08-20,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71086,LRN21811,E1115,DA4,Mid-point survey,2026-09-29,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB71087,LRN21920,E1043,DT3,Mid-point survey,2026-02-15,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB71088,LRN20666,E1066,SPP7,Mid-point survey,2026-03-10,8,Passive,5,4,Good overall but some workshops feel rushed.
+FB71089,LRN21880,E1101,DA4,Exit survey,2024-12-01,6,Detractor,3,3,My manager does not give me time for off-the-job training.
+FB71090,LRN21536,E1080,PP5,Mid-point survey,2025-10-06,10,Promoter,5,5,Great balance of theory and workplace projects.
+FB71091,LRN20189,E1139,AI3,Onboarding survey,2025-03-01,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB71092,LRN21163,E1117,CM6,Mid-point survey,2025-03-08,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71093,LRN21701,E1078,DA4,Mid-point survey,2026-05-23,7,Passive,4,3,Would like more examples from my sector.
+FB71094,LRN20225,E1127,DA4,Onboarding survey,2025-12-20,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB71095,LRN21813,E1103,DE5,Mid-point survey,2026-08-10,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71096,LRN20535,E1126,TL3,Onboarding survey,2023-11-09,9,Promoter,5,5,Great balance of theory and workplace projects.
+FB71097,LRN22031,E1127,DA4,Mid-point survey,2026-09-26,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB71098,LRN20158,E1124,DA4,Mid-point survey,2026-08-29,6,Detractor,3,2,Too many changes of coach.
+FB71099,LRN20752,E1134,DT3,Mid-point survey,2024-10-10,5,Detractor,2,2,Too many changes of coach.
+FB71100,LRN21765,E1114,DO4,Onboarding survey,2026-04-24,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71101,LRN20069,E1117,CM6,Mid-point survey,2026-07-14,7,Passive,3,4,Logging OTJ hours is a bit fiddly.
+FB71102,LRN21712,E1096,DA4,Exit survey,2026-01-12,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB71103,LRN22241,E1132,AI3,Mid-point survey,2026-10-30,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB71104,LRN21246,E1098,ML6,Mid-point survey,2025-08-25,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71105,LRN21462,E1128,DA4,Mid-point survey,2025-09-06,9,Promoter,4,4,Great balance of theory and workplace projects.
+FB71106,LRN21154,E1136,AI3,Mid-point survey,2026-11-04,10,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB71107,LRN21978,E1053,OM5,Mid-point survey,2026-02-01,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71108,LRN21983,E1095,BA4,Onboarding survey,2024-06-29,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71109,LRN22009,E1142,DO4,Onboarding survey,2026-11-01,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71110,LRN22291,P016,OM5,Mid-point survey,2026-10-13,9,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB71111,LRN22109,E1136,AI4,Mid-point survey,2026-08-11,9,Promoter,5,4,My coach is brilliant - always prepared and really knows the industry.
+FB71112,LRN20458,E1053,OM5,Onboarding survey,2026-07-10,8,Passive,5,4,Would like more examples from my sector.
+FB71113,LRN21414,E1114,DO4,Mid-point survey,2026-10-05,4,Detractor,3,2,Workshops clash with my shifts and recordings are not the same.
+FB71114,LRN21801,E1112,TL3,Mid-point survey,2026-09-01,8,Passive,4,3,Good overall but some workshops feel rushed.
+FB71115,LRN21286,E1078,DA4,Mid-point survey,2025-08-05,9,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71116,LRN21807,E1114,DTS6,Mid-point survey,2025-02-20,6,Detractor,3,3,I have struggled with the workload and did not feel listened to.
+FB71117,LRN21933,E1041,SD4,Mid-point survey,2026-06-19,6,Detractor,3,2,I have struggled with the workload and did not feel listened to.
+FB71118,LRN22270,E1142,DTS6,Mid-point survey,2026-10-21,7,Passive,3,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71119,LRN21711,E1049,AI3,Mid-point survey,2026-09-01,7,Passive,3,3,Logging OTJ hours is a bit fiddly.
+FB71120,LRN21233,E1103,DE5,Mid-point survey,2025-09-24,9,Promoter,4,4,Really supportive when I had a difficult few months.
+FB71121,LRN20882,P014,DT3,Onboarding survey,2025-02-28,7,Passive,4,3,Logging OTJ hours is a bit fiddly.
+FB71122,LRN20864,E1112,TL3,Mid-point survey,2026-07-03,6,Detractor,3,3,I did not feel the programme matched my role.
+FB71123,LRN21493,E1077,PP5,Onboarding survey,2025-10-13,10,Promoter,5,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71124,LRN20884,E1111,TL3,Onboarding survey,2026-04-28,8,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB71125,LRN21923,E1084,DA4,Mid-point survey,2025-12-20,9,Promoter,5,4,I have already used what I learned to automate a weekly report at work.
+FB71126,LRN20668,E1049,ML6,Onboarding survey,2026-10-03,8,Passive,5,4,Logging OTJ hours is a bit fiddly.
+FB71127,LRN21333,E1098,AI3,Mid-point survey,2025-07-28,4,Detractor,2,1,Too many changes of coach.
+FB71128,LRN21952,E1074,TL3,Mid-point survey,2026-10-27,8,Passive,4,4,Logging OTJ hours is a bit fiddly.
+FB71129,LRN20160,E1111,TL3,Exit survey,2025-08-13,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71130,LRN21171,E1057,AI3,Exit survey,2025-01-14,9,Promoter,5,5,My coach is brilliant - always prepared and really knows the industry.
+FB71131,LRN21412,P017,OM5,Onboarding survey,2026-10-05,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71132,LRN20028,E1111,CM6,Mid-point survey,2026-06-25,5,Detractor,3,2,I did not feel the programme matched my role.
+FB71133,LRN20631,E1072,AI3,Exit survey,2026-06-25,10,Promoter,5,4,The live workshops are the best part; practical and relevant to my job.
+FB71134,LRN20956,E1098,AI3,Exit survey,2026-04-14,7,Passive,4,4,"Coach is good, though reviews sometimes get rescheduled."
+FB71135,LRN21637,E1138,DA4,Mid-point survey,2025-11-22,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71136,LRN21943,E1060,DA4,Exit survey,2026-06-25,10,Promoter,5,5,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71137,LRN20343,P017,TL3,Exit survey,2026-02-05,9,Promoter,5,4,Great balance of theory and workplace projects.
+FB71138,LRN20778,E1133,AI3,Mid-point survey,2026-01-27,8,Passive,4,4,Would like more examples from my sector.
+FB71139,LRN22162,E1139,AI3,Onboarding survey,2026-05-06,8,Passive,4,3,Would like more examples from my sector.
+FB71140,LRN20921,E1111,TL3,Onboarding survey,2026-06-30,10,Promoter,5,5,I have already used what I learned to automate a weekly report at work.
+FB71141,LRN20809,P016,OM5,Mid-point survey,2026-11-05,9,Promoter,5,4,Really supportive when I had a difficult few months.
+FB71142,LRN21499,E1049,AI3,Exit survey,2026-05-25,10,Promoter,5,5,Really supportive when I had a difficult few months.
+FB71143,LRN21457,E1107,DA4,Onboarding survey,2025-09-24,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB71144,LRN21908,E1115,DA4,Exit survey,2025-10-07,8,Passive,5,5,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71145,LRN20250,E1050,CM6,Onboarding survey,2026-10-11,9,Promoter,4,4,Aptiva is easy to use and I like seeing my OTJ hours build up.
+FB71146,LRN20778,E1133,AI3,Mid-point survey,2026-01-17,8,Passive,4,4,Good overall but some workshops feel rushed.
+FB71147,LRN20370,E1112,OM5,Mid-point survey,2026-10-29,10,Promoter,5,5,The live workshops are the best part; practical and relevant to my job.
+FB71148,LRN20672,E1057,AI4,Mid-point survey,2026-08-31,7,Passive,4,3,Content is useful but it is hard to find time for OTJ alongside my job.
+FB71149,LRN20261,E1084,DE5,Mid-point survey,2026-01-30,6,Detractor,3,2,Too many changes of coach.
+FB71150,LRN21336,E1082,AI3,Mid-point survey,2026-08-06,10,Promoter,5,4,Really supportive when I had a difficult few months.

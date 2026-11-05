@@ -1,0 +1,15 @@
+﻿risk_id,title,category,owner_id,likelihood,impact,inherent_score,key_controls,residual_score,trend,last_reviewed
+R01,Changes to apprenticeship funding policy reduce income,Funding & Policy,P003,4,5,20,Policy horizon scanning; diversified commercial income; scenario modelling,12,Rising,2026-10-14
+R02,Ofsted judgement below 'Strong' on next inspection,Quality & Regulatory,P005,2,5,10,SAR/QIP cycle; observation programme; mock deep dives,6,Stable,2026-10-14
+R03,Safeguarding incident not identified or escalated,Safeguarding,P010,2,5,10,Mandatory annual training; DSL rota; concern log reviewed weekly,6,Stable,2026-10-14
+R04,Data breach involving learner personal data,Information Security,P036,3,5,15,MFA; DLP; sensitivity labels; Copilot access review,8,Rising,2026-10-14
+R05,Coach attrition increases caseloads and harms learner progress,People,P006,3,4,12,Pay benchmarking; CPD pathway; caseload cap of 26,8,Stable,2026-10-14
+R06,Funding audit identifies ineligible OTJ evidence,Funding & Policy,P022,3,4,12,Monthly OTJ sampling; Aptiva validation rules,6,Falling,2026-10-14
+R07,Dependence on a small number of strategic employers,Commercial,P004,3,4,12,Account plans; new-logo targets; sector diversification,9,Stable,2026-10-14
+R08,Aptiva platform outage disrupts delivery,Technology,P007,2,4,8,Vendor SLA; offline review templates; DR test,4,Stable,2026-10-14
+R09,AI curriculum becomes outdated,Curriculum,P008,3,3,9,Quarterly curriculum review; employer advisory panel,6,Stable,2026-10-14
+R10,Withdrawals rise as employers restructure,Delivery,P009,3,4,12,Early-warning RAG; employer escalation process; BIL policy,8,Rising,2026-10-14
+R11,Integration with Meridian group systems causes disruption,Strategic,P002,2,3,6,Integration board; phased plan; retain local systems until 2027,4,Falling,2026-10-14
+R12,Non-compliance with Prevent duty,Safeguarding,P010,1,5,5,Prevent training; risk assessment; British values in curriculum,3,Stable,2026-10-14
+R13,Cash flow pressure from delayed funding payments,Finance,P003,2,4,8,13-week cash forecast; group facility,4,Stable,2026-10-14
+R14,Inaccurate ILR return leads to funding clawback,Funding & Policy,P029,2,4,8,Pre-submission validation; dual sign-off; monthly reconciliation,4,Stable,2026-10-14

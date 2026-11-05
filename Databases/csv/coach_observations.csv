@@ -1,0 +1,181 @@
+﻿obs_id,coach_id,coach_name,academy,observer_id,obs_date,session_type,grade,strength,development_area,follow_up_required
+OBS4001,E1072,Glenn Chapman,AI Academy,P021,2025-06-03,1:1 coaching,Secure,Well-paced workshop with good participation,Use Aptiva evidence more during the session,0
+OBS4002,E1055,Bruce Saunders,Data Academy,P005,2025-11-11,1:1 coaching,Strong,Effective use of real employer data in examples,Check understanding more frequently,0
+OBS4003,E1082,Emily Adams,AI Academy,P021,2025-03-19,Functional Skills lesson,Strong,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4004,E1049,Victoria Taylor,AI Academy,P021,2025-09-15,Progress review,Secure,Strong rapport and wellbeing check-in,Check understanding more frequently,0
+OBS4005,E1055,Bruce Saunders,Data Academy,P013,2025-06-13,Progress review,Secure,Highly personalised targets,"Set sharper, measurable targets",0
+OBS4006,E1071,Michael Freeman,Leadership Academy,P021,2025-07-04,Progress review,Secure,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,0
+OBS4007,E1106,Kelly Todd,Leadership Academy,P005,2026-09-10,Group workshop,Secure,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4008,E1049,Victoria Taylor,AI Academy,P013,2024-11-22,Group workshop,Secure,Well-paced workshop with good participation,"Set sharper, measurable targets",0
+OBS4009,E1071,Michael Freeman,Leadership Academy,P021,2025-08-27,Group workshop,Developing,Highly personalised targets,"Set sharper, measurable targets",1
+OBS4010,P017,Kwame Mensah,Leadership Academy,P013,2026-01-05,Progress review,Strong,Highly personalised targets,"Set sharper, measurable targets",0
+OBS4011,E1044,Kenneth O'Sullivan,Leadership Academy,P021,2024-10-23,Group workshop,Secure,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4012,E1131,Mitchell Evans,Data Academy,P009,2024-11-08,Progress review,Strong,Clear links between KSBs and workplace tasks,Check understanding more frequently,0
+OBS4013,E1042,Darren Carter,Leadership Academy,P013,2025-02-10,Group workshop,Developing,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,1
+OBS4014,E1114,Graham Burns,Digital Academy,P009,2026-07-13,Progress review,Developing,Highly personalised targets,"Set sharper, measurable targets",1
+OBS4015,E1115,Janice Elliott,Data Academy,P012,2025-06-24,Group workshop,Secure,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4016,E1072,Glenn Chapman,AI Academy,P013,2024-12-09,Group workshop,Secure,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4017,E1136,Shannon Thompson,AI Academy,P013,2024-12-27,Group workshop,Secure,Skilful questioning that deepened learner reflection,Stretch more able learners,0
+OBS4018,E1045,Martyn Fox,Leadership Academy,P021,2025-02-06,Progress review,Developing,Highly personalised targets,Use Aptiva evidence more during the session,1
+OBS4019,E1072,Glenn Chapman,AI Academy,P012,2026-03-18,Progress review,Strong,Skilful questioning that deepened learner reflection,Stretch more able learners,0
+OBS4020,E1142,Paul Gray,Digital Academy,P005,2025-09-26,Group workshop,Requires improvement,Highly personalised targets,Stretch more able learners,1
+OBS4021,E1103,Donald Moore,Data Academy,P009,2025-06-11,Gateway preparation,Secure,Highly personalised targets,Use Aptiva evidence more during the session,0
+OBS4022,E1057,Abbie Edwards,AI Academy,P021,2026-07-08,Group workshop,Strong,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4023,E1053,Adrian Green,Leadership Academy,P021,2024-10-01,Group workshop,Secure,Clear links between KSBs and workplace tasks,Improve employer involvement in review,0
+OBS4024,P016,Chloe Davies,Leadership Academy,P021,2025-01-09,Progress review,Secure,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4025,E1053,Adrian Green,Leadership Academy,P013,2025-07-25,Progress review,Secure,Highly personalised targets,Use Aptiva evidence more during the session,0
+OBS4026,E1066,Amanda Shaw,People Academy,P009,2025-01-01,Progress review,Strong,Well-paced workshop with good participation,Improve employer involvement in review,0
+OBS4027,E1040,Lewis Nolan,AI Academy,P012,2026-10-16,Progress review,Strong,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4028,E1082,Emily Adams,AI Academy,P005,2025-03-07,Functional Skills lesson,Secure,Well-paced workshop with good participation,Embed Prevent / British values discussion more naturally,0
+OBS4029,E1082,Emily Adams,AI Academy,P021,2025-03-17,Progress review,Developing,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4030,E1055,Bruce Saunders,Data Academy,P021,2025-04-11,Progress review,Secure,Strong rapport and wellbeing check-in,"Set sharper, measurable targets",0
+OBS4031,E1103,Donald Moore,Data Academy,P021,2025-09-25,Progress review,Requires improvement,Effective use of real employer data in examples,Use Aptiva evidence more during the session,1
+OBS4032,E1106,Kelly Todd,Leadership Academy,P021,2026-06-24,Progress review,Strong,Highly personalised targets,Check understanding more frequently,0
+OBS4033,E1142,Paul Gray,Digital Academy,P005,2026-05-01,1:1 coaching,Developing,Strong rapport and wellbeing check-in,"Set sharper, measurable targets",1
+OBS4034,E1071,Michael Freeman,Leadership Academy,P009,2025-01-06,Functional Skills lesson,Strong,Well-paced workshop with good participation,Use Aptiva evidence more during the session,0
+OBS4035,E1101,Tracey Goddard,Data Academy,P021,2024-10-24,Group workshop,Secure,Effective use of real employer data in examples,Use Aptiva evidence more during the session,0
+OBS4036,E1082,Emily Adams,AI Academy,P009,2026-06-04,1:1 coaching,Secure,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4037,E1121,Lisa Palmer,Functional Skills,P021,2026-10-23,1:1 coaching,Strong,Skilful questioning that deepened learner reflection,Stretch more able learners,0
+OBS4038,E1114,Graham Burns,Digital Academy,P013,2025-05-07,1:1 coaching,Developing,Well-paced workshop with good participation,"Set sharper, measurable targets",1
+OBS4039,E1049,Victoria Taylor,AI Academy,P005,2024-11-27,Gateway preparation,Strong,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4040,E1128,Jenna Adams,Data Academy,P005,2026-03-24,Progress review,Secure,Skilful questioning that deepened learner reflection,Improve employer involvement in review,0
+OBS4041,E1082,Emily Adams,AI Academy,P021,2026-07-01,Group workshop,Secure,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4042,E1121,Lisa Palmer,Functional Skills,P021,2024-12-24,1:1 coaching,Strong,Well-paced workshop with good participation,Embed Prevent / British values discussion more naturally,0
+OBS4043,E1054,Chelsea Allen,AI Academy,P021,2025-07-21,Functional Skills lesson,Secure,Skilful questioning that deepened learner reflection,Check understanding more frequently,0
+OBS4044,E1128,Jenna Adams,Data Academy,P012,2024-11-20,Progress review,Secure,Well-paced workshop with good participation,Check understanding more frequently,0
+OBS4045,E1105,Marc Patel,Data Academy,P021,2025-04-10,Group workshop,Developing,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4046,E1049,Victoria Taylor,AI Academy,P021,2025-02-11,1:1 coaching,Secure,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4047,E1049,Victoria Taylor,AI Academy,P005,2024-09-09,Gateway preparation,Secure,Highly personalised targets,Check understanding more frequently,0
+OBS4048,E1053,Adrian Green,Leadership Academy,P021,2025-09-26,Gateway preparation,Developing,Highly personalised targets,"Set sharper, measurable targets",1
+OBS4049,E1072,Glenn Chapman,AI Academy,P005,2024-09-19,Group workshop,Developing,Skilful questioning that deepened learner reflection,Check understanding more frequently,1
+OBS4050,E1080,Susan Allan,People Academy,P021,2025-03-24,Progress review,Strong,Clear links between KSBs and workplace tasks,"Set sharper, measurable targets",0
+OBS4051,E1091,Kayleigh Wright,Leadership Academy,P021,2026-09-08,Functional Skills lesson,Strong,Strong rapport and wellbeing check-in,Improve employer involvement in review,0
+OBS4052,P014,James Rowe,Data Academy,P005,2024-10-31,1:1 coaching,Strong,Well-paced workshop with good participation,Stretch more able learners,0
+OBS4053,E1142,Paul Gray,Digital Academy,P009,2026-05-21,Functional Skills lesson,Developing,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,1
+OBS4054,E1040,Lewis Nolan,AI Academy,P012,2026-07-06,Progress review,Secure,Well-paced workshop with good participation,Use Aptiva evidence more during the session,0
+OBS4055,E1133,Harriet Potts,AI Academy,P012,2026-09-14,Progress review,Secure,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4056,E1114,Graham Burns,Digital Academy,P005,2026-01-07,Progress review,Secure,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4057,E1124,Natasha Webb,Data Academy,P012,2025-10-03,Group workshop,Secure,Well-paced workshop with good participation,Improve employer involvement in review,0
+OBS4058,E1103,Donald Moore,Data Academy,P012,2026-08-27,Functional Skills lesson,Strong,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,0
+OBS4059,E1136,Shannon Thompson,AI Academy,P009,2025-10-29,Progress review,Secure,Effective use of real employer data in examples,Stretch more able learners,0
+OBS4060,E1044,Kenneth O'Sullivan,Leadership Academy,P021,2025-04-17,Group workshop,Requires improvement,Clear links between KSBs and workplace tasks,"Set sharper, measurable targets",1
+OBS4061,E1040,Lewis Nolan,AI Academy,P012,2026-04-17,Group workshop,Secure,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,0
+OBS4062,E1044,Kenneth O'Sullivan,Leadership Academy,P009,2026-07-29,Progress review,Developing,Clear links between KSBs and workplace tasks,Check understanding more frequently,1
+OBS4063,E1138,Guy Powell,Data Academy,P021,2025-03-11,Group workshop,Developing,Skilful questioning that deepened learner reflection,Check understanding more frequently,1
+OBS4064,P016,Chloe Davies,Leadership Academy,P012,2024-12-31,Progress review,Secure,Well-paced workshop with good participation,Stretch more able learners,0
+OBS4065,E1050,Douglas Carroll,Leadership Academy,P013,2026-04-14,Progress review,Strong,Effective use of real employer data in examples,Improve employer involvement in review,0
+OBS4066,E1132,Charlotte Barrett,AI Academy,P013,2026-07-01,Functional Skills lesson,Secure,Effective use of real employer data in examples,"Set sharper, measurable targets",0
+OBS4067,P018,Emily Barker,Functional Skills,P009,2025-01-01,Progress review,Requires improvement,Strong rapport and wellbeing check-in,Improve employer involvement in review,1
+OBS4068,E1069,Adrian Jordan,People Academy,P013,2026-10-07,Progress review,Strong,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4069,E1103,Donald Moore,Data Academy,P012,2025-10-29,Group workshop,Secure,Highly personalised targets,Check understanding more frequently,0
+OBS4070,E1124,Natasha Webb,Data Academy,P013,2026-07-03,1:1 coaching,Requires improvement,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4071,E1105,Marc Patel,Data Academy,P005,2024-11-12,Progress review,Secure,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4072,E1066,Amanda Shaw,People Academy,P013,2026-05-06,1:1 coaching,Developing,Highly personalised targets,Use Aptiva evidence more during the session,1
+OBS4073,E1082,Emily Adams,AI Academy,P012,2026-10-07,Group workshop,Developing,Clear links between KSBs and workplace tasks,Check understanding more frequently,1
+OBS4074,E1072,Glenn Chapman,AI Academy,P021,2024-11-26,Group workshop,Secure,Highly personalised targets,Use Aptiva evidence more during the session,0
+OBS4075,E1133,Harriet Potts,AI Academy,P005,2026-04-02,Gateway preparation,Strong,Well-paced workshop with good participation,Embed Prevent / British values discussion more naturally,0
+OBS4076,E1084,Matthew Adams,Data Academy,P021,2025-07-11,1:1 coaching,Secure,Effective use of real employer data in examples,"Set sharper, measurable targets",0
+OBS4077,E1098,Norman Jones,AI Academy,P021,2026-10-14,1:1 coaching,Developing,Skilful questioning that deepened learner reflection,Stretch more able learners,1
+OBS4078,E1098,Norman Jones,AI Academy,P021,2024-11-14,Progress review,Developing,Skilful questioning that deepened learner reflection,Improve employer involvement in review,1
+OBS4079,E1047,Guy Wade,Digital Academy,P021,2024-11-05,Progress review,Strong,Well-paced workshop with good participation,Check understanding more frequently,0
+OBS4080,E1053,Adrian Green,Leadership Academy,P013,2026-06-22,1:1 coaching,Strong,Highly personalised targets,"Set sharper, measurable targets",0
+OBS4081,E1066,Amanda Shaw,People Academy,P013,2025-02-26,Group workshop,Strong,Skilful questioning that deepened learner reflection,Improve employer involvement in review,0
+OBS4082,E1126,Brett French,Leadership Academy,P021,2024-12-25,Gateway preparation,Developing,Skilful questioning that deepened learner reflection,Stretch more able learners,1
+OBS4083,E1139,Ben Day,AI Academy,P021,2025-11-14,Progress review,Requires improvement,Effective use of real employer data in examples,"Set sharper, measurable targets",1
+OBS4084,E1121,Lisa Palmer,Functional Skills,P013,2025-02-24,1:1 coaching,Secure,Effective use of real employer data in examples,Use Aptiva evidence more during the session,0
+OBS4085,E1081,Gemma Smith,Digital Academy,P021,2025-04-21,Group workshop,Secure,Well-paced workshop with good participation,"Set sharper, measurable targets",0
+OBS4086,E1042,Darren Carter,Leadership Academy,P021,2025-11-19,Progress review,Secure,Skilful questioning that deepened learner reflection,Use Aptiva evidence more during the session,0
+OBS4087,E1095,Maurice Parkinson,Data Academy,P021,2026-01-22,Progress review,Secure,Clear links between KSBs and workplace tasks,Check understanding more frequently,0
+OBS4088,E1121,Lisa Palmer,Functional Skills,P005,2025-08-28,Group workshop,Secure,Strong rapport and wellbeing check-in,Check understanding more frequently,0
+OBS4089,E1130,Iain Harris,Functional Skills,P009,2025-07-04,Gateway preparation,Strong,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4090,E1107,Lorraine Barker,Data Academy,P013,2025-10-13,Group workshop,Secure,Effective use of real employer data in examples,Check understanding more frequently,0
+OBS4091,E1041,Ronald Whitehouse,Digital Academy,P009,2025-02-03,Group workshop,Strong,Skilful questioning that deepened learner reflection,Check understanding more frequently,0
+OBS4092,E1142,Paul Gray,Digital Academy,P021,2025-02-13,Group workshop,Secure,Well-paced workshop with good participation,Check understanding more frequently,0
+OBS4093,E1096,Elliott George,Data Academy,P005,2026-09-09,1:1 coaching,Strong,Effective use of real employer data in examples,Improve employer involvement in review,0
+OBS4094,E1093,Francesca Taylor,AI Academy,P013,2024-10-16,1:1 coaching,Strong,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4095,P014,James Rowe,Data Academy,P021,2026-04-23,Progress review,Strong,Well-paced workshop with good participation,"Set sharper, measurable targets",0
+OBS4096,E1130,Iain Harris,Functional Skills,P005,2025-05-27,Functional Skills lesson,Secure,Clear links between KSBs and workplace tasks,Check understanding more frequently,0
+OBS4097,E1084,Matthew Adams,Data Academy,P021,2025-11-27,Progress review,Secure,Effective use of real employer data in examples,Stretch more able learners,0
+OBS4098,E1093,Francesca Taylor,AI Academy,P009,2026-02-18,Progress review,Secure,Skilful questioning that deepened learner reflection,Check understanding more frequently,0
+OBS4099,E1040,Lewis Nolan,AI Academy,P013,2025-09-23,Gateway preparation,Strong,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4100,E1115,Janice Elliott,Data Academy,P005,2025-12-11,Gateway preparation,Secure,Effective use of real employer data in examples,Embed Prevent / British values discussion more naturally,0
+OBS4101,E1082,Emily Adams,AI Academy,P021,2025-08-27,Group workshop,Developing,Effective use of real employer data in examples,Check understanding more frequently,1
+OBS4102,E1106,Kelly Todd,Leadership Academy,P021,2025-12-26,Group workshop,Strong,Skilful questioning that deepened learner reflection,Embed Prevent / British values discussion more naturally,0
+OBS4103,E1132,Charlotte Barrett,AI Academy,P009,2026-06-15,Group workshop,Secure,Highly personalised targets,Check understanding more frequently,0
+OBS4104,E1050,Douglas Carroll,Leadership Academy,P021,2026-07-20,Functional Skills lesson,Developing,Highly personalised targets,"Set sharper, measurable targets",1
+OBS4105,E1105,Marc Patel,Data Academy,P013,2026-02-16,1:1 coaching,Secure,Effective use of real employer data in examples,Use Aptiva evidence more during the session,0
+OBS4106,E1111,Christopher Watson,Leadership Academy,P009,2026-07-07,Progress review,Secure,Highly personalised targets,Embed Prevent / British values discussion more naturally,0
+OBS4107,E1060,Marilyn Hall,Data Academy,P021,2025-05-06,Progress review,Secure,Strong rapport and wellbeing check-in,Embed Prevent / British values discussion more naturally,0
+OBS4108,E1127,Dylan Thomas,Data Academy,P021,2026-06-22,Group workshop,Developing,Highly personalised targets,Use Aptiva evidence more during the session,1
+OBS4109,E1055,Bruce Saunders,Data Academy,P013,2025-10-08,1:1 coaching,Strong,Effective use of real employer data in examples,Check understanding more frequently,0
+OBS4110,E1055,Bruce Saunders,Data Academy,P013,2025-08-04,Gateway preparation,Secure,Highly personalised targets,Stretch more able learners,0
+OBS4111,E1121,Lisa Palmer,Functional Skills,P013,2026-07-03,1:1 coaching,Developing,Well-paced workshop with good participation,Stretch more able learners,1
+OBS4112,E1124,Natasha Webb,Data Academy,P021,2026-10-27,Gateway preparation,Developing,Effective use of real employer data in examples,Embed Prevent / British values discussion more naturally,1
+OBS4113,E1065,Susan Tomlinson,Data Academy,P012,2026-03-06,Functional Skills lesson,Developing,Highly personalised targets,Improve employer involvement in review,1
+OBS4114,E1111,Christopher Watson,Leadership Academy,P021,2026-02-09,1:1 coaching,Strong,Effective use of real employer data in examples,Improve employer involvement in review,0
+OBS4115,E1111,Christopher Watson,Leadership Academy,P021,2026-03-20,Functional Skills lesson,Strong,Effective use of real employer data in examples,Use Aptiva evidence more during the session,0
+OBS4116,E1081,Gemma Smith,Digital Academy,P009,2025-07-24,1:1 coaching,Strong,Effective use of real employer data in examples,Stretch more able learners,0
+OBS4117,E1133,Harriet Potts,AI Academy,P021,2025-06-04,1:1 coaching,Secure,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4118,E1091,Kayleigh Wright,Leadership Academy,P021,2025-03-06,Progress review,Secure,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4119,E1081,Gemma Smith,Digital Academy,P021,2025-11-04,Progress review,Developing,Well-paced workshop with good participation,Improve employer involvement in review,1
+OBS4120,E1124,Natasha Webb,Data Academy,P021,2025-01-15,1:1 coaching,Strong,Skilful questioning that deepened learner reflection,Embed Prevent / British values discussion more naturally,0
+OBS4121,P014,James Rowe,Data Academy,P021,2025-02-06,Functional Skills lesson,Strong,Strong rapport and wellbeing check-in,Improve employer involvement in review,0
+OBS4122,E1054,Chelsea Allen,AI Academy,P009,2025-12-05,Group workshop,Secure,Skilful questioning that deepened learner reflection,Use Aptiva evidence more during the session,0
+OBS4123,E1102,Rebecca Watson,Digital Academy,P012,2024-12-12,Gateway preparation,Developing,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4124,E1138,Guy Powell,Data Academy,P013,2025-05-07,Progress review,Developing,Skilful questioning that deepened learner reflection,Embed Prevent / British values discussion more naturally,1
+OBS4125,E1067,Lawrence Booth,AI Academy,P009,2024-11-05,Group workshop,Secure,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4126,E1115,Janice Elliott,Data Academy,P021,2026-07-10,1:1 coaching,Strong,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,0
+OBS4127,E1065,Susan Tomlinson,Data Academy,P021,2026-09-30,Progress review,Developing,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,1
+OBS4128,E1060,Marilyn Hall,Data Academy,P012,2026-07-31,Group workshop,Strong,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4129,E1069,Adrian Jordan,People Academy,P012,2025-03-19,1:1 coaching,Secure,Well-paced workshop with good participation,Use Aptiva evidence more during the session,0
+OBS4130,E1081,Gemma Smith,Digital Academy,P013,2026-01-13,1:1 coaching,Strong,Skilful questioning that deepened learner reflection,Check understanding more frequently,0
+OBS4131,E1112,Zoe Campbell,Leadership Academy,P005,2026-01-16,1:1 coaching,Requires improvement,Skilful questioning that deepened learner reflection,Embed Prevent / British values discussion more naturally,1
+OBS4132,E1136,Shannon Thompson,AI Academy,P021,2025-04-09,Progress review,Secure,Effective use of real employer data in examples,Embed Prevent / British values discussion more naturally,0
+OBS4133,E1106,Kelly Todd,Leadership Academy,P005,2024-12-18,Progress review,Developing,Highly personalised targets,Check understanding more frequently,1
+OBS4134,E1101,Tracey Goddard,Data Academy,P021,2026-05-14,Progress review,Secure,Skilful questioning that deepened learner reflection,Use Aptiva evidence more during the session,0
+OBS4135,E1134,Lynda Miah,Data Academy,P009,2026-09-24,Group workshop,Requires improvement,Strong rapport and wellbeing check-in,Improve employer involvement in review,1
+OBS4136,E1130,Iain Harris,Functional Skills,P012,2025-02-18,Progress review,Strong,Strong rapport and wellbeing check-in,Check understanding more frequently,0
+OBS4137,E1129,Karl Marsden,Leadership Academy,P012,2025-02-24,1:1 coaching,Secure,Effective use of real employer data in examples,Embed Prevent / British values discussion more naturally,0
+OBS4138,E1114,Graham Burns,Digital Academy,P005,2025-06-19,1:1 coaching,Developing,Highly personalised targets,Stretch more able learners,1
+OBS4139,E1073,William Atkinson,Functional Skills,P021,2025-09-22,Gateway preparation,Developing,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4140,E1096,Elliott George,Data Academy,P009,2026-09-04,Progress review,Developing,Strong rapport and wellbeing check-in,Improve employer involvement in review,1
+OBS4141,E1053,Adrian Green,Leadership Academy,P021,2026-01-30,Progress review,Strong,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4142,E1133,Harriet Potts,AI Academy,P021,2026-03-27,Functional Skills lesson,Developing,Strong rapport and wellbeing check-in,Stretch more able learners,1
+OBS4143,E1072,Glenn Chapman,AI Academy,P009,2026-06-29,Progress review,Strong,Skilful questioning that deepened learner reflection,"Set sharper, measurable targets",0
+OBS4144,E1045,Martyn Fox,Leadership Academy,P009,2026-07-22,Progress review,Strong,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4145,E1134,Lynda Miah,Data Academy,P021,2025-06-30,Group workshop,Strong,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4146,E1095,Maurice Parkinson,Data Academy,P005,2026-03-20,Gateway preparation,Secure,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4147,E1043,Jeffrey Willis,Data Academy,P021,2026-02-09,Group workshop,Strong,Skilful questioning that deepened learner reflection,Improve employer involvement in review,0
+OBS4148,P015,Fatima Hussain,AI Academy,P021,2026-03-11,Gateway preparation,Developing,Well-paced workshop with good participation,Stretch more able learners,1
+OBS4149,E1105,Marc Patel,Data Academy,P021,2025-11-19,Progress review,Secure,Clear links between KSBs and workplace tasks,Improve employer involvement in review,0
+OBS4150,E1069,Adrian Jordan,People Academy,P012,2026-01-09,Progress review,Secure,Well-paced workshop with good participation,Improve employer involvement in review,0
+OBS4151,E1082,Emily Adams,AI Academy,P013,2025-12-04,1:1 coaching,Developing,Clear links between KSBs and workplace tasks,"Set sharper, measurable targets",1
+OBS4152,E1101,Tracey Goddard,Data Academy,P021,2025-12-23,Group workshop,Strong,Clear links between KSBs and workplace tasks,Check understanding more frequently,0
+OBS4153,E1045,Martyn Fox,Leadership Academy,P021,2025-09-08,Gateway preparation,Strong,Skilful questioning that deepened learner reflection,Improve employer involvement in review,0
+OBS4154,E1103,Donald Moore,Data Academy,P021,2025-08-08,Gateway preparation,Strong,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4155,E1040,Lewis Nolan,AI Academy,P021,2026-04-14,Progress review,Secure,Clear links between KSBs and workplace tasks,Stretch more able learners,0
+OBS4156,E1071,Michael Freeman,Leadership Academy,P021,2024-12-20,Progress review,Developing,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,1
+OBS4157,E1082,Emily Adams,AI Academy,P012,2024-09-23,Progress review,Strong,Skilful questioning that deepened learner reflection,Use Aptiva evidence more during the session,0
+OBS4158,E1055,Bruce Saunders,Data Academy,P005,2025-01-22,1:1 coaching,Requires improvement,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,1
+OBS4159,E1055,Bruce Saunders,Data Academy,P009,2025-04-15,Gateway preparation,Developing,Well-paced workshop with good participation,Use Aptiva evidence more during the session,1
+OBS4160,E1080,Susan Allan,People Academy,P012,2025-03-17,Progress review,Developing,Effective use of real employer data in examples,Check understanding more frequently,1
+OBS4161,E1117,Oliver Watkins,Leadership Academy,P009,2026-05-11,1:1 coaching,Secure,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4162,P015,Fatima Hussain,AI Academy,P013,2024-09-26,Gateway preparation,Strong,Strong rapport and wellbeing check-in,Embed Prevent / British values discussion more naturally,0
+OBS4163,E1081,Gemma Smith,Digital Academy,P021,2025-06-10,1:1 coaching,Requires improvement,Highly personalised targets,Embed Prevent / British values discussion more naturally,1
+OBS4164,E1106,Kelly Todd,Leadership Academy,P021,2025-01-20,1:1 coaching,Secure,Strong rapport and wellbeing check-in,Stretch more able learners,0
+OBS4165,E1129,Karl Marsden,Leadership Academy,P021,2024-09-24,Gateway preparation,Secure,Strong rapport and wellbeing check-in,Check understanding more frequently,0
+OBS4166,E1069,Adrian Jordan,People Academy,P009,2025-03-24,Progress review,Secure,Well-paced workshop with good participation,Stretch more able learners,0
+OBS4167,P017,Kwame Mensah,Leadership Academy,P013,2026-04-29,Group workshop,Strong,Skilful questioning that deepened learner reflection,Stretch more able learners,0
+OBS4168,E1139,Ben Day,AI Academy,P013,2025-01-14,Functional Skills lesson,Strong,Highly personalised targets,Stretch more able learners,0
+OBS4169,P018,Emily Barker,Functional Skills,P012,2026-07-17,Progress review,Secure,Effective use of real employer data in examples,"Set sharper, measurable targets",0
+OBS4170,P015,Fatima Hussain,AI Academy,P021,2026-09-01,Gateway preparation,Secure,Effective use of real employer data in examples,"Set sharper, measurable targets",0
+OBS4171,E1091,Kayleigh Wright,Leadership Academy,P009,2025-09-02,Progress review,Developing,Effective use of real employer data in examples,Stretch more able learners,1
+OBS4172,P015,Fatima Hussain,AI Academy,P005,2025-04-22,Group workshop,Secure,Clear links between KSBs and workplace tasks,Use Aptiva evidence more during the session,0
+OBS4173,E1057,Abbie Edwards,AI Academy,P021,2025-03-17,Group workshop,Strong,Effective use of real employer data in examples,"Set sharper, measurable targets",0
+OBS4174,E1065,Susan Tomlinson,Data Academy,P021,2025-04-16,Group workshop,Developing,Effective use of real employer data in examples,Use Aptiva evidence more during the session,1
+OBS4175,E1112,Zoe Campbell,Leadership Academy,P013,2024-12-06,Functional Skills lesson,Secure,Skilful questioning that deepened learner reflection,Embed Prevent / British values discussion more naturally,0
+OBS4176,E1073,William Atkinson,Functional Skills,P009,2024-09-10,Progress review,Secure,Strong rapport and wellbeing check-in,Use Aptiva evidence more during the session,0
+OBS4177,E1103,Donald Moore,Data Academy,P021,2025-12-16,Gateway preparation,Secure,Clear links between KSBs and workplace tasks,Embed Prevent / British values discussion more naturally,0
+OBS4178,E1080,Susan Allan,People Academy,P012,2026-05-08,1:1 coaching,Secure,Skilful questioning that deepened learner reflection,Stretch more able learners,0
+OBS4179,E1074,Nathan Marsden,Leadership Academy,P009,2025-05-14,1:1 coaching,Strong,Well-paced workshop with good participation,Embed Prevent / British values discussion more naturally,0
+OBS4180,E1053,Adrian Green,Leadership Academy,P021,2025-05-27,1:1 coaching,Secure,Skilful questioning that deepened learner reflection,Check understanding more frequently,0

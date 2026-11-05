@@ -1,0 +1,113 @@
+{
+  "channel": "Coaches – AI & Data",
+  "team": "Learning Delivery",
+  "messages": [
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-04T08:47",
+      "text": "Morning all ☕ Quick one — anyone else seeing learners' OTJ jump overnight? Two of mine went up by 2.5 hours each for a workshop they also logged manually last week.",
+      "reactions": [
+        "👀 3"
+      ]
+    },
+    {
+      "from": "Fatima Hussain",
+      "from_email": "fatima.hussain@delcorn.co.uk",
+      "time": "2026-11-04T08:52",
+      "text": "Yes! That's the Teams attendance import. Since 14 Oct Aptiva flags the duplicates in amber on the OTJ log — you need to reject the manual entry, not the imported one.",
+      "reactions": []
+    },
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-04T08:55",
+      "text": "Ah, legend. I've been deleting the wrong one 🙈",
+      "reactions": []
+    },
+    {
+      "from": "Kate Simmons",
+      "from_email": "kate.simmons@delcorn.co.uk",
+      "time": "2026-11-04T09:03",
+      "text": "Confirming what Fatima said. Imported entries have the little Teams icon and the session ID — always keep those. Reject manual duplicates with reason 'Duplicate – auto-imported'. Compliance can then see why the hours changed.",
+      "reactions": [
+        "👍 6"
+      ]
+    },
+    {
+      "from": "Sam Patel",
+      "from_email": "sam.patel@delcorn.co.uk",
+      "time": "2026-11-04T09:10",
+      "text": "Reminder: Red learners' overdue reviews need to be booked by Friday. If the line manager can't make it, book with a nominated workplace mentor (new rule from the team meeting) but still get employer sign-off.",
+      "reactions": []
+    },
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-04T09:14",
+      "text": "Mine are all in except Raymond at Arden Retail — manager's on leave until the 16th. Booked the mentor for the 12th.",
+      "reactions": []
+    },
+    {
+      "from": "Sam Patel",
+      "from_email": "sam.patel@delcorn.co.uk",
+      "time": "2026-11-04T09:15",
+      "text": "Perfect, thanks James 👏",
+      "reactions": []
+    },
+    {
+      "from": "Fatima Hussain",
+      "from_email": "fatima.hussain@delcorn.co.uk",
+      "time": "2026-11-04T10:31",
+      "text": "For anyone who missed the demo — I'm writing up a Copilot prompt for review summaries. Current version: \"Using the transcript of this meeting, draft a progress review summary for [learner] covering KSB progress, OTJ position, employer feedback and 3 SMART targets. Plain English, under 200 words. Leave out any health or personal details.\"",
+      "reactions": [
+        "❤️ 5",
+        "🔥 2"
+      ]
+    },
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-04T10:40",
+      "text": "Tried that on yesterday's review — took 2 mins and I only changed one target. Saved me a good 20 minutes of typing at 6pm 😅",
+      "reactions": []
+    },
+    {
+      "from": "Emily Barker",
+      "from_email": "emily.barker@delcorn.co.uk",
+      "time": "2026-11-04T11:02",
+      "text": "Small reminder from the Functional Skills side: maths and English study does NOT count as OTJ, so please don't let learners log FS sessions in the OTJ log. I've spotted a few this month.",
+      "reactions": []
+    },
+    {
+      "from": "Fatima Hussain",
+      "from_email": "fatima.hussain@delcorn.co.uk",
+      "time": "2026-11-04T11:05",
+      "text": "Good shout Emily. Same goes for the progress review itself — doesn't count either.",
+      "reactions": []
+    },
+    {
+      "from": "James Rowe",
+      "from_email": "james.rowe@delcorn.co.uk",
+      "time": "2026-11-04T11:20",
+      "text": "Question for Kate: if a learner transfers from DT3 to DA4, does their OTJ carry over? Saw one show as zero last week.",
+      "reactions": []
+    },
+    {
+      "from": "Kate Simmons",
+      "from_email": "kate.simmons@delcorn.co.uk",
+      "time": "2026-11-04T11:34",
+      "text": "It carries over if the transfer is done as a 'programme change' rather than a new enrolment. The zero issue was a bad transfer — fixed now. Raise a FixDesk ticket (category 'Aptiva access / sync') if you see it again.",
+      "reactions": [
+        "👍 4"
+      ]
+    },
+    {
+      "from": "Sam Patel",
+      "from_email": "sam.patel@delcorn.co.uk",
+      "time": "2026-11-04T11:40",
+      "text": "Great thread, everyone. Fatima — can you pin your prompt in the channel once it's final?",
+      "reactions": []
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+﻿case_id,learner_id,date_raised,raised_by,category,risk_level,dsl_assigned,status,external_referral,referral_agency,closed_date,days_open
+SG3001,LRN21372,2026-04-18,E1066,Financial hardship,High,P023,Closed,1,Employee assistance programme,2026-05-08,20
+SG3002,LRN20182,2025-08-12,E1115,Online safety,Medium,P023,Closed,0,,2025-08-22,10
+SG3003,LRN20936,2026-03-10,E1115,Self-harm / suicidal ideation,Low,P023,Closed,0,,2026-03-21,11
+SG3004,LRN20729,2026-04-08,E1096,Financial hardship,Low,P010,Closed,1,GP,2026-05-04,26
+SG3005,LRN20387,2025-03-15,E1105,Workplace concern / bullying,Low,P023,Monitoring,0,,,600
+SG3006,LRN21609,2026-03-24,E1044,Domestic abuse,Medium,P023,Closed,0,,2026-04-24,31
+SG3007,LRN21466,2025-12-19,E1115,Housing / homelessness,Low,P010,Closed,0,,2025-12-25,6
+SG3008,LRN20117,2025-07-29,E1106,Prevent / radicalisation,High,P010,Closed,1,Local authority Prevent team,2025-08-22,24
+SG3009,LRN20123,2026-05-14,P017,Financial hardship,Low,P010,Closed,0,,2026-06-06,23
+SG3010,LRN20011,2026-07-28,E1126,Financial hardship,High,P023,Closed,1,Employee assistance programme,2026-08-19,22
+SG3011,LRN20632,2026-01-03,E1127,Mental health & wellbeing,Medium,P010,Closed,0,,2026-01-18,15
+SG3012,LRN21923,2025-11-23,E1084,Mental health & wellbeing,Medium,P010,Closed,0,,2025-12-22,29
+SG3013,LRN21073,2026-08-01,E1084,Online safety,Low,P010,Closed,0,,2026-08-19,18
+SG3014,LRN21301,2026-03-09,E1055,Mental health & wellbeing,Low,P010,Closed,0,,2026-03-23,14
+SG3015,LRN22030,2026-08-30,E1106,Mental health & wellbeing,High,P010,Closed,1,Employee assistance programme,2026-10-05,36
+SG3016,LRN21231,2026-10-26,E1098,Mental health & wellbeing,Medium,P010,Open,0,,,10
+SG3017,LRN20728,2025-08-08,E1081,Mental health & wellbeing,Medium,P010,Closed,0,,2025-08-26,18
+SG3018,LRN21319,2026-05-14,P016,Financial hardship,Low,P023,Monitoring,0,,,175
+SG3019,LRN21297,2026-10-10,E1098,Mental health & wellbeing,Medium,P023,Open,1,Employee assistance programme,,26
+SG3020,LRN21373,2026-07-01,E1047,Mental health & wellbeing,Medium,P023,Closed,1,Citizens Advice,2026-07-19,18
+SG3021,LRN20321,2025-10-07,E1098,Mental health & wellbeing,Medium,P023,Closed,0,,2025-10-23,16
+SG3022,LRN21557,2026-10-22,E1107,Domestic abuse,Low,P023,Monitoring,0,,,14
+SG3023,LRN21499,2026-03-05,E1049,Financial hardship,Medium,P010,Closed,0,,2026-03-13,8
+SG3024,LRN20897,2026-08-29,E1095,Housing / homelessness,High,P023,Monitoring,0,,,68
+SG3025,LRN21577,2025-08-03,E1106,Workplace concern / bullying,Low,P010,Closed,0,,2025-08-27,24
+SG3026,LRN21862,2025-07-07,E1049,Substance misuse,High,P023,Closed,0,,2025-08-01,25
+SG3027,LRN20434,2026-10-07,E1126,Workplace concern / bullying,Low,P023,Open,0,,,29
+SG3028,LRN20733,2025-03-15,E1049,Mental health & wellbeing,Medium,P010,Closed,0,,2025-04-15,31
+SG3029,LRN22272,2025-04-16,E1128,Workplace concern / bullying,Low,P010,Closed,0,,2025-04-27,11
+SG3030,LRN21291,2026-01-08,E1077,Substance misuse,Low,P010,Closed,1,GP,2026-01-14,6
+SG3031,LRN21716,2026-10-25,E1117,Other,Medium,P010,Open,0,,,11
+SG3032,LRN21305,2026-06-01,E1103,Prevent / radicalisation,Low,P023,Monitoring,1,Local authority Prevent team,,157
+SG3033,LRN22053,2025-09-23,P016,Online safety,Low,P023,Closed,1,Employee assistance programme,2025-10-17,24
+SG3034,LRN20742,2025-03-26,E1057,Workplace concern / bullying,Medium,P010,Closed,0,,2025-04-16,21
+SG3035,LRN22226,2025-03-15,E1093,Online safety,Medium,P010,Closed,0,,2025-04-18,34
+SG3036,LRN21129,2025-12-11,E1082,Housing / homelessness,Low,P023,Closed,0,,2025-12-17,6
+SG3037,LRN20630,2025-03-31,P017,Prevent / radicalisation,Medium,P023,Closed,1,Local authority Prevent team,2025-04-22,22
+SG3038,LRN21061,2026-06-24,E1060,Mental health & wellbeing,Medium,P023,Closed,0,,2026-07-26,32
+SG3039,LRN20620,2025-04-18,E1084,Self-harm / suicidal ideation,Medium,P023,Closed,0,,2025-05-06,18
+SG3040,LRN20972,2026-10-01,E1042,Prevent / radicalisation,High,P023,Open,1,Local authority Prevent team,,35
+SG3041,LRN20122,2025-03-28,E1117,Workplace concern / bullying,Low,P023,Closed,0,,2025-03-31,3
+SG3042,LRN21603,2026-04-21,E1069,Mental health & wellbeing,Low,P010,Closed,0,,2026-04-27,6
+SG3043,LRN22027,2026-06-30,E1040,Workplace concern / bullying,Medium,P010,Monitoring,0,,,128
+SG3044,LRN21402,2026-05-28,E1132,Mental health & wellbeing,Low,P010,Monitoring,0,,,161
+SG3045,LRN21927,2026-08-22,E1081,Housing / homelessness,Medium,P010,Closed,0,,2026-09-23,32
+SG3046,LRN20421,2026-03-23,E1042,Workplace concern / bullying,Low,P010,Closed,0,,2026-04-01,9
+SG3047,LRN21282,2025-12-17,E1124,Workplace concern / bullying,High,P010,Closed,1,GP,2026-01-12,26
+SG3048,LRN20402,2025-04-01,E1074,Mental health & wellbeing,Low,P023,Closed,0,,2025-05-03,32
+SG3049,LRN20306,2025-10-02,E1133,Online safety,Low,P023,Closed,0,,2025-10-17,15
+SG3050,LRN21404,2026-02-23,E1093,Financial hardship,Low,P010,Closed,0,,2026-03-15,20
+SG3051,LRN21772,2025-08-29,E1093,Mental health & wellbeing,High,P010,Closed,1,Local authority adult social care,2025-09-16,18
+SG3052,LRN22085,2025-03-24,E1067,Mental health & wellbeing,High,P023,Closed,1,Local authority adult social care,2025-04-02,9
+SG3053,LRN20991,2026-07-04,E1080,Other,High,P023,Closed,0,,2026-08-02,29
+SG3054,LRN21726,2025-07-05,E1136,Prevent / radicalisation,Medium,P023,Closed,1,Local authority Prevent team,2025-08-07,33
+SG3055,LRN21680,2025-10-17,E1127,Housing / homelessness,Low,P023,Closed,0,,2025-10-26,9
+SG3056,LRN20185,2025-05-06,E1065,Workplace concern / bullying,Medium,P023,Closed,0,,2025-05-22,16
+SG3057,LRN20059,2026-01-02,E1078,Prevent / radicalisation,Low,P023,Closed,1,Local authority Prevent team,2026-01-24,22
+SG3058,LRN20353,2025-04-26,E1093,Financial hardship,Medium,P023,Closed,0,,2025-05-23,27
+SG3059,LRN20857,2026-07-30,E1106,Financial hardship,Medium,P010,Closed,0,,2026-08-05,6
+SG3060,LRN22160,2026-04-12,E1057,Mental health & wellbeing,Low,P023,Closed,0,,2026-04-30,18
+SG3061,LRN21521,2026-04-11,E1074,Mental health & wellbeing,Low,P023,Closed,0,,2026-05-19,38
+SG3062,LRN20429,2025-03-16,E1049,Mental health & wellbeing,Low,P023,Closed,0,,2025-04-20,35
+SG3063,LRN21913,2025-06-14,P017,Mental health & wellbeing,Low,P010,Closed,0,,2025-07-20,36
+SG3064,LRN21692,2026-07-21,E1040,Mental health & wellbeing,Low,P010,Closed,0,,2026-08-04,14
+SG3065,LRN22039,2026-01-07,E1072,Mental health & wellbeing,Low,P010,Closed,0,,2026-02-04,28
+SG3066,LRN20396,2025-11-11,P015,Online safety,Low,P010,Closed,0,,2025-12-16,35
+SG3067,LRN22005,2026-07-27,E1091,Mental health & wellbeing,Medium,P023,Monitoring,1,Citizens Advice,,101
+SG3068,LRN21178,2026-08-13,E1074,Domestic abuse,Medium,P023,Closed,0,,2026-08-20,7
+SG3069,LRN21460,2025-06-09,E1102,Mental health & wellbeing,High,P023,Closed,0,,2025-06-19,10
+SG3070,LRN20111,2025-07-07,E1102,Online safety,Medium,P010,Closed,0,,2025-08-07,31
+SG3071,LRN22284,2025-05-19,E1133,Mental health & wellbeing,Low,P010,Closed,0,,2025-05-26,7
+SG3072,LRN20139,2026-05-03,E1047,Housing / homelessness,Low,P023,Closed,0,,2026-05-10,7
+SG3073,LRN20291,2026-09-23,E1129,Housing / homelessness,Low,P010,Monitoring,0,,,43
+SG3074,LRN20107,2025-12-14,E1124,Workplace concern / bullying,Low,P023,Closed,0,,2025-12-23,9

@@ -1,0 +1,104 @@
+{
+  "channel": "Copilot Programme",
+  "team": "Executive Team",
+  "messages": [
+    {
+      "from": "Aisha Karim",
+      "from_email": "aisha.karim@delcorn.co.uk",
+      "time": "2026-10-28T08:47",
+      "text": "Morning all. Ahead of Friday's go/no-go, here's where we are against the board's three conditions: (a) permissions remediation — 97% complete, last 11 sites being fixed today; (b) Case Management and Learner Files excluded from Copilot search — done and tested; (c) Copilot Essentials mandatory before licence — live in the CPD portal, 38 people completed already.",
+      "reactions": []
+    },
+    {
+      "from": "Helena Marsh",
+      "from_email": "helena.marsh@delcorn.co.uk",
+      "time": "2026-10-28T08:59",
+      "text": "Great progress. What's the risk if we go with 97%?",
+      "reactions": [
+        "👀 2"
+      ]
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-28T09:06",
+      "text": "The remaining 11 sites are old project sites with 'Everyone except external users' access. Low sensitivity, but I'd rather finish them. I'll confirm 100% by Thursday 5pm.",
+      "reactions": []
+    },
+    {
+      "from": "Priya Raman",
+      "from_email": "priya.raman@delcorn.co.uk",
+      "time": "2026-10-28T09:20",
+      "text": "From finance: licences are budgeted. Please can we make sure Ledgerline exports in the Finance site are labelled Confidential before wave 1 — some include salary data.",
+      "reactions": []
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-28T09:24",
+      "text": "Yes — auto-labelling policy for anything with salary or NI numbers goes live tomorrow.",
+      "reactions": []
+    },
+    {
+      "from": "David Okafor",
+      "from_email": "david.okafor@delcorn.co.uk",
+      "time": "2026-10-28T10:02",
+      "text": "Delivery view: coaches are keen, but I don't want wave 2 landing on the same week as the November ILR. Can wave 2 be 23 Nov rather than 16th?",
+      "reactions": []
+    },
+    {
+      "from": "Aisha Karim",
+      "from_email": "aisha.karim@delcorn.co.uk",
+      "time": "2026-10-28T10:10",
+      "text": "Fine by me. Wave 1 (central teams + delivery managers) 9 Nov, wave 2 (coaches and tutors) 23 Nov.",
+      "reactions": []
+    },
+    {
+      "from": "Dr Siân Llewellyn",
+      "from_email": "sian.llewellyn@delcorn.co.uk",
+      "time": "2026-10-28T11:31",
+      "text": "One request from Quality: Copilot must not be used to write progress review judgements or EPA readiness decisions. Can that be explicit in the training and the AI Acceptable Use Policy?",
+      "reactions": []
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-28T11:40",
+      "text": "It's in section 5 of the AUP v2.0 already, but I'll add a slide to Copilot Essentials so it's unmissable.",
+      "reactions": [
+        "👍 3"
+      ]
+    },
+    {
+      "from": "Marcus Bell",
+      "from_email": "marcus.bell@delcorn.co.uk",
+      "time": "2026-10-28T12:15",
+      "text": "People team ready with comms and FAQs. Jess has the Hub article and the Digest piece lined up for 30 Oct.",
+      "reactions": []
+    },
+    {
+      "from": "Liam O'Connor",
+      "from_email": "liam.oconnor@delcorn.co.uk",
+      "time": "2026-10-29T16:48",
+      "text": "Confirmed: permissions remediation 100% complete. Salary auto-labelling live. All three board conditions met.",
+      "reactions": []
+    },
+    {
+      "from": "Helena Marsh",
+      "from_email": "helena.marsh@delcorn.co.uk",
+      "time": "2026-10-30T09:05",
+      "text": "Thank you all. Decision: **GO**. Wave 1 on Monday 9 November, wave 2 on Monday 23 November. Aisha to report adoption, time saved and any data incidents to the January board. Oliver, please record this against action A-2610-01.",
+      "reactions": [
+        "🎉 6",
+        "👍 4"
+      ]
+    },
+    {
+      "from": "Oliver Grant",
+      "from_email": "oliver.grant@delcorn.co.uk",
+      "time": "2026-10-30T09:12",
+      "text": "Recorded — A-2610-01 marked complete, decision noted for the next exec meeting minutes.",
+      "reactions": []
+    }
+  ]
+}

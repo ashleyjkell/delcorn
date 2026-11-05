@@ -1,0 +1,131 @@
+﻿opp_id,employer_id,employer_name,owner_id,programme_code,programme_name,opportunity_name,stage,probability,est_starts,est_value_gbp,weighted_value_gbp,created_date,expected_close,source,funding_route
+OPP9001,EMP1032,Young Industries Ltd,P024,DO4,DevOps Engineering,Young Industries Ltd - DevOps Engineering cohort,Prospecting,0.1,17,374000,37400,2026-06-04,2027-01-18,Inbound web,Levy
+OPP9002,EMP1077,Harbour Transport Ltd,P024,ML6,Applied Machine Learning,Harbour Transport Ltd - Applied Machine Learning cohort,Discovery,0.25,28,672000,168000,2025-12-29,2026-12-04,Inbound web,Levy
+OPP9003,EMP1005,Corrigan Facilities Services,P026,DO4,DevOps Engineering,Corrigan Facilities Services - DevOps Engineering cohort,Negotiation,0.75,16,352000,264000,2026-02-06,2027-01-18,Existing account,Levy
+OPP9004,EMP1004,Halden Valley NHS Foundation Trust,P025,DA4,Data Analyst,Halden Valley NHS Foundation Trust - Data Analyst cohort,Proposal,0.5,16,272000,136000,2025-10-15,2027-04-02,Existing account,Levy
+OPP9005,EMP1008,Kestrel Logistics UK,P026,DT3,Data Foundations,Kestrel Logistics UK - Data Foundations cohort,Negotiation,0.75,16,192000,144000,2026-05-27,2027-02-05,Existing account,Levy transfer
+OPP9006,EMP1032,Young Industries Ltd,P024,AI4,AI & Automation Practitioner,Young Industries Ltd - AI & Automation Practitioner cohort,Closed Lost,0.0,3,57000,0,2026-01-12,2026-04-07,Event,Levy
+OPP9007,EMP1025,Pennant Consulting Ltd,P024,AI4,AI & Automation Practitioner,Pennant Consulting Ltd - AI & Automation Practitioner cohort,Closed Won,1.0,9,171000,171000,2026-10-14,2026-11-05,Framework tender,Levy
+OPP9008,EMP1052,Northway Networks,P026,BA4,Business Analysis,Northway Networks - Business Analysis cohort,Closed Won,1.0,7,126000,126000,2026-04-30,2026-07-26,Event,Levy
+OPP9009,EMP1016,Atlas Build & Civil,P026,PM4,Associate Project Manager,Atlas Build & Civil - Associate Project Manager cohort,Negotiation,0.75,17,102000,76500,2026-06-11,2026-11-21,Event,Levy
+OPP9010,EMP1025,Pennant Consulting Ltd,P024,PM4,Associate Project Manager,Pennant Consulting Ltd - Associate Project Manager cohort,Discovery,0.25,21,126000,31500,2026-04-24,2027-06-28,Existing account,Co-investment (5%)
+OPP9011,EMP1051,Jackson Retail Group,P025,DA4,Data Analyst,Jackson Retail Group - Data Analyst cohort,Proposal,0.5,3,51000,25500,2026-07-09,2027-06-02,Existing account,Commercial
+OPP9012,EMP1049,Crown Health Ltd,P026,DA4,Data Analyst,Crown Health Ltd - Data Analyst cohort,Negotiation,0.75,5,85000,63750,2025-10-09,2026-12-18,Referral,Co-investment (5%)
+OPP9013,EMP1086,Watson Insurance Ltd,P026,AI3,Working Smarter with AI,Watson Insurance Ltd - Working Smarter with AI cohort,Closed Lost,0.0,17,221000,0,2026-03-12,2026-06-24,Referral,Levy transfer
+OPP9014,EMP1022,Pennant Software Ltd,P025,DE5,Data Engineering,Pennant Software Ltd - Data Engineering cohort,Negotiation,0.75,19,399000,299250,2026-05-15,2026-11-23,Existing account,Commercial
+OPP9015,EMP1054,Westfield Software plc,P025,OM5,Operations Manager,Westfield Software plc - Operations Manager cohort,Closed Lost,0.0,16,112000,0,2025-10-20,2025-12-14,Existing account,Levy transfer
+OPP9016,EMP1066,Harding Technologies Group,P025,AI4,AI & Automation Practitioner,Harding Technologies Group - AI & Automation Practitioner cohort,Prospecting,0.1,5,95000,9500,2026-05-08,2027-06-16,Referral,Levy
+OPP9017,EMP1010,Sunstone Pharmaceuticals UK,P024,DE5,Data Engineering,Sunstone Pharmaceuticals UK - Data Engineering cohort,Prospecting,0.1,31,651000,65100,2025-12-16,2027-03-21,Existing account,Co-investment (5%)
+OPP9018,EMP1082,Redwood Logistics Ltd,P025,AI3,Working Smarter with AI,Redwood Logistics Ltd - Working Smarter with AI cohort,Closed Lost,0.0,18,234000,0,2026-09-03,2026-11-05,Existing account,Levy
+OPP9019,EMP1025,Pennant Consulting Ltd,P024,PM4,Associate Project Manager,Pennant Consulting Ltd - Associate Project Manager cohort,Proposal,0.5,14,84000,42000,2026-06-11,2027-01-29,Event,Levy
+OPP9020,EMP1088,Pennant Combined Authority,P024,DTS6,Digital & Technology Solutions (Degree),Pennant Combined Authority - Digital & Technology Solutions (Degree) cohort,Proposal,0.5,3,81000,40500,2026-02-03,2027-04-02,Existing account,Levy transfer
+OPP9021,EMP1079,Westfield Digital plc,P024,FR3,Fundraiser,Westfield Digital plc - Fundraiser cohort,Discovery,0.25,21,126000,31500,2026-04-29,2027-07-03,Framework tender,Levy
+OPP9022,EMP1011,Marlow Borough Council,P025,AI3,Working Smarter with AI,Marlow Borough Council - Working Smarter with AI cohort,Discovery,0.25,4,52000,13000,2026-05-28,2027-02-26,Inbound web,Levy
+OPP9023,EMP1010,Sunstone Pharmaceuticals UK,P024,DT3,Data Foundations,Sunstone Pharmaceuticals UK - Data Foundations cohort,Negotiation,0.75,15,180000,135000,2026-09-02,2027-07-22,Existing account,Levy
+OPP9024,EMP1007,Orbis Telecom,P026,DA4,Data Analyst,Orbis Telecom - Data Analyst cohort,Prospecting,0.1,20,340000,34000,2026-02-24,2027-02-17,Existing account,Co-investment (5%)
+OPP9025,EMP1007,Orbis Telecom,P026,BA4,Business Analysis,Orbis Telecom - Business Analysis cohort,Prospecting,0.1,14,252000,25200,2025-11-18,2027-06-01,Inbound web,Levy
+OPP9026,EMP1016,Atlas Build & Civil,P026,CM6,Chartered Manager (Degree),Atlas Build & Civil - Chartered Manager (Degree) cohort,Negotiation,0.75,13,286000,214500,2026-10-08,2027-01-10,Referral,Levy
+OPP9027,EMP1049,Crown Health Ltd,P026,DT3,Data Foundations,Crown Health Ltd - Data Foundations cohort,Proposal,0.5,30,360000,180000,2026-10-09,2027-04-24,Existing account,Levy
+OPP9028,EMP1016,Atlas Build & Civil,P026,AI3,Working Smarter with AI,Atlas Build & Civil - Working Smarter with AI cohort,Discovery,0.25,18,234000,58500,2026-02-10,2027-01-17,Existing account,Levy
+OPP9029,EMP1023,Summit Software plc,P026,OM5,Operations Manager,Summit Software plc - Operations Manager cohort,Negotiation,0.75,19,133000,99750,2026-08-26,2027-06-11,Existing account,Levy transfer
+OPP9030,EMP1066,Harding Technologies Group,P025,DE5,Data Engineering,Harding Technologies Group - Data Engineering cohort,Discovery,0.25,8,168000,42000,2026-08-07,2027-01-05,Existing account,Levy
+OPP9031,EMP1020,Harbourline Ports,P024,AI3,Working Smarter with AI,Harbourline Ports - Working Smarter with AI cohort,Closed Lost,0.0,29,377000,0,2026-06-30,2026-08-02,Referral,Levy
+OPP9032,EMP1018,Pennine Community Health CIC,P025,AI3,Working Smarter with AI,Pennine Community Health CIC - Working Smarter with AI cohort,Proposal,0.5,7,91000,45500,2026-01-06,2027-07-18,Event,Levy
+OPP9033,EMP1012,CareFirst Charity,P025,TL3,Team Leader,CareFirst Charity - Team Leader cohort,Closed Lost,0.0,21,94500,0,2026-03-24,2026-06-23,Framework tender,Co-investment (5%)
+OPP9034,EMP1017,Fieldhouse Mutual,P024,TL3,Team Leader,Fieldhouse Mutual - Team Leader cohort,Discovery,0.25,3,13500,3375,2025-09-26,2027-04-27,Referral,Commercial
+OPP9035,EMP1060,Walsh Medical Ltd,P025,AI3,Working Smarter with AI,Walsh Medical Ltd - Working Smarter with AI cohort,Closed Lost,0.0,8,104000,0,2026-09-01,2026-11-05,Existing account,Levy
+OPP9036,EMP1035,Ahmed Consulting,P025,PP5,People Professional,Ahmed Consulting - People Professional cohort,Closed Lost,0.0,24,192000,0,2026-05-20,2026-08-16,Outbound,Levy
+OPP9037,EMP1009,Hearth & Home Housing Association,P025,AI3,Working Smarter with AI,Hearth & Home Housing Association - Working Smarter with AI cohort,Negotiation,0.75,16,208000,156000,2026-09-03,2027-04-27,Existing account,Commercial
+OPP9038,EMP1088,Pennant Combined Authority,P024,SPP7,Senior People Professional,Pennant Combined Authority - Senior People Professional cohort,Closed Won,1.0,17,238000,238000,2026-04-13,2026-08-02,Event,Commercial
+OPP9039,EMP1075,Granite Foods,P025,DT3,Data Foundations,Granite Foods - Data Foundations cohort,Closed Won,1.0,12,144000,144000,2025-10-22,2025-11-15,Event,Levy
+OPP9040,EMP1049,Crown Health Ltd,P026,AI4,AI & Automation Practitioner,Crown Health Ltd - AI & Automation Practitioner cohort,Negotiation,0.75,14,266000,199500,2026-04-10,2027-05-04,Existing account,Levy
+OPP9041,EMP1082,Redwood Logistics Ltd,P025,SL7,Senior Leader,Redwood Logistics Ltd - Senior Leader cohort,Prospecting,0.1,9,126000,12600,2026-09-18,2027-04-09,Existing account,Levy
+OPP9042,EMP1008,Kestrel Logistics UK,P026,DA4,Data Analyst,Kestrel Logistics UK - Data Analyst cohort,Prospecting,0.1,21,357000,35700,2026-09-21,2027-06-23,Event,Levy
+OPP9043,EMP1071,Redwood Logistics Ltd,P025,AI3,Working Smarter with AI,Redwood Logistics Ltd - Working Smarter with AI cohort,Proposal,0.5,19,247000,123500,2025-09-10,2027-03-02,Existing account,Levy
+OPP9044,EMP1035,Ahmed Consulting,P025,AI3,Working Smarter with AI,Ahmed Consulting - Working Smarter with AI cohort,Proposal,0.5,17,221000,110500,2026-04-13,2027-06-15,Existing account,Levy
+OPP9045,EMP1088,Pennant Combined Authority,P024,DT3,Data Foundations,Pennant Combined Authority - Data Foundations cohort,Discovery,0.25,31,372000,93000,2025-12-24,2027-06-21,Referral,Levy
+OPP9046,EMP1006,Bluewater Bank,P024,BA4,Business Analysis,Bluewater Bank - Business Analysis cohort,Negotiation,0.75,19,342000,256500,2025-12-26,2027-03-06,Referral,Levy
+OPP9047,EMP1053,Calder Digital Ltd,P026,AI4,AI & Automation Practitioner,Calder Digital Ltd - AI & Automation Practitioner cohort,Proposal,0.5,25,475000,237500,2025-09-15,2027-03-01,Inbound web,Commercial
+OPP9048,EMP1073,Miah Capital Ltd,P026,TL3,Team Leader,Miah Capital Ltd - Team Leader cohort,Negotiation,0.75,33,148500,111375,2026-08-17,2027-02-13,Outbound,Levy
+OPP9049,EMP1085,Sharp Stores plc,P025,AI3,Working Smarter with AI,Sharp Stores plc - Working Smarter with AI cohort,Discovery,0.25,10,130000,32500,2026-01-27,2027-06-17,Existing account,Levy
+OPP9050,EMP1042,Oakfield District Council,P025,AI3,Working Smarter with AI,Oakfield District Council - Working Smarter with AI cohort,Negotiation,0.75,15,195000,146250,2026-10-14,2027-07-02,Event,Levy transfer
+OPP9051,EMP1015,Greyfriars Hotels,P026,BA4,Business Analysis,Greyfriars Hotels - Business Analysis cohort,Closed Won,1.0,25,450000,450000,2026-10-02,2026-11-05,Framework tender,Levy
+OPP9052,EMP1031,Johnson Wealth Ltd,P024,CM6,Chartered Manager (Degree),Johnson Wealth Ltd - Chartered Manager (Degree) cohort,Closed Lost,0.0,12,264000,0,2026-02-02,2026-05-03,Outbound,Co-investment (5%)
+OPP9053,EMP1010,Sunstone Pharmaceuticals UK,P024,DA4,Data Analyst,Sunstone Pharmaceuticals UK - Data Analyst cohort,Prospecting,0.1,30,510000,51000,2026-01-21,2026-12-06,Framework tender,Levy
+OPP9054,EMP1090,Houghton Foods Ltd,P026,AI4,AI & Automation Practitioner,Houghton Foods Ltd - AI & Automation Practitioner cohort,Discovery,0.25,17,323000,80750,2025-09-11,2026-12-27,Existing account,Levy
+OPP9055,EMP1032,Young Industries Ltd,P024,OM5,Operations Manager,Young Industries Ltd - Operations Manager cohort,Discovery,0.25,20,140000,35000,2026-08-11,2027-04-01,Inbound web,Levy
+OPP9056,EMP1010,Sunstone Pharmaceuticals UK,P024,DT3,Data Foundations,Sunstone Pharmaceuticals UK - Data Foundations cohort,Closed Won,1.0,18,216000,216000,2026-02-05,2026-04-16,Framework tender,Levy
+OPP9057,EMP1027,Burton Hospitality Ltd,P025,DA4,Data Analyst,Burton Hospitality Ltd - Data Analyst cohort,Closed Won,1.0,8,136000,136000,2026-04-06,2026-07-29,Framework tender,Levy
+OPP9058,EMP1058,Redwood Networks Ltd,P026,AI3,Working Smarter with AI,Redwood Networks Ltd - Working Smarter with AI cohort,Proposal,0.5,11,143000,71500,2026-09-07,2027-04-04,Existing account,Levy
+OPP9059,EMP1028,Calder Transport plc,P025,SD4,Software Development,Calder Transport plc - Software Development cohort,Prospecting,0.1,24,504000,50400,2026-02-12,2027-04-16,Existing account,Levy
+OPP9060,EMP1086,Watson Insurance Ltd,P026,TL3,Team Leader,Watson Insurance Ltd - Team Leader cohort,Closed Won,1.0,10,45000,45000,2026-09-23,2026-11-05,Inbound web,Levy
+OPP9061,EMP1037,Highland Engineering Group,P026,SL7,Senior Leader,Highland Engineering Group - Senior Leader cohort,Discovery,0.25,26,364000,91000,2026-07-06,2027-06-15,Existing account,Levy transfer
+OPP9062,EMP1022,Pennant Software Ltd,P025,DT3,Data Foundations,Pennant Software Ltd - Data Foundations cohort,Proposal,0.5,4,48000,24000,2026-07-14,2027-04-12,Outbound,Levy
+OPP9063,EMP1050,Albion Foods Group,P025,AI3,Working Smarter with AI,Albion Foods Group - Working Smarter with AI cohort,Discovery,0.25,3,39000,9750,2026-10-02,2027-06-18,Existing account,Levy
+OPP9064,EMP1085,Sharp Stores plc,P025,PP5,People Professional,Sharp Stores plc - People Professional cohort,Prospecting,0.1,4,32000,3200,2026-09-21,2027-07-03,Existing account,Co-investment (5%)
+OPP9065,EMP1025,Pennant Consulting Ltd,P024,SL7,Senior Leader,Pennant Consulting Ltd - Senior Leader cohort,Proposal,0.5,29,406000,203000,2026-02-12,2027-05-10,Existing account,Levy
+OPP9066,EMP1018,Pennine Community Health CIC,P025,BAD3,Business Administrator,Pennine Community Health CIC - Business Administrator cohort,Negotiation,0.75,5,25000,18750,2025-12-19,2026-12-04,Inbound web,Commercial
+OPP9067,EMP1081,Ward Combined Authority,P025,DA4,Data Analyst,Ward Combined Authority - Data Analyst cohort,Closed Lost,0.0,11,187000,0,2026-06-09,2026-09-23,Existing account,Levy
+OPP9068,EMP1073,Miah Capital Ltd,P026,PM4,Associate Project Manager,Miah Capital Ltd - Associate Project Manager cohort,Proposal,0.5,16,96000,48000,2026-08-21,2027-05-05,Inbound web,Levy
+OPP9069,EMP1056,Harbour Engineering,P025,DA4,Data Analyst,Harbour Engineering - Data Analyst cohort,Proposal,0.5,3,51000,25500,2026-01-07,2027-01-22,Existing account,Levy transfer
+OPP9070,EMP1052,Northway Networks,P026,TL3,Team Leader,Northway Networks - Team Leader cohort,Proposal,0.5,25,112500,56250,2025-10-14,2027-02-10,Existing account,Levy
+OPP9071,EMP1014,Arden Retail Group,P026,OM5,Operations Manager,Arden Retail Group - Operations Manager cohort,Proposal,0.5,15,105000,52500,2025-09-15,2026-11-16,Event,Levy
+OPP9072,EMP1004,Halden Valley NHS Foundation Trust,P025,DE5,Data Engineering,Halden Valley NHS Foundation Trust - Data Engineering cohort,Prospecting,0.1,4,84000,8400,2026-07-17,2027-04-23,Referral,Commercial
+OPP9073,EMP1073,Miah Capital Ltd,P026,DTS6,Digital & Technology Solutions (Degree),Miah Capital Ltd - Digital & Technology Solutions (Degree) cohort,Proposal,0.5,8,216000,108000,2025-10-10,2027-01-31,Outbound,Commercial
+OPP9074,EMP1055,Calder Engineering Ltd,P025,TL3,Team Leader,Calder Engineering Ltd - Team Leader cohort,Prospecting,0.1,3,13500,1350,2026-01-06,2026-11-23,Referral,Commercial
+OPP9075,EMP1002,Valemont Insurance Group,P024,SD4,Software Development,Valemont Insurance Group - Software Development cohort,Proposal,0.5,27,567000,283500,2026-07-23,2027-03-23,Referral,Co-investment (5%)
+OPP9076,EMP1087,Miles Insurance plc,P026,ML6,Applied Machine Learning,Miles Insurance plc - Applied Machine Learning cohort,Closed Lost,0.0,26,624000,0,2026-07-02,2026-10-26,Existing account,Commercial
+OPP9077,EMP1051,Jackson Retail Group,P025,BAD3,Business Administrator,Jackson Retail Group - Business Administrator cohort,Discovery,0.25,10,50000,12500,2026-04-23,2027-04-14,Framework tender,Co-investment (5%)
+OPP9078,EMP1075,Granite Foods,P025,BAD3,Business Administrator,Granite Foods - Business Administrator cohort,Closed Won,1.0,27,135000,135000,2026-02-09,2026-04-05,Outbound,Levy
+OPP9079,EMP1001,Northgrid Energy plc,P024,DT3,Data Foundations,Northgrid Energy plc - Data Foundations cohort,Discovery,0.25,3,36000,9000,2026-10-20,2027-02-12,Event,Levy
+OPP9080,EMP1091,Pearce Leisure,P026,SL7,Senior Leader,Pearce Leisure - Senior Leader cohort,Discovery,0.25,16,224000,56000,2026-06-22,2027-01-17,Event,Co-investment (5%)
+OPP9081,EMP1040,Highland Manufacturing Ltd,P026,TL3,Team Leader,Highland Manufacturing Ltd - Team Leader cohort,Closed Won,1.0,24,108000,108000,2025-10-01,2025-10-21,Existing account,Levy
+OPP9082,EMP1025,Pennant Consulting Ltd,P024,AI3,Working Smarter with AI,Pennant Consulting Ltd - Working Smarter with AI cohort,Closed Lost,0.0,13,169000,0,2026-03-25,2026-07-06,Framework tender,Levy
+OPP9083,EMP1051,Jackson Retail Group,P025,DA4,Data Analyst,Jackson Retail Group - Data Analyst cohort,Closed Lost,0.0,22,374000,0,2026-08-26,2026-11-05,Existing account,Co-investment (5%)
+OPP9084,EMP1016,Atlas Build & Civil,P026,BAD3,Business Administrator,Atlas Build & Civil - Business Administrator cohort,Closed Won,1.0,18,90000,90000,2026-05-06,2026-08-15,Event,Levy
+OPP9085,EMP1066,Harding Technologies Group,P025,AI4,AI & Automation Practitioner,Harding Technologies Group - AI & Automation Practitioner cohort,Prospecting,0.1,14,266000,26600,2026-06-23,2027-05-10,Referral,Levy
+OPP9086,EMP1055,Calder Engineering Ltd,P025,DTS6,Digital & Technology Solutions (Degree),Calder Engineering Ltd - Digital & Technology Solutions (Degree) cohort,Proposal,0.5,18,486000,243000,2026-08-17,2027-03-14,Existing account,Levy transfer
+OPP9087,EMP1071,Redwood Logistics Ltd,P025,AI3,Working Smarter with AI,Redwood Logistics Ltd - Working Smarter with AI cohort,Closed Lost,0.0,5,65000,0,2026-04-21,2026-06-27,Existing account,Levy transfer
+OPP9088,EMP1004,Halden Valley NHS Foundation Trust,P025,AI4,AI & Automation Practitioner,Halden Valley NHS Foundation Trust - AI & Automation Practitioner cohort,Prospecting,0.1,13,247000,24700,2025-09-10,2026-12-31,Event,Commercial
+OPP9089,EMP1087,Miles Insurance plc,P026,OM5,Operations Manager,Miles Insurance plc - Operations Manager cohort,Discovery,0.25,16,112000,28000,2026-03-10,2027-02-24,Inbound web,Levy
+OPP9090,EMP1080,Summit Digital,P025,TL3,Team Leader,Summit Digital - Team Leader cohort,Negotiation,0.75,14,63000,47250,2026-01-30,2027-04-28,Outbound,Commercial
+OPP9091,EMP1062,Beacon Networks Group,P026,AI3,Working Smarter with AI,Beacon Networks Group - Working Smarter with AI cohort,Discovery,0.25,8,104000,26000,2025-09-16,2027-04-21,Inbound web,Levy
+OPP9092,EMP1030,Norris Foods,P024,AI3,Working Smarter with AI,Norris Foods - Working Smarter with AI cohort,Closed Lost,0.0,24,312000,0,2026-05-27,2026-07-04,Event,Levy
+OPP9093,EMP1063,Granite Wealth Ltd,P026,ML6,Applied Machine Learning,Granite Wealth Ltd - Applied Machine Learning cohort,Prospecting,0.1,23,552000,55200,2026-07-06,2027-04-21,Outbound,Co-investment (5%)
+OPP9094,EMP1012,CareFirst Charity,P025,AI3,Working Smarter with AI,CareFirst Charity - Working Smarter with AI cohort,Proposal,0.5,29,377000,188500,2026-05-28,2027-06-30,Framework tender,Co-investment (5%)
+OPP9095,EMP1090,Houghton Foods Ltd,P026,SD4,Software Development,Houghton Foods Ltd - Software Development cohort,Negotiation,0.75,9,189000,141750,2025-12-29,2027-04-12,Existing account,Levy
+OPP9096,EMP1021,Mellor Foods Ltd,P026,BA4,Business Analysis,Mellor Foods Ltd - Business Analysis cohort,Prospecting,0.1,13,234000,23400,2025-10-15,2027-03-27,Framework tender,Levy transfer
+OPP9097,EMP1054,Westfield Software plc,P025,BAD3,Business Administrator,Westfield Software plc - Business Administrator cohort,Closed Won,1.0,3,15000,15000,2025-10-07,2025-12-14,Event,Co-investment (5%)
+OPP9098,EMP1045,Edwards Software Ltd,P025,ML6,Applied Machine Learning,Edwards Software Ltd - Applied Machine Learning cohort,Discovery,0.25,8,192000,48000,2025-11-04,2027-05-09,Referral,Levy
+OPP9099,EMP1084,Summit Engineering Group,P025,PP5,People Professional,Summit Engineering Group - People Professional cohort,Proposal,0.5,24,192000,96000,2026-05-15,2027-02-08,Existing account,Commercial
+OPP9100,EMP1079,Westfield Digital plc,P024,OM5,Operations Manager,Westfield Digital plc - Operations Manager cohort,Discovery,0.25,34,238000,59500,2026-04-08,2026-12-14,Event,Commercial
+OPP9101,EMP1040,Highland Manufacturing Ltd,P026,TL3,Team Leader,Highland Manufacturing Ltd - Team Leader cohort,Proposal,0.5,9,40500,20250,2025-12-03,2027-04-27,Existing account,Levy
+OPP9102,EMP1003,Brightwell Foods Ltd,P024,AI4,AI & Automation Practitioner,Brightwell Foods Ltd - AI & Automation Practitioner cohort,Closed Lost,0.0,13,247000,0,2026-07-31,2026-09-18,Outbound,Levy transfer
+OPP9103,EMP1079,Westfield Digital plc,P024,AI3,Working Smarter with AI,Westfield Digital plc - Working Smarter with AI cohort,Closed Won,1.0,13,169000,169000,2026-07-07,2026-10-10,Existing account,Levy transfer
+OPP9104,EMP1050,Albion Foods Group,P025,AI3,Working Smarter with AI,Albion Foods Group - Working Smarter with AI cohort,Prospecting,0.1,26,338000,33800,2026-04-08,2027-02-22,Existing account,Co-investment (5%)
+OPP9105,EMP1066,Harding Technologies Group,P025,AI3,Working Smarter with AI,Harding Technologies Group - Working Smarter with AI cohort,Discovery,0.25,8,104000,26000,2025-09-12,2027-01-14,Event,Levy
+OPP9106,EMP1049,Crown Health Ltd,P026,DA4,Data Analyst,Crown Health Ltd - Data Analyst cohort,Discovery,0.25,14,238000,59500,2025-09-26,2027-06-17,Event,Levy
+OPP9107,EMP1033,Redwood Software Ltd,P025,BAD3,Business Administrator,Redwood Software Ltd - Business Administrator cohort,Proposal,0.5,8,40000,20000,2025-09-05,2027-06-24,Event,Levy
+OPP9108,EMP1074,Granite Health plc,P026,AI3,Working Smarter with AI,Granite Health plc - Working Smarter with AI cohort,Discovery,0.25,14,182000,45500,2026-07-06,2027-02-11,Outbound,Levy
+OPP9109,EMP1021,Mellor Foods Ltd,P026,AI4,AI & Automation Practitioner,Mellor Foods Ltd - AI & Automation Practitioner cohort,Closed Won,1.0,3,57000,57000,2026-02-13,2026-03-17,Framework tender,Levy
+OPP9110,EMP1074,Granite Health plc,P026,DA4,Data Analyst,Granite Health plc - Data Analyst cohort,Proposal,0.5,34,578000,289000,2025-11-10,2027-05-31,Existing account,Levy
+OPP9111,EMP1032,Young Industries Ltd,P024,AI3,Working Smarter with AI,Young Industries Ltd - Working Smarter with AI cohort,Closed Lost,0.0,26,338000,0,2026-04-28,2026-08-21,Inbound web,Levy transfer
+OPP9112,EMP1003,Brightwell Foods Ltd,P024,DO4,DevOps Engineering,Brightwell Foods Ltd - DevOps Engineering cohort,Closed Won,1.0,19,418000,418000,2026-04-30,2026-07-29,Event,Levy
+OPP9113,EMP1019,Lumen Digital Media,P026,AI3,Working Smarter with AI,Lumen Digital Media - Working Smarter with AI cohort,Prospecting,0.1,3,39000,3900,2026-09-18,2027-07-22,Outbound,Levy
+OPP9114,EMP1085,Sharp Stores plc,P025,BAD3,Business Administrator,Sharp Stores plc - Business Administrator cohort,Proposal,0.5,29,145000,72500,2025-11-11,2027-03-21,Inbound web,Levy transfer
+OPP9115,EMP1059,Pennant Advisory Ltd,P026,SD4,Software Development,Pennant Advisory Ltd - Software Development cohort,Proposal,0.5,24,504000,252000,2026-06-12,2027-06-07,Outbound,Levy
+OPP9116,EMP1070,Reynolds Care Ltd,P026,DE5,Data Engineering,Reynolds Care Ltd - Data Engineering cohort,Prospecting,0.1,10,210000,21000,2025-11-04,2027-05-05,Outbound,Levy transfer
+OPP9117,EMP1073,Miah Capital Ltd,P026,DA4,Data Analyst,Miah Capital Ltd - Data Analyst cohort,Closed Won,1.0,24,408000,408000,2026-08-06,2026-10-06,Event,Levy
+OPP9118,EMP1040,Highland Manufacturing Ltd,P026,PM4,Associate Project Manager,Highland Manufacturing Ltd - Associate Project Manager cohort,Prospecting,0.1,27,162000,16200,2026-05-25,2027-07-07,Existing account,Levy
+OPP9119,EMP1019,Lumen Digital Media,P026,TL3,Team Leader,Lumen Digital Media - Team Leader cohort,Closed Won,1.0,12,54000,54000,2026-04-29,2026-08-25,Inbound web,Levy
+OPP9120,EMP1037,Highland Engineering Group,P026,CM6,Chartered Manager (Degree),Highland Engineering Group - Chartered Manager (Degree) cohort,Closed Lost,0.0,3,66000,0,2026-08-11,2026-09-29,Existing account,Levy
+OPP9121,EMP1014,Arden Retail Group,P026,DA4,Data Analyst,Arden Retail Group - Data Analyst cohort,Prospecting,0.1,5,85000,8500,2026-02-26,2027-05-29,Event,Levy
+OPP9122,EMP1071,Redwood Logistics Ltd,P025,AI4,AI & Automation Practitioner,Redwood Logistics Ltd - AI & Automation Practitioner cohort,Closed Won,1.0,11,209000,209000,2026-01-29,2026-04-15,Event,Co-investment (5%)
+OPP9123,EMP1069,Oakfield Foods,P026,DE5,Data Engineering,Oakfield Foods - Data Engineering cohort,Negotiation,0.75,17,357000,267750,2026-09-28,2027-04-18,Referral,Levy
+OPP9124,EMP1019,Lumen Digital Media,P026,AI3,Working Smarter with AI,Lumen Digital Media - Working Smarter with AI cohort,Proposal,0.5,13,169000,84500,2026-08-04,2026-12-26,Outbound,Levy transfer
+OPP9125,EMP1001,Northgrid Energy plc,P024,DT3,Data Foundations,Northgrid Energy plc - Data Foundations cohort,Discovery,0.25,13,156000,39000,2025-11-20,2027-01-12,Inbound web,Co-investment (5%)
+OPP9126,EMP1073,Miah Capital Ltd,P026,TL3,Team Leader,Miah Capital Ltd - Team Leader cohort,Negotiation,0.75,10,45000,33750,2026-07-15,2026-12-08,Framework tender,Levy
+OPP9127,EMP1080,Summit Digital,P025,PP5,People Professional,Summit Digital - People Professional cohort,Negotiation,0.75,21,168000,126000,2026-05-28,2026-11-15,Existing account,Levy
+OPP9128,EMP1071,Redwood Logistics Ltd,P025,SL7,Senior Leader,Redwood Logistics Ltd - Senior Leader cohort,Closed Won,1.0,29,406000,406000,2026-04-06,2026-05-24,Existing account,Commercial
+OPP9129,EMP1062,Beacon Networks Group,P026,BA4,Business Analysis,Beacon Networks Group - Business Analysis cohort,Prospecting,0.1,22,396000,39600,2025-11-21,2027-01-31,Framework tender,Levy
+OPP9130,EMP1071,Redwood Logistics Ltd,P025,SL7,Senior Leader,Redwood Logistics Ltd - Senior Leader cohort,Proposal,0.5,3,42000,21000,2026-07-31,2027-06-28,Existing account,Commercial

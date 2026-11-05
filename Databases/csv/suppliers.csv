@@ -1,0 +1,13 @@
+﻿supplier_id,supplier_name,category,annual_spend_gbp,contract_start,contract_end,owner_id,risk_rating,dpa_in_place
+SUP01,Aptiva Systems Ltd,E-portfolio platform,312000,2021-08-01,2027-07-31,P007,High,1
+SUP02,PipelineHQ Ltd,CRM software,46000,2023-04-01,2026-03-31,P004,Medium,1
+SUP03,Ledgerline Software,Finance system,38000,2022-08-01,2027-07-31,P003,Medium,1
+SUP04,PeopleFlow HR,HR system,29000,2022-01-01,2026-12-31,P006,Medium,1
+SUP05,Microsoft (via CloudReseller UK),Microsoft 365 & Copilot licences,168000,2025-08-01,2026-07-31,P007,High,1
+SUP06,Pinnacle Assessment Services,End-point assessment,0,2019-01-01,2027-12-31,P005,Medium,1
+SUP07,NorthStar EPA,End-point assessment,0,2020-06-01,2027-05-31,P005,Medium,1
+SUP08,University of Wessex,Degree apprenticeship partner,410000,2022-09-01,2028-08-31,P008,High,1
+SUP09,Wellspring EAP,Employee assistance programme,14500,2024-04-01,2027-03-31,P006,Low,1
+SUP10,Fenwick Laptop Leasing,Device leasing,96000,2024-09-01,2027-08-31,P007,Low,0
+SUP11,Brightside Events,Event venues & catering,37000,2025-01-01,2026-12-31,P027,Low,0
+SUP12,Clearview Accessibility,Accessibility audits & BSL,12000,2025-05-01,2026-04-30,P020,Low,1
