@@ -18,6 +18,10 @@
 
 .EXAMPLE
   ./Provision-SharePoint.ps1 -TenantName contoso -ClientId 00000000-0000-0000-0000-000000000000
+
+.EXAMPLE
+  # Several fictional companies in one tenant: give each its own learner group
+  ./Provision-SharePoint.ps1 -TenantName contoso -ClientId <id> -LearnerGroup "Delcorn Learners"
 #>
 param(
     [Parameter(Mandatory)] [string]$TenantName,
@@ -27,7 +31,10 @@ param(
     [int]$MaxListRows = 300,
     [switch]$SkipFiles,
     [switch]$SkipLists,
-    [string[]]$OnlySites
+    [string[]]$OnlySites,
+    # Entra security group (display name or object id) granted access to every site; created if missing
+    [string]$LearnerGroup,
+    [ValidateSet('Read', 'Edit')] [string]$LearnerRole = 'Read'
 )
 $ErrorActionPreference = 'Stop'
 $PackRoot  = Split-Path -Parent $PSScriptRoot
@@ -39,14 +46,14 @@ $AdminUrl  = "https://$TenantName-admin.sharepoint.com"
 $Sites = @(
     @{Key='hub'; Title='Delcorn Hub'; Alias='Hub'; Folder='Delcorn Hub'; Description='The home of Delcorn: news, company-wide policies, templates and brand.'; IsHub=$true; Libraries=@(@{Title='News'; Url='News'}, @{Title='Company Policies'; Url='CompanyPolicies'}, @{Title='Templates'; Url='Templates'}, @{Title='Brand & Comms'; Url='BrandComms'})}
     @{Key='exec'; Title='Executive & Board'; Alias='Exec'; Folder='Executive & Board'; Description='Board papers, strategy, risk and governance. Restricted to the executive team and board.'; IsHub=$false; Libraries=@(@{Title='Board Packs'; Url='BoardPacks'}, @{Title='Strategy'; Url='Strategy'}, @{Title='Risk & Governance'; Url='RiskGovernance'})}
-    @{Key='delivery'; Title='Learning Delivery'; Alias='Delivery'; Folder='Learning Delivery'; Description='Everything skills coaches and delivery managers need: caseloads, learner files, coaching resources and team records.'; IsHub=$false; Libraries=@(@{Title='Coaching Resources'; Url='CoachingResources'}, @{Title='Learner Files'; Url='LearnerFiles'}, @{Title='Caseload Reports'; Url='CaseloadReports'}, @{Title='Team Records'; Url='TeamRecords'})}
+    @{Key='delivery'; Title='Learning Delivery'; Alias='Delivery'; Folder='Learning Delivery'; Description='Everything skills coaches and delivery managers need: caseloads, learner files, coaching resources and team records.'; IsHub=$false; Libraries=@(@{Title='Coaching Resources'; Url='CoachingResources'}, @{Title='Learner Files'; Url='LearnerFiles'}, @{Title='Caseload Reports'; Url='CaseloadReports'}, @{Title='Team Records'; Url='TeamRecords'}, @{Title='Communications Archive'; Url='CommunicationsArchive'})}
     @{Key='curriculum'; Title='Curriculum & Academies'; Alias='Curriculum'; Folder='Curriculum & Academies'; Description='Programme specifications, curriculum plans and workshop materials for the AI, Data, Digital, Leadership and People academies.'; IsHub=$false; Libraries=@(@{Title='Programme Specifications'; Url='ProgrammeSpecifications'}, @{Title='Workshop Materials'; Url='WorkshopMaterials'}, @{Title='Curriculum Planning'; Url='CurriculumPlanning'})}
     @{Key='quality'; Title='Quality & Compliance'; Alias='Quality'; Folder='Quality & Compliance'; Description='Ofsted readiness, self-assessment, quality improvement, observations and funding compliance.'; IsHub=$false; Libraries=@(@{Title='Ofsted & Inspection'; Url='OfstedInspection'}, @{Title='Self-Assessment & QIP'; Url='SelfAssessmentQip'}, @{Title='Observations'; Url='Observations'}, @{Title='Gateway & EPA'; Url='GatewayEpa'}, @{Title='Policies & Procedures'; Url='PoliciesProcedures'})}
     @{Key='safeguarding'; Title='Safeguarding & Learner Support'; Alias='Safeguarding'; Folder='Safeguarding & Learner Support'; Description='Safeguarding, Prevent, wellbeing and additional learning support. Case records are restricted to the safeguarding team.'; IsHub=$false; Libraries=@(@{Title='Policies & Guidance'; Url='PoliciesGuidance'}, @{Title='Training & Briefings'; Url='TrainingBriefings'}, @{Title='Learner Support'; Url='LearnerSupport'}, @{Title='Case Management'; Url='CaseManagement'})}
     @{Key='partnerships'; Title='Employer Partnerships'; Alias='Partnerships'; Folder='Employer Partnerships'; Description='Client accounts, proposals, contracts, case studies and marketing for our employer partners.'; IsHub=$false; Libraries=@(@{Title='Proposals'; Url='Proposals'}, @{Title='Account Plans'; Url='AccountPlans'}, @{Title='Contracts & Agreements'; Url='ContractsAgreements'}, @{Title='Case Studies'; Url='CaseStudies'}, @{Title='Correspondence'; Url='Correspondence'})}
-    @{Key='finance'; Title='Finance & Funding'; Alias='Finance'; Folder='Finance & Funding'; Description='Management accounts, budgets, apprenticeship funding, ILR returns and procurement.'; IsHub=$false; Libraries=@(@{Title='Management Accounts'; Url='ManagementAccounts'}, @{Title='Funding & ILR'; Url='FundingIlr'}, @{Title='Budgets & Forecasts'; Url='BudgetsForecasts'}, @{Title='Procurement & Suppliers'; Url='ProcurementSuppliers'}, @{Title='Invoices'; Url='Invoices'})}
+    @{Key='finance'; Title='Finance & Funding'; Alias='Finance'; Folder='Finance & Funding'; Description='Management accounts, budgets, apprenticeship funding, ILR returns and procurement.'; IsHub=$false; Libraries=@(@{Title='Management Accounts'; Url='ManagementAccounts'}, @{Title='Funding & ILR'; Url='FundingIlr'}, @{Title='Budgets & Forecasts'; Url='BudgetsForecasts'}, @{Title='Procurement & Suppliers'; Url='ProcurementSuppliers'}, @{Title='Invoices'; Url='Invoices'}, @{Title='Communications Archive'; Url='CommunicationsArchive'})}
     @{Key='people'; Title='People & Culture'; Alias='People'; Folder='People & Culture'; Description='HR policies, recruitment, onboarding, CPD and wellbeing for Delcorn staff.'; IsHub=$false; Libraries=@(@{Title='HR Policies'; Url='HrPolicies'}, @{Title='Recruitment'; Url='Recruitment'}, @{Title='Onboarding'; Url='Onboarding'}, @{Title='CPD & Development'; Url='CpdDevelopment'}, @{Title='Wellbeing'; Url='Wellbeing'})}
-    @{Key='tech'; Title='Learning Technology & IT'; Alias='Tech'; Folder='Learning Technology & IT'; Description='IT and data policies, systems documentation, projects and service desk.'; IsHub=$false; Libraries=@(@{Title='IT & Data Policies'; Url='ItDataPolicies'}, @{Title='Systems & Data'; Url='SystemsData'}, @{Title='Projects'; Url='Projects'}, @{Title='Service Desk'; Url='ServiceDesk'})}
+    @{Key='tech'; Title='Learning Technology & IT'; Alias='Tech'; Folder='Learning Technology & IT'; Description='IT and data policies, systems documentation, projects and service desk.'; IsHub=$false; Libraries=@(@{Title='IT & Data Policies'; Url='ItDataPolicies'}, @{Title='Systems & Data'; Url='SystemsData'}, @{Title='Projects'; Url='Projects'}, @{Title='Service Desk'; Url='ServiceDesk'}, @{Title='Communications Archive'; Url='CommunicationsArchive'})}
 )
 
 $Lists = @(
@@ -140,6 +147,26 @@ if (-not $SkipLists) {
         }
         Invoke-PnPBatch -Batch $batch
         Write-Host "    $($rows.Count) rows -> $($l.Title)"
+    }
+}
+
+# ---- 5. Learner access -------------------------------------------------------------------
+if ($LearnerGroup) {
+    Connect-PnPOnline -Url $AdminUrl -Interactive -ClientId $ClientId
+    $grp = Get-PnPEntraIDGroup -Identity $LearnerGroup -ErrorAction SilentlyContinue
+    if (-not $grp) {
+        Write-Host "Creating security group '$LearnerGroup'" -ForegroundColor Green
+        $nick = ($LearnerGroup -replace '[^A-Za-z0-9]', '').ToLower()
+        $grp = New-PnPEntraIDGroup -DisplayName $LearnerGroup -MailNickname $nick -IsSecurityEnabled `
+            -Description "Learners for the Delcorn fictional training company"
+    }
+    $login = "c:0t.c|tenant|$($grp.Id)"
+    foreach ($s in $Sites) {
+        if ($OnlySites -and $s.Key -notin $OnlySites) { continue }
+        Connect-PnPOnline -Url (Site-Url $s.Alias) -Interactive -ClientId $ClientId
+        $spGroup = if ($LearnerRole -eq 'Edit') { Get-PnPGroup -AssociatedMemberGroup } else { Get-PnPGroup -AssociatedVisitorGroup }
+        try { Add-PnPGroupMember -Group $spGroup -LoginName $login -ErrorAction Stop; Write-Host "  $LearnerGroup -> $($spGroup.Title)" }
+        catch { Write-Host "  could not add group to $($s.Title): $($_.Exception.Message)" -ForegroundColor Yellow }
     }
 }
 

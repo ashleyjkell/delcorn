@@ -20,7 +20,7 @@
 
 ## At a glance
 * Sites: Delcorn Hub, Executive & Board, Learning Delivery, Curriculum & Academies, Quality & Compliance, Safeguarding & Learner Support, Employer Partnerships, Finance & Funding, People & Culture, Learning Technology & IT
-* Documents: 85 Word · 15 PowerPoint · 22 Excel · 36 PDF
+* Documents: 89 Word · 15 PowerPoint · 22 Excel · 36 PDF
 * Communications: 12 email threads · 4 Teams channels
 * Data tables: Programme Catalogue (19), Employer Accounts (92), Staff Directory (142), Learner Register (2300), Progress Reviews (11011), End-Point Assessment Results (692), Safeguarding Concerns Log (74), Learner Feedback Survey (1150), Coaching Observations (180), Sales Pipeline (130), IT Service Desk Tickets (460), Corporate Risk Register (14), Supplier Register (12), Monthly Funding by Academy (135), Coach Caseloads (60)
 * Scenarios: 16 · Answer-key facts: 91
