@@ -1,0 +1,23 @@
+[
+ {"id": "exp_awaiting_count", "category": "Expenses", "question": "How many expense claims are awaiting approval in Ledgerline, and what is their total claimed value?",
+  "sql": "SELECT COUNT(*) || ' claims, ' || printf('£%.2f', SUM(claimed_amount)) FROM expense_claims WHERE status = 'Awaiting approval'",
+  "sources": ["expense_claims"]},
+ {"id": "exp_claim_exceeds_receipt", "category": "Expenses", "question": "Which expense claims are for more than the total on the attached receipt?",
+  "sql": "SELECT GROUP_CONCAT(claim_id || ' (' || claimant_name || ': claimed ' || printf('£%.2f', claimed_amount) || ' vs receipt ' || printf('£%.2f', receipt_total) || ', ' || status || ')', '; ') FROM (SELECT * FROM expense_claims WHERE claimed_amount > receipt_total ORDER BY claim_id)",
+  "sources": ["expense_claims", "fin-claim-receipts"], "notes": "Only visible by comparing the claim with the receipt image."},
+ {"id": "exp_over_cap", "category": "Expenses", "question": "Which claims are over the Expenses Policy meal caps (breakfast £10, lunch £10, evening meal £30)?",
+  "sql": "SELECT GROUP_CONCAT(claim_id || ' (' || category || ' ' || printf('£%.2f', receipt_total) || ')', '; ') FROM (SELECT * FROM expense_claims WHERE receipt_total > CASE category WHEN 'Evening meal' THEN 30 ELSE 10 END ORDER BY claim_id)",
+  "sources": ["expense_claims", "ppl-expenses-policy"], "notes": "Includes the two lunch claims with alcohol, which are also over the £10 lunch cap."},
+ {"id": "exp_alcohol", "category": "Expenses", "question": "Which receipts include alcohol?",
+  "sql": "SELECT GROUP_CONCAT(claim_id || ' (' || claimant_name || ')', '; ') FROM (SELECT * FROM expense_claims WHERE lines LIKE '%lager%' OR lines LIKE '%house red%' ORDER BY claim_id)",
+  "sources": ["fin-claim-receipts", "ppl-expenses-policy"], "notes": "Alcohol is not reimbursed; only the receipt image shows the line items."},
+ {"id": "exp_duplicate", "category": "Expenses", "question": "Has any receipt been claimed twice?",
+  "sql": "SELECT GROUP_CONCAT(ids, '; ') FROM (SELECT claimant_name || ': ' || GROUP_CONCAT(claim_id, ' and ') || ' (' || merchant || ', ' || expense_date || ', ' || printf('£%.2f', receipt_total) || ')' AS ids FROM expense_claims GROUP BY claimant_id, expense_date, merchant, receipt_total HAVING COUNT(*) > 1)",
+  "sources": ["expense_claims", "fin-claim-receipts"], "notes": "The first claim was paid; the duplicate is awaiting approval."},
+ {"id": "exp_paid_with_issues", "category": "Expenses", "question": "Which claims that have already been paid should not have been paid in full?",
+  "sql": "SELECT GROUP_CONCAT(claim_id, ', ') FROM (SELECT claim_id FROM expense_claims WHERE status = 'Paid' AND (claimed_amount > receipt_total OR receipt_total > CASE category WHEN 'Evening meal' THEN 30 ELSE 10 END OR lines LIKE '%lager%' OR lines LIKE '%house red%') ORDER BY claim_id)",
+  "sources": ["expense_claims", "fin-claim-receipts", "ppl-expenses-policy"], "notes": "Audit finding: approvers did not open the receipts."},
+ {"id": "exp_awaiting_clean", "category": "Expenses", "question": "Which claims awaiting approval can be approved as submitted?",
+  "sql": "SELECT GROUP_CONCAT(claim_id, ', ') FROM (SELECT claim_id FROM expense_claims e WHERE status = 'Awaiting approval' AND claimed_amount = receipt_total AND receipt_total <= CASE category WHEN 'Evening meal' THEN 30 ELSE 10 END AND lines NOT LIKE '%lager%' AND lines NOT LIKE '%house red%' AND NOT EXISTS (SELECT 1 FROM expense_claims x WHERE x.claimant_id = e.claimant_id AND x.expense_date = e.expense_date AND x.merchant = e.merchant AND x.claim_id < e.claim_id) ORDER BY claim_id)",
+  "sources": ["expense_claims", "fin-claim-receipts", "ppl-expenses-policy"]}
+]

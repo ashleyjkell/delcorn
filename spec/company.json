@@ -940,5 +940,25 @@
       "bio": "Organises employer events, onboarding sessions and QBR logistics.",
       "persona_notes": "Coordinates diaries and event comms."
     }
+  ],
+  "mailboxes": [
+    {
+      "address": "enquiries@delcorn.co.uk",
+      "name": "Enquiries",
+      "owner": "partnerships",
+      "description": "Public contact address on the website: employer and individual enquiries, partnership requests, media, general questions."
+    },
+    {
+      "address": "accounts@delcorn.co.uk",
+      "name": "Accounts",
+      "owner": "finance",
+      "description": "Supplier invoices, remittance advices, statements, employer co-investment queries and payment chasers."
+    },
+    {
+      "address": "learnersupport@delcorn.co.uk",
+      "name": "Learner Support",
+      "owner": "delivery",
+      "description": "Apprentice and line-manager queries: reviews, Aptiva access, breaks in learning, EPA, additional support and wellbeing."
+    }
   ]
 }

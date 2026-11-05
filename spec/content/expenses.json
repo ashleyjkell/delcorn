@@ -1,0 +1,14 @@
+[
+ {"id": "fin-claim-receipts", "type": "series", "site": "finance", "library": "Invoices",
+  "folder": "Claim Receipts (Ledgerline)/{{row.claimant_name}}",
+  "sql": "SELECT * FROM expense_claims ORDER BY claim_id",
+  "filename": "Receipt - {{row.claim_id}} - {{row.merchant}}",
+  "classification": "Internal", "category": "Receipt", "tags": ["expenses", "receipt", "Ledgerline"],
+  "template": {"type": "image", "kind": "receipt",
+   "title": "Receipt for claim {{row.claim_id}} - {{row.claimant_name}}",
+   "summary": "Receipt photo attached to expense claim {{row.claim_id}} ({{row.category}}, {{row.purpose}}, {{row.city}}).",
+   "created": "{{row.submitted_date}}", "modified": "{{row.submitted_date}}",
+   "receipt": {"merchant": "{{row.merchant}}", "address": ["{{row.merchant_address}}"], "vat_no": "{{row.merchant_vat_no}}",
+               "date": "{{row.expense_date}}", "time": "{{row.receipt_time}}", "items": "{{row.lines}}",
+               "payment": "{{row.payment}}", "footer": ["Thank you - see you again soon"]}}}
+]

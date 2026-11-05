@@ -9,6 +9,7 @@
     "duration": 60,
     "location": "Microsoft Teams Meeting",
     "recurrence": "weekly",
+    "series": "exec-weekly",
     "site": "exec",
     "classification": "Confidential",
     "tags": ["executive team", "weekly", "Copilot", "overdue reviews", "recruitment"],

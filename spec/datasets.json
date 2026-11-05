@@ -2083,11 +2083,156 @@
           true
         ]
       ]
+    },
+    {
+      "name": "expense_claims",
+      "title": "Expense Claims",
+      "department": "finance",
+      "system": "Ledgerline",
+      "description": "Staff expense claims for meals while travelling on business, September-October 2026, with the receipt total and the amount claimed.",
+      "rows": 30,
+      "sharepoint_list": true,
+      "list_title": "Expense Claims",
+      "sort_by": "expense_date",
+      "columns": [
+        {
+          "name": "claim_id",
+          "gen": "seq",
+          "prefix": "EXP-26-",
+          "start": 401
+        },
+        {
+          "name": "claimant_id",
+          "gen": "fk",
+          "table": "employees",
+          "column": "employee_id",
+          "filter": "ref['department'] in ('delivery', 'partnerships', 'quality', 'curriculum') and ref['status'] == 'Active'",
+          "carry": {
+            "claimant_name": "full_name",
+            "cost_centre": "department",
+            "approver_id": "manager_id"
+          }
+        },
+        {
+          "name": "claimant_name",
+          "gen": "carried"
+        },
+        {
+          "name": "cost_centre",
+          "gen": "carried"
+        },
+        {
+          "name": "expense_date",
+          "gen": "date",
+          "start": "2026-09-07",
+          "end": "2026-10-30",
+          "weekdays": true
+        },
+        {
+          "name": "category",
+          "gen": "choice",
+          "values": [
+            "Lunch",
+            "Evening meal",
+            "Breakfast"
+          ],
+          "weights": [
+            45,
+            35,
+            20
+          ]
+        },
+        {
+          "name": "purpose",
+          "gen": "choice",
+          "values": [
+            "Employer visit",
+            "Workshop delivery",
+            "On-site progress reviews",
+            "Client meeting",
+            "Observation visit",
+            "Assessment day"
+          ]
+        },
+        {
+          "name": "city",
+          "gen": "choice",
+          "values": [
+            "Birmingham",
+            "Leeds",
+            "Manchester",
+            "Bristol",
+            "Coventry",
+            "Nottingham",
+            "Sheffield"
+          ]
+        },
+        {
+          "name": "merchant",
+          "gen": "expr",
+          "expr": "choice({\"Breakfast\": [\"Early Doors Cafe\", \"The Morning Grind\", \"Platform Coffee House\", \"Sunny Side Kitchen\"], \"Lunch\": [\"Brick Lane Deli\", \"The Green Pantry\", \"Station Kitchen\", \"Lunchbox & Co\", \"The Daily Crust\"], \"Evening meal\": [\"The Copper Kettle\", \"Saffron House\", \"The Anchor & Oak\", \"Bellini Trattoria\", \"The Rusty Lantern\"]}[category])"
+        },
+        {
+          "name": "merchant_address",
+          "gen": "expr",
+          "expr": "(lambda c: str(rnd.randint(2, 140)) + ' ' + choice(c[1]) + ', ' + city + ' ' + c[0] + str(rnd.randint(1, 18)) + ' ' + str(rnd.randint(1, 9)) + choice('ABDEFGHJLNPQRSTUWXY') + choice('ABDEFGHJLNPQRSTUWXY'))({\"Birmingham\": [\"B\", [\"New Street\", \"Colmore Row\", \"Broad Street\"]], \"Leeds\": [\"LS\", [\"Briggate\", \"Boar Lane\", \"The Calls\"]], \"Manchester\": [\"M\", [\"Deansgate\", \"Oldham Street\", \"King Street\"]], \"Bristol\": [\"BS\", [\"Corn Street\", \"Park Street\", \"Welsh Back\"]], \"Coventry\": [\"CV\", [\"Hertford Street\", \"Far Gosford Street\", \"Earl Street\"]], \"Nottingham\": [\"NG\", [\"Long Row\", \"Hockley\", \"Bridlesmith Gate\"]], \"Sheffield\": [\"S\", [\"Division Street\", \"Leopold Street\", \"Fargate\"]]}[city])"
+        },
+        {
+          "name": "merchant_vat_no",
+          "gen": "expr",
+          "expr": "'GB ' + str(rnd.randint(100, 999)) + ' ' + str(rnd.randint(1000, 9999)) + ' ' + str(rnd.randint(10, 99))"
+        },
+        {
+          "name": "receipt_time",
+          "gen": "expr",
+          "expr": "{'Breakfast': '07:', 'Lunch': choice(['12:', '13:']), 'Evening meal': choice(['19:', '20:'])}[category] + str(rnd.randint(0, 59)).zfill(2)"
+        },
+        {
+          "name": "lines",
+          "gen": "expr",
+          "expr": "str((lambda a: {'Breakfast': (choice([[['Full English', 1, 9.95], ['Latte', 1, 3.40], ['Orange juice', 1, 2.60]]]) if a == 3 else   choice([[['Full English', 1, 8.50]], [['Bacon roll', 1, 4.20], ['Americano', 1, 2.90]], [['Porridge with berries', 1, 3.95], ['Pot of tea', 1, 1.90]], [['Avocado toast', 1, 6.25], ['Flat white', 1, 3.30]]])), 'Lunch': ([['Fish and chips', 1, 9.50], ['Pint of lager', 1, 5.60]] if a == 0 else   [['Steak sandwich', 1, 11.50], ['Latte', 1, 3.60]] if a == 3 else   choice([[['Chicken caesar wrap', 1, 5.95], ['Flat white', 1, 3.40]], [['Soup of the day', 1, 5.50], ['Sparkling water', 1, 1.80]], [['Meal deal', 1, 6.50]], [['Halloumi flatbread', 1, 6.25], ['Orange juice', 1, 2.10]], [['Jacket potato', 1, 6.75], ['Diet cola', 1, 1.95]]])), 'Evening meal': ([['Pasta carbonara', 1, 13.95], ['Glass of house red', 1, 7.50], ['Sparkling water', 1, 2.40]] if a == 0 else   [['Ribeye steak', 1, 27.50], ['Side salad', 1, 4.50], ['Cheesecake', 1, 6.95]] if a == 3 else   choice([[['Chicken curry', 1, 14.50], ['Garlic naan', 1, 3.20], ['Soft drink', 1, 2.80]], [['Burger and fries', 1, 15.95], ['Lemonade', 1, 3.20]], [['Mushroom risotto', 1, 16.50], ['Sparkling water', 1, 2.40], ['Brownie', 1, 5.50]], [['Thai green curry', 1, 13.95], ['Jasmine rice', 1, 3.25], ['Mango juice', 1, 2.95]]]))}[category])(int(claim_id[-3:]) % 12))"
+        },
+        {
+          "name": "receipt_total",
+          "gen": "expr",
+          "expr": "round(sum(q * p for _, q, p in eval(lines)), 2)"
+        },
+        {
+          "name": "claimed_amount",
+          "gen": "expr",
+          "expr": "round(receipt_total + choice([5.0, 10.0, 4.5]), 2) if int(claim_id[-3:]) % 12 == 7 else receipt_total"
+        },
+        {
+          "name": "payment",
+          "gen": "expr",
+          "expr": "choice(['VISA CONTACTLESS', 'MASTERCARD CONTACTLESS', 'VISA DEBIT', 'APPLE PAY']) + ' ****' + str(rnd.randint(1000, 9999))"
+        },
+        {
+          "name": "submitted_date",
+          "gen": "date_offset",
+          "from": "expense_date",
+          "days_min": 1,
+          "days_max": 9,
+          "cap_as_of": true
+        },
+        {
+          "name": "approver_id",
+          "gen": "carried"
+        },
+        {
+          "name": "status",
+          "gen": "expr",
+          "expr": "'Paid' if submitted_date < '2026-10-12' else 'Awaiting approval'"
+        }
+      ]
     }
   ],
   "post_sql": [
     "UPDATE learners SET last_review_date = (SELECT MAX(review_date) FROM progress_reviews p WHERE p.learner_id = learners.learner_id)",
-    "UPDATE learners SET next_review_due = CASE WHEN status NOT IN ('Active', 'Break in learning', 'Gateway', 'EPA') THEN NULL WHEN last_review_date IS NULL THEN date(start_date, '+42 days') ELSE date(last_review_date, '+84 days') END"
+    "UPDATE learners SET next_review_due = CASE WHEN status NOT IN ('Active', 'Break in learning', 'Gateway', 'EPA') THEN NULL WHEN last_review_date IS NULL THEN date(start_date, '+42 days') ELSE date(last_review_date, '+84 days') END",
+    "CREATE TEMP TABLE dup AS SELECT * FROM expense_claims WHERE claim_id = (SELECT claim_id FROM expense_claims WHERE status = 'Paid' AND CAST(substr(claim_id, -3) AS INTEGER) % 12 NOT IN (0, 3, 7) ORDER BY claim_id LIMIT 1)",
+    "UPDATE dup SET claim_id = 'EXP-26-431', submitted_date = '2026-10-29', status = 'Awaiting approval'",
+    "INSERT INTO expense_claims SELECT * FROM dup"
   ],
   "derived": [
     {

@@ -212,6 +212,8 @@ def write_outputs(gen, spec, db_path, csv_dir, xlsx_path, brand):
                      "site": t.get("department", ""), "list_rows": t.get("list_rows", 300)})
     for sql in spec.get("post_sql", []):
         conn.execute(sql)
+    for m in meta:  # post_sql may insert/delete rows
+        m["row_count"] = conn.execute(f'SELECT COUNT(*) FROM "{m["name"]}"').fetchone()[0]
     for dt in spec.get("derived", []):
         dn = dt["name"]
         conn.execute(f'DROP TABLE IF EXISTS "{dn}"')

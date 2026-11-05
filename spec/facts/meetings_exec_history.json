@@ -1,0 +1,58 @@
+[
+  {
+    "id": "mtgh_most_slipped_action",
+    "category": "Meetings",
+    "question": "Across the Executive Team weekly meetings from 12 October to 2 November 2026, which action slipped the most times and who owns it?",
+    "answer": "'Bring the overdue progress review recovery trajectory to the Executive Team', owned by David Okafor (COO). Raised on 12 October (due 19 October), it slipped on 19 October (caseload model being rebuilt), 26 October (waiting for the delivery managers' recovery plans) and 2 November — three slips. It is now due 9 November.",
+    "sources": ["mtg-exec-weekly-2026-10-12", "mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtgh_overdue_trend",
+    "category": "Meetings",
+    "question": "How did the number of overdue progress reviews reported at the Executive Team weekly change between 12 October and 2 November 2026?",
+    "answer": "It rose every week: 184 (12 October), 191 (19 October), 198 (26 October) and {{fact:overdue_reviews}} (2 November), up from 176 at the start of October. It rose by about seven a week, and QIP-07 went from Amber to Red at the 23 October QIP review.",
+    "sources": ["mtg-exec-weekly-2026-10-12", "mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02", "dlv-weekly-dashboard-wc021126"]
+  },
+  {
+    "id": "mtgh_copilot_dates_reversed",
+    "category": "Meetings",
+    "question": "Which Executive Team decision about the Copilot go-live dates was reversed, and when?",
+    "answer": "On 12 October the Exec brought Wave 1 forward to Monday 2 November, with Wave 2 on Monday 16 November, even though the board paper said 9 November. It held those dates on 19 and 26 October. At the go/no-go on Friday 30 October (Teams chat) the dates went back to Wave 1 on 9 November, and Wave 2 moved to 23 November because of the November ILR clash. The 2 November meeting confirmed the change. That is why the FAQ and the Champions channel still showed 2 and 16 November.",
+    "sources": ["mtg-exec-weekly-2026-10-12", "mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "exec-ch-copilot-go-no-go", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtgh_coach_split_change",
+    "category": "Meetings",
+    "question": "How did the decision on splitting the eight additional skills coach posts change over the Executive Team weeklies?",
+    "answer": "On 19 October the split was agreed as five Data and three Leadership, with no AI post. On 26 October Tom Whitfield asked to reopen it because Valemont wanted 20 AI4 places, so the adverts went out without fixed numbers per academy. On 2 November it was changed to four Data, three Leadership and one AI, to be revisited if the Valemont cohort is signed.",
+    "sources": ["mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtgh_coach_cost_phasing",
+    "category": "Meetings",
+    "question": "What happened to the action to phase the £186,000 part-year cost of the eight new coach posts into the forecast?",
+    "answer": "Priya Raman (CFO) took it on 19 October, due 23 October. It slipped on 26 October (to be done after P3 close, now due 30 October), and its knock-on delayed the adverts while the posts waited for cost-centre codes. On 2 November it was still not done — Priya said the cost is not in the budget phasing and will show as an adverse cost variance from December. It was then left off the 2 November action list.",
+    "sources": ["mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtgh_exec_essentials",
+    "category": "Meetings",
+    "question": "How many Executive Team members had completed Copilot Essentials at each weekly meeting, and who was still outstanding?",
+    "answer": "On 19 October it was two of eight (Aisha Karim and Oliver Grant). On 26 October it was five of eight, with Helena Marsh, David Okafor and Priya Raman outstanding. On 2 November Helena said she had done 'about half of it'. The action (owner Helena Marsh, due 30 October) slipped past the go/no-go.",
+    "sources": ["mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02"]
+  },
+  {
+    "id": "mtgh_kestrel_escalation",
+    "category": "Meetings",
+    "question": "How did the Kestrel Logistics issue develop across the Executive Team weeklies?",
+    "answer": "On 12 October Tom Whitfield mentioned a 'depot reorganisation' and dismissed it as noise. On 19 October two Kestrel line managers had cancelled reviews. On 26 October Kestrel put six November starts on hold, and Tom took an action to find out more by 30 October. On 2 November Kestrel had paused all new starts while it restructures, with about 41 learners on programme, and Lewis Murray will brief the coaches. It then went into the Meridian Q1 update as a withdrawals risk.",
+    "sources": ["mtg-exec-weekly-2026-10-12", "mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02", "exec-em-meridian-q1-update"]
+  },
+  {
+    "id": "mtgh_adverts_slip",
+    "category": "Meetings",
+    "question": "When were the adverts for the eight additional coach posts due, why did they slip, and when did they go live?",
+    "answer": "Due Friday 23 October (agreed 19 October, owner Marcus Bell). They slipped because the posts needed cost-centre codes in PeopleFlow, which were waiting on the budget phasing. They were re-set for Thursday 29 October on 26 October and went live that day, as reported on 2 November, when the Data role already had more than 40 applications.",
+    "sources": ["mtg-exec-weekly-2026-10-19", "mtg-exec-weekly-2026-10-26", "mtg-exec-weekly-2026-11-02"]
+  }
+]

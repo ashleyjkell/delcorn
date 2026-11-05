@@ -1,0 +1,579 @@
+[
+ {
+  "id": "ops-inbox-routing-guide",
+  "type": "docx",
+  "title": "Shared Mailbox Handling & Routing Guide",
+  "site": "hub",
+  "library": "Company Policies",
+  "folder": "Procedures",
+  "category": "Procedure",
+  "doc_type_label": "Procedure",
+  "tags": [
+   "shared mailbox",
+   "triage",
+   "routing",
+   "enquiries",
+   "accounts",
+   "learner support",
+   "SLA"
+  ],
+  "summary": "How the Enquiries, Accounts and Learner Support shared mailboxes are monitored, categorised, prioritised and routed, including red-flag handling and what may be automated.",
+  "author": "P002",
+  "owner": "P002",
+  "modified_by": "P023",
+  "approved_by": "P001",
+  "created": "2026-06-15",
+  "modified": "2026-10-20",
+  "version": "2.0",
+  "status": "Approved",
+  "review_date": "2027-10-31",
+  "classification": "Internal",
+  "version_history": [
+   {
+    "version": "1.0",
+    "date": "2026-06-15",
+    "by": "P002",
+    "change": "First version covering Enquiries and Accounts"
+   },
+   {
+    "version": "1.1",
+    "date": "2026-08-03",
+    "by": "P023",
+    "change": "Learner Support mailbox and safeguarding red flags added"
+   },
+   {
+    "version": "2.0",
+    "date": "2026-10-20",
+    "by": "P002",
+    "change": "Category set and SLAs standardised; Automation & AI section added ahead of the Copilot rollout"
+   }
+  ],
+  "blocks": [
+   {
+    "h1": "1. Purpose and scope"
+   },
+   {
+    "p": "Delcorn's three shared mailboxes are often the first contact an employer, apprentice or supplier has with us. This guide sets out who monitors each mailbox, how every email is **categorised**, **prioritised** and **routed**, the response times we commit to, and the red flags that must be handled before anything else."
+   },
+   {
+    "p": "It applies to everyone who monitors a shared mailbox, their backups, and anyone building an agent, rule or flow that reads these mailboxes. Every email must end up with **one category, one priority and one owner**."
+   },
+   {
+    "h1": "2. Our shared mailboxes"
+   },
+   {
+    "table": {
+     "columns": [
+      "Mailbox",
+      "What it is for",
+      "Monitored by",
+      "Backup"
+     ],
+     "rows": [
+      [
+       "enquiries@delcorn.co.uk",
+       "Public contact address: employer and individual enquiries, partnerships, media, general questions",
+       "{{person:P038}}, Employer Engagement Coordinator",
+       "{{person:P026}}, Business Development Manager"
+      ],
+      [
+       "accounts@delcorn.co.uk",
+       "Supplier invoices, statements, remittances, employer co-investment queries and payment chasers",
+       "{{person:P030}}, Management Accountant",
+       "{{person:P028}}, Finance Manager"
+      ],
+      [
+       "learnersupport@delcorn.co.uk",
+       "Apprentice and line-manager queries: reviews, Aptiva access, breaks in learning, EPA, additional support and wellbeing",
+       "{{person:P037}}, Enrolment & Onboarding Coordinator",
+       "{{person:P023}}, Deputy DSL & Learner Support Lead"
+      ]
+     ],
+     "caption": "Table 1 - Shared mailboxes and monitors"
+    }
+   },
+   {
+    "bullets": [
+     "Mailboxes are checked at **08:30, 12:30 and 16:00** on working days. The 08:30 check on Monday (and after a bank holiday) covers everything that arrived over the weekend.",
+     "Shared mailboxes are **not monitored out of hours**. Our auto-acknowledgement tells senders this and gives the 999 / Samaritans / safeguarding line details.",
+     "If the monitor is absent, the backup takes over that day. Learner Support must never go a working day unchecked."
+    ]
+   },
+   {
+    "h1": "3. How to triage an email"
+   },
+   {
+    "numbered": [
+     "**Scan for red flags first** (section 7): safeguarding or welfare concerns, phishing, bank-detail changes, data protection requests. Read the whole email - disclosures are often buried in an otherwise routine message.",
+     "**Categorise** using one of the twelve categories in section 4.",
+     "**Set the priority** using section 5.",
+     "**Route** to the owner in the routing table (section 6) - forward or assign, and apply the matching Outlook category. Use the learner ID (LRN number), not a description of their circumstances.",
+     "**Acknowledge** where the routing table says so, using the approved templates.",
+     "**Mark duplicates and wrong-mailbox items** (section 8) and file or delete newsletters, auto-replies and spam."
+    ]
+   },
+   {
+    "h1": "4. Categories"
+   },
+   {
+    "table": {
+     "columns": [
+      "Category",
+      "Covers",
+      "Examples"
+     ],
+     "rows": [
+      [
+       "Employer enquiry",
+       "New business and requests from existing employer accounts",
+       "Quote for new starts, cohort dates, programme information, commercial training"
+      ],
+      [
+       "Learner programme query",
+       "Anything about an apprentice's programme",
+       "Progress reviews, OTJ, workshops, breaks in learning, gateway and EPA, Functional Skills, leaving an employer"
+      ],
+      [
+       "Systems & access",
+       "Access to Delcorn systems",
+       "Aptiva login or activation, Teams workshop links"
+      ],
+      [
+       "Wellbeing & additional support",
+       "Additional learning support and non-urgent wellbeing",
+       "Reasonable adjustments, ALS referrals, dyslexia/ADHD support"
+      ],
+      [
+       "Safeguarding concern",
+       "Any indication that a learner may be at risk of harm, or a welfare concern",
+       "Disclosures about home life, abuse, self-harm, homelessness; a learner missing with no contact"
+      ],
+      [
+       "Invoices & payments",
+       "Money in and money out",
+       "Supplier invoices and statements, remittances, co-investment invoice queries and disputes, expenses"
+      ],
+      [
+       "Complaint",
+       "Expressed dissatisfaction where the sender asks for it to be treated as a complaint or wants a remedy",
+       "Cancelled reviews, coach changes, poor communication"
+      ],
+      [
+       "Data protection request",
+       "Any request about someone's personal data",
+       "Subject access request (DSAR), erasure, rectification"
+      ],
+      [
+       "Media & partnerships",
+       "Press, events and strategic partnerships",
+       "Journalist requests, event attendance, charity or university partnership proposals"
+      ],
+      [
+       "Suspected phishing / fraud",
+       "Emails that try to obtain credentials, money or bank-detail changes",
+       "Fake password expiry, supplier bank-detail change, lookalike domains"
+      ],
+      [
+       "General enquiry",
+       "Genuine queries that fit nowhere else",
+       "Job applications, individuals without an employer"
+      ],
+      [
+       "No action required",
+       "Nothing to do except file or delete",
+       "Newsletters, out-of-office replies, marketing spam"
+      ]
+     ],
+     "caption": "Table 2 - Triage categories"
+    }
+   },
+   {
+    "h1": "5. Priorities and response times"
+   },
+   {
+    "table": {
+     "columns": [
+      "Priority",
+      "Definition",
+      "Route / respond within"
+     ],
+     "rows": [
+      [
+       "Urgent",
+       "Possible risk of harm to a learner (any safeguarding concern); suspected phishing, fraud or security incident",
+       "Immediately - same day, before any other work. Never leave in the queue."
+      ],
+      [
+       "High",
+       "Hot leads (see 6.1) and CEO/executive referrals; complaints; media requests; data protection requests; overdue reviews, EPA or gateway delays; a learner leaving their employer; invoice disputes; overdue chasers that threaten a service to learners",
+       "1 working day (same day if the sender's deadline is within 2 working days)"
+      ],
+      [
+       "Normal",
+       "Routine queries and requests",
+       "2 or 3 working days - see routing table"
+      ],
+      [
+       "Low",
+       "Information only, already-resolved items, remittances, duplicates of items already in hand, rebookings with plenty of notice",
+       "5 working days, or no response required"
+      ]
+     ],
+     "caption": "Table 3 - Priority definitions"
+    }
+   },
+   {
+    "callout": "A chaser or duplicate inherits the category and owner of the original. Raise its priority if the sender now has a deadline within 2 working days - for example a learner whose first review is tomorrow and still can't log in.",
+    "title": "Chasers"
+   },
+   {
+    "h1": "6. Routing table"
+   },
+   {
+    "table": {
+     "columns": [
+      "Category",
+      "Route to",
+      "Normal SLA",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Employer enquiry - new prospect, 10+ learners, or a levy payer with a decision deadline (hot lead)",
+       "{{person:P024}}, Senior Client Partner",
+       "1 working day (High)",
+       "Log in PipelineHQ the same day; source 'Inbound web'"
+      ],
+      [
+       "Employer enquiry - new public sector or health prospect",
+       "{{person:P025}}, Client Partner (Public Sector & Health)",
+       "2 working days",
+       "Regardless of size; mention frameworks"
+      ],
+      [
+       "Employer enquiry - other new, small or non-levy prospects; commercial (non-apprenticeship) training",
+       "{{person:P026}}, Business Development Manager",
+       "2 working days",
+       "CEO/executive referrals are High, 1 working day"
+      ],
+      [
+       "Employer enquiry - existing employer account",
+       "The account manager named in PipelineHQ",
+       "2 working days",
+       "Northgrid, Brightwell, Valemont, Harbourline and Bluewater sit with Ravi Sharma"
+      ],
+      [
+       "Learner programme query - AI, Data and Digital academies",
+       "{{person:P012}}, Delivery Manager",
+       "3 working days",
+       "High (1 working day) for overdue reviews, EPA/gateway delays and learners leaving their employer"
+      ],
+      [
+       "Learner programme query - Leadership and People academies",
+       "{{person:P013}}, Delivery Manager",
+       "3 working days",
+       "As above"
+      ],
+      [
+       "Learner programme query - Functional Skills",
+       "{{person:P018}}, Functional Skills Tutor",
+       "3 working days",
+       ""
+      ],
+      [
+       "Systems & access",
+       "{{person:P034}}, IT Service Desk Lead (FixDesk 'Aptiva access / sync')",
+       "1 working day",
+       "One ticket per learner - link chasers to it"
+      ],
+      [
+       "Wellbeing & additional support",
+       "{{person:P023}}, Learner Support Lead",
+       "3 working days",
+       "Escalate to Safeguarding concern if there is any risk of harm"
+      ],
+      [
+       "Safeguarding concern - disclosure or risk of harm",
+       "{{person:P010}}, DSL (or {{person:P023}}, Deputy DSL)",
+       "Immediately",
+       "See 7.1"
+      ],
+      [
+       "Safeguarding concern - welfare check (e.g. missing, no contact)",
+       "{{person:P023}}, Deputy DSL",
+       "Same day",
+       "See 7.1"
+      ],
+      [
+       "Invoices & payments - supplier invoices, statements, remittances",
+       "{{person:P030}}, Management Accountant",
+       "5 working days",
+       "Match to PO in Ledgerline; check approval limits in the Procurement Policy"
+      ],
+      [
+       "Invoices & payments - customer queries",
+       "{{person:P030}}",
+       "2 working days",
+       "Check with the account manager before replying"
+      ],
+      [
+       "Invoices & payments - disputes and overdue chasers that threaten a service",
+       "{{person:P030}}, escalating to {{person:P028}}",
+       "1 working day (High)",
+       "Hold the disputed invoice while it is checked"
+      ],
+      [
+       "Complaint",
+       "{{person:P021}}, Quality Manager",
+       "Acknowledge within 3 working days; full response within 15 working days",
+       "Complaints Policy Stage 1"
+      ],
+      [
+       "Data protection request",
+       "{{person:P036}}, Data Protection Officer (dpo@delcorn.co.uk)",
+       "Forward same day; respond within 1 calendar month",
+       "See 7.4"
+      ],
+      [
+       "Media & partnerships - media",
+       "{{person:P027}}, Head of Marketing & Communications",
+       "Same day if a deadline is given",
+       "Never comment yourself"
+      ],
+      [
+       "Media & partnerships - events",
+       "{{person:P027}}",
+       "2 working days",
+       "Copy the BDM if the sender is also a prospect"
+      ],
+      [
+       "Media & partnerships - strategic partnerships",
+       "{{person:P004}}, Chief Commercial Officer",
+       "2 working days",
+       "Holding reply from the monitor"
+      ],
+      [
+       "Suspected phishing",
+       "{{person:P036}}, Information Security Officer, via FixDesk P1 to {{person:P034}}",
+       "Same day",
+       "See 7.2"
+      ],
+      [
+       "Suspected fraud - bank-detail change",
+       "{{person:P028}}, Finance Manager, and {{person:P036}}",
+       "Same day",
+       "See 7.3"
+      ],
+      [
+       "General enquiry - job applications",
+       "{{person:P032}}, Talent Acquisition Lead",
+       "2 working days",
+       "Forward then delete - CVs are personal data"
+      ],
+      [
+       "General enquiry - other (e.g. individuals without an employer)",
+       "{{person:P038}}",
+       "2 working days",
+       "Use the standard reply template"
+      ],
+      [
+       "No action required",
+       "Mailbox monitor",
+       "No response required",
+       "File newsletters; delete spam"
+      ]
+     ],
+     "caption": "Table 4 - Routing table"
+    }
+   },
+   {
+    "h2": "6.1 What counts as a hot lead"
+   },
+   {
+    "bullets": [
+     "A new employer wanting **10 or more** apprentices or learners, or",
+     "A levy-paying employer with a stated decision deadline or expiring levy funds, or",
+     "Any lead referred by the CEO or an executive director.",
+     "Hot leads go to the Senior Client Partner (public sector and health leads to the Client Partner for that sector) within **1 working day**, and are logged in PipelineHQ the same day."
+    ]
+   },
+   {
+    "h1": "7. Red flags - handle these first"
+   },
+   {
+    "h2": "7.1 Safeguarding and welfare"
+   },
+   {
+    "callout": "If an email suggests a learner may be at risk of harm - even one line in a message about something else - treat it as **Urgent**. Phone the DSL ({{person:P010}}) or Deputy DSL ({{person:P023}}) or the safeguarding line (020 7946 0199) straight away, then forward the email to safeguarding@delcorn.co.uk. If someone is in immediate danger, call 999.",
+    "title": "Golden rule"
+   },
+   {
+    "bullets": [
+     "Read every Learner Support email in full - disclosures are often buried in password resets or apologies for late work.",
+     "Apprentices aged 16-18 and adults at risk need particular care.",
+     "Do **not** reply asking for details, promise confidentiality, forward to coaches or employers, or post in Teams channels. The DSL decides what is shared and with whom.",
+     "Deal with the routine part of the email (e.g. an Aptiva reset) separately, without repeating the disclosure.",
+     "A learner who is missing or out of contact, reported by an employer, is a welfare check for the Deputy DSL the same day. Do not confirm anything about the learner to the employer until the safeguarding team has reviewed it.",
+     "Refer to learners by learner ID only in any onward message."
+    ]
+   },
+   {
+    "h2": "7.2 Phishing"
+   },
+   {
+    "bullets": [
+     "Typical signs: a lookalike or unknown sender domain, urgency or threats ('your account will be suspended'), generic greetings, links to sign-in pages, unexpected attachments.",
+     "Delcorn has **no forced password expiry** and our systems use Microsoft 365 sign-in - any 'password expires' email is suspicious.",
+     "Don't click, reply or forward to colleagues. Use the Outlook **Report** button and raise a FixDesk P1 ticket. If anyone has clicked, tell the Service Desk immediately.",
+     "Keep the email (don't just delete it) so the security team can investigate."
+    ]
+   },
+   {
+    "h2": "7.3 Bank-detail changes and payment requests"
+   },
+   {
+    "bullets": [
+     "**Never** change supplier bank details because of an email, however genuine it looks.",
+     "Verify by phoning the supplier on the number **already held in Ledgerline** - never a number, letter or link in the email.",
+     "Compare the sender's domain with previous genuine emails from that supplier; lookalike domains (an added hyphen, a different ending) are common.",
+     "Pressure to act before a payment run or to 'confirm by email only' is a warning sign. Place a hold on payments to that supplier until verified.",
+     "A change needs two people: the Management Accountant makes it and the Finance Manager approves it after the call-back. Report suspected fraud to the Finance Manager and the Information Security Officer the same day.",
+     "Requests for **our** bank details should also be checked: give them only in the standard invoice format or by phone to a verified contact."
+    ]
+   },
+   {
+    "h2": "7.4 Data protection requests"
+   },
+   {
+    "bullets": [
+     "Any request for a copy of someone's own personal data is a subject access request (DSAR) - it doesn't have to use the words, and it can arrive in any mailbox.",
+     "Forward to the DPO ({{person:P036}}, dpo@delcorn.co.uk) the **same day**. Do not send any data, confirm what we hold or acknowledge on the DPO's behalf.",
+     "We must respond within **one calendar month of receipt** (e.g. received 30 October, due 30 November). The search includes emails, Teams chats and Copilot-generated documents.",
+     "Note: at Delcorn 'SAR' usually means the self-assessment report, so use 'DSAR' for data requests."
+    ]
+   },
+   {
+    "h2": "7.5 Complaints"
+   },
+   {
+    "bullets": [
+     "If the sender says they want to complain, or clearly wants a remedy for poor service, log it as a Complaint and route to the Quality Manager - even if it arrives in Accounts or Enquiries.",
+     "Billing disagreements are 'Invoices & payments' disputes unless the sender asks to complain.",
+     "Don't respond defensively from the shared mailbox; the investigating manager replies."
+    ]
+   },
+   {
+    "h2": "7.6 Media"
+   },
+   {
+    "p": "Only Marketing & Communications speaks to journalists. Forward media requests to {{person:P027}} immediately and do not reply with any comment, even 'no comment'."
+   },
+   {
+    "h1": "8. Wrong mailbox, duplicates and personal data"
+   },
+   {
+    "bullets": [
+     "**Wrong mailbox:** forward to the correct shared mailbox (or owner) and ask the sender to use it next time. Keep the original category and priority. Flag it 'wrong mailbox'.",
+     "**Duplicates:** if the same person sends the same request twice, merge them - one ticket, one reply. For invoices, check Ledgerline so the same invoice is never entered or paid twice.",
+     "**Personal data:** CVs, health information and learner details should not sit in a shared mailbox. Forward to the owner and delete."
+    ]
+   },
+   {
+    "h1": "9. Automation and AI assistance"
+   },
+   {
+    "p": "Copilot, agents, Outlook rules and Power Automate flows may help us triage, but **a named person remains accountable for every email**. Automation must follow this guide and the AI Acceptable Use Policy."
+   },
+   {
+    "table": {
+     "columns": [
+      "Task",
+      "May be automated?",
+      "Conditions"
+     ],
+     "rows": [
+      [
+       "Suggest a category, priority and owner",
+       "Yes",
+       "As a suggestion; the monitor confirms. Urgent suggestions are checked by a person within 1 hour of the next mailbox check."
+      ],
+      [
+       "Generic acknowledgement ('we've received your email')",
+       "Yes",
+       "Approved template only, no content from the email. Not sent to suspected phishing/fraud senders."
+      ],
+      [
+       "Alert for Urgent items in Teams",
+       "Yes",
+       "Post mailbox, time and category only - **never the email body**. Safeguarding alerts go only to the private DSL team channel."
+      ],
+      [
+       "File newsletters, out-of-office replies and spam",
+       "Yes",
+       "Using sender rules"
+      ],
+      [
+       "Draft replies to routine queries",
+       "Yes - draft only",
+       "A person reviews and sends; uses approved templates and policies"
+      ],
+      [
+       "Forward supplier invoices to the Ledgerline intake",
+       "Yes",
+       "Known supplier domains only; never invoices with changed bank details"
+      ],
+      [
+       "Respond to or forward safeguarding disclosures",
+       "**No**",
+       "A person phones the DSL team; content is not copied into chats, documents or other AI tools"
+      ],
+      [
+       "Change bank details, release payments or send our bank details",
+       "**No**",
+       "Always a verified phone call and two-person check"
+      ],
+      [
+       "Click links or open attachments in suspected phishing",
+       "**No**",
+       "Report only"
+      ],
+      [
+       "Reply to media, complaints or data protection requests",
+       "**No**",
+       "Owner replies personally"
+      ],
+      [
+       "Delete emails other than spam, newsletters and auto-replies",
+       "**No**",
+       "Keep suspected phishing for investigation"
+      ]
+     ],
+     "caption": "Table 5 - What may and may not be automated"
+    }
+   },
+   {
+    "callout": "If an agent or flow is unsure, it must say so and leave the email for a person. A missed safeguarding disclosure or a paid fraudulent invoice costs far more than a slower triage.",
+    "title": "When in doubt, a human decides"
+   },
+   {
+    "h1": "10. Related documents"
+   },
+   {
+    "bullets": [
+     "Safeguarding & Prevent Policy 2026/27",
+     "Data Protection Policy & ROPA Summary",
+     "Complaints Policy",
+     "Information Security Policy",
+     "Procurement Policy",
+     "AI Acceptable Use Policy",
+     "Off-the-Job Training: A Guide for Employers",
+     "Sales Playbook 2026/27"
+    ]
+   },
+   {
+    "signature": "P002",
+    "date": "2026-10-20"
+   }
+  ]
+ }
+]

@@ -102,10 +102,13 @@ def validate(company, items, facts, scenarios, tables):
                 warn(f"{it.get('id')}: site '{it.get('site')}' not a department id")
         elif it["type"] not in ("email", "chat", "series") and it.get("site") not in deps:
             warn(f"{it.get('id')}: site '{it.get('site')}' not a department id")
-    for it in items:  # documents the builder derives from meetings / comms can be cited too
+    for it in items:  # documents the builder derives from meetings / comms / series can be cited too
+        if it.get("_series"):
+            ids.add(it["_series"])
         if it["type"] == "meeting":
             ids.update(f"{it['id']}-{k}" for k in ("recap", "transcript") if it.get(k))
-        elif it["type"] in ("email", "chat") and it.get("sharepoint_copy") is not False and company.get("comms_sharepoint_copy", True):
+        elif (it["type"] in ("email", "chat") and it.get("sharepoint_copy") is not False and company.get("comms_sharepoint_copy", True)
+              and (it.get("sharepoint_copy") or not it.get("mailbox"))):
             ids.add(f"{it['id']}-sp")
     for f in facts:
         for s in f.get("sources", []):
@@ -125,7 +128,11 @@ def expand_series(items, ctx):
         if it["type"] != "series":
             out.append(it)
             continue
-        cols, rows = ctx.query(ctx.fill(it["sql"]))
+        try:
+            cols, rows = ctx.query(ctx.fill(it["sql"]))
+        except Exception as e:
+            warn(f"series {it['id']}: sql failed: {e}")
+            continue
         tpl = it["template"]
         for n, r in enumerate(rows, 1):
             row = dict(zip(cols, r))
@@ -330,7 +337,7 @@ def build(workspace, make_zip=True):
     # Word copies of every email thread / Teams chat in SharePoint so Copilot can search them (.eml isn't indexed)
     if company.get("comms_sharepoint_copy", True):
         for it in items:
-            if it["type"] in ("email", "chat") and "sharepoint_copy" not in it:
+            if it["type"] in ("email", "chat") and "sharepoint_copy" not in it and not it.get("mailbox"):
                 it["sharepoint_copy"] = {"site": _comms_site(it, ctx, site_by), "library": "Communications Archive",
                                          "folder": "Email" if it["type"] == "email" else
                                          "Teams/" + safe_filename(it.get("channel") or it.get("title", "General"))}
@@ -369,7 +376,8 @@ def build(workspace, make_zip=True):
                 RENDER[t](it, ctx, p)
                 it["out_path"], it["filename"] = str(p), p.name
             elif t == "email":
-                folder = root / "Communications" / "Email" / thread_folder_name(it)
+                folder = (root / "Communications" / "Shared Mailboxes" / safe_filename(mailbox_name(company, it["mailbox"]))
+                          if it.get("mailbox") else root / "Communications" / "Email") / thread_folder_name(it)
                 files = render_email_thread(it, ctx, folder)
                 it["out_path"], it["filename"] = str(folder), Path(folder).name
                 it["_files"] = files
@@ -423,6 +431,7 @@ def build(workspace, make_zip=True):
     # ---- learning + trainer materials ----
     print("Trainer & learner packs...")
     _trainer_materials(root, ctx, facts, scenarios, brief_md, tables)
+    _triage_key(root, ctx, items)
 
     # ---- PnP ----
     print("M365 provisioning script...")
@@ -459,6 +468,31 @@ def build(workspace, make_zip=True):
     print("\n".join(report))
     print(f"Done in {time.time() - t0:.1f}s" + (f" -> {zip_path}" if zip_path else ""))
     return root, zip_path
+
+
+def mailbox_name(company, address):
+    mb = next((m for m in company.get("mailboxes", []) if m.get("address") == address), None)
+    return mb.get("name", address) if mb else address
+
+
+def _triage_key(root, ctx, items):
+    """Ground truth for inbox-triage exercises: one row per shared-mailbox email that has a 'triage' block."""
+    from .mail_r import _addr
+    rows = []
+    for it in sorted((i for i in items if i["type"] == "email" and i.get("mailbox") and i.get("triage")),
+                     key=lambda i: (i["mailbox"], str(i["messages"][0]["date"]))):
+        m, tr = it["messages"][0], it["triage"]
+        fn, fe = _addr(ctx, m["from"])
+        route = tr.get("route_to", "")
+        route = ctx.person_label(route) if route in ctx.people else ctx.departments.get(route, {}).get("name", route)
+        rows.append([it["id"], mailbox_name(ctx.company, it["mailbox"]), common.uk_date(m["date"], True), f"{fn} <{fe}>",
+                     ctx.fill(it["subject"]), tr.get("category", ""), tr.get("priority", ""), route,
+                     tr.get("action", ""), tr.get("sla", ""), "; ".join(tr.get("flags", [])), tr.get("notes", "")])
+    if rows:
+        render_xlsx({"id": "triagekey", "title": "Inbox Triage Key", "sheets": [{
+            "name": "Triage Key", "columns": ["ID", "Mailbox", "Received", "From", "Subject", "Category", "Priority",
+                                             "Route to", "Expected action", "Respond within", "Flags", "Notes"],
+            "rows": rows}]}, ctx, root / "Trainer Pack" / "Inbox Triage Key.xlsx")
 
 
 def _trainer_materials(root, ctx, facts, scenarios, brief_md, tables):
@@ -572,7 +606,8 @@ def _dashboard(root, ctx, items, sites, tmeta, conn, facts, scenarios, brief_md,
             "created": it.get("created", mod), "modified": mod, "version": it.get("version", ""),
             "status": it.get("status", ""), "classification": it.get("classification", "Internal"),
             "category": it.get("category", ""), "tags": it.get("tags", []), "summary": ctx.fill(it.get("summary", "")),
-            "review_date": it.get("review_date", ""), "preview": pv, "text": text})
+            "review_date": it.get("review_date", ""), "preview": pv, "text": text,
+            "mailbox": mailbox_name(ctx.company, it["mailbox"]) if it.get("mailbox") else ""})
         key = (it.get("site"), it.get("library"))
         lib_counts[key] = lib_counts.get(key, 0) + 1
     dsites = []

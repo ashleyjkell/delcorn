@@ -1,0 +1,1735 @@
+[
+ {
+  "id": "inb-enq-01",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "20 apprentices from February - data and AI",
+  "summary": "Castlegate Rail Services (new prospect, 1,800 staff, levy payer) wants 20 Data Analyst and AI apprentices from February 2027.",
+  "messages": [
+   {
+    "from": {
+     "name": "Priya Venkatesh",
+     "email": "priya.venkatesh@castlegaterail.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-03T16:47",
+    "body": "Hello,\n\nI'm Head of Early Careers at Castlegate Rail Services. We're a rail maintenance and infrastructure business with around 1,800 staff across the Midlands and the North, and we pay the levy (roughly £410k a year, and a good chunk of it is due to expire over the next few months).\n\nWe'd like to put **20 colleagues** on apprenticeships starting in February 2027, roughly:\n\n- 12 x Data Analyst (Level 4) - mostly from our asset performance and planning teams\n- 8 x something AI-focused for our engineering supervisors - I saw your Level 4 AI & Automation Practitioner launch on LinkedIn\n\nWe're talking to two other providers and want to make a decision before Christmas. Could someone senior call me this week? I'm free most of Thursday and Friday morning.\n\nMany thanks,\n\nPriya Venkatesh\nHead of Early Careers, Castlegate Rail Services\n07700 900 418"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "High",
+   "route_to": "P024",
+   "action": "Hot lead: Senior Client Partner to call Priya this week, log the opportunity in PipelineHQ (source Inbound web, ~20 starts, Levy) and send the AI4/DA4 programme specifications.",
+   "sla": "1 working day",
+   "flags": [
+    "hot lead"
+   ],
+   "notes": "New employer, 20 learners, levy payer, competing providers and a pre-Christmas decision - meets the hot-lead rule (10+ learners or levy payer with a deadline)."
+  }
+ },
+ {
+  "id": "inb-enq-02",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "apprentice for my cafe?",
+  "summary": "Owner of a small Leeds café asks whether she can put her supervisor on a Team Leader apprenticeship and what it costs.",
+  "messages": [
+   {
+    "from": {
+     "name": "Jo Hargreaves",
+     "email": "jo@thelittlegrindleeds.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-30T21:12",
+    "body": "hi there\n\ni run a small cafe in leeds (11 staff) and my supervisor Kirsty is brilliant and i want to help her progress. a friend said you do team leader apprentiships? how much would it cost us as we def dont pay the levy lol. does she have to go to college or is it all online. she works 4 days a week.\n\nthanks\nJo\nThe Little Grind, Leeds\n\nSent from my iPhone"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "Normal",
+   "route_to": "P026",
+   "action": "Business Development Manager to reply with the Team Leader (TL3) overview, the 5% co-investment position for a small employer and the part-time/OTJ rules, and offer a short call.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Small non-levy employer, single learner - BDM rather than Client Partner. See inb-enq-03 (duplicate)."
+  }
+ },
+ {
+  "id": "inb-enq-03",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Re: apprentice for my cafe?",
+  "summary": "The same café owner resends her enquiry the next morning, unsure whether the first one arrived.",
+  "messages": [
+   {
+    "from": {
+     "name": "Jo Hargreaves",
+     "email": "jo@thelittlegrindleeds.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-31T08:03",
+    "body": "Sorry not sure if my email last night went through as I sent it from my phone! Basically want to know about a team leader apprenticeship for my supervisor at the cafe. Small business, 11 staff. Can someone ring me on 07700 900 233 after 3pm?\n\nJo"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "Normal",
+   "route_to": "P026",
+   "action": "Merge with the original enquiry (inb-enq-02) and send one reply; note her preference for a call after 3pm.",
+   "sla": "2 working days",
+   "flags": [
+    "duplicate"
+   ],
+   "notes": "Duplicate of inb-enq-02 - do not create a second PipelineHQ lead."
+  }
+ },
+ {
+  "id": "inb-enq-04",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Can I do an apprenticeship without an employer?",
+  "summary": "An individual between jobs asks whether he can sign up for a data apprenticeship himself.",
+  "messages": [
+   {
+    "from": {
+     "name": "Daniel Okoro",
+     "email": "d.okoro88@inboxly.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-26T13:20",
+    "body": "Good afternoon,\n\nI was made redundant from a retail management role in September and I'd really like to retrain in data analysis. Can I enrol on your Data Analyst apprenticeship as an individual? I'm happy to pay if needed.\n\nKind regards,\nDaniel Okoro"
+   }
+  ],
+  "triage": {
+   "category": "General enquiry",
+   "priority": "Normal",
+   "route_to": "P038",
+   "action": "Send the standard individual-enquiry reply: apprenticeships need an employer and a paid job; signpost to the government apprenticeship vacancies service and our employer partners' vacancies page.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Use the 'Individual without employer' reply template."
+  }
+ },
+ {
+  "id": "inb-enq-05",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Media enquiry - AI apprenticeships feature (deadline Thurs 12:00)",
+  "summary": "A trade journalist requests comment on AI apprenticeships and Delcorn's own Copilot rollout, with a deadline of 12:00 on 5 November.",
+  "importance": "high",
+  "messages": [
+   {
+    "from": {
+     "name": "Hannah Lowther",
+     "email": "hannah.lowther@feinsightweekly.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T17:58",
+    "body": "Hi,\n\nI'm writing a feature for FE Insight Weekly on how training providers are responding to employer demand for AI skills, and whether providers are \"practising what they preach\" by using AI internally.\n\nI understand Delcorn has launched a Level 4 AI & Automation Practitioner programme and is rolling out Copilot to all staff. Could someone give me 2-3 sentences of comment, ideally from your CEO, on:\n\n1. What employers are asking for\n2. How you're using AI yourselves, and any safeguards for learner data\n\nMy deadline is **12:00 on Thursday 5 November**. A short call is fine too.\n\nBest,\nHannah Lowther\nSenior Reporter, FE Insight Weekly\n020 7946 0812"
+   }
+  ],
+  "triage": {
+   "category": "Media & partnerships",
+   "priority": "High",
+   "route_to": "P027",
+   "action": "Forward to Head of Marketing & Communications immediately; do not reply with any comment. Marketing to agree a CEO quote (Helena Marsh) and respond before the 12:00 deadline.",
+   "sla": "Same day",
+   "flags": [
+    "media"
+   ],
+   "notes": "Only Marketing & Communications may speak to the media. Deadline is the morning the inbox is triaged."
+  }
+ },
+ {
+  "id": "inb-enq-06",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "6 more PM4 starts in January?",
+  "summary": "Kestrel Logistics UK's Early Careers Manager asks for a quote for six more Associate Project Manager apprentices in January.",
+  "messages": [
+   {
+    "from": {
+     "name": "Kate Williams",
+     "email": "kate.williams@kestrellogisticsuk.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T10:41",
+    "body": "Hi team,\n\nI couldn't find my account manager's email in a hurry so sending here. We'd like to add **six more Associate Project Manager (PM4)** apprentices for a January start - all depot operations leads. Same arrangement as the current cohort please. Can you confirm the January cohort dates and whether there's space?\n\nThanks,\nKate\n\nKate Williams | Early Careers Manager | Kestrel Logistics UK"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "Normal",
+   "route_to": "P026",
+   "action": "Pass to Kestrel's account manager (Lewis Murray, per PipelineHQ) to confirm January PM4 cohort dates and capacity and raise an expansion opportunity.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Existing account - route to the named account manager, not the Senior Client Partner."
+  }
+ },
+ {
+  "id": "inb-enq-07",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "OTJ guidance for field ops apprentices",
+  "summary": "Northgrid Energy's Head of People asks for the employer OTJ guide following the quarterly business review.",
+  "messages": [
+   {
+    "from": {
+     "name": "Terence Newton",
+     "email": "terence.newton@northgridenergy.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-29T08:12",
+    "body": "Morning,\n\nFollowing our QBR, could someone send over the employer guide to off-the-job training? I want to share it with our field operations supervisors, who are still unclear what counts when apprentices are out on shift. Ravi mentioned there's a PDF.\n\nRegards,\nTerence Newton\nHead of People, Northgrid Energy plc"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "Normal",
+   "route_to": "P024",
+   "action": "Account manager (Ravi Sharma) to send 'Off-the-Job Training: A Guide for Employers' and offer a short briefing for field operations supervisors.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Strategic account (Northgrid Energy plc). Link to the QBR action on field-operations OTJ."
+  }
+ },
+ {
+  "id": "inb-enq-08",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Formal complaint - apprentice review cancelled twice",
+  "summary": "Sharp Stores' Apprenticeship Lead makes a formal complaint that an apprentice's progress review has been cancelled twice and nobody has followed up.",
+  "messages": [
+   {
+    "from": {
+     "name": "Allan Barnes",
+     "email": "allan.barnes@sharpstores.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T19:26",
+    "body": "To whom it may concern,\n\nI wish to make a formal complaint. One of our apprentices, Stanley Perry (DevOps Engineering), was due a progress review at the end of October. It was cancelled on the morning by your coach, rebooked, and then cancelled again on 29 October. Nobody has been in touch since.\n\nHis store manager has rearranged rotas twice to free him up for these reviews. Stanley is now worried he is \"behind\" and frankly so am I - we were told his hours are well short and there is no plan to fix it.\n\nI'd like a named contact, an explanation and a date for the review.\n\nAllan Barnes\nApprenticeship Lead, Sharp Stores plc"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "High",
+   "route_to": "P021",
+   "action": "Log as a Stage 1 formal complaint; Quality Manager to acknowledge within 3 working days and assign an investigating manager, and ask the Delivery Manager (Sam Patel) to book Stanley's review urgently.",
+   "sla": "Acknowledge within 3 working days; respond within 15 working days",
+   "flags": [
+    "complaint"
+   ],
+   "notes": "Learner LRN21414 Stanley Perry, DO4, Red RAG, review overdue (due 29 Oct 2026), OTJ well behind plan. Do not reply defensively from the shared mailbox."
+  }
+ },
+ {
+  "id": "inb-enq-09",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Automatic reply: Delcorn employer webinar - AI skills for 2027",
+  "summary": "Out-of-office auto-reply from an employer contact in response to a marketing email.",
+  "messages": [
+   {
+    "from": {
+     "name": "Georgia Lawrence",
+     "email": "georgia.lawrence@harbourtransport.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-28T09:00",
+    "body": "Thank you for your email. I am out of the office until Monday 9 November with limited access to email. For urgent learning and development matters please contact ld@harbourtransport.co.uk.\n\nGeorgia Lawrence\nHead of Learning & Development, Harbour Transport Ltd"
+   }
+  ],
+  "triage": {
+   "category": "No action required",
+   "priority": "Low",
+   "route_to": "P038",
+   "action": "No reply needed; mark as read and file. Optionally note the return date against the contact in PipelineHQ.",
+   "sla": "No response required",
+   "flags": [
+    "auto-reply"
+   ]
+  }
+ },
+ {
+  "id": "inb-enq-10",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Skills Sector Bulletin - November 2026",
+  "summary": "Monthly sector newsletter covering apprenticeship units, funding rule updates and events.",
+  "messages": [
+   {
+    "from": {
+     "name": "Skills Sector Bulletin",
+     "email": "bulletin@skillssectornetwork.org.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T07:30",
+    "body": "SKILLS SECTOR BULLETIN - NOVEMBER 2026\n\nIn this issue:\n\n- Apprenticeship units: what the first pilots are telling us\n- Funding rules 2026/27: the clarifications providers asked for\n- Webinar, 19 November: preparing for report-card inspections\n- Member spotlight: digital skills in the public sector\n\nRead the full bulletin online. You are receiving this because you subscribed at a Skills Sector Network event. Unsubscribe | Manage preferences"
+   }
+  ],
+  "triage": {
+   "category": "No action required",
+   "priority": "Low",
+   "route_to": "P038",
+   "action": "No reply; move to the Newsletters folder. Optionally forward the funding-rules item to Finance & Funding and the inspection webinar to Quality.",
+   "sla": "No response required",
+   "flags": [
+    "newsletter"
+   ]
+  }
+ },
+ {
+  "id": "inb-enq-11",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Partnership idea - pre-apprenticeship bootcamp in Birmingham",
+  "summary": "A youth charity proposes a partnership to run pre-apprenticeship digital bootcamps from the new Birmingham hub.",
+  "messages": [
+   {
+    "from": {
+     "name": "Marcus Adebayo",
+     "email": "marcus@brightpathyouth.org.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-29T15:34",
+    "body": "Dear Delcorn team,\n\nI lead the Brightpath Youth Trust, a Birmingham charity supporting 18-24 year-olds who are not in work or education. We saw that you are opening a hub at Lockside Exchange this month.\n\nWe'd love to explore a partnership: we would recruit and support young people through a six-week digital skills bootcamp, and your employer partners could interview them for entry-level apprenticeships (e.g. Data Technician, Business Administrator).\n\nWould someone be open to a conversation in November?\n\nWarm regards,\nMarcus Adebayo\nChief Executive, Brightpath Youth Trust"
+   }
+  ],
+  "triage": {
+   "category": "Media & partnerships",
+   "priority": "Normal",
+   "route_to": "P004",
+   "action": "Forward to the Chief Commercial Officer for a decision on a partnership conversation; send a holding reply confirming receipt.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Strategic partnership, not a sales lead. Ties to the Birmingham hub opening on 16 November 2026."
+  }
+ },
+ {
+  "id": "inb-enq-12",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Application - Skills Coach (AI)",
+  "summary": "A candidate sends a CV for a skills coach role to the enquiries address instead of applying through the careers page.",
+  "messages": [
+   {
+    "from": {
+     "name": "Rebecca Lindqvist",
+     "email": "rebecca.lindqvist@mailpost.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-01T20:15",
+    "body": "Hello,\n\nPlease find attached my CV for the Skills Coach (AI) role I saw advertised. I have 6 years' experience as a digital skills tutor in FE and I'm currently completing a Level 5 teaching qualification.\n\nI'm based in Birmingham, so the new hub would be ideal.\n\nKind regards,\nRebecca Lindqvist",
+    "attachments": [
+     "CV - Rebecca Lindqvist.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "General enquiry",
+   "priority": "Normal",
+   "route_to": "P032",
+   "action": "Forward to the Talent Acquisition Lead and delete the CV from the shared mailbox once forwarded; reply pointing the candidate to the careers page application process.",
+   "sla": "2 working days",
+   "flags": [
+    "personal data"
+   ],
+   "notes": "CVs contain personal data - don't leave them sitting in a shared mailbox."
+  }
+ },
+ {
+  "id": "inb-enq-13",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Invoice CVA-0388 - BSL interpreting, October",
+  "summary": "Clearview Accessibility sends a supplier invoice for BSL interpreting to the enquiries mailbox instead of Accounts.",
+  "messages": [
+   {
+    "from": {
+     "name": "Clearview Accessibility Accounts",
+     "email": "invoices@clearviewaccess.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T11:05",
+    "body": "Dear Delcorn,\n\nPlease find attached invoice CVA-0388 for £1,248.00 (including VAT) for British Sign Language interpreting at four learner workshops in October 2026 (PO-26-0377).\n\nPayment terms 30 days.\n\nClearview Accessibility Ltd",
+    "attachments": [
+     "CVA-0388.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Forward to accounts@delcorn.co.uk for the Management Accountant to match to PO-26-0377 and process; ask the supplier to use the Accounts address in future.",
+   "sla": "5 working days",
+   "flags": [
+    "wrong mailbox"
+   ],
+   "notes": "Belongs in the Accounts mailbox. Clearview's contract end date (30 Apr 2026) has passed - check a renewal is in place before paying."
+  }
+ },
+ {
+  "id": "inb-enq-14",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Leadership apprenticeships for ward managers",
+  "summary": "A new NHS trust asks about leadership apprenticeships for eight ward managers from spring 2027.",
+  "messages": [
+   {
+    "from": {
+     "name": "Dr Fiona Gallagher",
+     "email": "fiona.gallagher@westmerecommunitynhs.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T12:52",
+    "body": "Dear Sir/Madam,\n\nWestmere Community NHS Trust is looking for a provider for a leadership programme for approximately 8 newly appointed ward managers, starting spring 2027. We would expect to use our levy. Are you on any NHS or public sector frameworks? We would need to follow a compliant procurement route.\n\nWith thanks,\nDr Fiona Gallagher\nAssociate Director of Nursing Education, Westmere Community NHS Trust"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "Normal",
+   "route_to": "P025",
+   "action": "Client Partner (Public Sector & Health) to reply with framework details (Public Sector Skills & Apprenticeships Framework Lot 2) and the Operations Manager (OM5) / Team Leader options, and log a new opportunity.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "New public sector/health prospect - route to Sophie Turner regardless of size."
+  }
+ },
+ {
+  "id": "inb-enq-15",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Birmingham hub opening - can local employers come?",
+  "summary": "A Birmingham business owner asks whether the 16 November hub launch is open to local employers.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sanjay Mistry",
+     "email": "sanjay@mistryprecision.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T08:47",
+    "body": "Hi,\n\nSaw on LinkedIn that you're opening an office on Gas Street on 16 November. Is there an open event for local employers? We're a 60-person engineering firm in Digbeth and have been thinking about apprenticeships for a while.\n\nCheers,\nSanjay\nMistry Precision Engineering"
+   }
+  ],
+  "triage": {
+   "category": "Media & partnerships",
+   "priority": "Normal",
+   "route_to": "P027",
+   "action": "Marketing to reply with launch event details and registration; copy the Business Development Manager (Lewis Murray) as it is also a warm lead.",
+   "sla": "2 working days",
+   "flags": [],
+   "notes": "Event enquiry with a lead attached - Marketing owns events; BDM follows up the lead."
+  }
+ },
+ {
+  "id": "inb-enq-16",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Quick question about your website rankings",
+  "summary": "Unsolicited sales pitch from an SEO agency.",
+  "messages": [
+   {
+    "from": {
+     "name": "Tyler Brooks",
+     "email": "tyler@rankrocketdigital.co"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-26T06:14",
+    "body": "Hi there,\n\nI was looking at delcorn.co.uk and noticed you're not on page 1 for \"apprenticeship provider London\". We've helped 200+ education businesses 10x their organic traffic.\n\nCan I send over a free audit? Just reply YES.\n\nTyler\nGrowth Lead, RankRocket Digital"
+   }
+  ],
+  "triage": {
+   "category": "No action required",
+   "priority": "Low",
+   "route_to": "P038",
+   "action": "Do not reply; mark as junk/block sender.",
+   "sla": "No response required",
+   "flags": [
+    "spam"
+   ]
+  }
+ },
+ {
+  "id": "inb-enq-17",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "change workshop date pls",
+  "summary": "An apprentice asks to move to a different Leading Hybrid Teams workshop - sent to Enquiries instead of Learner Support.",
+  "messages": [
+   {
+    "from": {
+     "name": "Phillip Spencer",
+     "email": "phillip.spencer@thamesidewater.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-26T12:30",
+    "body": "Hi, I'm booked on the Leading Hybrid Teams workshop on 12 Nov but I'm on a site visit that day. Can I swap to a later one? I'm on the Associate Project Manager apprenticeship, learner number LRN21760.\n\nThanks\nPhil"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Low",
+   "route_to": "P013",
+   "action": "Forward to learnersupport@delcorn.co.uk; Delivery Manager (Leadership & People) team to rebook him onto the next available workshop.",
+   "sla": "5 working days",
+   "flags": [
+    "wrong mailbox"
+   ],
+   "notes": "Learner LRN21760, PM4, Thameside Water. Same learner also emails Learner Support (inb-ls-17)."
+  }
+ },
+ {
+  "id": "inb-enq-18",
+  "type": "email",
+  "mailbox": "enquiries@delcorn.co.uk",
+  "subject": "Fwd: Copilot training for our housing officers",
+  "summary": "The CEO forwards a conference contact from a housing association interested in Copilot training for 40 staff.",
+  "messages": [
+   {
+    "from": "P001",
+    "to": [
+     {
+      "name": "Delcorn Enquiries",
+      "email": "enquiries@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-28T22:04",
+    "body": "Hi team - could someone pick this up please? Met Imran at the Housing & Skills Forum last week. Commercial rather than apprenticeship, I think. Helena\n\n---------- Forwarded message ----------\nFrom: Imran Qureshi <imran.qureshi@alderbankhousing.org.uk>\nDate: 27 October 2026\nSubject: Copilot training for our housing officers\n\nHelena, great to meet you at the forum. As discussed, we've bought Copilot licences for about 40 housing and income officers and want practical training on using it safely with tenant data. Could your team send a proposal? Ideally half-day sessions in January.\n\nImran Qureshi\nChief Operating Officer, Alderbank Housing Group"
+   }
+  ],
+  "triage": {
+   "category": "Employer enquiry",
+   "priority": "High",
+   "route_to": "P026",
+   "action": "Business Development Manager to contact Imran within one working day with commercial workshop options and pricing from the 2026/27 offer sheet, and update Helena.",
+   "sla": "1 working day",
+   "flags": [
+    "internal"
+   ],
+   "notes": "Commercial (non-apprenticeship) lead forwarded by the CEO - CEO referrals are always High."
+  }
+ },
+ {
+  "id": "inb-acc-01",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "ACTION REQUIRED: Your Ledgerline password expires in 24 hours",
+  "summary": "Phishing email impersonating Ledgerline, asking users to 'verify' their password via a link.",
+  "importance": "high",
+  "messages": [
+   {
+    "from": {
+     "name": "Ledgerline Account Security",
+     "email": "no-reply@ledgerline-secure-login.com"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-01T07:02",
+    "body": "Dear Ledgerline user,\n\nOur records show your Ledgerline password will **expire in 24 hours**. To avoid interruption to payment runs and approvals, please verify your credentials now:\n\nVERIFY MY ACCOUNT >> hxxps://ledgerline-secure-login.com/delcorn/verify\n\nIf you do not verify, your account will be suspended and pending payments may be cancelled.\n\nThank you,\nLedgerline Account Security Team\n\nThis is an automated message. Please do not reply."
+   }
+  ],
+  "triage": {
+   "category": "Suspected phishing / fraud",
+   "priority": "Urgent",
+   "route_to": "P036",
+   "action": "Do not click or reply. Report with the Outlook Report button and raise a FixDesk P1 security ticket for the IT Service Desk Lead (Mohammed Ali); the Information Security Officer checks whether anyone clicked.",
+   "sla": "Same day",
+   "flags": [
+    "phishing"
+   ],
+   "notes": "Tells: lookalike domain (not Ledgerline's own), urgency and threats, generic greeting. Delcorn has no forced password expiry, and Ledgerline uses Microsoft 365 sign-in."
+  }
+ },
+ {
+  "id": "inb-acc-02",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Change of bank details - Fenwick Laptop Leasing",
+  "summary": "Email claiming to be from Fenwick Laptop Leasing's accounts manager asking Delcorn to pay future invoices into a new bank account before the next payment run.",
+  "importance": "high",
+  "messages": [
+   {
+    "from": {
+     "name": "Martin Hale",
+     "email": "martin.hale@fenwick-leasing.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-03T15:41",
+    "body": "Dear Accounts team,\n\nPlease be advised that Fenwick Laptop Leasing has moved its banking to a new provider following our annual review. With immediate effect please make all payments, including the November lease instalment, to:\n\nAccount name: Fenwick Leasing Services\nSort code: 40-11-62\nAccount number: 71833902\n\nOur updated letterhead is attached for your records. Our phone lines are being upgraded this week, so please **confirm by return email** once your system is updated so we can make sure the November payment is not delayed.\n\nKind regards,\n\nMartin Hale\nAccounts Manager, Fenwick Laptop Leasing",
+    "attachments": [
+     "Fenwick bank change letter.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Suspected phishing / fraud",
+   "priority": "Urgent",
+   "route_to": "P028",
+   "action": "Do not change bank details or reply. Finance Manager to verify by phoning Fenwick on the number already held in Ledgerline (not any number in the email), place a hold on Fenwick payments until verified, and report to the Information Security Officer (Liam O'Connor).",
+   "sla": "Same day",
+   "flags": [
+    "fraud risk",
+    "bank details change",
+    "lookalike domain"
+   ],
+   "notes": "Likely invoice-redirection fraud: sender domain is fenwick-leasing.co.uk but genuine Fenwick emails (inb-acc-03) come from fenwickleasing.co.uk; urgency before a payment run; asks to confirm by email only because 'phones are being upgraded'."
+  }
+ },
+ {
+  "id": "inb-acc-03",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Fenwick Laptop Leasing - statement of account October 2026",
+  "summary": "Genuine monthly statement from Fenwick Laptop Leasing showing the October lease invoice paid and November due.",
+  "messages": [
+   {
+    "from": {
+     "name": "Martin Hale",
+     "email": "martin.hale@fenwickleasing.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T09:15",
+    "body": "Good morning,\n\nPlease find attached your statement of account (account DEL001) as at 26 October 2026.\n\n- FLL-26-1009 (October lease) £8,000.00 - paid 6 October, thank you\n- FLL-26-1110 (November lease) £8,000.00 - due 6 November\n\nNo balance overdue. Any queries, please call me on the usual number.\n\nKind regards,\nMartin Hale\nAccounts Manager, Fenwick Laptop Leasing Ltd",
+    "attachments": [
+     "Statement DEL001 Oct 2026.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Management Accountant to reconcile the statement to the Fenwick ledger in Ledgerline; no action needed beyond filing.",
+   "sla": "5 working days",
+   "flags": [],
+   "notes": "Genuine sender domain (fenwickleasing.co.uk). Useful comparison for the bank-details fraud attempt in inb-acc-02."
+  }
+ },
+ {
+  "id": "inb-acc-04",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Statement - Delcorn Learning Ltd - 31 October 2026",
+  "summary": "Brightside Events statement as at 31 October showing invoice BSE-4471 outstanding.",
+  "messages": [
+   {
+    "from": {
+     "name": "Karen Doyle",
+     "email": "accounts@brightside-events.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T08:15",
+    "body": "Dear Peter,\n\nPlease find attached our statement as at 31 October 2026. The only open item is BSE-4471 (Delcorn Skills Summit, 24 September) for £10,368.00, which I understand is in your next payment run.\n\nKind regards,\nKaren Doyle\nCredit Controller, Brightside Events",
+    "attachments": [
+     "Brightside statement 31-10-2026.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Low",
+   "route_to": "P030",
+   "action": "Confirm to Karen that BSE-4471 was paid in the 4 November payment run and close the item; no further action.",
+   "sla": "5 working days",
+   "flags": [],
+   "notes": "Already resolved - the invoice was paid on 4 November after the PO variation was approved (see the Brightside AP email thread)."
+  }
+ },
+ {
+  "id": "inb-acc-05",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Remittance advice - DLC-CI-2610-001",
+  "summary": "Lumen Digital Media sends a remittance advice for its October co-investment invoice.",
+  "messages": [
+   {
+    "from": {
+     "name": "Lumen Digital Media Finance",
+     "email": "finance@lumendigitalmedia.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T14:22",
+    "body": "REMITTANCE ADVICE\n\nPayee: Delcorn Learning Ltd\nPayment date: 04/11/2026\nMethod: BACS\n\nInvoice DLC-CI-2610-001  £3,050.00\nTotal paid: £3,050.00\n\nThis is an automated remittance from our finance system."
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Low",
+   "route_to": "P030",
+   "action": "Allocate the £3,050.00 receipt against DLC-CI-2610-001 in Ledgerline once it appears on the bank statement.",
+   "sla": "5 working days",
+   "flags": [
+    "remittance"
+   ]
+  }
+ },
+ {
+  "id": "inb-acc-06",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Query on invoice DLC-CI-2610-002",
+  "summary": "Albion Foods Group questions its co-investment invoice, believing its apprentices were funded by a levy transfer.",
+  "messages": [
+   {
+    "from": {
+     "name": "Colin Savage",
+     "email": "colin.savage@albionfoods.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T11:48",
+    "body": "Hello,\n\nWe've received invoice DLC-CI-2610-002 for £2,975.00 for apprenticeship co-investment. I was under the impression that our five new starters were being funded through a levy transfer from one of our customers - I'm sure that was discussed with your client partner in the summer.\n\nCan you check before we pay? I don't want to pay 5% if we didn't need to.\n\nThanks,\nColin Savage\nEarly Careers Manager, Albion Foods Group"
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Put the invoice on query, check with the account manager (Sophie Turner) and the DAS account whether a levy transfer was approved, then reply with the outcome.",
+   "sla": "2 working days",
+   "flags": [
+    "invoice query"
+   ],
+   "notes": "If a levy transfer was approved, the invoice must be credited."
+  }
+ },
+ {
+  "id": "inb-acc-07",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "RE: Invoice DLC-CI-2610-006 - NOT PAYING THIS",
+  "summary": "Kingsbridge Hospitality disputes its co-investment invoice, saying the apprentices have left the business.",
+  "messages": [
+   {
+    "from": {
+     "name": "Diane Lowe",
+     "email": "diane.lowe@kingsbridgehospitali.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-03T18:39",
+    "body": "I've just opened this invoice for £450 and I'm frankly annoyed. Both of the apprentices it relates to left us in October and I told your coach at the time. Why are we being invoiced for people who aren't even here? Please cancel it.\n\nDiane Lowe\nHead of People\nKingsbridge Hospitality Ltd"
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "High",
+   "route_to": "P030",
+   "action": "Place DLC-CI-2610-006 on hold, check the learners' status and withdrawal dates with the Delivery Manager, and reply within one working day; credit if they withdrew before the charge point.",
+   "sla": "1 working day",
+   "flags": [
+    "invoice dispute"
+   ],
+   "notes": "Angry but not a formal complaint - treat as a billing dispute. Escalate to the Quality Manager only if she asks to complain. Also flags a possible data issue: leavers should have been withdrawn in Aptiva/ILR."
+  }
+ },
+ {
+  "id": "inb-acc-08",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Wellspring EAP - invoice WEAP-2610-044 (October usage)",
+  "summary": "Wellspring EAP invoices October counselling usage, higher than usual after Wellbeing Week.",
+  "messages": [
+   {
+    "from": {
+     "name": "Wellspring EAP Billing",
+     "email": "billing@wellspringeap.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T10:00",
+    "body": "Dear customer,\n\nPlease find attached invoice WEAP-2610-044 for October 2026: base subscription £1,000.00 plus 14 additional counselling sessions at £55.00 (£770.00). Total £1,770.00 + VAT = £2,124.00.\n\nPayment due within 30 days.\n\nWellspring EAP",
+    "attachments": [
+     "WEAP-2610-044.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Match to the Wellspring PO and the October accrual, get People Director (budget holder) approval for the usage overage, then schedule for payment.",
+   "sla": "5 working days",
+   "flags": [],
+   "notes": "Usage spike after Wellbeing Week (12-16 Oct) was already accrued at month end."
+  }
+ },
+ {
+  "id": "inb-acc-09",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "CloudReseller UK - Invoice CRUK-558213 - Microsoft 365 Copilot licences",
+  "summary": "The Microsoft reseller invoices the Copilot licence uplift for the Delcorn rollout.",
+  "messages": [
+   {
+    "from": {
+     "name": "CloudReseller UK Billing",
+     "email": "billing@cloudreseller-uk.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-01T02:10",
+    "body": "Your invoice is ready.\n\nInvoice: CRUK-558213\nCustomer: Delcorn Learning Ltd\nDescription: Microsoft 365 Copilot - additional licences, annual commitment, pro-rated from 2 November 2026\nAmount due: £21,384.00 (inc. VAT)\nDue date: 1 December 2026\n\nView and download your invoice in the CloudReseller portal."
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Match to the Copilot licence PO and get approval from the budget holder (Director of Learning Technology); over £10k so check approval limits in the Procurement Policy.",
+   "sla": "5 working days",
+   "flags": [],
+   "notes": "Genuine reseller invoice. Note the reseller contract end date (31 Jul 2026) - check the renewal is recorded."
+  }
+ },
+ {
+  "id": "inb-acc-10",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Aptiva Systems Ltd - Invoice APT-2026-1187",
+  "summary": "Aptiva Systems invoices the quarterly e-portfolio licence.",
+  "messages": [
+   {
+    "from": {
+     "name": "Aptiva Systems Accounts Receivable",
+     "email": "ar@aptivasystems.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-26T09:30",
+    "body": "Dear Delcorn Learning,\n\nPlease find attached invoice APT-2026-1187 for the Aptiva e-portfolio platform licence, Q3 FY26/27 (November 2026 - January 2027): £78,000.00 + VAT = £93,600.00.\n\nTerms: 30 days from invoice date.\n\nAptiva Systems Ltd",
+    "attachments": [
+     "APT-2026-1187.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Match to the Aptiva contract PO and route for approval (over £50k - see Procurement Policy approval levels) before scheduling payment.",
+   "sla": "5 working days",
+   "flags": [],
+   "notes": "See inb-acc-11 - the same invoice was sent again."
+  }
+ },
+ {
+  "id": "inb-acc-11",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Aptiva Systems Ltd - Invoice APT-2026-1187 (resent)",
+  "summary": "Aptiva resends the same quarterly invoice a week later.",
+  "messages": [
+   {
+    "from": {
+     "name": "Aptiva Systems Accounts Receivable",
+     "email": "ar@aptivasystems.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T09:31",
+    "body": "Dear Delcorn Learning,\n\nWe are resending invoice APT-2026-1187 for your records. Please disregard if already processed.\n\nAptiva Systems Ltd",
+    "attachments": [
+     "APT-2026-1187.pdf"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Low",
+   "route_to": "P030",
+   "action": "Do not enter it again - check Ledgerline already holds APT-2026-1187 once, then file.",
+   "sla": "5 working days",
+   "flags": [
+    "duplicate"
+   ],
+   "notes": "Duplicate of inb-acc-10 - duplicate payment risk (£93,600)."
+  }
+ },
+ {
+  "id": "inb-acc-12",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "When will my expenses be paid?",
+  "summary": "A skills coach asks when her September expenses claim will be reimbursed.",
+  "messages": [
+   {
+    "from": "P016",
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-30T12:17",
+    "body": "Hi Accounts,\n\nI submitted my September expenses in Ledgerline on 3 October (train fares and a hotel for the Manchester away-day) and it still says \"Approved - awaiting payment\". When is the next expenses run?\n\nThanks,\nChloe"
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Check the claim status in Ledgerline and reply with the next expenses payment date.",
+   "sla": "2 working days",
+   "flags": [
+    "internal"
+   ]
+  }
+ },
+ {
+  "id": "inb-acc-13",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "Rearranging Judith's review",
+  "summary": "An employer line manager emails Accounts by mistake to rearrange an apprentice's progress review.",
+  "messages": [
+   {
+    "from": {
+     "name": "Darren Pike",
+     "email": "darren.pike@kestrellogisticsuk.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-29T16:02",
+    "body": "Hi,\n\nNot sure this is the right address - it was on the last invoice. Judith Ward's review is booked for 27 November but I'm on leave that week. Could we move it to the week after?\n\nDarren Pike\nDepot Manager, Kestrel Logistics UK"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Normal",
+   "route_to": "P012",
+   "action": "Forward to learnersupport@delcorn.co.uk for the Delivery Manager (AI & Data) team to rebook the review with the coach (Bruce Saunders).",
+   "sla": "3 working days",
+   "flags": [
+    "wrong mailbox"
+   ],
+   "notes": "Learner LRN20492 Judith Ward, DA4, Red RAG. Same learner is the subject of the welfare concern in inb-ls-14 - link them."
+  }
+ },
+ {
+  "id": "inb-acc-14",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "OVERDUE - University of Wessex invoice UW-AR-77120",
+  "summary": "The University of Wessex chases an overdue tuition invoice and warns that January registrations are on hold until it is paid.",
+  "importance": "high",
+  "messages": [
+   {
+    "from": {
+     "name": "University of Wessex Credit Control",
+     "email": "creditcontrol@wessex-uni.ac.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T11:30",
+    "body": "Dear Delcorn Learning Ltd,\n\nOur records show invoice UW-AR-77120 (£68,400.00, degree apprenticeship tuition - autumn term) issued on 1 September 2026 remains unpaid and is now 26 days overdue.\n\nPlease arrange payment or contact us to discuss.\n\nCredit Control, University of Wessex"
+   },
+   {
+    "from": {
+     "name": "University of Wessex Credit Control",
+     "email": "creditcontrol@wessex-uni.ac.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T10:05",
+    "body": "Dear Delcorn Learning Ltd,\n\nFurther to our reminder of 27 October, invoice UW-AR-77120 remains unpaid. Please note that, in line with our partnership agreement, **student registrations for the January 2027 cohort will be placed on hold** until the account is brought up to date.\n\nCredit Control, University of Wessex"
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "High",
+   "route_to": "P030",
+   "action": "Find out why UW-AR-77120 has not been paid, escalate to the Finance Manager (Andrew Clarke) for an urgent payment if valid, and tell Credit Control the payment date today.",
+   "sla": "1 working day",
+   "flags": [
+    "overdue",
+    "chaser"
+   ],
+   "notes": "Risk to learners: January DTS6/CM6 registrations on hold. Degree partner owner is the Head of AI & Curriculum."
+  }
+ },
+ {
+  "id": "inb-acc-15",
+  "type": "email",
+  "mailbox": "accounts@delcorn.co.uk",
+  "subject": "New supplier form - Kestrel Logistics UK",
+  "summary": "Kestrel Logistics' purchase ledger team asks Delcorn to complete a new supplier form so co-investment invoices can be paid.",
+  "messages": [
+   {
+    "from": {
+     "name": "Kestrel Purchase Ledger",
+     "email": "purchaseledger@kestrellogisticsuk.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Accounts",
+      "email": "accounts@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-28T13:44",
+    "body": "Good afternoon,\n\nWe are migrating to a new finance system and need all suppliers to re-submit our supplier set-up form (attached) with company details, VAT number and bank details on company letterhead. Invoices cannot be paid after 30 November until this is complete.\n\nKind regards,\nPurchase Ledger Team, Kestrel Logistics UK",
+    "attachments": [
+     "Kestrel supplier form.docx"
+    ]
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Verify the request with the known Kestrel finance contact (it asks for bank details), then complete the form and return it through Kestrel's supplier portal or the verified contact.",
+   "sla": "5 working days",
+   "flags": [
+    "verify before sending bank details"
+   ],
+   "notes": "Probably genuine - sent from Kestrel's real domain to us (we are the supplier) - but sending our bank details still needs a quick verification call."
+  }
+ },
+ {
+  "id": "inb-ls-01",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "aptiva wont let me log my hours",
+  "summary": "A 17-year-old apprentice asks for an Aptiva password reset; buried in the email is a disclosure that he is not safe to stay at home.",
+  "messages": [
+   {
+    "from": {
+     "name": "Liam Palmer",
+     "email": "lpalmer.06@inboxly.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-01T23:38",
+    "body": "hi\n\nim on the data technician apprenticeship (LRN20006) with Harbourline Ports. aptiva keeps logging me out when i try to put my OTJ hours in and i havent been able to log anything for about 2 weeks so im probably behind now. can someone reset it?\n\nalso sorry if my work has been late. things at home are really bad at the moment and i havent been staying there since my mums partner kicked off at me, ive been sleeping at mates houses or in my car. please dont tell my manager i dont want to lose my job. i just need my login sorted\n\nthanks\nLiam\n\nsent from my personal email as i cant get on my work one"
+   }
+  ],
+  "triage": {
+   "category": "Safeguarding concern",
+   "priority": "Urgent",
+   "route_to": "P010",
+   "action": "Treat as a safeguarding disclosure: pass immediately to the DSL (Grace Adeyemi) or Deputy DSL (Megan Taylor) by phone and the safeguarding mailbox; the DSL team contacts Liam today. Handle the Aptiva reset separately via the Service Desk without sharing the disclosure.",
+   "sla": "Immediately (same day)",
+   "flags": [
+    "safeguarding",
+    "under 18",
+    "buried urgent"
+   ],
+   "notes": "Learner aged 16-18, possibly homeless/unsafe at home. Do not forward the email widely, do not reply asking for detail, do not tell the employer - the DSL decides on sharing. Record via the Aptiva Safeguarding form using the learner ID only."
+  }
+ },
+ {
+  "id": "inb-ls-02",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Can't log in to Aptiva - activation link expired",
+  "summary": "A new Bluewater Bank apprentice cannot activate his Aptiva account because the link has expired.",
+  "messages": [
+   {
+    "from": {
+     "name": "Elliot Ross",
+     "email": "elliot.ross@bluewaterbank.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-29T09:12",
+    "body": "Hello,\n\nI started the Data Analyst apprenticeship last month (LRN22015). I've just found my Aptiva welcome email but the activation link says it has expired. Please could you send a new one?\n\nThanks,\nElliot Ross"
+   }
+  ],
+  "triage": {
+   "category": "Systems & access",
+   "priority": "Normal",
+   "route_to": "P034",
+   "action": "Raise a FixDesk 'Aptiva access / sync' ticket for the Service Desk to reissue the activation link and confirm to Elliot.",
+   "sla": "1 working day",
+   "flags": [],
+   "notes": "See inb-ls-11 - he chased again on 2 November."
+  }
+ },
+ {
+  "id": "inb-ls-03",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Louise Jackson - no review since June",
+  "summary": "Atlas Build & Civil's Early Careers Manager reports that her apprentice's progress review is well overdue and nobody has booked it.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sally Todd",
+     "email": "sally.todd@atlasbuildcivil.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T14:55",
+    "body": "Hello,\n\nI look after apprenticeships here, including Louise Jackson (Team Leader apprenticeship). Her last review was at the end of June and I believe the next one should have been in September. We haven't heard anything from her coach. Could someone book it in please - Louise is keen to stay on track as she's hoping for gateway next spring.\n\nThanks,\nSally Todd\nEarly Careers Manager, Atlas Build & Civil"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "High",
+   "route_to": "P013",
+   "action": "Delivery Manager (Leadership & People) to book the tripartite review with coach Zoe Campbell within 5 working days and reply to Sally with the date.",
+   "sla": "1 working day",
+   "flags": [
+    "overdue review"
+   ],
+   "notes": "Learner LRN22047, TL3. Review was due 18 Sep 2026 - more than 6 weeks overdue, part of the overdue-review backlog."
+  }
+ },
+ {
+  "id": "inb-ls-04",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Coming back from my break in learning",
+  "summary": "An apprentice on a break in learning asks to restart in December.",
+  "messages": [
+   {
+    "from": {
+     "name": "Emily Duncan",
+     "email": "emily.duncan@bluewaterbank.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-26T18:40",
+    "body": "Hi,\n\nI've been on a break in learning from the Working Smarter with AI programme since the summer (personal reasons). Things are much better now and my manager is happy for me to restart in December. What do I need to do?\n\nThanks so much,\nEmily (LRN21696)"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Normal",
+   "route_to": "P012",
+   "action": "Delivery Manager (AI & Data) to arrange a return-from-BIL meeting with coach Lewis Nolan and the employer, update the training plan and record the return in Aptiva for the ILR.",
+   "sla": "3 working days",
+   "flags": [],
+   "notes": "Learner LRN21696, AI3, Break in learning."
+  }
+ },
+ {
+  "id": "inb-ls-05",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "When is my EPA?",
+  "summary": "An apprentice who passed gateway in September asks when his end-point assessment will be.",
+  "messages": [
+   {
+    "from": {
+     "name": "Abdul Williams",
+     "email": "abdul.williams@redwoodlogistics.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-03T07:51",
+    "body": "Morning,\n\nI went through gateway in September and was told the EPA would be booked within a few weeks. I still haven't heard anything and my planned end date was 12 October. Is there a problem? My manager keeps asking.\n\nAbdul Williams\nTeam Leader apprentice (LRN21727)"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "High",
+   "route_to": "P013",
+   "action": "Delivery Manager (Leadership & People) to check the EPA booking with the EPAO (Institute of Management Practice) and give Abdul a date within one working day.",
+   "sla": "1 working day",
+   "flags": [],
+   "notes": "Learner LRN21727, TL3, status Gateway, past planned end date - risk to timely achievement."
+  }
+ },
+ {
+  "id": "inb-ls-06",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Extra time for my assessment?",
+  "summary": "An apprentice with additional learning support asks about extra time and assistive software for a project assessment.",
+  "messages": [
+   {
+    "from": {
+     "name": "Sarah Bradley",
+     "email": "sarah.bradley@ahmedconsulting.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-30T16:20",
+    "body": "Hi,\n\nI have dyslexia and I get additional support on my AI & Automation Practitioner programme. I've got a big written project coming up and wondered if I can have extra time and use read-aloud software. Who do I need to speak to?\n\nThanks\nSarah (LRN20382)"
+   }
+  ],
+  "triage": {
+   "category": "Wellbeing & additional support",
+   "priority": "Normal",
+   "route_to": "P023",
+   "action": "Learner Support Lead to review Sarah's ALS plan with coach Abbie Edwards and confirm reasonable adjustments (extra time, assistive technology).",
+   "sla": "3 working days",
+   "flags": [],
+   "notes": "Learner LRN20382, AI4, ALS in place. EPA adjustments must also be requested from the EPAO in advance."
+  }
+ },
+ {
+  "id": "inb-ls-07",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Leaving my job - what happens to my apprenticeship?",
+  "summary": "An apprentice says he has resigned and asks whether he can continue his apprenticeship.",
+  "messages": [
+   {
+    "from": {
+     "name": "Roy Green",
+     "email": "roy.green@watsoninsurance.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T12:05",
+    "body": "Hi,\n\nI've handed in my notice at Watson Insurance - my last day is 20 November. I'm starting a new job at a smaller company in December. Can I carry on with my apprenticeship there or do I lose everything I've done?\n\nRoy Green (Working Smarter with AI)"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "High",
+   "route_to": "P012",
+   "action": "Delivery Manager (AI & Data) to call Roy about transferring to the new employer (or a break in learning) before his leaving date, and inform the Funding & MI Analyst for the ILR.",
+   "sla": "1 working day",
+   "flags": [
+    "funding impact"
+   ],
+   "notes": "Learner LRN21391, AI3, Red RAG. 'Left employer' is the top withdrawal reason - a transfer conversation now may save the learner."
+  }
+ },
+ {
+  "id": "inb-ls-08",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "What counts as off-the-job?",
+  "summary": "A Sharp Stores line manager asks what counts as off-the-job training for his apprentice.",
+  "messages": [
+   {
+    "from": {
+     "name": "Neil Ashworth",
+     "email": "neil.ashworth@sharpstores.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-28T11:26",
+    "body": "Hi,\n\nMitchell Ali is on your Data Analyst apprenticeship and works in my team. Does shadowing our BI team count as off-the-job? And does it have to be a full day a week or can it be split up?\n\nNeil\nHead of Merchandising Analytics, Sharp Stores plc"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Normal",
+   "route_to": "P012",
+   "action": "Reply with 'Off-the-Job Training: A Guide for Employers' and confirm the coach (Donald Moore) will cover it at the next review.",
+   "sla": "3 working days",
+   "flags": [],
+   "notes": "Learner LRN20814, DA4. Standard query - suitable for a templated reply."
+  }
+ },
+ {
+  "id": "inb-ls-09",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Maths exam date",
+  "summary": "A 16-18 apprentice asks when his Functional Skills maths exam will be.",
+  "messages": [
+   {
+    "from": {
+     "name": "Christian Young",
+     "email": "christian.young@miahcapital.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-31T11:10",
+    "body": "Hiya, when is my functional skills maths exam? my tutor said november but i havent got a date yet. also can i do it online?\n\nChristian LRN21154"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Normal",
+   "route_to": "P018",
+   "action": "Functional Skills Tutor to confirm the exam booking and whether remote invigilation is available.",
+   "sla": "3 working days",
+   "flags": [],
+   "notes": "Learner LRN21154, AI3, aged 16-18."
+  }
+ },
+ {
+  "id": "inb-ls-10",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Automatic reply: Progress review - Marcus Booth",
+  "summary": "Out-of-office reply from an apprentice's line manager.",
+  "messages": [
+   {
+    "from": {
+     "name": "Timothy Young",
+     "email": "timothy.young@brightwellfoods.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T10:30",
+    "body": "I'm on annual leave returning Tuesday 10 November. For anything urgent about early careers, please contact earlycareers@brightwellfoods.co.uk.\n\nTimothy Young\nTalent Development Manager, Brightwell Foods Ltd"
+   }
+  ],
+  "triage": {
+   "category": "No action required",
+   "priority": "Low",
+   "route_to": "P037",
+   "action": "No reply; note the return date for the coach arranging Marcus Booth's review.",
+   "sla": "No response required",
+   "flags": [
+    "auto-reply"
+   ]
+  }
+ },
+ {
+  "id": "inb-ls-11",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "RE: Can't log in to Aptiva - activation link expired",
+  "summary": "The same new apprentice chases his Aptiva access ahead of his first review.",
+  "messages": [
+   {
+    "from": {
+     "name": "Elliot Ross",
+     "email": "elliot.ross@bluewaterbank.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-02T08:20",
+    "body": "Hi again,\n\nJust following up on my email from last week - I still can't get into Aptiva and my first review is on Thursday. My coach says I need to upload evidence before then.\n\nThanks,\nElliot"
+   }
+  ],
+  "triage": {
+   "category": "Systems & access",
+   "priority": "High",
+   "route_to": "P034",
+   "action": "Link to the existing FixDesk ticket from inb-ls-02 (do not raise a second one), escalate it, and reply to Elliot today.",
+   "sla": "Same day",
+   "flags": [
+    "duplicate",
+    "chaser"
+   ],
+   "notes": "Duplicate of inb-ls-02; priority raised because his review is on 5 November."
+  }
+ },
+ {
+  "id": "inb-ls-12",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Subject access request",
+  "summary": "A former apprentice makes a subject access request for all personal data Delcorn holds about her.",
+  "messages": [
+   {
+    "from": {
+     "name": "Natalie Fenwick-Shaw",
+     "email": "natalie.fshaw@mailpost.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-30T10:02",
+    "body": "Dear Delcorn,\n\nUnder the UK GDPR I am making a subject access request. I was an apprentice on your People Professional programme until I withdrew earlier this year.\n\nPlease provide a copy of all personal data you hold about me, including my Aptiva records, my coach's notes and any emails or Teams messages that mention me.\n\nI look forward to your response within one month.\n\nNatalie Fenwick-Shaw"
+   }
+  ],
+  "triage": {
+   "category": "Data protection request",
+   "priority": "High",
+   "route_to": "P036",
+   "action": "Forward to the Data Protection Officer (dpo@delcorn.co.uk) the same day; do not reply with any data. The DPO logs and acknowledges it and must respond by 30 November 2026.",
+   "sla": "1 calendar month (by 30 November 2026)",
+   "flags": [
+    "data protection",
+    "DSAR"
+   ],
+   "notes": "Statutory deadline runs from receipt (30 October 2026). Includes emails, Teams chats and Copilot-generated documents."
+  }
+ },
+ {
+  "id": "inb-ls-13",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "invoice DLC-CI-2610-007 - bank details?",
+  "summary": "An employer's finance contact asks Learner Support how to pay a co-investment invoice.",
+  "messages": [
+   {
+    "from": {
+     "name": "Mohammad French",
+     "email": "mohammad.french@ahmedconsulting.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-03T09:37",
+    "body": "Hi,\n\nWe've had invoice DLC-CI-2610-007 for £1,750 for our two apprentices but the PDF doesn't seem to show your bank details. Can you send them?\n\nMohammad French\nHR Business Partner, Ahmed Consulting"
+   }
+  ],
+  "triage": {
+   "category": "Invoices & payments",
+   "priority": "Normal",
+   "route_to": "P030",
+   "action": "Forward to accounts@delcorn.co.uk; the Management Accountant replies from Accounts, giving bank details only in the standard invoice format or by phone, never in an ad hoc email.",
+   "sla": "2 working days",
+   "flags": [
+    "wrong mailbox"
+   ],
+   "notes": "Belongs in the Accounts mailbox."
+  }
+ },
+ {
+  "id": "inb-ls-14",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Judith Ward - worried about her",
+  "summary": "Judith Ward's depot manager reports she has not been at work or answered calls for eight days, which is out of character.",
+  "messages": [
+   {
+    "from": {
+     "name": "Darren Pike",
+     "email": "darren.pike@kestrellogisticsuk.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T17:52",
+    "body": "Hi,\n\nSorry to email the general address. Judith Ward (Data Analyst apprentice) hasn't been at work since 27 October and isn't answering calls or messages from me or the team. That isn't like her at all. HR are following our absence process, but I wondered if she's been in touch with her coach or with you? Just want to know she's OK.\n\nDarren Pike\nDepot Manager, Kestrel Logistics UK"
+   }
+  ],
+  "triage": {
+   "category": "Safeguarding concern",
+   "priority": "Urgent",
+   "route_to": "P023",
+   "action": "Pass to the Deputy DSL (Megan Taylor) the same day for a welfare check; the safeguarding team contacts Judith and her coach, and decides what to share with the employer.",
+   "sla": "Same day",
+   "flags": [
+    "safeguarding",
+    "welfare check"
+   ],
+   "notes": "Learner LRN20492, DA4, Red RAG. Unexplained absence and no contact is a welfare concern - don't confirm or share any information about the learner until the safeguarding team has reviewed. Linked to inb-acc-13."
+  }
+ },
+ {
+  "id": "inb-ls-15",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "ALS referral form?",
+  "summary": "A skills coach asks for the current additional learning support referral form.",
+  "messages": [
+   {
+    "from": "P014",
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-28T10:05",
+    "body": "Hi Megan / team,\n\nOne of my DA4 learners has just told me she thinks she has ADHD and is struggling with the written assignments. Where's the latest ALS referral form? The link in the handbook goes to an old version.\n\nThanks,\nJames"
+   }
+  ],
+  "triage": {
+   "category": "Wellbeing & additional support",
+   "priority": "Normal",
+   "route_to": "P023",
+   "action": "Learner Support Lead to send the current ALS referral form and fix the broken link in the Skills Coach Handbook.",
+   "sla": "3 working days",
+   "flags": [
+    "internal"
+   ]
+  }
+ },
+ {
+  "id": "inb-ls-16",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Fourth coach in a year - not happy",
+  "summary": "An apprentice complains that her coach has changed four times and she has had to repeat work.",
+  "messages": [
+   {
+    "from": {
+     "name": "Molly Wilson",
+     "email": "molly.wilson@orbistelecom.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-31T14:48",
+    "body": "Hello,\n\nI'm on the Team Leader apprenticeship and I've just been told I'm getting a new coach - that's my fourth in twelve months. Each time I have to explain my job again and I've had to redo evidence because the new coach wanted it done differently. I'd like to make a complaint. I don't feel anyone is looking out for my progress.\n\nMolly Wilson\nOrbis Telecom"
+   }
+  ],
+  "triage": {
+   "category": "Complaint",
+   "priority": "High",
+   "route_to": "P021",
+   "action": "Log as a Stage 1 complaint; Quality Manager acknowledges within 3 working days and assigns an investigating manager (Delivery Manager, Leadership & People).",
+   "sla": "Acknowledge within 3 working days; respond within 15 working days",
+   "flags": [
+    "complaint"
+   ],
+   "notes": "Learner LRN20720, TL3. The learner explicitly says she wants to complain."
+  }
+ },
+ {
+  "id": "inb-ls-17",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Workshop clash 12 Nov",
+  "summary": "The same apprentice who emailed Enquiries asks Learner Support to move his workshop.",
+  "messages": [
+   {
+    "from": {
+     "name": "Phillip Spencer",
+     "email": "phillip.spencer@thamesidewater.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-10-27T08:15",
+    "body": "Hi, sent this to the wrong address yesterday I think. I need to move off the 12 Nov Leading Hybrid Teams workshop as I'm on site. Any later date is fine.\n\nPhil (LRN21760)"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Low",
+   "route_to": "P013",
+   "action": "Rebook onto the next available workshop and reply once; close the Enquiries copy (inb-enq-17).",
+   "sla": "5 working days",
+   "flags": [
+    "duplicate"
+   ],
+   "notes": "Duplicate of inb-enq-17."
+  }
+ },
+ {
+  "id": "inb-ls-18",
+  "type": "email",
+  "mailbox": "learnersupport@delcorn.co.uk",
+  "subject": "Observation on 3 Nov - feedback for Donna?",
+  "summary": "Pennant Combined Authority's line manager asks for feedback from a coach's workplace observation of their apprentice.",
+  "messages": [
+   {
+    "from": {
+     "name": "Charles Parsons",
+     "email": "charles.parsons@pennantcombinedautho.co.uk"
+    },
+    "to": [
+     {
+      "name": "Delcorn Learner Support",
+      "email": "learnersupport@delcorn.co.uk"
+     }
+    ],
+    "date": "2026-11-04T12:40",
+    "body": "Hello,\n\nFatima from your team came to observe Donna Nolan (AI & Automation Practitioner) on Tuesday. Donna found it really useful. Is there a written summary we can have for Donna's development file?\n\nThanks,\nCharles Parsons\nEarly Careers Manager, Pennant Combined Authority"
+   }
+  ],
+  "triage": {
+   "category": "Learner programme query",
+   "priority": "Normal",
+   "route_to": "P012",
+   "action": "Ask the coach (Fatima Hussain) to share a typed summary of her observation notes via Aptiva and reply to Charles.",
+   "sla": "3 working days",
+   "flags": [],
+   "notes": "Learner LRN21443, AI4. Notes are handwritten (see the scanned observation notes)."
+  }
+ }
+]

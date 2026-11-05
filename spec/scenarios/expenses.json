@@ -1,0 +1,59 @@
+[
+ {"id": "S-EXP-01", "title": "Approve this week's expense claims - properly", "level": "Intermediate",
+  "module": "Copilot with data and images",
+  "persona": "P030",
+  "context": "Peter Walsh, Management Accountant, has been asked to clear the expense claims awaiting approval in Ledgerline before Friday's payment run. Each claim in the Expense Claims list has a receipt photo in Finance > Invoices > Claim Receipts (Ledgerline). Line managers have been approving on the claimed amount alone, without opening the receipts.",
+  "goal": "Check every claim awaiting approval against its receipt and the Expenses Policy, and produce an approve / query / reject list with reasons.",
+  "task_steps": [
+   "Open the Expense Claims list (or the Excel export) and filter to 'Awaiting approval'.",
+   "Ask Copilot to summarise the claims: count, total value, claims per approver.",
+   "For each claim, open the receipt image (or attach several to Copilot) and extract the total and line items.",
+   "Compare the receipt with the claimed amount, the category cap and the alcohol rule in the Expenses Policy.",
+   "Look for the same receipt claimed twice.",
+   "Produce a table: claim, claimant, decision (approve / query / reject part), reason, amount payable.",
+   "Draft a short, polite query message for each claimant who needs one."
+  ],
+  "sample_prompts": [
+   "From the Expense Claims list, show me every claim awaiting approval with claimant, category, date and claimed amount.",
+   "Here are the receipts for these claims. For each one, give me the receipt total and any line items that are alcohol.",
+   "Using the Expenses Policy, which of these claims are over the meal cap, and what is the most we can pay?",
+   "Is any receipt here the same as a claim that has already been paid?"
+  ],
+  "success_criteria": [
+   "Every 'Awaiting approval' claim has a decision with a reason.",
+   "Claims where the claimed amount is more than the receipt are queried.",
+   "Alcohol and over-cap amounts are not paid; the payable amount is stated.",
+   "The duplicate claim is rejected and linked to the original paid claim.",
+   "Learner checked at least two of Copilot's receipt readings against the image."
+  ],
+  "data_sources": ["expense_claims", "fin-claim-receipts", "ppl-expenses-policy"],
+  "fact_ids": ["exp_awaiting_count", "exp_awaiting_clean", "exp_claim_exceeds_receipt", "exp_duplicate", "exp_over_cap", "exp_alcohol"],
+  "trainer_notes": "The list alone looks clean - the problems only show up on the receipts. Good discussion point: Copilot can read the list, but someone has to bring the images into the conversation. Watch for Copilot misreading totals on angled photos; insist learners spot-check."},
+ {"id": "S-EXP-02", "title": "Audit paid expenses and design an automated check", "level": "Advanced",
+  "module": "Agents and automation",
+  "persona": "P003",
+  "context": "Priya Raman, CFO, has heard that some expense claims are being paid without anyone looking at the receipts. She wants to know how big the problem is, and a proposal for an automated first-pass check so it doesn't happen again.",
+  "goal": "Find paid claims that broke policy, quantify the overpayment, and design a Copilot Studio agent or Power Automate flow that checks each new claim against its receipt and the policy before it reaches the approver.",
+  "task_steps": [
+   "Use the Expense Claims data and receipts to find every paid claim that should not have been paid in full.",
+   "Calculate the overpayment per claim and in total.",
+   "Write a one-paragraph finding for the CFO.",
+   "Design the automated check: trigger, inputs (claim row + receipt image), rules from the Expenses Policy, outputs (flag, reason, suggested payable amount) and where a human must decide.",
+   "Build the agent (or flow) and test it against all 31 claims; compare its flags with your own audit."
+  ],
+  "sample_prompts": [
+   "Which paid expense claims were for more than the receipt, over the policy cap, or included alcohol?",
+   "Work out how much we overpaid on each of those claims and in total.",
+   "Draft agent instructions for an expense checker that reads a receipt image and the claim, applies the Expenses Policy and returns approve / query with a reason."
+  ],
+  "success_criteria": [
+   "All paid claims with issues are found (see answer key).",
+   "Overpayment is calculated, with the method shown.",
+   "The design keeps a human approver in the loop and explains what the automation must not decide alone.",
+   "The agent's flags match the answer key on at least 28 of 31 claims."
+  ],
+  "data_sources": ["expense_claims", "fin-claim-receipts", "ppl-expenses-policy"],
+  "fact_ids": ["exp_paid_with_issues", "exp_claim_exceeds_receipt", "exp_over_cap", "exp_alcohol", "exp_duplicate"],
+  "agent_instructions": "You are the Delcorn expense pre-check assistant. For each claim you are given (claim row and receipt image): 1) read the receipt total, date, merchant and line items; 2) compare the receipt total with the claimed amount; 3) apply the Expenses Policy caps (breakfast £10, lunch £10, evening meal £30) and the no-alcohol rule; 4) check whether the same claimant has already claimed the same merchant, date and amount; 5) return APPROVE or QUERY, the reason, and the maximum payable amount. Never reject a claim yourself - a human approver decides. If the receipt is unreadable, return QUERY with 'receipt unreadable'.",
+  "trainer_notes": "Expected paid-with-issues claims are in the answer key (exp_paid_with_issues). Overpayment = claimed minus the lower of receipt total and the cap, minus any alcohol."}
+]

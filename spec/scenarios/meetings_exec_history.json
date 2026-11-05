@@ -1,0 +1,101 @@
+[
+  {
+    "id": "S-MTGH-01",
+    "title": "Prepare the COO's month-in-review from four weeks of exec recaps",
+    "level": "Intermediate",
+    "module": "Copilot in Teams and meetings",
+    "persona": "P002",
+    "context": "David Okafor, COO, has to give Helena Marsh a one-page 'month in review' of the Executive Team weekly from 12 October to 2 November 2026 before the Meridian Q1 review on 26 November. There are four recaps and transcripts in the Executive & Board site's Meeting Records library. Several items moved from week to week, including one of his own.",
+    "goal": "Use Copilot across all four meetings in the series to show what changed: trends, decisions that were changed, actions completed and actions that keep slipping.",
+    "task_steps": [
+      "Open Copilot Chat (Work mode) and ask it to find every 'Executive Team weekly' meeting from 12 October to 2 November.",
+      "Ask for a week-by-week table of the overdue progress review count and the Copilot readiness figures.",
+      "Ask which decisions were changed or reversed between meetings, with the date of each version.",
+      "Ask which actions were carried forward more than once, and who owns them. Check at least one against the transcript.",
+      "Draft a one-page month-in-review for Helena Marsh: headline, trends, decisions, completed actions, slipping actions and risks to watch."
+    ],
+    "sample_prompts": [
+      "Find the Executive Team weekly meetings on 12, 19 and 26 October and 2 November. For each one, list the overdue progress review number that was reported.",
+      "Which decisions changed between these four meetings? Show the original decision, what replaced it, and the meeting or chat where it changed.",
+      "Which actions appear in more than one recap without being completed? Give the owner, the first due date and the current due date.",
+      "What did we say about Kestrel Logistics in each meeting? Has it got better or worse?",
+      "Draft a one-page month-in-review for Helena: trends, decisions, completed actions, slipping actions and three risks to watch. Use UK spelling and keep it under 400 words."
+    ],
+    "success_criteria": [
+      "Overdue reviews trend is correct: 184 → 191 → 198 → {{fact:overdue_reviews}} (176 at the start of October), with QIP-07 going Red on 23 October.",
+      "Identifies the Copilot date reversal: 2 and 16 November agreed on 12 October, then 9 and 23 November at the 30 October go/no-go.",
+      "Identifies the coach split change: five Data and three Leadership on 19 October, then four Data, three Leadership and one AI on 2 November.",
+      "Lists the slipping actions with owners: David Okafor's review trajectory (three slips), Priya Raman's £186,000 phasing (still not done on 2 November) and Helena Marsh's Exec Copilot Essentials.",
+      "Lists completed actions correctly, e.g. Northgrid date confirmed (11 January), coach adverts live 29 October after one slip, go/no-go issued 30 October, Kestrel follow-up.",
+      "Notices that the cost-phasing action is missing from the 2 November action list even though Priya says it is still not done."
+    ],
+    "data_sources": [
+      "mtg-exec-weekly-2026-10-12",
+      "mtg-exec-weekly-2026-10-19",
+      "mtg-exec-weekly-2026-10-26",
+      "mtg-exec-weekly-2026-11-02",
+      "exec-ch-copilot-go-no-go",
+      "dlv-weekly-dashboard-wc021126"
+    ],
+    "fact_ids": [
+      "mtgh_overdue_trend",
+      "mtgh_copilot_dates_reversed",
+      "mtgh_coach_split_change",
+      "mtgh_most_slipped_action",
+      "mtgh_coach_cost_phasing",
+      "mtgh_kestrel_escalation",
+      "overdue_reviews"
+    ],
+    "trainer_notes": "This teaches cross-meeting reasoning. A single recap looks tidy, and the story only appears when you compare weeks. Watch for learners who only ask about the 2 November meeting: they will miss the Copilot reversal, because it happened in a Teams chat between meetings. Point them to the go/no-go chat. The 2 November recap does not list Priya's phasing action or the Exec Essentials action, so learners who trust the latest recap will say they are closed. The transcript shows they are not. The meetings are Confidential: only Exec members (and learners given that persona) can see them, which is a useful permissions discussion."
+  },
+  {
+    "id": "S-MTGH-02",
+    "title": "Build an action-tracker agent that spots slipping actions across a meeting series",
+    "level": "Advanced",
+    "module": "Copilot Studio agents",
+    "persona": "P011",
+    "context": "Oliver Grant, Executive Assistant & Board Secretary, keeps the Executive Team action log by hand. Every Monday he reads the recaps, works out what was carried forward and chases owners. He wants an agent, or an agent plus a Power Automate flow, to do the first pass: track each action across the weekly series and flag anything that has slipped more than once.",
+    "goal": "Build a Copilot Studio agent grounded on the Executive & Board Meeting Records that tracks actions across the 'exec-weekly' series, matches the same action from week to week, and reports status, number of slips and current due date. Optionally add a flow that posts the slipping list to the Executive Team chat every Monday at 08:30.",
+    "task_steps": [
+      "Create an agent in Copilot Studio and add the Executive & Board site's Meeting Records library as knowledge.",
+      "Write instructions (see agent_instructions) that say how to match an action across weeks, what counts as a slip, and how to report.",
+      "Test: 'Which actions have slipped more than once since 12 October, and who owns them?'",
+      "Test: 'What happened to the Northgrid start date action?' — check that the agent marks it complete with the outcome.",
+      "Test: 'Is the £186,000 phasing done?' — check that the agent reads the 2 November transcript and does not stop at the recap's action list.",
+      "Optional: build a scheduled Power Automate flow that prompts the agent every Monday and posts a slipping-actions table to Teams for Oliver to review before sending."
+    ],
+    "sample_prompts": [
+      "Build an action history for the Executive Team weekly series from 12 October to 2 November. For each action show the owner, the date first raised, each due date and its current status.",
+      "Which actions have slipped more than once? Rank them by number of slips.",
+      "Which actions were completed, and in which meeting was the completion reported?",
+      "Is there any action that disappeared from a recap without being reported as complete?",
+      "Draft a polite chaser to each owner with a slipping action, citing the meetings where it was carried forward."
+    ],
+    "success_criteria": [
+      "Matches the same action across weeks even where the wording changes slightly, and cites each meeting.",
+      "Flags David Okafor — 'Bring the overdue progress review recovery trajectory to the Executive Team' — first due 19 October, slipped three times, now due 9 November.",
+      "Flags Priya Raman — 'Phase the £186,000 part-year cost of the eight coach posts into the FY2026/27 forecast' — due 23 October, slipped on 26 October, still not done on 2 November and missing from that recap's action list.",
+      "Flags Helena Marsh — 'All Executive Team members to complete Copilot Essentials before the go/no-go' — due 30 October; five of eight on 26 October; Helena 'about half' done on 2 November.",
+      "Shows Marcus Bell's coach adverts as completed after one slip (due 23 October, live 29 October).",
+      "Shows completed actions correctly: Catherine briefed, top risks added and Essentials go-live confirmed (all reported on 19 October); Northgrid date confirmed as 11 January (reported on 26 October); go/no-go issued and Kestrel follow-up done (reported on 2 November).",
+      "Says 'not recorded' rather than inventing a status, and keeps chasers factual and polite."
+    ],
+    "data_sources": [
+      "mtg-exec-weekly-2026-10-12",
+      "mtg-exec-weekly-2026-10-19",
+      "mtg-exec-weekly-2026-10-26",
+      "mtg-exec-weekly-2026-11-02",
+      "exec-ch-copilot-go-no-go",
+      "exec-board-minutes-2026-10-15"
+    ],
+    "fact_ids": [
+      "mtgh_most_slipped_action",
+      "mtgh_coach_cost_phasing",
+      "mtgh_exec_essentials",
+      "mtgh_adverts_slip",
+      "mtgh_kestrel_escalation"
+    ],
+    "agent_instructions": "You are the Delcorn Exec Action Tracker. You help the Board Secretary keep the Executive Team action log across the weekly 'Executive Team weekly' meetings. Use only the recaps and transcripts in the Executive & Board Meeting Records library, plus the Executive Team Teams chats where a decision was made between meetings. Treat the same task as one action across weeks even if the wording changes slightly, matching on owner and subject. For each action report: action, owner, date first raised, each due date set, number of times it slipped (a due date passed and the action was carried forward with a new date), current status (Open, Complete or Not recorded) and the meeting where it was completed. Recaps are AI-generated and can leave actions out: if an action disappears from a recap, check the transcript before marking it complete, and if the transcript shows it is still open, say 'Dropped from the recap but still open'. Never invent a status or date. Show results as a table sorted by number of slips, then due date. These meetings are Confidential — do not reproduce salary or personal data. If asked to chase owners, draft short, polite messages that cite the meetings, and leave them for the Board Secretary to send.",
+    "trainer_notes": "Expected slipping actions (the answer key for this exercise): (1) David Okafor — overdue review recovery trajectory: due 19 Oct → 26 Oct → 2 Nov → 9 Nov (three slips; the most). (2) Priya Raman — phase the £186,000 coach cost: due 23 Oct → 30 Oct, still not done on 2 Nov and missing from the 2 November recap's action list. This is the trap: agents that only read recaps will mark it closed. (3) Helena Marsh — Exec Copilot Essentials: due 30 Oct; 2 of 8 done (19 Oct), 5 of 8 (26 Oct), Helena 'about half' (2 Nov). Completed after one slip: Marcus Bell's coach adverts (due 23 Oct, live 29 Oct). Completed on time: Catherine briefing, board-pack top risks and Essentials go-live date (reported 19 Oct); Northgrid start date (reported 26 Oct); go/no-go recommendation and Kestrel follow-up (reported 2 Nov). Oliver's line on 2 November ('three items carried over from last week') matches slips 1–3. Good builds use the transcript to settle disputes and treat 'next Monday' as a date based on the meeting date. If you have time, have learners schedule a flow that runs the agent on Monday mornings — but the output should go to Oliver for review, not straight to the Exec."
+  }
+]

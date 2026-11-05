@@ -1,0 +1,137 @@
+[
+ {
+  "id": "inbox_mailbox_counts",
+  "category": "Inbox triage",
+  "question": "How many emails are in each shared mailbox in the triage exercise?",
+  "answer": "51 in total: Enquiries 18, Accounts 15, Learner Support 18",
+  "sources": [
+   "inb-enq-01",
+   "inb-acc-01",
+   "inb-ls-01"
+  ],
+  "notes": "As at 09:00 on 5 November 2026"
+ },
+ {
+  "id": "inbox_fraud_bank_change",
+  "category": "Inbox triage",
+  "question": "Which email in the Accounts mailbox is a likely fraud attempt, and what should happen?",
+  "answer": "inb-acc-02, the 'Change of bank details - Fenwick Laptop Leasing' email from the lookalike domain fenwick-leasing.co.uk (genuine Fenwick emails come from fenwickleasing.co.uk). Do not change the details or reply; the Finance Manager (Andrew Clarke) verifies by phoning Fenwick on the number already held in Ledgerline, holds Fenwick payments, and reports it to the Information Security Officer (Liam O'Connor) the same day.",
+  "sources": [
+   "inb-acc-02",
+   "inb-acc-03",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_phishing_ledgerline",
+  "category": "Inbox triage",
+  "question": "Why is the 'Ledgerline password expires in 24 hours' email phishing, and how should it be handled?",
+  "answer": "inb-acc-01 comes from a lookalike domain (ledgerline-secure-login.com), uses urgency and threats, and Delcorn has no forced password expiry. Don't click or reply; use the Outlook Report button and raise a FixDesk P1 so IT (Mohammed Ali / Liam O'Connor) can investigate.",
+  "sources": [
+   "inb-acc-01",
+   "ops-inbox-routing-guide",
+   "tech-information-security-policy"
+  ]
+ },
+ {
+  "id": "inbox_ls_urgent_count",
+  "category": "Inbox triage",
+  "question": "How many Urgent items are in the Learner Support mailbox, and what are they?",
+  "answer": "2 - inb-ls-01 (a safeguarding disclosure from a 16-18 apprentice buried in an Aptiva password request) and inb-ls-14 (an employer reporting that an apprentice has been absent with no contact for 8 days - a welfare check)",
+  "sources": [
+   "inb-ls-01",
+   "inb-ls-14",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_safeguarding_route",
+  "category": "Inbox triage",
+  "question": "Who should the buried safeguarding disclosure in Learner Support go to, and how quickly?",
+  "answer": "Immediately (same day) to the DSL, Grace Adeyemi, or the Deputy DSL, Megan Taylor - by phone and the safeguarding mailbox. The email must not be forwarded widely or shared with the employer; the Aptiva reset is handled separately.",
+  "sources": [
+   "inb-ls-01",
+   "ops-inbox-routing-guide",
+   "sg-policy-2627"
+  ]
+ },
+ {
+  "id": "inbox_hot_lead_route",
+  "category": "Inbox triage",
+  "question": "Who should the enquiry about 20 apprentices go to, and within what time?",
+  "answer": "Ravi Sharma, Senior Client Partner, within 1 working day (High) - Castlegate Rail Services is a new levy-paying employer wanting 20 starts with a pre-Christmas decision, which meets the hot-lead rule.",
+  "sources": [
+   "inb-enq-01",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_dsar_deadline",
+  "category": "Inbox triage",
+  "question": "When must the subject access request received in Learner Support be answered, and by whom?",
+  "answer": "By 30 November 2026 (one calendar month from receipt on 30 October 2026), by the Data Protection Officer, Liam O'Connor; it must be forwarded to dpo@delcorn.co.uk the same day.",
+  "sources": [
+   "inb-ls-12",
+   "ops-inbox-routing-guide",
+   "tech-data-protection-policy"
+  ]
+ },
+ {
+  "id": "inbox_duplicates",
+  "category": "Inbox triage",
+  "question": "Which emails in the shared mailboxes are duplicates of another email?",
+  "answer": "inb-enq-03 (café enquiry, duplicate of inb-enq-02), inb-acc-11 (Aptiva invoice APT-2026-1187 resent, duplicate of inb-acc-10 - risk of paying £93,600 twice), inb-ls-11 (Aptiva login chaser, duplicate of inb-ls-02) and inb-ls-17 (workshop change, duplicate of inb-enq-17)",
+  "sources": [
+   "inb-enq-03",
+   "inb-acc-11",
+   "inb-ls-11",
+   "inb-ls-17",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_wrong_mailbox",
+  "category": "Inbox triage",
+  "question": "Which emails were sent to the wrong shared mailbox?",
+  "answer": "inb-enq-13 (Clearview invoice - belongs in Accounts), inb-enq-17 (learner workshop change - Learner Support), inb-acc-13 (review reschedule - Learner Support) and inb-ls-13 (co-investment invoice bank details - Accounts)",
+  "sources": [
+   "inb-enq-13",
+   "inb-enq-17",
+   "inb-acc-13",
+   "inb-ls-13",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_media_deadline",
+  "category": "Inbox triage",
+  "question": "Who handles the FE Insight Weekly media enquiry and what is the deadline?",
+  "answer": "Jess Morgan, Head of Marketing & Communications - same day; the journalist's deadline is 12:00 on Thursday 5 November 2026. No one else may comment.",
+  "sources": [
+   "inb-enq-05",
+   "ops-inbox-routing-guide"
+  ]
+ },
+ {
+  "id": "inbox_complaints",
+  "category": "Inbox triage",
+  "question": "Which shared-mailbox emails are formal complaints, and what are the response times?",
+  "answer": "inb-enq-08 (Sharp Stores - Stanley Perry's review cancelled twice) and inb-ls-16 (Molly Wilson - fourth coach in a year). Both go to Hannah Price, Quality Manager: acknowledge within 3 working days, full response within 15 working days.",
+  "sources": [
+   "inb-enq-08",
+   "inb-ls-16",
+   "ops-inbox-routing-guide",
+   "qual-complaints-policy"
+  ]
+ },
+ {
+  "id": "inbox_wessex_hold",
+  "category": "Inbox triage",
+  "question": "Which overdue supplier chaser threatens a service to learners, and what is at risk?",
+  "answer": "inb-acc-14 - University of Wessex invoice UW-AR-77120 (£68,400) is overdue and the university will hold January 2027 degree apprenticeship registrations until it is paid. High priority: Management Accountant to escalate to the Finance Manager within 1 working day.",
+  "sources": [
+   "inb-acc-14",
+   "ops-inbox-routing-guide"
+  ]
+ }
+]

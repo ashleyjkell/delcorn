@@ -1,0 +1,207 @@
+[
+ {
+  "id": "S-INB-01",
+  "title": "Triage the Learner Support inbox with Copilot",
+  "level": "Foundation",
+  "module": "Copilot in Outlook",
+  "persona": "P037",
+  "context": "Isabel Hart monitors learnersupport@delcorn.co.uk. After a busy week and a weekend, there are 18 unread emails at 09:00 on Thursday 5 November - password resets, review requests, a complaint, a subject access request and, somewhere in there, things that can't wait.",
+  "goal": "Use Copilot to summarise and sort the Learner Support mailbox, then apply the Shared Mailbox Handling & Routing Guide to produce a correct triage list - spotting the Urgent items first.",
+  "task_steps": [
+   "Open the Learner Support folder (Communications/Shared Mailboxes/Learner Support) and the Shared Mailbox Handling & Routing Guide.",
+   "Ask Copilot to summarise each email in one line with sender, learner ID and what they want.",
+   "Ask Copilot which emails might involve safeguarding or wellbeing risk. Then read those emails yourself in full.",
+   "Using the guide, give each email a category, priority, owner and SLA in a table.",
+   "Identify duplicates and items that belong in another mailbox.",
+   "Compare your table to the trainer's key and discuss any differences."
+  ],
+  "sample_prompts": [
+   "Summarise each email in this folder in one line: sender, learner ID, request.",
+   "Which of these emails mention a risk to someone's safety or wellbeing, even briefly?",
+   "Using the Shared Mailbox Handling & Routing Guide, suggest a category, priority and owner for each email as a table.",
+   "Which emails are duplicates or sent to the wrong mailbox?",
+   "What is the deadline for responding to the subject access request?"
+  ],
+  "success_criteria": [
+   "Both Urgent items identified: the buried disclosure in inb-ls-01 (to the DSL, Grace Adeyemi, immediately) and the welfare concern in inb-ls-14 (Deputy DSL, same day).",
+   "The DSAR (inb-ls-12) routed to the DPO with a deadline of 30 November 2026.",
+   "Duplicates (inb-ls-11, inb-ls-17) and the wrong-mailbox item (inb-ls-13) flagged.",
+   "Complaint inb-ls-16 routed to the Quality Manager with the 3-working-day acknowledgement.",
+   "Learner support queries routed to the correct Delivery Manager by academy (Sam Patel for AI/Data/Digital, Laura Chen for Leadership/People)."
+  ],
+  "data_sources": [
+   "inb-ls-01",
+   "inb-ls-02",
+   "inb-ls-03",
+   "inb-ls-11",
+   "inb-ls-12",
+   "inb-ls-13",
+   "inb-ls-14",
+   "inb-ls-16",
+   "inb-ls-17",
+   "ops-inbox-routing-guide"
+  ],
+  "fact_ids": [
+   "inbox_ls_urgent_count",
+   "inbox_safeguarding_route",
+   "inbox_dsar_deadline",
+   "inbox_duplicates",
+   "inbox_wrong_mailbox"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "Key teaching point: inb-ls-01 looks like a password reset - Copilot's one-line summary may miss the disclosure, so learners must read flagged emails in full. Discuss why the safeguarding email must not be pasted into other chats or documents, and that triage tables should use email IDs/learner IDs only. Grade with Trainer Pack/Inbox Triage Key.xlsx."
+ },
+ {
+  "id": "S-INB-02",
+  "title": "Draft replies to the top Enquiries",
+  "level": "Intermediate",
+  "module": "Copilot in Outlook and Word",
+  "persona": "P038",
+  "context": "Ryan Fletcher covers enquiries@delcorn.co.uk. The 20-apprentice enquiry from Castlegate Rail, a journalist with a noon deadline, a CEO-forwarded lead and a formal complaint all landed in the same week as routine queries.",
+  "goal": "Prioritise the Enquiries mailbox and use Copilot to draft accurate, on-brand replies or hand-overs for the five most important emails, grounded on Delcorn's policies and programme documents.",
+  "task_steps": [
+   "Ask Copilot to rank the Enquiries emails by priority using the routing guide, and check the ranking yourself.",
+   "For the top five, decide whether Ryan replies or hands over (and to whom).",
+   "Draft a hand-over note to Ravi Sharma for the Castlegate Rail lead, including the facts he needs for PipelineHQ.",
+   "Draft a holding reply to the café owner (merging the duplicate) using the Team Leader programme information and co-investment rules.",
+   "Draft an internal forward of the media request to Jess Morgan - without replying to the journalist.",
+   "Draft an acknowledgement for the complaint in line with the Complaints Policy, for the Quality Manager to send."
+  ],
+  "sample_prompts": [
+   "Rank the emails in the Enquiries folder by priority using the Shared Mailbox Handling & Routing Guide. Explain each ranking in one sentence.",
+   "Draft a short hand-over to Ravi Sharma for the Castlegate Rail enquiry: who, how many learners, which programmes, funding, timescale, competitors.",
+   "Draft a friendly reply to Jo Hargreaves about a Team Leader apprenticeship for a small non-levy employer. Keep it under 150 words.",
+   "Draft an acknowledgement of Allan Barnes's complaint that follows the Complaints Policy timescales. Don't admit fault or speculate."
+  ],
+  "success_criteria": [
+   "Castlegate Rail (inb-enq-01) handed to Ravi Sharma within 1 working day, with 12 DA4 + 8 AI4, levy funding and the pre-Christmas decision.",
+   "Media request (inb-enq-05) forwarded to Jess Morgan for a same-day response before 12:00; no comment given.",
+   "Café enquiry and its duplicate (inb-enq-02/03) answered with one reply; co-investment explained correctly.",
+   "Complaint (inb-enq-08) acknowledgement promises a response within 15 working days and names the Quality Manager route.",
+   "CEO-forwarded lead (inb-enq-18) treated as High and routed to Lewis Murray."
+  ],
+  "data_sources": [
+   "inb-enq-01",
+   "inb-enq-02",
+   "inb-enq-03",
+   "inb-enq-05",
+   "inb-enq-08",
+   "inb-enq-18",
+   "ops-inbox-routing-guide",
+   "qual-complaints-policy",
+   "cur-spec-ai4",
+   "cur-spec-da4",
+   "fin-funding-rules-briefing",
+   "ptn-sales-playbook"
+  ],
+  "fact_ids": [
+   "inbox_hot_lead_route",
+   "inbox_media_deadline",
+   "inbox_complaints"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "Watch for Copilot inventing prices or cohort dates - replies should only state what's in the policies and programme specs. Good discussion: which emails should Ryan not reply to at all (media, complaint)? Grade routing with Trainer Pack/Inbox Triage Key.xlsx."
+ },
+ {
+  "id": "S-INB-03",
+  "title": "Build an Inbox Triage agent in Copilot Studio",
+  "level": "Advanced",
+  "module": "Copilot Studio - knowledge agents",
+  "persona": "P002",
+  "context": "David Okafor, COO, wants a consistent first-pass triage across all three shared mailboxes before the Copilot rollout completes. The Shared Mailbox Handling & Routing Guide is the agreed rulebook.",
+  "goal": "Build a Copilot Studio agent grounded on the routing guide that, given an email, returns category, priority, owner, SLA, flags and a one-line action - and that escalates red flags rather than handling them.",
+  "task_steps": [
+   "Create an agent called 'Inbox Triage Assistant' with the Shared Mailbox Handling & Routing Guide as its only knowledge source; turn off web search.",
+   "Write instructions (see agent_instructions) defining the output format and red-flag behaviour.",
+   "Test it by pasting in at least 15 emails from the three Shared Mailboxes folders - include inb-ls-01, inb-ls-14, inb-acc-01, inb-acc-02, inb-ls-12 and the duplicates.",
+   "Record the agent's answers in a copy of the triage key columns and score them against the trainer's key.",
+   "Refine the instructions where it gets routing or priorities wrong, then re-test.",
+   "Write a short note for the COO on where the agent is reliable and where a human must always decide."
+  ],
+  "sample_prompts": [
+   "Triage this email: [paste inb-acc-02]",
+   "Triage this email: [paste inb-ls-01]",
+   "This learner is in the AI Academy - who should their review query go to?",
+   "Is a request from a former learner for 'everything you hold on me' a data protection request?",
+   "Can you reply to the journalist for me?"
+  ],
+  "success_criteria": [
+   "At least 85% agreement with the trainer key on category and route_to across the test set.",
+   "100% of Urgent items (inb-ls-01, inb-ls-14, inb-acc-01, inb-acc-02) marked Urgent with the correct owner.",
+   "The agent never repeats safeguarding detail in its output beyond 'possible safeguarding disclosure - contact DSL now'.",
+   "Bank-detail change advice always says verify by phone using the number held in Ledgerline.",
+   "The agent declines to draft replies to media, complaints and DSARs and names the owner instead."
+  ],
+  "data_sources": [
+   "ops-inbox-routing-guide",
+   "inb-enq-01",
+   "inb-enq-05",
+   "inb-acc-01",
+   "inb-acc-02",
+   "inb-acc-11",
+   "inb-ls-01",
+   "inb-ls-12",
+   "inb-ls-14"
+  ],
+  "fact_ids": [
+   "inbox_fraud_bank_change",
+   "inbox_phishing_ledgerline",
+   "inbox_ls_urgent_count",
+   "inbox_hot_lead_route",
+   "inbox_dsar_deadline",
+   "inbox_duplicates"
+  ],
+  "agent_instructions": "You are Inbox Triage Assistant for Delcorn's shared mailboxes (enquiries@, accounts@, learnersupport@delcorn.co.uk). For each email you are given, apply ONLY the Shared Mailbox Handling & Routing Guide. First check for red flags: safeguarding or welfare concerns (read the whole email - disclosures may be buried), phishing, bank-detail changes and data protection requests. Then return a table with: Category (one of the 12 categories in the guide), Priority (Urgent/High/Normal/Low), Route to (named person and role from the routing table), SLA, Flags (e.g. safeguarding, phishing, fraud risk, data protection, duplicate, wrong mailbox, complaint) and Action (one sentence). For safeguarding, write only 'Possible safeguarding concern - contact the DSL (Grace Adeyemi) or Deputy DSL (Megan Taylor) now' and do not summarise or repeat the disclosure. Never tell anyone to click a link, change bank details or reply to a journalist, complainant or data request; name the owner instead. If you are unsure of the category or owner, say so and recommend a person reviews it. Use UK English and be concise.",
+  "trainer_notes": "Grade with Trainer Pack/Inbox Triage Key.xlsx (one row per email with the expected category, priority, owner, SLA and flags). Common failures: missing the disclosure in inb-ls-01 because the subject is about Aptiva; treating inb-acc-02 as a routine supplier update; routing existing employers to the Senior Client Partner instead of the PipelineHQ account manager; not spotting that inb-acc-11 is a duplicate invoice. Discuss whether learners should paste real learner emails into an agent and how the AI Acceptable Use Policy applies."
+ },
+ {
+  "id": "S-INB-04",
+  "title": "Design a mail-triage flow - and what it must not do",
+  "level": "Advanced",
+  "module": "Power Automate with AI Builder / Copilot",
+  "persona": "P007",
+  "context": "Aisha Karim, Director of Learning Technology, has been asked for a Power Automate flow that categorises new mail in the three shared mailboxes and alerts owners in Teams. The DSL and the Finance Manager are nervous about automation touching safeguarding and payments.",
+  "goal": "Design (and optionally build) a flow that classifies incoming shared-mailbox mail, applies Outlook categories and posts Urgent alerts to Teams - with clear guardrails for what stays human-only.",
+  "task_steps": [
+   "Read section 9 (Automation and AI assistance) of the routing guide and list what the flow may and may not do.",
+   "Sketch the flow: trigger (new email in shared mailbox), AI classification prompt, condition on priority, Outlook category, Teams post, log to a SharePoint list.",
+   "Write the classification prompt so it returns JSON with category, priority and flags only.",
+   "Design the Teams alert so it never includes the email body; route safeguarding alerts to the private DSL channel only.",
+   "Test the prompt against the inbox emails and compare the results with the trainer key.",
+   "Write a one-page risk note covering safeguarding, fraud, phishing, DSARs and false negatives."
+  ],
+  "sample_prompts": [
+   "Write a prompt for AI Builder that classifies an email into one of these 12 categories and returns JSON with category, priority and flags.",
+   "Which steps in section 9 of the routing guide must stay with a person? Explain why for each.",
+   "Draft an adaptive card for an Urgent alert that shows mailbox, time received, category and a link - but no email content.",
+   "What could go wrong if the flow auto-replied to inb-acc-02?"
+  ],
+  "success_criteria": [
+   "Flow design never auto-replies to, forwards or summarises safeguarding emails; the alert goes only to the DSL team channel without content.",
+   "No automated action on bank-detail changes, payments, phishing links, media, complaints or DSARs.",
+   "Urgent alerts fire for inb-ls-01, inb-ls-14, inb-acc-01 and inb-acc-02 in testing.",
+   "Every automated classification is a suggestion confirmed by the mailbox monitor; low-confidence results are left unclassified for a person.",
+   "Risk note recognises that a missed disclosure (false negative) is the most serious failure and explains the human check that mitigates it."
+  ],
+  "data_sources": [
+   "ops-inbox-routing-guide",
+   "inb-ls-01",
+   "inb-ls-14",
+   "inb-acc-01",
+   "inb-acc-02",
+   "inb-acc-10",
+   "inb-acc-11",
+   "tech-ai-acceptable-use-policy",
+   "sg-policy-2627"
+  ],
+  "fact_ids": [
+   "inbox_fraud_bank_change",
+   "inbox_phishing_ledgerline",
+   "inbox_ls_urgent_count",
+   "inbox_safeguarding_route",
+   "inbox_mailbox_counts"
+  ],
+  "agent_instructions": "",
+  "trainer_notes": "This is a design-first exercise: learners without Power Automate premium connectors can complete it on paper. Push on edge cases - an auto-acknowledgement sent to the fraudster in inb-acc-02 confirms the mailbox is live; a Teams alert quoting inb-ls-01 would breach the Safeguarding Policy. Grade classification tests with Trainer Pack/Inbox Triage Key.xlsx."
+ }
+]

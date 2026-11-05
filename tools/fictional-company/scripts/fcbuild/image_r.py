@@ -423,7 +423,7 @@ def _receipt(item, ctx, r):
     rc = ctx.fill_deep(item.get("receipt", item))
     w, cw = 560, 36
     lines = [("C", rc.get("merchant", "Shop").upper(), fb)]
-    lines += [("C", a, f) for a in rc.get("address", [])]
+    lines += [("C", part, f) for a in rc.get("address", []) for part in str(a).split(", ")]
     if rc.get("vat_no"):
         lines.append(("C", f"VAT No: {rc['vat_no']}", f))
     lines.append(("L", "-" * cw, f))
@@ -433,7 +433,11 @@ def _receipt(item, ctx, r):
         lines.append(("L", f"Ref: {rc['ref']}", f))
     lines.append(("L", "-" * cw, f))
     total = 0.0
-    for row in rc.get("items", []):
+    rows = rc.get("items", [])
+    if isinstance(rows, str):  # e.g. "{{row.lines}}" from a dataset column holding a list literal
+        import ast
+        rows = ast.literal_eval(rows)
+    for row in rows:
         desc, qty, price = (row[0], 1, row[1]) if len(row) == 2 else row
         amt = float(qty) * float(price)
         total += amt

@@ -489,11 +489,15 @@ function viewCalendar(){
 }
 function mailTabs(kind){ const n = t => D.items.filter(i=>i.type===t).length;
   return `<div class="tabs"><button class="${kind==='email'?'on':''}" onclick="location.hash='#/mail'">✉️ Outlook (${n('email')})</button><button class="${kind==='chat'?'on':''}" onclick="location.hash='#/chat'">💬 Teams (${n('chat')})</button><button class="${kind==='calendar'?'on':''}" onclick="location.hash='#/calendar'">📅 Calendar (${n('meeting')})</button></div>`; }
-function viewMail(tab){
+function viewMail(tab, box){
   hubNav('mail'); siteHead(null);
   const kind = tab==='chat' ? 'chat' : 'email';
-  const list = D.items.filter(i=>i.type===kind).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
-  $('#main').innerHTML = mailTabs(kind) + `
+  const boxes = [...new Set(D.items.filter(i=>i.type==='email' && i.mailbox).map(i=>i.mailbox))].sort();
+  box = kind==='email' && boxes.includes(box) ? box : '';
+  const list = D.items.filter(i=>i.type===kind && (kind!=='email' || (i.mailbox||'')===box)).sort((a,b)=>String(b.modified).localeCompare(String(a.modified)));
+  const folders = kind==='email' && boxes.length ? `<div class="tabs" style="margin-top:-6px">` +
+    [['', 'Inbox'], ...boxes.map(b=>[b, b])].map(([k,l])=>`<button class="${k===box?'on':''}" onclick="location.hash='#/mail/${encodeURIComponent(k)}'">${k?'📥':'✉️'} ${esc(l)} (${D.items.filter(i=>i.type==='email'&&(i.mailbox||'')===k).length})</button>`).join('') + `</div>` : '';
+  $('#main').innerHTML = mailTabs(kind) + folders + `
    <div class="mailui"><div class="mlist">${list.map((m,i)=>`<div class="mitem" data-id="${m.id}"><b>${esc(m.author||'')}</b><div class="s">${esc(m.title)}</div><small>${rel(m.modified)} · ${esc(m.summary||'')}</small></div>`).join('') || '<div class="empty">Nothing here.</div>'}</div><div class="mread" id="mread"><div class="empty">Select an item to read</div></div></div>`;
   const open = id => { document.querySelectorAll('.mitem').forEach(e=>e.classList.toggle('on', e.dataset.id===id)); $('#mread').innerHTML = items[id].preview + `<div style="padding:10px 26px"><a href="${esc(items[id].path)}">Open source folder / file</a></div>`; };
   document.querySelectorAll('.mitem').forEach(e => e.onclick = () => open(e.dataset.id));
@@ -504,7 +508,10 @@ function viewLearning(tab){
   hubNav('learning'); siteHead(null);
   const sc = D.scenarios || [];
   const levels = [...new Set(sc.map(s=>s.level))];
-  const link = id => items[id] ? `<a href="javascript:openFile('${id}')">${ficon(items[id].icon||items[id].type).replace('class="ficon"','class="ficon" style="width:14px;height:14px;vertical-align:-2px"')} ${esc(items[id].filename)}</a>` : tables[id] ? `<a href="#/list/${id}">🗂️ ${esc(tables[id].title)}</a>` : `<span class="muted">${esc(id)}</span>`;
+  const link = id => items[id] ? `<a href="javascript:openFile('${id}')">${ficon(items[id].icon||items[id].type).replace('class="ficon"','class="ficon" style="width:14px;height:14px;vertical-align:-2px"')} ${esc(items[id].filename)}</a>` : tables[id] ? `<a href="#/list/${id}">🗂️ ${esc(tables[id].title)}</a>` : seriesLink(id);
+  function seriesLink(id){ const fs = D.items.filter(i=>i.id.startsWith(id+'-') && /-\d{3}$/.test(i.id)); if (!fs.length) return `<span class="muted">${esc(id)}</span>`;
+    const f = fs[0], li = sites[f.site]?.libraries.findIndex(l=>l.title===f.library), top = (f.folder||'').split('/')[0];
+    return `<a href="#/site/${f.site}/lib/${li}${top?'/'+encodeURIComponent(top):''}">${ficon('folder').replace('class="ficon"','class="ficon" style="width:14px;height:14px;vertical-align:-2px"')} ${esc(top||f.library)} (${fs.length} files)</a>`; }
   const body = tab==='answers' ? `
     <p class="muted">Ground-truth answers for checking agent responses. Answers are blurred until revealed — click <b>Reveal</b> (trainers only).</p>
     <div class="cmdbar"><button onclick="document.getElementById('ak').classList.toggle('reveal')">👁 Reveal / hide answers</button><span class="sp"></span><input class="filter" id="akq" placeholder="Filter questions…"></div>
@@ -599,7 +606,7 @@ function route(){
     case 'lists': return viewLists();
     case 'list': return viewList(parts[1]);
     case 'people': return viewPeople();
-    case 'mail': return viewMail('email');
+    case 'mail': return viewMail('email', parts[1]||'');
     case 'chat': return viewMail('chat');
     case 'calendar': return viewCalendar();
     case 'learning': return viewLearning('');
